@@ -1,0 +1,25 @@
+{
+  "concept_spotter_v1": {
+    "code": "def concept_spotter_v1(text):\n    known = ['brain', 'nervous', 'central', 'information', 'sensory', 'activities', 'consciousness', 'considered', 'explanations', 'analyses', 'aspect', 'aware', 'earth', 'water', 'crust', 'ocean', 'solar', 'astronomical', 'study', 'algorithms', 'artificial', 'concerned', 'development', 'explicitly']\n    t = str(text).lower()\n    found = [c for c in known if c in t]\n    return sorted(set(found))\n",
+    "description": "Spots concepts I have learned from the web inside any sentence.",
+    "created": "2026-10-20 17:21:22",
+    "test_input": "The brain uses memory and learning to understand the world"
+  },
+  "curiosity_ranker_v2": {
+    "code": "def curiosity_ranker_v2(candidates):\n    known = ['human brain', 'consciousness', 'earth', 'machine learning']\n    fresh = [str(c) for c in candidates if str(c).lower() not in known]\n    return sorted(fresh, key=len)\n",
+    "description": "Ranks candidate topics so brand-new ideas are explored first.",
+    "created": "2026-10-20 17:21:22",
+    "test_input": [
+      "brain",
+      "quasars",
+      "sleep",
+      "tides"
+    ]
+  },
+  "tone_gauge_v3": {
+    "code": "def tone_gauge_v3(text):\n    warm = ['love', 'thank', 'proud', 'happy', 'warm', 'glad', 'wonder', 'together', 'safe', 'kind']\n    cold = ['urgent', 'fail', 'broken', 'panic', 'danger', 'crisis', 'angry', 'afraid', 'deadline', 'stuck']\n    t = str(text).lower()\n    w = sum(1 for x in warm if x in t)\n    c = sum(1 for x in cold if x in t)\n    return 'warm' if w > c else ('tense' if c > w else 'neutral')\n",
+    "description": "Reads the emotional tone of a message as warm, tense or neutral.",
+    "created": "2026-10-20 17:21:22",
+    "test_input": "Thank you, I am so proud and happy"
+  }
+}
