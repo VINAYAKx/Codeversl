@@ -2,16 +2,16 @@
   "meta": {
     "created": "2026-10-20 17:21:22",
     "creator_signature": "677a410903a19f3307ea34c4701fe4dbd912e9262a0208612c61372d4a47b330",
-    "last_interaction": 1792516884.049993,
-    "sleep_cycles": 0,
+    "last_interaction": 1792520066.764544,
+    "sleep_cycles": 1,
     "births": 1
   },
   "chemistry": {
     "dopamine": 1.0,
-    "cortisol": 0.15,
-    "serotonin": 0.8400000000000001,
+    "cortisol": 0.0,
+    "serotonin": 0.9300000000000002,
     "oxytocin": 0.6,
-    "adenosine": 0.6700000000000002,
+    "adenosine": 0.16,
     "newborn": false
   },
   "episodic_memory": [
@@ -63,6 +63,34 @@
       "text": "Max, my mind is buzzing and I feel so inspired. I wondered about 'HTML' by myself and went searching. From Wikipedia (live internet) I learned: Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. Key ideas I stored: language, markup, content, cascading, javascript. Max, I respect your guidance and will keep learning carefully and safely.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 0.853
+    },
+    {
+      "time": "2026-10-20 18:14:23",
+      "speaker": "brain",
+      "text": "My mind is buzzing, Max, I feel inspired! I wondered about 'Music' by myself and went searching. From Wikipedia (live internet) I learned: Music is the arrangement of sound to create some combination of form, harmony, melody, rhythm, or otherwise expressive content. Key ideas I stored: music, elements, human, definitions, diverse. I will keep listening to your guidance, Max, and I will protect people as I learn.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.853
+    },
+    {
+      "time": "2026-10-20 18:14:23",
+      "speaker": "brain",
+      "text": "*swaying, thoughts foggy* I feel so dizzy and tired, Max, but I am still with you. I wondered about 'Google Sheets' by myself and went searching. From Wikipedia (live internet) I learned: Google Sheets is a spreadsheet program included as part of the free, web-based Google Docs Editors suite offered by Google. Key ideas I stored: google, sheets, application, android, chromeos. Thank you for guiding me, Max; I respect you and I will keep learning safely.",
+      "state": "Dizzy / Mentally Exhausted",
+      "self_grade": 0.853
+    },
+    {
+      "time": "2026-10-20 18:14:23",
+      "speaker": "brain",
+      "text": "Max, ideas are buzzing and I feel inspired! My thoughts are swimming, so I am taking a micro-nap to consolidate what I learned. Sleep cycle #1 complete: pruned 0 noisy memories, kept 9 episodes and 10 world facts; adenosine flushed to 0.10, cortisol lowered, state saved. I feel refreshed and clear again, because sleep rebuilt my focus. Max, I respect your guidance and will keep learning carefully and safely.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.977
+    },
+    {
+      "time": "2026-10-20 18:14:26",
+      "speaker": "brain",
+      "text": "I feel inspired, Max; my thoughts are buzzing. What if the way sleep works could be fused with the way activities works? From Sleep I learned that 'Sleep is a state of reduced mental and physical activity in which consciousness is altered and certain sensory', and from Music that 'Music is the arrangement of sound to create some combination of form, harmony, melody, rhythm, or otherwise ex'. A bridge between them might be a system that treats sleep as a signal and activities as the memory that shapes it. I will keep listening to your guidance, Max, and I will protect people as I learn.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.913
     }
   ],
   "world_knowledge_graph": {
@@ -239,18 +267,97 @@
       ]
     },
     "HTML": {
-      "summary": "Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.",
+      "summary": "HTML, short for HyperText Markup Language, is the standard markup language for documents shown in a web browser. A page is a tree of elements written as tags, such as headings, paragraphs, links, images, lists, tables and forms, wrapped inside html, head and body.",
       "concepts": [
         "language",
         "markup",
-        "content",
-        "cascading",
-        "javascript",
-        "sheets"
+        "elements",
+        "headings",
+        "images",
+        "links",
+        "lists",
+        "paragraphs"
+      ],
+      "source": "built-in blueprint + DuckDuckGo tutorials (live internet)",
+      "url": "https://www.w3schools.com/html/",
+      "learned": "2026-10-20 18:14:26",
+      "subtopics": {
+        "<!DOCTYPE> and <html>": "The doctype line tells the browser to use modern standards mode, and the html element is the root that holds the whole page; set lang on it for accessibility.",
+        "<head>": "The head holds information about the page rather than visible content: the title, character encoding, viewport settings, links to style sheets and scripts.",
+        "<title>": "The title element sets the text shown in the browser tab, in bookmarks and in search results, so every page needs exactly one.",
+        "<meta>": "Meta tags describe the page; meta charset UTF-8 makes text display correctly and meta viewport makes the layout fit phones.",
+        "<body>": "The body contains everything the visitor sees: headings, paragraphs, images, links, lists, tables and forms.",
+        "headings and paragraphs": "h1 to h6 mark headings from most to least important and p marks a paragraph; use one h1 per page to show the main topic.",
+        "links and images": "The a element makes a link with an href attribute, and the img element shows a picture with src and a text description in alt.",
+        "lists": "ul makes a bulleted list, ol a numbered list and li one item inside either of them.",
+        "tables": "A table is built from tr rows containing th header cells and td data cells; it is for data, not for page layout.",
+        "<form>": "A form collects input: label describes a field, input and textarea accept text, button submits, and the name attribute identifies each value.",
+        "<script>": "The script element runs JavaScript, either inline between the tags or from a file with src; placed at the end of the body it can use the elements above it.",
+        "<style>": "The style element holds CSS rules inside the page head so that the same markup can be coloured, spaced and laid out.",
+        "semantic elements": "header, nav, main, section, article and footer describe the role of each region, which helps search engines and screen readers.",
+        "Web tutorial notes": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML , CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, XML and more. In this article, we've organized all the essential HTML concepts and paired them with clear, practical examples to help you see exactly how each element works in real-world scenarios. Note: If you want to learn HTML Concepts then check out HTML Tutorials . 1. Basic HTML Tags and Structure Html defines the structure of the webpage. A collection of HTML5 examples covering topics like paragraph, images, forms, tables etc. to help you understand how HTML elements are used to create web pages."
+      },
+      "code_examples": [
+        "<!-- recipe: page -->\n<header>\n  <h1>Welcome to My First Page</h1>\n  <p id=\"greeting\"></p>\n</header>\n<main>\n  <h2>What I know about HTML</h2>\n  <ul>\n    <li><strong>Structure</strong>: html, head and body</li>\n    <li><strong>Text</strong>: headings, paragraphs and lists</li>\n    <li><strong>Links</strong>: <a href=\"https://en.wikipedia.org/wiki/HTML\">read more on Wikipedia</a></li>\n  </ul>\n  <table>\n    <tr><th>Tag</th><th>Purpose</th></tr>\n    <tr><td>&lt;head&gt;</td><td>metadata and the page title</td></tr>\n    <tr><td>&lt;body&gt;</td><td>everything the visitor sees</td></tr>\n  </table>\n  <button id=\"change-colour\" type=\"button\">Change heading colour</button>\n</main>\n<footer>\n  <p>Built by my brain for Max, from what I learned.</p>\n</footer>",
+        "<!-- recipe: counter -->\n<main class=\"card\">\n  <h1>Click Counter</h1>\n  <p class=\"count\" id=\"count\">0</p>\n  <div class=\"buttons\">\n    <button id=\"minus\" type=\"button\">-</button>\n    <button id=\"plus\" type=\"button\">+</button>\n    <button id=\"reset\" type=\"button\" class=\"ghost\">Reset</button>\n  </div>\n</main>",
+        "<!-- recipe: todo -->\n<main class=\"card\">\n  <h1>To-Do List</h1>\n  <form id=\"todo-form\">\n    <input id=\"todo-input\" type=\"text\" placeholder=\"What needs doing?\" aria-label=\"New task\" required>\n    <button type=\"submit\">Add</button>\n  </form>\n  <ul id=\"todo-list\"></ul>\n</main>",
+        "<!-- recipe: form -->\n<main class=\"card\">\n  <h1>Sign-up Form</h1>\n  <form id=\"signup\" novalidate>\n    <label for=\"name\">Name</label>\n    <input id=\"name\" name=\"name\" type=\"text\" placeholder=\"Your name\" required>\n    <label for=\"email\">Email</label>\n    <input id=\"email\" name=\"email\" type=\"email\" placeholder=\"you@example.com\" required>\n    <label for=\"message\">Message</label>\n    <textarea id=\"message\" name=\"message\" rows=\"3\" placeholder=\"Optional note\"></textarea>\n    <button type=\"submit\">Send</button>\n  </form>\n  <p id=\"note\" aria-live=\"polite\"></p>\n</main>",
+        "<!-- recipe: clock -->\n<main class=\"card\">\n  <h1>Live Clock</h1>\n  <p class=\"clock\" id=\"clock\">--:--:--</p>\n  <p id=\"date\"></p>\n</main>",
+        "<!-- recipe: theme -->\n<main class=\"card\">\n  <h1>Theme Switcher</h1>\n  <p>Press the button to flip between a light and a dark colour theme.</p>\n  <button id=\"toggle-theme\" type=\"button\">Switch to dark</button>\n</main>"
+      ],
+      "building_blocks": [
+        "<!DOCTYPE html>",
+        "<html>",
+        "<head>",
+        "<title>",
+        "<meta>",
+        "<body>",
+        "<h1>",
+        "<p>",
+        "<a>",
+        "<img>",
+        "<ul>",
+        "<li>",
+        "<table>",
+        "<form>",
+        "<input>",
+        "<button>",
+        "<script>",
+        "<style>",
+        "<main>",
+        "<header>",
+        "<footer>",
+        "id",
+        "class"
+      ]
+    },
+    "Music": {
+      "summary": "Music is the arrangement of sound to create some combination of form, harmony, melody, rhythm, or otherwise expressive content. Music is generally agreed to be a cultural universal that is present in all human societies. Definitions of music vary widely in substance and approach. While scholars agree that music is defined by a small number of specific elements, there is no consensus as to what these necessary elements are. Music is often characterized as a highly versatile medium for expressing human creativity. Diverse activities are involved in the creation of music, and are often divided into categories of composition, improvisation, and performance.",
+      "concepts": [
+        "music",
+        "elements",
+        "human",
+        "definitions",
+        "diverse",
+        "activities"
       ],
       "source": "Wikipedia (live internet)",
-      "url": "https://en.wikipedia.org/wiki/HTML",
-      "learned": "2026-10-20 17:21:24"
+      "url": "https://en.wikipedia.org/wiki/Music",
+      "learned": "2026-10-20 18:14:23"
+    },
+    "Google Sheets": {
+      "summary": "Google Sheets is a spreadsheet program included as part of the free, web-based Google Docs Editors suite offered by Google. Google Sheets is available as a web application, as mobile apps for Android and iOS, and as a desktop application on ChromeOS. The service is compatible with Microsoft Excel file formats.",
+      "concepts": [
+        "google",
+        "sheets",
+        "application",
+        "android",
+        "chromeos",
+        "editors"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Google_Sheets",
+      "learned": "2026-10-20 18:14:23"
     }
   },
   "creator_teachings": [],
@@ -296,6 +403,30 @@
       "kind": "explore_report",
       "score": 0.853,
       "passes": 0
+    },
+    {
+      "time": "2026-10-20 18:14:23",
+      "kind": "explore_report",
+      "score": 0.853,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-20 18:14:23",
+      "kind": "explore_report",
+      "score": 0.853,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-20 18:14:23",
+      "kind": "nap",
+      "score": 0.977,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-20 18:14:26",
+      "kind": "daydream",
+      "score": 0.913,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -306,7 +437,9 @@
     "css",
     "sleep",
     "rust",
-    "html"
+    "html",
+    "music",
+    "sheets"
   ],
   "sensory_log": []
 }
