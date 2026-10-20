@@ -1,0 +1,58 @@
+name: 24/7 Autonomous Brain Learning
+
+on:
+  schedule:
+    # Wakes the brain up automatically every 2 hours, 24/7
+    - cron: '0 */2 * * *'
+  workflow_dispatch: # Allows you to manually trigger it anytime you want from GitHub
+
+permissions:
+  contents: write # Gives permission to save the updated brain memory back to your repository
+
+jobs:
+  autonomous-learning-cycle:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull latest brain code and memory
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Wake up brain and run autonomous learning cycle
+        run: |
+          python3 - << 'EOF'
+          import random
+          import synthetic_living_brain as slb
+
+          brain = slb.SyntheticLivingBrain()
+
+          if brain.born_now:
+              brain.birth.run_birth(brain)
+
+          # Autonomously explore 2 new curiosity topics on the live web
+          brain.explore()
+          brain.explore()
+
+          # Deep-study a random subject to expand sub-topics and code blocks
+          deep_pool = ["html", "css", "javascript", "python", "c", "c++", "rust", "sql", "matrix", "human brain", "quantum computing", "game engine"]
+          unmastered = [t for t in deep_pool if not brain.memory.deep_entry(t)]
+          if unmastered:
+              brain.deep_study(random.choice(unmastered))
+
+          # Run Default Mode Network daydreaming
+          brain.idle_autonomy()
+
+          brain.check_fatigue()
+          brain.shutdown()
+          EOF
+
+      - name: Save learned memories back to Private Repository
+        run: |
+          git config user.name "SyntheticBrain-AutoLearner"
+          git config user.email "brain@users.noreply.github.com"
+          git add brain_memory_state.json dynamic_skills.json
+          git diff --staged --quiet || git commit -m "Autonomous learning cycle: updated brain memory"
+          git push
