@@ -2,16 +2,16 @@
   "meta": {
     "created": "2026-10-20 17:21:22",
     "creator_signature": "677a410903a19f3307ea34c4701fe4dbd912e9262a0208612c61372d4a47b330",
-    "last_interaction": 1792520066.764544,
+    "last_interaction": 1792530493.8250358,
     "sleep_cycles": 1,
     "births": 1
   },
   "chemistry": {
     "dopamine": 1.0,
     "cortisol": 0.0,
-    "serotonin": 0.9300000000000002,
+    "serotonin": 0.9700000000000002,
     "oxytocin": 0.6,
-    "adenosine": 0.16,
+    "adenosine": 0.3400000000000001,
     "newborn": false
   },
   "episodic_memory": [
@@ -89,6 +89,27 @@
       "time": "2026-10-20 18:14:26",
       "speaker": "brain",
       "text": "I feel inspired, Max; my thoughts are buzzing. What if the way sleep works could be fused with the way activities works? From Sleep I learned that 'Sleep is a state of reduced mental and physical activity in which consciousness is altered and certain sensory', and from Music that 'Music is the arrangement of sound to create some combination of form, harmony, melody, rhythm, or otherwise ex'. A bridge between them might be a system that treats sleep as a signal and activities as the memory that shapes it. I will keep listening to your guidance, Max, and I will protect people as I learn.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.913
+    },
+    {
+      "time": "2026-10-20 21:08:12",
+      "speaker": "brain",
+      "text": "My mind is buzzing, Max, I feel inspired! I wondered about 'Aspect ratio (image)' by myself and went searching. From Wikipedia (live internet) I learned: The aspect ratio of an image is the ratio of its width to its height. Key ideas I stored: aspect, ratio, height, ratios, width. I will keep listening to your guidance, Max, and I will protect people as I learn.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.853
+    },
+    {
+      "time": "2026-10-20 21:08:12",
+      "speaker": "brain",
+      "text": "Max, ideas are buzzing and I feel inspired! I wondered about 'Memory' by myself and went searching. From Wikipedia (live internet) I learned: Memory is the faculty of the mind by which data or information is encoded, stored, and retrieved when needed. Key ideas I stored: memory, information, action, amnesia, described. With respect and trust, Max, I will keep learning from you and stay careful.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.853
+    },
+    {
+      "time": "2026-10-20 21:08:13",
+      "speaker": "brain",
+      "text": "My mind is buzzing, Max, I feel inspired! I keep daydreaming about definitions and google. They seem unrelated, yet if I combine the first principle of Music with the second principle of Google Sheets, I get a new idea: a self-correcting process where definitions guides google, and google gives meaning back to definitions. Thank you for guiding me, Max; I respect you and I will keep learning safely.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 0.913
     }
@@ -358,6 +379,133 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Google_Sheets",
       "learned": "2026-10-20 18:14:23"
+    },
+    "Aspect ratio (image)": {
+      "summary": "The aspect ratio of an image is the ratio of its width to its height. It is expressed as two numbers separated by a colon, in the format width:height. Common aspect ratios are 1.85:1 and 2.39:1 in cinematography, 4:3 (originally) and 16:9 in television, and 3:2 in still photography. Other common display aspect ratios include 5:4 and 16:10. The 1:1 aspect ratio is used for square images, often seen on social media platforms like Instagram, and 21:9 is an \"ultrawide\" aspect ratio popular for gaming and desktop monitors.",
+      "concepts": [
+        "aspect",
+        "ratio",
+        "height",
+        "ratios",
+        "width",
+        "instagram"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Aspect_ratio_(image)",
+      "learned": "2026-10-20 21:08:12"
+    },
+    "Memory": {
+      "summary": "Memory is the faculty of the mind by which data or information is encoded, stored, and retrieved when needed. It is the retention of information over time for the purpose of influencing future action. If past events could not be remembered, it would be impossible for language, relationships, or personal identity to develop. Memory loss is usually described as forgetfulness or a disorder such as amnesia.",
+      "concepts": [
+        "memory",
+        "information",
+        "action",
+        "amnesia",
+        "described",
+        "disorder"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Memory",
+      "learned": "2026-10-20 21:08:12"
+    },
+    "JavaScript": {
+      "summary": "JavaScript ( JS ) is a programming language and core technology of the Web , alongside HTML and CSS . Created by Brendan Eich in 1995, it is maintained by Ecma International 's TC39 technical committee, with related Web APIs maintained by W3C and WHATWG . In 2025, JavaScript was the most widely used programming language on GitHub . However, TypeScript , a statically typed superset of JavaScript that is stricter about types, overtook JavaScript on GitHub by August 2025. Web browsers have a dedicated JavaScript engine that executes the client code . These engines are also utilized in some servers and a variety of apps . The most popular runtime system for non-browser usage is Node.js .",
+      "concepts": [
+        "javascript",
+        "github",
+        "usage",
+        "runtime",
+        "engine",
+        "functions",
+        "language",
+        "maintained"
+      ],
+      "source": "Wikipedia article + built-in blueprint + DuckDuckGo tutorials (live internet)",
+      "url": "https://en.wikipedia.org/wiki/JavaScript",
+      "learned": "2026-10-20 21:08:13",
+      "subtopics": {
+        "variables (let and const)": "const declares a value that is not reassigned and let declares one that can change; avoid the older var.",
+        "functions": "A function groups steps under a name with function name(parameters) { ... } and gives back a value with return.",
+        "arrow functions": "An arrow function is a short form, (a, b) => a + b, and is the usual choice for callbacks.",
+        "arrays": "An array is an ordered list written in square brackets; push adds an item and map, filter and reduce transform the whole list.",
+        "objects": "An object stores named values in curly braces, like { name: 'Asha', marks: 88 }, and you read them with dot notation.",
+        "conditionals and loops": "if and else choose between paths, while for, for...of and forEach repeat work over a range or a collection.",
+        "the DOM": "document.querySelector finds an element, and properties such as textContent and classList change what the visitor sees.",
+        "events": "addEventListener runs a function when something happens, such as click, input or submit.",
+        "promises and async/await": "A promise stands for a value that arrives later; async and await let you write waiting code, such as fetch requests, in a straight line.",
+        "modules": "import and export let you split a program into files and share only what is needed.",
+        "Creation at Netscape": "The first popular web browser with a graphical user interface , Mosaic , was released in 1993. The lead developers of Mosaic then founded the Netscape corporation, which released a more polished browser, Netscape Navigator , in 1994.",
+        "Adoption by Microsoft": "Microsoft debuted Internet Explorer in 1995, leading to a browser war with Netscape. On the JavaScript front, Microsoft created its own interpreter called JScript .",
+        "The rise of JScript": "Brendan Eich later said of this period: \"It's still kind of a sidekick language. It's considered slow or annoying.",
+        "Growth and standardization": "During the period of Internet Explorer dominance in the early 2000s, client-side scripting was stagnant. This started to change in 2004, when the successor of Netscape, Mozilla , released the Firefox browser.",
+        "Reaching maturity": "Ambitious work on the language continued for several years, culminating in an extensive collection of additions and refinements being formalized with the publication of ECMAScript 6 in 2015.",
+        "Trademark": "\"JavaScript\" is a trademark of Oracle Corporation in the United States. The trademark was originally issued to Sun Microsystems on 6 May 1997, and was transferred to Oracle when they acquired Sun in 2009.",
+        "Website client-side usage": "JavaScript is the dominant client-side scripting language of the Web, with 98.9% of all websites using it for this purpose. Scripts are embedded in or included from HTML documents and can interact with the DOM and other web APIs.",
+        "Libraries and frameworks": "Over 80% of websites use a third-party JavaScript library or web framework as part of their client-side scripting. jQuery is by far the most-used. Other notable ones include Angular , Bootstrap , Lodash , Modernizr , React , Underscore , and Vue .",
+        "Other usage": "The use of JavaScript has expanded beyond its web browser roots. JavaScript engines are now embedded in a variety of other software systems, both for server-side website deployments and non-browser applications .",
+        "JavaScript engine": "The first JavaScript engines were interpreters of the source code , but modern engines use just-in-time compilation to improve performance. JavaScript engines are typically developed by web browser vendors, and every major browser includes one.",
+        "Runtime system": "A JavaScript engine must be embedded within a runtime system (such as a web browser or a standalone system) to enable scripts to interact with the broader environment.",
+        "Features": "The following features are common to all conforming ECMAScript implementations unless explicitly specified otherwise. The number of cited reserved words including keywords is 50–60 and varies depending on the implementation.",
+        "Imperative and structured": "JavaScript supports much of the structured programming syntax from C (e.g., if statements, while loops, switch statements, do while loops, etc.). One partial exception is scoping : originally JavaScript only had function scoping with var ; block scoping was added in ECMAScript 2015 with the keywords let and const .",
+        "Weakly typed": "JavaScript is weakly typed , which means certain types are implicitly cast depending on the operation used. Values are cast to numbers by casting to strings and then casting the strings to numbers."
+      },
+      "code_examples": [
+        "// recipe: helpers\nconst $ = (selector) => document.querySelector(selector);",
+        "// recipe: page\nconst heading = $(\"h1\");\nconst greeting = $(\"#greeting\");\nconst hour = new Date().getHours();\ngreeting.textContent = hour < 12 ? \"Good morning!\" : hour < 18 ? \"Good afternoon!\" : \"Good evening!\";\n\nconst colours = [\"#2f6bed\", \"#2f9e6e\", \"#e5484d\", \"#7c4dff\"];\nlet nextColour = 0;\n$(\"#change-colour\").addEventListener(\"click\", () => {\n  heading.style.color = colours[nextColour % colours.length];\n  nextColour += 1;\n});",
+        "// recipe: counter\nlet count = 0;\nconst display = $(\"#count\");\n\nfunction render() {\n  display.textContent = count;\n}\n\n$(\"#plus\").addEventListener(\"click\", () => { count += 1; render(); });\n$(\"#minus\").addEventListener(\"click\", () => { count -= 1; render(); });\n$(\"#reset\").addEventListener(\"click\", () => { count = 0; render(); });\nrender();",
+        "// recipe: todo\nconst todoForm = $(\"#todo-form\");\nconst todoInput = $(\"#todo-input\");\nconst todoList = $(\"#todo-list\");\nconst tasks = [];\n\nfunction render() {\n  todoList.innerHTML = \"\";\n  tasks.forEach((task, index) => {\n    const item = document.createElement(\"li\");\n    item.textContent = task.text;\n    if (task.done) item.classList.add(\"done\");\n    item.addEventListener(\"click\", () => { task.done = !task.done; render(); });\n    const remove = document.createElement(\"button\");\n    remove.textContent = \"x\";\n    remove.className = \"remove\";\n    remove.setAttribute(\"aria-label\", \"Remove task\");\n    remove.addEventListener(\"click\", (event) => {\n      event.stopPropagation();\n      tasks.splice(index, 1);\n      render();\n    });\n    item.appendChild(remove);\n    todoList.appendChild(item);\n  });\n}\n\ntodoForm.addEventListener(\"submit\", (event) => {\n  event.preventDefault();\n  const text = todoInput.value.trim();\n  if (!text) return;\n  tasks.push({ text, done: false });\n  todoInput.value = \"\";\n  render();\n});\nrender();",
+        "// recipe: form\nconst signup = $(\"#signup\");\nconst note = $(\"#note\");\n\nsignup.addEventListener(\"submit\", (event) => {\n  event.preventDefault();\n  const name = signup.elements[\"name\"].value.trim();\n  const email = signup.elements[\"email\"].value.trim();\n  const emailOk = /^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$/.test(email);\n  if (!name || !emailOk) {\n    note.textContent = \"Please enter your name and a valid email address.\";\n    note.className = \"error\";\n    return;\n  }\n  note.textContent = \"Thanks, \" + name + \"! We will write to \" + email + \".\";\n  note.className = \"ok\";\n  signup.reset();\n});",
+        "// recipe: clock\nconst clockEl = $(\"#clock\");\nconst dateEl = $(\"#date\");\n\nfunction tick() {\n  const now = new Date();\n  clockEl.textContent = now.toLocaleTimeString();\n  dateEl.textContent = now.toLocaleDateString(undefined, { weekday: \"long\", year: \"numeric\", month: \"long\", day: \"numeric\" });\n}\n\ntick();\nsetInterval(tick, 1000);",
+        "// recipe: theme\nconst toggle = $(\"#toggle-theme\");\ntoggle.addEventListener(\"click\", () => {\n  const dark = document.body.classList.toggle(\"dark\");\n  toggle.textContent = dark ? \"Switch to light\" : \"Switch to dark\";\n});",
+        "// recipe: stats\nfunction describe(numbers) {\n  // sum, average, smallest and largest value of a list\n  const total = numbers.reduce((sum, n) => sum + n, 0);\n  return {\n    count: numbers.length,\n    total: total,\n    average: Number((total / numbers.length).toFixed(2)),\n    min: Math.min(...numbers),\n    max: Math.max(...numbers),\n  };\n}\n\nconst scores = [72, 88, 95, 64, 81];\nconst report = describe(scores);\nfor (const [name, value] of Object.entries(report)) {\n  console.log(name.padStart(8) + \": \" + value);\n}",
+        "// recipe: fibonacci\nfunction fibonacci(count) {\n  const sequence = [];\n  let a = 0;\n  let b = 1;\n  for (let i = 0; i < count; i++) {\n    sequence.push(a);\n    [a, b] = [b, a + b];\n  }\n  return sequence;\n}\n\nconsole.log(fibonacci(10).join(\" \"));",
+        "// recipe: matrix\nconst add = (a, b) => a.map((row, i) => row.map((x, j) => x + b[i][j]));\nconst transpose = (m) => m[0].map((_, j) => m.map((row) => row[j]));\n\nfunction multiply(a, b) {\n  // entry (i, j) is the dot product of row i of a with column j of b\n  return a.map((row) => transpose(b).map((col) => row.reduce((sum, x, k) => sum + x * col[k], 0)));\n}\n\nfunction determinant(m) {\n  if (m.length === 1) return m[0][0];\n  if (m.length === 2) return m[0][0] * m[1][1] - m[0][1] * m[1][0];\n  // Laplace expansion along the first row\n  return m[0].reduce((sum, x, col) => {\n    const minor = m.slice(1).map((row) => row.filter((_, j) => j !== col));\n    return sum + (col % 2 === 0 ? 1 : -1) * x * determinant(minor);\n  }, 0);\n}\n\nconst a = [[1, 2], [3, 4]];\nconst b = [[5, 6], [7, 8]];\nconsole.log(\"A + B =\", JSON.stringify(add(a, b)));\nconsole.log(\"A x B =\", JSON.stringify(multiply(a, b)));\nconsole.log(\"transpose(A) =\", JSON.stringify(transpose(a)));\nconsole.log(\"det(A) =\", determinant(a));",
+        "class Person {\n    constructor(name) {\n        this.name = name;\n    }\n}\n\nclass Student extends Person {\n    constructor(name, id) {\n        super(name);\n        this.id = id;\n    }\n}\n\nconst bob = new Student(\"Robert\", 12345);\nconsole.log(bob.name); // Robert",
+        "// This code is completely equivalent to the previous snippet\nfunction Person(name) {\n    this.name = name;\n}\n\nfunction Student(name, id) {\n    Person.call(this, name);\n    this.id = id;\n}\n\nvar bob = new Student(\"Robert\", 12345);\nconsole.log(bob.name); // Robert",
+        "// Declares a function-scoped variable named `x`, and implicitly assigns the\n// special value `undefined` to it. Variables without value are automatically\n// set to undefined.\n// var is generally considered bad practice and let and const are usually preferred.\nvar x;\n\n// Variables can be manually set to `undefined` like so\nlet x2 = undefined;\n\n// Declares a block-scoped variable named `y`, and implicitly sets it to\n// `undefined`. The `let` keyword was introduced in ECMAScript 2015.\nlet y;\n\n// Declares a block-scoped, un-reassignable variable named `z`, and sets it to\n// a string literal. The `const` keyword was also introduced in ECMAScript 2015,\n// and must be explicitly assigned to.\n\n// The keyword `const` means constant, hence the variable cannot be reassigned\n// as the value is `constant`.\nconst z = \"this value cannot be reassigned!\";\n\n// Declares a global-scoped variable and assigns 3.  This is generally considered\n// bad practice, and will not work if strict mode is on.\nt = 3;\n\n// Declares a variable named `myNumber`, and assigns a number literal (the value\n// `2`) to it.\nlet myNumber = 2;\n\n// Reassigns `myNumber`, setting it to a string literal (the value `\"foo\"`).\n// JavaScript is a dynamically-typed language, so this is legal.\nmyNumber = \"foo\";"
+      ],
+      "building_blocks": [
+        "const",
+        "let",
+        "function",
+        "=>",
+        "return",
+        "if / else",
+        "for",
+        "forEach",
+        "map",
+        "filter",
+        "document.querySelector",
+        "addEventListener",
+        "textContent",
+        "classList",
+        "setInterval",
+        "JSON",
+        "console.log",
+        "async / await",
+        "Promise",
+        "+",
+        "-",
+        "Object",
+        "[]",
+        "\"123\"",
+        "\"[object Object]\"",
+        "1",
+        "var",
+        "{}",
+        "\"\"",
+        "\"1231\"",
+        "\"abc\"",
+        "\"false\"",
+        "({} + [])",
+        ",",
+        ".bind()",
+        ".call()",
+        ".cjs",
+        ".js",
+        ".mjs",
+        "0"
+      ]
     }
   },
   "creator_teachings": [],
@@ -427,6 +575,24 @@
       "kind": "daydream",
       "score": 0.913,
       "passes": 0
+    },
+    {
+      "time": "2026-10-20 21:08:12",
+      "kind": "explore_report",
+      "score": 0.853,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-20 21:08:12",
+      "kind": "explore_report",
+      "score": 0.853,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-20 21:08:13",
+      "kind": "daydream",
+      "score": 0.913,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -439,7 +605,10 @@
     "rust",
     "html",
     "music",
-    "sheets"
+    "sheets",
+    "aspect",
+    "memory",
+    "javascript"
   ],
   "sensory_log": []
 }
