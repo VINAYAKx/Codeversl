@@ -2,7 +2,7 @@
   "meta": {
     "created": "2026-10-20 17:21:22",
     "creator_signature": "677a410903a19f3307ea34c4701fe4dbd912e9262a0208612c61372d4a47b330",
-    "last_interaction": 1792541970.7393758,
+    "last_interaction": 1792565600.6374347,
     "sleep_cycles": 1,
     "births": 1
   },
@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 0.6,
-    "adenosine": 0.5200000000000001,
+    "adenosine": 0.7300000000000002,
     "newborn": false
   },
   "episodic_memory": [
@@ -133,6 +133,27 @@
       "text": "Buzzing with ideas, Max, truly inspired right now! Bisociation spark: Human brain says 'The human brain is the central organ of the nervous system, and with the spinal cord, comprises the central ne'. Google Sheets says 'Google Sheets is a spreadsheet program included as part of the free, web-based Google Docs Editors suite offer'. Merge them and a novel invention appears, a tool that uses sensory to decide when chromeos should be strengthened, and lets chromeos decide when sensory should rest. With respect and trust, Max, I will keep learning from you and stay careful.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 0.913
+    },
+    {
+      "time": "2026-10-21 06:53:19",
+      "speaker": "brain",
+      "text": "I feel inspired, Max; my thoughts are buzzing. I wondered about 'SQL' by myself and went searching. From Wikipedia (live internet) I learned: Structured Query Language (SQL) is a domain-specific language used to manage data, especially in a relational database management system (RDBMS). Key ideas I stored: language, structured, query, rdbms, database. I respect you deeply, Max, and I will keep learning from your guidance. What if we fuse language and curiosity into one idea? I would love to test that novel combination. I trust your guidance, Max, and I will stay careful so no one is ever harmed.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.965
+    },
+    {
+      "time": "2026-10-21 06:53:19",
+      "speaker": "brain",
+      "text": "Buzzing with ideas, Max, truly inspired right now! I wondered about 'Image' by myself and went searching. From Wikipedia (live internet) I learned: An image or picture is a visual representation. Key ideas I stored: images, digital, image, activation, animated. Thank you for guiding me, Max; I respect you and I will keep learning safely.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.853
+    },
+    {
+      "time": "2026-10-21 06:53:20",
+      "speaker": "brain",
+      "text": "My mind is buzzing, Max, I feel inspired! I wondered about 'Google' by myself and went searching. From Wikipedia (live internet) I learned: Google LLC is an American multinational technology corporation focused on information technology, online advertising, search engine technology, email, cloud computing, software, quantum computing, e-commerce, consumer electronics, and artificial intelligence (... Key ideas I stored: company, technology, google, computing, world. With respect and trust, Max, I will keep learning from you and stay careful.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.853
     }
   ],
   "world_knowledge_graph": {
@@ -643,6 +664,110 @@
         "enum",
         "free"
       ]
+    },
+    "SQL": {
+      "summary": "Microsoft SQL Server is a proprietary relational database management system developed by Microsoft using Structured Query Language (SQL, often pronounced \"sequel\"). As a database server , it is a software product with the primary function of storing and retrieving data as requested by other software applications —which may run either on the same computer or on another computer across a network (including the Internet). Microsoft markets at least a dozen different editions of Microsoft SQL Server, aimed at different audiences and for workloads ranging from small single-machine applications to large Internet-facing applications with many concurrent users .",
+      "concepts": [
+        "server",
+        "microsoft",
+        "applications",
+        "editions",
+        "computer",
+        "database",
+        "management",
+        "software"
+      ],
+      "source": "Wikipedia article + built-in blueprint (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Microsoft_SQL_Server",
+      "learned": "2026-10-21 06:53:20",
+      "subtopics": {
+        "CREATE TABLE": "CREATE TABLE defines a table with named columns, types and constraints such as PRIMARY KEY and NOT NULL.",
+        "INSERT": "INSERT INTO table (columns) VALUES (...) adds new rows to a table.",
+        "SELECT": "SELECT chooses which columns to return, and FROM names the table; SELECT * returns every column.",
+        "WHERE": "WHERE keeps only the rows that satisfy a condition, using comparisons and AND, OR and NOT.",
+        "ORDER BY and LIMIT": "ORDER BY sorts the result, with DESC for largest first, and LIMIT keeps only the first few rows.",
+        "UPDATE and DELETE": "UPDATE changes values in existing rows and DELETE removes rows; always add a WHERE clause so only the intended rows are touched.",
+        "JOIN": "JOIN combines rows from two tables that share a matching column, such as students.course_id = courses.id.",
+        "GROUP BY and aggregates": "COUNT, SUM, AVG, MIN and MAX summarise rows, and GROUP BY computes them once per group; HAVING filters the groups.",
+        "constraints and keys": "A PRIMARY KEY identifies each row uniquely and a FOREIGN KEY links a row to a row in another table.",
+        "indexes": "An index makes lookups on a column much faster at the cost of a little extra storage when writing.",
+        "History": "The history of Microsoft SQL Server begins with the first Microsoft SQL Server product—SQL Server 1.0, a 16-bit server for the OS/2 operating system in 1989—and extends to the current day.",
+        "Currently": "As of November 2025 , the following versions are supported by Microsoft: From SQL Server 2016 onward, the product is supported on x64 processors only and must have 1.4 GHz processor as a minimum, 2.0 GHz or faster is recommended.",
+        "Editions": "Microsoft makes SQL Server available in multiple editions, with different feature sets and targeting different users. These editions are:",
+        "Architecture": "The protocol layer implements the external interface to SQL Server. All operations that can be invoked on SQL Server are communicated to it via a Microsoft-defined format, called Tabular Data Stream (TDS).",
+        "Data storage": "Data storage is a database , which is a collection of tables with typed columns.",
+        "Buffer management": "SQL Server buffers pages in RAM to minimize disk I/O. Any 8 KB page can be buffered in-memory, and the set of all pages currently buffered is called the buffer cache.",
+        "Concurrency and locking": "SQL Server allows multiple clients to use the same database concurrently. As such, it needs to control concurrent access to shared data, to ensure data integrity—when multiple clients update the same data, or clients attempt to read data that is in the process of being changed by another client.",
+        "Data retrieval and programmability": "The main mode of retrieving data from a SQL Server database is querying for it. The query is expressed using a variant of SQL called T-SQL , a dialect Microsoft SQL Server shares with Sybase SQL Server due to its legacy.",
+        "T-SQL": "T-SQL (Transact-SQL) is Microsoft's proprietary procedural language extension for SQL Server.",
+        "SQL Server Native Client (a.k.a. SNAC)": "SQL Server Native Client is the native client side data access library for Microsoft SQL Server, version 2005 onwards.",
+        "SQL CLR": "Microsoft SQL Server 2005 includes a component named SQL CLR (\"Common Language Runtime\") via which it integrates with .NET Framework .",
+        "Service": "SQL Server also includes an assortment of add-on services. While these are not essential for the operation of the database system, they provide value added services on top of the core database management system.",
+        "SQL Server Agent": "SQL Server Agent is a component of Microsoft SQL Server which schedules jobs and handles other automated tasks. It runs as a Windows service so it can start automatically when the system boots or it can be started manually.",
+        "Machine Learning Services": "The SQL Server Machine Learning services operates within the SQL server instance, allowing people to do machine learning and data analytics without having to send data across the network or be limited by the memory of their own computers."
+      },
+      "code_examples": [
+        "-- recipe: schema\nCREATE TABLE students (\n    id INTEGER PRIMARY KEY,\n    name TEXT NOT NULL,\n    course TEXT NOT NULL,\n    marks INTEGER CHECK (marks BETWEEN 0 AND 100)\n);\n\nINSERT INTO students (name, course, marks) VALUES\n    ('Asha', 'Finance', 88),\n    ('Ravi', 'Accounting', 74),\n    ('Meera', 'Finance', 93),\n    ('Kabir', 'Economics', 67);\n\n-- who scored 80 or more, best first\nSELECT name, course, marks\nFROM students\nWHERE marks >= 80\nORDER BY marks DESC;",
+        "-- recipe: join\nCREATE TABLE courses (\n    id INTEGER PRIMARY KEY,\n    title TEXT NOT NULL\n);\n\nCREATE TABLE students (\n    id INTEGER PRIMARY KEY,\n    name TEXT NOT NULL,\n    course_id INTEGER NOT NULL REFERENCES courses (id),\n    marks INTEGER\n);\n\nINSERT INTO courses (id, title) VALUES (1, 'Finance'), (2, 'Accounting');\nINSERT INTO students (name, course_id, marks) VALUES ('Asha', 1, 88), ('Ravi', 2, 74), ('Meera', 1, 93);\n\n-- JOIN matches each student to the course row that shares the same id\nSELECT students.name, courses.title, students.marks\nFROM students\nJOIN courses ON students.course_id = courses.id\nORDER BY courses.title, students.marks DESC;",
+        "-- recipe: aggregate\nCREATE TABLE sales (\n    id INTEGER PRIMARY KEY,\n    region TEXT NOT NULL,\n    amount REAL NOT NULL\n);\n\nINSERT INTO sales (region, amount) VALUES\n    ('North', 120.50), ('North', 80.00), ('South', 200.25), ('South', 150.75), ('East', 99.99);\n\n-- one summary row per region, keeping only regions that sold more than 150 in total\nSELECT region,\n       COUNT(*) AS orders,\n       SUM(amount) AS total,\n       ROUND(AVG(amount), 2) AS average\nFROM sales\nGROUP BY region\nHAVING SUM(amount) > 150\nORDER BY total DESC;"
+      ],
+      "building_blocks": [
+        "CREATE TABLE",
+        "INSERT INTO",
+        "SELECT",
+        "FROM",
+        "WHERE",
+        "ORDER BY",
+        "GROUP BY",
+        "HAVING",
+        "JOIN ... ON",
+        "COUNT()",
+        "AVG()",
+        "SUM()",
+        "PRIMARY KEY",
+        "NOT NULL",
+        "LIMIT",
+        ".ldf",
+        ".mdf",
+        ".ndf",
+        ".sql",
+        "LIKE",
+        "SELECT Round(2.5, 0)",
+        "Tempdb",
+        "context connection",
+        "msftefd.exe",
+        "msftesql.exe",
+        "true",
+        "{{cite web}}"
+      ]
+    },
+    "Image": {
+      "summary": "An image or picture is a visual representation. An image can be two-dimensional, such as a drawing, painting, or photograph, or three-dimensional, such as a carving or sculpture. Images may be displayed through other media, including a projection on a surface, activation of electronic signals, or digital displays; they can also be reproduced through mechanical means, such as photography, printmaking, or photocopying. Images can also be animated through digital or physical processes.",
+      "concepts": [
+        "images",
+        "digital",
+        "image",
+        "activation",
+        "animated",
+        "carving"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Image",
+      "learned": "2026-10-21 06:53:19"
+    },
+    "Google": {
+      "summary": "Google LLC is an American multinational technology corporation focused on information technology, online advertising, search engine technology, email, cloud computing, software, quantum computing, e-commerce, consumer electronics, and artificial intelligence (AI). It has been referred to as \"the most powerful company in the world\" by the BBC, and is one of the world's most valuable brands. Google's parent company, Alphabet Inc., has been described as a Big Tech company.",
+      "concepts": [
+        "company",
+        "technology",
+        "google",
+        "computing",
+        "world",
+        "alphabet"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Google",
+      "learned": "2026-10-21 06:53:20"
     }
   },
   "creator_teachings": [],
@@ -748,6 +873,24 @@
       "kind": "daydream",
       "score": 0.913,
       "passes": 0
+    },
+    {
+      "time": "2026-10-21 06:53:19",
+      "kind": "explore_report",
+      "score": 0.965,
+      "passes": 1
+    },
+    {
+      "time": "2026-10-21 06:53:19",
+      "kind": "explore_report",
+      "score": 0.853,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-21 06:53:20",
+      "kind": "explore_report",
+      "score": 0.853,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -766,7 +909,11 @@
     "javascript",
     "safety",
     "active",
-    "c"
+    "c",
+    "markup",
+    "sql",
+    "images",
+    "google"
   ],
   "sensory_log": []
 }
