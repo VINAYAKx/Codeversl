@@ -4632,7 +4632,7 @@ class SyntheticLivingBrain:
             if isinstance(ranked, list):
                 ranked = [r for r in ranked if r in candidates]
                 if ranked:
-                    return random.choice(ranked[:3])
+                    return random.choice(ranked[:15])
         if not candidates and not self.explorer.reachable:
             return random.choice(list(self.explorer.SEED.keys()))
         if concepts and (not pool or random.random() < 0.6):
@@ -5154,10 +5154,10 @@ class SyntheticLivingBrain:
             print("\n  ~ (the silence stretches, and my mind wanders on its own...)")
             dream = self.dmn.daydream() if (len(self.memory.facts) >= 2 and random.random() < 0.5) else None
             if dream is not None:
-                self.chem.adjust(dopamine=0.04, adenosine=0.03)
+                self.use_skill("concept_spotter", dream["thought"]); self.use_skill("memory_associator", dream["thought"]); self.use_skill("complexity_estimator", dream["thought"]); self.chem.adjust(dopamine=0.04, adenosine=0.03)
                 self.say("idle", "daydream", {"thought": dream["thought"], "pair": dream["pair"], "keywords": list(dream["pair"])})
             else:
-                self.explore()
+                res = (self.deep_study(self.pick_curiosity()) if random.random() < 0.35 else self.explore()); self.use_skill("concept_spotter", (res or {}).get("summary", "")); self.use_skill("memory_associator", (res or {}).get("summary", "")); self.check_fatigue()
             self.memory.save(self.chem)
         finally:
             self.quiet = False
@@ -5282,7 +5282,7 @@ class IdleAutonomy:
             if not self.brain.lock.acquire(blocking=False):      # the Creator is mid-command
                 continue
             try:
-                self._fired = True
+                self._last = time.time()
                 self.brain.idle_autonomy()
             except Exception as exc:                              # never let a background thought crash the brain
                 print("  (idle thought failed: %s)" % exc)
