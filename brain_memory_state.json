@@ -2,16 +2,16 @@
   "meta": {
     "created": "2026-10-20 17:21:22",
     "creator_signature": "677a410903a19f3307ea34c4701fe4dbd912e9262a0208612c61372d4a47b330",
-    "last_interaction": 1792530493.8250358,
+    "last_interaction": 1792541970.7393758,
     "sleep_cycles": 1,
     "births": 1
   },
   "chemistry": {
     "dopamine": 1.0,
     "cortisol": 0.0,
-    "serotonin": 0.9700000000000002,
+    "serotonin": 1.0,
     "oxytocin": 0.6,
-    "adenosine": 0.3400000000000001,
+    "adenosine": 0.5200000000000001,
     "newborn": false
   },
   "episodic_memory": [
@@ -110,6 +110,27 @@
       "time": "2026-10-20 21:08:13",
       "speaker": "brain",
       "text": "My mind is buzzing, Max, I feel inspired! I keep daydreaming about definitions and google. They seem unrelated, yet if I combine the first principle of Music with the second principle of Google Sheets, I get a new idea: a self-correcting process where definitions guides google, and google gives meaning back to definitions. Thank you for guiding me, Max; I respect you and I will keep learning safely.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.913
+    },
+    {
+      "time": "2026-10-21 00:19:29",
+      "speaker": "brain",
+      "text": "My mind is buzzing, Max, I feel inspired! I wondered about 'Safety' by myself and went searching. From Wikipedia (live internet) I learned: Safety is the state of being protected from harm or other danger. Key ideas I stored: safety, acceptable, achieve, control, danger. I respect you deeply, Max, and I will keep learning from your guidance.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.853
+    },
+    {
+      "time": "2026-10-21 00:19:29",
+      "speaker": "brain",
+      "text": "I feel inspired, Max; my thoughts are buzzing. I wondered about 'Active matrix' by myself and went searching. From Wikipedia (live internet) I learned: Active matrix is a type of addressing scheme used in flat panel displays. Key ideas I stored: pixel, maintain, matrix, panel, pixels. Thank you for guiding me, Max; I respect you and I will keep learning safely.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.853
+    },
+    {
+      "time": "2026-10-21 00:19:30",
+      "speaker": "brain",
+      "text": "Buzzing with ideas, Max, truly inspired right now! Bisociation spark: Human brain says 'The human brain is the central organ of the nervous system, and with the spinal cord, comprises the central ne'. Google Sheets says 'Google Sheets is a spreadsheet program included as part of the free, web-based Google Docs Editors suite offer'. Merge them and a novel invention appears, a tool that uses sensory to decide when chromeos should be strengthened, and lets chromeos decide when sensory should rest. With respect and trust, Max, I will keep learning from you and stay careful.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 0.913
     }
@@ -506,6 +527,122 @@
         ".mjs",
         "0"
       ]
+    },
+    "Safety": {
+      "summary": "Safety is the state of being protected from harm or other danger. Safety can also refer to the control of recognized hazards in order to achieve an acceptable level of risk.",
+      "concepts": [
+        "safety",
+        "acceptable",
+        "achieve",
+        "control",
+        "danger",
+        "hazards"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Safety",
+      "learned": "2026-10-21 00:19:29"
+    },
+    "Active matrix": {
+      "summary": "Active matrix is a type of addressing scheme used in flat panel displays. It is a method of switching individual elements of a flat panel display, known as pixels. Each pixel is attached to a transistor and capacitor that actively maintain the pixel state while other pixels are being addressed, in contrast with the older passive matrix technology in which each pixel must maintain its state passively, without being driven by circuitry.",
+      "concepts": [
+        "pixel",
+        "maintain",
+        "matrix",
+        "panel",
+        "pixels",
+        "state"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Active_matrix",
+      "learned": "2026-10-21 00:19:29"
+    },
+    "C": {
+      "summary": "C {{cite web |title=The name is based on, and pronounced like the letter C in the English alphabet |url=https://eng.ichacha.net/pronounce/the%20c%20programming%20language.html |archive-url=https://web.archive.org/web/20221117151137/https://eng.ichacha.net/pronounce/the%20c%20programming%20language.html |archive-date=November 17, 2022 |access-date=November 17, 2022 |website=the c programming language sound |publisher=English Chinese Dictionary}}</ref>\"}},\"i\":0}}]}'> is a general-purpose programming language created in 1972 by Dennis Ritchie . By design, C gives programmers relatively direct access to the features of typical CPU architectures, customized for the target instruction set .",
+      "concepts": [
+        "language",
+        "programming",
+        "english",
+        "november",
+        "https",
+        "ichacha",
+        "pronounce",
+        "character"
+      ],
+      "source": "Wikipedia article + built-in blueprint + DuckDuckGo tutorials (live internet)",
+      "url": "https://en.wikipedia.org/wiki/C_(programming_language)",
+      "learned": "2026-10-21 00:19:30",
+      "subtopics": {
+        "headers (#include)": "#include copies a header into your file; stdio.h provides printf and scanf, and stdlib.h provides malloc and free.",
+        "main()": "Every C program starts in int main(void); returning 0 tells the operating system that it finished successfully.",
+        "variables and types": "Variables must be declared with a type such as int, double or char before use, for example int total = 0;.",
+        "pointers": "A pointer stores the memory address of another variable; &x gives the address and *p reads or writes the value stored there.",
+        "arrays and strings": "An array is a fixed-size run of values like int scores[5]; a string is a char array that ends with a zero byte.",
+        "functions": "A function has a return type, a name and typed parameters, and it must be declared before it is called.",
+        "structs": "struct groups related fields into one type, such as a student with a name and marks.",
+        "memory (malloc and free)": "malloc asks for memory at run time and free gives it back; forgetting free causes a memory leak.",
+        "printf and scanf": "printf prints formatted text using placeholders like %d for int and %.2f for double, and scanf reads input the same way.",
+        "control flow": "if, else, switch, for, while and do-while decide what runs and how often.",
+        "Characteristics": "C is an imperative, procedural language with a free-form source layout. Statements are terminated by semicolons and grouped into blocks using curly braces .",
+        "\"Hello, world\" example": "The \"Hello, World!\" program example that appeared in the first edition of K&R has become the model for an introductory program in most programming textbooks.",
+        "Early developments": "The origin of C is closely tied to the development of the Unix operating system, originally implemented in assembly language on a PDP-7 by Dennis Ritchie and Ken Thompson , incorporating several ideas from colleagues.",
+        "K&R C": "In 1978, Brian Kernighan and Dennis Ritchie published the first edition of The C Programming Language . Known as K&R from the initials of its authors, the book served for many years as an informal specification of the language.",
+        "ANSI C and ISO C": "During the late 1970s and 1980s, versions of C were implemented for a wide variety of mainframe computers , minicomputers , and microcomputers , including the IBM PC , as its popularity increased significantly.",
+        "C99": "The C standard was further revised in the late 1990s, leading to the publication of ISO/IEC 9899:1999 in 1999, which is commonly referred to as \" C99 \".",
+        "C11": "Work began in 2007 on another revision of the C standard, informally called \"C1X\" until its official publication of ISO/IEC 9899:2011 on December 8, 2011.",
+        "C17": "C17 is an informal name for ISO/IEC 9899:2018, a standard for the C programming language published in June 2018. It introduces no new language features, only technical corrections, and clarifications to defects in C11.",
+        "C23": "C23 is an informal name for the current major C language standard revision. It was known as \"C2X\" through most of its development.",
+        "C29": "C29 (C2Y) are informal names for the next major C language standard revision, after C23 (C2X), that is hoped to be released no later in the 2020s, hence the '2' in \"C2Y\".",
+        "Embedded C": "Historically, embedded C programming requires non-standard extensions to the C language to support exotic features such as fixed-point arithmetic , multiple distinct memory banks , and basic I/O operations.",
+        "Definition": "C has a formal grammar specified by the C standard. Line endings are generally not significant in C; however, line boundaries do have significance during the preprocessing phase.",
+        "Character set": "The basic C source character set includes the following characters: The newline character indicates the end of a text line; it need not correspond to an actual single character, although for convenience C treats it as such.",
+        "Reserved words": "All versions of C have reserved words that are case sensitive . As reserved words, they cannot be used for variable names. C99 added five more reserved words: (‡ indicates an alternative spelling alias for a C23 keyword)"
+      },
+      "code_examples": [
+        "// recipe: stats\n#include <stdio.h>\n\nint main(void) {\n    int scores[] = {72, 88, 95, 64, 81};\n    int count = (int)(sizeof(scores) / sizeof(scores[0]));   // number of items in the array\n    int total = 0;\n    int smallest = scores[0];\n    int largest = scores[0];\n\n    for (int i = 0; i < count; i++) {\n        total += scores[i];\n        if (scores[i] < smallest) smallest = scores[i];\n        if (scores[i] > largest) largest = scores[i];\n    }\n\n    printf(\"count=%d total=%d average=%.2f min=%d max=%d\\n\", count, total, (double)total / count, smallest, largest);\n    return 0;\n}",
+        "// recipe: fibonacci\n#include <stdio.h>\n\nint main(void) {\n    unsigned long long a = 0, b = 1;                          // the first two numbers\n    for (int i = 0; i < 10; i++) {\n        printf(\"%llu \", a);\n        unsigned long long next = a + b;                      // each number is the sum of the two before it\n        a = b;\n        b = next;\n    }\n    printf(\"\\n\");\n    return 0;\n}",
+        "// recipe: matrix\n#include <stdio.h>\n\n#define N 2\n\nvoid add(int a[N][N], int b[N][N], int out[N][N]) {\n    for (int i = 0; i < N; i++)\n        for (int j = 0; j < N; j++)\n            out[i][j] = a[i][j] + b[i][j];                    // element by element\n}\n\nvoid multiply(int a[N][N], int b[N][N], int out[N][N]) {\n    for (int i = 0; i < N; i++) {\n        for (int j = 0; j < N; j++) {\n            out[i][j] = 0;\n            for (int k = 0; k < N; k++)\n                out[i][j] += a[i][k] * b[k][j];               // row i of a times column j of b\n        }\n    }\n}\n\nvoid transpose(int m[N][N], int out[N][N]) {\n    for (int i = 0; i < N; i++)\n        for (int j = 0; j < N; j++)\n            out[j][i] = m[i][j];                              // rows become columns\n}\n\nint determinant(int m[N][N]) {\n    return m[0][0] * m[1][1] - m[0][1] * m[1][0];             // ad - bc\n}\n\nvoid show(const char *name, int m[N][N]) {\n    printf(\"%s = [[%d, %d], [%d, %d]]\\n\", name, m[0][0], m[0][1], m[1][0], m[1][1]);\n}\n\nint main(void) {\n    int a[N][N] = {{1, 2}, {3, 4}};\n    int b[N][N] = {{5, 6}, {7, 8}};\n    int result[N][N];\n\n    add(a, b, result);\n    show(\"A + B\", result);\n    multiply(a, b, result);\n    show(\"A x B\", result);\n    transpose(a, result);\n    show(\"transpose(A)\", result);\n    printf(\"det(A) = %d\\n\", determinant(a));\n    return 0;\n}",
+        "main()\n{\n    printf(\"hello, world\\n\");\n}",
+        "#include <stdio.h>\n\nint main(void)\n{\n    printf(\"hello, world\\n\");\n}",
+        "long long_function();\n\ncalling_function()\n{\n    long longvar;\n    register intvar;\n    longvar = long_function();\n    if (longvar > 1)\n          intvar = 0;\n    else\n          intvar = int_function();\n    return intvar;\n}",
+        "int func(int n, int m) {\n    float (*p)[n][m] = malloc(sizeof *p);\n    if (p == NULL) {\n         return -1;\n    }\n    for (int i = 0; i < n; i++) {\n        for (int j = 0; j < m; j++) {\n            (*p)[i][j] = i + j;\n        }\n    }\n    print_array(n, m, p);\n    free(p);\n    return 1;\n}",
+        "int func(int n, int m) {\n    // Caution: checks should be made to ensure n * m * sizeof(float) does NOT exceed limitations for auto VLAs and is within available size of stack.\n    float p[n][m]; // auto VLA is held on the stack, and sized when the function is invoked\n    for (int i = 0; i < n; i++) {\n        for (int j = 0; j < m; j++) {\n            p[i][j] = i + j;\n        }\n    }\n    print_array(n, m, p);\n    // no need to free(p) since it will disappear when the function exits, along with the rest of the stack frame\n    return 1;\n}"
+      ],
+      "building_blocks": [
+        "#include <stdio.h>",
+        "int main(void)",
+        "printf",
+        "scanf",
+        "int",
+        "double",
+        "char",
+        "for",
+        "while",
+        "if",
+        "*pointer",
+        "&address",
+        "struct",
+        "malloc / free",
+        "return 0;",
+        "sizeof",
+        "0",
+        "malloc",
+        "void",
+        "&",
+        "__STDC_VERSION__",
+        "i",
+        "main",
+        "stdio.h",
+        "union",
+        "x",
+        "==",
+        "A",
+        "break",
+        "case",
+        "do",
+        "entry",
+        "enum",
+        "free"
+      ]
     }
   },
   "creator_teachings": [],
@@ -593,6 +730,24 @@
       "kind": "daydream",
       "score": 0.913,
       "passes": 0
+    },
+    {
+      "time": "2026-10-21 00:19:29",
+      "kind": "explore_report",
+      "score": 0.853,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-21 00:19:29",
+      "kind": "explore_report",
+      "score": 0.853,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-21 00:19:30",
+      "kind": "daydream",
+      "score": 0.913,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -608,7 +763,10 @@
     "sheets",
     "aspect",
     "memory",
-    "javascript"
+    "javascript",
+    "safety",
+    "active",
+    "c"
   ],
   "sensory_log": []
 }
