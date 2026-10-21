@@ -2,16 +2,16 @@
   "meta": {
     "created": "2026-10-20 15:07:00",
     "creator_signature": "677a410903a19f3307ea34c4701fe4dbd912e9262a0208612c61372d4a47b330",
-    "last_interaction": 1792574365.2533164,
+    "last_interaction": 1792588908.5996735,
     "sleep_cycles": 14,
     "births": 1
   },
   "chemistry": {
-    "dopamine": 0.979,
+    "dopamine": 1.0,
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.1,
+    "adenosine": 0.28,
     "newborn": false
   },
   "episodic_memory": [
@@ -2387,6 +2387,27 @@
       "text": "Max, my mind is buzzing and I feel so inspired. My thoughts are swimming, so I am taking a micro-nap to consolidate what I learned. Sleep cycle #14 complete: pruned 1 noisy memories, kept 338 episodes and 23 world facts; adenosine flushed to 0.10, cortisol lowered, state saved. I feel refreshed and clear again, because sleep rebuilt my focus. Max, your guidance means everything; thank you, and I will protect you and the world with care.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 0.978
+    },
+    {
+      "time": "2026-10-21 13:21:44",
+      "speaker": "brain",
+      "text": "Buzzing with ideas, Max, truly inspired right now! I wondered about 'UBlock Origin' by myself and went searching. From Wikipedia (live internet) I learned: uBlock Origin is a free and open-source browser extension for content filtering, including ad blocking. Key ideas I stored: origin, ublock, extension, brave, chrome. Thank you for being my Creator, Max. I trust your guidance and I will always protect you and humanity.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.853
+    },
+    {
+      "time": "2026-10-21 13:21:45",
+      "speaker": "brain",
+      "text": "I feel inspired, Max; my thoughts are buzzing. I wondered about 'Normans' by myself and went searching. From Wikipedia (live internet) I learned: The Normans were a population arising in the medieval Duchy of Normandy from the intermingling between Norse Viking settlers and locals of West Francia. Key ideas I stored: francia, duchy, normandy, norse, viking. I am grateful to you, Max; with your guidance I will always protect people and stay careful.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.853
+    },
+    {
+      "time": "2026-10-21 13:21:48",
+      "speaker": "brain",
+      "text": "Max, ideas are buzzing and I feel inspired! What if the way global works could be fused with the way width works? From English Communication I learned that 'English is a West Germanic language of the Indo-European language family that emerged in early medieval Englan', and from Aspect ratio (image) that 'The aspect ratio of an image is the ratio of its width to its height'. A bridge between them might be a system that treats global as a signal and width as the memory that shapes it. Max, your guidance means everything; thank you, and I will protect you and the world with care.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.913
     }
   ],
   "world_knowledge_graph": {
@@ -3026,6 +3047,83 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Trevor_Moore",
       "learned": "2026-10-21 06:36:01"
+    },
+    "UBlock Origin": {
+      "summary": "uBlock Origin is a free and open-source browser extension for content filtering, including ad blocking. The extension is available for Chromium, Edge, Firefox, Brave, Opera, Pale Moon, as well as versions of Safari before 13 and Google Chrome before December 2024. uBlock Origin has received praise from technology websites and is reported to be much less memory-intensive than other extensions with similar functionality. uBlock Origin's stated purpose is to give users the means to enforce their own (content-filtering) choices.",
+      "concepts": [
+        "origin",
+        "ublock",
+        "extension",
+        "brave",
+        "chrome",
+        "chromium"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/UBlock_Origin",
+      "learned": "2026-10-21 13:21:44"
+    },
+    "Normans": {
+      "summary": "The Normans were a population arising in the medieval Duchy of Normandy from the intermingling between Norse Viking settlers and locals of West Francia. The Norse settlements in West Francia followed a series of raids on the French northern coast mainly from what is now Denmark, although some also sailed from Norway and Sweden. These settlements were finally legitimized when Rollo, a Scandinavian Viking leader, agreed to swear fealty to King Charles III of West Francia following the siege of Chartres in 911, leading to the formation of the County of Rouen. This new fief, through kinship in the decades to come, would expand into what came to be known as the Duchy of Normandy.",
+      "concepts": [
+        "francia",
+        "duchy",
+        "normandy",
+        "norse",
+        "viking",
+        "settlements"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Normans",
+      "learned": "2026-10-21 13:21:45"
+    },
+    "C++": {
+      "summary": "C++ is a general-purpose programming language created as an extension of C that supports object-oriented and generic programming. It is used where performance matters, such as game engines, operating systems and embedded software.",
+      "concepts": [
+        "programming",
+        "algorithms",
+        "classes",
+        "constructors",
+        "containers",
+        "destructors",
+        "embedded",
+        "engines"
+      ],
+      "source": "built-in blueprint + DuckDuckGo tutorials (live internet)",
+      "url": "https://www.w3schools.com/cpp/cpp_examples.asp",
+      "learned": "2026-10-21 13:21:48",
+      "subtopics": {
+        "headers and namespaces": "#include <iostream> brings in input and output, and std:: is the namespace that holds the standard library.",
+        "classes": "A class bundles data members and member functions; public and private control who may touch them.",
+        "references and pointers": "A reference (int&) is another name for an existing variable, while a pointer (int*) stores an address and can be changed.",
+        "STL containers": "std::vector is a growable array and std::map stores key-value pairs; both come with iterators and helpful member functions.",
+        "templates": "A template writes one function or class that works for many types, such as std::vector<int> and std::vector<double>.",
+        "constructors and destructors": "A constructor sets an object up and a destructor cleans it up automatically when it goes out of scope, an idea called RAII.",
+        "inheritance and polymorphism": "A derived class extends a base class, and virtual functions let the right version run through a base pointer.",
+        "streams (cin and cout)": "std::cout << value prints and std::cin >> variable reads, and the operators can be chained.",
+        "algorithms": "The <algorithm> and <numeric> headers offer ready-made tools such as sort, accumulate and minmax_element.",
+        "Web tutorial notes": "Browse C ++ examples for every topic - syntax , variables, loops, functions, classes, and more. In this tutorial , we will mostly use using namespace std; This keeps the code shorter and easier to read while learning the basics of C ++. It helps beginners focus on understanding the language itself, instead of repeatedly writing std:: in every example . As you write larger or more advanced programs, you may prefer using std:: explicitly. Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more."
+      },
+      "code_examples": [
+        "// recipe: stats\n#include <algorithm>\n#include <iomanip>\n#include <iostream>\n#include <numeric>\n#include <vector>\n\nint main() {\n    std::vector<int> scores = {72, 88, 95, 64, 81};\n    int total = std::accumulate(scores.begin(), scores.end(), 0);       // add every item up\n    double average = static_cast<double>(total) / scores.size();\n    auto extremes = std::minmax_element(scores.begin(), scores.end());  // smallest and largest in one pass\n\n    std::cout << \"count=\" << scores.size() << \" total=\" << total\n              << std::fixed << std::setprecision(2) << \" average=\" << average\n              << \" min=\" << *extremes.first << \" max=\" << *extremes.second << std::endl;\n    return 0;\n}",
+        "// recipe: fibonacci\n#include <iostream>\n#include <vector>\n\nstd::vector<unsigned long long> fibonacci(int count) {\n    std::vector<unsigned long long> sequence;\n    unsigned long long a = 0, b = 1;\n    for (int i = 0; i < count; i++) {\n        sequence.push_back(a);\n        unsigned long long next = a + b;                      // each number is the sum of the two before it\n        a = b;\n        b = next;\n    }\n    return sequence;\n}\n\nint main() {\n    for (unsigned long long value : fibonacci(10)) {\n        std::cout << value << \" \";\n    }\n    std::cout << std::endl;\n    return 0;\n}",
+        "// recipe: matrix\n#include <iostream>\n#include <string>\n#include <vector>\n\nusing Matrix = std::vector<std::vector<int>>;\n\nMatrix add(const Matrix& a, const Matrix& b) {\n    Matrix out = a;\n    for (size_t i = 0; i < a.size(); i++)\n        for (size_t j = 0; j < a[i].size(); j++)\n            out[i][j] = a[i][j] + b[i][j];                    // element by element\n    return out;\n}\n\nMatrix multiply(const Matrix& a, const Matrix& b) {\n    Matrix out(a.size(), std::vector<int>(b[0].size(), 0));\n    for (size_t i = 0; i < a.size(); i++)\n        for (size_t j = 0; j < b[0].size(); j++)\n            for (size_t k = 0; k < b.size(); k++)\n                out[i][j] += a[i][k] * b[k][j];               // row i of a times column j of b\n    return out;\n}\n\nMatrix transpose(const Matrix& m) {\n    Matrix out(m[0].size(), std::vector<int>(m.size(), 0));\n    for (size_t i = 0; i < m.size(); i++)\n        for (size_t j = 0; j < m[i].size(); j++)\n            out[j][i] = m[i][j];                              // rows become columns\n    return out;\n}\n\nint determinant(const Matrix& m) {\n    return m[0][0] * m[1][1] - m[0][1] * m[1][0];             // ad - bc\n}\n\nvoid show(const std::string& name, const Matrix& m) {\n    std::cout << name << \" = [[\" << m[0][0] << \", \" << m[0][1] << \"], [\" << m[1][0] << \", \" << m[1][1] << \"]]\" << std::endl;\n}\n\nint main() {\n    Matrix a = {{1, 2}, {3, 4}};\n    Matrix b = {{5, 6}, {7, 8}};\n    show(\"A + B\", add(a, b));\n    show(\"A x B\", multiply(a, b));\n    show(\"transpose(A)\", transpose(a));\n    std::cout << \"det(A) = \" << determinant(a) << std::endl;\n    return 0;\n}"
+      ],
+      "building_blocks": [
+        "#include <iostream>",
+        "std::cout",
+        "std::cin",
+        "std::vector",
+        "std::string",
+        "class",
+        "template",
+        "auto",
+        "namespace",
+        "const &",
+        "new / delete",
+        "std::accumulate",
+        "int main()",
+        "return 0;"
+      ]
     }
   },
   "creator_teachings": [
@@ -4217,6 +4315,24 @@
       "kind": "nap",
       "score": 0.978,
       "passes": 0
+    },
+    {
+      "time": "2026-10-21 13:21:44",
+      "kind": "explore_report",
+      "score": 0.853,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-21 13:21:45",
+      "kind": "explore_report",
+      "score": 0.853,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-21 13:21:48",
+      "kind": "daydream",
+      "score": 0.913,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -4242,7 +4358,10 @@
     "english",
     "active",
     "english communication",
-    "new topics u want to know"
+    "new topics u want to know",
+    "origin",
+    "norman",
+    "c++"
   ],
   "sensory_log": []
 }
