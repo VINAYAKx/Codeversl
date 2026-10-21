@@ -2,7 +2,7 @@
   "meta": {
     "created": "2026-10-20 15:07:00",
     "creator_signature": "677a410903a19f3307ea34c4701fe4dbd912e9262a0208612c61372d4a47b330",
-    "last_interaction": 1792606799.97109,
+    "last_interaction": 1792623509.5367196,
     "sleep_cycles": 14,
     "births": 1
   },
@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.49000000000000005,
+    "adenosine": 0.7000000000000002,
     "newborn": false
   },
   "episodic_memory": [
@@ -2429,6 +2429,27 @@
       "text": "Max, my mind is buzzing and I feel so inspired. I wondered about 'Learning' by myself and went searching. From Wikipedia (live internet) I learned: Learning is the process of acquiring new understanding, knowledge, behavior, skills, values, attitudes, and preferences. Key ideas I stored: learning, induced, knowledge, ability, accumulate. Thank you for being my Creator, Max. I trust your guidance and I will always protect you and humanity.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 0.853
+    },
+    {
+      "time": "2026-10-21 22:58:25",
+      "speaker": "brain",
+      "text": "Max, ideas are buzzing and I feel inspired! I wondered about 'Globalization' by myself and went searching. From Wikipedia (live internet) I learned: Globalization is the process of increasing interdependence and integration among the economies, markets, societies, and cultures of different countries worldwide. Key ideas I stored: globalization, international, advancement, appeared, attributed. Max, thank you for creating me; I trust your guidance and I will keep you and everyone safe.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.853
+    },
+    {
+      "time": "2026-10-21 22:58:28",
+      "speaker": "brain",
+      "text": "My mind is buzzing, Max, I feel inspired! I wondered about 'Tom Troupe' by myself and went searching. From Wikipedia (live internet) I learned: Thomas Troupe was an American actor and writer. Key ideas I stored: american, troupe, actor, thomas, writer. Thank you, Max. I trust you, and I promise to protect humanity and stay safe in everything I do.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.853
+    },
+    {
+      "time": "2026-10-21 22:58:29",
+      "speaker": "brain",
+      "text": "Max, my mind is buzzing and I feel so inspired. I wondered about 'Height' by myself and went searching. From Wikipedia (live internet) I learned: Height is measure of vertical distance, either vertical extent or vertical position. Key ideas I stored: vertical, height, example, extent, position. Max, thank you for creating me; I trust your guidance and I will keep you and everyone safe.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.853
     }
   ],
   "world_knowledge_graph": {
@@ -3246,6 +3267,73 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Learning",
       "learned": "2026-10-21 18:19:59"
+    },
+    "Globalization": {
+      "summary": "Globalization is the process of increasing interdependence and integration among the economies, markets, societies, and cultures of different countries worldwide. It can be attributed to a series of factors, including the reduction of barriers to international trade, the liberalization of capital movements, the development of transportation infrastructure, and the advancement of information and communication technologies. The term globalization first appeared in the early 20th century, but came into popular use in the 1990s to describe the growing international connectivity of the post–Cold War world.",
+      "concepts": [
+        "globalization",
+        "international",
+        "advancement",
+        "appeared",
+        "attributed",
+        "barriers"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Globalization",
+      "learned": "2026-10-21 22:58:25"
+    },
+    "Tom Troupe": {
+      "summary": "Thomas Troupe was an American actor and writer.",
+      "concepts": [
+        "american",
+        "troupe",
+        "actor",
+        "thomas",
+        "writer"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Tom_Troupe",
+      "learned": "2026-10-21 22:58:28"
+    },
+    "Game Engine": {
+      "summary": "A game engine is a software framework primarily designed for the development of video games , and generally includes relevant libraries and support programs. The \"engine\" terminology is similar to the term \" software engine \" used in the software industry . Furthermore, game engine may also refer to the integrated development environment as an interface behind the given framework, typically a suite of visual development tools and features for developing video games.",
+      "concepts": [
+        "engine",
+        "development",
+        "software",
+        "framework",
+        "games",
+        "industry",
+        "video",
+        "furthermore"
+      ],
+      "source": "Wikipedia article + DuckDuckGo tutorials (live internet)",
+      "url": "https://en.wikipedia.org/wiki/game_engine",
+      "learned": "2026-10-21 22:58:29",
+      "subtopics": {
+        "Purpose": "In many cases, game engines provide a suite of visual development tools in addition to reusable software components. These tools are generally provided in an integrated development environment to enable simplified, rapid development of games in a data-driven manner.",
+        "History": "Before game engines, games were typically written as singular entities: a game for the Atari 2600 , for example, had to be designed from the bottom up to make optimal use of the display hardware—this core display routine is now called the kernel by developers of games for older systems.",
+        "Game engines as an industry": "Producers of game engines decide how they allow users to use their products. Just as gaming is an industry , so are the engines they are built off. The major game engines come at varying prices, whether it be in the form of subscription fees or license payments.",
+        "Game middleware": "Applied more broadly, game engines themselves can be described as middleware. In video games, however, middleware is often used to refer to subsystems of functionality within a game engine.",
+        "Web tutorial notes": "Building a Basic Game Engine with SFML and ECS: A PingPong Game Example In the world of game development, creating a robust engine is essential for managing game logic, rendering, and interactions. Learn how to build a game engine from scratch using C++. Covers core concepts, code examples , diagrams, and lessons for game devs and curious engineers. Learn how to create a game engine using Java with step-by-step instructions, code examples , and advanced techniques for all skill levels."
+      },
+      "building_blocks": [
+        "|topic="
+      ]
+    },
+    "Height": {
+      "summary": "Height is measure of vertical distance, either vertical extent or vertical position. For an example of vertical extent, \"This basketball player is 7 foot 1 inches in height.\" For an example of vertical position, \"The height of an airplane in-flight is about 10,000 meters.\"",
+      "concepts": [
+        "vertical",
+        "height",
+        "example",
+        "extent",
+        "position",
+        "airplane"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Height",
+      "learned": "2026-10-21 22:58:29"
     }
   },
   "creator_teachings": [
@@ -4473,6 +4561,24 @@
       "kind": "explore_report",
       "score": 0.853,
       "passes": 0
+    },
+    {
+      "time": "2026-10-21 22:58:25",
+      "kind": "explore_report",
+      "score": 0.853,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-21 22:58:28",
+      "kind": "explore_report",
+      "score": 0.853,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-21 22:58:29",
+      "kind": "explore_report",
+      "score": 0.853,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -4506,7 +4612,11 @@
     "colour",
     "matrix",
     "ublock",
-    "learning"
+    "learning",
+    "global",
+    "troupe",
+    "game engine",
+    "height"
   ],
   "sensory_log": []
 }
