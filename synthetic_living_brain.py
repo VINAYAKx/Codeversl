@@ -4503,6 +4503,11 @@ class DigitalBirthEngine:
 # ======================================================================================
 # The whole organism
 # ======================================================================================
+try:
+    import language_cortex
+except ImportError:
+    language_cortex = None
+
 class SyntheticLivingBrain:
     def __init__(self, creator_name: str = CREATOR_NAME):
         self.safety = ImmutableSafetyCore(creator_name)
@@ -4696,6 +4701,11 @@ class SyntheticLivingBrain:
                                                "keywords": res["concepts"][:3] or [res["title"].lower()]})
         self.router.touch(self.memory)
         self.memory.save(self.chem)
+        if language_cortex:
+            try:
+                language_cortex.attach_language_cortex(self)
+            except Exception:
+                pass
         return res
 
     def web_search(self, query: str, was_lonely: bool = False) -> Optional[Dict[str, Any]]:

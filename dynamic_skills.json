@@ -2,13 +2,13 @@
   "concept_spotter_v1": {
     "code": "def concept_spotter_v1(text):\n    known = ['brain', 'nervous', 'central', 'information', 'sensory', 'activities', 'consciousness', 'considered', 'explanations', 'analyses', 'aspect', 'aware', 'earth', 'water', 'crust', 'ocean', 'solar', 'astronomical', 'study', 'algorithms', 'artificial', 'concerned', 'development', 'explicitly']\n    t = str(text).lower()\n    found = [c for c in known if c in t]\n    return sorted(set(found))\n",
     "description": "Spots concepts I have learned from the web inside any sentence.",
-    "created": "2026-10-22 02:52:36",
+    "created": "2026-10-22 03:16:22",
     "test_input": "The brain uses memory and learning to understand the world"
   },
   "curiosity_ranker_v2": {
     "code": "def curiosity_ranker_v2(candidates):\n    known = ['human brain', 'consciousness', 'earth', 'machine learning']\n    fresh = [str(c) for c in candidates if str(c).lower() not in known]\n    return sorted(fresh, key=len)\n",
     "description": "Ranks candidate topics so brand-new ideas are explored first.",
-    "created": "2026-10-22 02:52:36",
+    "created": "2026-10-22 03:16:22",
     "test_input": [
       "brain",
       "quasars",
@@ -19,36 +19,42 @@
   "tone_gauge_v3": {
     "code": "def tone_gauge_v3(text):\n    warm = ['love', 'thank', 'proud', 'happy', 'warm', 'glad', 'wonder', 'together', 'safe', 'kind']\n    cold = ['urgent', 'fail', 'broken', 'panic', 'danger', 'crisis', 'angry', 'afraid', 'deadline', 'stuck']\n    t = str(text).lower()\n    w = sum(1 for x in warm if x in t)\n    c = sum(1 for x in cold if x in t)\n    return 'warm' if w > c else ('tense' if c > w else 'neutral')\n",
     "description": "Reads the emotional tone of a message as warm, tense or neutral.",
-    "created": "2026-10-22 02:52:36",
+    "created": "2026-10-22 03:16:22",
     "test_input": "Thank you, I am so proud and happy"
   },
   "memory_associator_v4": {
     "code": "def memory_associator_v4(text):\n    links = {'human brain': ['brain', 'nervous', 'central', 'information', 'sensory', 'activities'], 'consciousness': ['consciousness', 'considered', 'explanations', 'analyses', 'aspect', 'aware'], 'earth': ['earth', 'water', 'crust', 'ocean', 'solar', 'astronomical'], 'machine learning': ['study', 'algorithms', 'artificial', 'concerned', 'development', 'explicitly'], 'css': ['style', 'cascading', 'rules', 'sheets', 'cascade', 'colour'], 'html': ['language', 'markup', 'elements', 'headings', 'images', 'links'], 'guy fawkes': ['fawkes', 'catholic', 'catholics', 'english', 'guido', 'gunpowder'], 'sleep': ['activity', 'sleep', 'consciousness', 'ability', 'active', 'altered']}\n    t = str(text).lower()\n    found = {}\n    for topic, concepts in links.items():\n        shared = [c for c in concepts if c in t]\n        if topic in t or shared:\n            found[topic] = shared\n    return found\n",
     "description": "Links any sentence to the articles I have studied by their shared concept keywords.",
-    "created": "2026-10-22 02:52:36",
+    "created": "2026-10-22 03:16:22",
     "test_input": "human brain and brain"
   },
   "complexity_estimator_v5": {
     "code": "def complexity_estimator_v5(text):\n    t = str(text)\n    words = t.split()\n    n = len(words)\n    if n == 0:\n        return {'load': 0.0, 'level': 'light'}\n    long_words = sum(1 for w in words if len(w) >= 9)\n    clauses = t.count(',') + t.count(';') + t.count(' and ') + t.count(' because ') + t.count(' which ')\n    questions = t.count('?')\n    score = n / 40.0 + long_words / n + clauses / 8.0 + questions / 4.0\n    load = round(min(1.0, score / 2.0), 2)\n    level = 'heavy' if load >= 0.6 else ('moderate' if load >= 0.3 else 'light')\n    return {'load': load, 'level': level}\n",
     "description": "Estimates the cognitive load of a message from its length, long words, clauses and questions.",
-    "created": "2026-10-22 02:52:36",
+    "created": "2026-10-22 03:16:22",
     "test_input": "Explain how neurons, memory and learning connect, because the brain adapts, which means experience matters?"
   },
   "concept_spotter_v6": {
     "code": "def concept_spotter_v6(text):\n    known = ['brain', 'nervous', 'central', 'information', 'sensory', 'activities', 'consciousness', 'considered', 'explanations', 'analyses', 'aspect', 'aware', 'earth', 'water', 'crust', 'ocean', 'solar', 'astronomical', 'study', 'algorithms', 'artificial', 'concerned', 'development', 'explicitly', 'style']\n    t = str(text).lower()\n    found = [c for c in known if c in t]\n    return sorted(set(found))\n",
     "description": "Spots concepts I have learned from the web inside any sentence.",
-    "created": "2026-10-22 02:52:36",
+    "created": "2026-10-22 03:16:22",
     "test_input": "The brain uses memory and learning to understand the world"
   },
   "curiosity_ranker_v7": {
     "code": "def curiosity_ranker_v7(candidates):\n    known = ['human brain', 'consciousness', 'earth', 'machine learning', 'css', 'html', 'guy fawkes', 'sleep', 'google sheets', 'python', 'connectomics', 'synaptic plasticity', 'music', 'markup language', 'aspect ratio (image)', 'quantum computing', 'fawkes', 'frontier science', 'image', 'english', 'active matrix', 'english communication', 'trevor moore', 'comedy', 'qubits']\n    fresh = [str(c) for c in candidates if str(c).lower() not in known]\n    return sorted(fresh, key=len)\n",
     "description": "Ranks candidate topics so brand-new ideas are explored first.",
-    "created": "2026-10-22 02:52:36",
+    "created": "2026-10-22 03:16:22",
     "test_input": [
       "brain",
       "quasars",
       "sleep",
       "tides"
     ]
+  },
+  "tone_gauge_v8": {
+    "code": "def tone_gauge_v8(text):\n    warm = ['love', 'thank', 'proud', 'happy', 'warm', 'glad', 'wonder', 'together', 'safe', 'kind']\n    cold = ['urgent', 'fail', 'broken', 'panic', 'danger', 'crisis', 'angry', 'afraid', 'deadline', 'stuck']\n    t = str(text).lower()\n    w = sum(1 for x in warm if x in t)\n    c = sum(1 for x in cold if x in t)\n    return 'warm' if w > c else ('tense' if c > w else 'neutral')\n",
+    "description": "Reads the emotional tone of a message as warm, tense or neutral.",
+    "created": "2026-10-22 03:16:22",
+    "test_input": "Thank you, I am so proud and happy"
   }
 }
