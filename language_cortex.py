@@ -1150,7 +1150,7 @@ class WernickeArea:
     # ---- unfamiliar words in what Max says ----
     def unfamiliar(self, text: str) -> List[str]:
         raw = text or ""
-        if raw.lstrip().startswith("/") or len(raw) > 600:
+        if raw.lstrip().startswith("/") or len(raw) > 50000:
             return []
         scrubbed = re.sub(r"https?://\S+|\S+[./\\]\S+|\S*\d\S*|`[^`]*`", " ", raw)
         brain = self.cx.brain
@@ -2386,6 +2386,10 @@ class AutonomousLanguageCortex:
     def compose(self, kind: str, ctx: Dict[str, Any], chem: Any) -> Optional[str]:
         """A natural draft for the kinds this cortex owns; None lets the brain's own composer answer."""
         self.ensure_ready()
+        if kind == "passage_study":
+            nw = ctx.get("new_words") or []
+            wp = (" and learned %d new word(s): %s" % (len(nw), ", ".join(nw))) if nw else ""
+            return self.finish("I studied your %d-word passage, %s. I absorbed %d sentence(s) into my grammar graph%s, and saved it to memory. What part should we explore next?" % (ctx.get("words", 0), self.creator, ctx.get("sentences", 1), wp), ctx, chem)
         if kind == "word_meaning":
             body = self.broca.word_meaning(ctx) if ctx.get("wanted") != "taught" else self._taught_line(ctx)
             ctx["keywords"] = [ctx.get("word", "")]
@@ -2706,6 +2710,17 @@ def install_language_cortex() -> bool:
 
     def handle_line(brain, line):
         cx = getattr(brain, "language", None)
+        m = re.search(r"/(?:study|explore|master)\s+\S+", line)
+        if cx is not None and m and not line.startswith("/"):
+            line = line[m.start():]
+        if cx is not None and ((line.startswith(("/study ", "/explore ", "/master ")) and len(line.split()) > 6) or (not line.startswith("/") and len(line.split()) >= 25 and not slb.detect_code_domains(line))):
+            arg = re.sub(r"^/\w+\s+", "", line).strip()
+            st = cx.ingest_corpus_sentences(arg, "passage")
+            nw = cx.wernicke.notice(arg, limit=6, budget=12.0)
+            brain.memory.add_teaching(arg[:500])
+            brain.say("language", "passage_study", {"sentences": max(1, st.get("sentences", 1)), "new_words": nw, "words": len(arg.split()), "keywords": nw[:2]})
+            brain.memory.save(brain.chem)
+            return True
         if cx is not None and line.startswith("/"):
             cmd, _, arg = line.partition(" ")
             cmd, arg = cmd.lower(), arg.strip()
@@ -2745,6 +2760,18 @@ def install_language_cortex() -> bool:
     Brain.ingest_corpus_sentences = lambda self, text, source="reading": self.language.ingest_corpus_sentences(text, source)
     Brain.define_word = lambda self, word: self.hear("define " + word)
 
+    import builtins, select
+    _oi = builtins.input
+    def _pi(p=""):
+        ln = _oi(p); ex = []
+        try:
+            while select.select([sys.stdin], [], [], 0.05)[0]:
+                m = sys.stdin.readline()
+                if not m: break
+                if m.strip(): ex.append(m.strip())
+        except Exception: pass
+        return " ".join([ln.strip()] + ex) if ex else ln
+    builtins.input = _pi
     slb._LANGUAGE_CORTEX_INSTALLED = True
     return True
 

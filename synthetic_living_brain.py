@@ -1175,6 +1175,13 @@ def main():
         print(f"{name:>8}: {value}")
 
 
+sys.modules.setdefault("synthetic_living_brain", sys.modules[__name__])
+try:
+    import language_cortex
+    language_cortex.install_language_cortex()
+except Exception:
+    pass
+
 if __name__ == "__main__":
     main()''',
                 r'''# recipe: fibonacci
@@ -4503,11 +4510,6 @@ class DigitalBirthEngine:
 # ======================================================================================
 # The whole organism
 # ======================================================================================
-try:
-    import language_cortex
-except ImportError:
-    language_cortex = None
-
 class SyntheticLivingBrain:
     def __init__(self, creator_name: str = CREATOR_NAME):
         self.safety = ImmutableSafetyCore(creator_name)
