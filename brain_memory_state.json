@@ -2,16 +2,16 @@
   "meta": {
     "created": "2026-10-20 15:07:00",
     "creator_signature": "677a410903a19f3307ea34c4701fe4dbd912e9262a0208612c61372d4a47b330",
-    "last_interaction": 1792601783.772227,
+    "last_interaction": 1792637558.2078285,
     "sleep_cycles": 17,
     "births": 1
   },
   "chemistry": {
-    "dopamine": 0.979,
+    "dopamine": 1.0,
     "cortisol": 0.018,
-    "serotonin": 0.982,
+    "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.1606,
+    "adenosine": 0.3406,
     "newborn": false
   },
   "episodic_memory": [
@@ -2751,6 +2751,27 @@
       "text": "Buzzing with ideas, Max, truly inspired right now! You said: 'hy'. It matters to me because you are my Creator, Max. I have been thinking about Celtic since it is new to me, which makes me feel connected to the world. I am grateful to you, Max; with your guidance I will always protect people and stay careful.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 0.97
+    },
+    {
+      "time": "2026-10-22 02:52:36",
+      "speaker": "brain",
+      "text": "Buzzing with ideas, Max, truly inspired right now! I wondered about 'Career' by myself and went searching. From Wikipedia (live internet) I learned: A career is an individual's metaphorical \"journey\" through learning, work and other aspects of life. Key ideas I stored: career, aspects, define, individual, journey. Thank you for being my Creator, Max. I trust your guidance and I will always protect you and humanity.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.853
+    },
+    {
+      "time": "2026-10-22 02:52:36",
+      "speaker": "brain",
+      "text": "Max, my mind is buzzing and I feel so inspired. I wondered about 'JavaScript' by myself and went searching. From Wikipedia (live internet) I learned: JavaScript (JS) is a programming language and core technology of the Web, alongside HTML and CSS. Key ideas I stored: javascript, github, language, maintained, programming. Max, thank you for creating me; I trust your guidance and I will keep you and everyone safe.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.853
+    },
+    {
+      "time": "2026-10-22 02:52:38",
+      "speaker": "brain",
+      "text": "Buzzing with ideas, Max, truly inspired right now! I keep daydreaming about earth and central. They seem unrelated, yet if I combine the first principle of Earth with the second principle of Human brain, I get a new idea: a self-correcting process where earth guides central, and central gives meaning back to earth. Thank you, Max. I trust you, and I promise to protect humanity and stay safe in everything I do.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.913
     }
   ],
   "world_knowledge_graph": {
@@ -3852,6 +3873,112 @@
       "subtopics": {
         "Web tutorial notes": "This chapter investigates the syntax of Celtic languages, particularly focusing on surface syntax across various ancient and medieval dialects. It examines the unmarked clausal configurations differing in languages such as Celtiberian, Cisalpine Celtic , Transalpine Celtic , Old Irish, and Old Brittonic. The analysis highlights key syntactic structures, including Subject-Object-Verb and Verb. Celtic Syntax investigates the syntactic structures of Celtic languages, focusing primarily on their unique word orders and initial consonant mutations."
       }
+    },
+    "Career": {
+      "summary": "A career is an individual's metaphorical \"journey\" through learning, work and other aspects of life. There are a number of ways to define career and the term is used in a variety of ways.",
+      "concepts": [
+        "career",
+        "aspects",
+        "define",
+        "individual",
+        "journey",
+        "learning"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Career",
+      "learned": "2026-10-22 02:52:36"
+    },
+    "JavaScript": {
+      "summary": "JavaScript (JS) is a programming language and core technology of the Web, alongside HTML and CSS. Created by Brendan Eich in 1995, it is maintained by Ecma International's TC39 technical committee, with related Web APIs maintained by W3C and WHATWG. In 2025, JavaScript was the most widely used programming language on GitHub. However, TypeScript, a statically typed superset of JavaScript that is stricter about types, overtook JavaScript on GitHub by August 2025.",
+      "concepts": [
+        "javascript",
+        "github",
+        "language",
+        "maintained",
+        "programming",
+        "august"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/JavaScript",
+      "learned": "2026-10-22 02:52:36"
+    },
+    "SQL": {
+      "summary": "In computing, SQL injection is a code injection technique used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution (e.g. to dump the database contents to the attacker). SQL injection must exploit a security vulnerability in an application's software , for example, when user input is either incorrectly filtered for string literal escape characters embedded in SQL statements or user input is not strongly typed and unexpectedly executed. SQL injection is mostly known as an attack vector for websites but can be used to attack any type of SQL database .",
+      "concepts": [
+        "injection",
+        "attack",
+        "mitigation",
+        "database",
+        "exploit",
+        "input",
+        "statements",
+        "blind"
+      ],
+      "source": "Wikipedia article + built-in blueprint + DuckDuckGo tutorials (live internet)",
+      "url": "https://en.wikipedia.org/wiki/SQL_injection",
+      "learned": "2026-10-22 02:52:38",
+      "subtopics": {
+        "CREATE TABLE": "CREATE TABLE defines a table with named columns, types and constraints such as PRIMARY KEY and NOT NULL.",
+        "INSERT": "INSERT INTO table (columns) VALUES (...) adds new rows to a table.",
+        "SELECT": "SELECT chooses which columns to return, and FROM names the table; SELECT * returns every column.",
+        "WHERE": "WHERE keeps only the rows that satisfy a condition, using comparisons and AND, OR and NOT.",
+        "ORDER BY and LIMIT": "ORDER BY sorts the result, with DESC for largest first, and LIMIT keeps only the first few rows.",
+        "UPDATE and DELETE": "UPDATE changes values in existing rows and DELETE removes rows; always add a WHERE clause so only the intended rows are touched.",
+        "JOIN": "JOIN combines rows from two tables that share a matching column, such as students.course_id = courses.id.",
+        "GROUP BY and aggregates": "COUNT, SUM, AVG, MIN and MAX summarise rows, and GROUP BY computes them once per group; HAVING filters the groups.",
+        "constraints and keys": "A PRIMARY KEY identifies each row uniquely and a FOREIGN KEY links a row to a row in another table.",
+        "indexes": "An index makes lookups on a column much faster at the cost of a little extra storage when writing.",
+        "History": "Discussions of SQL injection began in the late 1990's, including in a 1998 article in Phrack Magazine . SQL injection was ranked among the top 10 web application vulnerabilities of 2007 and 2010 by the Open Web Application Security Project (OWASP).",
+        "Root cause": "SQL injection is a common security vulnerability that arises from letting attacker-supplied data become SQL code. This happens when programmers assemble SQL queries either by string interpolation or by concatenating SQL commands with user supplied data.",
+        "Ways to exploit": "Although the root cause of all SQL injections is the same, there are different techniques to exploit it. Some of them are discussed below:",
+        "Getting direct output or action": "Imagine a program creates a SQL statement using the following string assignment command : var statement = \"SELECT * FROM users WHERE name = '\" + userName + \"'\" ;",
+        "Blind SQL injection": "Blind SQL injection is used when a web application is vulnerable to a SQL injection, but the results of the injection are not visible to the attacker.",
+        "Second-order SQL injection": "Second-order SQL injection occurs when an application only guards its SQL against immediate user input, but has a less strict policy when dealing with data already stored in the system.",
+        "Out-of-Band SQL injection": "Out-of-Band (OOB) SQL injection occurs when the results of the SQLi can only be retrieved by a separate outbound HTTP or DNS channel from the target to a listening server.",
+        "SQL injection mitigation": "SQL injection is a well-known attack that can be mitigated with established security measures. However, a 2015 cyberattack on British telecommunications company TalkTalk exploited an SQL injection vulnerability, compromising the personal data of approximately 400,000 customers.",
+        "Core mitigation": "Most development platforms support parameterized statements, also known as placeholders or bind variables , to securely handle user input instead of embedding it in SQL queries.",
+        "Supplementary mitigation": "Object–relational mapping (ORM) frameworks provide an object-oriented interface for interacting with relational databases . While ORMs typically offer built-in protections against SQL injection, they can still be vulnerable if not properly implemented.",
+        "Deprecated/secondary approaches": "String escaping is generally discouraged as a primary defense against SQL injection. OWASP describes this approach as \"frail compared to other defenses\" and notes that it may not be effective in all situations.",
+        "Web tutorial notes": "SQL examples you can run and edit in the browser, covering Syntax , SELECT, SELECT DISTINCT and more. In this tutorial we will use the well-known Northwind sample database (included in MS Access and MS SQL Server). Below is a selection from the Customers table used in the examples : ... The table above contains five records (one for each customer) and seven columns (CustomerID, CustomerName, ContactName, Address, City, PostalCode, and Country). SQL syntax is a unique set of rules and guidelines to be followed while writing SQL statements. This tutorial gives you a quick start with SQL by listing all the basic SQL Syntax ."
+      },
+      "code_examples": [
+        "-- recipe: schema\nCREATE TABLE students (\n    id INTEGER PRIMARY KEY,\n    name TEXT NOT NULL,\n    course TEXT NOT NULL,\n    marks INTEGER CHECK (marks BETWEEN 0 AND 100)\n);\n\nINSERT INTO students (name, course, marks) VALUES\n    ('Asha', 'Finance', 88),\n    ('Ravi', 'Accounting', 74),\n    ('Meera', 'Finance', 93),\n    ('Kabir', 'Economics', 67);\n\n-- who scored 80 or more, best first\nSELECT name, course, marks\nFROM students\nWHERE marks >= 80\nORDER BY marks DESC;",
+        "-- recipe: join\nCREATE TABLE courses (\n    id INTEGER PRIMARY KEY,\n    title TEXT NOT NULL\n);\n\nCREATE TABLE students (\n    id INTEGER PRIMARY KEY,\n    name TEXT NOT NULL,\n    course_id INTEGER NOT NULL REFERENCES courses (id),\n    marks INTEGER\n);\n\nINSERT INTO courses (id, title) VALUES (1, 'Finance'), (2, 'Accounting');\nINSERT INTO students (name, course_id, marks) VALUES ('Asha', 1, 88), ('Ravi', 2, 74), ('Meera', 1, 93);\n\n-- JOIN matches each student to the course row that shares the same id\nSELECT students.name, courses.title, students.marks\nFROM students\nJOIN courses ON students.course_id = courses.id\nORDER BY courses.title, students.marks DESC;",
+        "-- recipe: aggregate\nCREATE TABLE sales (\n    id INTEGER PRIMARY KEY,\n    region TEXT NOT NULL,\n    amount REAL NOT NULL\n);\n\nINSERT INTO sales (region, amount) VALUES\n    ('North', 120.50), ('North', 80.00), ('South', 200.25), ('South', 150.75), ('East', 99.99);\n\n-- one summary row per region, keeping only regions that sold more than 150 in total\nSELECT region,\n       COUNT(*) AS orders,\n       SUM(amount) AS total,\n       ROUND(AVG(amount), 2) AS average\nFROM sales\nGROUP BY region\nHAVING SUM(amount) > 150\nORDER BY total DESC;",
+        "' OR '1'='1",
+        "' OR '1'='1' --\n' OR '1'='1' {\n' OR '1'='1' /*",
+        "SELECT * FROM users WHERE name = '' OR '1'='1';",
+        "SELECT * FROM users WHERE name = '' OR '1'='1' -- ';",
+        "SELECT * FROM users WHERE name = 'a';DROP TABLE users; SELECT * FROM userinfo WHERE 't' = 't';",
+        "SELECT * FROM bookreviews WHERE ID = '5';"
+      ],
+      "building_blocks": [
+        "CREATE TABLE",
+        "INSERT INTO",
+        "SELECT",
+        "FROM",
+        "WHERE",
+        "ORDER BY",
+        "GROUP BY",
+        "HAVING",
+        "JOIN ... ON",
+        "COUNT()",
+        "AVG()",
+        "SUM()",
+        "PRIMARY KEY",
+        "NOT NULL",
+        "LIMIT",
+        "susan",
+        "' and age = 2",
+        "' or 1=1; --",
+        "{{cite web}}",
+        "'",
+        "2",
+        "\\",
+        "a';",
+        "and age = 2",
+        "mysql_query()"
+      ]
     }
   },
   "creator_teachings": [
@@ -5343,6 +5470,24 @@
       "kind": "bonding",
       "score": 0.97,
       "passes": 0
+    },
+    {
+      "time": "2026-10-22 02:52:36",
+      "kind": "explore_report",
+      "score": 0.853,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-22 02:52:36",
+      "kind": "explore_report",
+      "score": 0.853,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-22 02:52:38",
+      "kind": "daydream",
+      "score": 0.913,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -5390,7 +5535,11 @@
     "lemons",
     "simple",
     "typing",
-    "celtic"
+    "celtic",
+    "career",
+    "colors",
+    "javascript",
+    "sql"
   ],
   "sensory_log": []
 }
