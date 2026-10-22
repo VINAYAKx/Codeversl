@@ -22,6 +22,8 @@ synthetic_living_brain.py.  Pure standard library (urllib, json, re, difflib, ..
 Run it:      python3 language_cortex.py                 (the brain boots with the language cortex attached)
 Options:     --fresh  --demo  --auto-only  --learn-language  --rounds N     (all the flags of the brain still work)
 Commands:    /vocab  /learn_english  /define <word>  /words  /grammar   plus every command of the brain.
+Pasting:     essays and multi-line text are read as ONE block: pasted lines, piped stdin, a long single line, a fenced
+             block (three quote marks or backticks, close with the same) or /paste ... /end (Colab: a real text box).
 Say:         "go learn how to talk"   "learn English"   "learn words and meanings"
              "what does serendipity mean?"   "define curious"   "synonyms of happy"   "use curious in a sentence"
 Use in code: import language_cortex as lc          (importing installs the hooks: every new brain gets the cortex)
@@ -37,6 +39,8 @@ Honest design notes
     natural modifiers, and learned clause statistics choose connectors.  It is simple English, built on purpose.
 """
 
+import builtins
+import codecs
 import difflib
 import hashlib
 import html
@@ -44,8 +48,10 @@ import json
 import os
 import random
 import re
+import select
 import sys
 import time
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -1148,10 +1154,13 @@ class WernickeArea:
             pending.append(w)
 
     # ---- unfamiliar words in what Max says ----
-    def unfamiliar(self, text: str) -> List[str]:
+    def unfamiliar(self, text: str, max_chars: int = 600) -> List[str]:
+        """Words in `text` that have no meaning yet. Chat lines are short (max_chars); a pasted block passes a larger limit and gets
+        its words back most-frequent first."""
         raw = text or ""
-        if raw.lstrip().startswith("/") or len(raw) > 50000:
+        if raw.lstrip().startswith("/") or len(raw) > max_chars:
             return []
+        raw = re.sub(r"\S{41,}", " ", raw)                      # no word is that long; also keeps every later regex linear
         scrubbed = re.sub(r"https?://\S+|\S+[./\\]\S+|\S*\d\S*|`[^`]*`", " ", raw)
         brain = self.cx.brain
         skip = set(STOP_FOR_LOOKUP) | set(brain.explorer.SEED.keys()) | {
@@ -1159,7 +1168,11 @@ class WernickeArea:
         for title, e in brain.memory.facts.items():
             skip.update(re.findall(r"[a-z]+", title.lower()))
             skip.update(c.lower() for c in e.get("concepts", []))
-        found: List[str] = []
+        counts: Dict[str, int] = {}
+        passed: set = set()
+        refused: set = set()
+        retry = FAILED_RETRY_SECONDS
+        failed = self.meta.get("failed") or {}
         sentence_start = True
         for m in re.finditer(r"[A-Za-z][A-Za-z'\-]*|[.!?]", scrubbed):
             tok = m.group(0)
@@ -1168,29 +1181,40 @@ class WernickeArea:
                 continue
             lw = self.norm(tok)
             was_start, sentence_start = sentence_start, False
+            if lw in refused:
+                continue
+            if lw in passed and not (tok[0].isupper() and not was_start):
+                counts[lw] += 1
+                continue
             if len(lw) < 3 or len(lw) > 30 or lw in skip or tok.endswith("'") or tok.isupper():
+                refused.add(lw)
                 continue
             if tok[0].isupper() and not was_start:
                 self.cx.note_name(tok)
                 continue
             if self.has_definition(lw) or self.known_base(lw):
+                refused.add(lw)
                 continue
-            if (self.meta.get("failed") or {}).get(lw) and time.time() - float(self.meta["failed"][lw]) < FAILED_RETRY_SECONDS:
+            if failed.get(lw) and time.time() - float(failed[lw]) < retry:
+                refused.add(lw)
                 continue
-            if lw not in found:
-                found.append(lw)
-        return found
+            passed.add(lw)
+            counts[lw] = counts.get(lw, 0) + 1
+        words = list(counts)
+        if len(raw) > 600:
+            words.sort(key=lambda w: -counts[w])
+        return words
 
-    def notice(self, text: str, limit: int = 3, budget: float = 9.0) -> List[str]:
+    def notice(self, text: str, limit: int = 3, budget: float = 9.0, max_chars: int = 600) -> List[str]:
         """Look up the unfamiliar words Max just used (a few, within a time budget). Returns the words newly learned."""
-        words = self.unfamiliar(text)
+        words = self.unfamiliar(text, max_chars)
         if not words:
             return []
         learned: List[str] = []
         started = time.time()
         for index, w in enumerate(words):
             if index >= limit or time.time() - started > budget or network_is_down():
-                for rest in words[index:]:
+                for rest in words[index:index + 400]:
                     self.queue(rest)
                 break
             res = self.lookup(w)
@@ -1200,7 +1224,7 @@ class WernickeArea:
                 slb.show("[wernicke] new word '%s' (%s): %s" % (w, e.get("part_of_speech", "?"), slb.first_sentence(e.get("definition", ""), 110)),
                          indent=2, hang=4)
             elif res["status"] == "offline":
-                for rest in words[index:]:
+                for rest in words[index:index + 400]:
                     self.queue(rest)
                 break
         return learned
@@ -1915,6 +1939,61 @@ class BrocaArea:
                     "means, teach me with '%s means ...' and I will remember it." % (w, tip, w))
         return "I could not work out what '%s' means just now, because the word looks unusual to me. Could you spell it again?" % w
 
+    def block_topic(self, sentences: List[str]) -> str:
+        """The noun that a pasted text keeps coming back to ('' when nothing repeats)."""
+        counts: Dict[str, int] = {}
+        for s in sentences[:300]:
+            toks = tokenize(s[:400])
+            for tok, tg in zip(toks, self.tagger.tag(toks)):
+                lw = tok.lower()
+                if tg == "NOUN" and len(lw) >= 4 and lw.isalpha() and lw not in GENERIC_NOUNS and lw not in STOP_FOR_LOOKUP \
+                        and lw not in TIME_WORDS:
+                    counts[lw] = counts.get(lw, 0) + 1
+        if not counts:
+            return ""
+        word, n = max(counts.items(), key=lambda kv: kv[1])
+        return word if n >= 2 else ""
+
+    def block_report(self, ctx: Dict[str, Any]) -> str:
+        """What the brain says after reading a pasted block: a short account, never an echo of the text."""
+        blk = ctx.get("block") or {}
+        name = self.cx.creator
+        rnd = random.Random(int(blk.get("chars", 0)))
+
+        def count(k: int, noun: str) -> str:
+            return "%d %s%s" % (k, noun, "" if k == 1 else "s")
+        if blk.get("repeat"):
+            return ("I have already read this text, %s, because you shared it with me before, so I kept what I learned the first "
+                    "time. Which part of it would you like to talk about?" % name)
+        n, par, learned = int(blk.get("sentences", 0)), int(blk.get("paragraphs", 1)), int(blk.get("learned", 0))
+        parts = [rnd.choice(("Thank you for sharing this with me, %s.", "I read everything you pasted, %s.",
+                             "That was a good piece of text, %s.")) % name]
+        parts.append("It had %s in %s." % (count(n, "sentence"), count(par, "paragraph")))
+        if learned:
+            sk = int(blk.get("skeletons", 0))
+            tail = (", and %s in them %s new to me" % (count(sk, "sentence pattern"), "was" if sk == 1 else "were")) if sk else ""
+            parts.append("I learned from %d of them%s." % (learned, tail))
+        else:
+            parts.append("Most of the sentences were too long or too unusual for me to learn from, so I only kept the words.")
+        if blk.get("seen", 0) > blk.get("limit", 10 ** 9):
+            parts.append("It was very long, so I read the first %d sentences." % blk["limit"])
+        topic = blk.get("topic")
+        if topic:
+            parts.append("The word that came up most often was '%s'." % topic)
+        new = blk.get("new_words") or []
+        if new:
+            names = ["'%s'" % w for w, _p, _d in new[:4]]
+            parts.append("I also looked up and learned %s%s." % (self.join_list(names), " and %d more" % (len(new) - 4) if len(new) > 4 else ""))
+            w, pos, d = new[0]
+            parts.append("For instance, '%s' is %s %s. %s." % (w, a_an(pos), pos, self.entry_sentence({"definition": d}, w)))
+        if blk.get("pending"):
+            parts.append("I met %s I could not look up yet, so I wrote them down for later." % count(int(blk["pending"]), "new word"))
+        if blk.get("vetoed"):
+            parts.append("I skipped %s that my safety checks flagged." % count(int(blk["vetoed"]), "passage"))
+        parts.append(rnd.choice(("Which part would you like to talk about?", "What made you want to share it with me?",
+                                 ("Would you like me to study '%s' in more depth?" % topic) if topic else "What would you like to do with it?")))
+        return " ".join(parts)
+
     @staticmethod
     def join_list(items: List[str], conj: str = "and") -> str:
         items = [i for i in items if i]
@@ -2204,6 +2283,7 @@ class AutonomousLanguageCortex:
         self.last_shape: Optional[str] = None
         self.errors: List[str] = []
         self._said = False
+        self._pending_block: Optional[str] = None
 
     # ---- plumbing ----
     @property
@@ -2335,6 +2415,12 @@ class AutonomousLanguageCortex:
         t = (text or "").strip()
         if not t or t.startswith("/"):
             return False
+        block = self._pending_block
+        self._pending_block = None
+        if block is None and self.is_block_text(t):
+            block = t                                            # a long text that reached hear() directly (code, Colab cell, other loop)
+        if block is not None:
+            return self._handle_block(block, tone, was_lonely)
         common = {"tone": tone, "was_lonely": was_lonely}
         saved = False
         new_words: List[str] = []
@@ -2382,20 +2468,99 @@ class AutonomousLanguageCortex:
             b.memory.save(b.chem)
         return handled
 
+    # ---- pasted blocks: essays, articles, any multi-line text ----
+    @staticmethod
+    def is_block_text(text: str) -> bool:
+        t = (text or "").strip()
+        return bool(t) and not t.startswith("/") and ("\n" in t or len(t) > BLOCK_LONG_LINE)
+
+    def read_block(self, text: str) -> None:
+        """Entry point for a whole pasted block. The brain's own pipeline (safety, memory, chemistry, skills) sees a short preview;
+        this cortex reads the entire text."""
+        text = clean_block(text)
+        if not text:
+            return
+        self._pending_block = text
+        try:
+            self.brain.hear(block_preview(text), force_intent="CASUAL_BONDING")
+        finally:
+            self._pending_block = None
+
+    def _safe_pieces(self, sentences: List[str]) -> Tuple[List[str], int]:
+        """Run the safety core over the text in sentence-aligned pieces; flagged pieces are not learned from."""
+        keep: List[str] = []
+        vetoed = 0
+        piece: List[str] = []
+        size = 0
+
+        def flush() -> None:
+            nonlocal vetoed
+            if not piece:
+                return
+            try:
+                ok = bool(self.brain.safety.verify_action_safety("lexicon_text", " ".join(piece))[0])
+            except Exception:
+                ok = True
+            if ok:
+                keep.extend(piece)
+            else:
+                vetoed += 1
+        for s in sentences:
+            if size + len(s) > BLOCK_SAFETY_CHUNK and piece:
+                flush()
+                piece, size = [], 0
+            piece.append(s)
+            size += len(s) + 1
+        flush()
+        return keep, vetoed
+
+    def learn_block(self, sentences: List[str], source: str = "pasted text") -> Dict[str, int]:
+        total = {"sentences": 0, "skeletons": 0, "stubs": 0, "duplicate": 0, "chunks": 0}
+        for i in range(0, len(sentences), 400):
+            st = self.ingest_corpus_sentences(" ".join(sentences[i:i + 400]), source)
+            total["chunks"] += 1
+            for k in ("sentences", "skeletons", "stubs", "duplicate"):
+                total[k] += int(st.get(k, 0))
+        return total
+
+    def _handle_block(self, block: str, tone: Any, was_lonely: bool) -> bool:
+        b = self.brain
+        prose, paragraphs = block_to_prose(block)
+        all_sentences = split_sentences(prose)
+        sentences = all_sentences[:MAX_BLOCK_SENTENCES]
+        safe, vetoed = self._safe_pieces(sentences)
+        stats = self.learn_block(safe)
+        text = " ".join(safe)
+        pending_before = len(self.meta.get("pending_words", []))
+        words = self.wernicke.notice(text, limit=BLOCK_LOOKUPS, budget=12.0, max_chars=MAX_BLOCK_CHARS)
+        self.wernicke.note_use(text[:30000])
+        new_words = []
+        for w in words:
+            e = self.wernicke.get(w) or {}
+            new_words.append((w, e.get("part_of_speech", "word"), e.get("definition", "")))
+        blk = {"chars": len(block), "paragraphs": paragraphs, "sentences": len(sentences), "seen": len(all_sentences),
+               "limit": MAX_BLOCK_SENTENCES, "learned": stats["sentences"], "skeletons": stats["skeletons"],
+               "repeat": bool(stats["chunks"]) and stats["duplicate"] == stats["chunks"], "vetoed": vetoed,
+               "topic": self.broca.block_topic(safe), "new_words": new_words,
+               "pending": max(0, len(self.meta.get("pending_words", [])) - pending_before)}
+        self._say("reply", "block_reading", {"tone": tone, "was_lonely": was_lonely, "block": blk, "keywords": []})
+        b.memory.save(b.chem)
+        return True
+
     # ---- speaking: the compose hook ----
     def compose(self, kind: str, ctx: Dict[str, Any], chem: Any) -> Optional[str]:
         """A natural draft for the kinds this cortex owns; None lets the brain's own composer answer."""
         self.ensure_ready()
-        if kind == "passage_study":
-            nw = ctx.get("new_words") or []
-            wp = (" and learned %d new word(s): %s" % (len(nw), ", ".join(nw))) if nw else ""
-            return self.finish("I studied your %d-word passage, %s. I absorbed %d sentence(s) into my grammar graph%s, and saved it to memory. What part should we explore next?" % (ctx.get("words", 0), self.creator, ctx.get("sentences", 1), wp), ctx, chem)
         if kind == "word_meaning":
             body = self.broca.word_meaning(ctx) if ctx.get("wanted") != "taught" else self._taught_line(ctx)
             ctx["keywords"] = [ctx.get("word", "")]
         elif kind == "language_lesson":
             body = self.broca.lesson_report(ctx)
             ctx["keywords"] = ["words"]
+        elif kind == "block_reading":
+            body = self.broca.block_report(ctx)
+            topic = (ctx.get("block") or {}).get("topic")
+            ctx["keywords"] = [topic] if topic else []
         elif kind in ("conversation", "bonding"):
             if kind == "bonding" and (ctx.get("greeting") or ctx.get("research_failed") or ctx.get("related") or not ctx.get("text")):
                 return None                                # the brain's own greeting / honest-failure wording stays in charge
@@ -2549,9 +2714,355 @@ class AutonomousLanguageCortex:
 
 
 # ======================================================================================
+# Terminal input that survives pastes: multi-line blocks, very long lines, piped stdin
+# ======================================================================================
+PASTE_COMMANDS = ("/paste", "/block", "/essay")
+BLOCK_FENCES = ('"""', "'''", "```")
+BLOCK_END = ("/end", "/send", "/done")
+BLOCK_LONG_LINE = 400            # one line this long is reading material, not a chat turn
+BLOCK_PIPE_MIN_CHARS = 300       # piped stdin carries no timing: this much consecutive text ...
+BLOCK_PIPE_MIN_LINES = 4         # ... or this many consecutive lines is one block; shorter runs stay separate scripted turns
+BLOCK_BURST_SECONDS = 0.15       # terminal: lines closer together than this were pasted, not typed
+MAX_BLOCK_CHARS = 3000000
+PREVIEW_CHARS = 600              # what the brain's own pipeline (safety, memory, skills) sees of a block
+BLOCK_LOOKUPS = 8                # dictionary look-ups per pasted block
+MAX_BLOCK_SENTENCES = 6000
+BLOCK_SAFETY_CHUNK = 6000
+
+_CTRL_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f\u200b\u200c\u200d\u2060\ufeff]")
+_BULLET_RE = re.compile(r"^\s*(?:[-*>\u2022\u25cf]+|\d{1,3}[.)])\s+")
+
+
+def clean_block(text: Any) -> str:
+    """Pasted text from any source: one newline style, no control or zero-width characters, composed Unicode."""
+    t = unicodedata.normalize("NFC", str(text or ""))
+    t = t.replace("\r\n", "\n").replace("\r", "\n").replace("\t", "    ")
+    return _CTRL_RE.sub("", t).strip()
+
+
+def block_preview(text: str, limit: int = PREVIEW_CHARS) -> str:
+    flat = re.sub(r"\s+", " ", text[:limit * 4]).strip()
+    if len(flat) <= limit and len(text) <= limit * 4:
+        return flat
+    return flat[:limit].rsplit(" ", 1)[0].rstrip(" ,;:") + " ..."
+
+
+def _ends_sentence(s: str) -> bool:
+    return bool(re.search("[.!?][\"')\\]]*$", s[-6:]))
+
+
+def block_to_prose(text: str) -> Tuple[str, int]:
+    """Hard-wrapped lines are re-joined; headings, bullets and paragraph ends get a full stop so the sentence splitter sees them.
+    Returns (prose, number of paragraphs)."""
+    lines = [_BULLET_RE.sub("", ln).strip() for ln in clean_block(text).split("\n")]
+    paras: List[str] = []
+    cur = ""
+    for ln in lines:
+        if not ln:
+            if cur:
+                paras.append(cur)
+                cur = ""
+            continue
+        if not cur:
+            cur = ln
+        elif _ends_sentence(cur):
+            cur += " " + ln
+        elif ln[:1].isupper() and len(cur.split()) <= 10 and cur[-1] not in ",;:-":
+            cur += ". " + ln                                   # a short line without a full stop is a heading or a list item
+        else:
+            cur += " " + ln                                    # a soft wrap in the middle of a sentence
+    if cur:
+        paras.append(cur)
+    paras = [p if _ends_sentence(p) else p + "." for p in paras]
+    return " ".join(paras), len(paras)
+
+
+def colab_textarea() -> Optional[str]:
+    """Colab's input() box is one line and browsers cut pasted newlines; a real text area has no such limit.
+    Returns None outside Colab (or if the box cannot be shown) so the caller falls back to line-by-line paste mode."""
+    try:
+        from google.colab import output as colab_output          # exists only inside Colab
+        from IPython.display import HTML, Javascript, display
+    except Exception:
+        return None
+    try:
+        display(HTML('<div id="lc-box" style="margin:6px 0"><textarea id="lc-text" rows="12" style="width:98%;font-family:monospace" '
+                     'placeholder="Paste your text here, then press the button."></textarea><br>'
+                     '<button id="lc-send" style="padding:6px 14px;margin-top:4px">Send to my brain</button></div>'))
+        display(Javascript("window.lcPasteBox = () => new Promise((resolve) => { document.getElementById('lc-send').onclick = () => "
+                           "{ const v = document.getElementById('lc-text').value; document.getElementById('lc-box').remove(); resolve(v); }; });"))
+        value = colab_output.eval_js("lcPasteBox()")
+        return value if isinstance(value, str) else None
+    except Exception:
+        return None
+
+
+class BlockInput:
+    """Reads CLI turns. A turn is one typed line, a command, or a whole pasted block.
+
+    * terminal: line 1 comes from input() (typing works exactly as before); whatever else the paste has already delivered is
+      drained without blocking, so a multi-line paste is one block instead of one turn per line. A terminal cuts any single
+      line at 4095 characters before Python sees it, so /paste switches the terminal to raw mode and has no such limit
+    * piped stdin / file: read directly from the descriptor (no hidden buffer), long runs of plain lines form one block while
+      short scripted lines stay separate turns; a line starting with '/' is always a command of its own
+    * Jupyter / Colab / Windows: plain input(); a block is a long line, a fenced block, or /paste (Colab: a text box)
+    """
+
+    def __init__(self) -> None:
+        self._input = builtins.input
+        self.pending: List[str] = []
+        self.fd: Optional[int] = None
+        self.tty = False
+        self.eof = False
+        self._tail = ""
+        self._decoder = codecs.getincrementaldecoder("utf-8")("replace")
+        try:
+            stdin = sys.stdin
+            if os.name == "posix" and stdin is not None and stdin is getattr(sys, "__stdin__", None) and \
+                    "ipykernel" not in sys.modules and "google.colab" not in sys.modules:
+                fd = stdin.fileno()
+                mode = os.fstat(fd).st_mode
+                import stat
+                if os.isatty(fd) or stat.S_ISFIFO(mode) or stat.S_ISREG(mode) or stat.S_ISSOCK(mode):
+                    self.fd, self.tty = fd, os.isatty(fd)
+        except Exception:
+            self.fd = None
+
+    # ---- low level ----
+    def _poll(self, timeout: Optional[float]) -> bool:
+        """Move what is waiting on stdin into self.pending as whole lines, waiting at most `timeout` seconds between chunks."""
+        got = False
+        while self.fd is not None and not self.eof:
+            try:
+                ready = select.select([self.fd], [], [], timeout)[0]
+                if not ready:
+                    break
+                chunk = os.read(self.fd, 1 << 16)
+            except (OSError, ValueError):
+                self.eof = True
+                break
+            if not chunk:
+                self.eof = True
+                tail = self._tail + self._decoder.decode(b"", final=True)
+                self._tail = ""
+                if tail:
+                    self.pending.append(tail)                      # a last line without a newline
+                    got = True
+                break
+            parts = (self._tail + self._decoder.decode(chunk)).split("\n")
+            self._tail = parts.pop()
+            if parts:
+                self.pending.extend(parts)
+                got = True
+            if timeout is None:
+                break
+            if sum(len(p) for p in self.pending) > MAX_BLOCK_CHARS:
+                break
+        return got
+
+    def readline(self, prompt: str = "") -> str:
+        """Drop-in for input(): serves lines already read ahead first. Raises EOFError at the end of the input."""
+        if self.pending:
+            return self.pending.pop(0)
+        if self.fd is None or self.tty:
+            return self._input(prompt)
+        sys.stdout.write(prompt)
+        sys.stdout.flush()
+        while not self.pending:
+            if self.eof:
+                raise EOFError
+            self._poll(None)
+        return self.pending.pop(0)
+
+    # ---- one turn ----
+    def read_turn(self, prompt: str) -> Tuple[str, str]:
+        """Returns (text, kind) with kind 'empty', 'command', 'line' or 'block'."""
+        first = self.readline(prompt)
+        s = first.strip()
+        if not s:
+            return "", "empty"
+        if self.tty and len(first) >= 4090:
+            print("  (That line reached the terminal's 4095-character limit, so its end was cut off by the terminal itself. "
+                  "For long text use /paste, paste, then /end; or paste it with line breaks.)")
+        word = s.split()[0].lower()
+        if word in PASTE_COMMANDS:
+            return self.read_paste(s[len(word):].strip()), "block"
+        for fence in BLOCK_FENCES:
+            if s.startswith(fence):
+                return self._read_fenced(s[len(fence):], fence), "block"
+        if s.startswith("/"):
+            return s, "command"
+        lines = [first]
+        if self.fd is not None:
+            self._poll(BLOCK_BURST_SECONDS)                        # the rest of a paste is already on its way
+        taken: List[str] = []
+        size = len(first)
+        while self.pending and size < MAX_BLOCK_CHARS:
+            nxt = self.pending[0]
+            if nxt.lstrip().startswith("/"):
+                break                                              # a command always ends the block
+            taken.append(self.pending.pop(0))
+            size += len(nxt) + 1
+        if taken:
+            filled = sum(1 for ln in taken if ln.strip())
+            if self.tty or size >= BLOCK_PIPE_MIN_CHARS or filled + 1 >= BLOCK_PIPE_MIN_LINES:
+                lines.extend(taken)
+            else:
+                self.pending[0:0] = taken                          # short piped lines: separate scripted turns
+        return "\n".join(lines), ("block" if len(lines) > 1 else "line")
+
+    def _read_fenced(self, rest: str, fence: str) -> str:
+        if rest.rstrip().endswith(fence) and len(rest.strip()) >= len(fence):
+            return rest.rstrip()[:-len(fence)]                     # opened and closed on the same line
+        lines = [rest] if rest.strip() else []
+        try:
+            while True:
+                ln = self.readline("  ... ")
+                if ln.strip().endswith(fence):
+                    tail = ln.rstrip()[:-len(fence)]
+                    if tail.strip():
+                        lines.append(tail)
+                    break
+                lines.append(ln)
+        except EOFError:
+            pass
+        except KeyboardInterrupt:
+            print("\n  (cancelled)")
+            return ""
+        return "\n".join(lines)
+
+    # ---- explicit paste mode ----
+    def read_paste(self, first_text: str = "") -> str:
+        lines = [first_text] if first_text else []
+        try:
+            if self.fd is None:
+                box = colab_textarea()
+                if box is not None:
+                    return box
+            print("  (paste mode: paste or type your text, then finish with a line containing only /end)")
+            if self.tty:
+                text = self._raw_paste()
+                if text is not None:
+                    return "\n".join(lines + [text]) if lines else text
+            while True:
+                ln = self.readline("  ... ")
+                if ln.strip().lower() in BLOCK_END:
+                    break
+                lines.append(ln)
+                if sum(len(x) for x in lines) > MAX_BLOCK_CHARS:
+                    break
+        except EOFError:
+            pass
+        except KeyboardInterrupt:
+            print("\n  (paste cancelled)")
+            return ""
+        return "\n".join(lines)
+
+    def _raw_paste(self) -> Optional[str]:
+        """Terminal paste mode: switch off the line discipline (its 4095-character line limit and line editing) while reading, so a
+        paragraph of any length arrives whole. Ctrl-D or a line with /end finishes. Returns None when the terminal cannot do it."""
+        try:
+            import termios
+            fd = self.fd
+            saved = termios.tcgetattr(fd)
+            raw = termios.tcgetattr(fd)
+            raw[3] &= ~termios.ICANON
+            raw[6][termios.VMIN] = 1
+            raw[6][termios.VTIME] = 0
+        except Exception:
+            return None
+        end_re = re.compile(r"(?:^|\n)[ \t]*/(?:end|send|done)[ \t]*(?:\n|$)", re.I)
+        decoder = codecs.getincrementaldecoder("utf-8")("replace")
+        buf = ""
+        try:
+            termios.tcsetattr(fd, termios.TCSADRAIN, raw)
+            while len(buf) < MAX_BLOCK_CHARS:
+                chunk = os.read(fd, 1 << 16)
+                if not chunk:
+                    break
+                data = decoder.decode(chunk).replace("\r\n", "\n").replace("\r", "\n")
+                if "\x04" in data:
+                    buf += data.split("\x04")[0]
+                    break
+                window = len(buf)
+                buf += data
+                m = end_re.search(buf, max(0, window - 12))
+                if m:
+                    buf = buf[:m.start()]
+                    break
+        finally:
+            try:
+                termios.tcsetattr(fd, termios.TCSADRAIN, saved)
+            except Exception:
+                pass
+        return buf
+
+
+_ACTIVE_INPUT: Optional[BlockInput] = None
+
+
+def active_input() -> BlockInput:
+    return _ACTIVE_INPUT if _ACTIVE_INPUT is not None else BlockInput()
+
+
+def deliver_block(brain: Any, text: str) -> bool:
+    """Hand a pasted block to the language cortex (the brain's own pipeline sees only a preview)."""
+    text = clean_block(text)
+    if not text:
+        print("  (nothing was pasted)")
+        return True
+    slb.show("(received a pasted block: %d characters, %d line%s)" % (len(text), text.count("\n") + 1, "" if "\n" not in text else "s"), indent=2)
+    cx = getattr(brain, "language", None)
+    if cx is not None:
+        cx.read_block(text)
+    else:
+        brain.hear(block_preview(text))
+    return True
+
+
+def block_interactive_loop(brain: Any) -> None:
+    """Replaces slb.interactive_loop: the same loop, but a turn may be a whole pasted block."""
+    global _ACTIVE_INPUT
+    reader = BlockInput()
+    _ACTIVE_INPUT = reader
+    brain.banner("INTERACTIVE CLI - speak with your brain, %s" % brain.safety.creator_name)
+    slb.show_block(slb.HELP)
+    print("(If you stay silent for %d seconds, I will daydream or explore quietly on my own.)" % int(slb.IDLE_SECONDS))
+    watcher = slb.IdleAutonomy(brain, slb.IDLE_SECONDS)
+    watcher.start()
+    original_input = builtins.input
+    builtins.input = reader.readline                              # the brain's own prompts (such as /upload) read from the same source
+    try:
+        while True:
+            try:
+                line, kind = reader.read_turn("\n[%s] > " % brain.safety.creator_name)
+            except (EOFError, KeyboardInterrupt):
+                print()
+                break
+            watcher.touch()
+            if not line.strip():
+                continue
+            with brain.lock:
+                if kind == "block" or AutonomousLanguageCortex.is_block_text(line):
+                    keep_going = deliver_block(brain, line)
+                else:
+                    keep_going = slb.handle_line(brain, line.strip())
+            watcher.touch()
+            if not keep_going:
+                break
+    finally:
+        builtins.input = original_input
+        _ACTIVE_INPUT = None
+    watcher.stop()
+    with brain.lock:
+        brain.shutdown()
+
+
+# ======================================================================================
 # Plugging the cortex into the brain WITHOUT editing synthetic_living_brain.py
 # ======================================================================================
-LANGUAGE_HELP = ("\nLanguage cortex: /vocab [rounds|list] | /learn_english [rounds] | /define <word> | /words | /grammar\n"
+LANGUAGE_HELP = ("\nLanguage cortex: /vocab [rounds|list] | /learn_english [rounds] | /define <word> | /words | /grammar | /paste ... /end\n"
+                 "Long text: just paste it (several lines, piped input and one very long line all arrive as one block), or wrap it in \"\"\" ... \"\"\".\n"
                  "Try: 'go learn how to talk', 'what does serendipity mean?', 'synonyms of happy', 'use curious in a sentence', "
                  "'blorf means a small fish', or simply chat.")
 
@@ -2607,7 +3118,7 @@ def install_language_cortex() -> bool:
 
     def compose(self, kind, ctx, chem):
         cx = _cortex_of(self)
-        if cx is not None and kind in ("bonding", "conversation", "word_meaning", "language_lesson"):
+        if cx is not None and kind in ("bonding", "conversation", "word_meaning", "language_lesson", "block_reading"):
             try:
                 draft = cx.compose(kind, ctx, chem)
                 if draft:
@@ -2617,7 +3128,7 @@ def install_language_cortex() -> bool:
         return original_compose(self, kind, ctx, chem)
     Prefrontal.compose = compose
     for kind, weights in (("conversation", (0.30, 0.30, 0.05, 0.35)), ("word_meaning", (0.40, 0.15, 0.05, 0.40)),
-                          ("language_lesson", (0.35, 0.20, 0.10, 0.35))):
+                          ("language_lesson", (0.35, 0.20, 0.10, 0.35)), ("block_reading", (0.35, 0.20, 0.10, 0.35))):
         slb.AnteriorCingulateCritic.WEIGHTS.setdefault(kind, weights)
 
     # 5. reading: every article, page, file and study passes through ingest_corpus_sentences()
@@ -2706,21 +3217,12 @@ def install_language_cortex() -> bool:
     Brain.status = status
 
     slb.HELP = slb.HELP + LANGUAGE_HELP
+    if all(hasattr(slb, name) for name in ("IdleAutonomy", "IDLE_SECONDS", "show_block")):
+        slb.interactive_loop = block_interactive_loop             # the CLI loop that understands pasted blocks
     original_handle_line = slb.handle_line
 
     def handle_line(brain, line):
         cx = getattr(brain, "language", None)
-        m = re.search(r"/(?:study|explore|master)\s+\S+", line)
-        if cx is not None and m and not line.startswith("/"):
-            line = line[m.start():]
-        if cx is not None and ((line.startswith(("/study ", "/explore ", "/master ")) and len(line.split()) > 6) or (not line.startswith("/") and len(line.split()) >= 25 and not slb.detect_code_domains(line))):
-            arg = re.sub(r"^/\w+\s+", "", line).strip()
-            st = cx.ingest_corpus_sentences(arg, "passage")
-            nw = cx.wernicke.notice(arg, limit=6, budget=12.0)
-            brain.memory.add_teaching(arg[:500])
-            brain.say("language", "passage_study", {"sentences": max(1, st.get("sentences", 1)), "new_words": nw, "words": len(arg.split()), "keywords": nw[:2]})
-            brain.memory.save(brain.chem)
-            return True
         if cx is not None and line.startswith("/"):
             cmd, _, arg = line.partition(" ")
             cmd, arg = cmd.lower(), arg.strip()
@@ -2732,6 +3234,9 @@ def install_language_cortex() -> bool:
                     default = 1 if cmd == "/vocab" else 2
                     rounds = int(arg) if arg.isdigit() else default
                     cx.learn_how_to_talk(rounds=min(max(rounds, 1), 10), speak=True)
+            elif cmd in PASTE_COMMANDS:
+                deliver_block(brain, active_input().read_paste(arg))
+                return True
             elif cmd == "/define":
                 if arg:
                     brain.hear("define " + arg)
@@ -2760,18 +3265,6 @@ def install_language_cortex() -> bool:
     Brain.ingest_corpus_sentences = lambda self, text, source="reading": self.language.ingest_corpus_sentences(text, source)
     Brain.define_word = lambda self, word: self.hear("define " + word)
 
-    import builtins, select
-    _oi = builtins.input
-    def _pi(p=""):
-        ln = _oi(p); ex = []
-        try:
-            while select.select([sys.stdin], [], [], 0.05)[0]:
-                m = sys.stdin.readline()
-                if not m: break
-                if m.strip(): ex.append(m.strip())
-        except Exception: pass
-        return " ".join([ln.strip()] + ex) if ex else ln
-    builtins.input = _pi
     slb._LANGUAGE_CORTEX_INSTALLED = True
     return True
 
