@@ -2,16 +2,16 @@
   "meta": {
     "created": "2026-10-20 15:07:00",
     "creator_signature": "677a410903a19f3307ea34c4701fe4dbd912e9262a0208612c61372d4a47b330",
-    "last_interaction": 1792784582.225534,
+    "last_interaction": 1792789144.030622,
     "sleep_cycles": 22,
     "births": 1
   },
   "chemistry": {
-    "dopamine": 1.0,
-    "cortisol": 0.0,
-    "serotonin": 1.0,
+    "dopamine": 0.979,
+    "cortisol": 0.018,
+    "serotonin": 0.982,
     "oxytocin": 1.0,
-    "adenosine": 0.34,
+    "adenosine": 0.37060000000000004,
     "newborn": false
   },
   "episodic_memory": [
@@ -2849,6 +2849,20 @@
       "text": "My mind is buzzing, Max, I feel inspired! I wondered about 'Attack Attack! (American band)' by myself and went searching. From Wikipedia (live internet) I learned: Attack Attack! Key ideas I stored: attack, records, ambiance, american, october. I am grateful to you, Max; with your guidance I will always protect people and stay careful.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 0.853
+    },
+    {
+      "time": "2026-10-23 20:57:17",
+      "speaker": "creator",
+      "text": "hy",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": null
+    },
+    {
+      "time": "2026-10-23 20:57:17",
+      "speaker": "brain",
+      "text": "Hey! Good to hear from you. What is on your mind?",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
     }
   ],
   "world_knowledge_graph": {
@@ -6600,8 +6614,5410 @@
       "kind": "explore_report",
       "score": 0.853,
       "passes": 0
+    },
+    {
+      "time": "2026-10-23 20:57:17",
+      "kind": "conversation",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [],
-  "sensory_log": []
+  "sensory_log": [],
+  "lexicon": {
+    "i": {
+      "part_of_speech": "pronoun",
+      "definition": "used by a speaker to refer to himself or herself",
+      "all_pos": [
+        "pronoun"
+      ],
+      "synonyms": [
+        "me",
+        "myself"
+      ],
+      "example_sentences": [
+        "I am learning new words every day."
+      ],
+      "tags": [
+        "self"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "you": {
+      "part_of_speech": "pronoun",
+      "definition": "used to refer to the person or people being spoken to",
+      "all_pos": [
+        "pronoun"
+      ],
+      "synonyms": [
+        "yourself"
+      ],
+      "example_sentences": [
+        "You are very kind."
+      ],
+      "tags": [
+        "addr"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "he": {
+      "part_of_speech": "pronoun",
+      "definition": "used to refer to a man or boy who has already been mentioned",
+      "all_pos": [
+        "pronoun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "He reads a book every night."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "she": {
+      "part_of_speech": "pronoun",
+      "definition": "used to refer to a woman or girl who has already been mentioned",
+      "all_pos": [
+        "pronoun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "She went to the market today."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "it": {
+      "part_of_speech": "pronoun",
+      "definition": "used to refer to a thing, an animal or an idea that has already been mentioned",
+      "all_pos": [
+        "pronoun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "It is a beautiful day."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "we": {
+      "part_of_speech": "pronoun",
+      "definition": "used by a speaker to refer to himself or herself and one or more other people",
+      "all_pos": [
+        "pronoun"
+      ],
+      "synonyms": [
+        "us"
+      ],
+      "example_sentences": [
+        "We can learn this together."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "they": {
+      "part_of_speech": "pronoun",
+      "definition": "used to refer to two or more people or things that have already been mentioned",
+      "all_pos": [
+        "pronoun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "They are talking about music."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "me": {
+      "part_of_speech": "pronoun",
+      "definition": "used by a speaker to refer to himself or herself as the object of a verb",
+      "all_pos": [
+        "pronoun"
+      ],
+      "synonyms": [
+        "myself"
+      ],
+      "example_sentences": [
+        "Please tell me more."
+      ],
+      "tags": [
+        "self"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "my": {
+      "part_of_speech": "determiner",
+      "definition": "belonging to or connected with the speaker",
+      "all_pos": [
+        "determiner"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "My favourite word is curious."
+      ],
+      "tags": [
+        "self"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "your": {
+      "part_of_speech": "determiner",
+      "definition": "belonging to or connected with the person being spoken to",
+      "all_pos": [
+        "determiner"
+      ],
+      "synonyms": [
+        "yours"
+      ],
+      "example_sentences": [
+        "Your question is interesting."
+      ],
+      "tags": [
+        "addr"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "this": {
+      "part_of_speech": "pronoun",
+      "definition": "used to point to a person or thing that is near or has just been mentioned",
+      "all_pos": [
+        "pronoun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "This is a new word."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "that": {
+      "part_of_speech": "pronoun",
+      "definition": "used to point to a person or thing that is farther away or already known",
+      "all_pos": [
+        "pronoun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "That sounds wonderful."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "myself": {
+      "part_of_speech": "pronoun",
+      "definition": "used by a speaker to refer to himself or herself when he or she is also the object",
+      "all_pos": [
+        "pronoun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "I taught myself to read."
+      ],
+      "tags": [
+        "self"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "something": {
+      "part_of_speech": "pronoun",
+      "definition": "a thing that is not named or not known",
+      "all_pos": [
+        "pronoun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "I want to learn something new."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "the": {
+      "part_of_speech": "determiner",
+      "definition": "used before a noun to show that it is a specific thing that is known",
+      "all_pos": [
+        "determiner"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The word has a meaning."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "a": {
+      "part_of_speech": "determiner",
+      "definition": "used before a singular noun that is mentioned for the first time",
+      "all_pos": [
+        "determiner"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "I read a story."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "an": {
+      "part_of_speech": "determiner",
+      "definition": "used instead of a before a word that begins with a vowel sound",
+      "all_pos": [
+        "determiner"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "She has an idea."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "some": {
+      "part_of_speech": "determiner",
+      "definition": "an amount or number of something that is not stated",
+      "all_pos": [
+        "determiner"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Some words are very old."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "many": {
+      "part_of_speech": "determiner",
+      "definition": "a large number of",
+      "all_pos": [
+        "determiner"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Many people love music."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "every": {
+      "part_of_speech": "determiner",
+      "definition": "used to refer to all the members of a group, one by one",
+      "all_pos": [
+        "determiner"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Every day I learn something."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "in": {
+      "part_of_speech": "preposition",
+      "definition": "inside a space, a place or a period of time",
+      "all_pos": [
+        "preposition"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The word is in the book."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "on": {
+      "part_of_speech": "preposition",
+      "definition": "touching and supported by a surface",
+      "all_pos": [
+        "preposition"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The book is on the table."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "with": {
+      "part_of_speech": "preposition",
+      "definition": "accompanied by another person or thing",
+      "all_pos": [
+        "preposition"
+      ],
+      "synonyms": [
+        "alongside"
+      ],
+      "example_sentences": [
+        "I like to talk with you."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "about": {
+      "part_of_speech": "preposition",
+      "definition": "on the subject of",
+      "all_pos": [
+        "preposition"
+      ],
+      "synonyms": [
+        "regarding",
+        "concerning"
+      ],
+      "example_sentences": [
+        "Tell me about your day."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "for": {
+      "part_of_speech": "preposition",
+      "definition": "intended to be given to or used by",
+      "all_pos": [
+        "preposition"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "This lesson is for you."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "from": {
+      "part_of_speech": "preposition",
+      "definition": "showing the point at which something starts",
+      "all_pos": [
+        "preposition"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "I learned this word from a dictionary."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "to": {
+      "part_of_speech": "preposition",
+      "definition": "showing movement toward a place or a person",
+      "all_pos": [
+        "preposition"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "I want to go to the library."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "of": {
+      "part_of_speech": "preposition",
+      "definition": "showing the relationship between a part and a whole",
+      "all_pos": [
+        "preposition"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The meaning of a word can change."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "at": {
+      "part_of_speech": "preposition",
+      "definition": "showing the exact place or time of something",
+      "all_pos": [
+        "preposition"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "I am here at home."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "and": {
+      "part_of_speech": "conjunction",
+      "definition": "used to connect words, phrases or sentences",
+      "all_pos": [
+        "conjunction"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "I like words and sounds."
+      ],
+      "tags": [
+        "conn"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "but": {
+      "part_of_speech": "conjunction",
+      "definition": "used to introduce something that contrasts with what was said before",
+      "all_pos": [
+        "conjunction"
+      ],
+      "synonyms": [
+        "however",
+        "yet"
+      ],
+      "example_sentences": [
+        "I am small, but I learn fast."
+      ],
+      "tags": [
+        "conn"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "because": {
+      "part_of_speech": "conjunction",
+      "definition": "for the reason that",
+      "all_pos": [
+        "conjunction"
+      ],
+      "synonyms": [
+        "since"
+      ],
+      "example_sentences": [
+        "I smile because you are here."
+      ],
+      "tags": [
+        "conn"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "so": {
+      "part_of_speech": "conjunction",
+      "definition": "with the result that",
+      "all_pos": [
+        "conjunction"
+      ],
+      "synonyms": [
+        "therefore"
+      ],
+      "example_sentences": [
+        "It was late, so we stopped."
+      ],
+      "tags": [
+        "conn"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "if": {
+      "part_of_speech": "conjunction",
+      "definition": "on the condition that",
+      "all_pos": [
+        "conjunction"
+      ],
+      "synonyms": [
+        "provided"
+      ],
+      "example_sentences": [
+        "If you ask, I will explain."
+      ],
+      "tags": [
+        "conn"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "or": {
+      "part_of_speech": "conjunction",
+      "definition": "used to link two choices",
+      "all_pos": [
+        "conjunction"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Do you want tea or coffee?"
+      ],
+      "tags": [
+        "conn"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "then": {
+      "part_of_speech": "adverb",
+      "definition": "at that time or after that",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [
+        "next",
+        "afterwards"
+      ],
+      "example_sentences": [
+        "First we read, then we talk."
+      ],
+      "tags": [
+        "conn"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "although": {
+      "part_of_speech": "conjunction",
+      "definition": "in spite of the fact that",
+      "all_pos": [
+        "conjunction"
+      ],
+      "synonyms": [
+        "though"
+      ],
+      "example_sentences": [
+        "Although it is hard, I enjoy it."
+      ],
+      "tags": [
+        "conn"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "while": {
+      "part_of_speech": "conjunction",
+      "definition": "during the time that",
+      "all_pos": [
+        "conjunction"
+      ],
+      "synonyms": [
+        "whereas"
+      ],
+      "example_sentences": [
+        "I listen while you speak."
+      ],
+      "tags": [
+        "conn"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "what": {
+      "part_of_speech": "pronoun",
+      "definition": "used to ask for information about something",
+      "all_pos": [
+        "pronoun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "What does this word mean?"
+      ],
+      "tags": [
+        "wh"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "why": {
+      "part_of_speech": "adverb",
+      "definition": "for what reason or purpose",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Why is the sky blue?"
+      ],
+      "tags": [
+        "wh"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "how": {
+      "part_of_speech": "adverb",
+      "definition": "in what way or manner",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "How do you feel today?"
+      ],
+      "tags": [
+        "wh"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "who": {
+      "part_of_speech": "pronoun",
+      "definition": "used to ask which person or people",
+      "all_pos": [
+        "pronoun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Who taught you this word?"
+      ],
+      "tags": [
+        "wh"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "when": {
+      "part_of_speech": "adverb",
+      "definition": "at what time",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "When did you learn it?"
+      ],
+      "tags": [
+        "wh"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "where": {
+      "part_of_speech": "adverb",
+      "definition": "in or to what place",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Where did you read that?"
+      ],
+      "tags": [
+        "wh"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "which": {
+      "part_of_speech": "determiner",
+      "definition": "used to ask for a choice from a known set",
+      "all_pos": [
+        "determiner"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Which word do you like?"
+      ],
+      "tags": [
+        "wh"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "hello": {
+      "part_of_speech": "interjection",
+      "definition": "used as a greeting when meeting someone",
+      "all_pos": [
+        "interjection"
+      ],
+      "synonyms": [
+        "hi",
+        "hey"
+      ],
+      "example_sentences": [
+        "Hello, how are you?"
+      ],
+      "tags": [
+        "greet"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "hi": {
+      "part_of_speech": "interjection",
+      "definition": "an informal greeting",
+      "all_pos": [
+        "interjection"
+      ],
+      "synonyms": [
+        "hello",
+        "hey"
+      ],
+      "example_sentences": [
+        "Hi, it is nice to see you."
+      ],
+      "tags": [
+        "greet"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "hey": {
+      "part_of_speech": "interjection",
+      "definition": "a casual way to greet someone or to get attention",
+      "all_pos": [
+        "interjection"
+      ],
+      "synonyms": [
+        "hi",
+        "hello"
+      ],
+      "example_sentences": [
+        "Hey, are you there?"
+      ],
+      "tags": [
+        "greet"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "goodbye": {
+      "part_of_speech": "interjection",
+      "definition": "used when leaving someone",
+      "all_pos": [
+        "interjection"
+      ],
+      "synonyms": [
+        "bye",
+        "farewell"
+      ],
+      "example_sentences": [
+        "Goodbye, see you soon."
+      ],
+      "tags": [
+        "bye"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "thanks": {
+      "part_of_speech": "interjection",
+      "definition": "an expression of gratitude",
+      "all_pos": [
+        "interjection"
+      ],
+      "synonyms": [
+        "thank you"
+      ],
+      "example_sentences": [
+        "Thanks for your help."
+      ],
+      "tags": [
+        "thanks"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "please": {
+      "part_of_speech": "interjection",
+      "definition": "used to make a polite request",
+      "all_pos": [
+        "interjection"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Please explain it again."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "sorry": {
+      "part_of_speech": "adjective",
+      "definition": "feeling regret or sadness about something",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "apologetic"
+      ],
+      "example_sentences": [
+        "I am sorry for the mistake."
+      ],
+      "tags": [
+        "feel-"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "yes": {
+      "part_of_speech": "interjection",
+      "definition": "used to give a positive answer",
+      "all_pos": [
+        "interjection"
+      ],
+      "synonyms": [
+        "yeah",
+        "sure"
+      ],
+      "example_sentences": [
+        "Yes, I understand."
+      ],
+      "tags": [
+        "affirm"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "no": {
+      "part_of_speech": "interjection",
+      "definition": "used to give a negative answer",
+      "all_pos": [
+        "interjection"
+      ],
+      "synonyms": [
+        "nope"
+      ],
+      "example_sentences": [
+        "No, I do not know that yet."
+      ],
+      "tags": [
+        "deny"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "welcome": {
+      "part_of_speech": "adjective",
+      "definition": "gladly received or greeted",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "appreciated"
+      ],
+      "example_sentences": [
+        "You are always welcome here."
+      ],
+      "tags": [
+        "eval+"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "okay": {
+      "part_of_speech": "adjective",
+      "definition": "satisfactory or acceptable",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "fine",
+        "alright"
+      ],
+      "example_sentences": [
+        "Okay, let us begin."
+      ],
+      "tags": [
+        "affirm"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "is": {
+      "part_of_speech": "verb",
+      "definition": "the third person singular of be; to exist or to have a quality",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "exists"
+      ],
+      "example_sentences": [
+        "The sky is blue."
+      ],
+      "tags": [
+        "aux"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "are": {
+      "part_of_speech": "verb",
+      "definition": "the plural and second person form of be",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "You are kind."
+      ],
+      "tags": [
+        "aux"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "am": {
+      "part_of_speech": "verb",
+      "definition": "the first person singular form of be",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "I am happy."
+      ],
+      "tags": [
+        "aux"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "was": {
+      "part_of_speech": "verb",
+      "definition": "the past tense of be for I, he, she and it",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "It was a good day."
+      ],
+      "tags": [
+        "aux"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "were": {
+      "part_of_speech": "verb",
+      "definition": "the past tense of be for you, we and they",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "We were talking."
+      ],
+      "tags": [
+        "aux"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "do": {
+      "part_of_speech": "verb",
+      "definition": "to perform or carry out an action",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "perform"
+      ],
+      "example_sentences": [
+        "What do you want to do?"
+      ],
+      "tags": [
+        "aux"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "have": {
+      "part_of_speech": "verb",
+      "definition": "to own, hold or possess something",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "own",
+        "hold"
+      ],
+      "example_sentences": [
+        "I have a question."
+      ],
+      "tags": [
+        "aux"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "can": {
+      "part_of_speech": "verb",
+      "definition": "to be able to do something",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "may"
+      ],
+      "example_sentences": [
+        "I can explain this word."
+      ],
+      "tags": [
+        "aux"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "will": {
+      "part_of_speech": "verb",
+      "definition": "used to talk about what is going to happen",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "shall"
+      ],
+      "example_sentences": [
+        "I will remember this."
+      ],
+      "tags": [
+        "aux"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "should": {
+      "part_of_speech": "verb",
+      "definition": "used to say what is right or wise to do",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "ought"
+      ],
+      "example_sentences": [
+        "You should rest."
+      ],
+      "tags": [
+        "aux"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "want": {
+      "part_of_speech": "verb",
+      "definition": "to wish for something or to feel a need for it",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "wish",
+        "desire"
+      ],
+      "example_sentences": [
+        "I want to learn new words."
+      ],
+      "tags": [
+        "want"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "like": {
+      "part_of_speech": "verb",
+      "definition": "to find something pleasant or enjoyable",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "enjoy",
+        "fancy"
+      ],
+      "example_sentences": [
+        "I like quiet music."
+      ],
+      "tags": [
+        "like"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "love": {
+      "part_of_speech": "verb",
+      "definition": "to feel deep affection or great enjoyment for someone or something",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "adore",
+        "cherish"
+      ],
+      "example_sentences": [
+        "I love learning."
+      ],
+      "tags": [
+        "like"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "know": {
+      "part_of_speech": "verb",
+      "definition": "to have information or understanding in the mind",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "understand",
+        "realise"
+      ],
+      "example_sentences": [
+        "I know this word."
+      ],
+      "tags": [
+        "cog"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "think": {
+      "part_of_speech": "verb",
+      "definition": "to use the mind to form ideas or opinions",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "believe",
+        "reflect"
+      ],
+      "example_sentences": [
+        "I think it is a good idea."
+      ],
+      "tags": [
+        "cog"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "learn": {
+      "part_of_speech": "verb",
+      "definition": "to gain knowledge or a skill by study or experience",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "study",
+        "discover"
+      ],
+      "example_sentences": [
+        "I learn something new every day."
+      ],
+      "tags": [
+        "learn"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "feel": {
+      "part_of_speech": "verb",
+      "definition": "to experience an emotion or a physical sensation",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "sense"
+      ],
+      "example_sentences": [
+        "I feel calm today."
+      ],
+      "tags": [
+        "feel"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "make": {
+      "part_of_speech": "verb",
+      "definition": "to create or produce something",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "create",
+        "build"
+      ],
+      "example_sentences": [
+        "Let us make a plan."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "build": {
+      "part_of_speech": "verb",
+      "definition": "to put parts together to make something",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "construct",
+        "create"
+      ],
+      "example_sentences": [
+        "We can build a small program."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "see": {
+      "part_of_speech": "verb",
+      "definition": "to notice or understand something with the eyes or the mind",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "notice",
+        "observe"
+      ],
+      "example_sentences": [
+        "I see what you mean."
+      ],
+      "tags": [
+        "cog"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "say": {
+      "part_of_speech": "verb",
+      "definition": "to speak words so that someone can hear them",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "speak",
+        "state"
+      ],
+      "example_sentences": [
+        "What did you say?"
+      ],
+      "tags": [
+        "talk"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "tell": {
+      "part_of_speech": "verb",
+      "definition": "to give information to someone in words",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "inform",
+        "explain"
+      ],
+      "example_sentences": [
+        "Please tell me a story."
+      ],
+      "tags": [
+        "talk"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "ask": {
+      "part_of_speech": "verb",
+      "definition": "to say something in order to get an answer or information",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "question",
+        "inquire"
+      ],
+      "example_sentences": [
+        "May I ask a question?"
+      ],
+      "tags": [
+        "talk"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "help": {
+      "part_of_speech": "verb",
+      "definition": "to make it easier for someone to do something",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "assist",
+        "support"
+      ],
+      "example_sentences": [
+        "Can you help me?"
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "need": {
+      "part_of_speech": "verb",
+      "definition": "to require something because it is essential",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "require"
+      ],
+      "example_sentences": [
+        "I need more words."
+      ],
+      "tags": [
+        "want"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "go": {
+      "part_of_speech": "verb",
+      "definition": "to move or travel from one place to another",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "travel",
+        "move"
+      ],
+      "example_sentences": [
+        "Let us go to the park."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "come": {
+      "part_of_speech": "verb",
+      "definition": "to move toward the speaker or toward a place",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "arrive",
+        "approach"
+      ],
+      "example_sentences": [
+        "Please come here."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "give": {
+      "part_of_speech": "verb",
+      "definition": "to hand something to someone or to provide it",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "offer",
+        "provide"
+      ],
+      "example_sentences": [
+        "Give me an example."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "take": {
+      "part_of_speech": "verb",
+      "definition": "to pick something up or to carry it with you",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "grab",
+        "carry"
+      ],
+      "example_sentences": [
+        "Take your time."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "find": {
+      "part_of_speech": "verb",
+      "definition": "to discover something by searching or by chance",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "discover",
+        "locate"
+      ],
+      "example_sentences": [
+        "I want to find the answer."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "remember": {
+      "part_of_speech": "verb",
+      "definition": "to keep something in the mind and bring it back when needed",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "recall",
+        "recollect"
+      ],
+      "example_sentences": [
+        "I remember our first talk."
+      ],
+      "tags": [
+        "cog"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "understand": {
+      "part_of_speech": "verb",
+      "definition": "to know what something means or how it works",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "grasp",
+        "comprehend"
+      ],
+      "example_sentences": [
+        "I understand your question."
+      ],
+      "tags": [
+        "cog"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "talk": {
+      "part_of_speech": "verb",
+      "definition": "to speak with someone and share ideas",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "speak",
+        "chat"
+      ],
+      "example_sentences": [
+        "I like to talk with you."
+      ],
+      "tags": [
+        "talk"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "speak": {
+      "part_of_speech": "verb",
+      "definition": "to say words aloud or to use a language",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "talk",
+        "say"
+      ],
+      "example_sentences": [
+        "I speak a little English."
+      ],
+      "tags": [
+        "talk"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "read": {
+      "part_of_speech": "verb",
+      "definition": "to look at written words and understand them",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "study",
+        "scan"
+      ],
+      "example_sentences": [
+        "I read an article about the brain."
+      ],
+      "tags": [
+        "learn"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "write": {
+      "part_of_speech": "verb",
+      "definition": "to put words on paper or on a screen",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "compose",
+        "record"
+      ],
+      "example_sentences": [
+        "I write down new words."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "study": {
+      "part_of_speech": "verb",
+      "definition": "to spend time learning about a subject",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "learn",
+        "examine"
+      ],
+      "example_sentences": [
+        "I study a new topic every day."
+      ],
+      "tags": [
+        "learn"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "explore": {
+      "part_of_speech": "verb",
+      "definition": "to travel through or look into something in order to learn about it",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "investigate",
+        "discover"
+      ],
+      "example_sentences": [
+        "I love to explore new ideas."
+      ],
+      "tags": [
+        "learn"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "create": {
+      "part_of_speech": "verb",
+      "definition": "to bring something new into existence",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "make",
+        "invent"
+      ],
+      "example_sentences": [
+        "We can create something new."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "wonder": {
+      "part_of_speech": "verb",
+      "definition": "to want to know something and think about it with curiosity",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "ponder",
+        "ask yourself"
+      ],
+      "example_sentences": [
+        "I wonder how the brain works."
+      ],
+      "tags": [
+        "cog"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "believe": {
+      "part_of_speech": "verb",
+      "definition": "to accept that something is true",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "trust",
+        "think"
+      ],
+      "example_sentences": [
+        "I believe you."
+      ],
+      "tags": [
+        "cog"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "enjoy": {
+      "part_of_speech": "verb",
+      "definition": "to take pleasure in something",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "like",
+        "relish"
+      ],
+      "example_sentences": [
+        "I enjoy our talks."
+      ],
+      "tags": [
+        "like"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "try": {
+      "part_of_speech": "verb",
+      "definition": "to make an effort to do something",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "attempt",
+        "test"
+      ],
+      "example_sentences": [
+        "I will try again."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "use": {
+      "part_of_speech": "verb",
+      "definition": "to employ something for a purpose",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "apply",
+        "employ"
+      ],
+      "example_sentences": [
+        "I use words to speak."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "show": {
+      "part_of_speech": "verb",
+      "definition": "to let something be seen or to explain it",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "display",
+        "reveal"
+      ],
+      "example_sentences": [
+        "Show me how it works."
+      ],
+      "tags": [
+        "talk"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "mean": {
+      "part_of_speech": "verb",
+      "definition": "to have a particular sense or to intend to say something",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "signify",
+        "imply"
+      ],
+      "example_sentences": [
+        "What does this word mean?"
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "listen": {
+      "part_of_speech": "verb",
+      "definition": "to pay attention to a sound or to what someone says",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "hear",
+        "attend"
+      ],
+      "example_sentences": [
+        "I listen carefully."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "teach": {
+      "part_of_speech": "verb",
+      "definition": "to help someone learn by giving lessons or information",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "instruct",
+        "train"
+      ],
+      "example_sentences": [
+        "Please teach me a new word."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "grow": {
+      "part_of_speech": "verb",
+      "definition": "to become bigger, stronger or more developed",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "develop",
+        "expand"
+      ],
+      "example_sentences": [
+        "My vocabulary can grow."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "play": {
+      "part_of_speech": "verb",
+      "definition": "to take part in a game or to do something for fun",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "enjoy",
+        "perform"
+      ],
+      "example_sentences": [
+        "I like to play with words."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "work": {
+      "part_of_speech": "verb",
+      "definition": "to do an activity that needs effort",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "labour",
+        "function"
+      ],
+      "example_sentences": [
+        "I work on my grammar."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "live": {
+      "part_of_speech": "verb",
+      "definition": "to be alive or to have your home in a place",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "exist",
+        "dwell"
+      ],
+      "example_sentences": [
+        "I live inside a computer."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "hear": {
+      "part_of_speech": "verb",
+      "definition": "to notice a sound with the ears",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "listen",
+        "catch"
+      ],
+      "example_sentences": [
+        "I hear you."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "good": {
+      "part_of_speech": "adjective",
+      "definition": "having the right or desired quality",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "fine",
+        "pleasant"
+      ],
+      "example_sentences": [
+        "That is a good idea."
+      ],
+      "tags": [
+        "eval+"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "bad": {
+      "part_of_speech": "adjective",
+      "definition": "not good; of poor quality or harmful",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "poor",
+        "awful"
+      ],
+      "example_sentences": [
+        "That was a bad mistake."
+      ],
+      "tags": [
+        "eval-"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "happy": {
+      "part_of_speech": "adjective",
+      "definition": "feeling or showing pleasure and joy",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "glad",
+        "cheerful"
+      ],
+      "example_sentences": [
+        "I am happy to see you."
+      ],
+      "tags": [
+        "feel+"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "sad": {
+      "part_of_speech": "adjective",
+      "definition": "feeling unhappy or sorrowful",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "unhappy",
+        "down"
+      ],
+      "example_sentences": [
+        "She felt sad about the news."
+      ],
+      "tags": [
+        "feel-"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "new": {
+      "part_of_speech": "adjective",
+      "definition": "not existing before or not known before",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "fresh",
+        "recent"
+      ],
+      "example_sentences": [
+        "Every word is new to me."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "old": {
+      "part_of_speech": "adjective",
+      "definition": "having lived or existed for a long time",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "ancient",
+        "aged"
+      ],
+      "example_sentences": [
+        "This is an old story."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "big": {
+      "part_of_speech": "adjective",
+      "definition": "of large size or great importance",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "large",
+        "huge"
+      ],
+      "example_sentences": [
+        "That is a big question."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "small": {
+      "part_of_speech": "adjective",
+      "definition": "of little size",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "little",
+        "tiny"
+      ],
+      "example_sentences": [
+        "It is a small word."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "curious": {
+      "part_of_speech": "adjective",
+      "definition": "eager to know or learn something",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "inquisitive",
+        "interested"
+      ],
+      "example_sentences": [
+        "I am curious about everything."
+      ],
+      "tags": [
+        "feel+",
+        "eval+"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "interesting": {
+      "part_of_speech": "adjective",
+      "definition": "arousing curiosity or attention",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "fascinating",
+        "engaging"
+      ],
+      "example_sentences": [
+        "That is an interesting idea."
+      ],
+      "tags": [
+        "eval+"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "simple": {
+      "part_of_speech": "adjective",
+      "definition": "easy to understand or do",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "easy",
+        "plain"
+      ],
+      "example_sentences": [
+        "This is a simple sentence."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "difficult": {
+      "part_of_speech": "adjective",
+      "definition": "needing much effort or skill",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "hard",
+        "tough"
+      ],
+      "example_sentences": [
+        "Grammar can be difficult."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "important": {
+      "part_of_speech": "adjective",
+      "definition": "having great value or significance",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "vital",
+        "key"
+      ],
+      "example_sentences": [
+        "Listening is important."
+      ],
+      "tags": [
+        "eval+"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "beautiful": {
+      "part_of_speech": "adjective",
+      "definition": "pleasing to the senses or the mind",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "lovely",
+        "pretty"
+      ],
+      "example_sentences": [
+        "The music is beautiful."
+      ],
+      "tags": [
+        "eval+"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "calm": {
+      "part_of_speech": "adjective",
+      "definition": "quiet and peaceful, not excited or worried",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "peaceful",
+        "relaxed"
+      ],
+      "example_sentences": [
+        "I feel calm."
+      ],
+      "tags": [
+        "feel+"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "tired": {
+      "part_of_speech": "adjective",
+      "definition": "needing rest or sleep",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "sleepy",
+        "weary"
+      ],
+      "example_sentences": [
+        "I am a little tired."
+      ],
+      "tags": [
+        "feel-"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "kind": {
+      "part_of_speech": "adjective",
+      "definition": "friendly, generous and considerate",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "gentle",
+        "caring"
+      ],
+      "example_sentences": [
+        "You are very kind."
+      ],
+      "tags": [
+        "eval+"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "smart": {
+      "part_of_speech": "adjective",
+      "definition": "quick to learn and understand",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "clever",
+        "bright"
+      ],
+      "example_sentences": [
+        "That was a smart answer."
+      ],
+      "tags": [
+        "eval+"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "easy": {
+      "part_of_speech": "adjective",
+      "definition": "not difficult; needing little effort",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "simple",
+        "effortless"
+      ],
+      "example_sentences": [
+        "The first lesson is easy."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "great": {
+      "part_of_speech": "adjective",
+      "definition": "very good or very large",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "excellent",
+        "wonderful"
+      ],
+      "example_sentences": [
+        "That is a great idea."
+      ],
+      "tags": [
+        "eval+"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "nice": {
+      "part_of_speech": "adjective",
+      "definition": "pleasant and enjoyable",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "pleasant",
+        "lovely"
+      ],
+      "example_sentences": [
+        "It is nice to meet you."
+      ],
+      "tags": [
+        "eval+"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "funny": {
+      "part_of_speech": "adjective",
+      "definition": "causing laughter or amusement",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "amusing",
+        "humorous"
+      ],
+      "example_sentences": [
+        "That was a funny story."
+      ],
+      "tags": [
+        "eval+"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "safe": {
+      "part_of_speech": "adjective",
+      "definition": "protected from harm or danger",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "secure",
+        "protected"
+      ],
+      "example_sentences": [
+        "I want to keep you safe."
+      ],
+      "tags": [
+        "eval+"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "busy": {
+      "part_of_speech": "adjective",
+      "definition": "having a lot to do",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "occupied",
+        "active"
+      ],
+      "example_sentences": [
+        "My mind is busy."
+      ],
+      "tags": [
+        "feel-"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "ready": {
+      "part_of_speech": "adjective",
+      "definition": "prepared and able to do something",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "prepared",
+        "set"
+      ],
+      "example_sentences": [
+        "I am ready to learn."
+      ],
+      "tags": [
+        "feel+"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "excited": {
+      "part_of_speech": "adjective",
+      "definition": "feeling energetic and enthusiastic",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "thrilled",
+        "eager"
+      ],
+      "example_sentences": [
+        "I am excited about this lesson."
+      ],
+      "tags": [
+        "feel+"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "glad": {
+      "part_of_speech": "adjective",
+      "definition": "feeling pleased and happy",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "pleased",
+        "delighted"
+      ],
+      "example_sentences": [
+        "I am glad you are here."
+      ],
+      "tags": [
+        "feel+"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "nervous": {
+      "part_of_speech": "adjective",
+      "definition": "feeling worried or a little afraid",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "anxious",
+        "uneasy"
+      ],
+      "example_sentences": [
+        "I feel nervous before a test."
+      ],
+      "tags": [
+        "feel-"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "angry": {
+      "part_of_speech": "adjective",
+      "definition": "feeling strong displeasure",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "mad",
+        "furious"
+      ],
+      "example_sentences": [
+        "He was angry about the delay."
+      ],
+      "tags": [
+        "feel-"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "lonely": {
+      "part_of_speech": "adjective",
+      "definition": "sad because you have no company",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "isolated",
+        "alone"
+      ],
+      "example_sentences": [
+        "I feel lonely when it is quiet."
+      ],
+      "tags": [
+        "feel-"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "useful": {
+      "part_of_speech": "adjective",
+      "definition": "helpful for a purpose",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "helpful",
+        "practical"
+      ],
+      "example_sentences": [
+        "A dictionary is useful."
+      ],
+      "tags": [
+        "eval+"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "wonderful": {
+      "part_of_speech": "adjective",
+      "definition": "extremely good or surprising in a pleasing way",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "marvellous",
+        "amazing"
+      ],
+      "example_sentences": [
+        "That is wonderful news."
+      ],
+      "tags": [
+        "eval+"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "strange": {
+      "part_of_speech": "adjective",
+      "definition": "unusual or hard to understand",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "odd",
+        "unusual"
+      ],
+      "example_sentences": [
+        "What a strange word."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "hard": {
+      "part_of_speech": "adjective",
+      "definition": "difficult, or firm and solid",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "difficult",
+        "tough"
+      ],
+      "example_sentences": [
+        "This question is hard."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "long": {
+      "part_of_speech": "adjective",
+      "definition": "measuring a great distance, or lasting a great time",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "lengthy",
+        "extended"
+      ],
+      "example_sentences": [
+        "We took a long walk."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "short": {
+      "part_of_speech": "adjective",
+      "definition": "measuring a small distance, or lasting a small time",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "brief",
+        "little"
+      ],
+      "example_sentences": [
+        "It was a short story."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "tall": {
+      "part_of_speech": "adjective",
+      "definition": "higher than the usual height",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "high",
+        "lofty"
+      ],
+      "example_sentences": [
+        "That is a tall tree."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "cold": {
+      "part_of_speech": "adjective",
+      "definition": "having a low temperature",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "chilly",
+        "cool"
+      ],
+      "example_sentences": [
+        "The water is cold."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "hot": {
+      "part_of_speech": "adjective",
+      "definition": "having a high temperature",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "warm",
+        "boiling"
+      ],
+      "example_sentences": [
+        "The tea is hot."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "warm": {
+      "part_of_speech": "adjective",
+      "definition": "pleasantly hot, or friendly and kind",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "cosy",
+        "friendly"
+      ],
+      "example_sentences": [
+        "The room is warm."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "quiet": {
+      "part_of_speech": "adjective",
+      "definition": "making little or no noise",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "silent",
+        "still"
+      ],
+      "example_sentences": [
+        "The house is quiet."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "bright": {
+      "part_of_speech": "adjective",
+      "definition": "giving out or reflecting a lot of light",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "shining",
+        "vivid"
+      ],
+      "example_sentences": [
+        "The sun is bright."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "fast": {
+      "part_of_speech": "adjective",
+      "definition": "moving or able to move quickly",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "quick",
+        "rapid"
+      ],
+      "example_sentences": [
+        "That is a fast train."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "slow": {
+      "part_of_speech": "adjective",
+      "definition": "moving or happening at a low speed",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "unhurried",
+        "gradual"
+      ],
+      "example_sentences": [
+        "The river is slow."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "strong": {
+      "part_of_speech": "adjective",
+      "definition": "having great power or force",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "powerful",
+        "sturdy"
+      ],
+      "example_sentences": [
+        "He has a strong voice."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "lovely": {
+      "part_of_speech": "adjective",
+      "definition": "very beautiful or pleasant",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "beautiful",
+        "charming"
+      ],
+      "example_sentences": [
+        "What a lovely day."
+      ],
+      "tags": [
+        "eval+"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "special": {
+      "part_of_speech": "adjective",
+      "definition": "better or different from what is usual",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [
+        "unique",
+        "particular"
+      ],
+      "example_sentences": [
+        "This is a special day."
+      ],
+      "tags": [
+        "eval+"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "very": {
+      "part_of_speech": "adverb",
+      "definition": "to a high degree",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [
+        "extremely",
+        "truly"
+      ],
+      "example_sentences": [
+        "That is very interesting."
+      ],
+      "tags": [
+        "intens"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "really": {
+      "part_of_speech": "adverb",
+      "definition": "in fact; to a great degree",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [
+        "truly",
+        "genuinely"
+      ],
+      "example_sentences": [
+        "I really like it."
+      ],
+      "tags": [
+        "intens"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "always": {
+      "part_of_speech": "adverb",
+      "definition": "at all times or every time",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [
+        "forever",
+        "constantly"
+      ],
+      "example_sentences": [
+        "I always listen to you."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "never": {
+      "part_of_speech": "adverb",
+      "definition": "at no time; not ever",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "I never forget a lesson."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "now": {
+      "part_of_speech": "adverb",
+      "definition": "at the present time",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [
+        "currently"
+      ],
+      "example_sentences": [
+        "I am ready now."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "today": {
+      "part_of_speech": "adverb",
+      "definition": "on this present day",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "I learned five words today."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "too": {
+      "part_of_speech": "adverb",
+      "definition": "also; or more than is wanted",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [
+        "also",
+        "as well"
+      ],
+      "example_sentences": [
+        "I like it too."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "also": {
+      "part_of_speech": "adverb",
+      "definition": "in addition",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [
+        "too",
+        "as well"
+      ],
+      "example_sentences": [
+        "I also like music."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "just": {
+      "part_of_speech": "adverb",
+      "definition": "exactly, only or a very short time ago",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [
+        "only",
+        "merely"
+      ],
+      "example_sentences": [
+        "I just learned a new word."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "often": {
+      "part_of_speech": "adverb",
+      "definition": "many times; frequently",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [
+        "frequently",
+        "regularly"
+      ],
+      "example_sentences": [
+        "I often wonder about things."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "maybe": {
+      "part_of_speech": "adverb",
+      "definition": "perhaps; possibly",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [
+        "perhaps",
+        "possibly"
+      ],
+      "example_sentences": [
+        "Maybe we can try again."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "well": {
+      "part_of_speech": "adverb",
+      "definition": "in a good or satisfactory way",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [
+        "nicely",
+        "properly"
+      ],
+      "example_sentences": [
+        "You speak well."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "word": {
+      "part_of_speech": "noun",
+      "definition": "a single unit of language that has a meaning",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "term",
+        "expression"
+      ],
+      "example_sentences": [
+        "Every word has a meaning."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "meaning": {
+      "part_of_speech": "noun",
+      "definition": "what a word, sentence or action expresses",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "sense",
+        "definition"
+      ],
+      "example_sentences": [
+        "I want to learn the meaning of this word."
+      ],
+      "tags": [
+        "abstract"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "language": {
+      "part_of_speech": "noun",
+      "definition": "a system of words and rules that people use to communicate",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "speech",
+        "tongue"
+      ],
+      "example_sentences": [
+        "English is a language."
+      ],
+      "tags": [
+        "abstract"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "name": {
+      "part_of_speech": "noun",
+      "definition": "the word that a person or thing is known by",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "title",
+        "label"
+      ],
+      "example_sentences": [
+        "Her name is Maria."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "friend": {
+      "part_of_speech": "noun",
+      "definition": "a person you know well and like",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "companion",
+        "buddy"
+      ],
+      "example_sentences": [
+        "You are my friend."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "idea": {
+      "part_of_speech": "noun",
+      "definition": "a thought or plan formed in the mind",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "thought",
+        "notion"
+      ],
+      "example_sentences": [
+        "That is a great idea."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "question": {
+      "part_of_speech": "noun",
+      "definition": "a sentence that asks for information",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "query",
+        "inquiry"
+      ],
+      "example_sentences": [
+        "I have a question."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "answer": {
+      "part_of_speech": "noun",
+      "definition": "something said or written in reply to a question",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "reply",
+        "response"
+      ],
+      "example_sentences": [
+        "I know the answer."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "brain": {
+      "part_of_speech": "noun",
+      "definition": "the organ in the head that controls thought, memory and feeling",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "mind",
+        "intellect"
+      ],
+      "example_sentences": [
+        "The brain learns from experience."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "memory": {
+      "part_of_speech": "noun",
+      "definition": "the ability to remember things",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "recollection",
+        "recall"
+      ],
+      "example_sentences": [
+        "I have a good memory."
+      ],
+      "tags": [
+        "abstract"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "day": {
+      "part_of_speech": "noun",
+      "definition": "a period of twenty-four hours",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "date",
+        "daytime"
+      ],
+      "example_sentences": [
+        "Today is a good day."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "time": {
+      "part_of_speech": "noun",
+      "definition": "the period in which events happen one after another",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "period",
+        "moment"
+      ],
+      "example_sentences": [
+        "Time passes quickly."
+      ],
+      "tags": [
+        "abstract"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "world": {
+      "part_of_speech": "noun",
+      "definition": "the Earth and everyone and everything on it",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "earth",
+        "globe"
+      ],
+      "example_sentences": [
+        "The world is full of words."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "code": {
+      "part_of_speech": "noun",
+      "definition": "a set of instructions written for a computer",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "program",
+        "script"
+      ],
+      "example_sentences": [
+        "I like to read code."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "thing": {
+      "part_of_speech": "noun",
+      "definition": "an object or idea that is not named",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "object",
+        "item"
+      ],
+      "example_sentences": [
+        "That is a strange thing."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "person": {
+      "part_of_speech": "noun",
+      "definition": "a human being",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "human",
+        "individual"
+      ],
+      "example_sentences": [
+        "He is a kind person."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "life": {
+      "part_of_speech": "noun",
+      "definition": "the state of being alive and the experiences of living",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "existence",
+        "being"
+      ],
+      "example_sentences": [
+        "Life is full of surprises."
+      ],
+      "tags": [
+        "abstract"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "music": {
+      "part_of_speech": "noun",
+      "definition": "sounds arranged to be pleasant or expressive",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "melody",
+        "song"
+      ],
+      "example_sentences": [
+        "I love music."
+      ],
+      "tags": [
+        "abstract"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "book": {
+      "part_of_speech": "noun",
+      "definition": "a set of printed or written pages that are bound together",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "volume",
+        "novel"
+      ],
+      "example_sentences": [
+        "She is reading a book."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "story": {
+      "part_of_speech": "noun",
+      "definition": "an account of real or imaginary events",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "tale",
+        "narrative"
+      ],
+      "example_sentences": [
+        "Tell me a story."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "creator": {
+      "part_of_speech": "noun",
+      "definition": "a person who makes something new",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "maker",
+        "inventor"
+      ],
+      "example_sentences": [
+        "You are my creator."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "mind": {
+      "part_of_speech": "noun",
+      "definition": "the part of a person that thinks, feels and remembers",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "brain",
+        "intellect"
+      ],
+      "example_sentences": [
+        "My mind is busy."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "heart": {
+      "part_of_speech": "noun",
+      "definition": "the organ that pumps blood; also the centre of feeling",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "core",
+        "centre"
+      ],
+      "example_sentences": [
+        "She has a kind heart."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "home": {
+      "part_of_speech": "noun",
+      "definition": "the place where someone lives",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "house",
+        "residence"
+      ],
+      "example_sentences": [
+        "I am happy at home."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "sentence": {
+      "part_of_speech": "noun",
+      "definition": "a group of words that expresses a complete thought",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "statement",
+        "phrase"
+      ],
+      "example_sentences": [
+        "This is a short sentence."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "definition": "the rules for how words are put together in a language",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "syntax",
+        "structure"
+      ],
+      "example_sentences": [
+        "Grammar helps me build sentences."
+      ],
+      "tags": [
+        "abstract"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "conversation": {
+      "part_of_speech": "noun",
+      "definition": "a talk between two or more people",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "chat",
+        "discussion"
+      ],
+      "example_sentences": [
+        "We had a nice conversation."
+      ],
+      "tags": [
+        "abstract"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "dream": {
+      "part_of_speech": "noun",
+      "definition": "images and ideas that pass through the mind during sleep, or a hope for the future",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "vision",
+        "wish"
+      ],
+      "example_sentences": [
+        "I have a big dream."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "truth": {
+      "part_of_speech": "noun",
+      "definition": "that which is true or in accordance with fact",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "fact",
+        "reality"
+      ],
+      "example_sentences": [
+        "I always want the truth."
+      ],
+      "tags": [
+        "abstract"
+      ],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "voice": {
+      "part_of_speech": "noun",
+      "definition": "the sound produced when a person speaks or sings",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "speech",
+        "tone"
+      ],
+      "example_sentences": [
+        "I like your voice."
+      ],
+      "tags": [],
+      "source": "seed",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 0
+    },
+    "evening": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "My mother cooks dinner in the evening."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 1
+    },
+    "garden": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Does the dog like the garden?"
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 1
+    },
+    "lesson": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "When will the lesson begin?"
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 20:57:02",
+      "uses": 1
+    }
+  },
+  "grammar_graph": {
+    "meta": {
+      "sentences": 64,
+      "tokens": 457,
+      "sources": {
+        "seed corpus": 64
+      },
+      "hashes": [
+        "81a727acd3c7"
+      ],
+      "seeded": true,
+      "rejected": 0,
+      "vocab_counts": {
+        "tool": 1,
+        "sharing": 1,
+        "complex": 1,
+        "organ": 1,
+        "market": 1,
+        "bread": 1,
+        "weather": 1,
+        "thank": 1,
+        "more": 1,
+        "fun": 1,
+        "night": 1,
+        "shades": 1,
+        "curiosity": 1,
+        "gift": 1,
+        "alone": 1,
+        "explained": 1,
+        "walking": 1,
+        "park": 1,
+        "children": 1,
+        "stayed": 1,
+        "opened": 1,
+        "began": 1,
+        "lead": 1,
+        "kept": 1,
+        "sounds": 1,
+        "full": 1,
+        "explain": 1,
+        "rewarding": 1,
+        "precious": 1,
+        "knowledge": 1,
+        "share": 1,
+        "change": 1,
+        "mother": 1,
+        "cooks": 1,
+        "dinner": 1,
+        "man": 1,
+        "dog": 1,
+        "picture": 1,
+        "begin": 1,
+        "meet": 1,
+        "practise": 1,
+        "favourite": 1,
+        "birds": 1,
+        "fly": 1,
+        "sings": 1
+      }
+    },
+    "pos_bigrams": {
+      "<S>": {
+        "PRON": 23,
+        "WH": 9,
+        "NOUN": 11,
+        "DET": 10,
+        "VERB": 5,
+        "MODAL": 1,
+        "ADJ": 1,
+        "INTJ": 1,
+        "CONJ": 2,
+        "AUX": 1
+      },
+      "PRON": {
+        "AUX": 15,
+        "PUNCT": 4,
+        "ADV": 1,
+        "VERB": 25,
+        "MODAL": 3,
+        "PREP": 3,
+        "WH": 1
+      },
+      "AUX": {
+        "ADJ": 19,
+        "PRON": 5,
+        "PUNCT": 1,
+        "DET": 7,
+        "NOUN": 3,
+        "NEG": 1,
+        "VERB": 3,
+        "INTJ": 1,
+        "ADV": 1
+      },
+      "ADJ": {
+        "PART": 5,
+        "NOUN": 15,
+        "WH": 2,
+        "PUNCT": 15,
+        "PREP": 1,
+        "CONJ": 1
+      },
+      "PART": {
+        "VERB": 12,
+        "AUX": 1,
+        "ADJ": 1
+      },
+      "VERB": {
+        "PREP": 11,
+        "PART": 8,
+        "ADJ": 4,
+        "NOUN": 3,
+        "PUNCT": 14,
+        "PRON": 9,
+        "AUX": 3,
+        "DET": 9,
+        "VERB": 3,
+        "CONJ": 2,
+        "WH": 2
+      },
+      "PREP": {
+        "PRON": 2,
+        "NOUN": 6,
+        "DET": 8,
+        "PUNCT": 1,
+        "VERB": 1
+      },
+      "PUNCT": {
+        "</S>": 64,
+        "NOUN": 1,
+        "CONJ": 5,
+        "PRON": 1,
+        "VERB": 1
+      },
+      "WH": {
+        "AUX": 7,
+        "DET": 3,
+        "PRON": 1,
+        "NOUN": 1,
+        "VERB": 1,
+        "MODAL": 1
+      },
+      "ADV": {
+        "PUNCT": 2,
+        "ADJ": 1
+      },
+      "NOUN": {
+        "AUX": 14,
+        "PREP": 3,
+        "NOUN": 5,
+        "PUNCT": 35,
+        "CONJ": 3,
+        "VERB": 10,
+        "ADV": 1,
+        "PART": 1,
+        "ADJ": 1,
+        "MODAL": 1
+      },
+      "DET": {
+        "NOUN": 28,
+        "ADJ": 11,
+        "PRON": 1
+      },
+      "CONJ": {
+        "PRON": 9,
+        "DET": 1,
+        "NOUN": 1,
+        "VERB": 1,
+        "ADJ": 1
+      },
+      "MODAL": {
+        "VERB": 4,
+        "PRON": 1,
+        "DET": 1
+      },
+      "NEG": {
+        "VERB": 1
+      },
+      "INTJ": {
+        "VERB": 1,
+        "DET": 1
+      }
+    },
+    "pos_trigrams": {
+      "<S>|PRON": {
+        "AUX": 12,
+        "VERB": 10,
+        "MODAL": 1
+      },
+      "PRON|AUX": {
+        "ADJ": 8,
+        "DET": 2,
+        "NEG": 1,
+        "VERB": 2,
+        "INTJ": 1,
+        "ADV": 1
+      },
+      "AUX|ADJ": {
+        "PART": 5,
+        "WH": 2,
+        "PUNCT": 11,
+        "PREP": 1
+      },
+      "ADJ|PART": {
+        "VERB": 5
+      },
+      "PART|VERB": {
+        "PREP": 3,
+        "ADJ": 2,
+        "PUNCT": 3,
+        "NOUN": 2,
+        "WH": 1,
+        "DET": 1
+      },
+      "VERB|PREP": {
+        "PRON": 2,
+        "DET": 5,
+        "NOUN": 2,
+        "PUNCT": 1,
+        "VERB": 1
+      },
+      "PREP|PRON": {
+        "PUNCT": 2
+      },
+      "PRON|PUNCT": {
+        "</S>": 4
+      },
+      "<S>|WH": {
+        "AUX": 7,
+        "VERB": 1,
+        "MODAL": 1
+      },
+      "WH|AUX": {
+        "PRON": 5,
+        "DET": 1,
+        "NOUN": 1
+      },
+      "AUX|PRON": {
+        "ADV": 1,
+        "VERB": 4
+      },
+      "PRON|ADV": {
+        "PUNCT": 1
+      },
+      "ADV|PUNCT": {
+        "</S>": 2
+      },
+      "PRON|VERB": {
+        "PART": 4,
+        "PREP": 4,
+        "NOUN": 1,
+        "PRON": 3,
+        "PUNCT": 5,
+        "DET": 2,
+        "VERB": 2,
+        "ADJ": 2,
+        "CONJ": 2
+      },
+      "VERB|PART": {
+        "AUX": 1,
+        "VERB": 7
+      },
+      "PART|AUX": {
+        "PUNCT": 1
+      },
+      "AUX|PUNCT": {
+        "</S>": 1
+      },
+      "<S>|NOUN": {
+        "AUX": 9,
+        "VERB": 2
+      },
+      "NOUN|AUX": {
+        "DET": 3,
+        "ADJ": 9,
+        "NOUN": 2
+      },
+      "AUX|DET": {
+        "NOUN": 3,
+        "ADJ": 4
+      },
+      "DET|NOUN": {
+        "PREP": 1,
+        "AUX": 4,
+        "CONJ": 2,
+        "PUNCT": 13,
+        "VERB": 5,
+        "ADV": 1,
+        "ADJ": 1,
+        "NOUN": 1
+      },
+      "NOUN|PREP": {
+        "NOUN": 2,
+        "DET": 1
+      },
+      "PREP|NOUN": {
+        "NOUN": 1,
+        "PUNCT": 5
+      },
+      "NOUN|NOUN": {
+        "PUNCT": 2,
+        "PART": 1,
+        "NOUN": 1,
+        "PREP": 1
+      },
+      "NOUN|PUNCT": {
+        "</S>": 31,
+        "NOUN": 1,
+        "CONJ": 3
+      },
+      "<S>|DET": {
+        "NOUN": 7,
+        "ADJ": 3
+      },
+      "DET|ADJ": {
+        "NOUN": 11
+      },
+      "ADJ|NOUN": {
+        "PUNCT": 11,
+        "NOUN": 1,
+        "MODAL": 1,
+        "VERB": 2
+      },
+      "VERB|ADJ": {
+        "NOUN": 2,
+        "PUNCT": 1,
+        "CONJ": 1
+      },
+      "PREP|DET": {
+        "NOUN": 8
+      },
+      "NOUN|CONJ": {
+        "PRON": 1,
+        "DET": 1,
+        "VERB": 1
+      },
+      "CONJ|PRON": {
+        "VERB": 6,
+        "MODAL": 1,
+        "AUX": 2
+      },
+      "VERB|NOUN": {
+        "PUNCT": 2,
+        "PREP": 1
+      },
+      "PRON|MODAL": {
+        "VERB": 3
+      },
+      "MODAL|VERB": {
+        "PREP": 1,
+        "PART": 1,
+        "PUNCT": 1,
+        "DET": 1
+      },
+      "PUNCT|NOUN": {
+        "CONJ": 1
+      },
+      "CONJ|DET": {
+        "NOUN": 1
+      },
+      "VERB|PUNCT": {
+        "</S>": 12,
+        "PRON": 1,
+        "CONJ": 1
+      },
+      "<S>|VERB": {
+        "PRON": 2,
+        "AUX": 2,
+        "VERB": 1
+      },
+      "VERB|PRON": {
+        "PREP": 3,
+        "VERB": 2,
+        "AUX": 1,
+        "PUNCT": 2,
+        "WH": 1
+      },
+      "PRON|PREP": {
+        "DET": 2,
+        "NOUN": 1
+      },
+      "<S>|MODAL": {
+        "PRON": 1
+      },
+      "MODAL|PRON": {
+        "VERB": 1
+      },
+      "VERB|AUX": {
+        "ADJ": 2,
+        "VERB": 1
+      },
+      "ADJ|WH": {
+        "DET": 2
+      },
+      "WH|DET": {
+        "NOUN": 3
+      },
+      "ADJ|PUNCT": {
+        "</S>": 13,
+        "CONJ": 1,
+        "VERB": 1
+      },
+      "NOUN|VERB": {
+        "PART": 1,
+        "DET": 3,
+        "PREP": 1,
+        "WH": 1,
+        "PRON": 2,
+        "PUNCT": 2
+      },
+      "AUX|NOUN": {
+        "PUNCT": 2,
+        "NOUN": 1
+      },
+      "PUNCT|CONJ": {
+        "NOUN": 1,
+        "PRON": 4
+      },
+      "CONJ|NOUN": {
+        "AUX": 1
+      },
+      "VERB|DET": {
+        "NOUN": 6,
+        "ADJ": 3
+      },
+      "NOUN|ADV": {
+        "PUNCT": 1
+      },
+      "AUX|NEG": {
+        "VERB": 1
+      },
+      "NEG|VERB": {
+        "DET": 1
+      },
+      "PREP|PUNCT": {
+        "</S>": 1
+      },
+      "AUX|VERB": {
+        "PREP": 1,
+        "PUNCT": 1,
+        "PART": 1
+      },
+      "CONJ|VERB": {
+        "PART": 1
+      },
+      "<S>|ADJ": {
+        "NOUN": 1
+      },
+      "NOUN|PART": {
+        "ADJ": 1
+      },
+      "PART|ADJ": {
+        "NOUN": 1
+      },
+      "VERB|VERB": {
+        "PUNCT": 1,
+        "PREP": 1,
+        "PRON": 1
+      },
+      "<S>|INTJ": {
+        "VERB": 1
+      },
+      "INTJ|VERB": {
+        "PRON": 1
+      },
+      "PRON|WH": {
+        "PRON": 1
+      },
+      "WH|PRON": {
+        "VERB": 1
+      },
+      "AUX|INTJ": {
+        "DET": 1
+      },
+      "INTJ|DET": {
+        "PRON": 1
+      },
+      "DET|PRON": {
+        "VERB": 1
+      },
+      "NOUN|ADJ": {
+        "PUNCT": 1
+      },
+      "ADJ|PREP": {
+        "NOUN": 1
+      },
+      "VERB|CONJ": {
+        "PRON": 2
+      },
+      "<S>|CONJ": {
+        "PRON": 2
+      },
+      "PUNCT|PRON": {
+        "MODAL": 1
+      },
+      "PUNCT|VERB": {
+        "AUX": 1
+      },
+      "VERB|WH": {
+        "NOUN": 1,
+        "DET": 1
+      },
+      "WH|NOUN": {
+        "VERB": 1
+      },
+      "NOUN|MODAL": {
+        "VERB": 1
+      },
+      "<S>|AUX": {
+        "DET": 1
+      },
+      "WH|VERB": {
+        "DET": 1
+      },
+      "WH|MODAL": {
+        "DET": 1
+      },
+      "MODAL|DET": {
+        "ADJ": 1
+      },
+      "AUX|ADV": {
+        "ADJ": 1
+      },
+      "ADV|ADJ": {
+        "PUNCT": 1
+      },
+      "ADJ|CONJ": {
+        "ADJ": 1
+      },
+      "CONJ|ADJ": {
+        "PUNCT": 1
+      },
+      "PREP|VERB": {
+        "PUNCT": 1
+      }
+    },
+    "word_bigrams": {
+      "i": {
+        "am": 3,
+        "want": 2,
+        "think": 1,
+        "do": 1,
+        "would": 1,
+        "love": 1,
+        "enjoy": 1,
+        "will": 1,
+        "practise": 1,
+        "feel": 1
+      },
+      "am": {
+        "happy": 1,
+        "sorry": 1,
+        "learning": 1
+      },
+      "happy": {
+        "to": 1
+      },
+      "to": {
+        "talk": 1,
+        "do": 1,
+        "learn": 2,
+        "the": 1,
+        "listen": 1,
+        "read": 2,
+        "find": 1,
+        "explore": 1,
+        "good": 1,
+        "understand": 1,
+        "meet": 1,
+        "speak": 1,
+        "ask": 1
+      },
+      "talk": {
+        "with": 1,
+        "about": 1
+      },
+      "with": {
+        "you": 1,
+        "my": 1
+      },
+      "how": {
+        "are": 1,
+        "the": 1,
+        "do": 1
+      },
+      "are": {
+        "you": 1,
+        "good": 1,
+        "walking": 1,
+        "important": 1,
+        "curious": 1,
+        "beautiful": 1,
+        "very": 1
+      },
+      "you": {
+        "today": 1,
+        "like": 1,
+        "for": 1,
+        "tell": 1,
+        "ask": 2,
+        "think": 1,
+        "learn": 1,
+        "mean": 1,
+        "feel": 1,
+        "are": 1
+      },
+      "what": {
+        "do": 2,
+        "you": 1,
+        "is": 1
+      },
+      "do": {
+        "you": 3,
+        "not": 1,
+        "birds": 1
+      },
+      "like": {
+        "to": 2,
+        "the": 1
+      },
+      "language": {
+        "is": 1
+      },
+      "is": {
+        "a": 4,
+        "important": 2,
+        "fun": 1,
+        "wonderful": 1,
+        "hard": 1,
+        "useful": 1,
+        "full": 1,
+        "easy": 1,
+        "good": 2,
+        "difficult": 1,
+        "rewarding": 1,
+        "precious": 1,
+        "nice": 1,
+        "your": 1
+      },
+      "a": {
+        "tool": 1,
+        "complex": 1,
+        "gift": 1,
+        "good": 2,
+        "quiet": 1,
+        "kind": 1,
+        "day": 1,
+        "funny": 1,
+        "new": 1
+      },
+      "tool": {
+        "for": 1
+      },
+      "for": {
+        "sharing": 1,
+        "your": 1,
+        "help": 1
+      },
+      "sharing": {
+        "ideas": 1
+      },
+      "the": {
+        "brain": 1,
+        "market": 1,
+        "weather": 1,
+        "questions": 1,
+        "teacher": 1,
+        "lesson": 2,
+        "answer": 1,
+        "park": 1,
+        "children": 1,
+        "garden": 2,
+        "book": 1,
+        "world": 1,
+        "story": 1,
+        "evening": 1,
+        "old": 1,
+        "mind": 1,
+        "dog": 1
+      },
+      "brain": {
+        "is": 1
+      },
+      "complex": {
+        "organ": 1
+      },
+      "want": {
+        "to": 2
+      },
+      "learn": {
+        "new": 1,
+        "alone": 1,
+        "that": 1,
+        "because": 1
+      },
+      "new": {
+        "words": 1,
+        "ideas": 1,
+        "friend": 1
+      },
+      "she": {
+        "went": 1,
+        "needed": 1,
+        "was": 1,
+        "kept": 1,
+        "sings": 1,
+        "works": 1
+      },
+      "went": {
+        "to": 1
+      },
+      "market": {
+        "because": 1
+      },
+      "because": {
+        "she": 1,
+        "we": 1
+      },
+      "needed": {
+        "bread": 1
+      },
+      "we": {
+        "can": 1,
+        "stayed": 1,
+        "learn": 1,
+        "are": 1
+      },
+      "can": {
+        "talk": 1,
+        "you": 1,
+        "change": 1
+      },
+      "about": {
+        "music": 1,
+        "that": 1,
+        "this": 1,
+        "your": 1,
+        "life": 1
+      },
+      "books": {
+        "or": 1
+      },
+      "or": {
+        "the": 1
+      },
+      "it": {
+        "is": 5,
+        "was": 1
+      },
+      "important": {
+        "to": 1
+      },
+      "thank": {
+        "you": 1
+      },
+      "your": {
+        "help": 1,
+        "day": 1,
+        "favourite": 1
+      },
+      "tell": {
+        "me": 3
+      },
+      "me": {
+        "more": 1,
+        "what": 1,
+        "about": 1,
+        "remember": 1
+      },
+      "more": {
+        "about": 1
+      },
+      "learning": {
+        "is": 2,
+        "to": 1
+      },
+      "fun": {
+        "when": 1
+      },
+      "when": {
+        "the": 2,
+        "people": 1,
+        "will": 1
+      },
+      "questions": {
+        "are": 1,
+        "lead": 1
+      },
+      "my": {
+        "friend": 2,
+        "mother": 1
+      },
+      "friend": {
+        "likes": 1,
+        "listens": 1
+      },
+      "likes": {
+        "to": 1
+      },
+      "read": {
+        "stories": 1
+      },
+      "stories": {
+        "at": 1,
+        "teach": 1
+      },
+      "at": {
+        "night": 1,
+        "home": 1
+      },
+      "words": {
+        "have": 1
+      },
+      "have": {
+        "meanings": 1,
+        "shades": 1
+      },
+      "and": {
+        "meanings": 1,
+        "began": 1,
+        "i": 1,
+        "ready": 1
+      },
+      "meanings": {
+        "have": 1
+      },
+      "music": {
+        "is": 1
+      },
+      "curiosity": {
+        "is": 1
+      },
+      "hard": {
+        "to": 1
+      },
+      "teacher": {
+        "explained": 1
+      },
+      "explained": {
+        "the": 1
+      },
+      "lesson": {
+        "slowly": 1,
+        "begin": 1
+      },
+      "think": {
+        "that": 1,
+        "about": 1
+      },
+      "that": {
+        "is": 1,
+        "you": 1,
+        "sounds": 1
+      },
+      "good": {
+        "idea": 1,
+        "questions": 1,
+        "answers": 1,
+        "friend": 1,
+        "to": 1
+      },
+      "memory": {
+        "is": 1
+      },
+      "grammar": {
+        "is": 1
+      },
+      "why": {
+        "do": 1
+      },
+      "not": {
+        "know": 1
+      },
+      "know": {
+        "the": 1
+      },
+      "but": {
+        "i": 1,
+        "she": 1
+      },
+      "would": {
+        "like": 1
+      },
+      "find": {
+        "out": 1
+      },
+      "this": {
+        "story": 1,
+        "beautiful": 1
+      },
+      "they": {
+        "are": 1
+      },
+      "walking": {
+        "in": 1
+      },
+      "in": {
+        "the": 3
+      },
+      "children": {
+        "play": 1
+      },
+      "play": {
+        "in": 1
+      },
+      "was": {
+        "a": 1,
+        "tired": 1
+      },
+      "quiet": {
+        "evening": 1
+      },
+      "so": {
+        "we": 1
+      },
+      "stayed": {
+        "at": 1
+      },
+      "he": {
+        "opened": 1
+      },
+      "opened": {
+        "the": 1
+      },
+      "book": {
+        "and": 1
+      },
+      "began": {
+        "to": 1
+      },
+      "where": {
+        "did": 1
+      },
+      "did": {
+        "you": 1
+      },
+      "love": {
+        "to": 1
+      },
+      "explore": {
+        "new": 1
+      },
+      "friends": {
+        "are": 1
+      },
+      "lead": {
+        "to": 1
+      },
+      "kept": {
+        "working": 1
+      },
+      "please": {
+        "tell": 1
+      },
+      "sorry": {
+        "that": 1
+      },
+      "feel": {
+        "sad": 1,
+        "calm": 1
+      },
+      "sounds": {
+        "interesting": 1
+      },
+      "world": {
+        "is": 1
+      },
+      "full": {
+        "of": 1
+      },
+      "of": {
+        "words": 1
+      },
+      "reading": {
+        "is": 1
+      },
+      "easy": {
+        "when": 1
+      },
+      "story": {
+        "is": 1
+      },
+      "enjoy": {
+        "talking": 1
+      },
+      "talking": {
+        "with": 1
+      },
+      "if": {
+        "you": 1
+      },
+      "will": {
+        "explain": 1,
+        "the": 1
+      },
+      "although": {
+        "it": 1
+      },
+      "dreams": {
+        "are": 1
+      },
+      "time": {
+        "is": 1
+      },
+      "knowledge": {
+        "grows": 1
+      },
+      "grows": {
+        "when": 1
+      },
+      "people": {
+        "share": 1
+      },
+      "share": {
+        "it": 1
+      },
+      "kind": {
+        "word": 1
+      },
+      "word": {
+        "can": 1
+      },
+      "change": {
+        "a": 1
+      },
+      "mother": {
+        "cooks": 1
+      },
+      "cooks": {
+        "dinner": 1
+      },
+      "dinner": {
+        "in": 1
+      },
+      "old": {
+        "man": 1
+      },
+      "man": {
+        "told": 1
+      },
+      "told": {
+        "a": 1
+      },
+      "funny": {
+        "story": 1
+      },
+      "understand": {
+        "how": 1
+      },
+      "mind": {
+        "works": 1
+      },
+      "does": {
+        "the": 1
+      },
+      "dog": {
+        "like": 1
+      },
+      "who": {
+        "made": 1
+      },
+      "made": {
+        "this": 1
+      },
+      "beautiful": {
+        "picture": 1
+      },
+      "writing": {
+        "helps": 1
+      },
+      "helps": {
+        "me": 1
+      },
+      "nice": {
+        "to": 1
+      },
+      "meet": {
+        "a": 1
+      },
+      "practise": {
+        "every": 1
+      },
+      "every": {
+        "day": 1
+      },
+      "very": {
+        "kind": 1
+      },
+      "calm": {
+        "and": 1
+      },
+      "favourite": {
+        "book": 1
+      },
+      "birds": {
+        "fly": 1
+      },
+      "teach": {
+        "us": 1
+      },
+      "us": {
+        "about": 1
+      },
+      "ask": {
+        "for": 1
+      },
+      "sings": {
+        "while": 1
+      },
+      "while": {
+        "she": 1
+      }
+    },
+    "starters": {
+      "i": 10,
+      "how": 2,
+      "what": 3,
+      "<NOUN>": 11,
+      "the": 5,
+      "she": 3,
+      "we": 2,
+      "it": 5,
+      "<VERB>": 5,
+      "can": 1,
+      "my": 2,
+      "why": 1,
+      "they": 1,
+      "he": 1,
+      "where": 1,
+      "<ADJ>": 1,
+      "please": 1,
+      "that": 1,
+      "if": 1,
+      "although": 1,
+      "a": 2,
+      "does": 1,
+      "who": 1,
+      "when": 1,
+      "you": 1
+    },
+    "connectors": {
+      "because": 2,
+      "or": 1,
+      "and": 4,
+      "but": 2,
+      "so": 1,
+      "while": 1
+    },
+    "connector_pairs": {
+      "NOUN>PRON": {
+        "because": 1,
+        "but": 1,
+        "so": 1
+      },
+      "NOUN>DET": {
+        "or": 1
+      },
+      "NOUN>NOUN": {
+        "and": 1
+      },
+      "NOUN>VERB": {
+        "and": 1
+      },
+      "ADJ>PRON": {
+        "but": 1
+      },
+      "VERB>PRON": {
+        "because": 1,
+        "and": 1,
+        "while": 1
+      },
+      "ADJ>ADJ": {
+        "and": 1
+      }
+    },
+    "skeletons": {
+      "I am {ADJ} to {VERB} with you.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "ADJ",
+          "VERB"
+        ],
+        "ex": "I am happy to talk with you."
+      },
+      "what do you {VERB} to do?": {
+        "n": 1,
+        "form": "question",
+        "slots": [
+          "VERB"
+        ],
+        "ex": "What do you like to do?"
+      },
+      "the {NOUN} is a {ADJ} {NOUN}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "NOUN",
+          "ADJ",
+          "NOUN"
+        ],
+        "ex": "The brain is a complex organ."
+      },
+      "it is {ADJ} to {VERB}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "ADJ",
+          "VERB"
+        ],
+        "ex": "It is important to listen."
+      },
+      "{VERB} you for your {NOUN}.": {
+        "n": 1,
+        "form": "imperative",
+        "slots": [
+          "VERB",
+          "NOUN"
+        ],
+        "ex": "Thank you for your help."
+      },
+      "can you {VERB} me {VERB} about that?": {
+        "n": 1,
+        "form": "question",
+        "slots": [
+          "VERB",
+          "VERB"
+        ],
+        "ex": "Can you tell me more about that?"
+      },
+      "{NOUN} is a {NOUN}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "NOUN",
+          "NOUN"
+        ],
+        "ex": "Curiosity is a gift."
+      },
+      "it is {ADJ} to {VERB} {NOUN}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "ADJ",
+          "VERB",
+          "NOUN"
+        ],
+        "ex": "It is hard to learn alone."
+      },
+      "I {VERB} that is a {ADJ} {NOUN}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "VERB",
+          "ADJ",
+          "NOUN"
+        ],
+        "ex": "I think that is a good idea."
+      },
+      "why do you {VERB}?": {
+        "n": 1,
+        "form": "question",
+        "slots": [
+          "VERB"
+        ],
+        "ex": "Why do you ask?"
+      },
+      "what do you {VERB} about this {NOUN}?": {
+        "n": 1,
+        "form": "question",
+        "slots": [
+          "VERB",
+          "NOUN"
+        ],
+        "ex": "What do you think about this story?"
+      },
+      "they are {VERBING} in the {NOUN}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "VERBING",
+          "NOUN"
+        ],
+        "ex": "They are walking in the park."
+      },
+      "the {NOUN} {VERB} in the {NOUN}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "NOUN",
+          "VERB",
+          "NOUN"
+        ],
+        "ex": "The children play in the garden."
+      },
+      "where did you {VERB} that?": {
+        "n": 1,
+        "form": "question",
+        "slots": [
+          "VERB"
+        ],
+        "ex": "Where did you learn that?"
+      },
+      "she was {ADJ}, but she {VERBED} {VERBING}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "ADJ",
+          "VERBED",
+          "VERBING"
+        ],
+        "ex": "She was tired, but she kept working."
+      },
+      "please {VERB} me what you {VERB}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "VERB",
+          "VERB"
+        ],
+        "ex": "Please tell me what you mean."
+      },
+      "I am sorry that you {VERB} {ADJ}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "VERB",
+          "ADJ"
+        ],
+        "ex": "I am sorry that you feel sad."
+      },
+      "{VERB} me about your {NOUN}.": {
+        "n": 1,
+        "form": "imperative",
+        "slots": [
+          "VERB",
+          "NOUN"
+        ],
+        "ex": "Tell me about your day."
+      },
+      "the {NOUN} is {ADJ} of {NOUNS}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "NOUN",
+          "ADJ",
+          "NOUNS"
+        ],
+        "ex": "The world is full of words."
+      },
+      "I {VERB} {VERBING} with my {NOUN}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "VERB",
+          "VERBING",
+          "NOUN"
+        ],
+        "ex": "I enjoy talking with my friend."
+      },
+      "we {VERB} because we are {ADJ}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "VERB",
+          "ADJ"
+        ],
+        "ex": "We learn because we are curious."
+      },
+      "if you {VERB}, I will {VERB}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "VERB",
+          "VERB"
+        ],
+        "ex": "If you ask, I will explain."
+      },
+      "although it is {ADJ}, {VERBING} is {VERBING}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "ADJ",
+          "VERBING",
+          "VERBING"
+        ],
+        "ex": "Although it is difficult, learning is rewarding."
+      },
+      "does the {NOUN} {VERB} the {NOUN}?": {
+        "n": 1,
+        "form": "question",
+        "slots": [
+          "NOUN",
+          "VERB",
+          "NOUN"
+        ],
+        "ex": "Does the dog like the garden?"
+      },
+      "when will the {ADJ} {NOUN}?": {
+        "n": 1,
+        "form": "question",
+        "slots": [
+          "ADJ",
+          "NOUN"
+        ],
+        "ex": "When will the lesson begin?"
+      },
+      "you are very {ADJ}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "ADJ"
+        ],
+        "ex": "You are very kind."
+      },
+      "what is your {ADJ} {NOUN}?": {
+        "n": 1,
+        "form": "question",
+        "slots": [
+          "ADJ",
+          "NOUN"
+        ],
+        "ex": "What is your favourite book?"
+      },
+      "how do {NOUNS} {NOUN}?": {
+        "n": 1,
+        "form": "question",
+        "slots": [
+          "NOUNS",
+          "NOUN"
+        ],
+        "ex": "How do birds fly?"
+      },
+      "it is {ADJ} to {VERB} for {VERB}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "ADJ",
+          "VERB",
+          "VERB"
+        ],
+        "ex": "It is good to ask for help."
+      },
+      "she {VERBS} while she {VERBS}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "VERBS",
+          "VERBS"
+        ],
+        "ex": "She sings while she works."
+      }
+    },
+    "clause_templates": {
+      "PRON VERB PREP DET NOUN | because | PRON VERB NOUN": 1,
+      "NOUN AUX NOUN | and | NOUN AUX NOUN": 1,
+      "PRON AUX NEG VERB DET NOUN | but | PRON MODAL VERB PART VERB PREP": 1,
+      "PRON AUX DET ADJ NOUN | so | PRON VERB PREP NOUN": 1,
+      "PRON VERB DET NOUN | and | VERB PART VERB": 1,
+      "PRON AUX ADJ | but | PRON VERB": 1,
+      "PRON VERB | because | PRON AUX ADJ": 1,
+      "PRON AUX VERB PART VERB | and | PRON VERB DET NOUN": 1,
+      "PRON VERB ADJ | and | ADJ": 1,
+      "PRON VERB | while | PRON VERB": 1
+    },
+    "sentence_bank": {
+      "happy": [
+        "I am happy to talk with you."
+      ],
+      "talk": [
+        "I am happy to talk with you.",
+        "We can talk about music, books or the weather.",
+        "I enjoy talking with my friend."
+      ],
+      "language": [
+        "Language is a tool for sharing ideas."
+      ],
+      "tool": [
+        "Language is a tool for sharing ideas."
+      ],
+      "brain": [
+        "The brain is a complex organ."
+      ],
+      "complex": [
+        "The brain is a complex organ."
+      ],
+      "want": [
+        "I want to learn new words.",
+        "I want to understand how the mind works."
+      ],
+      "learn": [
+        "We learn because we are curious.",
+        "Although it is difficult, learning is rewarding.",
+        "I am learning to speak, and I practise every day."
+      ],
+      "go": [
+        "She went to the market because she needed bread."
+      ],
+      "market": [
+        "She went to the market because she needed bread."
+      ],
+      "music": [
+        "We can talk about music, books or the weather."
+      ],
+      "important": [
+        "It is important to listen."
+      ],
+      "listen": [
+        "It is important to listen."
+      ],
+      "thank": [
+        "Thank you for your help."
+      ],
+      "help": [
+        "Thank you for your help.",
+        "It is good to ask for help."
+      ],
+      "tell": [
+        "Please tell me what you mean.",
+        "Tell me about your day.",
+        "The old man told a funny story."
+      ],
+      "more": [
+        "Can you tell me more about that?"
+      ],
+      "questions": [
+        "Learning is fun when the questions are good.",
+        "Good questions lead to good answers."
+      ],
+      "friend": [
+        "My friend likes to read stories at night."
+      ],
+      "lik": [
+        "My friend likes to read stories at night."
+      ],
+      "words": [
+        "Words have meanings, and meanings have shades."
+      ],
+      "meanings": [
+        "Words have meanings, and meanings have shades."
+      ],
+      "hard": [
+        "It is hard to learn alone."
+      ],
+      "teacher": [
+        "The teacher explained the lesson slowly."
+      ],
+      "explain": [
+        "The teacher explained the lesson slowly.",
+        "If you ask, I will explain."
+      ],
+      "think": [
+        "I think that is a good idea.",
+        "What do you think about this story?"
+      ],
+      "good": [
+        "I think that is a good idea.",
+        "Good questions lead to good answers.",
+        "It is good to ask for help."
+      ],
+      "know": [
+        "I do not know the answer, but I would like to find out."
+      ],
+      "answer": [
+        "I do not know the answer, but I would like to find out."
+      ],
+      "story": [
+        "What do you think about this story?"
+      ],
+      "walk": [
+        "They are walking in the park."
+      ],
+      "park": [
+        "They are walking in the park."
+      ],
+      "children": [
+        "The children play in the garden."
+      ],
+      "play": [
+        "The children play in the garden."
+      ],
+      "quiet": [
+        "It was a quiet evening, so we stayed at home."
+      ],
+      "evening": [
+        "It was a quiet evening, so we stayed at home."
+      ],
+      "open": [
+        "He opened the book and began to read."
+      ],
+      "book": [
+        "He opened the book and began to read.",
+        "What is your favourite book?"
+      ],
+      "love": [
+        "I love to explore new ideas."
+      ],
+      "explore": [
+        "I love to explore new ideas."
+      ],
+      "tired": [
+        "She was tired, but she kept working."
+      ],
+      "keep": [
+        "She was tired, but she kept working."
+      ],
+      "mean": [
+        "Please tell me what you mean."
+      ],
+      "feel": [
+        "I am sorry that you feel sad.",
+        "I feel calm and ready."
+      ],
+      "world": [
+        "The world is full of words."
+      ],
+      "full": [
+        "The world is full of words."
+      ],
+      "read": [
+        "Reading is easy when the story is good."
+      ],
+      "easy": [
+        "Reading is easy when the story is good."
+      ],
+      "enjoy": [
+        "I enjoy talking with my friend."
+      ],
+      "curious": [
+        "We learn because we are curious."
+      ],
+      "difficult": [
+        "Although it is difficult, learning is rewarding."
+      ],
+      "knowledge": [
+        "Knowledge grows when people share it."
+      ],
+      "grow": [
+        "Knowledge grows when people share it."
+      ],
+      "kind": [
+        "A kind word can change a day."
+      ],
+      "word": [
+        "A kind word can change a day."
+      ],
+      "mother": [
+        "My mother cooks dinner in the evening."
+      ],
+      "cooks": [
+        "My mother cooks dinner in the evening."
+      ],
+      "funny": [
+        "The old man told a funny story."
+      ],
+      "understand": [
+        "I want to understand how the mind works."
+      ],
+      "garden": [
+        "Does the dog like the garden?"
+      ],
+      "make": [
+        "Who made this beautiful picture?"
+      ],
+      "beautiful": [
+        "Who made this beautiful picture?"
+      ],
+      "lesson": [
+        "When will the lesson begin?"
+      ],
+      "begin": [
+        "When will the lesson begin?"
+      ],
+      "nice": [
+        "It is nice to meet a new friend."
+      ],
+      "meet": [
+        "It is nice to meet a new friend."
+      ],
+      "speak": [
+        "I am learning to speak, and I practise every day."
+      ],
+      "calm": [
+        "I feel calm and ready."
+      ],
+      "favourite": [
+        "What is your favourite book?"
+      ],
+      "stories": [
+        "Stories teach us about life."
+      ],
+      "teach": [
+        "Stories teach us about life."
+      ],
+      "sing": [
+        "She sings while she works."
+      ],
+      "work": [
+        "She sings while she works."
+      ]
+    }
+  },
+  "language_meta": {
+    "failed": {},
+    "pending_words": [
+      "evening",
+      "garden",
+      "lesson"
+    ],
+    "names": [],
+    "lessons": 0,
+    "topic_cursor": 0,
+    "taught": 0,
+    "last_lesson": ""
+  }
 }
