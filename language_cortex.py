@@ -4941,7 +4941,20 @@ def _flag_value(name: str, default: int) -> int:
     return default
 
 
+
+def git_auto_sync(push: bool = False) -> None:
+    import subprocess
+    try:
+        subprocess.run(["git", "pull", "--rebase", "--autostash"], check=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        if push:
+            subprocess.run(["git", "add", "brain_memory_state.json", "dynamic_skills.json"], check=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            subprocess.run(["git", "commit", "-m", "24/7 Brain: recorded new learned memories and skills"], check=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            subprocess.run(["git", "push"], check=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    except Exception:
+        pass
+
 def main() -> None:
+    git_auto_sync(push=False)
     install_language_cortex()
     argv = sys.argv
     if "--fresh" in argv:
@@ -4963,13 +4976,20 @@ def main() -> None:
         language_demo(brain)
     headless = "--auto-only" in argv or "--learn-language" in argv
     if headless:
+        brain.banner("24/7 AUTONOMOUS WAKE-UP & CONTINUOUS LEARNING")
+        brain.explore(speak=True)
+        brain.idle_autonomy()
+        if len(brain.evolution.registry) < len(brain.evolution.TEMPLATES):
+            brain.evolve(announce=True)
         rounds = _flag_value("--rounds", int(os.environ.get("LANGUAGE_ROUNDS", "2")))
         brain.banner("LANGUAGE PRACTICE (%d round%s)" % (rounds, "" if rounds == 1 else "s"))
         cx.learn_how_to_talk(rounds=rounds, speak=False)
+        brain.check_fatigue()
     brain.status()
     brain.memory.save(brain.chem)
     if headless:
         brain.shutdown()
+        git_auto_sync(push=True)
         return
     slb.interactive_loop(brain)
 
@@ -4979,3 +4999,15 @@ install_language_cortex()                                      # importing the m
 
 if __name__ == "__main__":
     main()
+
+_orig_shutdown = slb.SyntheticLivingBrain.shutdown
+def _synced_shutdown(self) -> None:
+    _orig_shutdown(self)
+    git_auto_sync(push=True)
+slb.SyntheticLivingBrain.shutdown = _synced_shutdown
+
+_orig_idle_sync = slb.SyntheticLivingBrain.idle_autonomy
+def _synced_idle(self) -> None:
+    _orig_idle_sync(self)
+    git_auto_sync(push=True)
+slb.SyntheticLivingBrain.idle_autonomy = _synced_idle

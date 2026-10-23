@@ -5282,7 +5282,7 @@ class IdleAutonomy:
             if not self.brain.lock.acquire(blocking=False):      # the Creator is mid-command
                 continue
             try:
-                self._fired = True
+                self._last = time.time()
                 self.brain.idle_autonomy()
             except Exception as exc:                              # never let a background thought crash the brain
                 print("  (idle thought failed: %s)" % exc)
