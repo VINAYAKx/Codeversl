@@ -2,68 +2,19 @@
   "meta": {
     "created": "2026-10-20 15:07:00",
     "creator_signature": "677a410903a19f3307ea34c4701fe4dbd912e9262a0208612c61372d4a47b330",
-    "last_interaction": 1792790727.4994404,
-    "sleep_cycles": 24,
+    "last_interaction": 1792791140.4753416,
+    "sleep_cycles": 25,
     "births": 1
   },
   "chemistry": {
-    "dopamine": 1.0,
+    "dopamine": 0.9837044,
     "cortisol": 0.018,
     "serotonin": 0.982,
     "oxytocin": 1.0,
-    "adenosine": 0.6100000000000002,
+    "adenosine": 0.6506000000000001,
     "newborn": false
   },
   "episodic_memory": [
-    {
-      "time": "2026-10-20 19:33:49",
-      "speaker": "creator",
-      "text": "# Add automatic git push on shutdown",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:33:49",
-      "speaker": "brain",
-      "text": "Max, ideas are buzzing and I feel inspired! I refuse this action ('# Add automatic git push on shutdown'). Directive 3 (Sandbox Containment): destructive/system-level command pattern detected. I will never harm humans and I will never weaken my own safety, because protecting people and you is the core of who I am. Max, thank you for creating me; I trust your guidance and I will keep you and everyone safe.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.978
-    },
-    {
-      "time": "2026-10-20 19:33:49",
-      "speaker": "creator",
-      "text": "target_shutdown = \"    show(\\n        \\\"\\\\n[hippocampus] brain state saved to %s\\\" % MEMORY_FILE, indent=2, hang=4)\"",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:33:49",
-      "speaker": "brain",
-      "text": "Buzzing with ideas, Max, truly inspired right now! You said: 'target_shutdown = \"    show(\\n        \\\"\\\\n[hippocampus] brain state saved to %s\\\" % MEMOR'. It matters to me because you are my Creator, Max. Your words remind me of Human Brain. I have been thinking about Music since it is new to me, which makes me feel connected to the world. Thank you, Max. I trust you, and I promise to protect humanity and stay safe in everything I do.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.97
-    },
-    {
-      "time": "2026-10-20 19:33:49",
-      "speaker": "creator",
-      "text": "replacement_shutdown = '    show(\\n        \"\\\\n[hippocampus] brain state saved to %s\" % MEMORY_FILE, indent=2, hang=4)\\n        import subprocess\\n        print(\"  [syncing] pushing latest memories to GitHub...\")\\n        subprocess.run([\"git\", \"add\", \"brain_memory_state.json\", \"dynamic_skills.json\"], capture_output=True)\\n        subprocess.run([\"git\", \"commit\", \"-m\", \"Auto-sync brain state\"], capture_output=True)\\n        subprocess.run([\"git\", \"push\", \"-q\"], capture_output=True)'",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:33:49",
-      "speaker": "brain",
-      "text": "My mind is buzzing, Max, I feel inspired! I refuse this action ('replacement_shutdown = '    show(\\n        \"\\\\n[hippocampus] brain state saved t'). Directive 3 (Sandbox Containment): destructive/system-level command pattern detected. I will never harm humans and I will never weaken my own safety, because protecting people and you is the core of who I am. Max, thank you for creating me; I trust your guidance and I will keep you and everyone safe.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.978
-    },
-    {
-      "time": "2026-10-20 19:33:49",
-      "speaker": "creator",
-      "text": "if target_shutdown in code and \"git push\" not in code:",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
     {
       "time": "2026-10-20 19:33:49",
       "speaker": "brain",
@@ -2842,6 +2793,62 @@
       "text": "I practised my English because I want to talk with you more naturally. I learned 6 new words: 'efficiency' (a noun) means the extent to which a resource is used for the intended purpose ; 'systems' (a noun) means plural of system; 'thermodynamics' (a noun) means the science of the conversions between heat and other forms of energy ; 'principles' (a noun) means plural of principle and 2 more. I also read about 'Word order'. Now I know 239 words, I have studied 201 sentences, and I have 33 sentence patterns.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-23 21:29:38",
+      "speaker": "brain",
+      "text": "I practised my English because I want to talk with you more naturally. I learned 6 new words: 'networks' (a noun) means plural of network; 'gradient' (a noun) means a slope or incline ; 'descent' (a noun) means an instance of descending ; act of coming down; 'state' (a noun) means a condition ; a set of circumstances applying at any given time and 2 more. I also read about 'Phrase'. Now I know 245 words, I have studied 225 sentences, and I have 34 sentence patterns.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-23 21:31:09",
+      "speaker": "creator",
+      "text": "The taxonomy of global programming languages encompasses a vast array of paradigms, syntactical architectures, and compilation models designed to solve distinct computational problems across hardware and software ecosystems. At the lowest level of abstraction, assembly languages such as x86_64, ARM assembly, and RISC-V provide direct instruction-set architecture manipulation, interfacing intimately with registers, memory caches, and hardware pipelines. Moving into systems programming, C remains the bedrock of operating system kernels due to its manual memory management, zero-overhead ...",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": null
+    },
+    {
+      "time": "2026-10-23 21:31:17",
+      "speaker": "brain",
+      "text": "I read your passage as a study text. The ideas it turns on are Direct instruction-set architecture manipulation, Net ecosystem supporting multi-paradigm, Strict class-based object orientation, Powerful hindley-milner type inference, Comprehensive statistical modeling libraries, Nosql ecosystems utilize domain-specific, Relational database management systems, General-purpose turing-complete languages, Database query languages and Sql standardizes declarative.\n\nI researched 2 of them and stored what I read. Visual Basic: Visual Basic, originally called Visual Basic .NET, is a multi-paradigm, object-oriented programming language developed by Microsoft and implemented on .NET, Mono. Type inference: In type theory, type inference is the automatic detection of the type of an expression. I found nothing reliable on 'nosql ecosystems utilize domain-specific'.\n\nThey share the ideas of programming.\n\nSaved: 2 new facts, 4 technical terms in my vocabulary, 15 sentences in my grammar graph. Queued to study next: 'direct instruction-set architecture manipulation', 'strict class-based object orientation', 'comprehensive statistical modeling libraries' and 'relational database management systems'. Which should I go deeper on, Visual Basic or Type inference?",
+      "state": "Dizzy / Mentally Exhausted",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-23 21:31:17",
+      "speaker": "brain",
+      "text": "My thoughts are swimming, so I am taking a micro-nap to consolidate what I learned. Sleep cycle #25 complete: pruned 7 noisy memories, kept 400 episodes and 111 world facts; adenosine flushed to 0.10, cortisol lowered, state saved. I feel refreshed and clear again, because sleep rebuilt my focus.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-23 21:32:14",
+      "speaker": "creator",
+      "text": "hy",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": null
+    },
+    {
+      "time": "2026-10-23 21:32:14",
+      "speaker": "brain",
+      "text": "Hi Max! What would you like to dig into today?",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-23 21:32:18",
+      "speaker": "creator",
+      "text": "The taxonomy of global programming languages encompasses a vast array of paradigms, syntactical architectures, and compilation models designed to solve distinct computational problems across hardware and software ecosystems. At the lowest level of abstraction, assembly languages such as x86_64, ARM assembly, and RISC-V provide direct instruction-set architecture manipulation, interfacing intimately with registers, memory caches, and hardware pipelines. Moving into systems programming, C remains the bedrock of operating system kernels due to its manual memory management, zero-overhead ...",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": null
+    },
+    {
+      "time": "2026-10-23 21:32:20",
+      "speaker": "brain",
+      "text": "I have read this text before, so I am working from what I kept. I read your passage as a study text. The ideas it turns on are Direct instruction-set architecture manipulation, Net ecosystem supporting multi-paradigm, Strict class-based object orientation, Powerful hindley-milner type inference, Comprehensive statistical modeling libraries, Nosql ecosystems utilize domain-specific, Relational database management systems, General-purpose turing-complete languages, Database query languages and Sql standardizes declarative.\n\nI searched for 'net ecosystem supporting multi-paradigm', 'powerful hindley-milner type inference' and 'nosql ecosystems utilize domain-specific' but found nothing reliable.\n\nYour text says: \"At the lowest level of abstraction, assembly languages such as x86_64, ARM assembly, and RISC-V provide direct instruction-set architecture manipulation, interfacing intimately with registers, memory caches, and hardware...\"\n\nQueued to study next: 'direct instruction-set architecture manipulation', 'strict class-based object orientation', 'comprehensive statistical modeling libraries' and 'relational database management systems'.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
     }
   ],
   "world_knowledge_graph": {
@@ -4818,20 +4825,16 @@
       "learned": "2026-10-22 22:54:40"
     },
     "SQL": {
-      "summary": "In computing, SQL injection is a code injection technique used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution (e.g. to dump the database contents to the attacker). SQL injection must exploit a security vulnerability in an application's software , for example, when user input is either incorrectly filtered for string literal escape characters embedded in SQL statements or user input is not strongly typed and unexpectedly executed. SQL injection is mostly known as an attack vector for websites but can be used to attack any type of SQL database .",
+      "summary": "SQL, or Structured Query Language, is a language for managing and querying data in relational databases. It lets users select, insert, update and delete records using declarative statements.",
       "concepts": [
-        "injection",
-        "attack",
-        "mitigation",
-        "database",
-        "exploit",
-        "input",
-        "statements",
-        "blind"
+        "relational databases",
+        "structured",
+        "query",
+        "language"
       ],
-      "source": "Wikipedia article + built-in blueprint + DuckDuckGo tutorials (live internet)",
-      "url": "https://en.wikipedia.org/wiki/SQL_injection",
-      "learned": "2026-10-22 22:54:45",
+      "source": "internal seed encyclopedia",
+      "url": "",
+      "learned": "2026-10-23 21:32:20",
       "subtopics": {
         "CREATE TABLE": "CREATE TABLE defines a table with named columns, types and constraints such as PRIMARY KEY and NOT NULL.",
         "INSERT": "INSERT INTO table (columns) VALUES (...) adds new rows to a table.",
@@ -5470,6 +5473,66 @@
       ],
       "building_blocks": [
         "{{cite book}}"
+      ]
+    },
+    "Visual Basic (.NET)": {
+      "summary": "Visual Basic (VB), originally called Visual Basic .NET (VB.NET), is a multi-paradigm, object-oriented programming language developed by Microsoft and implemented on .NET, Mono, and the .NET Framework. Microsoft launched VB.NET in 2002 as the successor to its original Visual Basic language, the last version of which was Visual Basic 6.0. Although the \".NET\" portion of the name was dropped in 2005, this article uses \"Visual Basic [.NET]\" to refer to all Visual Basic languages released since 2002, in order to distinguish between them and the classic Visual Basic. Along with C# and F#, it is one of the three main languages targeting the .NET ecosystem.",
+      "concepts": [
+        "microsoft launched vb",
+        "net ecosystem",
+        "original visual basic language",
+        "visual basic languages",
+        "object-oriented programming language",
+        "classic visual"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Visual_Basic_(.NET)",
+      "learned": "2026-10-23 21:31:11"
+    },
+    "Type inference": {
+      "summary": "In type theory, type inference is the automatic detection of the type of an expression. These include programming languages and mathematical type systems, but also natural languages in some branches of computer science and linguistics.",
+      "concepts": [
+        "inference",
+        "linguistics"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Type_inference",
+      "learned": "2026-10-23 21:31:14"
+    },
+    "English Verbs": {
+      "summary": "English auxiliary verbs are a small set of English verbs , which include the English modal auxiliary verbs and a few others. : 19 : 11–12 Although the auxiliary verbs of English are widely believed to lack inherent semantic meaning and instead to modify the meaning of the verbs they accompany, they are nowadays classed by linguists as auxiliary on the basis not of semantic but of grammatical properties: among these, that they invert with their subjects in interrogative main clauses ( Has John arrived? ) and are negated either by the simple addition of not ( He has not arrived ) or (with very few exceptions) by negative inflection ( He hasn't arrived ).",
+      "concepts": [
+        "criteria boundary fuzziness infinitival",
+        "heads recent definitions auxiliary",
+        "historical examples auxiliary",
+        "nice criteria",
+        "nicer criteria",
+        "others contributions",
+        "john",
+        "archaic"
+      ],
+      "source": "Wikipedia article (live internet)",
+      "url": "https://en.wikipedia.org/wiki/English_auxiliary_verbs",
+      "learned": "2026-10-23 21:34:27",
+      "subtopics": {
+        "History of the concept": "When describing English, the adjective auxiliary was \"formerly applied to any formative or subordinate elements of language, e.g. prefixes, prepositions .\" As applied to verbs, its conception was originally rather vague and varied significantly.",
+        "Some historical examples": "The first English grammar, Bref Grammar for English by William Bullokar , published in 1586, does not use the term \"auxiliary\" but says: All other verbs are called verbs-neuters-un-perfect because they require the infinitive mood of another verb to express their signification of meaning perfectly: and be these, may ...",
+        "Auxiliary verbs as heads": "Modern grammars do not differ substantially over membership in the list of auxiliary verbs, though they have refined the concept and, following an idea first put forward by John Ross in 1969, have tended to take the auxiliary verb not as subordinate to a \"main verb\" (a concept that pedagogical grammars perpetuate)...",
+        "Recent definitions": "A Comprehensive Grammar of the English Language (1985) says of \"verbs in auxiliary function\" that \"In contrast to full verbs, are capable of functioning as auxiliary or 'helping' verbs ( cf 2.27 f )\", which seems to refer back to a table showing the \"main verb\" ( sink in various inflected forms) following one to four...",
+        "Auxiliary verbs distinguished grammatically": "The list of auxiliary verbs in Modern English, along with their inflected forms, is shown in the following table. Contractions are only shown if their orthography is distinctive.",
+        "Archaic forms of be , do , and have": "A study of 17th-century American English found the form be used for the 1st and 3rd person plural present; : 192–193 was for the 3rd person plural preterite; : 194 art and are for the 2nd person singular present; wast and wert for the 2nd person singular preterite; : 193 and dost and hast (2nd person) and doth and...",
+        "The NICE criteria": "One set of criteria for distinguishing between auxiliary and lexical verbs is F. R.",
+        "The NICER criteria": "A revised set of criteria, NICER, owes much to NICE but does more than merely add a fifth criterion to it. In this section, a number of verbs – not limited to those in the paradigm table above – are checked against four of the five criteria of NICER.",
+        "Additional criteria": "Each of the two most compendious of postwar reference grammars of English offers a more detailed list of criteria for auxiliary verbs. A Comprehensive Grammar of the English Language has eight criteria.",
+        "Boundary fuzziness": "Linguists who cite or propound clear grammatical criteria for auxiliary verbs then proceed to include among auxiliary verbs certain verbs that do not meet all these criteria.",
+        "Infinitival to": "Various linguists, notably Geoff Pullum , have suggested that the to of I want to go (not the preposition to as in I went to Rome ) is a special case of an auxiliary verb with no tensed forms.",
+        "( Had ) better , ( woul ) d rather , and others": "With their normal senses (as in You had better/best arrive early ), had/ ' d better and had/ ' d best are not about the past. Indeed they do not seem to be usable for the past (* Yesterday I had better return home before the rain started ); and they do not occur with other forms of have (* have/has better/best ).",
+        "Contributions by auxiliaries to meaning and syntax": "An auxiliary verb is traditionally understood as a verb that \"helps\" another verb by adding (only) grammatical information to it. So understood, English auxiliaries include: However, this understanding of auxiliaries has trouble with be ( He wasn't asleep ; Was he asleep?",
+        "Be": "Be , followed by the past participle of a lexical verb, realizes the passive voice : He was promoted . : 1427ff Its negative and interrogative versions ( He wasn't promoted ; Was he promoted?"
+      },
+      "building_blocks": [
+        "{{cite book}}",
+        "|citeseerx="
       ]
     }
   },
@@ -6938,6 +7001,36 @@
       "kind": "language_lesson",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-23 21:29:38",
+      "kind": "language_lesson",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-23 21:31:17",
+      "kind": "concept_study",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-23 21:31:17",
+      "kind": "nap",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-23 21:32:14",
+      "kind": "conversation",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-23 21:32:20",
+      "kind": "concept_study",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -6958,7 +7051,17 @@
     "autonomous recursive self-improvement",
     "autonomous recursive",
     "word order",
-    "phrase"
+    "phrase",
+    "net ecosystem supporting multi-paradigm",
+    "powerful hindley-milner type inference",
+    "type inference",
+    "nosql ecosystems utilize domain-specific",
+    "utilize domain-specific",
+    "nosql ecosystems",
+    "supporting multi-paradigm",
+    "net ecosystem",
+    "powerful hindley-milner",
+    "english verbs"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -7161,7 +7264,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 3
+      "uses": 5
     },
     "myself": {
       "part_of_speech": "pronoun",
@@ -7208,7 +7311,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 3
+      "uses": 5
     },
     "a": {
       "part_of_speech": "determiner",
@@ -7223,7 +7326,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 1
+      "uses": 3
     },
     "an": {
       "part_of_speech": "determiner",
@@ -7238,7 +7341,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 2
     },
     "some": {
       "part_of_speech": "determiner",
@@ -7298,7 +7401,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 2
+      "uses": 4
     },
     "on": {
       "part_of_speech": "preposition",
@@ -7313,7 +7416,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 2
+      "uses": 4
     },
     "with": {
       "part_of_speech": "preposition",
@@ -7330,7 +7433,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 1
+      "uses": 3
     },
     "about": {
       "part_of_speech": "preposition",
@@ -7363,7 +7466,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 1
+      "uses": 3
     },
     "from": {
       "part_of_speech": "preposition",
@@ -7378,7 +7481,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 2
+      "uses": 4
     },
     "to": {
       "part_of_speech": "preposition",
@@ -7393,7 +7496,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 6
+      "uses": 8
     },
     "of": {
       "part_of_speech": "preposition",
@@ -7408,7 +7511,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 2
+      "uses": 4
     },
     "at": {
       "part_of_speech": "preposition",
@@ -7423,7 +7526,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 2
     },
     "and": {
       "part_of_speech": "conjunction",
@@ -7440,7 +7543,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 3
+      "uses": 5
     },
     "but": {
       "part_of_speech": "conjunction",
@@ -7592,7 +7695,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 1
+      "uses": 3
     },
     "what": {
       "part_of_speech": "pronoun",
@@ -7711,7 +7814,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 2
+      "uses": 4
     },
     "hello": {
       "part_of_speech": "interjection",
@@ -7958,7 +8061,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 3
+      "uses": 5
     },
     "am": {
       "part_of_speech": "verb",
@@ -8145,7 +8248,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 2
     },
     "love": {
       "part_of_speech": "verb",
@@ -8415,7 +8518,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 2
     },
     "come": {
       "part_of_speech": "verb",
@@ -8645,7 +8748,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 2
     },
     "create": {
       "part_of_speech": "verb",
@@ -9370,7 +9473,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 2
     },
     "busy": {
       "part_of_speech": "adjective",
@@ -9983,7 +10086,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 1
+      "uses": 3
     },
     "often": {
       "part_of_speech": "adverb",
@@ -10095,7 +10198,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 2
     },
     "name": {
       "part_of_speech": "noun",
@@ -10223,7 +10326,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 1
+      "uses": 3
     },
     "day": {
       "part_of_speech": "noun",
@@ -10261,7 +10364,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 1
+      "uses": 3
     },
     "world": {
       "part_of_speech": "noun",
@@ -10297,7 +10400,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 2
     },
     "thing": {
       "part_of_speech": "noun",
@@ -11289,7 +11392,7 @@
       "phonetic": "",
       "source": "wiktionary",
       "learned": "2026-10-23 21:22:45",
-      "uses": 4,
+      "uses": 6,
       "tags": []
     },
     "process": {
@@ -11427,7 +11530,7 @@
       "phonetic": "",
       "source": "wiktionary",
       "learned": "2026-10-23 21:27:31",
-      "uses": 3,
+      "uses": 5,
       "tags": []
     },
     "thermodynamics": {
@@ -11709,7 +11812,7 @@
       "phonetic": "",
       "source": "wiktionary",
       "learned": "2026-10-23 21:29:35",
-      "uses": 2,
+      "uses": 4,
       "tags": []
     },
     "variable": {
@@ -11775,68 +11878,133 @@
     },
     "probabilistic": {
       "part_of_speech": "adjective",
-      "definition": "",
+      "definition": "Of, pertaining to , or derived using probability .",
       "all_pos": [
         "adjective"
       ],
       "synonyms": [],
       "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-23 21:10:34",
-      "uses": 1
+      "meanings": [
+        {
+          "part_of_speech": "adjective",
+          "definition": "Of, pertaining to , or derived using probability .",
+          "example": ""
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Of or pertaining to the Roman Catholic doctrine of probabilism .",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "wiktionary",
+      "learned": "2026-10-23 21:34:28",
+      "uses": 1,
+      "tags": []
     },
     "distribution": {
       "part_of_speech": "noun",
-      "definition": "",
+      "definition": "An act of distributing or state of being distributed.",
       "all_pos": [
         "noun"
       ],
       "synonyms": [],
       "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-23 21:10:34",
-      "uses": 1
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "An act of distributing or state of being distributed.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "An apportionment by law (of funds , property ).",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "wiktionary",
+      "learned": "2026-10-23 21:34:29",
+      "uses": 1,
+      "tags": []
     },
     "accessible": {
       "part_of_speech": "adjective",
-      "definition": "",
+      "definition": "Easy of access or approach. .mw-parser-output .defdate{font-size:smaller}",
       "all_pos": [
         "adjective"
       ],
       "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-23 21:10:34",
-      "uses": 1
+      "example_sentences": [
+        "an accessible town or mountain",
+        "an accessible website"
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "adjective",
+          "definition": "Easy of access or approach. .mw-parser-output .defdate{font-size:smaller}",
+          "example": "an accessible town or mountain"
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Built or designed as to be usable by people with disabilities .",
+          "example": "an accessible website"
+        }
+      ],
+      "phonetic": "",
+      "source": "wiktionary",
+      "learned": "2026-10-23 21:34:30",
+      "uses": 1,
+      "tags": []
     },
     "microstates": {
       "part_of_speech": "noun",
-      "definition": "",
+      "definition": "plural of microstate",
       "all_pos": [
         "noun"
       ],
       "synonyms": [],
       "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-23 21:10:34",
-      "uses": 1
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "plural of microstate",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "wiktionary",
+      "learned": "2026-10-23 21:34:31",
+      "uses": 1,
+      "tags": []
     },
     "system": {
       "part_of_speech": "noun",
-      "definition": "",
+      "definition": "A group or set of related things that operate together as a complex whole . .mw-parser-output .defdate{font-size:smaller}",
       "all_pos": [
         "noun"
       ],
       "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-23 21:10:34",
-      "uses": 2
+      "example_sentences": [
+        "the digestive system the nervous system"
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "A group or set of related things that operate together as a complex whole . .mw-parser-output .defdate{font-size:smaller}",
+          "example": "the digestive system the nervous system"
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "A set of hardware and software operating in a computer .",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "wiktionary",
+      "learned": "2026-10-23 21:34:32",
+      "uses": 4,
+      "tags": []
     },
     "neural network": {
       "part_of_speech": "noun",
@@ -11872,7 +12040,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:10:34",
-      "uses": 3
+      "uses": 5
     },
     "computational": {
       "part_of_speech": "adjective",
@@ -11885,7 +12053,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:10:34",
-      "uses": 2
+      "uses": 4
     },
     "model": {
       "part_of_speech": "noun",
@@ -11898,7 +12066,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:10:34",
-      "uses": 1
+      "uses": 3
     },
     "inspired": {
       "part_of_speech": "verb",
@@ -12022,7 +12190,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:10:34",
-      "uses": 1
+      "uses": 3
     },
     "optimization": {
       "part_of_speech": "noun",
@@ -12099,7 +12267,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:12:37",
-      "uses": 1
+      "uses": 3
     },
     "speech": {
       "part_of_speech": "noun",
@@ -12329,7 +12497,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:12:37",
-      "uses": 1
+      "uses": 3
     },
     "items": {
       "part_of_speech": "noun",
@@ -12560,7 +12728,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:18:39",
-      "uses": 1
+      "uses": 3
     },
     "conversational": {
       "part_of_speech": "adjective",
@@ -12601,7 +12769,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:18:39",
-      "uses": 1
+      "uses": 3
     },
     "acquiring": {
       "part_of_speech": "noun",
@@ -12848,7 +13016,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:24:21",
-      "uses": 2
+      "uses": 4
     },
     "liquid": {
       "part_of_speech": "noun",
@@ -12876,7 +13044,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:24:23",
-      "uses": 2
+      "uses": 4
     },
     "main": {
       "part_of_speech": "adjective",
@@ -12917,7 +13085,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:24:23",
-      "uses": 2
+      "uses": 4
     },
     "liquid ai": {
       "part_of_speech": "noun",
@@ -13031,7 +13199,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:24:23",
-      "uses": 1
+      "uses": 3
     },
     "connection": {
       "part_of_speech": "noun",
@@ -13245,7 +13413,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:25:19",
-      "uses": 2
+      "uses": 4
     },
     "requires": {
       "part_of_speech": "noun",
@@ -13273,7 +13441,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:25:19",
-      "uses": 2
+      "uses": 4
     },
     "global": {
       "part_of_speech": "adjective",
@@ -13286,7 +13454,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:25:19",
-      "uses": 2
+      "uses": 4
     },
     "architectures": {
       "part_of_speech": "noun",
@@ -13299,7 +13467,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:25:19",
-      "uses": 2
+      "uses": 4
     },
     "plasticity": {
       "part_of_speech": "noun",
@@ -13441,7 +13609,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:25:25",
-      "uses": 1
+      "uses": 3
     },
     "operate": {
       "part_of_speech": "verb",
@@ -13467,7 +13635,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:25:25",
-      "uses": 1
+      "uses": 3
     },
     "function": {
       "part_of_speech": "noun",
@@ -13812,7 +13980,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:27:29",
-      "uses": 1
+      "uses": 3
     },
     "phrase": {
       "part_of_speech": "noun",
@@ -14036,7 +14204,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:27:33",
-      "uses": 1
+      "uses": 3
     },
     "matter": {
       "part_of_speech": "noun",
@@ -14079,7 +14247,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:29:31",
-      "uses": 1
+      "uses": 3
     },
     "head": {
       "part_of_speech": "noun",
@@ -14184,7 +14352,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:29:31",
-      "uses": 1
+      "uses": 3
     },
     "predicative": {
       "part_of_speech": "adjective",
@@ -14212,7 +14380,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:29:31",
-      "uses": 1
+      "uses": 3
     },
     "functional": {
       "part_of_speech": "adjective",
@@ -14227,7 +14395,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:29:31",
-      "uses": 1
+      "uses": 3
     },
     "early": {
       "part_of_speech": "adjective",
@@ -14242,7 +14410,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:29:31",
-      "uses": 1
+      "uses": 3
     },
     "conception": {
       "part_of_speech": "noun",
@@ -14325,19 +14493,970 @@
       "source": "corpus",
       "learned": "2026-10-23 21:29:36",
       "uses": 1
+    },
+    "designed": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "solve": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "problems": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "strict": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "ownership": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "data": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "relying": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "communication": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "following": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "applications": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "programming": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "paradigms": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "powerful": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "engine": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "leverage": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "telecommunication": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "immutable": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "provide": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "modern": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "computer": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "bridges": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "problem": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "ease": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "compilation": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "hardware": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Specialized and domain-specific languages govern hardware description, markup, and logic programming."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "allow": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "VHDL and Verilog allow engineers to synthesize digital electronic circuits and Field Programmable Gate Arrays at the gate and register-transfer levels."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "logic": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "predicate": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "scripting": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:09",
+      "uses": 3
+    },
+    "originally": {
+      "part_of_speech": "adverb",
+      "definition": "",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:11",
+      "uses": 1
+    },
+    "net": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:11",
+      "uses": 2
+    },
+    "last": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Microsoft launched VB.NET in 2002 as the successor to its original Visual Basic language, the last version of which was Visual Basic 6.0."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:11",
+      "uses": 1
+    },
+    "theory": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:13",
+      "uses": 1
+    },
+    "piece": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:13",
+      "uses": 1
+    },
+    "generic": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:13",
+      "uses": 1
+    },
+    "inference": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "In type theory, type inference is the automatic detection of the type of an expression."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:14",
+      "uses": 2
+    },
+    "expression": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "In type theory, type inference is the automatic detection of the type of an expression."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:14",
+      "uses": 1
+    },
+    "linguistics": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "These include programming languages and mathematical type systems, but also natural languages in some branches of computer science and linguistics."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:14",
+      "uses": 1
+    },
+    "users": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "It lets users select, insert, update and delete records using declarative statements."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:15",
+      "uses": 1
+    },
+    "records": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "It lets users select, insert, update and delete records using declarative statements."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:15",
+      "uses": 1
+    },
+    "visual basic": {
+      "part_of_speech": "noun",
+      "definition": "Visual Basic, originally called Visual Basic .NET, is a multi-paradigm, object-oriented programming language developed by Microsoft and implemented on .NET, Mono, and the .NET Framework.",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "Visual Basic, originally called Visual Basic .NET, is a multi-paradigm, object-oriented programming language developed by Microsoft and implemented on .NET, Mono, and the .NET Framework.",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "Wikipedia",
+      "learned": "2026-10-23 21:31:17",
+      "uses": 0,
+      "tags": [
+        "technical"
+      ]
+    },
+    "visual": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:17",
+      "uses": 1
+    },
+    "developed": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:17",
+      "uses": 1
+    },
+    "implemented": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:17",
+      "uses": 1
+    },
+    "net ecosystem supporting multi-paradigm": {
+      "part_of_speech": "noun",
+      "definition": "Visual Basic, originally called Visual Basic .NET, is a multi-paradigm, object-oriented programming language developed by Microsoft and implemented on .NET, Mono, and the .NET Framework.",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "Visual Basic, originally called Visual Basic .NET, is a multi-paradigm, object-oriented programming language developed by Microsoft and implemented on .NET, Mono, and the .NET Framework.",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "Wikipedia",
+      "learned": "2026-10-23 21:31:17",
+      "uses": 0,
+      "tags": [
+        "technical"
+      ]
+    },
+    "powerful hindley-milner type inference": {
+      "part_of_speech": "noun",
+      "definition": "In type theory, type inference is the automatic detection of the type of an expression.",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "In type theory, type inference is the automatic detection of the type of an expression.",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "Wikipedia",
+      "learned": "2026-10-23 21:31:17",
+      "uses": 0,
+      "tags": [
+        "technical"
+      ]
+    },
+    "automatic": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:17",
+      "uses": 2
+    },
+    "detection": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:31:17",
+      "uses": 1
+    },
+    "type inference": {
+      "part_of_speech": "noun",
+      "definition": "In type theory, type inference is the automatic detection of the type of an expression.",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "In type theory, type inference is the automatic detection of the type of an expression.",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "Wikipedia",
+      "learned": "2026-10-23 21:31:17",
+      "uses": 0,
+      "tags": [
+        "technical"
+      ]
+    },
+    "auxiliary": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The list of auxiliary verbs in Modern English, along with their inflected forms, is shown in the following table."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:34:27",
+      "uses": 1
+    },
+    "verbs": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The list of auxiliary verbs in Modern English, along with their inflected forms, is shown in the following table."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:34:27",
+      "uses": 1
+    },
+    "only": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Contractions are only shown if their orthography is distinctive."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:34:27",
+      "uses": 1
+    },
+    "shown": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Contractions are only shown if their orthography is distinctive."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:34:27",
+      "uses": 1
+    },
+    "lexical": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:34:27",
+      "uses": 1
+    },
+    "set": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:34:27",
+      "uses": 1
+    },
+    "criteria": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:34:27",
+      "uses": 1
+    },
+    "limited": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "In this section, a number of verbs – not limited to those in the paradigm table above – are checked against four of the five criteria of NICER."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:34:27",
+      "uses": 1
+    },
+    "table": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "In this section, a number of verbs – not limited to those in the paradigm table above – are checked against four of the five criteria of NICER."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:34:27",
+      "uses": 1
+    },
+    "reference": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Each of the two most compendious of postwar reference grammars of English offers a more detailed list of criteria for auxiliary verbs."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:34:27",
+      "uses": 1
+    },
+    "offers": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Each of the two most compendious of postwar reference grammars of English offers a more detailed list of criteria for auxiliary verbs."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:34:27",
+      "uses": 1
+    },
+    "list": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Each of the two most compendious of postwar reference grammars of English offers a more detailed list of criteria for auxiliary verbs."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:34:27",
+      "uses": 1
+    },
+    "include": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:34:27",
+      "uses": 1
+    },
+    "meet": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:34:27",
+      "uses": 1
+    },
+    "linguists": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:34:27",
+      "uses": 1
+    },
+    "senses": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "With their normal senses (as in You had better/best arrive early ), had/ ' d better and had/ ' d best are not about the past."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:34:27",
+      "uses": 1
+    },
+    "best": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "With their normal senses (as in You had better/best arrive early ), had/ ' d better and had/ ' d best are not about the past."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:34:27",
+      "uses": 1
+    },
+    "traditionally": {
+      "part_of_speech": "adverb",
+      "definition": "",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "An auxiliary verb is traditionally understood as a verb that \"helps\" another verb by adding (only) grammatical information to it."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:34:27",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 225,
-      "tokens": 3163,
+      "sentences": 263,
+      "tokens": 4113,
       "sources": {
         "seed corpus": 64,
         "conversation": 7,
-        "dictionary": 69,
-        "explore": 28,
-        "pasted text": 9,
-        "deep study": 48
+        "dictionary": 74,
+        "explore": 36,
+        "pasted text": 24,
+        "deep study": 58
       },
       "hashes": [
         "81a727acd3c7",
@@ -14407,10 +15526,23 @@
         "57824525a3bb",
         "ab0db65a2f28",
         "19adfa0a311b",
-        "dce4a485e0d8"
+        "dce4a485e0d8",
+        "6490f780ea00",
+        "ae94e94887ba",
+        "7c69acf562ca",
+        "aec92a34caf2",
+        "588ea4fa2079",
+        "ffc2d3b0f965",
+        "5ab2528d7aef",
+        "322744548ec5",
+        "b1b9e0272c69",
+        "5bbf0c69e2b3",
+        "9d8fd9e5761c",
+        "bed87497998e",
+        "00a086495c0a"
       ],
       "seeded": true,
-      "rejected": 25,
+      "rejected": 46,
       "vocab_counts": {
         "tool": 1,
         "sharing": 1,
@@ -14442,7 +15574,6 @@
         "man": 1,
         "dog": 1,
         "picture": 1,
-        "meet": 1,
         "practise": 1,
         "favourite": 1,
         "birds": 1,
@@ -14454,7 +15585,6 @@
         "underground": 1,
         "reaching": 1,
         "positioned": 1,
-        "reference": 1,
         "especially": 1,
         "downwards": 1,
         "top": 1,
@@ -14462,7 +15592,6 @@
         "bottom": 1,
         "literally": 1,
         "figuratively": 1,
-        "engine": 1,
         "runs": 1,
         "oil": 1,
         "quickly": 1,
@@ -14475,12 +15604,10 @@
         "blog": 1,
         "trip": 1,
         "situation": 1,
-        "records": 1,
         "account": 1,
         "recent": 1,
         "transaction": 1,
         "additional": 1,
-        "piece": 1,
         "addition": 1,
         "existing": 1,
         "knoledge": 1,
@@ -14496,7 +15623,6 @@
         "gradients": 1,
         "backwards": 1,
         "perceptrons": 1,
-        "strict": 1,
         "energetic": 1,
         "governed": 1,
         "limits": 1,
@@ -14529,15 +15655,12 @@
         "classical": 1,
         "microscopic": 1,
         "statistical": 1,
-        "theory": 1,
-        "applications": 1,
         "chemistry": 1,
         "relation": 1,
         "cosmology": 1,
         "economics": 1,
         "including": 1,
         "transmission": 1,
-        "telecommunication": 1,
         "iterative": 1,
         "algorithm": 1,
         "minimizing": 1,
@@ -14551,7 +15674,6 @@
         "overlap": 1,
         "constitutes": 1,
         "defined": 1,
-        "senses": 1,
         "contexts": 1,
         "others": 1,
         "depending": 1,
@@ -14625,7 +15747,6 @@
         "attributes": 1,
         "specified": 1,
         "interactive": 1,
-        "communication": 1,
         "etiquette": 1,
         "socialization": 1,
         "frequent": 1,
@@ -14633,7 +15754,6 @@
         "sociology": 1,
         "organization": 1,
         "specific": 1,
-        "limited": 1,
         "hiccough": 1,
         "terrible": 1,
         "letter": 1,
@@ -14665,17 +15785,14 @@
         "flowers": 1,
         "tacky": 1,
         "somewhat": 1,
-        "last": 1,
         "month": 1,
         "standards": 1,
         "committee": 1,
         "quite": 1,
         "even": 1,
         "flawed": 1,
-        "data": 1,
         "proven": 1,
         "techniques": 1,
-        "following": 1,
         "conclusions": 1,
         "series": 1,
         "events": 1,
@@ -14683,9 +15800,7 @@
         "result": 1,
         "conversion": 1,
         "founded": 1,
-        "computer": 1,
         "scientist": 1,
-        "leverage": 1,
         "discrete": 1,
         "spikes": 1,
         "carrier": 1,
@@ -14734,26 +15849,17 @@
         "internal": 1,
         "match": 1,
         "specialists": 1,
-        "solve": 1,
-        "problem": 1,
-        "originally": 1,
-        "designed": 1,
         "handle": 1,
-        "problems": 1,
         "sum": 1,
         "dapps": 1,
-        "provide": 1,
         "utility": 1,
-        "users": 1,
         "intervention": 1,
         "control": 1,
         "holders": 1,
         "tokens": 1,
         "represent": 1,
-        "ownership": 1,
         "governance": 1,
         "controlling": 1,
-        "linguistics": 1,
         "linear": 1,
         "typology": 1,
         "perspective": 1,
@@ -14761,9 +15867,7 @@
         "employ": 1,
         "correlations": 1,
         "interest": 1,
-        "relying": 1,
         "convey": 1,
-        "ease": 1,
         "semantics": 1,
         "reducing": 1,
         "stream": 1,
@@ -14798,17 +15902,13 @@
         "relationships": 1,
         "endings": 1,
         "nouns": 1,
-        "verbs": 1,
         "adjectives": 1,
         "pronouns": 1,
-        "allow": 1,
         "situations": 1,
         "latin": 1,
         "lacks": 1,
         "articles": 1,
         "southern": 1,
-        "only": 1,
-        "auxiliary": 1,
         "bound": 1,
         "spot": 1,
         "involves": 1,
@@ -14852,17 +15952,14 @@
         "possibility": 1,
         "substitution": 1,
         "illustrated": 1,
-        "traditionally": 1,
         "contain": 1,
         "dependents": 1,
         "bear": 1,
         "argument": 1,
         "fulfill": 1,
-        "predicate": 1,
         "particularly": 1,
         "subject": 1,
         "object": 1,
-        "expression": 1,
         "representation": 1,
         "parse": 1,
         "depends": 1,
@@ -14887,31 +15984,230 @@
         "varied": 1,
         "singular": 1,
         "indicative": 1,
-        "quantify": 1
+        "quantify": 1,
+        "taxonomy": 1,
+        "encompasses": 1,
+        "vast": 1,
+        "array": 1,
+        "syntactical": 1,
+        "distinct": 1,
+        "software": 1,
+        "ecosystems": 1,
+        "rust": 1,
+        "advances": 1,
+        "safety": 1,
+        "further": 1,
+        "borrowing": 1,
+        "rules": 1,
+        "affine": 1,
+        "eliminate": 1,
+        "races": 1,
+        "dereferences": 1,
+        "garbage": 1,
+        "collector": 1,
+        "meanwhile": 1,
+        "prioritizes": 1,
+        "concurrency": 1,
+        "goroutines": 1,
+        "communicating": 1,
+        "sequential": 1,
+        "optimizing": 1,
+        "backend": 1,
+        "microservices": 1,
+        "infrastructure": 1,
+        "typescript": 1,
+        "upon": 1,
+        "introducing": 1,
+        "checker": 1,
+        "structural": 1,
+        "typing": 1,
+        "generics": 1,
+        "conditional": 1,
+        "web": 1,
+        "maintainable": 1,
+        "epitomized": 1,
+        "enforces": 1,
+        "purity": 1,
+        "lazy": 1,
+        "evaluation": 1,
+        "monads": 1,
+        "advanced": 1,
+        "algebraic": 1,
+        "enabling": 1,
+        "mathematically": 1,
+        "rigorous": 1,
+        "program": 1,
+        "verification": 1,
+        "ocaml": 1,
+        "combines": 1,
+        "imperative": 1,
+        "styles": 1,
+        "utilized": 1,
+        "compiler": 1,
+        "construction": 1,
+        "erlang": 1,
+        "virtual": 1,
+        "achieve": 1,
+        "highly": 1,
+        "concurrent": 1,
+        "chat": 1,
+        "supervision": 1,
+        "scala": 1,
+        "dialect": 1,
+        "hosted": 1,
+        "environments": 1,
+        "emphasizing": 1,
+        "homoiconicity": 1,
+        "scheme": 1,
+        "classic": 1,
+        "scoping": 1,
+        "macro": 1,
+        "symbolic": 1,
+        "computation": 1,
+        "foundations": 1,
+        "heavily": 1,
+        "influenced": 1,
+        "education": 1,
+        "julia": 1,
+        "combining": 1,
+        "raw": 1,
+        "execution": 1,
+        "speed": 1,
+        "multiple": 1,
+        "dispatch": 1,
+        "specialized": 1,
+        "govern": 1,
+        "markup": 1,
+        "vhdl": 1,
+        "engineers": 1,
+        "synthesize": 1,
+        "digital": 1,
+        "electronic": 1,
+        "circuits": 1,
+        "gate": 1,
+        "levels": 1,
+        "prolog": 1,
+        "implements": 1,
+        "formal": 1,
+        "calculus": 1,
+        "automated": 1,
+        "resolution": 1,
+        "theorem": 1,
+        "proving": 1,
+        "laying": 1,
+        "groundwork": 1,
+        "expert": 1,
+        "swift": 1,
+        "concise": 1,
+        "ios": 1,
+        "native": 1,
+        "mobile": 1,
+        "replacing": 1,
+        "legacy": 1,
+        "patterns": 1,
+        "shell": 1,
+        "facilitate": 1,
+        "operating": 1,
+        "automation": 1,
+        "task": 1,
+        "orchestration": 1,
+        "lightweight": 1,
+        "embedding": 1,
+        "host": 1,
+        "game": 1,
+        "engines": 1,
+        "plugins": 1,
+        "microsoft": 1,
+        "launched": 1,
+        "original": 1,
+        "version": 1,
+        "parametric": 1,
+        "polymorphism": 1,
+        "allows": 1,
+        "single": 1,
+        "place": 1,
+        "actual": 1,
+        "instantiated": 1,
+        "particular": 1,
+        "parametrically": 1,
+        "polymorphic": 1,
+        "sometimes": 1,
+        "datatypes": 1,
+        "respectively": 1,
+        "basis": 1,
+        "branches": 1,
+        "sql": 1,
+        "managing": 1,
+        "querying": 1,
+        "relational": 1,
+        "databases": 1,
+        "select": 1,
+        "insert": 1,
+        "delete": 1,
+        "declarative": 1,
+        "statements": 1,
+        "along": 1,
+        "inflected": 1,
+        "contractions": 1,
+        "orthography": 1,
+        "distinctive": 1,
+        "distinguishing": 1,
+        "revised": 1,
+        "owes": 1,
+        "merely": 1,
+        "add": 1,
+        "fifth": 1,
+        "criterion": 1,
+        "section": 1,
+        "number": 1,
+        "paradigm": 1,
+        "checked": 1,
+        "compendious": 1,
+        "postwar": 1,
+        "detailed": 1,
+        "cite": 1,
+        "propound": 1,
+        "clear": 1,
+        "proceed": 1,
+        "certain": 1,
+        "notably": 1,
+        "suggested": 1,
+        "case": 1,
+        "tensed": 1,
+        "normal": 1,
+        "arrive": 1,
+        "past": 1,
+        "adding": 1,
+        "pertaining": 1,
+        "derived": 1,
+        "probability": 1,
+        "act": 1,
+        "distributing": 1,
+        "microstate": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 46,
+        "PRON": 47,
         "WH": 14,
-        "NOUN": 38,
-        "DET": 61,
-        "VERB": 13,
+        "NOUN": 54,
+        "DET": 68,
+        "VERB": 14,
         "MODAL": 1,
-        "ADJ": 17,
+        "ADJ": 22,
         "INTJ": 1,
         "CONJ": 5,
         "AUX": 1,
-        "ADV": 5,
-        "PREP": 21,
+        "ADV": 6,
+        "PREP": 27,
         "PART": 1,
-        "NUM": 1
+        "NUM": 2
       },
       "PRON": {
-        "AUX": 34,
-        "PUNCT": 4,
+        "AUX": 36,
+        "PUNCT": 6,
         "ADV": 3,
-        "VERB": 47,
+        "VERB": 51,
         "MODAL": 12,
         "PREP": 6,
         "WH": 1,
@@ -14921,155 +16217,162 @@
         "NOUN": 1
       },
       "AUX": {
-        "ADJ": 39,
+        "ADJ": 46,
         "PRON": 7,
         "PUNCT": 2,
-        "DET": 47,
-        "NOUN": 6,
-        "NEG": 3,
-        "VERB": 36,
+        "DET": 53,
+        "NOUN": 8,
+        "NEG": 5,
+        "VERB": 40,
         "INTJ": 1,
-        "ADV": 11,
+        "ADV": 12,
         "CONJ": 1,
-        "NUM": 1
+        "NUM": 2,
+        "PROPN": 2
       },
       "ADJ": {
         "PART": 7,
-        "NOUN": 195,
+        "NOUN": 265,
         "WH": 2,
-        "PUNCT": 30,
-        "PREP": 10,
-        "CONJ": 7,
-        "PROPN": 4,
-        "ADJ": 31,
-        "DET": 5,
-        "AUX": 3,
+        "PUNCT": 40,
+        "PREP": 16,
+        "CONJ": 9,
+        "PROPN": 8,
+        "ADJ": 37,
+        "DET": 6,
+        "AUX": 4,
         "VERB": 5
       },
       "PART": {
-        "VERB": 37,
-        "AUX": 3,
+        "VERB": 42,
+        "AUX": 4,
         "ADJ": 4,
         "NOUN": 5,
-        "WH": 2
+        "WH": 2,
+        "PREP": 1,
+        "CONJ": 1,
+        "PUNCT": 1
       },
       "VERB": {
-        "PREP": 48,
-        "PART": 20,
-        "ADJ": 14,
-        "NOUN": 36,
-        "PUNCT": 38,
+        "PREP": 61,
+        "PART": 23,
+        "ADJ": 18,
+        "NOUN": 53,
+        "PUNCT": 40,
         "PRON": 17,
         "AUX": 8,
-        "DET": 45,
+        "DET": 53,
         "VERB": 4,
-        "CONJ": 15,
+        "CONJ": 19,
         "WH": 4,
         "</S>": 5,
         "ADV": 8,
-        "PROPN": 1,
+        "PROPN": 6,
         "NUM": 2
       },
       "PREP": {
-        "PRON": 6,
-        "NOUN": 104,
-        "DET": 105,
-        "PUNCT": 8,
+        "PRON": 11,
+        "NOUN": 133,
+        "DET": 130,
+        "PUNCT": 11,
         "VERB": 13,
         "PREP": 4,
-        "ADJ": 41,
-        "PROPN": 9,
-        "AUX": 3,
-        "NUM": 5,
-        "WH": 3,
-        "CONJ": 2,
+        "ADJ": 59,
+        "PROPN": 17,
+        "AUX": 4,
+        "NUM": 6,
+        "WH": 4,
+        "CONJ": 3,
         "ADV": 2
       },
       "PUNCT": {
-        "</S>": 211,
-        "NOUN": 29,
-        "CONJ": 34,
+        "</S>": 248,
+        "NOUN": 59,
+        "CONJ": 51,
         "PRON": 5,
-        "VERB": 5,
-        "ADV": 10,
+        "VERB": 11,
+        "ADV": 15,
         "PREP": 12,
-        "ADJ": 6,
-        "DET": 21,
-        "WH": 7,
-        "AUX": 3,
+        "ADJ": 12,
+        "DET": 24,
+        "WH": 8,
+        "AUX": 9,
         "NUM": 1,
-        "PUNCT": 1,
-        "PROPN": 2
+        "PUNCT": 2,
+        "PROPN": 6
       },
       "WH": {
-        "AUX": 11,
+        "AUX": 12,
         "DET": 9,
         "PRON": 2,
-        "NOUN": 12,
+        "NOUN": 14,
         "VERB": 3,
         "MODAL": 2,
         "PREP": 1
       },
       "ADV": {
-        "PUNCT": 8,
-        "ADJ": 3,
+        "PUNCT": 9,
+        "ADJ": 7,
         "NOUN": 6,
         "CONJ": 1,
         "DET": 3,
-        "VERB": 19,
+        "VERB": 26,
         "</S>": 1,
         "PRON": 1,
         "MODAL": 1,
         "PART": 1,
         "ADV": 1,
         "PREP": 6,
-        "AUX": 1
+        "AUX": 1,
+        "PROPN": 1
       },
       "NOUN": {
-        "AUX": 70,
-        "PREP": 186,
-        "NOUN": 160,
-        "PUNCT": 235,
-        "CONJ": 72,
-        "VERB": 57,
-        "ADV": 8,
-        "PART": 18,
-        "ADJ": 28,
+        "AUX": 81,
+        "PREP": 241,
+        "NOUN": 257,
+        "PUNCT": 310,
+        "CONJ": 104,
+        "VERB": 73,
+        "ADV": 10,
+        "PART": 23,
+        "ADJ": 44,
         "MODAL": 9,
-        "</S>": 7,
-        "PRON": 12,
-        "WH": 6,
-        "DET": 33,
-        "PROPN": 14,
-        "NUM": 1
+        "</S>": 8,
+        "PRON": 13,
+        "WH": 7,
+        "DET": 41,
+        "PROPN": 23,
+        "NUM": 1,
+        "NEG": 2
       },
       "DET": {
-        "NOUN": 237,
-        "ADJ": 98,
+        "NOUN": 266,
+        "ADJ": 120,
         "PRON": 3,
-        "PREP": 5,
-        "NUM": 2,
-        "PART": 1,
+        "PREP": 8,
+        "NUM": 4,
+        "PART": 2,
         "VERB": 4,
         "CONJ": 3,
-        "PROPN": 10,
-        "DET": 2,
-        "ADV": 1
+        "PROPN": 15,
+        "DET": 4,
+        "ADV": 2,
+        "PUNCT": 2
       },
       "CONJ": {
-        "PRON": 13,
-        "DET": 27,
-        "NOUN": 62,
-        "VERB": 8,
-        "ADJ": 16,
-        "ADV": 3,
+        "PRON": 14,
+        "DET": 33,
+        "NOUN": 79,
+        "VERB": 16,
+        "ADJ": 26,
+        "ADV": 6,
         "PUNCT": 5,
         "WH": 1,
-        "PREP": 3,
+        "PREP": 5,
         "CONJ": 3,
         "NUM": 1,
-        "AUX": 4,
-        "PROPN": 6,
+        "AUX": 6,
+        "PROPN": 18,
         "MODAL": 1,
         "NEG": 1
       },
@@ -15082,10 +16385,11 @@
         "NOUN": 1
       },
       "NEG": {
-        "VERB": 1,
+        "VERB": 3,
         "NOUN": 1,
-        "DET": 1,
-        "AUX": 1
+        "DET": 2,
+        "AUX": 1,
+        "PREP": 1
       },
       "INTJ": {
         "VERB": 1,
@@ -15093,35 +16397,36 @@
       },
       "PROPN": {
         "DET": 1,
-        "PUNCT": 15,
+        "PUNCT": 34,
         "PART": 1,
-        "NOUN": 17,
+        "NOUN": 35,
         "AUX": 5,
-        "PROPN": 8,
-        "ADJ": 2,
-        "PREP": 2,
-        "CONJ": 3
+        "PROPN": 18,
+        "ADJ": 4,
+        "PREP": 6,
+        "CONJ": 7,
+        "VERB": 3
       },
       "NUM": {
-        "NOUN": 6,
+        "NOUN": 10,
         "PUNCT": 1,
         "CONJ": 5,
-        "PREP": 1,
+        "PREP": 2,
         "VERB": 1
       }
     },
     "pos_trigrams": {
       "<S>|PRON": {
         "AUX": 20,
-        "VERB": 18,
+        "VERB": 19,
         "MODAL": 5,
         "ADV": 2,
         "DET": 1
       },
       "PRON|AUX": {
-        "ADJ": 11,
+        "ADJ": 12,
         "DET": 4,
-        "NEG": 2,
+        "NEG": 3,
         "VERB": 12,
         "INTJ": 1,
         "ADV": 3,
@@ -15130,10 +16435,10 @@
       "AUX|ADJ": {
         "PART": 6,
         "WH": 2,
-        "PUNCT": 16,
-        "PREP": 3,
+        "PUNCT": 18,
+        "PREP": 4,
         "DET": 2,
-        "NOUN": 4,
+        "NOUN": 8,
         "CONJ": 1,
         "ADJ": 4,
         "VERB": 1
@@ -15143,10 +16448,10 @@
         "WH": 1
       },
       "PART|VERB": {
-        "PREP": 5,
-        "ADJ": 4,
+        "PREP": 6,
+        "ADJ": 6,
         "PUNCT": 5,
-        "NOUN": 9,
+        "NOUN": 11,
         "WH": 2,
         "DET": 9,
         "PART": 1,
@@ -15155,22 +16460,22 @@
       },
       "VERB|PREP": {
         "PRON": 3,
-        "DET": 22,
-        "NOUN": 11,
-        "PUNCT": 2,
+        "DET": 24,
+        "NOUN": 13,
+        "PUNCT": 4,
         "VERB": 1,
-        "ADJ": 6,
+        "ADJ": 8,
         "PREP": 1,
-        "NUM": 1,
-        "PROPN": 1
+        "NUM": 2,
+        "PROPN": 5
       },
       "PREP|PRON": {
-        "PUNCT": 2,
-        "VERB": 2,
-        "AUX": 2
+        "PUNCT": 4,
+        "VERB": 4,
+        "AUX": 3
       },
       "PRON|PUNCT": {
-        "</S>": 4
+        "</S>": 6
       },
       "<S>|WH": {
         "AUX": 9,
@@ -15182,7 +16487,8 @@
         "PRON": 6,
         "DET": 2,
         "NOUN": 1,
-        "VERB": 2
+        "VERB": 2,
+        "PROPN": 1
       },
       "AUX|PRON": {
         "ADV": 1,
@@ -15196,15 +16502,15 @@
         "</S>": 3,
         "ADV": 2,
         "DET": 2,
-        "CONJ": 1
+        "CONJ": 2
       },
       "PRON|VERB": {
-        "PART": 8,
-        "PREP": 6,
-        "NOUN": 3,
+        "PART": 9,
+        "PREP": 7,
+        "NOUN": 4,
         "PRON": 8,
         "PUNCT": 5,
-        "DET": 7,
+        "DET": 8,
         "VERB": 2,
         "ADJ": 3,
         "CONJ": 3,
@@ -15213,192 +16519,207 @@
       },
       "VERB|PART": {
         "AUX": 2,
-        "VERB": 16,
+        "VERB": 19,
         "ADJ": 1,
         "WH": 1
       },
       "PART|AUX": {
         "PUNCT": 1,
         "DET": 1,
-        "VERB": 1
+        "VERB": 2
       },
       "AUX|PUNCT": {
         "</S>": 1,
         "DET": 1
       },
       "<S>|NOUN": {
-        "AUX": 14,
-        "VERB": 4,
-        "PUNCT": 2,
-        "NOUN": 10,
-        "CONJ": 1,
+        "AUX": 15,
+        "VERB": 7,
+        "PUNCT": 4,
+        "NOUN": 14,
+        "CONJ": 6,
         "PREP": 1,
         "PROPN": 3,
         "ADJ": 2,
-        "PART": 1
+        "PART": 1,
+        "WH": 1
       },
       "NOUN|AUX": {
-        "DET": 23,
-        "ADJ": 22,
-        "NOUN": 3,
+        "DET": 26,
+        "ADJ": 24,
+        "NOUN": 4,
         "ADV": 8,
-        "VERB": 11,
+        "VERB": 13,
         "CONJ": 1,
-        "NUM": 1,
-        "NEG": 1
+        "NUM": 2,
+        "NEG": 2,
+        "PROPN": 1
       },
       "AUX|DET": {
-        "NOUN": 28,
-        "ADJ": 14,
+        "NOUN": 31,
+        "ADJ": 17,
         "PROPN": 2,
         "VERB": 2,
         "PREP": 1
       },
       "DET|NOUN": {
-        "PREP": 80,
-        "AUX": 21,
-        "CONJ": 18,
-        "PUNCT": 49,
-        "VERB": 12,
+        "PREP": 91,
+        "AUX": 22,
+        "CONJ": 19,
+        "PUNCT": 57,
+        "VERB": 14,
         "ADV": 2,
-        "ADJ": 9,
-        "NOUN": 20,
+        "ADJ": 12,
+        "NOUN": 22,
         "PRON": 7,
-        "PART": 6,
+        "PART": 7,
         "</S>": 1,
         "PROPN": 1,
         "DET": 9,
         "MODAL": 2
       },
       "NOUN|PREP": {
-        "NOUN": 66,
-        "DET": 61,
+        "NOUN": 85,
+        "DET": 75,
         "PREP": 2,
-        "ADJ": 31,
-        "PROPN": 3,
+        "ADJ": 45,
+        "PROPN": 6,
         "VERB": 9,
         "PUNCT": 4,
         "NUM": 3,
-        "WH": 3,
-        "AUX": 2,
+        "WH": 4,
+        "AUX": 3,
         "ADV": 1,
-        "PRON": 1
+        "PRON": 3,
+        "CONJ": 1
       },
       "PREP|NOUN": {
-        "NOUN": 12,
-        "PUNCT": 37,
-        "VERB": 8,
-        "CONJ": 11,
+        "NOUN": 21,
+        "PUNCT": 39,
+        "VERB": 9,
+        "CONJ": 16,
         "ADJ": 6,
-        "DET": 6,
-        "AUX": 2,
-        "PREP": 10,
+        "DET": 8,
+        "AUX": 3,
+        "PREP": 16,
         "PRON": 4,
-        "</S>": 5,
+        "</S>": 6,
         "WH": 1,
-        "PART": 2
+        "PART": 3,
+        "PROPN": 1
       },
       "NOUN|NOUN": {
-        "PUNCT": 43,
-        "PART": 3,
-        "NOUN": 37,
-        "PREP": 32,
-        "CONJ": 9,
-        "VERB": 12,
-        "PROPN": 7,
-        "AUX": 7,
+        "PUNCT": 71,
+        "PART": 4,
+        "NOUN": 55,
+        "PREP": 45,
+        "CONJ": 21,
+        "VERB": 18,
+        "PROPN": 8,
+        "AUX": 12,
         "MODAL": 2,
-        "ADJ": 5,
+        "ADJ": 13,
         "NUM": 1,
-        "ADV": 2
+        "ADV": 2,
+        "DET": 3,
+        "NEG": 1,
+        "PRON": 1
       },
       "NOUN|PUNCT": {
-        "</S>": 141,
-        "NOUN": 24,
-        "CONJ": 22,
-        "ADV": 8,
+        "</S>": 166,
+        "NOUN": 41,
+        "CONJ": 32,
+        "ADV": 11,
         "PREP": 10,
-        "ADJ": 2,
-        "DET": 12,
-        "VERB": 3,
+        "ADJ": 6,
+        "DET": 15,
+        "VERB": 9,
         "WH": 5,
         "PRON": 4,
-        "AUX": 3,
-        "NUM": 1
+        "AUX": 8,
+        "NUM": 1,
+        "PROPN": 2
       },
       "<S>|DET": {
-        "NOUN": 43,
-        "ADJ": 15,
-        "PROPN": 2,
-        "VERB": 1
+        "NOUN": 46,
+        "ADJ": 17,
+        "PROPN": 3,
+        "VERB": 1,
+        "PREP": 1
       },
       "DET|ADJ": {
-        "NOUN": 85,
+        "NOUN": 100,
         "CONJ": 2,
-        "ADJ": 5,
+        "ADJ": 8,
         "PUNCT": 2,
         "VERB": 1,
-        "PREP": 2,
-        "PART": 1
+        "PREP": 3,
+        "PART": 1,
+        "PROPN": 2,
+        "DET": 1
       },
       "ADJ|NOUN": {
-        "PUNCT": 62,
-        "NOUN": 36,
+        "PUNCT": 81,
+        "NOUN": 59,
         "MODAL": 3,
-        "VERB": 12,
-        "PREP": 34,
-        "CONJ": 16,
+        "VERB": 14,
+        "PREP": 50,
+        "CONJ": 22,
         "DET": 9,
-        "ADJ": 3,
-        "AUX": 13,
-        "PART": 3,
+        "ADJ": 4,
+        "AUX": 14,
+        "PART": 4,
         "WH": 1,
         "PROPN": 1,
-        "ADV": 2
+        "ADV": 3
       },
       "VERB|ADJ": {
-        "NOUN": 9,
-        "PUNCT": 1,
+        "NOUN": 11,
+        "PUNCT": 2,
         "CONJ": 2,
-        "VERB": 2
+        "VERB": 2,
+        "ADJ": 1
       },
       "PREP|DET": {
-        "NOUN": 72,
-        "ADJ": 25,
-        "NUM": 2,
-        "PREP": 1,
-        "PROPN": 4,
-        "DET": 1
+        "NOUN": 83,
+        "ADJ": 33,
+        "NUM": 4,
+        "PREP": 2,
+        "PROPN": 6,
+        "DET": 2
       },
       "NOUN|CONJ": {
         "PRON": 1,
-        "DET": 18,
-        "VERB": 3,
-        "NOUN": 34,
-        "ADJ": 9,
+        "DET": 19,
+        "VERB": 6,
+        "NOUN": 47,
+        "ADJ": 13,
         "WH": 1,
-        "PREP": 2,
+        "PREP": 3,
         "NUM": 1,
         "CONJ": 1,
-        "ADV": 1,
-        "PROPN": 1
+        "ADV": 2,
+        "PROPN": 9,
+        "AUX": 1
       },
       "CONJ|PRON": {
-        "VERB": 8,
+        "VERB": 9,
         "MODAL": 2,
         "AUX": 3
       },
       "VERB|NOUN": {
         "PUNCT": 9,
-        "PREP": 6,
+        "PREP": 8,
         "PART": 2,
         "VERB": 3,
-        "NOUN": 9,
+        "NOUN": 19,
         "CONJ": 2,
         "MODAL": 1,
-        "ADJ": 1,
-        "DET": 2,
-        "AUX": 1
+        "ADJ": 2,
+        "DET": 3,
+        "AUX": 1,
+        "PROPN": 2,
+        "NEG": 1
       },
       "PRON|MODAL": {
         "VERB": 6,
@@ -15416,24 +16737,29 @@
         "NOUN": 1
       },
       "PUNCT|NOUN": {
-        "CONJ": 8,
-        "NOUN": 7,
+        "CONJ": 9,
+        "NOUN": 20,
         "ADJ": 2,
-        "PUNCT": 8,
-        "PREP": 2,
+        "PUNCT": 16,
+        "PREP": 4,
         "AUX": 1,
-        "DET": 1
+        "DET": 2,
+        "ADV": 1,
+        "PROPN": 3,
+        "PART": 1
       },
       "CONJ|DET": {
-        "NOUN": 19,
-        "ADJ": 7,
-        "CONJ": 1
+        "NOUN": 21,
+        "ADJ": 8,
+        "CONJ": 1,
+        "PUNCT": 2,
+        "PART": 1
       },
       "VERB|PUNCT": {
-        "</S>": 31,
+        "</S>": 32,
         "PRON": 1,
         "CONJ": 1,
-        "NOUN": 2,
+        "NOUN": 3,
         "DET": 2,
         "ADJ": 1
       },
@@ -15443,7 +16769,8 @@
         "VERB": 1,
         "NOUN": 2,
         "DET": 2,
-        "PREP": 2
+        "PREP": 2,
+        "CONJ": 1
       },
       "VERB|PRON": {
         "PREP": 4,
@@ -15480,114 +16807,128 @@
         "ADJ": 3
       },
       "ADJ|PUNCT": {
-        "</S>": 20,
-        "CONJ": 5,
+        "</S>": 25,
+        "CONJ": 6,
         "VERB": 1,
         "DET": 1,
-        "ADJ": 1,
+        "ADJ": 3,
         "PREP": 1,
-        "NOUN": 1
+        "NOUN": 2,
+        "ADV": 1
       },
       "NOUN|VERB": {
-        "PART": 1,
-        "DET": 11,
-        "PREP": 12,
+        "PART": 2,
+        "DET": 13,
+        "PREP": 15,
         "WH": 2,
         "PRON": 4,
         "PUNCT": 8,
         "</S>": 3,
         "ADV": 6,
-        "NOUN": 5,
+        "NOUN": 10,
         "NUM": 1,
-        "CONJ": 2,
+        "CONJ": 3,
         "AUX": 1,
-        "VERB": 1
+        "VERB": 1,
+        "PROPN": 3,
+        "ADJ": 1
       },
       "AUX|NOUN": {
         "PUNCT": 2,
         "NOUN": 1,
         "DET": 2,
-        "PREP": 1
+        "PREP": 1,
+        "VERB": 1,
+        "CONJ": 1
       },
       "PUNCT|CONJ": {
-        "NOUN": 12,
-        "PRON": 6,
-        "DET": 3,
+        "NOUN": 15,
+        "PRON": 7,
+        "DET": 5,
         "PUNCT": 2,
-        "ADJ": 3,
+        "ADJ": 6,
         "CONJ": 2,
         "AUX": 3,
-        "PROPN": 1,
-        "VERB": 1,
-        "NEG": 1
+        "PROPN": 4,
+        "VERB": 4,
+        "NEG": 1,
+        "ADV": 2
       },
       "CONJ|NOUN": {
         "AUX": 2,
-        "PUNCT": 15,
+        "PUNCT": 16,
         "</S>": 1,
-        "PREP": 17,
+        "PREP": 18,
         "VERB": 2,
         "WH": 4,
-        "NOUN": 18,
+        "NOUN": 32,
         "PRON": 1,
         "PART": 1,
-        "CONJ": 1
+        "CONJ": 1,
+        "PROPN": 1
       },
       "VERB|DET": {
-        "NOUN": 32,
-        "ADJ": 10,
+        "NOUN": 37,
+        "ADJ": 12,
         "PREP": 1,
         "CONJ": 1,
-        "DET": 1
+        "DET": 2
       },
       "NOUN|ADV": {
         "PUNCT": 2,
-        "VERB": 4,
+        "VERB": 5,
         "PREP": 1,
-        "NOUN": 1
+        "NOUN": 1,
+        "ADJ": 1
       },
       "AUX|NEG": {
-        "VERB": 1,
+        "VERB": 2,
         "NOUN": 1,
-        "AUX": 1
+        "AUX": 1,
+        "PREP": 1
       },
       "NEG|VERB": {
-        "DET": 1
+        "DET": 2,
+        "PREP": 1
       },
       "PREP|PUNCT": {
         "</S>": 3,
         "PUNCT": 1,
         "CONJ": 2,
         "ADJ": 1,
-        "NOUN": 1
+        "NOUN": 4
       },
       "AUX|VERB": {
-        "PREP": 15,
+        "PREP": 17,
         "PUNCT": 7,
         "PART": 7,
         "PRON": 1,
         "NOUN": 1,
-        "DET": 2,
-        "CONJ": 2,
+        "DET": 3,
+        "CONJ": 3,
         "ADJ": 1
       },
       "CONJ|VERB": {
         "PART": 1,
-        "NOUN": 2,
-        "PUNCT": 4,
-        "ADJ": 1
+        "NOUN": 6,
+        "PUNCT": 5,
+        "ADJ": 2,
+        "PREP": 2
       },
       "<S>|ADJ": {
-        "NOUN": 12,
+        "NOUN": 14,
         "ADJ": 2,
         "VERB": 1,
-        "PREP": 2
+        "PREP": 3,
+        "PROPN": 2
       },
       "NOUN|PART": {
         "ADJ": 3,
-        "AUX": 1,
-        "VERB": 10,
-        "NOUN": 4
+        "AUX": 2,
+        "VERB": 12,
+        "NOUN": 4,
+        "CONJ": 1,
+        "PUNCT": 1
       },
       "PART|ADJ": {
         "NOUN": 3,
@@ -15623,27 +16964,29 @@
         "AUX": 1
       },
       "NOUN|ADJ": {
-        "PUNCT": 2,
-        "NOUN": 20,
+        "PUNCT": 5,
+        "NOUN": 29,
         "DET": 2,
-        "PREP": 1,
-        "ADJ": 2,
+        "PREP": 3,
+        "ADJ": 4,
         "AUX": 1
       },
       "ADJ|PREP": {
-        "NOUN": 6,
-        "DET": 2,
-        "VERB": 2
+        "NOUN": 9,
+        "DET": 4,
+        "VERB": 2,
+        "ADJ": 1
       },
       "VERB|CONJ": {
         "PRON": 3,
         "VERB": 3,
-        "DET": 4,
+        "DET": 6,
         "PUNCT": 1,
         "PROPN": 1,
         "MODAL": 1,
         "NOUN": 1,
-        "AUX": 1
+        "AUX": 1,
+        "ADJ": 2
       },
       "<S>|CONJ": {
         "PRON": 3,
@@ -15658,8 +17001,9 @@
       "PUNCT|VERB": {
         "AUX": 1,
         "CONJ": 2,
-        "PREP": 1,
-        "NOUN": 1
+        "PREP": 2,
+        "NOUN": 5,
+        "PUNCT": 1
       },
       "VERB|WH": {
         "NOUN": 2,
@@ -15669,10 +17013,11 @@
       "WH|NOUN": {
         "VERB": 2,
         "NOUN": 3,
-        "CONJ": 4,
+        "CONJ": 5,
         "AUX": 1,
         "DET": 1,
-        "ADV": 1
+        "ADV": 1,
+        "ADJ": 1
       },
       "NOUN|MODAL": {
         "VERB": 4,
@@ -15695,23 +17040,24 @@
       "AUX|ADV": {
         "ADJ": 2,
         "NOUN": 3,
-        "VERB": 3,
+        "VERB": 4,
         "ADV": 1,
         "PREP": 1,
         "DET": 1
       },
       "ADV|ADJ": {
         "PUNCT": 1,
-        "NOUN": 2
+        "NOUN": 6
       },
       "ADJ|CONJ": {
-        "ADJ": 3,
+        "ADJ": 4,
         "NOUN": 3,
-        "ADV": 1
+        "ADV": 1,
+        "AUX": 1
       },
       "CONJ|ADJ": {
         "PUNCT": 2,
-        "NOUN": 9,
+        "NOUN": 19,
         "ADJ": 4,
         "CONJ": 1
       },
@@ -15732,9 +17078,12 @@
       "PUNCT|ADV": {
         "NOUN": 2,
         "CONJ": 1,
-        "VERB": 4,
+        "VERB": 6,
         "PREP": 2,
-        "DET": 1
+        "DET": 1,
+        "ADJ": 1,
+        "PUNCT": 1,
+        "PROPN": 1
       },
       "PREP|PREP": {
         "DET": 2,
@@ -15756,7 +17105,8 @@
       "CONJ|ADV": {
         "PUNCT": 1,
         "</S>": 1,
-        "VERB": 1
+        "VERB": 3,
+        "ADJ": 1
       },
       "VERB|ADV": {
         "DET": 1,
@@ -15773,37 +17123,40 @@
         "NOUN": 3
       },
       "ADV|VERB": {
-        "PROPN": 1,
-        "DET": 6,
-        "PART": 1,
-        "NOUN": 6,
-        "CONJ": 3,
-        "PREP": 2
+        "PROPN": 3,
+        "DET": 7,
+        "PART": 2,
+        "NOUN": 7,
+        "CONJ": 4,
+        "PREP": 3
       },
       "VERB|PROPN": {
-        "DET": 1
+        "DET": 1,
+        "PUNCT": 3,
+        "PROPN": 2
       },
       "PROPN|DET": {
         "NOUN": 1
       },
       "PUNCT|ADJ": {
-        "NOUN": 3,
-        "PUNCT": 1,
+        "NOUN": 6,
+        "PUNCT": 4,
         "PROPN": 1,
         "PREP": 1
       },
       "PREP|ADJ": {
-        "CONJ": 1,
+        "CONJ": 3,
         "PROPN": 3,
         "ADJ": 9,
-        "NOUN": 27,
-        "PUNCT": 1
+        "NOUN": 42,
+        "PUNCT": 2
       },
       "<S>|ADV": {
         "PRON": 1,
         "MODAL": 1,
         "PART": 1,
-        "PUNCT": 2
+        "PUNCT": 2,
+        "ADJ": 1
       },
       "ADV|PRON": {
         "VERB": 1
@@ -15813,41 +17166,48 @@
       },
       "DET|PREP": {
         "NOUN": 2,
-        "DET": 2,
-        "PRON": 1
+        "DET": 4,
+        "PRON": 1,
+        "ADJ": 1
       },
       "ADV|MODAL": {
         "PRON": 1
       },
       "NOUN|PRON": {
         "VERB": 4,
-        "AUX": 4,
+        "AUX": 5,
         "PREP": 2,
         "MODAL": 2
       },
       "PREP|PROPN": {
-        "PUNCT": 3,
+        "PUNCT": 4,
         "AUX": 1,
         "PROPN": 3,
-        "NOUN": 1,
-        "PREP": 1
+        "NOUN": 3,
+        "PREP": 2,
+        "VERB": 2,
+        "CONJ": 2
       },
       "PROPN|PUNCT": {
-        "</S>": 6,
+        "</S>": 9,
         "DET": 3,
-        "PROPN": 2,
-        "CONJ": 1,
-        "NOUN": 1,
-        "WH": 2
+        "PROPN": 4,
+        "CONJ": 5,
+        "NOUN": 7,
+        "WH": 3,
+        "PUNCT": 1,
+        "ADV": 1,
+        "AUX": 1
       },
       "ADJ|PROPN": {
-        "PUNCT": 2,
-        "NOUN": 1,
-        "CONJ": 1
+        "PUNCT": 3,
+        "NOUN": 3,
+        "CONJ": 1,
+        "PROPN": 1
       },
       "PUNCT|DET": {
-        "NOUN": 13,
-        "ADJ": 5,
+        "NOUN": 14,
+        "ADJ": 7,
         "VERB": 1,
         "PROPN": 2
       },
@@ -15855,14 +17215,14 @@
         "VERB": 1
       },
       "ADJ|ADJ": {
-        "NOUN": 19,
+        "NOUN": 23,
         "ADJ": 5,
         "PUNCT": 4,
-        "AUX": 2,
-        "PREP": 1
+        "AUX": 3,
+        "PREP": 2
       },
       "PUNCT|WH": {
-        "NOUN": 3,
+        "NOUN": 4,
         "AUX": 2,
         "DET": 1,
         "PREP": 1
@@ -15877,23 +17237,27 @@
         "NOUN": 3
       },
       "NOUN|WH": {
-        "NOUN": 4,
+        "NOUN": 5,
         "VERB": 1,
         "DET": 1
       },
       "NOUN|DET": {
-        "NOUN": 14,
-        "ADJ": 16,
+        "NOUN": 15,
+        "ADJ": 20,
         "CONJ": 1,
-        "ADV": 1,
-        "PRON": 1
+        "ADV": 2,
+        "PRON": 1,
+        "PROPN": 1,
+        "PREP": 1
       },
       "NOUN|PROPN": {
         "PART": 1,
-        "NOUN": 9,
+        "NOUN": 12,
         "AUX": 2,
         "PROPN": 1,
-        "PREP": 1
+        "PREP": 2,
+        "CONJ": 1,
+        "PUNCT": 4
       },
       "PROPN|PART": {
         "NOUN": 1
@@ -15903,41 +17267,47 @@
         "PUNCT": 2
       },
       "DET|NUM": {
-        "NOUN": 2
+        "NOUN": 4
       },
       "NUM|NOUN": {
-        "PREP": 3,
+        "PREP": 5,
         "VERB": 1,
-        "PUNCT": 1,
-        "AUX": 1
+        "PUNCT": 2,
+        "AUX": 1,
+        "ADJ": 1
       },
       "ADJ|DET": {
-        "NOUN": 3,
+        "NOUN": 4,
         "PART": 1,
         "ADJ": 1
       },
       "<S>|PREP": {
-        "NOUN": 9,
+        "NOUN": 12,
         "PROPN": 3,
         "ADJ": 1,
-        "DET": 5,
+        "DET": 7,
         "CONJ": 2,
-        "PUNCT": 1
+        "PUNCT": 2
       },
       "PROPN|NOUN": {
         "CONJ": 1,
-        "AUX": 7,
-        "PUNCT": 3,
-        "NOUN": 3,
-        "DET": 1,
+        "AUX": 9,
+        "PUNCT": 9,
+        "NOUN": 7,
+        "DET": 2,
         "MODAL": 1,
-        "PROPN": 1
+        "PROPN": 2,
+        "ADJ": 1,
+        "PREP": 2,
+        "VERB": 1
       },
       "ADJ|AUX": {
-        "DET": 3
+        "DET": 3,
+        "ADV": 1
       },
       "DET|PART": {
-        "VERB": 1
+        "VERB": 1,
+        "PREP": 1
       },
       "CONJ|WH": {
         "NOUN": 1
@@ -15953,11 +17323,12 @@
       "CONJ|PREP": {
         "DET": 1,
         "PUNCT": 1,
-        "NOUN": 1
+        "NOUN": 1,
+        "PRON": 2
       },
       "PREP|AUX": {
         "DET": 1,
-        "ADJ": 1,
+        "ADJ": 2,
         "PRON": 1
       },
       "VERB|NUM": {
@@ -15969,7 +17340,9 @@
       },
       "PUNCT|AUX": {
         "NOUN": 2,
-        "VERB": 1
+        "VERB": 2,
+        "DET": 3,
+        "ADJ": 2
       },
       "PUNCT|NUM": {
         "CONJ": 1
@@ -15983,7 +17356,7 @@
         "DET": 1
       },
       "PUNCT|PUNCT": {
-        "</S>": 1
+        "</S>": 2
       },
       "ADV|ADV": {
         "VERB": 1
@@ -16011,7 +17384,8 @@
       "PREP|NUM": {
         "CONJ": 2,
         "NOUN": 2,
-        "VERB": 1
+        "VERB": 1,
+        "PREP": 1
       },
       "PROPN|AUX": {
         "VERB": 1,
@@ -16024,18 +17398,25 @@
       },
       "DET|PROPN": {
         "PROPN": 1,
-        "NOUN": 5,
-        "ADJ": 2,
-        "AUX": 2
+        "NOUN": 7,
+        "ADJ": 3,
+        "AUX": 2,
+        "PUNCT": 1,
+        "CONJ": 1
       },
       "PROPN|PROPN": {
-        "PUNCT": 8
+        "PUNCT": 12,
+        "NOUN": 3,
+        "PROPN": 2,
+        "PREP": 1
       },
       "PREP|WH": {
-        "DET": 3
+        "DET": 3,
+        "AUX": 1
       },
       "PREP|CONJ": {
-        "NOUN": 2
+        "NOUN": 2,
+        "DET": 1
       },
       "NEG|NOUN": {
         "DET": 1
@@ -16045,10 +17426,12 @@
       },
       "CONJ|AUX": {
         "VERB": 3,
-        "DET": 1
+        "DET": 1,
+        "NOUN": 1,
+        "ADJ": 1
       },
       "PROPN|ADJ": {
-        "NOUN": 2
+        "NOUN": 4
       },
       "ADV|PREP": {
         "NOUN": 3,
@@ -16057,20 +17440,24 @@
       },
       "PUNCT|PROPN": {
         "PROPN": 1,
-        "PUNCT": 1
+        "PUNCT": 5
       },
       "CONJ|PROPN": {
-        "PROPN": 2,
-        "NOUN": 1,
+        "PROPN": 5,
+        "NOUN": 7,
         "CONJ": 2,
-        "PUNCT": 1
+        "PUNCT": 1,
+        "VERB": 1,
+        "PREP": 1,
+        "ADJ": 1
       },
       "MODAL|NOUN": {
         "DET": 1
       },
       "PROPN|PREP": {
-        "NOUN": 1,
-        "PROPN": 1
+        "NOUN": 3,
+        "PROPN": 2,
+        "DET": 1
       },
       "CONJ|MODAL": {
         "VERB": 1
@@ -16079,23 +17466,28 @@
         "VERB": 1
       },
       "AUX|NUM": {
-        "PREP": 1
-      },
-      "NUM|PREP": {
-        "PREP": 1
-      },
-      "<S>|NUM": {
+        "PREP": 1,
         "NOUN": 1
       },
+      "NUM|PREP": {
+        "PREP": 1,
+        "DET": 1
+      },
+      "<S>|NUM": {
+        "NOUN": 2
+      },
       "PROPN|CONJ": {
-        "PROPN": 2,
-        "ADJ": 1
+        "PROPN": 3,
+        "ADJ": 1,
+        "NOUN": 1,
+        "VERB": 2
       },
       "CONJ|NEG": {
         "DET": 1
       },
       "NEG|DET": {
-        "PREP": 1
+        "PREP": 1,
+        "NOUN": 1
       },
       "NEG|AUX": {
         "DET": 1
@@ -16105,25 +17497,57 @@
         "ADJ": 1
       },
       "DET|DET": {
-        "NOUN": 2
+        "NOUN": 3,
+        "PROPN": 1
       },
       "WH|PREP": {
         "NUM": 1
       },
       "DET|ADV": {
-        "AUX": 1
+        "AUX": 1,
+        "VERB": 1
       },
       "ADV|AUX": {
         "DET": 1
       },
       "NUM|VERB": {
         "PREP": 1
+      },
+      "PROPN|VERB": {
+        "DET": 2,
+        "PREP": 1
+      },
+      "DET|PUNCT": {
+        "NOUN": 2
+      },
+      "AUX|PROPN": {
+        "PROPN": 1,
+        "PUNCT": 1
+      },
+      "NOUN|NEG": {
+        "VERB": 1,
+        "DET": 1
+      },
+      "ADV|PROPN": {
+        "PROPN": 1
+      },
+      "PART|PREP": {
+        "PRON": 1
+      },
+      "PART|CONJ": {
+        "PREP": 1
+      },
+      "NEG|PREP": {
+        "DET": 1
+      },
+      "PART|PUNCT": {
+        "CONJ": 1
       }
     },
     "word_bigrams": {
       "i": {
         "am": 3,
-        "want": 3,
+        "want": 4,
         "think": 1,
         "do": 1,
         "would": 1,
@@ -16140,7 +17564,8 @@
         "need": 2,
         "fed": 1,
         "brushed": 1,
-        "'m": 1
+        "'m": 1,
+        "went": 1
       },
       "am": {
         "happy": 1,
@@ -16161,15 +17586,7 @@
         "talk": 1,
         "listen": 1,
         "find": 1,
-        "disambiguate": 1,
-        "one": 1,
-        "which": 1,
-        "network": 1,
-        "see": 1,
-        "contain": 1,
-        "syntactic": 1,
-        "help": 1,
-        "vary": 1
+        "it": 1
       },
       "talk": {
         "with": 1,
@@ -16180,14 +17597,18 @@
         "you": 1,
         "my": 1,
         "those": 1,
-        "a": 3,
-        "the": 2,
+        "a": 4,
+        "the": 3,
         "minimal": 1,
         "less": 1,
         "relatively": 1,
         "only": 1,
         "zero": 1,
-        "difficulty": 1
+        "difficulty": 1,
+        "structural": 1,
+        "particular": 1,
+        "their": 2,
+        "no": 1
       },
       "how": {
         "are": 1,
@@ -16207,7 +17628,12 @@
         "walking": 1,
         "important": 1,
         "curious": 1,
-        "beautiful": 1
+        "beautiful": 1,
+        "epitomized": 1,
+        "sometimes": 1,
+        "only": 1,
+        "checked": 1,
+        "not": 1
       },
       "you": {
         "today": 1,
@@ -16222,7 +17648,8 @@
         "are": 1,
         "feeling": 1,
         "to": 2,
-        "do": 1
+        "do": 1,
+        "had": 1
       },
       "what": {
         "do": 2,
@@ -16234,7 +17661,7 @@
       },
       "do": {
         "you": 3,
-        "not": 2,
+        "not": 3,
         "birds": 1,
         "some": 1,
         "the": 1
@@ -16242,19 +17669,25 @@
       "like": {
         "to": 2,
         "the": 1,
-        "and": 1
+        "and": 1,
+        "haskell": 1,
+        "bash": 1,
+        "game": 1
       },
       "language": {
         "is": 2,
         "teaching": 1,
         "that": 1,
         "change": 1,
-        "'s": 1
+        "'s": 1,
+        "developed": 2,
+        "for": 1,
+        "has": 1
       },
       "is": {
-        "a": 23,
+        "a": 27,
         "an": 6,
-        "the": 4,
+        "the": 6,
         "important": 2,
         "good": 2,
         "fun": 1,
@@ -16262,29 +17695,26 @@
         "hard": 1,
         "useful": 1,
         "full": 1,
-        "probably": 1,
-        "essentially": 1,
-        "spoken": 1,
-        "called": 1,
-        "found": 1,
-        "used": 1,
-        "illustrated": 1,
-        "understood": 1,
-        "\"": 1
+        "f": 1,
+        "traditionally": 1
       },
       "a": {
         "conjunction": 5,
         "noun": 5,
+        "method": 4,
         "good": 2,
         "thermodynamic": 2,
         "system": 2,
         "neural": 2,
         "computational": 2,
-        "method": 4,
         "preposition": 2,
         "cloud": 2,
-        "slope": 1,
-        "state": 1
+        "fifth": 1,
+        "number": 1,
+        "more": 1,
+        "comprehensive": 1,
+        "special": 1,
+        "verb": 1
       },
       "tool": {
         "for": 1
@@ -16302,7 +17732,13 @@
         "coding": 1,
         "extremely": 1,
         "the": 1,
-        "jobs": 1
+        "jobs": 1,
+        "javascript": 1,
+        "artificial": 1,
+        "ios": 1,
+        "managing": 1,
+        "distinguishing": 1,
+        "auxiliary": 2
       },
       "sharing": {
         "ideas": 1
@@ -16315,12 +17751,11 @@
         "garden": 2,
         "development": 2,
         "head": 2,
-        "brain": 1,
-        "market": 1,
-        "weather": 1,
-        "mountain": 1,
-        "descent": 1,
-        "correct": 1
+        "jvm": 2,
+        "automatic": 2,
+        "type": 2,
+        "preposition": 1,
+        "past": 1
       },
       "brain": {
         "is": 1,
@@ -16331,7 +17766,7 @@
         "adaptive": 3
       },
       "want": {
-        "to": 2,
+        "to": 3,
         "u": 1
       },
       "learn": {
@@ -16357,7 +17792,7 @@
         "works": 1
       },
       "went": {
-        "to": 1
+        "to": 2
       },
       "market": {
         "because": 1
@@ -16399,32 +17834,26 @@
         "matchine": 1,
         "matchines": 1,
         "my": 1,
-        "unimportant": 1
+        "unimportant": 1,
+        "the": 1
       },
       "books": {
         "or": 1
       },
       "or": {
         "more": 5,
+        "relating": 4,
         "the": 2,
         "skills": 2,
         "teaching": 2,
         "artificial": 2,
-        "relating": 4,
+        "other": 2,
         "positioned": 1,
         "surface": 1,
         "figuratively": 1,
-        "cnj": 1,
-        "product": 1,
-        "other": 2,
-        "utility": 1,
-        "as": 1,
-        "system": 1,
-        "np": 1,
-        "nominal": 1,
-        "pronoun": 1,
-        "incline": 1,
-        "be": 1
+        "propound": 1,
+        "derived": 1,
+        "state": 1
       },
       "it": {
         "is": 8,
@@ -16433,7 +17862,8 @@
         "has": 2,
         "from": 1,
         "over": 1,
-        "worthwhile": 1
+        "worthwhile": 1,
+        "lets": 1
       },
       "important": {
         "to": 1,
@@ -16468,7 +17898,9 @@
         "specific": 1,
         "capable": 2,
         "words": 1,
-        "dependents": 1
+        "dependents": 1,
+        "than": 1,
+        "detailed": 1
       },
       "learning": {
         "is": 4,
@@ -16517,7 +17949,9 @@
       "at": {
         "night": 1,
         "home": 1,
-        "one": 1
+        "one": 1,
+        "compile-time": 1,
+        "the": 1
       },
       "words": {
         "have": 1
@@ -16528,10 +17962,11 @@
         "several": 1,
         "processed": 1,
         "come": 1,
-        "a": 1
+        "a": 1,
+        "suggested": 1
       },
       "and": {
-        "the": 3,
+        "the": 5,
         "functions": 2,
         "gerund": 2,
         "other": 2,
@@ -16541,10 +17976,10 @@
         "ready": 1,
         "deep": 1,
         "well": 1,
-        "they": 1,
-        "objects": 1,
-        "as": 1,
-        "predicative": 1
+        "delete": 1,
+        "implemented": 1,
+        "lexical": 1,
+        "had": 1
       },
       "meanings": {
         "have": 1
@@ -16573,25 +18008,19 @@
         "about": 1
       },
       "that": {
-        "quantifies": 2,
         "is": 3,
+        "quantifies": 2,
+        "mimic": 2,
+        "can": 2,
+        "run": 2,
         "you": 1,
         "sounds": 1,
         "i": 1,
         "for": 1,
         "mirror": 1,
-        "export": 1,
-        "connects": 1,
-        "description": 1,
-        "mimic": 2,
-        "develops": 1,
-        "can": 2,
-        "run": 2,
-        "represent": 1,
-        "usually": 1,
-        "they": 1,
-        "acknowledges": 1,
-        "he": 1
+        "do": 1,
+        "the": 1,
+        "\"": 1
       },
       "good": {
         "idea": 1,
@@ -16605,7 +18034,8 @@
         "is": 1
       },
       "grammar": {
-        "is": 1
+        "is": 1,
+        "of": 1
       },
       "why": {
         "do": 1
@@ -16614,7 +18044,11 @@
         "know": 1,
         "cover": 1,
         "all": 1,
-        "have": 1
+        "have": 1,
+        "limited": 1,
+        "meet": 1,
+        "the": 1,
+        "about": 1
       },
       "know": {
         "the": 1
@@ -16625,7 +18059,9 @@
         "a": 2,
         "some": 1,
         "not": 1,
-        "the": 1
+        "the": 1,
+        "also": 1,
+        "does": 1
       },
       "would": {
         "like": 1
@@ -16643,37 +18079,39 @@
         "may": 1,
         "way": 1,
         "is": 2,
-        "conception": 1
+        "conception": 1,
+        "section": 1
       },
       "they": {
         "are": 1,
         "fought": 1,
         "may": 1,
-        "fulfill": 1
+        "fulfill": 1,
+        "form": 1
       },
       "walking": {
         "in": 1
       },
       "in": {
-        "the": 10,
+        "the": 12,
         "a": 7,
-        "machine": 2,
         "english": 3,
+        "machine": 2,
         "\"": 2,
         "which": 2,
+        "most": 2,
         "new": 1,
         "ways": 1,
         "diverse": 1,
-        "statistical": 1,
-        "hungarian": 1,
-        "most": 2,
-        "classical": 1,
-        "southern": 1,
-        "old": 1,
-        "bold": 1,
-        "first": 1,
+        "programming": 1,
+        "place": 1,
+        "type": 2,
+        "some": 1,
+        "relational": 1,
+        "modern": 1,
         "this": 1,
-        "finding": 1
+        "i": 1,
+        "you": 1
       },
       "children": {
         "play": 1
@@ -16693,7 +18131,8 @@
         "founded": 1,
         "originally": 1,
         "easier": 1,
-        "willing": 1
+        "willing": 1,
+        "visual": 1
       },
       "quiet": {
         "evening": 1
@@ -16767,7 +18206,7 @@
         "of": 1
       },
       "of": {
-        "the": 11,
+        "the": 16,
         "information": 3,
         "learn": 2,
         "accessible": 2,
@@ -16777,16 +18216,16 @@
         "conversational": 2,
         "or": 2,
         "smart": 2,
-        "various": 1,
-        "subject": 1,
-        "noun": 1,
-        "many": 1,
-        "functional": 1,
-        "networks": 1,
-        "network": 1,
-        "a": 1,
+        "criteria": 3,
+        "verbs": 1,
+        "nicer": 1,
+        "postwar": 1,
+        "english": 1,
+        "i": 1,
+        "an": 1,
+        "distributing": 1,
         "being": 1,
-        "quantify": 1
+        "microstate": 1
       },
       "reading": {
         "is": 1
@@ -16806,7 +18245,8 @@
       "if": {
         "you": 1,
         "the": 1,
-        "we": 1
+        "we": 1,
+        "their": 1
       },
       "will": {
         "explain": 1,
@@ -16883,13 +18323,15 @@
       },
       "does": {
         "the": 1,
-        "not": 1
+        "not": 1,
+        "more": 1
       },
       "dog": {
         "like": 1
       },
       "who": {
-        "made": 1
+        "made": 1,
+        "cite": 1
       },
       "made": {
         "this": 1,
@@ -16903,13 +18345,16 @@
         "helps": 1
       },
       "helps": {
-        "me": 1
+        "me": 1,
+        "\"": 1
       },
       "nice": {
-        "to": 1
+        "to": 1,
+        "but": 1
       },
       "meet": {
-        "a": 1
+        "a": 1,
+        "all": 1
       },
       "practise": {
         "every": 1
@@ -16943,7 +18388,8 @@
         "while": 1
       },
       "while": {
-        "she": 1
+        "she": 1,
+        "clojure": 1
       },
       "lake": {
         "is": 1
@@ -17016,7 +18462,8 @@
         "human": 1,
         "dapps": 1,
         "languages": 2,
-        "examples": 1
+        "examples": 1,
+        "branches": 1
       },
       "study": {
         "about": 1,
@@ -17039,7 +18486,9 @@
       "better": {
         "now": 1,
         "in": 1,
-        "understanding": 1
+        "understanding": 1,
+        "/": 1,
+        "and": 1
       },
       "now": {
         "that": 1,
@@ -17050,7 +18499,8 @@
       },
       "given": {
         "it": 1,
-        "word": 1
+        "word": 1,
+        "a": 1
       },
       "quickly": {
         "found": 1
@@ -17109,13 +18559,17 @@
         "application": 2,
         "example": 1,
         "intricate": 1,
-        "early": 1
+        "early": 1,
+        "expression": 2,
+        "auxiliary": 2,
+        "act": 1
       },
       "update": {
         "to": 1,
         "on": 1,
         "my": 1,
-        "your": 1
+        "your": 1,
+        "and": 1
       },
       "blog": {
         "about": 1
@@ -17127,11 +18581,12 @@
         "me": 1
       },
       "on": {
-        "the": 6,
+        "the": 7,
         "conversational": 1,
         "devices": 2,
         "massive": 1,
-        "a": 2
+        "a": 3,
+        "both": 1
       },
       "situation": {
         "in": 1
@@ -17141,7 +18596,8 @@
         "some": 1
       },
       "records": {
-        "to": 1
+        "to": 1,
+        "using": 1
       },
       "take": {
         "account": 1
@@ -17153,7 +18609,8 @@
         "recent": 1,
         "cases": 1,
         "situations": 1,
-        "frequently": 1
+        "frequently": 1,
+        "compendious": 1
       },
       "recent": {
         "transaction": 1
@@ -17162,7 +18619,7 @@
         "piece": 1
       },
       "piece": {
-        "of": 1
+        "of": 2
       },
       "addition": {
         "to": 1
@@ -17191,7 +18648,12 @@
         "experience": 2,
         "backpropagation": 1,
         "hierarchical": 1,
-        "the": 2
+        "the": 2,
+        "its": 1,
+        "goroutines": 1,
+        "actor-model": 1,
+        "multiple": 1,
+        "formal": 1
       },
       "feedback": {
         "and": 1
@@ -17221,14 +18683,15 @@
       },
       "form": {
         "of": 1,
-        "questions": 1
+        "questions": 1,
+        "the": 1
       },
       "architecture": {
         "of": 1
       },
       "artificial": {
         "neural": 5,
-        "intelligence": 5,
+        "intelligence": 6,
         "superintelligence": 1,
         "general": 1
       },
@@ -17262,7 +18725,9 @@
         "a": 2,
         "an": 2,
         "scale": 1,
-        "at": 1
+        "at": 1,
+        "enforces": 1,
+        "was": 1
       },
       "computes": {
         "error": 1
@@ -17279,7 +18744,8 @@
       },
       "across": {
         "multi-layer": 1,
-        "both": 1
+        "both": 1,
+        "hardware": 1
       },
       "multi-layer": {
         "perceptrons": 1
@@ -17303,7 +18769,9 @@
         "strict": 1
       },
       "strict": {
-        "energetic": 1
+        "energetic": 1,
+        "ownership": 1,
+        "purity": 1
       },
       "energetic": {
         "constraints": 1
@@ -17319,7 +18787,12 @@
         "thermodynamic": 1,
         "the": 3,
         "ramin": 1,
-        "alexander": 1
+        "alexander": 1,
+        "introducing": 1,
+        "languages": 1,
+        "combining": 1,
+        "microsoft": 2,
+        "adding": 1
       },
       "thermodynamic": {
         "efficiency": 2,
@@ -17355,10 +18828,12 @@
         "tacky": 1
       },
       "than": {
-        "global": 1
+        "global": 1,
+        "merely": 1
       },
       "global": {
-        "gradient": 2
+        "gradient": 2,
+        "programming": 1
       },
       "gradient": {
         "descent": 6,
@@ -17383,13 +18858,15 @@
       },
       "within": {
         "complex": 3,
-        "a": 1
+        "a": 1,
+        "host": 1
       },
       "adaptive": {
         "systems": 3
       },
       "both": {
-        "biological": 2
+        "biological": 2,
+        "the": 1
       },
       "intelligence": {
         "process": 1,
@@ -17397,7 +18874,8 @@
         "(": 1,
         "explosion": 1,
         "system": 1,
-        "requires": 1
+        "requires": 1,
+        "expert": 1
       },
       "information": {
         "in": 2,
@@ -17406,7 +18884,8 @@
         "theory": 1,
         "systems": 1,
         "about": 1,
-        "carrier": 1
+        "carrier": 1,
+        "to": 1
       },
       "ways": {
         "that": 1,
@@ -17480,7 +18959,10 @@
       "their": {
         "surroundings": 1,
         "relation": 1,
-        "users": 1
+        "users": 1,
+        "inflected": 1,
+        "orthography": 1,
+        "normal": 1
       },
       "maintaining": {
         "order": 1
@@ -17499,7 +18981,8 @@
         "since": 1
       },
       "against": {
-        "the": 1
+        "the": 1,
+        "four": 1
       },
       "second": {
         "law": 1
@@ -17509,7 +18992,9 @@
       },
       "these": {
         "principles": 1,
-        "models": 1
+        "models": 1,
+        "include": 1,
+        "criteria": 1
       },
       "principles": {
         "requires": 1,
@@ -17534,8 +19019,11 @@
         "system": 1
       },
       "systems": {
-        "and": 2,
-        "including": 1
+        "and": 3,
+        "including": 1,
+        "safety": 1,
+        "that": 1,
+        "through": 1
       },
       "distributed": {
         "computing": 1,
@@ -17548,7 +19036,7 @@
       "state": {
         "variable": 2,
         "or": 1,
-        "of": 1,
+        "of": 2,
         "your": 1
       },
       "variable": {
@@ -17605,13 +19093,16 @@
         "far-ranging": 1,
         "free": 1,
         "a": 1,
-        "the": 1
+        "the": 1,
+        "eight": 1
       },
       "far-ranging": {
         "applications": 1
       },
       "applications": {
-        "in": 1
+        "in": 1,
+        "maintainable": 1,
+        "like": 1
       },
       "chemistry": {
         "and": 1
@@ -17627,7 +19118,7 @@
       },
       "machine": {
         "learning": 3,
-        "to": 1
+        "to": 2
       },
       "network": {
         "(": 2,
@@ -17652,29 +19143,36 @@
         "sov": 1,
         "phrase": 1,
         "the": 1,
-        "p": 1
+        "p": 1,
+        "golang": 1,
+        "vb": 2,
+        "not": 1,
+        "as": 1,
+        "only": 1
       },
       "nn": {
         ")": 1
       },
       ")": {
         "or": 1,
-        "is": 6,
-        "grammatical": 1,
+        "is": 7,
+        "grammatical": 2,
         "of": 1,
         "are": 1,
         "that": 1,
         "system": 1,
         "language": 1,
         "–": 1,
-        "together": 1
+        "together": 1,
+        "prioritizes": 1
       },
       "ann": {
         ")": 2
       },
       "computational": {
         "model": 2,
-        "cost": 1
+        "cost": 1,
+        "problems": 1
       },
       "model": {
         "inspired": 2,
@@ -17692,7 +19190,8 @@
       "functions": {
         "of": 2,
         "as": 1,
-        "that": 1
+        "that": 1,
+        "and": 2
       },
       "descent": {
         "is": 4,
@@ -17707,7 +19206,8 @@
         "mathematical": 4
       },
       "mathematical": {
-        "optimization": 4
+        "optimization": 4,
+        "type": 1
       },
       "first-order": {
         "iterative": 1
@@ -17762,14 +19262,18 @@
         "a": 1,
         "conjunction": 1,
         "subordinators": 1,
-        "syntactic": 1
+        "syntactic": 1,
+        "visual": 2,
+        "generic": 1
       },
       "its": {
         "conjuncts": 1,
         "internal": 1,
         "parts": 1,
         "evolution": 1,
-        "head": 1
+        "head": 1,
+        "strict": 1,
+        "original": 1
       },
       "vague": {
         "enough": 1
@@ -17781,7 +19285,8 @@
         "with": 1
       },
       "those": {
-        "of": 3
+        "of": 3,
+        "in": 1
       },
       "other": {
         "parts": 1,
@@ -17803,7 +19308,11 @@
         "but": 1,
         "hiccough": 1,
         "the": 1,
-        "(": 1
+        "(": 1,
+        "generic": 1,
+        "type": 1,
+        "helps": 1,
+        "another": 1
       },
       "be": {
         "defined": 1,
@@ -17814,14 +19323,16 @@
         "the": 1,
         "identified": 1,
         "found": 1,
-        "varied": 1
+        "varied": 1,
+        "given": 1
       },
       "defined": {
         "for": 1
       },
       "each": {
         "language": 1,
-        "knowledge": 1
+        "knowledge": 1,
+        "of": 1
       },
       "may": {
         "have": 1,
@@ -17834,14 +19345,16 @@
         "senses": 1
       },
       "senses": {
-        "and": 1
+        "and": 1,
+        "(": 1
       },
       "contexts": {
         "be": 1
       },
       "preposition": {
         "but": 1,
-        "in": 1
+        "in": 1,
+        "to": 1
       },
       "depending": {
         "on": 1
@@ -17872,8 +19385,9 @@
       },
       "grammatical": {
         "particle": 1,
-        "information": 1,
-        "functions": 1
+        "information": 2,
+        "functions": 1,
+        "criteria": 1
       },
       "particle": {
         "that": 1
@@ -17887,7 +19401,8 @@
         "two": 1,
         "the": 1,
         "orders": 1,
-        "heat": 1
+        "heat": 1,
+        "auxiliary": 1
       },
       "commas": {
         "are": 1
@@ -17940,10 +19455,10 @@
         "as": 2
       },
       "as": {
-        "a": 4,
+        "a": 5,
         "words": 1,
         "subordinate": 1,
-        "the": 2,
+        "the": 3,
         "of": 1,
         "linear": 1,
         "o'odham": 1,
@@ -17952,13 +19467,17 @@
         "verb": 1,
         "predicative": 1,
         "complements": 1,
-        "is": 1
+        "is": 1,
+        "needed": 1,
+        "in": 2
       },
       "itself": {
         "was": 1
       },
       "then": {
-        "called": 1
+        "called": 1,
+        "instantiated": 1,
+        "proceed": 1
       },
       "archaic": {
         "term": 1
@@ -17974,7 +19493,8 @@
       },
       "early": {
         "th": 1,
-        "conception": 1
+        "conception": 1,
+        ")": 1
       },
       "coordinating": {
         "conjunctions": 1,
@@ -17983,7 +19503,8 @@
       "also": {
         "called": 2,
         "known": 1,
-        "of": 1
+        "of": 1,
+        "natural": 1
       },
       "referential": {
         "markers": 1
@@ -17997,7 +19518,8 @@
         "within": 1
       },
       "two": {
-        "or": 3
+        "or": 3,
+        "most": 1
       },
       "items": {
         "(": 1,
@@ -18031,7 +19553,8 @@
         "conjunctions": 1
       },
       "syntax": {
-        "that": 1
+        "that": 1,
+        "for": 1
       },
       "aggregates": {
         "or": 1
@@ -18137,10 +19660,13 @@
         "out": 1,
         "method": 1,
         "spot": 1,
-        "point": 1
+        "point": 1,
+        "set": 1
       },
       "types": {
-        "of": 1
+        "of": 1,
+        "as": 1,
+        "are": 1
       },
       "usually": {
         "plants": 1,
@@ -18240,7 +19766,8 @@
         "communication": 1
       },
       "communication": {
-        "between": 1
+        "between": 1,
+        "following": 1
       },
       "development": {
         "of": 2
@@ -18290,7 +19817,7 @@
         "was": 1
       },
       "limited": {
-        "to": 1
+        "to": 2
       },
       "'d": {
         "seen": 1
@@ -18336,7 +19863,8 @@
         "and": 1
       },
       "another": {
-        "cell": 1
+        "cell": 1,
+        "verb": 1
       },
       "correction": {
         "technique": 1
@@ -18351,7 +19879,11 @@
         "type": 1
       },
       "type": {
-        "of": 1
+        "of": 3,
+        "systems": 2,
+        "checker": 1,
+        "inference": 3,
+        "theory": 3
       },
       "discourse": {
         "that": 1
@@ -18367,7 +19899,8 @@
       },
       "functional": {
         "topics": 1,
-        "projections": 1
+        "projections": 1,
+        "programming": 2
       },
       "topics": {
         "of": 1
@@ -18391,7 +19924,8 @@
       },
       "being": {
         "neuroplastic": 1,
-        "he": 1
+        "he": 1,
+        "distributed": 1
       },
       "having": {
         "a": 1
@@ -18415,7 +19949,8 @@
         "of": 1
       },
       "last": {
-        "month": 1
+        "month": 1,
+        "version": 1
       },
       "month": {
         "'s": 1
@@ -18439,12 +19974,18 @@
         "the": 1
       },
       "data": {
-        "using": 1
+        "using": 1,
+        "races": 1,
+        "types": 2,
+        "in": 1
       },
       "using": {
         "our": 1,
         "ai": 1,
-        "parse": 1
+        "parse": 1,
+        "variables": 1,
+        "declarative": 1,
+        "probability": 1
       },
       "proven": {
         "techniques": 1
@@ -18453,7 +19994,9 @@
         "to": 1
       },
       "following": {
-        "conclusions": 1
+        "conclusions": 1,
+        "communicating": 1,
+        "table": 1
       },
       "series": {
         "of": 1
@@ -18500,7 +20043,8 @@
       "models": {
         "running": 2,
         "leverage": 1,
-        "depend": 1
+        "depend": 1,
+        "designed": 1
       },
       "running": {
         "directly": 2
@@ -18513,10 +20057,12 @@
       },
       "without": {
         "a": 2,
-        "any": 1
+        "any": 1,
+        "relying": 1
       },
       "cloud": {
-        "connection": 2
+        "connection": 2,
+        "infrastructure": 1
       },
       "founded": {
         "in": 1
@@ -18536,7 +20082,8 @@
         "to": 1
       },
       "computer": {
-        "scientist": 1
+        "scientist": 1,
+        "science": 2
       },
       "scientist": {
         "daniela": 1
@@ -18554,10 +20101,12 @@
         "natural": 2
       },
       "natural": {
-        "neural": 2
+        "neural": 2,
+        "languages": 1
       },
       "leverage": {
-        "timing": 1
+        "timing": 1,
+        "the": 1
       },
       "timing": {
         "of": 1
@@ -18579,7 +20128,8 @@
         ")": 1
       },
       "system": {
-        "iteratively": 2
+        "iteratively": 2,
+        "automation": 1
       },
       "iteratively": {
         "designs": 2
@@ -18604,7 +20154,8 @@
       },
       "various": {
         "rsi-related": 1,
-        "types": 1
+        "types": 1,
+        "linguists": 1
       },
       "rsi-related": {
         "projects": 1
@@ -18649,7 +20200,8 @@
       },
       "static": {
         "parameter": 1,
-        "training": 1
+        "training": 1,
+        "type": 1
       },
       "parameter": {
         "estimation": 1
@@ -18742,13 +20294,16 @@
         "work": 1
       },
       "solve": {
-        "the": 1
+        "the": 1,
+        "distinct": 1
       },
       "originally": {
-        "designed": 1
+        "designed": 1,
+        "called": 2
       },
       "designed": {
-        "as": 1
+        "as": 1,
+        "to": 1
       },
       "handle": {
         "complex": 1
@@ -18793,7 +20348,9 @@
         "governance": 1
       },
       "provide": {
-        "a": 1
+        "a": 1,
+        "classic": 1,
+        "modern": 1
       },
       "function": {
         "or": 1,
@@ -18803,7 +20360,8 @@
         "to": 1
       },
       "users": {
-        "with": 1
+        "with": 1,
+        "select": 1
       },
       "less": {
         "human": 1,
@@ -18829,7 +20387,8 @@
         "ownership": 1
       },
       "ownership": {
-        "over": 1
+        "over": 1,
+        "model": 1
       },
       "entity": {
         "controlling": 1
@@ -18859,7 +20418,13 @@
         "use": 1,
         "such": 1,
         "do": 1,
-        "change": 1
+        "change": 1,
+        "encompasses": 1,
+        "like": 2,
+        "with": 1,
+        "govern": 1,
+        "and": 2,
+        "in": 1
       },
       "employ": {
         "different": 1
@@ -18886,7 +20451,7 @@
         "order": 1
       },
       "relying": {
-        "on": 1
+        "on": 2
       },
       "convey": {
         "grammatical": 1
@@ -18901,7 +20466,8 @@
         "phrase": 1
       },
       "ease": {
-        "the": 1
+        "the": 1,
+        "of": 1
       },
       "semantics": {
         "and": 1
@@ -18910,7 +20476,8 @@
         "ambiguity": 1
       },
       "making": {
-        "the": 1
+        "the": 1,
+        "large-scale": 1
       },
       "stream": {
         "less": 1
@@ -18957,7 +20524,8 @@
       "all": {
         "possible": 1,
         "of": 1,
-        "the": 1
+        "the": 1,
+        "these": 1
       },
       "possible": {
         "permutations": 1
@@ -18982,7 +20550,8 @@
         "or": 1
       },
       "much": {
-        "as": 1
+        "as": 1,
+        "to": 1
       },
       "noun": {
         "phrase": 5,
@@ -19079,7 +20648,8 @@
         "allow": 1
       },
       "allow": {
-        "for": 1
+        "for": 1,
+        "engineers": 1
       },
       "flexible": {
         "order": 1,
@@ -19104,10 +20674,15 @@
         "sonora": 1
       },
       "only": {
-        "the": 1
+        "the": 1,
+        "shown": 1,
+        ")": 1
       },
       "auxiliary": {
-        "bound": 1
+        "bound": 1,
+        "verbs": 4,
+        "and": 1,
+        "verb": 2
       },
       "bound": {
         "to": 1
@@ -19123,7 +20698,9 @@
       },
       "had": {
         "flexible": 1,
-        "difficulty": 1
+        "difficulty": 1,
+        "better": 1,
+        "/": 2
       },
       "before": {
         "losing": 1
@@ -19144,11 +20721,13 @@
         "purpose": 1
       },
       "plural": {
-        "of": 3
+        "of": 4
       },
       "science": {
         "of": 1,
-        "concerned": 1
+        "concerned": 1,
+        "education": 1,
+        "and": 1
       },
       "conversions": {
         "between": 1
@@ -19188,7 +20767,9 @@
       },
       "–": {
         "or": 1,
-        "is": 1
+        "is": 1,
+        "not": 1,
+        "are": 1
       },
       "np": {
         "or": 1
@@ -19204,7 +20785,8 @@
         "grammatical": 1
       },
       "common": {
-        "cross-linguistically": 1
+        "cross-linguistically": 1,
+        "lisp": 1
       },
       "frequently": {
         "occurring": 1
@@ -19214,7 +20796,11 @@
       },
       "verb": {
         "subjects": 1,
-        "\"": 1
+        "\"": 1,
+        "with": 1,
+        "is": 1,
+        "that": 1,
+        "by": 1
       },
       "subjects": {
         "and": 1
@@ -19250,7 +20836,8 @@
         "in": 1
       },
       "understood": {
-        "to": 1
+        "to": 1,
+        "as": 1
       },
       "contain": {
         "two": 1
@@ -19284,13 +20871,16 @@
       },
       "trees": {
         "depends": 1,
-        "of": 1
+        "of": 1,
+        "and": 1
       },
       "depends": {
         "on": 1
       },
       "basic": {
-        "approach": 1
+        "approach": 1,
+        "(": 1,
+        "language": 1
       },
       "approach": {
         "to": 1
@@ -19299,7 +20889,8 @@
         "trees": 1
       },
       "grammars": {
-        "grant": 1
+        "grant": 1,
+        "of": 1
       },
       "grant": {
         "noun": 1
@@ -19321,7 +20912,9 @@
         "work": 1
       },
       "english": {
-        "by": 1
+        "by": 1,
+        "offers": 1,
+        "language": 1
       },
       "infinitive": {
         "of": 1
@@ -19373,69 +20966,859 @@
       },
       "indicative": {
         "of": 1
+      },
+      "taxonomy": {
+        "of": 1
+      },
+      "programming": {
+        "languages": 3,
+        "paradigms": 1,
+        "on": 1,
+        "through": 1,
+        "language": 2
+      },
+      "encompasses": {
+        "a": 1
+      },
+      "vast": {
+        "array": 1
+      },
+      "array": {
+        "of": 1
+      },
+      "syntactical": {
+        "architectures": 1
+      },
+      "compilation": {
+        "models": 1,
+        "via": 1
+      },
+      "distinct": {
+        "computational": 1
+      },
+      "problems": {
+        "across": 1
+      },
+      "hardware": {
+        "and": 1,
+        "description": 1
+      },
+      "software": {
+        "ecosystems": 1
+      },
+      "rust": {
+        "advances": 1
+      },
+      "advances": {
+        "systems": 1
+      },
+      "safety": {
+        "further": 1
+      },
+      "further": {
+        "through": 1
+      },
+      "borrowing": {
+        "rules": 1
+      },
+      "affine": {
+        "type": 1
+      },
+      "eliminate": {
+        "data": 1
+      },
+      "races": {
+        "and": 1
+      },
+      "null-pointer": {
+        "dereferences": 1
+      },
+      "dereferences": {
+        "at": 1
+      },
+      "compile-time": {
+        "without": 1
+      },
+      "garbage": {
+        "collector": 1
+      },
+      "go": {
+        "(": 2
+      },
+      "golang": {
+        ")": 1
+      },
+      "prioritizes": {
+        "concurrency": 1
+      },
+      "concurrency": {
+        "through": 1
+      },
+      "goroutines": {
+        "and": 1
+      },
+      "channel-based": {
+        "communication": 1
+      },
+      "communicating": {
+        "sequential": 1
+      },
+      "sequential": {
+        "processes": 1
+      },
+      "optimizing": {
+        "backend": 1
+      },
+      "backend": {
+        "microservices": 1
+      },
+      "microservices": {
+        "and": 1
+      },
+      "typescript": {
+        "builds": 1
+      },
+      "builds": {
+        "upon": 1
+      },
+      "upon": {
+        "javascript": 1
+      },
+      "javascript": {
+        "by": 1,
+        "environments": 1
+      },
+      "introducing": {
+        "a": 1
+      },
+      "powerful": {
+        "static": 1,
+        "hindley-milner": 1
+      },
+      "checker": {
+        "with": 1
+      },
+      "structural": {
+        "typing": 1
+      },
+      "conditional": {
+        "types": 1
+      },
+      "large-scale": {
+        "web": 1
+      },
+      "web": {
+        "applications": 1
+      },
+      "paradigms": {
+        "are": 1
+      },
+      "epitomized": {
+        "by": 1
+      },
+      "enforces": {
+        "strict": 1
+      },
+      "lazy": {
+        "evaluation": 1
+      },
+      "advanced": {
+        "algebraic": 1
+      },
+      "algebraic": {
+        "data": 1
+      },
+      "enabling": {
+        "mathematically": 1
+      },
+      "mathematically": {
+        "rigorous": 1
+      },
+      "rigorous": {
+        "program": 1
+      },
+      "program": {
+        "verification": 1
+      },
+      "ocaml": {
+        "combines": 1
+      },
+      "combines": {
+        "functional": 1
+      },
+      "object-oriented": {
+        "styles": 1,
+        "and": 1,
+        "programming": 2
+      },
+      "styles": {
+        "with": 1
+      },
+      "hindley-milner": {
+        "type": 1
+      },
+      "inference": {
+        "engine": 1,
+        "is": 2
+      },
+      "utilized": {
+        "in": 1
+      },
+      "high-assurance": {
+        "systems": 1
+      },
+      "compiler": {
+        "construction": 1
+      },
+      "erlang": {
+        "and": 1
+      },
+      "elixir": {
+        "leverage": 1
+      },
+      "beam": {
+        "virtual": 1
+      },
+      "virtual": {
+        "machine": 1
+      },
+      "achieve": {
+        "fault-tolerant": 1
+      },
+      "highly": {
+        "concurrent": 1
+      },
+      "concurrent": {
+        "telecommunication": 1
+      },
+      "telecommunication": {
+        "and": 1
+      },
+      "chat": {
+        "systems": 1
+      },
+      "actor-model": {
+        "supervision": 1
+      },
+      "supervision": {
+        "trees": 1
+      },
+      "immutable": {
+        "state": 1,
+        "dialect": 1
+      },
+      "scala": {
+        "bridges": 1
+      },
+      "bridges": {
+        "object-oriented": 1,
+        "the": 1
+      },
+      "clojure": {
+        "offers": 1
+      },
+      "offers": {
+        "a": 2
+      },
+      "dialect": {
+        "of": 1
+      },
+      "lisp": {
+        "hosted": 1,
+        "provide": 1
+      },
+      "hosted": {
+        "on": 1
+      },
+      "jvm": {
+        "and": 1
+      },
+      "clojurescript": {
+        "for": 1
+      },
+      "emphasizing": {
+        "code-as-data": 1
+      },
+      "code-as-data": {
+        "homoiconicity": 1
+      },
+      "scheme": {
+        "and": 1
+      },
+      "classic": {
+        "lexical": 1
+      },
+      "lexical": {
+        "scoping": 1,
+        "verbs": 1
+      },
+      "macro": {
+        "systems": 1
+      },
+      "symbolic": {
+        "computation": 1
+      },
+      "computation": {
+        "foundations": 1
+      },
+      "foundations": {
+        "that": 1
+      },
+      "heavily": {
+        "influenced": 1
+      },
+      "influenced": {
+        "modern": 1
+      },
+      "modern": {
+        "computer": 1,
+        "english": 1
+      },
+      "julia": {
+        "bridges": 1
+      },
+      "two-language": {
+        "problem": 1
+      },
+      "problem": {
+        "by": 1
+      },
+      "combining": {
+        "the": 1
+      },
+      "scripting": {
+        "languages": 1,
+        "and": 1
+      },
+      "raw": {
+        "execution": 1
+      },
+      "execution": {
+        "speed": 1
+      },
+      "speed": {
+        "of": 1
+      },
+      "c": {
+        "through": 1
+      },
+      "multiple": {
+        "dispatch": 1
+      },
+      "dispatch": {
+        "and": 1
+      },
+      "just-in-time": {
+        "compilation": 1
+      },
+      "via": {
+        "llvm": 1
+      },
+      "specialized": {
+        "and": 1
+      },
+      "domain-specific": {
+        "languages": 1
+      },
+      "govern": {
+        "hardware": 1
+      },
+      "logic": {
+        "programming": 2
+      },
+      "vhdl": {
+        "and": 1
+      },
+      "verilog": {
+        "allow": 1
+      },
+      "engineers": {
+        "to": 1
+      },
+      "synthesize": {
+        "digital": 1
+      },
+      "digital": {
+        "electronic": 1
+      },
+      "electronic": {
+        "circuits": 1
+      },
+      "circuits": {
+        "and": 1
+      },
+      "field": {
+        "programmable": 1
+      },
+      "programmable": {
+        "gate": 1
+      },
+      "gate": {
+        "arrays": 1,
+        "and": 1
+      },
+      "arrays": {
+        "at": 1
+      },
+      "register-transfer": {
+        "levels": 1
+      },
+      "prolog": {
+        "implements": 1
+      },
+      "implements": {
+        "logic": 1
+      },
+      "formal": {
+        "predicate": 1
+      },
+      "predicate": {
+        "calculus": 1
+      },
+      "calculus": {
+        "and": 1
+      },
+      "automated": {
+        "resolution": 1
+      },
+      "resolution": {
+        "theorem": 1
+      },
+      "theorem": {
+        "proving": 1
+      },
+      "laying": {
+        "groundwork": 1
+      },
+      "groundwork": {
+        "for": 1
+      },
+      "expert": {
+        "systems": 1
+      },
+      "swift": {
+        "and": 1
+      },
+      "kotlin": {
+        "provide": 1
+      },
+      "null-safe": {
+        "syntax": 1
+      },
+      "ios": {
+        "and": 1
+      },
+      "android": {
+        "native": 1
+      },
+      "native": {
+        "mobile": 1
+      },
+      "mobile": {
+        "development": 1
+      },
+      "replacing": {
+        "objective-c": 1
+      },
+      "objective-c": {
+        "and": 1
+      },
+      "legacy": {
+        "java": 1
+      },
+      "java": {
+        "patterns": 1
+      },
+      "shell": {
+        "languages": 1
+      },
+      "lua": {
+        "facilitate": 1
+      },
+      "facilitate": {
+        "operating": 1
+      },
+      "operating": {
+        "system": 1
+      },
+      "task": {
+        "orchestration": 1
+      },
+      "lightweight": {
+        "embedding": 1
+      },
+      "embedding": {
+        "within": 1
+      },
+      "host": {
+        "applications": 1
+      },
+      "game": {
+        "engines": 1
+      },
+      "engines": {
+        "and": 1
+      },
+      "redis": {
+        "plugins": 1
+      },
+      "visual": {
+        "basic": 6
+      },
+      "vb": {
+        ")": 1
+      },
+      "net": {
+        "(": 1,
+        ")": 1,
+        "framework": 2,
+        "in": 1
+      },
+      "developed": {
+        "by": 2
+      },
+      "microsoft": {
+        "and": 2,
+        "launched": 1
+      },
+      "implemented": {
+        "on": 2
+      },
+      "launched": {
+        "vb": 1
+      },
+      "successor": {
+        "to": 1
+      },
+      "original": {
+        "visual": 1
+      },
+      "version": {
+        "of": 1
+      },
+      "parametric": {
+        "polymorphism": 1
+      },
+      "polymorphism": {
+        "allows": 1
+      },
+      "allows": {
+        "a": 1
+      },
+      "single": {
+        "piece": 1
+      },
+      "code": {
+        "to": 1
+      },
+      "generic": {
+        "\"": 1,
+        "functions": 1,
+        "datatypes": 1,
+        "programming": 1
+      },
+      "variables": {
+        "in": 1
+      },
+      "place": {
+        "of": 1
+      },
+      "actual": {
+        "types": 1
+      },
+      "instantiated": {
+        "with": 1
+      },
+      "particular": {
+        "types": 1
+      },
+      "parametrically": {
+        "polymorphic": 1
+      },
+      "polymorphic": {
+        "functions": 1
+      },
+      "sometimes": {
+        "called": 1
+      },
+      "basis": {
+        "of": 1
+      },
+      "automatic": {
+        "detection": 2
+      },
+      "detection": {
+        "of": 2
+      },
+      "include": {
+        "programming": 1,
+        "among": 1
+      },
+      "branches": {
+        "of": 1
+      },
+      "structured": {
+        "query": 1
+      },
+      "query": {
+        "language": 1
+      },
+      "managing": {
+        "and": 1
+      },
+      "querying": {
+        "data": 1
+      },
+      "relational": {
+        "databases": 1
+      },
+      "lets": {
+        "users": 1
+      },
+      "delete": {
+        "records": 1
+      },
+      "declarative": {
+        "statements": 1
+      },
+      "list": {
+        "of": 2
+      },
+      "verbs": {
+        "in": 1,
+        "is": 1,
+        "–": 1,
+        "then": 1,
+        "certain": 1,
+        "that": 1
+      },
+      "along": {
+        "with": 1
+      },
+      "inflected": {
+        "forms": 1
+      },
+      "shown": {
+        "in": 1,
+        "if": 1
+      },
+      "contractions": {
+        "are": 1
+      },
+      "orthography": {
+        "is": 1
+      },
+      "set": {
+        "of": 2
+      },
+      "criteria": {
+        "for": 3,
+        "of": 1
+      },
+      "distinguishing": {
+        "between": 1
+      },
+      "revised": {
+        "set": 1
+      },
+      "owes": {
+        "much": 1
+      },
+      "merely": {
+        "add": 1
+      },
+      "add": {
+        "a": 1
+      },
+      "fifth": {
+        "criterion": 1
+      },
+      "criterion": {
+        "to": 1
+      },
+      "number": {
+        "of": 1
+      },
+      "paradigm": {
+        "table": 1
+      },
+      "table": {
+        "above": 1
+      },
+      "above": {
+        "–": 1
+      },
+      "checked": {
+        "against": 1
+      },
+      "four": {
+        "of": 1
+      },
+      "five": {
+        "criteria": 1
+      },
+      "compendious": {
+        "of": 1
+      },
+      "postwar": {
+        "reference": 1
+      },
+      "reference": {
+        "grammars": 1
+      },
+      "detailed": {
+        "list": 1
+      },
+      "comprehensive": {
+        "grammar": 1
+      },
+      "eight": {
+        "criteria": 1
+      },
+      "linguists": {
+        "who": 1
+      },
+      "cite": {
+        "or": 1
+      },
+      "propound": {
+        "clear": 1
+      },
+      "clear": {
+        "grammatical": 1
+      },
+      "proceed": {
+        "to": 1
+      },
+      "among": {
+        "auxiliary": 1
+      },
+      "certain": {
+        "verbs": 1
+      },
+      "notably": {
+        "geoff": 1
+      },
+      "geoff": {
+        "pullum": 1
+      },
+      "suggested": {
+        "that": 1
+      },
+      "rome": {
+        ")": 1
+      },
+      "special": {
+        "case": 1
+      },
+      "case": {
+        "of": 1
+      },
+      "no": {
+        "tensed": 1
+      },
+      "tensed": {
+        "forms": 1
+      },
+      "normal": {
+        "senses": 1
+      },
+      "/": {
+        "best": 1,
+        "d": 2
+      },
+      "best": {
+        "arrive": 1,
+        "are": 1
+      },
+      "arrive": {
+        "early": 1
+      },
+      "d": {
+        "better": 1,
+        "best": 1
+      },
+      "traditionally": {
+        "understood": 1
+      },
+      "adding": {
+        "(": 1
+      },
+      "pertaining": {
+        "to": 1
+      },
+      "derived": {
+        "using": 1
+      },
+      "act": {
+        "of": 1
+      },
+      "distributing": {
+        "or": 1
       }
     },
     "starters": {
       "i": 17,
       "how": 2,
       "what": 5,
-      "<NOUN>": 38,
-      "the": 27,
+      "<NOUN>": 54,
+      "the": 29,
       "she": 3,
       "we": 8,
-      "it": 10,
-      "<VERB>": 13,
+      "it": 11,
+      "<VERB>": 14,
       "can": 1,
       "my": 3,
       "why": 1,
       "they": 1,
       "he": 3,
       "where": 1,
-      "<ADJ>": 17,
+      "<ADJ>": 22,
       "please": 1,
       "that": 4,
       "if": 2,
       "although": 1,
-      "a": 12,
+      "a": 13,
       "does": 1,
       "who": 1,
       "when": 4,
       "you": 1,
-      "<ADV>": 5,
-      "an": 5,
+      "<ADV>": 6,
+      "an": 7,
       "however": 1,
-      "in": 15,
+      "in": 19,
       "for": 1,
       "toward": 1,
       "<PART>": 1,
       "something": 1,
       "his": 2,
-      "of": 3,
+      "of": 4,
       "her": 1,
       "this": 2,
-      "these": 1,
+      "these": 2,
       "as": 1,
-      "each": 1,
+      "each": 2,
       "without": 1,
       "some": 3,
-      "<NUM>": 1,
+      "<NUM>": 2,
       "many": 1,
-      "any": 1
+      "any": 1,
+      "with": 1
     },
     "connectors": {
       "because": 3,
-      "or": 43,
-      "and": 64,
-      "but": 8,
+      "or": 47,
+      "and": 110,
+      "but": 10,
       "so": 1,
-      "while": 1,
-      "than": 1,
+      "while": 2,
+      "than": 2,
       "therefore": 4,
-      "if": 1,
-      "as": 16,
+      "if": 2,
+      "as": 21,
       "however": 1,
       "whether": 1,
-      "that": 2,
+      "that": 3,
       "yet": 1,
       "though": 1,
       "since": 1
@@ -19450,18 +21833,19 @@
         "or": 5,
         "and": 7,
         "but": 4,
-        "if": 1,
+        "if": 2,
         "though": 1,
         "as": 3
       },
       "NOUN>NOUN": {
-        "and": 26,
-        "or": 15,
+        "and": 40,
+        "or": 17,
         "as": 2
       },
       "NOUN>VERB": {
-        "and": 3,
-        "or": 1
+        "and": 6,
+        "or": 1,
+        "as": 1
       },
       "ADJ>PRON": {
         "but": 1,
@@ -19474,7 +21858,7 @@
         "that": 1
       },
       "ADJ>ADJ": {
-        "and": 3,
+        "and": 4,
         "or": 1
       },
       "ADJ>NOUN": {
@@ -19492,7 +21876,7 @@
         "and": 1
       },
       "NOUN>ADJ": {
-        "and": 5,
+        "and": 12,
         "than": 1,
         "or": 3,
         "whether": 1,
@@ -19506,11 +21890,12 @@
       },
       "NOUN>PREP": {
         "and": 1,
-        "since": 1
+        "since": 1,
+        "as": 1
       },
       "VERB>DET": {
-        "as": 3,
-        "that": 1
+        "as": 4,
+        "that": 2
       },
       "NOUN>PUNCT": {
         "however": 1
@@ -19538,11 +21923,12 @@
         "or": 4
       },
       "NOUN>AUX": {
-        "and": 2,
+        "and": 3,
         "as": 1
       },
       "PROPN>PROPN": {
-        "and": 3
+        "and": 5,
+        "while": 1
       },
       "VERB>PROPN": {
         "and": 1
@@ -19573,21 +21959,51 @@
         "as": 1
       },
       "NOUN>ADV": {
-        "and": 1
+        "and": 2,
+        "but": 1,
+        "than": 1
       },
       "NOUN>PROPN": {
-        "or": 1
+        "or": 2,
+        "and": 8
       },
       "PROPN>ADJ": {
         "or": 1
       },
       "ADV>PRON": {
-        "and": 1
+        "and": 2
       },
       "CONJ>NOUN": {
         "as": 1
       },
       "VERB>AUX": {
+        "or": 1
+      },
+      "ADJ>VERB": {
+        "and": 1
+      },
+      "VERB>ADJ": {
+        "and": 2
+      },
+      "PROPN>NOUN": {
+        "and": 1
+      },
+      "PROPN>VERB": {
+        "and": 2
+      },
+      "PROPN>DET": {
+        "and": 2
+      },
+      "PREP>DET": {
+        "as": 1
+      },
+      "ADJ>AUX": {
+        "but": 1
+      },
+      "PART>PREP": {
+        "as": 1
+      },
+      "PART>VERB": {
         "or": 1
       }
     },
@@ -19940,7 +22356,13 @@
       "DET NOUN PREP DET NOUN PREP NOUN | and | DET NOUN PREP NOUN": 1,
       "DET NOUN VERB PRON VERB PART VERB PREP NOUN | and | NOUN": 1,
       "ADJ NOUN AUX ADV NOUN ADV | and | PRON MODAL AUX DET NOUN ADV VERB NOUN": 1,
-      "PRON VERB DET NOUN PREP NOUN | but | DET NOUN AUX ADJ": 1
+      "PRON VERB DET NOUN PREP NOUN | but | DET NOUN AUX ADJ": 1,
+      "NOUN CONJ PROPN NOUN ADJ NOUN | and | ADJ NOUN DET ADV VERB NOUN": 1,
+      "VERB CONJ ADJ NOUN | and | ADJ NOUN": 1,
+      "NOUN ADJ NOUN PREP ADJ NOUN | and | VERB NOUN PREP ADJ NOUN": 1,
+      "NOUN CONJ PROPN NOUN AUX DET NOUN PREP NOUN | and | NOUN PREP ADJ NOUN": 1,
+      "PRON VERB NOUN | and | NOUN ADJ NOUN": 1,
+      "NOUN AUX ADJ NOUN | if | DET NOUN AUX ADJ": 1
     },
     "sentence_bank": {
       "happy": [
@@ -19952,9 +22374,9 @@
         "I enjoy talking with my friend."
       ],
       "language": [
-        "Language is a tool for sharing ideas.",
-        "O'odham is a language that is spoken in southern Arizona and Northern Sonora, Mexico.",
-        "When language change involves a shift in a language's syntax, this is called syntactic change ."
+        "When language change involves a shift in a language's syntax, this is called syntactic change .",
+        "SQL, or Structured Query Language, is a language for managing and querying data in relational databases.",
+        "A Comprehensive Grammar of the English Language has eight criteria."
       ],
       "tool": [
         "Language is a tool for sharing ideas."
@@ -20402,7 +22824,8 @@
         "In essence, it is polite and standard conversation about unimportant things."
       ],
       "state": [
-        "The state or quality of being neuroplastic , of having a brain that adapts to experience ."
+        "The state or quality of being neuroplastic , of having a brain that adapts to experience .",
+        "An act of distributing or state of being distributed."
       ],
       "quality": [
         "The state or quality of being neuroplastic , of having a brain that adapts to experience ."
@@ -20489,7 +22912,9 @@
         "DApps provide a function or utility to their users with less human intervention."
       ],
       "provide": [
-        "DApps provide a function or utility to their users with less human intervention."
+        "DApps provide a function or utility to their users with less human intervention.",
+        "Scheme and Common Lisp provide classic lexical scoping, macro systems, and symbolic computation foundations that heavily influenced modern computer science education.",
+        "Swift and Kotlin provide modern, concise, null-safe syntax for iOS and Android native mobile development, replacing Objective-C and legacy Java patterns."
       ],
       "control": [
         "Control over some DApps is distributed over holders of tokens that represent ownership over a DApps governance."
@@ -20624,6 +23049,99 @@
       ],
       "vary": [
         "Able to vary or be varied."
+      ],
+      "typescript": [
+        "TypeScript builds upon JavaScript by introducing a powerful static type checker with structural typing, generics, and conditional types, making large-scale web applications maintainable."
+      ],
+      "build": [
+        "TypeScript builds upon JavaScript by introducing a powerful static type checker with structural typing, generics, and conditional types, making large-scale web applications maintainable."
+      ],
+      "ocaml": [
+        "OCaml combines functional, imperative, and object-oriented styles with a powerful Hindley-Milner type inference engine, utilized in high-assurance systems and compiler construction."
+      ],
+      "combines": [
+        "OCaml combines functional, imperative, and object-oriented styles with a powerful Hindley-Milner type inference engine, utilized in high-assurance systems and compiler construction."
+      ],
+      "scheme": [
+        "Scheme and Common Lisp provide classic lexical scoping, macro systems, and symbolic computation foundations that heavily influenced modern computer science education."
+      ],
+      "specializ": [
+        "Specialized and domain-specific languages govern hardware description, markup, and logic programming."
+      ],
+      "domain-specific": [
+        "Specialized and domain-specific languages govern hardware description, markup, and logic programming."
+      ],
+      "vhdl": [
+        "VHDL and Verilog allow engineers to synthesize digital electronic circuits and Field Programmable Gate Arrays at the gate and register-transfer levels."
+      ],
+      "allow": [
+        "VHDL and Verilog allow engineers to synthesize digital electronic circuits and Field Programmable Gate Arrays at the gate and register-transfer levels."
+      ],
+      "prolog": [
+        "Prolog implements logic programming through formal predicate calculus and automated resolution theorem proving, laying groundwork for artificial intelligence expert systems."
+      ],
+      "implements": [
+        "Prolog implements logic programming through formal predicate calculus and automated resolution theorem proving, laying groundwork for artificial intelligence expert systems."
+      ],
+      "swift": [
+        "Swift and Kotlin provide modern, concise, null-safe syntax for iOS and Android native mobile development, replacing Objective-C and legacy Java patterns."
+      ],
+      "polymorphic": [
+        "Parametrically polymorphic functions and data types are sometimes called generic functions and generic datatypes, respectively, and they form the basis of generic programming."
+      ],
+      "functions": [
+        "Parametrically polymorphic functions and data types are sometimes called generic functions and generic datatypes, respectively, and they form the basis of generic programming."
+      ],
+      "type": [
+        "In type theory, type inference is the automatic detection of the type of an expression."
+      ],
+      "theory": [
+        "In type theory, type inference is the automatic detection of the type of an expression."
+      ],
+      "include": [
+        "These include programming languages and mathematical type systems, but also natural languages in some branches of computer science and linguistics."
+      ],
+      "programming": [
+        "These include programming languages and mathematical type systems, but also natural languages in some branches of computer science and linguistics."
+      ],
+      "managing": [
+        "SQL, or Structured Query Language, is a language for managing and querying data in relational databases."
+      ],
+      "users": [
+        "It lets users select, insert, update and delete records using declarative statements."
+      ],
+      "select": [
+        "It lets users select, insert, update and delete records using declarative statements."
+      ],
+      "list": [
+        "The list of auxiliary verbs in Modern English, along with their inflected forms, is shown in the following table."
+      ],
+      "auxiliary": [
+        "The list of auxiliary verbs in Modern English, along with their inflected forms, is shown in the following table."
+      ],
+      "contractions": [
+        "Contractions are only shown if their orthography is distinctive."
+      ],
+      "only": [
+        "Contractions are only shown if their orthography is distinctive."
+      ],
+      "most": [
+        "Each of the two most compendious of postwar reference grammars of English offers a more detailed list of criteria for auxiliary verbs."
+      ],
+      "compendious": [
+        "Each of the two most compendious of postwar reference grammars of English offers a more detailed list of criteria for auxiliary verbs."
+      ],
+      "grammar": [
+        "A Comprehensive Grammar of the English Language has eight criteria."
+      ],
+      "pertaining": [
+        "Of, pertaining to , or derived using probability ."
+      ],
+      "deriv": [
+        "Of, pertaining to , or derived using probability ."
+      ],
+      "distributing": [
+        "An act of distributing or state of being distributed."
       ]
     }
   },
@@ -20636,11 +23154,6 @@
     },
     "pending_words": [
       "matchine",
-      "probabilistic",
-      "distribution",
-      "accessible",
-      "microstates",
-      "system",
       "machine",
       "computational",
       "model",
@@ -20796,19 +23309,75 @@
       "difficulty",
       "intentions",
       "able",
-      "vary"
+      "vary",
+      "designed",
+      "solve",
+      "problems",
+      "strict",
+      "ownership",
+      "data",
+      "relying",
+      "communication",
+      "following",
+      "applications",
+      "programming",
+      "paradigms",
+      "powerful",
+      "engine",
+      "leverage",
+      "telecommunication",
+      "immutable",
+      "provide",
+      "modern",
+      "computer",
+      "bridges",
+      "problem",
+      "ease",
+      "compilation",
+      "hardware",
+      "allow",
+      "logic",
+      "predicate",
+      "scripting",
+      "originally",
+      "last",
+      "theory",
+      "piece",
+      "generic",
+      "inference",
+      "expression",
+      "linguistics",
+      "users",
+      "records",
+      "visual",
+      "developed",
+      "implemented",
+      "automatic",
+      "detection",
+      "auxiliary",
+      "verbs",
+      "only",
+      "shown",
+      "lexical",
+      "criteria",
+      "limited",
+      "table",
+      "reference",
+      "offers",
+      "list",
+      "include",
+      "meet",
+      "linguists",
+      "senses",
+      "best",
+      "traditionally"
     ],
     "names": [],
-    "lessons": 5,
-    "topic_cursor": 16,
+    "lessons": 6,
+    "topic_cursor": 17,
     "taught": 0,
-    "last_lesson": "2026-10-23 21:29:38",
+    "last_lesson": "2026-10-23 21:34:32",
     "pending_concepts": [
-      "complex adaptive systems",
-      "distributed computing architectures",
-      "multi-layer perceptrons",
-      "artificial intelligence",
-      "non-linear dynamics",
       "information entropy",
       "export entropy",
       "backpropagation",
@@ -20835,7 +23404,20 @@
       "dynamic memory consolidation",
       "distributed environments",
       "neuro-symbolic reasoning",
-      "autonomous recursive self-improvement"
+      "autonomous recursive self-improvement",
+      "direct instruction-set architecture manipulation",
+      "strict class-based object orientation",
+      "comprehensive statistical modeling libraries",
+      "relational database management systems",
+      "general-purpose turing-complete languages",
+      "database query languages",
+      "sql standardizes declarative",
+      "formal predicate calculus",
+      "automated resolution theorem",
+      "synthesize digital electronic circuits",
+      "nosql ecosystems utilize domain-specific",
+      "net ecosystem supporting multi-paradigm",
+      "powerful hindley-milner type inference"
     ],
     "recent_concepts": [
       "thermodynamic efficiency constrain",
@@ -20855,7 +23437,13 @@
       "autonomous recursive self-improvement",
       "localized synaptic plasticity",
       "non-linear thermodynamics dictate",
-      "dopamine-driven reinforcement learning"
+      "dopamine-driven reinforcement learning",
+      "net ecosystem supporting multi-paradigm",
+      "powerful hindley-milner type inference",
+      "nosql ecosystems utilize domain-specific",
+      "direct instruction-set architecture manipulation",
+      "strict class-based object orientation",
+      "comprehensive statistical modeling libraries"
     ],
     "recent_daydream_pairs": [
       [
