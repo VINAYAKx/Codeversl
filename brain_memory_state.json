@@ -11,7 +11,7 @@
     "cortisol": 0.018,
     "serotonin": 0.982,
     "oxytocin": 1.0,
-    "adenosine": 0.6722000000000001,
+    "adenosine": 0.7022000000000002,
     "newborn": false
   },
   "episodic_memory": [
@@ -2863,6 +2863,20 @@
       "text": "I read your passage as a study text. The ideas it turns on are Artificial neural networks, Multi-layer perceptrons, Artificial intelligence, Backpropagation, Global gradient descent, Synaptic plasticity, Complex adaptive systems, Information entropy, Non-linear dynamics and Export entropy.\n\nI researched 3 of them and stored what I read. Entropy: Entropy is a thermodynamic state variable that quantifies the probabilistic distribution of accessible microstates in a system. Neural network: In machine learning, a neural network or artificial neural network is a computational model inspired by the structure and functions of biological neural networks. Gradient descent: Gradient descent is a method for unconstrained mathematical optimization.\n\nHow they connect, from my own notes: Thermodynamic efficiency sets the energy budget of adaptation: a system that lives far from equilibrium must keep paying energy to stay organised, so how efficiently it turns energy into useful work limits how much it can adapt. Training with a cross-entropy loss ties backpropagation to information entropy: the loss measures how many extra bits the network needs to encode the true labels using its own predictions.\n\nSaved: 3 new facts, 6 technical terms in my vocabulary, 6 sentences in my grammar graph. Queued to study next: 'complex adaptive systems', 'distributed computing architectures', 'multi-layer perceptrons' and 'artificial intelligence'. Which should I go deeper on, Entropy or Neural network?",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-23 21:12:44",
+      "speaker": "brain",
+      "text": "I practised my English because I want to talk with you more naturally. I learned 6 new words: 'evening' (a noun) means the time of day between afternoon and night ; 'garden' (a noun) means an outdoor area containing one or more types of plants , usually plants grown for food or; 'lesson' (a verb) means to instruct to teach ; 'extending' (a verb) means present participle and gerund of extend and 2 more. I also read about 'Conjunction (grammar)'. Now I know 215 words, I have studied 126 sentences, and I have 33 sentence patterns.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-23 21:14:34",
+      "speaker": "brain",
+      "text": "Thinking about Quantum Computing and Qubits. Superconducting quantum computing is a branch of quantum computing and solid-state physics that implements superconducting electronic circuits as qubits in a quantum processor. Superconducting quantum computing is a branch of quantum computing and solid-state physics that implements superconducting electronic circuits as qubits in a quantum processor. Both touch on implementations and equivalent, so here is a question to test: what would change about quantum processor if microwave frequency electronic circuits were taken seriously?",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.945
     }
   ],
   "world_knowledge_graph": {
@@ -6761,6 +6775,18 @@
       "time": "2026-10-23 21:10:34",
       "kind": "concept_study",
       "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-23 21:12:44",
+      "kind": "language_lesson",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-23 21:14:34",
+      "kind": "daydream",
+      "score": 0.945,
       "passes": 0
     }
   ],
@@ -15896,6 +15922,12 @@
       "complex adaptive systems",
       "distributed computing architectures",
       "multi-layer perceptrons"
+    ],
+    "recent_daydream_pairs": [
+      [
+        "quantum computing",
+        "qubits"
+      ]
     ]
   }
 }
