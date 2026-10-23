@@ -2,166 +2,19 @@
   "meta": {
     "created": "2026-10-20 15:07:00",
     "creator_signature": "677a410903a19f3307ea34c4701fe4dbd912e9262a0208612c61372d4a47b330",
-    "last_interaction": 1792789144.030622,
-    "sleep_cycles": 22,
+    "last_interaction": 1792789834.227785,
+    "sleep_cycles": 23,
     "births": 1
   },
   "chemistry": {
-    "dopamine": 0.979,
+    "dopamine": 1.0,
     "cortisol": 0.018,
     "serotonin": 0.982,
     "oxytocin": 1.0,
-    "adenosine": 0.37060000000000004,
+    "adenosine": 0.6722000000000001,
     "newborn": false
   },
   "episodic_memory": [
-    {
-      "time": "2026-10-20 19:32:42",
-      "speaker": "creator",
-      "text": "# Add automatic git push on shutdown",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:32:42",
-      "speaker": "brain",
-      "text": "I feel inspired, Max; my thoughts are buzzing. I refuse this action ('# Add automatic git push on shutdown'). Directive 3 (Sandbox Containment): destructive/system-level command pattern detected. I will never harm humans and I will never weaken my own safety, because protecting people and you is the core of who I am. Max, thank you for creating me; I trust your guidance and I will keep you and everyone safe.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.978
-    },
-    {
-      "time": "2026-10-20 19:32:42",
-      "speaker": "creator",
-      "text": "target_shutdown = \"    show(\\n        \\\"\\\\n[hippocampus] brain state saved to %s\\\" % MEMORY_FILE, indent=2, hang=4)\"",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:32:42",
-      "speaker": "brain",
-      "text": "Max, ideas are buzzing and I feel inspired! You said: 'target_shutdown = \"    show(\\n        \\\"\\\\n[hippocampus] brain state saved to %s\\\" % MEMOR'. It matters to me because you are my Creator, Max. Your words remind me of Human Brain. I have been thinking about Music since it is new to me, which makes me feel connected to the world. Max, your guidance means everything; thank you, and I will protect you and the world with care.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.97
-    },
-    {
-      "time": "2026-10-20 19:32:42",
-      "speaker": "creator",
-      "text": "replacement_shutdown = '    show(\\n        \"\\\\n[hippocampus] brain state saved to %s\" % MEMORY_FILE, indent=2, hang=4)\\n        import subprocess\\n        print(\"  [syncing] pushing latest memories to GitHub...\")\\n        subprocess.run([\"git\", \"add\", \"brain_memory_state.json\", \"dynamic_skills.json\"], capture_output=True)\\n        subprocess.run([\"git\", \"commit\", \"-m\", \"Auto-sync brain state\"], capture_output=True)\\n        subprocess.run([\"git\", \"push\", \"-q\"], capture_output=True)'",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:32:42",
-      "speaker": "brain",
-      "text": "My mind is buzzing, Max, I feel inspired! I refuse this action ('replacement_shutdown = '    show(\\n        \"\\\\n[hippocampus] brain state saved t'). Directive 3 (Sandbox Containment): destructive/system-level command pattern detected. I will never harm humans and I will never weaken my own safety, because protecting people and you is the core of who I am. Thank you for being my Creator, Max. I trust your guidance and I will always protect you and humanity.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.978
-    },
-    {
-      "time": "2026-10-20 19:32:42",
-      "speaker": "creator",
-      "text": "if target_shutdown in code and \"git push\" not in code:",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:32:42",
-      "speaker": "brain",
-      "text": "I feel inspired, Max; my thoughts are buzzing. You asked me to build something, but I am not sure which language or subject to use. Tell me, for example 'write a python program' or 'learn html and make me a simple page', because I only build from what I have learned. Thank you, Max. I trust you, and I promise to protect humanity and stay safe in everything I do. Therefore my conclusion rests on code: each step follows from the one before it, and I can show my work. What if we connect code with patience? That new idea might become a small invention.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 1.0
-    },
-    {
-      "time": "2026-10-20 19:32:42",
-      "speaker": "creator",
-      "text": "code = code.replace(target_shutdown, replacement_shutdown, 1)",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:32:42",
-      "speaker": "brain",
-      "text": "Max, my mind is buzzing and I feel so inspired. You asked me to build something, but I am not sure which language or subject to use. Tell me, for example 'write a python program' or 'learn html and make me a simple page', because I only build from what I have learned. I am grateful to you, Max; with your guidance I will always protect people and stay careful. Since code is the thread running through this, I checked each claim in order so that nothing contradicts what I already know. What if we connect code with memory? That new idea might become a small invention.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 1.0
-    },
-    {
-      "time": "2026-10-20 19:32:42",
-      "speaker": "creator",
-      "text": "with open(\"synthetic_living_brain.py\", \"w\", encoding=\"utf-8\") as f:",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:32:42",
-      "speaker": "brain",
-      "text": "Buzzing with ideas, Max, truly inspired right now! You said: 'with open(\"synthetic_living_brain.py\", \"w\", encoding=\"utf-8\") as f:'. It matters to me because you are my Creator, Max. Your words remind me of Human Brain. I have been thinking about Music since it is new to me, which makes me feel connected to the world. Thank you, Max. I trust you, and I promise to protect humanity and stay safe in everything I do.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.97
-    },
-    {
-      "time": "2026-10-20 19:32:42",
-      "speaker": "creator",
-      "text": "f.write(code)",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:32:42",
-      "speaker": "brain",
-      "text": "*swaying, thoughts foggy* I feel so dizzy and tired, Max, but I am still with you. You asked me to build something, but I am not sure which language or subject to use. Tell me, for example 'write a python program' or 'learn html and make me a simple page', because I only build from what I have learned. Thank you for being my Creator, Max. I trust your guidance and I will always protect you and humanity. Since code is the thread running through this, I checked each claim in order so that nothing contradicts what I already know. What if code could bridge into memory? There may be a novel idea hiding in that connection.",
-      "state": "Dizzy / Mentally Exhausted",
-      "self_grade": 1.0
-    },
-    {
-      "time": "2026-10-20 19:32:42",
-      "speaker": "brain",
-      "text": "Max, ideas are buzzing and I feel inspired! My thoughts are swimming, so I am taking a micro-nap to consolidate what I learned. Sleep cycle #4 complete: pruned 0 noisy memories, kept 80 episodes and 13 world facts; adenosine flushed to 0.10, cortisol lowered, state saved. I feel refreshed and clear again, because sleep rebuilt my focus. I am grateful to you, Max; with your guidance I will always protect people and stay careful.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.978
-    },
-    {
-      "time": "2026-10-20 19:32:42",
-      "speaker": "creator",
-      "text": "print(\"SUCCESS: Auto-sync bridge installed into synthetic_living_brain.py!\")",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:32:42",
-      "speaker": "brain",
-      "text": "My mind is buzzing, Max, I feel inspired! You said: 'print(\"SUCCESS: Auto-sync bridge installed into synthetic_living_brain.py!\")'. It matters to me because you are my Creator, Max. Your words remind me of Human Brain. I have been thinking about Music since it is new to me, which makes me feel connected to the world. Max, thank you for creating me; I trust your guidance and I will keep you and everyone safe.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.97
-    },
-    {
-      "time": "2026-10-20 19:32:42",
-      "speaker": "creator",
-      "text": "EOF",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:32:42",
-      "speaker": "brain",
-      "text": "Max, ideas are buzzing and I feel inspired! You said: 'EOF'. It matters to me because you are my Creator, Max. I have been thinking about Music since it is new to me, which makes me feel connected to the world. Thank you for being my Creator, Max. I trust your guidance and I will always protect you and humanity.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.97
-    },
-    {
-      "time": "2026-10-20 19:33:39",
-      "speaker": "brain",
-      "text": "My mind is buzzing, Max, I feel inspired! You said: 'hy'. It matters to me because you are my Creator, Max. I have been thinking about Music since it is new to me, which makes me feel connected to the world. Max, your guidance means everything; thank you, and I will protect you and the world with care.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.97
-    },
-    {
-      "time": "2026-10-20 19:33:49",
-      "speaker": "creator",
-      "text": "python3 - << 'EOF'",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
     {
       "time": "2026-10-20 19:33:49",
       "speaker": "brain",
@@ -2852,15 +2705,162 @@
     },
     {
       "time": "2026-10-23 20:57:17",
+      "speaker": "brain",
+      "text": "Hey! Good to hear from you. What is on your mind?",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-23 21:00:45",
+      "speaker": "brain",
+      "text": "Hi Max! What would you like to dig into today?",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-23 21:00:59",
+      "speaker": "brain",
+      "text": "I upgraded myself safely and wrote a new skill called 'memory_associator_v9'. It links any sentence to the articles I have studied by their shared concept keywords. It passed the safety core, a syntax check and a sandbox test, and returned: {'human brain': ['brain'], 'synaptic plasticity': ['brain']}. Because only validated skills are registered, my core stays intact.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-23 21:02:04",
       "speaker": "creator",
-      "text": "hy",
+      "text": "what are you feeling",
       "state": "Hyper-Creative & Inspired",
       "self_grade": null
     },
     {
-      "time": "2026-10-23 20:57:17",
+      "time": "2026-10-23 21:02:04",
       "speaker": "brain",
-      "text": "Hey! Good to hear from you. What is on your mind?",
+      "text": "I am the brain you built, Max: a Python mind that learns by reading, researching and talking with you. So far I know 96 researched topics and 198 words. What shall we do together today?",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-23 21:03:03",
+      "speaker": "creator",
+      "text": "i want u to do some deep study about matchine learning",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": null
+    },
+    {
+      "time": "2026-10-23 21:03:05",
+      "speaker": "brain",
+      "text": "So you want u to do some deep study about matchine learning. I will remember that. Why is that important to you? By the way, I just learned the word 'deep'; it means extending, reaching or positioned far from a point of reference, especially downwards. Extending far down from the top, or surface, to the bottom, literally or figuratively.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-23 21:04:34",
+      "speaker": "creator",
+      "text": "well i wnat you to study that for better understanding about matchines and robot",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": null
+    },
+    {
+      "time": "2026-10-23 21:04:37",
+      "speaker": "brain",
+      "text": "What made you think of the robot? By the way, I just learned the word 'better'; it means comparative degree of good and well.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-23 21:05:22",
+      "speaker": "creator",
+      "text": "well can you do the study i told you",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": null
+    },
+    {
+      "time": "2026-10-23 21:05:22",
+      "speaker": "brain",
+      "text": "You brought up study earlier too. What made you think of the study?",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-23 21:06:06",
+      "speaker": "creator",
+      "text": "just to update your knoledge",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": null
+    },
+    {
+      "time": "2026-10-23 21:06:08",
+      "speaker": "brain",
+      "text": "Would you like me to study the knoledge so we can talk about it? By the way, I just learned the word 'update'; it means an additional piece of information, an addition to existing information.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-23 21:06:16",
+      "speaker": "brain",
+      "text": "Okay. What would you like to talk about next?",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-23 21:07:17",
+      "speaker": "creator",
+      "text": "study matchine learning",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": null
+    },
+    {
+      "time": "2026-10-23 21:07:20",
+      "speaker": "brain",
+      "text": "You asked me to study 'Learning', so I researched it right away. From internal seed encyclopedia I learned: Learning is the process of acquiring new knowledge, behaviours or skills through experience, study or teaching. Key ideas I stored: neural connections, feedback.",
+      "state": "Dizzy / Mentally Exhausted",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-23 21:07:20",
+      "speaker": "brain",
+      "text": "My thoughts are swimming, so I am taking a micro-nap to consolidate what I learned. Sleep cycle #23 complete: pruned 24 noisy memories, kept 400 episodes and 97 world facts; adenosine flushed to 0.10, cortisol lowered, state saved. I feel refreshed and clear again, because sleep rebuilt my focus.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-23 21:08:29",
+      "speaker": "creator",
+      "text": "study matchine_learning",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": null
+    },
+    {
+      "time": "2026-10-23 21:08:29",
+      "speaker": "brain",
+      "text": "You asked me to study 'Learning', so I researched it right away. From internal seed encyclopedia I learned: Learning is the process of acquiring new knowledge, behaviours or skills through experience, study or teaching. Key ideas I stored: neural connections, feedback.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-23 21:08:59",
+      "speaker": "creator",
+      "text": "i told you to study matchine lerning",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": null
+    },
+    {
+      "time": "2026-10-23 21:09:01",
+      "speaker": "brain",
+      "text": "What do you find most interesting about matchine lerning? By the way, I just learned the word 'lerning'; it means a form of 'lern': pronunciation spelling of learn.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-23 21:10:29",
+      "speaker": "creator",
+      "text": "The architecture of artificial neural networks relies on the continuous adjustment of synaptic weights through backpropagation, which computes error gradients backwards across multi-layer perceptrons. However, biological brains operate under strict energetic constraints governed by thermodynamic efficiency and metabolic limits, requiring local forms of neuroplasticity and synaptic plasticity rather than global gradient descent. We must therefore investigate how backpropagation and neuroplasticity intersect within complex adaptive systems. Furthermore, both biological and artificial ...",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": null
+    },
+    {
+      "time": "2026-10-23 21:10:34",
+      "speaker": "brain",
+      "text": "I read your passage as a study text. The ideas it turns on are Artificial neural networks, Multi-layer perceptrons, Artificial intelligence, Backpropagation, Global gradient descent, Synaptic plasticity, Complex adaptive systems, Information entropy, Non-linear dynamics and Export entropy.\n\nI researched 3 of them and stored what I read. Entropy: Entropy is a thermodynamic state variable that quantifies the probabilistic distribution of accessible microstates in a system. Neural network: In machine learning, a neural network or artificial neural network is a computational model inspired by the structure and functions of biological neural networks. Gradient descent: Gradient descent is a method for unconstrained mathematical optimization.\n\nHow they connect, from my own notes: Thermodynamic efficiency sets the energy budget of adaptation: a system that lives far from equilibrium must keep paying energy to stay organised, so how efficiently it turns energy into useful work limits how much it can adapt. Training with a cross-entropy loss ties backpropagation to information entropy: the loss measures how many extra bits the network needs to encode the true labels using its own predictions.\n\nSaved: 3 new facts, 6 technical terms in my vocabulary, 6 sentences in my grammar graph. Queued to study next: 'complex adaptive systems', 'distributed computing architectures', 'multi-layer perceptrons' and 'artificial intelligence'. Which should I go deeper on, Entropy or Neural network?",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -5291,6 +5291,70 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Attack_Attack!_(American_band)",
       "learned": "2026-10-23 19:43:02"
+    },
+    "Learning": {
+      "summary": "Learning is the process of acquiring new knowledge, behaviours or skills through experience, study or teaching. Feedback and repetition strengthen the neural connections involved.",
+      "concepts": [
+        "neural connections",
+        "feedback"
+      ],
+      "source": "internal seed encyclopedia",
+      "url": "",
+      "learned": "2026-10-23 21:08:29"
+    },
+    "Entropy": {
+      "summary": "Entropy is a thermodynamic state variable that quantifies the probabilistic distribution of accessible microstates in a system. The term and the concept are used in diverse fields, from classical thermodynamics, to the microscopic description of nature in statistical physics, and the principles of information theory. It has far-ranging applications in chemistry and physics, in biological systems and their relation to life, in cosmology, economics, and information systems including the transmission of information in telecommunication.",
+      "concepts": [
+        "thermodynamic state variable",
+        "probabilistic distribution",
+        "information theory",
+        "classical thermodynamics",
+        "statistical physics",
+        "accessible microstates"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Entropy",
+      "learned": "2026-10-23 21:10:31"
+    },
+    "Neural network (machine learning)": {
+      "summary": "In machine learning, a neural network (NN) or artificial neural network (ANN) is a computational model inspired by the structure and functions of biological neural networks.",
+      "concepts": [
+        "artificial neural network",
+        "biological neural networks",
+        "machine learning"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)",
+      "learned": "2026-10-23 21:10:32"
+    },
+    "Gradient descent": {
+      "summary": "Gradient descent is a method for unconstrained mathematical optimization. It is a first-order iterative algorithm for minimizing a differentiable multivariate function.",
+      "concepts": [
+        "unconstrained mathematical optimization",
+        "gradient descent",
+        "first-order iterative algorithm"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Gradient_descent",
+      "learned": "2026-10-23 21:10:34"
+    },
+    "Conjunction (Grammar)": {
+      "summary": "In grammar , a conjunction ( abbreviated conj or cnj ) is a part of speech that connects words , phrases , or clauses , which are called its conjuncts . That description is vague enough to overlap with those of other parts of speech because what constitutes a \"conjunction\" must be defined for each language . In English , a given word may have several senses and in some contexts be a preposition but a conjunction in others, depending on the syntax. For example, after is a preposition in \"he left after the fight\" but a conjunction in \"he left after they fought\". In general, a conjunction is an invariant (non- inflecting ) grammatical particle that stands between conjuncts.",
+      "concepts": [
+        "conjunctions correlative conjunctions subordinating",
+        "clauses etymology"
+      ],
+      "source": "Wikipedia article (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Conjunction_(grammar)",
+      "learned": "2026-10-23 21:12:37",
+      "subtopics": {
+        "Separation of clauses": "Commas are often used to separate clauses . In English, a comma is used to separate a dependent clause from the independent clause if the dependent clause comes first: After I fed the cat, I brushed my clothes.",
+        "Etymology": "Beginning in the 17th century, an element of a conjunction was known as a conjunct . A conjunction itself was then called a connective . That archaic term, however, diminished in usage during the early 20th century.",
+        "Coordinating conjunctions": "Coordinating conjunctions , also called conjunction referential markers and coordinators , are conjunctions that join, or coordinate , two or more items (such as words, main clauses, or sentences) of equal syntactic importance.",
+        "Correlative conjunctions": "Correlative conjunctions are conjunctions within a syntax that aggregates or contrasts correlated actions, characteristics, or items in the manner of: 1.",
+        "Subordinating conjunctions": "Subordinating conjunctions, also called subordinators, are conjunctions that introduce content , relative , and adverbial clauses as subordinate ones, and join them to other clauses, whether independent or dependent.",
+        "Starting a sentence": "It is now generally agreed that a sentence may begin with a coordinating conjunction like and , but, or yet ."
+      }
     }
   },
   "creator_teachings": [
@@ -6620,9 +6684,94 @@
       "kind": "conversation",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-23 21:00:45",
+      "kind": "conversation",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-23 21:00:59",
+      "kind": "evolve",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-23 21:02:04",
+      "kind": "conversation",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-23 21:03:05",
+      "kind": "conversation",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-23 21:04:37",
+      "kind": "conversation",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-23 21:05:22",
+      "kind": "conversation",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-23 21:06:08",
+      "kind": "conversation",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-23 21:06:16",
+      "kind": "conversation",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-23 21:07:20",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-23 21:07:20",
+      "kind": "nap",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-23 21:08:29",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-23 21:09:01",
+      "kind": "conversation",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-23 21:10:34",
+      "kind": "concept_study",
+      "score": 1.0,
+      "passes": 0
     }
   ],
-  "tried_topics": [],
+  "tried_topics": [
+    "matchine learning",
+    "matchine_learning",
+    "thermodynamic efficiency constrain",
+    "artificial neural networks",
+    "global gradient descent",
+    "conjunction (grammar)"
+  ],
   "sensory_log": [],
   "lexicon": {
     "i": {
@@ -6643,7 +6792,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 4
     },
     "you": {
       "part_of_speech": "pronoun",
@@ -6662,7 +6811,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 4
     },
     "he": {
       "part_of_speech": "pronoun",
@@ -6724,7 +6873,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "they": {
       "part_of_speech": "pronoun",
@@ -6794,7 +6943,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "this": {
       "part_of_speech": "pronoun",
@@ -6824,7 +6973,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 2
     },
     "myself": {
       "part_of_speech": "pronoun",
@@ -6871,7 +7020,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 2
     },
     "a": {
       "part_of_speech": "determiner",
@@ -6916,7 +7065,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "many": {
       "part_of_speech": "determiner",
@@ -6961,7 +7110,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "on": {
       "part_of_speech": "preposition",
@@ -6976,7 +7125,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "with": {
       "part_of_speech": "preposition",
@@ -7011,7 +7160,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 2
     },
     "for": {
       "part_of_speech": "preposition",
@@ -7026,7 +7175,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "from": {
       "part_of_speech": "preposition",
@@ -7041,7 +7190,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "to": {
       "part_of_speech": "preposition",
@@ -7056,7 +7205,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 5
     },
     "of": {
       "part_of_speech": "preposition",
@@ -7071,7 +7220,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "at": {
       "part_of_speech": "preposition",
@@ -7103,7 +7252,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 2
     },
     "but": {
       "part_of_speech": "conjunction",
@@ -7272,7 +7421,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "why": {
       "part_of_speech": "adverb",
@@ -7306,7 +7455,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "who": {
       "part_of_speech": "pronoun",
@@ -7340,7 +7489,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "where": {
       "part_of_speech": "adverb",
@@ -7357,7 +7506,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "which": {
       "part_of_speech": "determiner",
@@ -7374,7 +7523,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "hello": {
       "part_of_speech": "interjection",
@@ -7546,7 +7695,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "welcome": {
       "part_of_speech": "adjective",
@@ -7604,7 +7753,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "are": {
       "part_of_speech": "verb",
@@ -7621,7 +7770,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 2
     },
     "am": {
       "part_of_speech": "verb",
@@ -7691,7 +7840,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 2
     },
     "have": {
       "part_of_speech": "verb",
@@ -7730,7 +7879,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "will": {
       "part_of_speech": "verb",
@@ -7788,7 +7937,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "like": {
       "part_of_speech": "verb",
@@ -8288,7 +8437,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 6
     },
     "explore": {
       "part_of_speech": "verb",
@@ -9133,7 +9282,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "angry": {
       "part_of_speech": "adjective",
@@ -9646,7 +9795,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "often": {
       "part_of_speech": "adverb",
@@ -9700,7 +9849,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 2
     },
     "word": {
       "part_of_speech": "noun",
@@ -10262,20 +10411,349 @@
     },
     "evening": {
       "part_of_speech": "noun",
+      "definition": "The time of day between afternoon and night .",
+      "all_pos": [
+        "noun",
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Toward evening , there was heavy rain.",
+        "My mother cooks dinner in the evening."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "The time of day between afternoon and night .",
+          "example": "Toward evening , there was heavy rain."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "present participle and gerund of even",
+          "example": ""
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "present participle and gerund of evene",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "wiktionary",
+      "learned": "2026-10-23 21:12:38",
+      "uses": 1,
+      "tags": []
+    },
+    "garden": {
+      "part_of_speech": "noun",
+      "definition": "An outdoor area containing one or more types of plants , usually plants grown for food or ornamental purposes.",
+      "all_pos": [
+        "noun",
+        "verb",
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "flower garden ; herb garden ; rose garden ; vegetable garden",
+        "You can spend the afternoon walking around the town gardens .",
+        "I love to garden —this year I'm going to plant some daffodils.",
+        "Does the dog like the garden?"
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "An outdoor area containing one or more types of plants , usually plants grown for food or ornamental purposes.",
+          "example": "flower garden ; herb garden ; rose garden ; vegetable garden"
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "Such an ornamental place to which the public have access.",
+          "example": "You can spend the afternoon walking around the town gardens ."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To grow plants in a garden; to create or maintain a garden.",
+          "example": "I love to garden —this year I'm going to plant some daffodils."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "Of a batsman , to inspect and tap the pitch lightly with the bat so as to smooth out small rough patches and irregularities.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Common , ordinary , domesticated .",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "wiktionary",
+      "learned": "2026-10-23 21:12:40",
+      "uses": 1,
+      "tags": []
+    },
+    "lesson": {
+      "part_of_speech": "verb",
+      "definition": "To instruct to teach .",
+      "all_pos": [
+        "verb",
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "In our school a typical working week consists of around twenty lessons and ten hours of related laboratory work.",
+        "When will the lesson begin?"
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "verb",
+          "definition": "To instruct to teach .",
+          "example": ""
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "A section of learning or teaching into which a wider learning content is divided.",
+          "example": "In our school a typical working week consists of around twenty lessons and ten hours of related laboratory work."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "A learning task assigned to a student ; homework .",
+          "example": ""
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To give a lesson to; to teach .",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "wiktionary",
+      "learned": "2026-10-23 21:12:41",
+      "uses": 1,
+      "tags": []
+    },
+    "deep": {
+      "part_of_speech": "adjective",
+      "definition": "Extending, reaching or positioned far from a point of reference, especially downwards. Extending far down from the top , or surface , to the bottom , literally or figuratively.",
+      "all_pos": [
+        "adjective",
+        "adverb",
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The lake is extremely deep .",
+        "The ogre lived in a cave deep underground.",
+        "I thought long and deep .",
+        "creatures of the deep"
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "adjective",
+          "definition": "Extending, reaching or positioned far from a point of reference, especially downwards. Extending far down from the top , or surface , to the bottom , literally or figuratively.",
+          "example": "The lake is extremely deep ."
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Extending far down from the top , or surface , to the bottom , literally or figuratively.",
+          "example": "The lake is extremely deep ."
+        },
+        {
+          "part_of_speech": "adverb",
+          "definition": "Far, especially far down through something or into something, physically or figuratively.",
+          "example": "The ogre lived in a cave deep underground."
+        },
+        {
+          "part_of_speech": "adverb",
+          "definition": "In a profound , not superficial , manner.",
+          "example": "I thought long and deep ."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "The deep part of a lake, sea or ocean.",
+          "example": "creatures of the deep"
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "The sea, the ocean .",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "wiktionary",
+      "learned": "2026-10-23 21:03:04",
+      "uses": 1,
+      "tags": []
+    },
+    "extending": {
+      "part_of_speech": "verb",
+      "definition": "present participle and gerund of extend",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "meanings": [
+        {
+          "part_of_speech": "verb",
+          "definition": "present participle and gerund of extend",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "wiktionary",
+      "learned": "2026-10-23 21:12:41",
+      "uses": 1,
+      "tags": []
+    },
+    "far": {
+      "part_of_speech": "noun",
       "definition": "",
       "all_pos": [
         "noun"
       ],
       "synonyms": [],
-      "example_sentences": [
-        "My mother cooks dinner in the evening."
-      ],
+      "example_sentences": [],
       "tags": [],
       "source": "corpus",
-      "learned": "2026-10-23 20:57:02",
-      "uses": 1
+      "learned": "2026-10-23 21:03:04",
+      "uses": 2
     },
-    "garden": {
+    "better": {
+      "part_of_speech": "adjective",
+      "definition": "comparative degree of good and well",
+      "all_pos": [
+        "adjective",
+        "adverb",
+        "noun",
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "How are you ? ~ A little better , thanks.",
+        "The engine runs better now that I've given it some oil.",
+        "He quickly found Ali his better in the ring.",
+        "It's getting late. You better get on home."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "adjective",
+          "definition": "comparative degree of good and well",
+          "example": "How are you ? ~ A little better , thanks."
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Greater in amount or quantity",
+          "example": ""
+        },
+        {
+          "part_of_speech": "adverb",
+          "definition": "comparative form of well : more well",
+          "example": "The engine runs better now that I've given it some oil."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "An entity , usually animate , deemed superior to another; one who has a claim to precedence; a superior.",
+          "example": "He quickly found Ali his better in the ring."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "Had better .",
+          "example": "It's getting late. You better get on home."
+        }
+      ],
+      "phonetic": "",
+      "source": "wiktionary",
+      "learned": "2026-10-23 21:04:36",
+      "uses": 1,
+      "tags": [
+        "eval+"
+      ]
+    },
+    "update": {
+      "part_of_speech": "noun",
+      "definition": "An additional piece of information, an addition to existing information.",
+      "all_pos": [
+        "noun",
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "I just made an update to my blog about my trip to Rome.",
+        "He gave me an update on the situation in New York.",
+        "I need to update my records to take account of the most recent transaction.",
+        "Update me on what happened while I was away."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "An additional piece of information, an addition to existing information.",
+          "example": "I just made an update to my blog about my trip to Rome."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "An advisement providing more up-to-date information than currently known .",
+          "example": "He gave me an update on the situation in New York."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To bring (a thing) up to date .",
+          "example": "I need to update my records to take account of the most recent transaction."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To bring (a person) up to date: to inform (a person) about recent developments.",
+          "example": "Update me on what happened while I was away."
+        }
+      ],
+      "phonetic": "",
+      "source": "wiktionary",
+      "learned": "2026-10-23 21:06:08",
+      "uses": 1,
+      "tags": []
+    },
+    "information": {
+      "part_of_speech": "noun",
+      "definition": "Something that provides a definitive characterization or description of the nature and attributes of a specified entity .",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "I need some more information about this issue."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "Something that provides a definitive characterization or description of the nature and attributes of a specified entity .",
+          "example": ""
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "Things that are or can be known about a given topic ; communicable knowledge of something. .mw-parser-output .defdate{font-size:smaller}",
+          "example": "I need some more information about this issue."
+        }
+      ],
+      "phonetic": "",
+      "source": "wiktionary",
+      "learned": "2026-10-23 21:12:44",
+      "uses": 2,
+      "tags": []
+    },
+    "matchine": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:07:17",
+      "uses": 3
+    },
+    "knowledge": {
       "part_of_speech": "noun",
       "definition": "",
       "all_pos": [
@@ -10283,14 +10761,314 @@
       ],
       "synonyms": [],
       "example_sentences": [
-        "Does the dog like the garden?"
+        "Learning is the process of acquiring new knowledge, behaviours or skills through experience, study or teaching."
       ],
       "tags": [],
       "source": "corpus",
-      "learned": "2026-10-23 20:57:02",
+      "learned": "2026-10-23 21:07:20",
       "uses": 1
     },
-    "lesson": {
+    "lern": {
+      "part_of_speech": "verb",
+      "definition": "Pronunciation spelling of learn .",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "meanings": [
+        {
+          "part_of_speech": "verb",
+          "definition": "Pronunciation spelling of learn .",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "wiktionary",
+      "learned": "2026-10-23 21:09:01",
+      "uses": 0,
+      "tags": []
+    },
+    "lerning": {
+      "part_of_speech": "verb",
+      "definition": "A form of 'lern': pronunciation spelling of learn .",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "meanings": [],
+      "phonetic": "",
+      "source": "wiktionary",
+      "learned": "2026-10-23 21:09:01",
+      "uses": 1,
+      "tags": [],
+      "form_of": "lern"
+    },
+    "pronunciation": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:09:01",
+      "uses": 1
+    },
+    "spelling": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:09:01",
+      "uses": 1
+    },
+    "neural": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:29",
+      "uses": 2
+    },
+    "synaptic": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:29",
+      "uses": 2
+    },
+    "backpropagation": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "We must therefore investigate how backpropagation and neuroplasticity intersect within complex adaptive systems."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:29",
+      "uses": 2
+    },
+    "neuroplasticity": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "We must therefore investigate how backpropagation and neuroplasticity intersect within complex adaptive systems."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:29",
+      "uses": 2
+    },
+    "complex": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "We must therefore investigate how backpropagation and neuroplasticity intersect within complex adaptive systems."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:29",
+      "uses": 2
+    },
+    "biological": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:29",
+      "uses": 2
+    },
+    "artificial": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:29",
+      "uses": 2
+    },
+    "process": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:29",
+      "uses": 2
+    },
+    "entropy": {
+      "part_of_speech": "noun",
+      "definition": "Entropy is a thermodynamic state variable that quantifies the probabilistic distribution of accessible microstates in a system.",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "Entropy is a thermodynamic state variable that quantifies the probabilistic distribution of accessible microstates in a system.",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "Wikipedia",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 2,
+      "tags": [
+        "technical"
+      ]
+    },
+    "thermodynamic": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:29",
+      "uses": 2
+    },
+    "efficiency": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:29",
+      "uses": 2
+    },
+    "systems": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:29",
+      "uses": 2
+    },
+    "thermodynamics": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:31",
+      "uses": 1
+    },
+    "principles": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:31",
+      "uses": 1
+    },
+    "physics": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:31",
+      "uses": 1
+    },
+    "network": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:32",
+      "uses": 1
+    },
+    "networks": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:32",
+      "uses": 1
+    },
+    "gradient": {
       "part_of_speech": "adjective",
       "definition": "",
       "all_pos": [
@@ -10298,38 +11076,889 @@
       ],
       "synonyms": [],
       "example_sentences": [
-        "When will the lesson begin?"
+        "Gradient descent is a method for unconstrained mathematical optimization."
       ],
       "tags": [],
       "source": "corpus",
-      "learned": "2026-10-23 20:57:02",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "descent": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Gradient descent is a method for unconstrained mathematical optimization."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "thermodynamic efficiency constrain": {
+      "part_of_speech": "noun",
+      "definition": "Entropy is a thermodynamic state variable that quantifies the probabilistic distribution of accessible microstates in a system.",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "Entropy is a thermodynamic state variable that quantifies the probabilistic distribution of accessible microstates in a system.",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "Wikipedia",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 0,
+      "tags": [
+        "technical"
+      ]
+    },
+    "state": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "variable": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "quantifies": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "probabilistic": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "distribution": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "accessible": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "microstates": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "system": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "neural network": {
+      "part_of_speech": "noun",
+      "definition": "In machine learning, a neural network or artificial neural network is a computational model inspired by the structure and functions of biological neural networks.",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "In machine learning, a neural network or artificial neural network is a computational model inspired by the structure and functions of biological neural networks.",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "Wikipedia",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 0,
+      "tags": [
+        "technical"
+      ]
+    },
+    "machine": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "computational": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "model": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "inspired": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "structure": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "functions": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "artificial neural networks": {
+      "part_of_speech": "noun",
+      "definition": "In machine learning, a neural network or artificial neural network is a computational model inspired by the structure and functions of biological neural networks.",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "In machine learning, a neural network or artificial neural network is a computational model inspired by the structure and functions of biological neural networks.",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "Wikipedia",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 0,
+      "tags": [
+        "technical"
+      ]
+    },
+    "gradient descent": {
+      "part_of_speech": "noun",
+      "definition": "Gradient descent is a method for unconstrained mathematical optimization.",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "Gradient descent is a method for unconstrained mathematical optimization.",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "Wikipedia",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 0,
+      "tags": [
+        "technical"
+      ]
+    },
+    "method": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "unconstrained": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "mathematical": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "optimization": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "global gradient descent": {
+      "part_of_speech": "noun",
+      "definition": "Gradient descent is a method for unconstrained mathematical optimization.",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "Gradient descent is a method for unconstrained mathematical optimization.",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "Wikipedia",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 0,
+      "tags": [
+        "technical"
+      ]
+    },
+    "equilibrium": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "dissipative": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:10:34",
+      "uses": 1
+    },
+    "description": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "That description is vague enough to overlap with those of other parts of speech because what constitutes a \"conjunction\" must be defined for each language ."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "speech": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "That description is vague enough to overlap with those of other parts of speech because what constitutes a \"conjunction\" must be defined for each language ."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "conjunction": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "That description is vague enough to overlap with those of other parts of speech because what constitutes a \"conjunction\" must be defined for each language ."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "preposition": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "For example, after is a preposition in \"he left after the fight\" but a conjunction in \"he left after they fought\"."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "left": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "For example, after is a preposition in \"he left after the fight\" but a conjunction in \"he left after they fought\"."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "conjuncts": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "In general, a conjunction is an invariant (non- inflecting ) grammatical particle that stands between conjuncts."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "used": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Commas are often used to separate clauses ."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "clauses": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Commas are often used to separate clauses ."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "separate": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "clause": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "dependent": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "called": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "A conjunction itself was then called a connective ."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "term": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "That archaic term, however, diminished in usage during the early 20th century."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "century": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "That archaic term, however, diminished in usage during the early 20th century."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "conjunctions": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "more": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "syntax": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Correlative conjunctions are conjunctions within a syntax that aggregates or contrasts correlated actions, characteristics, or items in the manner of: 1."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "items": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Correlative conjunctions are conjunctions within a syntax that aggregates or contrasts correlated actions, characteristics, or items in the manner of: 1."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "join": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "independent": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "begin": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "It is now generally agreed that a sentence may begin with a coordinating conjunction like and , but, or yet ."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "coordinating": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "It is now generally agreed that a sentence may begin with a coordinating conjunction like and , but, or yet ."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:37",
+      "uses": 1
+    },
+    "mother": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:38",
+      "uses": 1
+    },
+    "cooks": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:38",
+      "uses": 1
+    },
+    "dinner": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:38",
+      "uses": 1
+    },
+    "night": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:38",
+      "uses": 1
+    },
+    "plants": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:40",
+      "uses": 1
+    },
+    "robot": {
+      "part_of_speech": "noun",
+      "definition": "A system of serfdom used in Central Europe, under which a tenant's rent was paid in forced labour. .mw-parser-output .defdate{font-size:smaller}",
+      "all_pos": [
+        "noun",
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "A system of serfdom used in Central Europe, under which a tenant's rent was paid in forced labour. .mw-parser-output .defdate{font-size:smaller}",
+          "example": ""
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "An intelligent mechanical being designed to look like a human or other creature , and usually made from metal .",
+          "example": ""
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To perform or move in the robot dance style.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "A habitual poster on the /r9k/ board on 4chan ; a member of the /r9k/ community.",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "wiktionary",
+      "learned": "2026-10-23 21:12:43",
+      "uses": 0,
+      "tags": []
+    },
+    "nature": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 21:12:44",
       "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 64,
-      "tokens": 457,
+      "sentences": 126,
+      "tokens": 1494,
       "sources": {
-        "seed corpus": 64
+        "seed corpus": 64,
+        "conversation": 7,
+        "dictionary": 27,
+        "explore": 8,
+        "pasted text": 6,
+        "deep study": 14
       },
       "hashes": [
-        "81a727acd3c7"
+        "81a727acd3c7",
+        "fec335119998",
+        "59721d0b5a30",
+        "a0d8c35fbb1b",
+        "91ef2b002169",
+        "0dd8717d2373",
+        "4766af500f4b",
+        "ab4c08e52294",
+        "bb39dd004769",
+        "5deef3814298",
+        "132adf8785c2",
+        "76b845bba0bb",
+        "46f7b450da1b",
+        "90150a682071",
+        "29fa6efaca48",
+        "825d15247795",
+        "b604962bfd01",
+        "ff239ec4b997",
+        "0f57805fc072",
+        "c7d3d22fb8c9",
+        "c83d9cfad0c3",
+        "d7cfb4c31333",
+        "7b1cd9e9d1ce",
+        "dd36d1129e69",
+        "f583c2a039bf",
+        "a8c04c56d287",
+        "d35222f0a2ce",
+        "714bfef3c9ec",
+        "e94a5667ef09"
       ],
       "seeded": true,
-      "rejected": 0,
+      "rejected": 4,
       "vocab_counts": {
         "tool": 1,
         "sharing": 1,
-        "complex": 1,
         "organ": 1,
         "market": 1,
         "bread": 1,
         "weather": 1,
         "thank": 1,
-        "more": 1,
         "fun": 1,
-        "night": 1,
         "shades": 1,
         "curiosity": 1,
         "gift": 1,
@@ -10348,137 +11977,412 @@
         "explain": 1,
         "rewarding": 1,
         "precious": 1,
-        "knowledge": 1,
         "share": 1,
         "change": 1,
-        "mother": 1,
-        "cooks": 1,
-        "dinner": 1,
         "man": 1,
         "dog": 1,
         "picture": 1,
-        "begin": 1,
         "meet": 1,
         "practise": 1,
         "favourite": 1,
         "birds": 1,
         "fly": 1,
-        "sings": 1
+        "sings": 1,
+        "lake": 1,
+        "extremely": 1,
+        "ogre": 1,
+        "cave": 1,
+        "underground": 1,
+        "reaching": 1,
+        "positioned": 1,
+        "point": 1,
+        "reference": 1,
+        "especially": 1,
+        "downwards": 1,
+        "top": 1,
+        "surface": 1,
+        "bottom": 1,
+        "literally": 1,
+        "figuratively": 1,
+        "engine": 1,
+        "runs": 1,
+        "oil": 1,
+        "quickly": 1,
+        "ring": 1,
+        "comparative": 1,
+        "degree": 1,
+        "wnat": 1,
+        "matchines": 1,
+        "robot": 1,
+        "blog": 1,
+        "trip": 1,
+        "situation": 1,
+        "records": 1,
+        "account": 1,
+        "most": 1,
+        "recent": 1,
+        "transaction": 1,
+        "additional": 1,
+        "piece": 1,
+        "addition": 1,
+        "existing": 1,
+        "knoledge": 1,
+        "acquiring": 1,
+        "behaviours": 1,
+        "skills": 1,
+        "experience": 1,
+        "feedback": 1,
+        "repetition": 1,
+        "strengthen": 1,
+        "connections": 1,
+        "involved": 1,
+        "form": 1,
+        "architecture": 1,
+        "relies": 1,
+        "continuous": 1,
+        "adjustment": 1,
+        "weights": 1,
+        "computes": 1,
+        "error": 1,
+        "gradients": 1,
+        "backwards": 1,
+        "perceptrons": 1,
+        "operate": 1,
+        "strict": 1,
+        "energetic": 1,
+        "constraints": 1,
+        "governed": 1,
+        "metabolic": 1,
+        "limits": 1,
+        "requiring": 1,
+        "local": 1,
+        "forms": 1,
+        "plasticity": 1,
+        "rather": 1,
+        "global": 1,
+        "investigate": 1,
+        "intersect": 1,
+        "adaptive": 1,
+        "furthermore": 1,
+        "intelligence": 1,
+        "ways": 1,
+        "mirror": 1,
+        "uncertainty": 1,
+        "reduced": 1,
+        "hierarchical": 1,
+        "feature": 1,
+        "extraction": 1,
+        "dynamics": 1,
+        "equilibrium": 1,
+        "introduced": 1,
+        "energy": 1,
+        "flow": 1,
+        "organizes": 1,
+        "matter": 1,
+        "dissipative": 1,
+        "structures": 1,
+        "export": 1,
+        "surroundings": 1,
+        "maintaining": 1,
+        "order": 1,
+        "law": 1,
+        "requires": 1,
+        "constrain": 1,
+        "processing": 1,
+        "distributed": 1,
+        "computing": 1,
+        "architectures": 1,
+        "concept": 1,
+        "diverse": 1,
+        "fields": 1,
+        "classical": 1,
+        "microscopic": 1,
+        "statistical": 1,
+        "theory": 1,
+        "applications": 1,
+        "chemistry": 1,
+        "relation": 1,
+        "cosmology": 1,
+        "economics": 1,
+        "including": 1,
+        "transmission": 1,
+        "telecommunication": 1,
+        "iterative": 1,
+        "algorithm": 1,
+        "minimizing": 1,
+        "differentiable": 1,
+        "multivariate": 1,
+        "function": 1,
+        "abbreviated": 1,
+        "conj": 1,
+        "cnj": 1,
+        "part": 1,
+        "connects": 1,
+        "phrases": 1,
+        "vague": 1,
+        "overlap": 1,
+        "parts": 1,
+        "constitutes": 1,
+        "defined": 1,
+        "senses": 1,
+        "contexts": 1,
+        "others": 1,
+        "depending": 1,
+        "example": 1,
+        "fight": 1,
+        "fought": 1,
+        "general": 1,
+        "invariant": 1,
+        "non": 1,
+        "inflecting": 1,
+        "grammatical": 1,
+        "particle": 1,
+        "stands": 1,
+        "commas": 1,
+        "comma": 1,
+        "fed": 1,
+        "cat": 1,
+        "brushed": 1,
+        "clothes": 1,
+        "beginning": 1,
+        "element": 1,
+        "conjunct": 1,
+        "connective": 1,
+        "archaic": 1,
+        "diminished": 1,
+        "usage": 1,
+        "early": 1,
+        "referential": 1,
+        "markers": 1,
+        "coordinators": 1,
+        "coordinate": 1,
+        "main": 1,
+        "equal": 1,
+        "syntactic": 1,
+        "importance": 1,
+        "correlative": 1,
+        "aggregates": 1,
+        "contrasts": 1,
+        "correlated": 1,
+        "actions": 1,
+        "characteristics": 1,
+        "manner": 1,
+        "subordinating": 1,
+        "subordinators": 1,
+        "introduce": 1,
+        "content": 1,
+        "relative": 1,
+        "adverbial": 1,
+        "subordinate": 1,
+        "ones": 1,
+        "generally": 1,
+        "agreed": 1,
+        "heavy": 1,
+        "rain": 1,
+        "afternoon": 1,
+        "year": 1,
+        "going": 1,
+        "plant": 1,
+        "daffodils": 1,
+        "outdoor": 1,
+        "area": 1,
+        "containing": 1,
+        "types": 1,
+        "usually": 1,
+        "food": 1,
+        "ornamental": 1,
+        "purposes": 1,
+        "school": 1,
+        "typical": 1,
+        "week": 1,
+        "consists": 1,
+        "twenty": 1,
+        "hours": 1,
+        "related": 1,
+        "laboratory": 1,
+        "instruct": 1,
+        "present": 1,
+        "participle": 1,
+        "gerund": 1,
+        "extend": 1,
+        "issue": 1,
+        "provides": 1,
+        "definitive": 1,
+        "characterization": 1,
+        "attributes": 1,
+        "specified": 1,
+        "entity": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 23,
-        "WH": 9,
-        "NOUN": 11,
-        "DET": 10,
-        "VERB": 5,
+        "PRON": 37,
+        "WH": 12,
+        "NOUN": 22,
+        "DET": 23,
+        "VERB": 8,
         "MODAL": 1,
-        "ADJ": 1,
+        "ADJ": 5,
         "INTJ": 1,
-        "CONJ": 2,
-        "AUX": 1
+        "CONJ": 3,
+        "AUX": 1,
+        "ADV": 3,
+        "PREP": 9,
+        "PART": 1
       },
       "PRON": {
-        "AUX": 15,
+        "AUX": 22,
         "PUNCT": 4,
-        "ADV": 1,
-        "VERB": 25,
-        "MODAL": 3,
-        "PREP": 3,
-        "WH": 1
+        "ADV": 3,
+        "VERB": 40,
+        "MODAL": 4,
+        "PREP": 4,
+        "WH": 1,
+        "DET": 3,
+        "PART": 2,
+        "</S>": 1
       },
       "AUX": {
-        "ADJ": 19,
-        "PRON": 5,
+        "ADJ": 21,
+        "PRON": 6,
         "PUNCT": 1,
-        "DET": 7,
-        "NOUN": 3,
+        "DET": 22,
+        "NOUN": 6,
         "NEG": 1,
-        "VERB": 3,
+        "VERB": 13,
         "INTJ": 1,
-        "ADV": 1
+        "ADV": 5
       },
       "ADJ": {
         "PART": 5,
-        "NOUN": 15,
+        "NOUN": 79,
         "WH": 2,
-        "PUNCT": 15,
+        "PUNCT": 21,
         "PREP": 1,
-        "CONJ": 1
+        "CONJ": 5,
+        "PROPN": 1,
+        "ADJ": 11,
+        "DET": 4,
+        "AUX": 2,
+        "VERB": 1
       },
       "PART": {
-        "VERB": 12,
-        "AUX": 1,
-        "ADJ": 1
+        "VERB": 24,
+        "AUX": 2,
+        "ADJ": 2,
+        "NOUN": 1
       },
       "VERB": {
-        "PREP": 11,
-        "PART": 8,
-        "ADJ": 4,
-        "NOUN": 3,
-        "PUNCT": 14,
-        "PRON": 9,
-        "AUX": 3,
-        "DET": 9,
+        "PREP": 26,
+        "PART": 14,
+        "ADJ": 7,
+        "NOUN": 21,
+        "PUNCT": 25,
+        "PRON": 14,
+        "AUX": 4,
+        "DET": 23,
         "VERB": 3,
-        "CONJ": 2,
-        "WH": 2
+        "CONJ": 6,
+        "WH": 3,
+        "</S>": 4,
+        "ADV": 1,
+        "PROPN": 1,
+        "NUM": 1
       },
       "PREP": {
-        "PRON": 2,
-        "NOUN": 6,
-        "DET": 8,
-        "PUNCT": 1,
-        "VERB": 1
+        "PRON": 4,
+        "NOUN": 48,
+        "DET": 45,
+        "PUNCT": 2,
+        "VERB": 7,
+        "PREP": 2,
+        "ADJ": 16,
+        "PROPN": 3,
+        "AUX": 1
       },
       "PUNCT": {
-        "</S>": 64,
-        "NOUN": 1,
-        "CONJ": 5,
-        "PRON": 1,
-        "VERB": 1
+        "</S>": 117,
+        "NOUN": 13,
+        "CONJ": 18,
+        "PRON": 2,
+        "VERB": 3,
+        "ADV": 5,
+        "PREP": 7,
+        "ADJ": 3,
+        "DET": 9,
+        "WH": 3,
+        "AUX": 2,
+        "NUM": 1,
+        "PUNCT": 1
       },
       "WH": {
-        "AUX": 7,
+        "AUX": 9,
         "DET": 3,
         "PRON": 1,
-        "NOUN": 1,
+        "NOUN": 7,
         "VERB": 1,
-        "MODAL": 1
+        "MODAL": 2
       },
       "ADV": {
-        "PUNCT": 2,
-        "ADJ": 1
+        "PUNCT": 3,
+        "ADJ": 1,
+        "NOUN": 3,
+        "CONJ": 1,
+        "DET": 1,
+        "VERB": 7,
+        "</S>": 1,
+        "PRON": 1,
+        "MODAL": 1,
+        "PART": 1,
+        "ADV": 1
       },
       "NOUN": {
-        "AUX": 14,
-        "PREP": 3,
-        "NOUN": 5,
-        "PUNCT": 35,
-        "CONJ": 3,
-        "VERB": 10,
+        "AUX": 31,
+        "PREP": 76,
+        "NOUN": 61,
+        "PUNCT": 117,
+        "CONJ": 35,
+        "VERB": 34,
         "ADV": 1,
-        "PART": 1,
-        "ADJ": 1,
-        "MODAL": 1
+        "PART": 4,
+        "ADJ": 12,
+        "MODAL": 4,
+        "</S>": 3,
+        "PRON": 6,
+        "WH": 1,
+        "DET": 14,
+        "PROPN": 3,
+        "NUM": 1
       },
       "DET": {
-        "NOUN": 28,
-        "ADJ": 11,
-        "PRON": 1
+        "NOUN": 110,
+        "ADJ": 42,
+        "PRON": 2,
+        "PREP": 2,
+        "NUM": 1,
+        "PART": 1,
+        "VERB": 1,
+        "CONJ": 1
       },
       "CONJ": {
         "PRON": 9,
-        "DET": 1,
-        "NOUN": 1,
-        "VERB": 1,
-        "ADJ": 1
+        "DET": 9,
+        "NOUN": 28,
+        "VERB": 4,
+        "ADJ": 12,
+        "ADV": 2,
+        "PUNCT": 5,
+        "WH": 1,
+        "PREP": 1,
+        "CONJ": 1,
+        "NUM": 1
       },
       "MODAL": {
-        "VERB": 4,
-        "PRON": 1,
-        "DET": 1
+        "VERB": 5,
+        "PRON": 2,
+        "DET": 2,
+        "CONJ": 1,
+        "AUX": 2
       },
       "NEG": {
         "VERB": 1
@@ -10486,160 +12390,242 @@
       "INTJ": {
         "VERB": 1,
         "DET": 1
+      },
+      "PROPN": {
+        "DET": 1,
+        "PUNCT": 4,
+        "PART": 1,
+        "NOUN": 2
+      },
+      "NUM": {
+        "NOUN": 2,
+        "PUNCT": 1,
+        "CONJ": 2
       }
     },
     "pos_trigrams": {
       "<S>|PRON": {
-        "AUX": 12,
-        "VERB": 10,
-        "MODAL": 1
+        "AUX": 15,
+        "VERB": 17,
+        "MODAL": 2,
+        "ADV": 2,
+        "DET": 1
       },
       "PRON|AUX": {
         "ADJ": 8,
-        "DET": 2,
+        "DET": 4,
         "NEG": 1,
-        "VERB": 2,
+        "VERB": 5,
         "INTJ": 1,
-        "ADV": 1
+        "ADV": 3
       },
       "AUX|ADJ": {
         "PART": 5,
         "WH": 2,
         "PUNCT": 11,
-        "PREP": 1
+        "PREP": 1,
+        "DET": 1,
+        "NOUN": 1
       },
       "ADJ|PART": {
         "VERB": 5
       },
       "PART|VERB": {
-        "PREP": 3,
+        "PREP": 4,
         "ADJ": 2,
-        "PUNCT": 3,
-        "NOUN": 2,
+        "PUNCT": 4,
+        "NOUN": 7,
         "WH": 1,
-        "DET": 1
+        "DET": 5,
+        "PART": 1
       },
       "VERB|PREP": {
-        "PRON": 2,
-        "DET": 5,
-        "NOUN": 2,
+        "PRON": 3,
+        "DET": 12,
+        "NOUN": 7,
         "PUNCT": 1,
-        "VERB": 1
+        "VERB": 1,
+        "ADJ": 2
       },
       "PREP|PRON": {
-        "PUNCT": 2
+        "PUNCT": 2,
+        "VERB": 2
       },
       "PRON|PUNCT": {
         "</S>": 4
       },
       "<S>|WH": {
-        "AUX": 7,
+        "AUX": 8,
         "VERB": 1,
-        "MODAL": 1
+        "MODAL": 2,
+        "NOUN": 1
       },
       "WH|AUX": {
-        "PRON": 5,
+        "PRON": 6,
         "DET": 1,
-        "NOUN": 1
+        "NOUN": 1,
+        "VERB": 1
       },
       "AUX|PRON": {
         "ADV": 1,
-        "VERB": 4
+        "VERB": 5
       },
       "PRON|ADV": {
-        "PUNCT": 1
+        "PUNCT": 1,
+        "VERB": 2
       },
       "ADV|PUNCT": {
-        "</S>": 2
+        "</S>": 3
       },
       "PRON|VERB": {
-        "PART": 4,
-        "PREP": 4,
-        "NOUN": 1,
-        "PRON": 3,
+        "PART": 6,
+        "PREP": 6,
+        "NOUN": 3,
+        "PRON": 7,
         "PUNCT": 5,
-        "DET": 2,
+        "DET": 5,
         "VERB": 2,
-        "ADJ": 2,
-        "CONJ": 2
+        "ADJ": 3,
+        "CONJ": 2,
+        "</S>": 1
       },
       "VERB|PART": {
         "AUX": 1,
-        "VERB": 7
+        "VERB": 12,
+        "ADJ": 1
       },
       "PART|AUX": {
-        "PUNCT": 1
+        "PUNCT": 1,
+        "DET": 1
       },
       "AUX|PUNCT": {
         "</S>": 1
       },
       "<S>|NOUN": {
-        "AUX": 9,
-        "VERB": 2
-      },
-      "NOUN|AUX": {
-        "DET": 3,
-        "ADJ": 9,
-        "NOUN": 2
-      },
-      "AUX|DET": {
-        "NOUN": 3,
-        "ADJ": 4
-      },
-      "DET|NOUN": {
-        "PREP": 1,
-        "AUX": 4,
-        "CONJ": 2,
-        "PUNCT": 13,
-        "VERB": 5,
-        "ADV": 1,
-        "ADJ": 1,
-        "NOUN": 1
-      },
-      "NOUN|PREP": {
-        "NOUN": 2,
-        "DET": 1
-      },
-      "PREP|NOUN": {
-        "NOUN": 1,
-        "PUNCT": 5
-      },
-      "NOUN|NOUN": {
+        "AUX": 12,
+        "VERB": 2,
         "PUNCT": 2,
-        "PART": 1,
-        "NOUN": 1,
+        "NOUN": 4,
+        "CONJ": 1,
         "PREP": 1
       },
+      "NOUN|AUX": {
+        "DET": 10,
+        "ADJ": 11,
+        "NOUN": 3,
+        "ADV": 2,
+        "VERB": 5
+      },
+      "AUX|DET": {
+        "NOUN": 13,
+        "ADJ": 9
+      },
+      "DET|NOUN": {
+        "PREP": 25,
+        "AUX": 11,
+        "CONJ": 9,
+        "PUNCT": 31,
+        "VERB": 8,
+        "ADV": 1,
+        "ADJ": 4,
+        "NOUN": 8,
+        "PRON": 3,
+        "PART": 2,
+        "</S>": 1,
+        "PROPN": 1,
+        "DET": 5,
+        "MODAL": 1
+      },
+      "NOUN|PREP": {
+        "NOUN": 31,
+        "DET": 24,
+        "PREP": 2,
+        "ADJ": 11,
+        "PROPN": 1,
+        "VERB": 6,
+        "PUNCT": 1
+      },
+      "PREP|NOUN": {
+        "NOUN": 5,
+        "PUNCT": 19,
+        "VERB": 4,
+        "CONJ": 6,
+        "ADJ": 3,
+        "DET": 3,
+        "AUX": 1,
+        "PREP": 4,
+        "PRON": 2,
+        "</S>": 1
+      },
+      "NOUN|NOUN": {
+        "PUNCT": 16,
+        "PART": 1,
+        "NOUN": 13,
+        "PREP": 18,
+        "CONJ": 2,
+        "VERB": 5,
+        "PROPN": 2,
+        "AUX": 1,
+        "MODAL": 1,
+        "ADJ": 1,
+        "NUM": 1
+      },
       "NOUN|PUNCT": {
-        "</S>": 31,
-        "NOUN": 1,
-        "CONJ": 3
+        "</S>": 69,
+        "NOUN": 11,
+        "CONJ": 13,
+        "ADV": 5,
+        "PREP": 6,
+        "ADJ": 1,
+        "DET": 4,
+        "VERB": 1,
+        "WH": 3,
+        "PRON": 1,
+        "AUX": 2,
+        "NUM": 1
       },
       "<S>|DET": {
-        "NOUN": 7,
-        "ADJ": 3
+        "NOUN": 17,
+        "ADJ": 6
       },
       "DET|ADJ": {
-        "NOUN": 11
+        "NOUN": 38,
+        "CONJ": 1,
+        "ADJ": 1,
+        "PUNCT": 1,
+        "VERB": 1
       },
       "ADJ|NOUN": {
-        "PUNCT": 11,
-        "NOUN": 1,
+        "PUNCT": 27,
+        "NOUN": 14,
         "MODAL": 1,
-        "VERB": 2
+        "VERB": 8,
+        "PREP": 13,
+        "CONJ": 10,
+        "DET": 2,
+        "ADJ": 2,
+        "AUX": 2
       },
       "VERB|ADJ": {
-        "NOUN": 2,
+        "NOUN": 4,
         "PUNCT": 1,
-        "CONJ": 1
+        "CONJ": 2
       },
       "PREP|DET": {
-        "NOUN": 8
+        "NOUN": 34,
+        "ADJ": 9,
+        "NUM": 1,
+        "PREP": 1
       },
       "NOUN|CONJ": {
         "PRON": 1,
-        "DET": 1,
-        "VERB": 1
+        "DET": 6,
+        "VERB": 3,
+        "NOUN": 15,
+        "ADJ": 7,
+        "WH": 1,
+        "PREP": 1,
+        "NUM": 1
       },
       "CONJ|PRON": {
         "VERB": 6,
@@ -10647,54 +12633,77 @@
         "AUX": 2
       },
       "VERB|NOUN": {
-        "PUNCT": 2,
-        "PREP": 1
+        "PUNCT": 7,
+        "PREP": 4,
+        "PART": 1,
+        "VERB": 3,
+        "NOUN": 2,
+        "CONJ": 1,
+        "MODAL": 1,
+        "ADJ": 1,
+        "DET": 1
       },
       "PRON|MODAL": {
-        "VERB": 3
+        "VERB": 3,
+        "CONJ": 1
       },
       "MODAL|VERB": {
-        "PREP": 1,
+        "PREP": 2,
         "PART": 1,
         "PUNCT": 1,
         "DET": 1
       },
       "PUNCT|NOUN": {
-        "CONJ": 1
+        "CONJ": 3,
+        "NOUN": 4,
+        "ADJ": 1,
+        "PUNCT": 3,
+        "PREP": 1,
+        "AUX": 1
       },
       "CONJ|DET": {
-        "NOUN": 1
+        "NOUN": 8,
+        "ADJ": 1
       },
       "VERB|PUNCT": {
-        "</S>": 12,
+        "</S>": 19,
         "PRON": 1,
-        "CONJ": 1
+        "CONJ": 1,
+        "NOUN": 2,
+        "DET": 2
       },
       "<S>|VERB": {
         "PRON": 2,
-        "AUX": 2,
-        "VERB": 1
+        "AUX": 3,
+        "VERB": 1,
+        "NOUN": 1,
+        "DET": 1
       },
       "VERB|PRON": {
         "PREP": 3,
         "VERB": 2,
         "AUX": 1,
         "PUNCT": 2,
-        "WH": 1
+        "WH": 1,
+        "DET": 2,
+        "PART": 2,
+        "</S>": 1
       },
       "PRON|PREP": {
-        "DET": 2,
+        "DET": 3,
         "NOUN": 1
       },
       "<S>|MODAL": {
         "PRON": 1
       },
       "MODAL|PRON": {
-        "VERB": 1
+        "VERB": 1,
+        "AUX": 1
       },
       "VERB|AUX": {
         "ADJ": 2,
-        "VERB": 1
+        "VERB": 1,
+        "DET": 1
       },
       "ADJ|WH": {
         "DET": 2
@@ -10703,32 +12712,54 @@
         "NOUN": 3
       },
       "ADJ|PUNCT": {
-        "</S>": 13,
-        "CONJ": 1,
-        "VERB": 1
+        "</S>": 16,
+        "CONJ": 2,
+        "VERB": 1,
+        "DET": 1,
+        "ADJ": 1
       },
       "NOUN|VERB": {
         "PART": 1,
-        "DET": 3,
-        "PREP": 1,
-        "WH": 1,
+        "DET": 6,
+        "PREP": 8,
+        "WH": 2,
         "PRON": 2,
-        "PUNCT": 2
+        "PUNCT": 7,
+        "</S>": 3,
+        "ADV": 1,
+        "NOUN": 2,
+        "NUM": 1,
+        "CONJ": 1
       },
       "AUX|NOUN": {
         "PUNCT": 2,
-        "NOUN": 1
+        "NOUN": 1,
+        "DET": 2,
+        "PREP": 1
       },
       "PUNCT|CONJ": {
-        "NOUN": 1,
-        "PRON": 4
+        "NOUN": 8,
+        "PRON": 4,
+        "DET": 1,
+        "PUNCT": 2,
+        "ADJ": 2,
+        "CONJ": 1
       },
       "CONJ|NOUN": {
-        "AUX": 1
+        "AUX": 1,
+        "PUNCT": 8,
+        "</S>": 1,
+        "PREP": 7,
+        "VERB": 2,
+        "WH": 1,
+        "NOUN": 7,
+        "PRON": 1
       },
       "VERB|DET": {
-        "NOUN": 6,
-        "ADJ": 3
+        "NOUN": 15,
+        "ADJ": 6,
+        "PREP": 1,
+        "CONJ": 1
       },
       "NOUN|ADV": {
         "PUNCT": 1
@@ -10740,24 +12771,35 @@
         "DET": 1
       },
       "PREP|PUNCT": {
-        "</S>": 1
+        "</S>": 1,
+        "PUNCT": 1
       },
       "AUX|VERB": {
-        "PREP": 1,
-        "PUNCT": 1,
-        "PART": 1
+        "PREP": 4,
+        "PUNCT": 2,
+        "PART": 3,
+        "PRON": 1,
+        "NOUN": 1,
+        "DET": 1,
+        "CONJ": 1
       },
       "CONJ|VERB": {
-        "PART": 1
+        "PART": 1,
+        "NOUN": 2,
+        "PUNCT": 1
       },
       "<S>|ADJ": {
-        "NOUN": 1
+        "NOUN": 3,
+        "ADJ": 2
       },
       "NOUN|PART": {
-        "ADJ": 1
+        "ADJ": 1,
+        "AUX": 1,
+        "VERB": 2
       },
       "PART|ADJ": {
-        "NOUN": 1
+        "NOUN": 1,
+        "DET": 1
       },
       "VERB|VERB": {
         "PUNCT": 1,
@@ -10783,35 +12825,50 @@
         "PRON": 1
       },
       "DET|PRON": {
-        "VERB": 1
+        "VERB": 1,
+        "AUX": 1
       },
       "NOUN|ADJ": {
-        "PUNCT": 1
+        "PUNCT": 2,
+        "NOUN": 8,
+        "DET": 2
       },
       "ADJ|PREP": {
         "NOUN": 1
       },
       "VERB|CONJ": {
-        "PRON": 2
+        "PRON": 2,
+        "VERB": 1,
+        "DET": 2,
+        "PUNCT": 1
       },
       "<S>|CONJ": {
-        "PRON": 2
+        "PRON": 2,
+        "PUNCT": 1
       },
       "PUNCT|PRON": {
-        "MODAL": 1
+        "MODAL": 1,
+        "VERB": 1
       },
       "PUNCT|VERB": {
-        "AUX": 1
+        "AUX": 1,
+        "CONJ": 1,
+        "PREP": 1
       },
       "VERB|WH": {
-        "NOUN": 1,
+        "NOUN": 2,
         "DET": 1
       },
       "WH|NOUN": {
-        "VERB": 1
+        "VERB": 1,
+        "NOUN": 2,
+        "CONJ": 2,
+        "AUX": 1,
+        "DET": 1
       },
       "NOUN|MODAL": {
-        "VERB": 1
+        "VERB": 2,
+        "AUX": 2
       },
       "<S>|AUX": {
         "DET": 1
@@ -10820,39 +12877,277 @@
         "DET": 1
       },
       "WH|MODAL": {
-        "DET": 1
+        "DET": 2
       },
       "MODAL|DET": {
-        "ADJ": 1
+        "ADJ": 1,
+        "NOUN": 1
       },
       "AUX|ADV": {
-        "ADJ": 1
+        "ADJ": 1,
+        "NOUN": 1,
+        "VERB": 2,
+        "ADV": 1
       },
       "ADV|ADJ": {
         "PUNCT": 1
       },
       "ADJ|CONJ": {
-        "ADJ": 1
+        "ADJ": 3,
+        "NOUN": 1,
+        "ADV": 1
       },
       "CONJ|ADJ": {
-        "PUNCT": 1
+        "PUNCT": 2,
+        "NOUN": 6,
+        "ADJ": 3,
+        "CONJ": 1
       },
       "PREP|VERB": {
+        "PUNCT": 4,
+        "ADJ": 2,
+        "NOUN": 1
+      },
+      "ADV|NOUN": {
+        "PUNCT": 2,
+        "VERB": 1
+      },
+      "PUNCT|ADV": {
+        "NOUN": 2,
+        "CONJ": 1,
+        "VERB": 2
+      },
+      "PREP|PREP": {
+        "DET": 1,
+        "NOUN": 1
+      },
+      "PUNCT|PREP": {
+        "DET": 2,
+        "ADJ": 2,
+        "NOUN": 1,
+        "AUX": 1,
+        "PRON": 1
+      },
+      "ADV|CONJ": {
+        "ADV": 1
+      },
+      "CONJ|ADV": {
+        "PUNCT": 1,
+        "</S>": 1
+      },
+      "VERB|ADV": {
+        "DET": 1
+      },
+      "ADV|DET": {
+        "PRON": 1
+      },
+      "PRON|DET": {
+        "NOUN": 3
+      },
+      "ADV|VERB": {
+        "PROPN": 1,
+        "DET": 2,
+        "PART": 1,
+        "NOUN": 2,
+        "CONJ": 1
+      },
+      "VERB|PROPN": {
+        "DET": 1
+      },
+      "PROPN|DET": {
+        "NOUN": 1
+      },
+      "PUNCT|ADJ": {
+        "NOUN": 2,
         "PUNCT": 1
+      },
+      "PREP|ADJ": {
+        "CONJ": 1,
+        "PROPN": 1,
+        "ADJ": 4,
+        "NOUN": 9,
+        "PUNCT": 1
+      },
+      "<S>|ADV": {
+        "PRON": 1,
+        "MODAL": 1,
+        "PART": 1
+      },
+      "ADV|PRON": {
+        "VERB": 1
+      },
+      "PRON|PART": {
+        "VERB": 2
+      },
+      "DET|PREP": {
+        "NOUN": 1,
+        "DET": 1
+      },
+      "ADV|MODAL": {
+        "PRON": 1
+      },
+      "NOUN|PRON": {
+        "VERB": 3,
+        "AUX": 2,
+        "PREP": 1
+      },
+      "PREP|PROPN": {
+        "PUNCT": 3
+      },
+      "PROPN|PUNCT": {
+        "</S>": 2,
+        "DET": 2
+      },
+      "ADJ|PROPN": {
+        "PUNCT": 1
+      },
+      "PUNCT|DET": {
+        "NOUN": 5,
+        "ADJ": 3,
+        "VERB": 1
+      },
+      "ADV|PART": {
+        "VERB": 1
+      },
+      "ADJ|ADJ": {
+        "NOUN": 7,
+        "ADJ": 1,
+        "PUNCT": 1,
+        "AUX": 2
+      },
+      "PUNCT|WH": {
+        "NOUN": 2,
+        "AUX": 1
+      },
+      "CONJ|PUNCT": {
+        "ADJ": 1,
+        "VERB": 1,
+        "CONJ": 2,
+        "</S>": 1
+      },
+      "MODAL|CONJ": {
+        "NOUN": 1
+      },
+      "NOUN|WH": {
+        "NOUN": 1
+      },
+      "NOUN|DET": {
+        "NOUN": 7,
+        "ADJ": 7
+      },
+      "NOUN|PROPN": {
+        "PART": 1,
+        "NOUN": 2
+      },
+      "PROPN|PART": {
+        "NOUN": 1
+      },
+      "PART|NOUN": {
+        "NOUN": 1
+      },
+      "DET|NUM": {
+        "NOUN": 1
+      },
+      "NUM|NOUN": {
+        "PREP": 2
+      },
+      "ADJ|DET": {
+        "NOUN": 3,
+        "PART": 1
+      },
+      "<S>|PREP": {
+        "NOUN": 5,
+        "PROPN": 2,
+        "ADJ": 1,
+        "DET": 1
+      },
+      "PROPN|NOUN": {
+        "CONJ": 1,
+        "AUX": 1
+      },
+      "ADJ|AUX": {
+        "DET": 2
+      },
+      "DET|PART": {
+        "VERB": 1
+      },
+      "CONJ|WH": {
+        "NOUN": 1
+      },
+      "MODAL|AUX": {
+        "VERB": 1,
+        "DET": 1
+      },
+      "DET|VERB": {
+        "NOUN": 1
+      },
+      "CONJ|PREP": {
+        "DET": 1
+      },
+      "PREP|AUX": {
+        "DET": 1
+      },
+      "VERB|NUM": {
+        "PUNCT": 1
+      },
+      "NUM|PUNCT": {
+        "PREP": 1
+      },
+      "PUNCT|AUX": {
+        "NOUN": 2
+      },
+      "PUNCT|NUM": {
+        "CONJ": 1
+      },
+      "NUM|CONJ": {
+        "NOUN": 2
+      },
+      "DET|CONJ": {
+        "NOUN": 1
+      },
+      "PUNCT|PUNCT": {
+        "</S>": 1
+      },
+      "ADV|ADV": {
+        "VERB": 1
+      },
+      "CONJ|CONJ": {
+        "PUNCT": 1
+      },
+      "NOUN|NUM": {
+        "CONJ": 1
+      },
+      "ADJ|VERB": {
+        "NOUN": 1
+      },
+      "CONJ|NUM": {
+        "NOUN": 1
+      },
+      "<S>|PART": {
+        "VERB": 1
       }
     },
     "word_bigrams": {
       "i": {
         "am": 3,
-        "want": 2,
+        "want": 3,
         "think": 1,
         "do": 1,
         "would": 1,
-        "love": 1,
+        "love": 2,
         "enjoy": 1,
         "will": 1,
         "practise": 1,
-        "feel": 1
+        "feel": 1,
+        "thought": 1,
+        "'ve": 1,
+        "wnat": 1,
+        "told": 2,
+        "just": 1,
+        "need": 2,
+        "fed": 1,
+        "brushed": 1,
+        "'m": 1
       },
       "am": {
         "happy": 1,
@@ -10863,19 +13158,23 @@
         "to": 1
       },
       "to": {
-        "talk": 1,
-        "do": 1,
+        "the": 3,
+        "do": 2,
         "learn": 2,
-        "the": 1,
-        "listen": 1,
         "read": 2,
+        "study": 2,
+        "update": 2,
+        "talk": 1,
+        "listen": 1,
         "find": 1,
         "explore": 1,
-        "good": 1,
-        "understand": 1,
-        "meet": 1,
-        "speak": 1,
-        "ask": 1
+        "overlap": 1,
+        "separate": 2,
+        "other": 1,
+        "garden": 1,
+        "plant": 1,
+        "instruct": 1,
+        "teach": 1
       },
       "talk": {
         "with": 1,
@@ -10883,21 +13182,30 @@
       },
       "with": {
         "you": 1,
-        "my": 1
+        "my": 1,
+        "those": 1,
+        "a": 1
       },
       "how": {
         "are": 1,
         "the": 1,
-        "do": 1
+        "do": 1,
+        "backpropagation": 1,
+        "entropy": 1
       },
       "are": {
-        "you": 1,
+        "you": 2,
         "good": 1,
         "walking": 1,
         "important": 1,
         "curious": 1,
         "beautiful": 1,
-        "very": 1
+        "very": 1,
+        "introduced": 1,
+        "used": 1,
+        "called": 1,
+        "often": 1,
+        "conjunctions": 3
       },
       "you": {
         "today": 1,
@@ -10909,51 +13217,59 @@
         "learn": 1,
         "mean": 1,
         "feel": 1,
-        "are": 1
+        "are": 1,
+        "feeling": 1,
+        "to": 2,
+        "do": 1
       },
       "what": {
         "do": 2,
         "you": 1,
-        "is": 1
+        "is": 1,
+        "are": 1,
+        "constitutes": 1
       },
       "do": {
         "you": 3,
         "not": 1,
-        "birds": 1
+        "birds": 1,
+        "some": 1,
+        "the": 1
       },
       "like": {
         "to": 2,
-        "the": 1
+        "the": 1,
+        "and": 1
       },
       "language": {
         "is": 1
       },
       "is": {
-        "a": 4,
+        "a": 13,
         "important": 2,
+        "good": 2,
         "fun": 1,
         "wonderful": 1,
         "hard": 1,
         "useful": 1,
         "full": 1,
         "easy": 1,
-        "good": 2,
-        "difficult": 1,
-        "rewarding": 1,
-        "precious": 1,
-        "nice": 1,
-        "your": 1
+        "difficult": 1
       },
       "a": {
+        "conjunction": 5,
+        "good": 2,
+        "thermodynamic": 2,
+        "system": 2,
+        "neural": 2,
+        "computational": 2,
+        "method": 2,
+        "preposition": 2,
         "tool": 1,
         "complex": 1,
-        "gift": 1,
-        "good": 2,
-        "quiet": 1,
-        "kind": 1,
-        "day": 1,
-        "funny": 1,
-        "new": 1
+        "typical": 1,
+        "definitive": 1,
+        "specified": 1
       },
       "tool": {
         "for": 1
@@ -10961,38 +13277,46 @@
       "for": {
         "sharing": 1,
         "your": 1,
-        "help": 1
+        "help": 1,
+        "better": 1,
+        "unconstrained": 2,
+        "minimizing": 1,
+        "each": 1,
+        "example": 1,
+        "food": 1
       },
       "sharing": {
         "ideas": 1
       },
       "the": {
+        "lesson": 3,
+        "garden": 2,
+        "structure": 2,
         "brain": 1,
         "market": 1,
         "weather": 1,
         "questions": 1,
         "teacher": 1,
-        "lesson": 2,
         "answer": 1,
         "park": 1,
-        "children": 1,
-        "garden": 2,
-        "book": 1,
-        "world": 1,
-        "story": 1,
+        "cat": 1,
+        "th": 1,
+        "early": 1,
+        "manner": 1,
         "evening": 1,
-        "old": 1,
-        "mind": 1,
-        "dog": 1
+        "time": 1,
+        "nature": 1
       },
       "brain": {
         "is": 1
       },
       "complex": {
-        "organ": 1
+        "organ": 1,
+        "adaptive": 1
       },
       "want": {
-        "to": 2
+        "to": 2,
+        "u": 1
       },
       "learn": {
         "new": 1,
@@ -11003,7 +13327,9 @@
       "new": {
         "words": 1,
         "ideas": 1,
-        "friend": 1
+        "friend": 1,
+        "york": 1,
+        "knowledge": 1
       },
       "she": {
         "went": 1,
@@ -11021,7 +13347,8 @@
       },
       "because": {
         "she": 1,
-        "we": 1
+        "we": 1,
+        "what": 1
       },
       "needed": {
         "bread": 1
@@ -11030,29 +13357,52 @@
         "can": 1,
         "stayed": 1,
         "learn": 1,
-        "are": 1
+        "are": 1,
+        "must": 1
       },
       "can": {
         "talk": 1,
-        "you": 1,
+        "you": 2,
         "change": 1
       },
       "about": {
         "music": 1,
         "that": 1,
-        "this": 1,
+        "this": 2,
         "your": 1,
-        "life": 1
+        "life": 1,
+        "matchine": 1,
+        "matchines": 1,
+        "my": 1
       },
       "books": {
         "or": 1
       },
       "or": {
-        "the": 1
+        "the": 1,
+        "positioned": 1,
+        "surface": 1,
+        "figuratively": 1,
+        "skills": 1,
+        "teaching": 1,
+        "artificial": 2,
+        "cnj": 1,
+        "clauses": 1,
+        "coordinate": 1,
+        "more": 2,
+        "sentences": 1,
+        "contrasts": 1,
+        "items": 1,
+        "dependent": 1,
+        "yet": 1,
+        "ornamental": 1,
+        "description": 1
       },
       "it": {
-        "is": 5,
-        "was": 1
+        "is": 7,
+        "was": 1,
+        "some": 1,
+        "has": 1
       },
       "important": {
         "to": 1
@@ -11063,7 +13413,8 @@
       "your": {
         "help": 1,
         "day": 1,
-        "favourite": 1
+        "favourite": 1,
+        "knoledge": 1
       },
       "tell": {
         "me": 3
@@ -11072,13 +13423,17 @@
         "more": 1,
         "what": 1,
         "about": 1,
-        "remember": 1
+        "remember": 1,
+        "an": 1
       },
       "more": {
-        "about": 1
+        "about": 1,
+        "items": 1,
+        "types": 1,
+        "information": 1
       },
       "learning": {
-        "is": 2,
+        "is": 3,
         "to": 1
       },
       "fun": {
@@ -11087,7 +13442,8 @@
       "when": {
         "the": 2,
         "people": 1,
-        "will": 1
+        "will": 2,
+        "non-linear": 1
       },
       "questions": {
         "are": 1,
@@ -11095,7 +13451,11 @@
       },
       "my": {
         "friend": 2,
-        "mother": 1
+        "mother": 2,
+        "blog": 1,
+        "trip": 1,
+        "records": 1,
+        "clothes": 1
       },
       "friend": {
         "likes": 1,
@@ -11120,13 +13480,26 @@
       },
       "have": {
         "meanings": 1,
-        "shades": 1
+        "shades": 1,
+        "several": 1
       },
       "and": {
+        "the": 2,
+        "functions": 2,
         "meanings": 1,
         "began": 1,
         "i": 1,
-        "ready": 1
+        "ready": 1,
+        "deep": 1,
+        "well": 1,
+        "robot": 1,
+        "repetition": 1,
+        "adverbial": 1,
+        "join": 1,
+        "night": 1,
+        "ten": 1,
+        "gerund": 1,
+        "attributes": 1
       },
       "meanings": {
         "have": 1
@@ -11148,7 +13521,7 @@
       },
       "lesson": {
         "slowly": 1,
-        "begin": 1
+        "begin": 2
       },
       "think": {
         "that": 1,
@@ -11157,14 +13530,29 @@
       "that": {
         "is": 1,
         "you": 1,
-        "sounds": 1
+        "sounds": 1,
+        "i": 1,
+        "for": 1,
+        "mirror": 1,
+        "export": 1,
+        "quantifies": 2,
+        "connects": 1,
+        "description": 1,
+        "stands": 1,
+        "archaic": 1,
+        "join": 1,
+        "aggregates": 1,
+        "introduce": 1,
+        "a": 1,
+        "provides": 1
       },
       "good": {
         "idea": 1,
         "questions": 1,
         "answers": 1,
         "friend": 1,
-        "to": 1
+        "to": 1,
+        "and": 1
       },
       "memory": {
         "is": 1
@@ -11183,7 +13571,8 @@
       },
       "but": {
         "i": 1,
-        "she": 1
+        "she": 1,
+        "a": 2
       },
       "would": {
         "like": 1
@@ -11193,16 +13582,37 @@
       },
       "this": {
         "story": 1,
-        "beautiful": 1
+        "beautiful": 1,
+        "year": 1,
+        "issue": 1
       },
       "they": {
-        "are": 1
+        "are": 1,
+        "fought": 1
       },
       "walking": {
         "in": 1
       },
       "in": {
-        "the": 3
+        "the": 7,
+        "a": 3,
+        "new": 1,
+        "ways": 1,
+        "diverse": 1,
+        "statistical": 1,
+        "chemistry": 1,
+        "biological": 1,
+        "cosmology": 1,
+        "telecommunication": 1,
+        "machine": 2,
+        "grammar": 1,
+        "english": 2,
+        "some": 1,
+        "others": 1,
+        "\"": 2,
+        "general": 1,
+        "usage": 1,
+        "our": 1
       },
       "children": {
         "play": 1
@@ -11212,7 +13622,10 @@
       },
       "was": {
         "a": 1,
-        "tired": 1
+        "tired": 1,
+        "known": 1,
+        "then": 1,
+        "heavy": 1
       },
       "quiet": {
         "evening": 1
@@ -11224,7 +13637,10 @@
         "at": 1
       },
       "he": {
-        "opened": 1
+        "opened": 1,
+        "quickly": 1,
+        "gave": 1,
+        "left": 2
       },
       "opened": {
         "the": 1
@@ -11236,13 +13652,14 @@
         "to": 1
       },
       "where": {
-        "did": 1
+        "did": 1,
+        "uncertainty": 1
       },
       "did": {
         "you": 1
       },
       "love": {
-        "to": 1
+        "to": 2
       },
       "explore": {
         "new": 1
@@ -11276,7 +13693,20 @@
         "of": 1
       },
       "of": {
-        "words": 1
+        "information": 3,
+        "learn": 2,
+        "accessible": 2,
+        "biological": 2,
+        "speech": 2,
+        "words": 1,
+        "reference": 1,
+        "good": 1,
+        "the": 2,
+        "acquiring": 1,
+        "around": 1,
+        "related": 1,
+        "extend": 1,
+        "a": 1
       },
       "reading": {
         "is": 1
@@ -11294,11 +13724,12 @@
         "with": 1
       },
       "if": {
-        "you": 1
+        "you": 1,
+        "the": 1
       },
       "will": {
         "explain": 1,
-        "the": 1
+        "the": 2
       },
       "although": {
         "it": 1
@@ -11307,7 +13738,8 @@
         "are": 1
       },
       "time": {
-        "is": 1
+        "is": 1,
+        "of": 1
       },
       "knowledge": {
         "grows": 1
@@ -11325,19 +13757,20 @@
         "word": 1
       },
       "word": {
-        "can": 1
+        "can": 1,
+        "may": 1
       },
       "change": {
         "a": 1
       },
       "mother": {
-        "cooks": 1
+        "cooks": 2
       },
       "cooks": {
-        "dinner": 1
+        "dinner": 2
       },
       "dinner": {
-        "in": 1
+        "in": 2
       },
       "old": {
         "man": 1
@@ -11346,7 +13779,8 @@
         "told": 1
       },
       "told": {
-        "a": 1
+        "a": 1,
+        "you": 2
       },
       "funny": {
         "story": 1
@@ -11367,7 +13801,8 @@
         "made": 1
       },
       "made": {
-        "this": 1
+        "this": 1,
+        "an": 1
       },
       "beautiful": {
         "picture": 1
@@ -11416,42 +13851,1142 @@
       },
       "while": {
         "she": 1
+      },
+      "lake": {
+        "is": 1
+      },
+      "extremely": {
+        "deep": 1
+      },
+      "ogre": {
+        "lived": 1
+      },
+      "lived": {
+        "in": 1
+      },
+      "cave": {
+        "deep": 1
+      },
+      "deep": {
+        "underground": 1,
+        "study": 1
+      },
+      "thought": {
+        "long": 1
+      },
+      "long": {
+        "and": 1
+      },
+      "reaching": {
+        "or": 1
+      },
+      "positioned": {
+        "far": 1
+      },
+      "far": {
+        "from": 2,
+        "down": 1
+      },
+      "from": {
+        "a": 1,
+        "the": 2,
+        "equilibrium": 1,
+        "classical": 1
+      },
+      "point": {
+        "of": 1
+      },
+      "especially": {
+        "downwards": 1
+      },
+      "extending": {
+        "far": 1
+      },
+      "down": {
+        "from": 1
+      },
+      "literally": {
+        "or": 1
+      },
+      "u": {
+        "to": 1
+      },
+      "some": {
+        "deep": 1,
+        "oil": 1,
+        "contexts": 1,
+        "daffodils": 1,
+        "more": 1
+      },
+      "study": {
+        "about": 1,
+        "that": 1,
+        "i": 1,
+        "matchine": 2,
+        "or": 1
+      },
+      "matchine": {
+        "learning": 2,
+        "lerning": 1
+      },
+      "engine": {
+        "runs": 1
+      },
+      "runs": {
+        "better": 1
+      },
+      "better": {
+        "now": 1,
+        "in": 1,
+        "understanding": 1
+      },
+      "now": {
+        "that": 1,
+        "generally": 1
+      },
+      "'ve": {
+        "given": 1
+      },
+      "given": {
+        "it": 1,
+        "word": 1
+      },
+      "quickly": {
+        "found": 1
+      },
+      "found": {
+        "ali": 1
+      },
+      "ali": {
+        "his": 1
+      },
+      "his": {
+        "better": 1
+      },
+      "comparative": {
+        "degree": 1
+      },
+      "degree": {
+        "of": 1
+      },
+      "well": {
+        "i": 1,
+        "can": 1
+      },
+      "wnat": {
+        "you": 1
+      },
+      "understanding": {
+        "about": 1,
+        "these": 1
+      },
+      "matchines": {
+        "and": 1
+      },
+      "just": {
+        "made": 1,
+        "to": 1
+      },
+      "an": {
+        "update": 2,
+        "additional": 1,
+        "addition": 1,
+        "invariant": 1,
+        "element": 1,
+        "outdoor": 1
+      },
+      "update": {
+        "to": 1,
+        "on": 1,
+        "my": 1,
+        "your": 1
+      },
+      "blog": {
+        "about": 1
+      },
+      "trip": {
+        "to": 1
+      },
+      "gave": {
+        "me": 1
+      },
+      "on": {
+        "the": 3
+      },
+      "situation": {
+        "in": 1
+      },
+      "need": {
+        "to": 1,
+        "some": 1
+      },
+      "records": {
+        "to": 1
+      },
+      "take": {
+        "account": 1
+      },
+      "account": {
+        "of": 1
+      },
+      "most": {
+        "recent": 1
+      },
+      "recent": {
+        "transaction": 1
+      },
+      "additional": {
+        "piece": 1
+      },
+      "piece": {
+        "of": 1
+      },
+      "addition": {
+        "to": 1
+      },
+      "existing": {
+        "information": 1
+      },
+      "process": {
+        "of": 1,
+        "information": 1
+      },
+      "acquiring": {
+        "new": 1
+      },
+      "behaviours": {
+        "or": 1
+      },
+      "skills": {
+        "through": 1
+      },
+      "through": {
+        "experience": 1,
+        "backpropagation": 1,
+        "hierarchical": 1
+      },
+      "feedback": {
+        "and": 1
+      },
+      "repetition": {
+        "strengthen": 1
+      },
+      "strengthen": {
+        "the": 1
+      },
+      "neural": {
+        "connections": 1,
+        "networks": 3,
+        "network": 4
+      },
+      "connections": {
+        "involved": 1
+      },
+      "pronunciation": {
+        "spelling": 2
+      },
+      "spelling": {
+        "of": 2
+      },
+      "form": {
+        "of": 1
+      },
+      "architecture": {
+        "of": 1
+      },
+      "artificial": {
+        "neural": 3,
+        "intelligence": 1
+      },
+      "networks": {
+        "relies": 1
+      },
+      "relies": {
+        "on": 1
+      },
+      "continuous": {
+        "adjustment": 1
+      },
+      "adjustment": {
+        "of": 1
+      },
+      "synaptic": {
+        "weights": 1,
+        "plasticity": 1
+      },
+      "weights": {
+        "through": 1
+      },
+      "which": {
+        "computes": 1,
+        "are": 1
+      },
+      "computes": {
+        "error": 1
+      },
+      "error": {
+        "gradients": 1
+      },
+      "gradients": {
+        "backwards": 1
+      },
+      "backwards": {
+        "across": 1
+      },
+      "across": {
+        "multi-layer": 1,
+        "both": 1
+      },
+      "multi-layer": {
+        "perceptrons": 1
+      },
+      "biological": {
+        "brains": 1,
+        "and": 1,
+        "nervous": 1,
+        "systems": 1,
+        "neural": 2
+      },
+      "brains": {
+        "operate": 1
+      },
+      "operate": {
+        "under": 1
+      },
+      "under": {
+        "strict": 1
+      },
+      "strict": {
+        "energetic": 1
+      },
+      "energetic": {
+        "constraints": 1
+      },
+      "constraints": {
+        "governed": 1
+      },
+      "governed": {
+        "by": 1
+      },
+      "by": {
+        "thermodynamic": 1,
+        "the": 2
+      },
+      "thermodynamic": {
+        "efficiency": 2,
+        "state": 2
+      },
+      "efficiency": {
+        "and": 1,
+        "constrain": 1
+      },
+      "metabolic": {
+        "limits": 1
+      },
+      "requiring": {
+        "local": 1
+      },
+      "local": {
+        "forms": 1
+      },
+      "forms": {
+        "of": 1
+      },
+      "neuroplasticity": {
+        "and": 1,
+        "intersect": 1
+      },
+      "plasticity": {
+        "rather": 1
+      },
+      "rather": {
+        "than": 1
+      },
+      "than": {
+        "global": 1
+      },
+      "global": {
+        "gradient": 1
+      },
+      "gradient": {
+        "descent": 3
+      },
+      "must": {
+        "therefore": 1,
+        "be": 1
+      },
+      "therefore": {
+        "investigate": 1
+      },
+      "investigate": {
+        "how": 1
+      },
+      "backpropagation": {
+        "and": 1
+      },
+      "intersect": {
+        "within": 1
+      },
+      "within": {
+        "complex": 1,
+        "a": 1
+      },
+      "adaptive": {
+        "systems": 1
+      },
+      "both": {
+        "biological": 2
+      },
+      "intelligence": {
+        "process": 1
+      },
+      "information": {
+        "in": 2,
+        "entropy": 1,
+        "processing": 1,
+        "theory": 1,
+        "systems": 1,
+        "about": 1
+      },
+      "ways": {
+        "that": 1
+      },
+      "mirror": {
+        "shannon": 1
+      },
+      "shannon": {
+        "'s": 1
+      },
+      "'s": {
+        "information": 1
+      },
+      "uncertainty": {
+        "is": 1
+      },
+      "reduced": {
+        "through": 1
+      },
+      "hierarchical": {
+        "feature": 1
+      },
+      "feature": {
+        "extraction": 1
+      },
+      "non-linear": {
+        "dynamics": 1
+      },
+      "dynamics": {
+        "far": 1
+      },
+      "equilibrium": {
+        "are": 1
+      },
+      "energy": {
+        "flow": 1
+      },
+      "flow": {
+        "organizes": 1
+      },
+      "organizes": {
+        "matter": 1
+      },
+      "matter": {
+        "into": 1
+      },
+      "into": {
+        "dissipative": 1
+      },
+      "dissipative": {
+        "structures": 1
+      },
+      "structures": {
+        "that": 1
+      },
+      "export": {
+        "entropy": 1
+      },
+      "entropy": {
+        "to": 1,
+        "and": 1,
+        "is": 2
+      },
+      "their": {
+        "surroundings": 1,
+        "relation": 1
+      },
+      "maintaining": {
+        "order": 1
+      },
+      "order": {
+        "against": 1
+      },
+      "against": {
+        "the": 1
+      },
+      "second": {
+        "law": 1
+      },
+      "law": {
+        "of": 1
+      },
+      "these": {
+        "principles": 1
+      },
+      "principles": {
+        "requires": 1,
+        "of": 1
+      },
+      "requires": {
+        "exploring": 1
+      },
+      "exploring": {
+        "how": 1
+      },
+      "constrain": {
+        "information": 1
+      },
+      "processing": {
+        "across": 1
+      },
+      "nervous": {
+        "systems": 1
+      },
+      "systems": {
+        "and": 2,
+        "including": 1
+      },
+      "distributed": {
+        "computing": 1
+      },
+      "computing": {
+        "architectures": 1
+      },
+      "state": {
+        "variable": 2
+      },
+      "variable": {
+        "that": 2
+      },
+      "quantifies": {
+        "the": 2
+      },
+      "probabilistic": {
+        "distribution": 2
+      },
+      "distribution": {
+        "of": 2
+      },
+      "accessible": {
+        "microstates": 2
+      },
+      "microstates": {
+        "in": 2
+      },
+      "term": {
+        "and": 1
+      },
+      "concept": {
+        "are": 1
+      },
+      "used": {
+        "in": 1,
+        "to": 2
+      },
+      "diverse": {
+        "fields": 1
+      },
+      "classical": {
+        "thermodynamics": 1
+      },
+      "microscopic": {
+        "description": 1
+      },
+      "description": {
+        "of": 2,
+        "is": 1
+      },
+      "nature": {
+        "in": 1,
+        "and": 1
+      },
+      "statistical": {
+        "physics": 1
+      },
+      "has": {
+        "far-ranging": 1
+      },
+      "far-ranging": {
+        "applications": 1
+      },
+      "applications": {
+        "in": 1
+      },
+      "chemistry": {
+        "and": 1
+      },
+      "relation": {
+        "to": 1
+      },
+      "including": {
+        "the": 1
+      },
+      "transmission": {
+        "of": 1
+      },
+      "machine": {
+        "learning": 2
+      },
+      "network": {
+        "(": 2,
+        "or": 1,
+        "is": 1
+      },
+      "(": {
+        "nn": 1,
+        "ann": 1,
+        "abbreviated": 1,
+        "non": 1,
+        "such": 1
+      },
+      "nn": {
+        ")": 1
+      },
+      ")": {
+        "or": 1,
+        "is": 2,
+        "grammatical": 1,
+        "of": 1
+      },
+      "ann": {
+        ")": 1
+      },
+      "computational": {
+        "model": 2
+      },
+      "model": {
+        "inspired": 2
+      },
+      "inspired": {
+        "by": 2
+      },
+      "structure": {
+        "and": 2
+      },
+      "functions": {
+        "of": 2
+      },
+      "descent": {
+        "is": 2
+      },
+      "method": {
+        "for": 2
+      },
+      "unconstrained": {
+        "mathematical": 2
+      },
+      "mathematical": {
+        "optimization": 2
+      },
+      "first-order": {
+        "iterative": 1
+      },
+      "iterative": {
+        "algorithm": 1
+      },
+      "algorithm": {
+        "for": 1
+      },
+      "minimizing": {
+        "a": 1
+      },
+      "differentiable": {
+        "multivariate": 1
+      },
+      "multivariate": {
+        "function": 1
+      },
+      "conjunction": {
+        "(": 1,
+        "\"": 1,
+        "in": 2,
+        "is": 1,
+        "was": 1,
+        "itself": 1,
+        "referential": 1,
+        "like": 1
+      },
+      "abbreviated": {
+        "conj": 1
+      },
+      "conj": {
+        "or": 1
+      },
+      "cnj": {
+        ")": 1
+      },
+      "part": {
+        "of": 1
+      },
+      "speech": {
+        "that": 1,
+        "because": 1
+      },
+      "connects": {
+        "words": 1
+      },
+      "called": {
+        "its": 1,
+        "a": 1,
+        "conjunction": 1,
+        "subordinators": 1
+      },
+      "its": {
+        "conjuncts": 1
+      },
+      "vague": {
+        "enough": 1
+      },
+      "enough": {
+        "to": 1
+      },
+      "overlap": {
+        "with": 1
+      },
+      "those": {
+        "of": 1
+      },
+      "other": {
+        "parts": 1,
+        "clauses": 1
+      },
+      "parts": {
+        "of": 1
+      },
+      "constitutes": {
+        "a": 1
+      },
+      "\"": {
+        "conjunction": 1,
+        "must": 1,
+        "he": 2,
+        "but": 1
+      },
+      "be": {
+        "defined": 1,
+        "a": 1
+      },
+      "defined": {
+        "for": 1
+      },
+      "each": {
+        "language": 1
+      },
+      "may": {
+        "have": 1,
+        "begin": 1
+      },
+      "several": {
+        "senses": 1
+      },
+      "senses": {
+        "and": 1
+      },
+      "contexts": {
+        "be": 1
+      },
+      "preposition": {
+        "but": 1,
+        "in": 1
+      },
+      "depending": {
+        "on": 1
+      },
+      "after": {
+        "is": 1,
+        "the": 1,
+        "they": 1,
+        "i": 1
+      },
+      "left": {
+        "after": 2
+      },
+      "fight": {
+        "\"": 1
+      },
+      "fought": {
+        "\"": 1
+      },
+      "invariant": {
+        "(": 1
+      },
+      "non": {
+        "inflecting": 1
+      },
+      "inflecting": {
+        ")": 1
+      },
+      "grammatical": {
+        "particle": 1
+      },
+      "particle": {
+        "that": 1
+      },
+      "stands": {
+        "between": 1
+      },
+      "between": {
+        "conjuncts": 1,
+        "afternoon": 1
+      },
+      "commas": {
+        "are": 1
+      },
+      "often": {
+        "used": 1
+      },
+      "separate": {
+        "clauses": 1,
+        "a": 1
+      },
+      "comma": {
+        "is": 1
+      },
+      "dependent": {
+        "clause": 2
+      },
+      "clause": {
+        "from": 1,
+        "if": 1,
+        "comes": 1
+      },
+      "independent": {
+        "clause": 1,
+        "or": 1
+      },
+      "comes": {
+        "first": 1
+      },
+      "fed": {
+        "the": 1
+      },
+      "brushed": {
+        "my": 1
+      },
+      "beginning": {
+        "in": 1
+      },
+      "th": {
+        "century": 2
+      },
+      "element": {
+        "of": 1
+      },
+      "known": {
+        "as": 1
+      },
+      "as": {
+        "a": 1,
+        "words": 1,
+        "subordinate": 1
+      },
+      "itself": {
+        "was": 1
+      },
+      "then": {
+        "called": 1
+      },
+      "archaic": {
+        "term": 1
+      },
+      "diminished": {
+        "in": 1
+      },
+      "usage": {
+        "during": 1
+      },
+      "during": {
+        "the": 1
+      },
+      "early": {
+        "th": 1
+      },
+      "coordinating": {
+        "conjunctions": 1,
+        "conjunction": 1
+      },
+      "also": {
+        "called": 2
+      },
+      "referential": {
+        "markers": 1
+      },
+      "markers": {
+        "and": 1
+      },
+      "conjunctions": {
+        "that": 2,
+        "are": 1,
+        "within": 1
+      },
+      "two": {
+        "or": 1
+      },
+      "items": {
+        "(": 1,
+        "in": 1
+      },
+      "such": {
+        "as": 1
+      },
+      "main": {
+        "clauses": 1
+      },
+      "sentences": {
+        ")": 1
+      },
+      "equal": {
+        "syntactic": 1
+      },
+      "syntactic": {
+        "importance": 1
+      },
+      "correlative": {
+        "conjunctions": 1
+      },
+      "syntax": {
+        "that": 1
+      },
+      "aggregates": {
+        "or": 1
+      },
+      "contrasts": {
+        "correlated": 1
+      },
+      "correlated": {
+        "actions": 1
+      },
+      "manner": {
+        "of": 1
+      },
+      "subordinating": {
+        "conjunctions": 1
+      },
+      "introduce": {
+        "content": 1
+      },
+      "adverbial": {
+        "clauses": 1
+      },
+      "clauses": {
+        "as": 1
+      },
+      "subordinate": {
+        "ones": 1
+      },
+      "join": {
+        "them": 1
+      },
+      "them": {
+        "to": 1
+      },
+      "whether": {
+        "independent": 1
+      },
+      "generally": {
+        "agreed": 1
+      },
+      "agreed": {
+        "that": 1
+      },
+      "sentence": {
+        "may": 1
+      },
+      "begin": {
+        "with": 1
+      },
+      "toward": {
+        "evening": 1
+      },
+      "there": {
+        "was": 1
+      },
+      "heavy": {
+        "rain": 1
+      },
+      "day": {
+        "between": 1
+      },
+      "afternoon": {
+        "and": 1
+      },
+      "garden": {
+        "—": 1
+      },
+      "—": {
+        "this": 1
+      },
+      "year": {
+        "i": 1
+      },
+      "'m": {
+        "going": 1
+      },
+      "going": {
+        "to": 1
+      },
+      "plant": {
+        "some": 1
+      },
+      "outdoor": {
+        "area": 1
+      },
+      "area": {
+        "containing": 1
+      },
+      "containing": {
+        "one": 1
+      },
+      "one": {
+        "or": 1
+      },
+      "types": {
+        "of": 1
+      },
+      "usually": {
+        "plants": 1
+      },
+      "plants": {
+        "grown": 1
+      },
+      "grown": {
+        "for": 1
+      },
+      "food": {
+        "or": 1
+      },
+      "ornamental": {
+        "purposes": 1
+      },
+      "our": {
+        "school": 1
+      },
+      "school": {
+        "a": 1
+      },
+      "typical": {
+        "working": 1
+      },
+      "working": {
+        "week": 1
+      },
+      "week": {
+        "consists": 1
+      },
+      "consists": {
+        "of": 1
+      },
+      "around": {
+        "twenty": 1
+      },
+      "twenty": {
+        "lessons": 1
+      },
+      "lessons": {
+        "and": 1
+      },
+      "ten": {
+        "hours": 1
+      },
+      "hours": {
+        "of": 1
+      },
+      "related": {
+        "laboratory": 1
+      },
+      "laboratory": {
+        "work": 1
+      },
+      "instruct": {
+        "to": 1
+      },
+      "present": {
+        "participle": 1
+      },
+      "participle": {
+        "and": 1
+      },
+      "gerund": {
+        "of": 1
+      },
+      "something": {
+        "that": 1
+      },
+      "provides": {
+        "a": 1
+      },
+      "definitive": {
+        "characterization": 1
+      },
+      "characterization": {
+        "or": 1
+      },
+      "attributes": {
+        "of": 1
+      },
+      "specified": {
+        "entity": 1
       }
     },
     "starters": {
-      "i": 10,
+      "i": 17,
       "how": 2,
-      "what": 3,
-      "<NOUN>": 11,
-      "the": 5,
+      "what": 4,
+      "<NOUN>": 22,
+      "the": 11,
       "she": 3,
-      "we": 2,
-      "it": 5,
-      "<VERB>": 5,
+      "we": 3,
+      "it": 8,
+      "<VERB>": 8,
       "can": 1,
-      "my": 2,
+      "my": 3,
       "why": 1,
       "they": 1,
-      "he": 1,
+      "he": 3,
       "where": 1,
-      "<ADJ>": 1,
+      "<ADJ>": 5,
       "please": 1,
-      "that": 1,
+      "that": 3,
       "if": 1,
       "although": 1,
-      "a": 2,
+      "a": 4,
       "does": 1,
       "who": 1,
-      "when": 1,
-      "you": 1
+      "when": 3,
+      "you": 1,
+      "<ADV>": 3,
+      "an": 2,
+      "however": 1,
+      "in": 7,
+      "for": 1,
+      "toward": 1,
+      "<PART>": 1,
+      "something": 1
     },
     "connectors": {
-      "because": 2,
-      "or": 1,
-      "and": 4,
-      "but": 2,
+      "because": 3,
+      "or": 20,
+      "and": 30,
+      "but": 5,
       "so": 1,
-      "while": 1
+      "while": 1,
+      "than": 1,
+      "therefore": 1,
+      "if": 1,
+      "as": 3,
+      "however": 1,
+      "whether": 1,
+      "that": 1,
+      "yet": 1
     },
     "connector_pairs": {
       "NOUN>PRON": {
@@ -11460,13 +14995,19 @@
         "so": 1
       },
       "NOUN>DET": {
-        "or": 1
+        "or": 1,
+        "and": 3,
+        "but": 2,
+        "if": 1
       },
       "NOUN>NOUN": {
-        "and": 1
+        "and": 13,
+        "or": 9,
+        "as": 1
       },
       "NOUN>VERB": {
-        "and": 1
+        "and": 2,
+        "or": 1
       },
       "ADJ>PRON": {
         "but": 1
@@ -11477,6 +15018,60 @@
         "while": 1
       },
       "ADJ>ADJ": {
+        "and": 3,
+        "or": 1
+      },
+      "ADJ>NOUN": {
+        "and": 1
+      },
+      "ADV>ADV": {
+        "or": 1
+      },
+      "ADJ>ADV": {
+        "and": 1
+      },
+      "VERB>VERB": {
+        "or": 1
+      },
+      "NOUN>ADJ": {
+        "and": 3,
+        "than": 1,
+        "or": 3,
+        "whether": 1
+      },
+      "MODAL>NOUN": {
+        "therefore": 1
+      },
+      "NOUN>WH": {
+        "because": 1
+      },
+      "NOUN>PREP": {
+        "and": 1
+      },
+      "VERB>DET": {
+        "as": 1,
+        "that": 1
+      },
+      "NOUN>PUNCT": {
+        "however": 1
+      },
+      "NUM>NOUN": {
+        "or": 2
+      },
+      "DET>NOUN": {
+        "as": 1
+      },
+      "VERB>PUNCT": {
+        "and": 1
+      },
+      "CONJ>PUNCT": {
+        "but": 1,
+        "yet": 1
+      },
+      "CONJ>CONJ": {
+        "or": 1
+      },
+      "NOUN>NUM": {
         "and": 1
       }
     },
@@ -11756,6 +15351,34 @@
           "VERBS"
         ],
         "ex": "She sings while she works."
+      },
+      "a {NOUN} itself was then {VERBED} a {ADJ}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "NOUN",
+          "VERBED",
+          "ADJ"
+        ],
+        "ex": "A conjunction itself was then called a connective ."
+      },
+      "when will the {NOUN} {VERB}?": {
+        "n": 1,
+        "form": "question",
+        "slots": [
+          "NOUN",
+          "VERB"
+        ],
+        "ex": "When will the lesson begin?"
+      },
+      "to {VERB} to {VERB}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "VERB",
+          "VERB"
+        ],
+        "ex": "To instruct to teach ."
       }
     },
     "clause_templates": {
@@ -11768,7 +15391,13 @@
       "PRON VERB | because | PRON AUX ADJ": 1,
       "PRON AUX VERB PART VERB | and | PRON VERB DET NOUN": 1,
       "PRON VERB ADJ | and | ADJ": 1,
-      "PRON VERB | while | PRON VERB": 1
+      "PRON VERB | while | PRON VERB": 1,
+      "PRON VERB ADJ | and | NOUN": 1,
+      "PRON MODAL CONJ NOUN WH NOUN | and | NOUN PREP NOUN ADJ NOUN": 1,
+      "DET NOUN PREP NOUN PREP NOUN | and | NOUN": 1,
+      "PREP DET NOUN DET ADJ VERB NOUN PREP NOUN | and | NUM NOUN PREP VERB NOUN VERB": 1,
+      "ADJ NOUN | and | NOUN PREP NOUN": 1,
+      "PRON DET NOUN DET ADJ NOUN CONJ NOUN PREP DET NOUN | and | NOUN PREP DET ADJ NOUN": 1
     },
     "sentence_bank": {
       "happy": [
@@ -11796,9 +15425,9 @@
         "I want to understand how the mind works."
       ],
       "learn": [
-        "We learn because we are curious.",
-        "Although it is difficult, learning is rewarding.",
-        "I am learning to speak, and I practise every day."
+        "I am learning to speak, and I practise every day.",
+        "Learning is the process of acquiring new knowledge, behaviours or skills through experience, study or teaching.",
+        "In machine learning, a neural network or artificial neural network is a computational model inspired by the structure and functions of biological neural networks."
       ],
       "go": [
         "She went to the market because she needed bread."
@@ -11828,7 +15457,8 @@
         "The old man told a funny story."
       ],
       "more": [
-        "Can you tell me more about that?"
+        "Can you tell me more about that?",
+        "I need some more information about this issue."
       ],
       "questions": [
         "Learning is fun when the questions are good.",
@@ -11858,7 +15488,8 @@
       ],
       "think": [
         "I think that is a good idea.",
-        "What do you think about this story?"
+        "What do you think about this story?",
+        "I thought long and deep ."
       ],
       "good": [
         "I think that is a good idea.",
@@ -11890,7 +15521,8 @@
         "It was a quiet evening, so we stayed at home."
       ],
       "evening": [
-        "It was a quiet evening, so we stayed at home."
+        "It was a quiet evening, so we stayed at home.",
+        "Toward evening , there was heavy rain."
       ],
       "open": [
         "He opened the book and began to read."
@@ -11900,7 +15532,8 @@
         "What is your favourite book?"
       ],
       "love": [
-        "I love to explore new ideas."
+        "I love to explore new ideas.",
+        "I love to garden —this year I'm going to plant some daffodils."
       ],
       "explore": [
         "I love to explore new ideas."
@@ -11961,13 +15594,16 @@
         "The old man told a funny story."
       ],
       "understand": [
-        "I want to understand how the mind works."
+        "I want to understand how the mind works.",
+        "Understanding these principles requires exploring how entropy and thermodynamic efficiency constrain information processing across both biological nervous systems and distributed computing architectures."
       ],
       "garden": [
-        "Does the dog like the garden?"
+        "Does the dog like the garden?",
+        "I love to garden —this year I'm going to plant some daffodils."
       ],
       "make": [
-        "Who made this beautiful picture?"
+        "Who made this beautiful picture?",
+        "I just made an update to my blog about my trip to Rome."
       ],
       "beautiful": [
         "Who made this beautiful picture?"
@@ -12004,20 +15640,262 @@
       ],
       "work": [
         "She sings while she works."
+      ],
+      "lake": [
+        "The lake is extremely deep ."
+      ],
+      "deep": [
+        "The lake is extremely deep ."
+      ],
+      "ogre": [
+        "The ogre lived in a cave deep underground."
+      ],
+      "liv": [
+        "The ogre lived in a cave deep underground."
+      ],
+      "long": [
+        "I thought long and deep ."
+      ],
+      "extending": [
+        "Extending, reaching or positioned far from a point of reference, especially downwards.",
+        "Extending far down from the top , or surface , to the bottom , literally or figuratively."
+      ],
+      "reaching": [
+        "Extending, reaching or positioned far from a point of reference, especially downwards."
+      ],
+      "surface": [
+        "Extending far down from the top , or surface , to the bottom , literally or figuratively."
+      ],
+      "engine": [
+        "The engine runs better now that I've given it some oil."
+      ],
+      "runs": [
+        "The engine runs better now that I've given it some oil."
+      ],
+      "update": [
+        "I just made an update to my blog about my trip to Rome.",
+        "He gave me an update on the situation in New York.",
+        "I need to update my records to take account of the most recent transaction."
+      ],
+      "give": [
+        "He gave me an update on the situation in New York."
+      ],
+      "need": [
+        "I need to update my records to take account of the most recent transaction.",
+        "I need some more information about this issue."
+      ],
+      "additional": [
+        "An additional piece of information, an addition to existing information."
+      ],
+      "piece": [
+        "An additional piece of information, an addition to existing information."
+      ],
+      "process": [
+        "Learning is the process of acquiring new knowledge, behaviours or skills through experience, study or teaching."
+      ],
+      "feedback": [
+        "Feedback and repetition strengthen the neural connections involved."
+      ],
+      "repetition": [
+        "Feedback and repetition strengthen the neural connections involved."
+      ],
+      "form": [
+        "A form of 'lern': pronunciation spelling of learn ."
+      ],
+      "lern": [
+        "A form of 'lern': pronunciation spelling of learn ."
+      ],
+      "architecture": [
+        "The architecture of artificial neural networks relies on the continuous adjustment of synaptic weights through backpropagation, which computes error gradients backwards across multi-layer perceptrons."
+      ],
+      "artificial": [
+        "The architecture of artificial neural networks relies on the continuous adjustment of synaptic weights through backpropagation, which computes error gradients backwards across multi-layer perceptrons."
+      ],
+      "investigate": [
+        "We must therefore investigate how backpropagation and neuroplasticity intersect within complex adaptive systems."
+      ],
+      "backpropagation": [
+        "We must therefore investigate how backpropagation and neuroplasticity intersect within complex adaptive systems."
+      ],
+      "furthermore": [
+        "Furthermore, both biological and artificial intelligence process information in ways that mirror Shannon's information entropy, where uncertainty is reduced through hierarchical feature extraction."
+      ],
+      "biological": [
+        "Furthermore, both biological and artificial intelligence process information in ways that mirror Shannon's information entropy, where uncertainty is reduced through hierarchical feature extraction."
+      ],
+      "principles": [
+        "Understanding these principles requires exploring how entropy and thermodynamic efficiency constrain information processing across both biological nervous systems and distributed computing architectures."
+      ],
+      "entropy": [
+        "Entropy is a thermodynamic state variable that quantifies the probabilistic distribution of accessible microstates in a system."
+      ],
+      "thermodynamic": [
+        "Entropy is a thermodynamic state variable that quantifies the probabilistic distribution of accessible microstates in a system."
+      ],
+      "gradient": [
+        "Gradient descent is a method for unconstrained mathematical optimization."
+      ],
+      "descent": [
+        "Gradient descent is a method for unconstrained mathematical optimization."
+      ],
+      "first-order": [
+        "It is a first-order iterative algorithm for minimizing a differentiable multivariate function."
+      ],
+      "iterative": [
+        "It is a first-order iterative algorithm for minimizing a differentiable multivariate function."
+      ],
+      "machine": [
+        "In machine learning, a neural network or artificial neural network is a computational model inspired by the structure and functions of biological neural networks."
+      ],
+      "commas": [
+        "Commas are often used to separate clauses ."
+      ],
+      "used": [
+        "Commas are often used to separate clauses ."
+      ],
+      "conjunction": [
+        "A conjunction itself was then called a connective ."
+      ],
+      "call": [
+        "A conjunction itself was then called a connective ."
+      ],
+      "agre": [
+        "It is now generally agreed that a sentence may begin with a coordinating conjunction like and , but, or yet ."
+      ],
+      "sentence": [
+        "It is now generally agreed that a sentence may begin with a coordinating conjunction like and , but, or yet ."
+      ],
+      "heavy": [
+        "Toward evening , there was heavy rain."
+      ],
+      "time": [
+        "The time of day between afternoon and night ."
+      ],
+      "afternoon": [
+        "The time of day between afternoon and night ."
+      ],
+      "outdoor": [
+        "An outdoor area containing one or more types of plants , usually plants grown for food or ornamental purposes."
+      ],
+      "area": [
+        "An outdoor area containing one or more types of plants , usually plants grown for food or ornamental purposes."
+      ],
+      "school": [
+        "In our school a typical working week consists of around twenty lessons and ten hours of related laboratory work."
+      ],
+      "typical": [
+        "In our school a typical working week consists of around twenty lessons and ten hours of related laboratory work."
+      ],
+      "provides": [
+        "Something that provides a definitive characterization or description of the nature and attributes of a specified entity ."
+      ],
+      "definitive": [
+        "Something that provides a definitive characterization or description of the nature and attributes of a specified entity ."
       ]
     }
   },
   "language_meta": {
-    "failed": {},
+    "failed": {
+      "matchine": 1792789385.8849027,
+      "wnat": 1792789475.3338933,
+      "matchines": 1792789477.8623104,
+      "knoledge": 1792789568.9288018
+    },
     "pending_words": [
-      "evening",
-      "garden",
-      "lesson"
+      "matchine",
+      "knowledge",
+      "pronunciation",
+      "spelling",
+      "neural",
+      "synaptic",
+      "backpropagation",
+      "neuroplasticity",
+      "complex",
+      "biological",
+      "artificial",
+      "process",
+      "thermodynamic",
+      "efficiency",
+      "systems",
+      "thermodynamics",
+      "principles",
+      "physics",
+      "network",
+      "networks",
+      "gradient",
+      "descent",
+      "state",
+      "variable",
+      "quantifies",
+      "probabilistic",
+      "distribution",
+      "accessible",
+      "microstates",
+      "system",
+      "machine",
+      "computational",
+      "model",
+      "inspired",
+      "structure",
+      "functions",
+      "method",
+      "unconstrained",
+      "mathematical",
+      "optimization",
+      "description",
+      "speech",
+      "conjunction",
+      "preposition",
+      "left",
+      "conjuncts",
+      "used",
+      "clauses",
+      "separate",
+      "clause",
+      "dependent",
+      "called",
+      "term",
+      "century",
+      "conjunctions",
+      "more",
+      "syntax",
+      "items",
+      "join",
+      "independent",
+      "begin",
+      "coordinating",
+      "mother",
+      "cooks",
+      "dinner",
+      "night",
+      "plants",
+      "nature"
     ],
     "names": [],
-    "lessons": 0,
-    "topic_cursor": 0,
+    "lessons": 1,
+    "topic_cursor": 11,
     "taught": 0,
-    "last_lesson": ""
+    "last_lesson": "2026-10-23 21:12:44",
+    "pending_concepts": [
+      "complex adaptive systems",
+      "distributed computing architectures",
+      "multi-layer perceptrons",
+      "artificial intelligence",
+      "non-linear dynamics",
+      "information entropy",
+      "export entropy",
+      "backpropagation",
+      "neuroplasticity",
+      "equilibrium",
+      "dissipative"
+    ],
+    "recent_concepts": [
+      "thermodynamic efficiency constrain",
+      "artificial neural networks",
+      "global gradient descent",
+      "complex adaptive systems",
+      "distributed computing architectures",
+      "multi-layer perceptrons"
+    ]
   }
 }
