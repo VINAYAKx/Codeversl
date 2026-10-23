@@ -2997,8 +2997,8 @@ def colab_textarea() -> Optional[str]:
     """Colab's input() box is one line and browsers cut pasted newlines; a real text area has no such limit.
     Returns None outside Colab (or if the box cannot be shown) so the caller falls back to line-by-line paste mode."""
     try:
-        from google.colab import output as colab_output          # exists only inside Colab
-        from IPython.display import HTML, Javascript, display
+        from google.colab import output as colab_output  # type: ignore          # exists only inside Colab
+        from IPython.display import HTML, Javascript, display  # type: ignore
     except Exception:
         return None
     try:
@@ -4555,7 +4555,7 @@ def _idea_pair(c1: List[str], c2: List[str], n1: str, n2: str) -> Tuple[str, str
     return options1[-1], options2[-1]
 
 
-def daydream(self: "DefaultModeNetwork") -> Optional[Dict[str, Any]]:
+def daydream(self: Any) -> Optional[Dict[str, Any]]:
     """A grounded daydream: two substantive topics that share something, never the same pair twice, never proper-name noise."""
     facts = self.memory.facts
     meta = self.memory.data.setdefault("language_meta", {})
