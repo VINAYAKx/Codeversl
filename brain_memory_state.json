@@ -2,7 +2,7 @@
   "meta": {
     "created": "2026-10-20 15:07:00",
     "creator_signature": "677a410903a19f3307ea34c4701fe4dbd912e9262a0208612c61372d4a47b330",
-    "last_interaction": 1792791689.490828,
+    "last_interaction": 1792799175.3778977,
     "sleep_cycles": 26,
     "births": 1
   },
@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.15,
+    "adenosine": 0.25,
     "newborn": false
   },
   "episodic_memory": [
@@ -2821,6 +2821,13 @@
       "text": "My thoughts are swimming, so I am taking a micro-nap to consolidate what I learned. Sleep cycle #26 complete: pruned 10 noisy memories, kept 400 episodes and 116 world facts; adenosine flushed to 0.10, cortisol lowered, state saved. I feel refreshed and clear again, because sleep rebuilt my focus.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-23 23:46:02",
+      "speaker": "brain",
+      "text": "I practised my English because I want to talk with you more naturally. I learned 6 new words: 'conjunction' (a noun) means the act of joining , or condition of being joined; 'preposition' (a noun) means any of a class of non- inflecting words and multiword terms typically employed to connect; 'left' (an adjective) means designating the side of the body toward the west when one is facing north ; the side of th; 'conjuncts' (a noun) means plural of conjunct and 2 more. I also read about 'Dialogue'. Now I know 272 words, I have studied 343 sentences, and I have 38 sentence patterns.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
     }
   ],
   "world_knowledge_graph": {
@@ -5610,6 +5617,47 @@
         "{{cite journal}}",
         "|citeseerx="
       ]
+    },
+    "Idiom": {
+      "summary": "In programming and in code , an idiom describes a commonly-used way to code a relatively small construct in a particular programming context (i.e. programming language ). Many such constructs are found in multiple programming contexts yet tend to vary by context. Like a linguistic idiom , a programming idiom is a commonly-used way to express a concept in a language that exists outside the definition of the language yet is constrained by it. Similar to a software design pattern , an idiom is a template to be followed, not code that can be copy-and-pasted into a codebase .",
+      "concepts": [
+        "commonly-used",
+        "copy-and-pasted"
+      ],
+      "source": "Wikipedia article + DuckDuckGo tutorials (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Programming_idiom",
+      "learned": "2026-10-23 23:46:05",
+      "subtopics": {
+        "Writing to standard output": "Writing to standard output is generally something covered early when learning a language; it is often presented through the task of writing a hello world program .",
+        "Using dynamic memory": "In C , use the C dynamic memory allocation functions such as malloc() and free() . In C++ , use the new and delete operators. The C dynamic memory allocation functions are usable in C++, but would generally be considered idiosyncratic.",
+        "Web tutorial notes": "Learn LOTS of common idioms in English, with examples of how these expressions are used by native English speakers. English can be pretty difficult to learn. Literal English is hard enough, but once idioms and other figurative language are included, it can seem downright impossible. Luckily, there are guides like this one to help! Following are some idiom examples with their meanings you can use in your daily conversation. Let's get the ball rolling! Idioms are an integral part of any language, and English is no exception. These phrases, which cannot be understood literally, add color and nuance to our communication and often have a cultural or historical significance."
+      },
+      "code_examples": [
+        "std::println(\"Hello World\");",
+        "System.out.println(\"Hello World\");",
+        "println!(\"Hello World\");",
+        "print(\"Hello, World\")"
+      ],
+      "building_blocks": [
+        "delete",
+        "free()",
+        "malloc()",
+        "new"
+      ]
+    },
+    "Interjection": {
+      "summary": "Wow, oops, alas - interjections carry emotion that grammar alone cannot. See the types, 130+ examples , punctuation rules and practice exercises. Contexts for Interjections Interjections are most commonly used in informal speech and writing, such as casual conversations, personal emails, and creative writing. While they can be used in formal contexts, their usage should be carefully considered to avoid undermining the seriousness or professionalism of the communication. Interjections are words used to express feelings or emotions, such as surprise, joy, disgust, excitement, and enthusiasm. An interjection is usually written at the start of a sentence.",
+      "concepts": [
+        "interjections",
+        "punctuation",
+        "professionalism"
+      ],
+      "source": "DuckDuckGo tutorials (live internet)",
+      "url": "https://grammarsolutionhub.com/interjections-definition-and-examples/",
+      "learned": "2026-10-23 23:46:14",
+      "subtopics": {
+        "Web tutorial notes": "Wow, oops, alas - interjections carry emotion that grammar alone cannot. See the types, 130+ examples , punctuation rules and practice exercises. Contexts for Interjections Interjections are most commonly used in informal speech and writing, such as casual conversations, personal emails, and creative writing. While they can be used in formal contexts, their usage should be carefully considered to avoid undermining the seriousness or professionalism of the communication. Interjections are words used to express feelings or emotions, such as surprise, joy, disgust, excitement, and enthusiasm. An interjection is usually written at the start of a sentence."
+      }
     }
   },
   "creator_teachings": [
@@ -7143,6 +7191,12 @@
       "kind": "nap",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-23 23:46:02",
+      "kind": "language_lesson",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -7178,7 +7232,9 @@
     "politeness",
     "vocabulary",
     "export entropy",
-    "dialogue"
+    "dialogue",
+    "idiom",
+    "interjection"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -12838,114 +12894,324 @@
       "tags": []
     },
     "separate": {
-      "part_of_speech": "verb",
-      "definition": "",
+      "part_of_speech": "noun",
+      "definition": "(usually in the plural) Anything that is sold by itself, especially an article of clothing.",
       "all_pos": [
-        "verb"
+        "noun",
+        "verb",
+        "adjective"
       ],
-      "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-23 21:12:37",
-      "uses": 1
+      "synonyms": [
+        "split up",
+        "tear apart",
+        "partition",
+        "split",
+        "break down",
+        "come apart",
+        "disintegrate",
+        "fall apart"
+      ],
+      "example_sentences": [
+        "Separate the articles from the headings.",
+        "This chair can be disassembled into five separate pieces.",
+        "I try to keep my personal life separate from work."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "(usually in the plural) Anything that is sold by itself, especially an article of clothing.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To divide (a thing) into separate parts.",
+          "example": "Separate the articles from the headings."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To disunite from a group or mass; to disconnect.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Apart from (the rest); not connected to or attached to (anything else).",
+          "example": "This chair can be disassembled into five separate pieces."
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "(followed by “from”) Not together (with); not united (to).",
+          "example": "I try to keep my personal life separate from work."
+        }
+      ],
+      "phonetic": "",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1,
+      "tags": []
     },
     "clause": {
       "part_of_speech": "noun",
-      "definition": "",
+      "definition": "A group of words that contains a subject and a verb ; it may be part of a sentence or may constitute the whole sentence, depending on the syntax in each instance.",
       "all_pos": [
-        "noun"
-      ],
-      "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-23 21:12:37",
-      "uses": 1
-    },
-    "dependent": {
-      "part_of_speech": "adjective",
-      "definition": "",
-      "all_pos": [
-        "adjective"
-      ],
-      "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-23 21:12:37",
-      "uses": 1
-    },
-    "called": {
-      "part_of_speech": "verb",
-      "definition": "",
-      "all_pos": [
+        "noun",
         "verb"
       ],
       "synonyms": [],
+      "example_sentences": [],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "A group of words that contains a subject and a verb ; it may be part of a sentence or may constitute the whole sentence, depending on the syntax in each instance.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To amend (a bill of lading or similar document).",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "wiktionary",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1,
+      "tags": []
+    },
+    "dependent": {
+      "part_of_speech": "adjective",
+      "definition": "Relying upon; depending upon.",
+      "all_pos": [
+        "adjective",
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "At that point I was dependent on financial aid for my tuition.",
+        "With two children and an ailing mother, she had three dependents in all."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "adjective",
+          "definition": "Relying upon; depending upon.",
+          "example": "At that point I was dependent on financial aid for my tuition."
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Having a probability that is affected by the outcome of a separate event.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "A person who relies on another for support or sustenance, particularly financial support.",
+          "example": "With two children and an ailing mother, she had three dependents in all."
+        }
+      ],
+      "phonetic": "",
+      "source": "wiktionary",
+      "learned": "2026-10-23 23:46:12",
+      "uses": 1,
+      "tags": []
+    },
+    "called": {
+      "part_of_speech": "verb",
+      "definition": "(heading) To use one's voice.",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [
+        "drop a line",
+        "ring",
+        "holler",
+        "yell",
+        "designate",
+        "dub",
+        "name",
+        "augur"
+      ],
       "example_sentences": [
         "A conjunction itself was then called a connective ."
       ],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-23 21:12:37",
-      "uses": 1
+      "meanings": [
+        {
+          "part_of_speech": "verb",
+          "definition": "(heading) To use one's voice.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "(heading) To visit.",
+          "example": ""
+        }
+      ],
+      "phonetic": "[kɔld]",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-10-23 23:46:12",
+      "uses": 1,
+      "tags": []
     },
     "term": {
       "part_of_speech": "noun",
-      "definition": "",
+      "definition": "That which limits the extent of anything; limit, extremity, bound, boundary.",
       "all_pos": [
-        "noun"
+        "noun",
+        "verb",
+        "adjective"
       ],
-      "synonyms": [],
+      "synonyms": [
+        "designate",
+        "dub",
+        "name",
+        "axe",
+        "fire",
+        "sack"
+      ],
       "example_sentences": [
+        "\"Alright, look...we can spend the holidays with your parents, but this time it will be on my terms.\"",
+        "The term of a lease agreement is the period of time during which the lease is effective, and may be fixed, periodic, or of indefinite duration.",
+        "term neonate",
         "That archaic term, however, diminished in usage during the early 20th century."
       ],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-23 21:12:37",
-      "uses": 1
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "That which limits the extent of anything; limit, extremity, bound, boundary.",
+          "example": "\"Alright, look...we can spend the holidays with your parents, but this time it will be on my terms.\""
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "A chronological limitation or restriction.",
+          "example": "The term of a lease agreement is the period of time during which the lease is effective, and may be fixed, periodic, or of indefinite duration."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To phrase a certain way; to name or call.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Born or delivered at term.",
+          "example": "term neonate"
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "A computer program that emulates a physical terminal.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "One whose employment has been terminated",
+          "example": ""
+        }
+      ],
+      "phonetic": "/tɜːm/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-10-23 23:46:12",
+      "uses": 1,
+      "tags": []
     },
     "century": {
       "part_of_speech": "noun",
-      "definition": "",
+      "definition": "A period of 100 consecutive years; often specifically a numbered period with conventional start and end dates, e.g., the twentieth century, which stretches from (strictly) 1901 through 2000, or (informally) 1900 through 1999. The first century AD was from 1 to 100.",
       "all_pos": [
+        "noun"
+      ],
+      "synonyms": [
+        "centuria",
+        "yearhundred"
+      ],
+      "example_sentences": [
+        "That archaic term, however, diminished in usage during the early 20th century."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "A period of 100 consecutive years; often specifically a numbered period with conventional start and end dates, e.g., the twentieth century, which stretches from (strictly) 1901 through 2000, or (informally) 1900 through 1999. The first century AD was from 1 to 100.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "A unit in ancient Roman army, originally of 100 army soldiers as part of a cohort, later of more varied sizes (but typically containing 60 to 70 or 80) soldiers or other men (guards, police, firemen), commanded by a centurion.",
+          "example": ""
+        }
+      ],
+      "phonetic": "/ˈsɛn.t͡ʃə.ɹiː/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-10-23 23:46:12",
+      "uses": 1,
+      "tags": []
+    },
+    "conjunctions": {
+      "part_of_speech": "noun",
+      "definition": "plural of conjunction",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "plural of conjunction",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "wiktionary",
+      "learned": "2026-10-23 23:46:13",
+      "uses": 1,
+      "tags": []
+    },
+    "more": {
+      "part_of_speech": "adverb",
+      "definition": "To a greater degree or extent.",
+      "all_pos": [
+        "adverb",
+        "pronoun",
         "noun"
       ],
       "synonyms": [],
       "example_sentences": [
-        "That archaic term, however, diminished in usage during the early 20th century."
+        "I could no more climb that than fly!",
+        "You're more beautiful than I ever imagined.",
+        "There isn't enough salt in this. You need to add more.",
+        "There aren't many people here yet, but more should be arriving soon."
       ],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-23 21:12:37",
-      "uses": 1
-    },
-    "conjunctions": {
-      "part_of_speech": "noun",
-      "definition": "",
-      "all_pos": [
-        "noun"
+      "meanings": [
+        {
+          "part_of_speech": "adverb",
+          "definition": "To a greater degree or extent.",
+          "example": "I could no more climb that than fly!"
+        },
+        {
+          "part_of_speech": "adverb",
+          "definition": "Used to form the comparative form of adjectives and adverbs.",
+          "example": "You're more beautiful than I ever imagined."
+        },
+        {
+          "part_of_speech": "pronoun",
+          "definition": "A greater number or quantity (of something).",
+          "example": "There isn't enough salt in this. You need to add more."
+        },
+        {
+          "part_of_speech": "pronoun",
+          "definition": "An extra or additional quantity (of something).",
+          "example": "There aren't many people here yet, but more should be arriving soon."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "A carrot; a parsnip.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "A root; stock.",
+          "example": ""
+        }
       ],
-      "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-23 21:12:37",
-      "uses": 1
-    },
-    "more": {
-      "part_of_speech": "noun",
-      "definition": "",
-      "all_pos": [
-        "noun"
-      ],
-      "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-23 21:12:37",
-      "uses": 1
+      "phonetic": "/ˈmɔː/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-10-23 23:46:13",
+      "uses": 1,
+      "tags": []
     },
     "syntax": {
       "part_of_speech": "noun",
@@ -17075,19 +17341,873 @@
       "source": "corpus",
       "learned": "2026-10-23 23:46:02",
       "uses": 1
+    },
+    "multiple": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Many such constructs are found in multiple programming contexts yet tend to vary by context."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1
+    },
+    "contexts": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Many such constructs are found in multiple programming contexts yet tend to vary by context."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1
+    },
+    "idiom": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1
+    },
+    "definition": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1
+    },
+    "software": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Similar to a software design pattern , an idiom is a template to be followed, not code that can be copy-and-pasted into a codebase ."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1
+    },
+    "design": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Similar to a software design pattern , an idiom is a template to be followed, not code that can be copy-and-pasted into a codebase ."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1
+    },
+    "delete": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "In C++ , use the new and delete operators."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1
+    },
+    "dynamic": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The C dynamic memory allocation functions are usable in C++, but would generally be considered idiosyncratic."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1
+    },
+    "allocation": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The C dynamic memory allocation functions are usable in C++, but would generally be considered idiosyncratic."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1
+    },
+    "considered": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The C dynamic memory allocation functions are usable in C++, but would generally be considered idiosyncratic."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1
+    },
+    "common": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Learn LOTS of common idioms in English, with examples of how these expressions are used by native English speakers."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1
+    },
+    "expressions": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Learn LOTS of common idioms in English, with examples of how these expressions are used by native English speakers."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1
+    },
+    "native": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Learn LOTS of common idioms in English, with examples of how these expressions are used by native English speakers."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1
+    },
+    "idioms": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Literal English is hard enough, but once idioms and other figurative language are included, it can seem downright impossible."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1
+    },
+    "seem": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Literal English is hard enough, but once idioms and other figurative language are included, it can seem downright impossible."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1
+    },
+    "impossible": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Literal English is hard enough, but once idioms and other figurative language are included, it can seem downright impossible."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1
+    },
+    "literally": {
+      "part_of_speech": "adverb",
+      "definition": "",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "These phrases, which cannot be understood literally, add color and nuance to our communication and often have a cultural or historical significance."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1
+    },
+    "add": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "These phrases, which cannot be understood literally, add color and nuance to our communication and often have a cultural or historical significance."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1
+    },
+    "cultural": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "These phrases, which cannot be understood literally, add color and nuance to our communication and often have a cultural or historical significance."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1
+    },
+    "articles": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1
+    },
+    "especially": {
+      "part_of_speech": "adverb",
+      "definition": "",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:05",
+      "uses": 1
+    },
+    "children": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:12",
+      "uses": 1
+    },
+    "connective": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:12",
+      "uses": 1
+    },
+    "archaic": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:12",
+      "uses": 1
+    },
+    "diminished": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:12",
+      "uses": 1
+    },
+    "usage": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:12",
+      "uses": 1
+    },
+    "fly": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:13",
+      "uses": 1
+    },
+    "extent": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:13",
+      "uses": 1
+    },
+    "alone": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Wow, oops, alas - interjections carry emotion that grammar alone cannot."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "cannot": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Wow, oops, alas - interjections carry emotion that grammar alone cannot."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "rules": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "See the types, 130+ examples , punctuation rules and practice exercises."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "commonly": {
+      "part_of_speech": "adverb",
+      "definition": "",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "informal": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "personal": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "formal": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "interjections": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Interjections are words used to express feelings or emotions, such as surprise, joy, disgust, excitement, and enthusiasm."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "express": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Interjections are words used to express feelings or emotions, such as surprise, joy, disgust, excitement, and enthusiasm."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "emotions": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Interjections are words used to express feelings or emotions, such as surprise, joy, disgust, excitement, and enthusiasm."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "alas": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Wow, oops, alas - interjections carry emotion that grammar alone cannot."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "carry": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Wow, oops, alas - interjections carry emotion that grammar alone cannot."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "emotion": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Wow, oops, alas - interjections carry emotion that grammar alone cannot."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "punctuation": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "See the types, 130+ examples , punctuation rules and practice exercises."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "practice": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "See the types, 130+ examples , punctuation rules and practice exercises."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "exercises": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "See the types, 130+ examples , punctuation rules and practice exercises."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "casual": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "emails": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "creative": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "carefully": {
+      "part_of_speech": "adverb",
+      "definition": "",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "avoid": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "undermining": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "seriousness": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "professionalism": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "feelings": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Interjections are words used to express feelings or emotions, such as surprise, joy, disgust, excitement, and enthusiasm."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "surprise": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Interjections are words used to express feelings or emotions, such as surprise, joy, disgust, excitement, and enthusiasm."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "joy": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Interjections are words used to express feelings or emotions, such as surprise, joy, disgust, excitement, and enthusiasm."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "disgust": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Interjections are words used to express feelings or emotions, such as surprise, joy, disgust, excitement, and enthusiasm."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "excitement": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Interjections are words used to express feelings or emotions, such as surprise, joy, disgust, excitement, and enthusiasm."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "enthusiasm": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Interjections are words used to express feelings or emotions, such as surprise, joy, disgust, excitement, and enthusiasm."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "interjection": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "An interjection is usually written at the start of a sentence."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
+    },
+    "start": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "An interjection is usually written at the start of a sentence."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-23 23:46:14",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 343,
-      "tokens": 5591,
+      "sentences": 384,
+      "tokens": 6252,
       "sources": {
         "seed corpus": 64,
         "conversation": 7,
-        "dictionary": 110,
+        "dictionary": 124,
         "explore": 41,
         "pasted text": 24,
-        "deep study": 97
+        "deep study": 124
       },
       "hashes": [
         "81a727acd3c7",
@@ -17193,10 +18313,20 @@
         "e396bde5949c",
         "20c3ddd05816",
         "7decfcc115fd",
-        "1867c99034a2"
+        "1867c99034a2",
+        "136ed93dadc1",
+        "1f32184645a6",
+        "d0680b341f16",
+        "6d2ae593bc33",
+        "2efa6daa4031",
+        "5f3d31e769ca",
+        "acc94298615d",
+        "a95e4ee57032",
+        "725a0b64b804",
+        "ee33b157cdd8"
       ],
       "seeded": true,
-      "rejected": 61,
+      "rejected": 66,
       "vocab_counts": {
         "tool": 1,
         "sharing": 1,
@@ -17209,11 +18339,9 @@
         "shades": 1,
         "curiosity": 1,
         "gift": 1,
-        "alone": 1,
         "explained": 1,
         "walking": 1,
         "park": 1,
-        "children": 1,
         "stayed": 1,
         "opened": 1,
         "lead": 1,
@@ -17228,7 +18356,6 @@
         "picture": 1,
         "practise": 1,
         "favourite": 1,
-        "fly": 1,
         "sings": 1,
         "lake": 1,
         "ogre": 1,
@@ -17236,12 +18363,10 @@
         "underground": 1,
         "reaching": 1,
         "positioned": 1,
-        "especially": 1,
         "downwards": 1,
         "top": 1,
         "surface": 1,
         "bottom": 1,
-        "literally": 1,
         "figuratively": 1,
         "runs": 1,
         "oil": 1,
@@ -17315,7 +18440,6 @@
         "conj": 1,
         "cnj": 1,
         "connects": 1,
-        "contexts": 1,
         "comma": 1,
         "fed": 1,
         "cat": 1,
@@ -17323,10 +18447,6 @@
         "clothes": 1,
         "beginning": 1,
         "element": 1,
-        "connective": 1,
-        "archaic": 1,
-        "diminished": 1,
-        "usage": 1,
         "referential": 1,
         "markers": 1,
         "coordinators": 1,
@@ -17396,7 +18516,6 @@
         "cell": 1,
         "correction": 1,
         "technique": 1,
-        "informal": 1,
         "discourse": 1,
         "cover": 1,
         "topics": 1,
@@ -17490,7 +18609,6 @@
         "complete": 1,
         "removal": 1,
         "probably": 1,
-        "impossible": 1,
         "subverted": 1,
         "emphasis": 1,
         "discussed": 1,
@@ -17519,7 +18637,6 @@
         "situations": 1,
         "latin": 1,
         "lacks": 1,
-        "articles": 1,
         "southern": 1,
         "bound": 1,
         "spot": 1,
@@ -17527,7 +18644,6 @@
         "shift": 1,
         "losing": 1,
         "course": 1,
-        "extent": 1,
         "intended": 1,
         "purpose": 1,
         "conversions": 1,
@@ -17546,11 +18662,9 @@
         "interconnected": 1,
         "nominal": 1,
         "same": 1,
-        "common": 1,
         "frequently": 1,
         "occurring": 1,
         "subjects": 1,
-        "expressions": 1,
         "complements": 1,
         "prepositions": 1,
         "underlined": 1,
@@ -17595,14 +18709,12 @@
         "vast": 1,
         "array": 1,
         "syntactical": 1,
-        "software": 1,
         "ecosystems": 1,
         "rust": 1,
         "advances": 1,
         "safety": 1,
         "further": 1,
         "borrowing": 1,
-        "rules": 1,
         "affine": 1,
         "eliminate": 1,
         "races": 1,
@@ -17675,7 +18787,6 @@
         "raw": 1,
         "execution": 1,
         "speed": 1,
-        "multiple": 1,
         "dispatch": 1,
         "govern": 1,
         "markup": 1,
@@ -17688,7 +18799,6 @@
         "gate": 1,
         "prolog": 1,
         "implements": 1,
-        "formal": 1,
         "calculus": 1,
         "automated": 1,
         "resolution": 1,
@@ -17700,7 +18810,6 @@
         "swift": 1,
         "concise": 1,
         "ios": 1,
-        "native": 1,
         "mobile": 1,
         "replacing": 1,
         "legacy": 1,
@@ -17740,7 +18849,6 @@
         "databases": 1,
         "select": 1,
         "insert": 1,
-        "delete": 1,
         "declarative": 1,
         "statements": 1,
         "along": 1,
@@ -17752,7 +18860,6 @@
         "revised": 1,
         "owes": 1,
         "merely": 1,
-        "add": 1,
         "fifth": 1,
         "criterion": 1,
         "section": 1,
@@ -17799,11 +18906,9 @@
         "put": 1,
         "culturally": 1,
         "phenomenon": 1,
-        "considered": 1,
         "culture": 1,
         "rude": 1,
         "eccentric": 1,
-        "cultural": 1,
         "anthropologists": 1,
         "deriving": 1,
         "cultures": 1,
@@ -17818,7 +18923,6 @@
         "symbol": 1,
         "genteel": 1,
         "upper": 1,
-        "seem": 1,
         "expressing": 1,
         "hedging": 1,
         "indirectness": 1,
@@ -17875,7 +18979,6 @@
         "essential": 1,
         "component": 1,
         "thoughts": 1,
-        "emotions": 1,
         "oral": 1,
         "signed": 1,
         "categorized": 1,
@@ -17887,7 +18990,6 @@
         "broadly": 1,
         "size": 1,
         "differs": 1,
-        "definition": 1,
         "receptive": 1,
         "distinction": 1,
         "lies": 1,
@@ -17911,7 +19013,6 @@
         "progression": 1,
         "recognized": 1,
         "ample": 1,
-        "commonly": 1,
         "encountered": 1,
         "infancy": 1,
         "child": 1,
@@ -17934,7 +19035,6 @@
         "castings": 1,
         "properly": 1,
         "mathematics": 1,
-        "design": 1,
         "operation": 1,
         "sense": 1,
         "verbal": 1,
@@ -18024,222 +19124,276 @@
         "drug": 1,
         "abusers": 1,
         "bought": 1,
-        "car": 1
+        "car": 1,
+        "describes": 1,
+        "construct": 1,
+        "constructs": 1,
+        "tend": 1,
+        "linguistic": 1,
+        "exists": 1,
+        "constrained": 1,
+        "similar": 1,
+        "pattern": 1,
+        "template": 1,
+        "followed": 1,
+        "codebase": 1,
+        "malloc": 1,
+        "operators": 1,
+        "usable": 1,
+        "idiosyncratic": 1,
+        "speakers": 1,
+        "english": 1,
+        "pretty": 1,
+        "literal": 1,
+        "figurative": 1,
+        "included": 1,
+        "downright": 1,
+        "luckily": 1,
+        "guides": 1,
+        "get": 1,
+        "ball": 1,
+        "rolling": 1,
+        "integral": 1,
+        "exception": 1,
+        "color": 1,
+        "nuance": 1,
+        "historical": 1,
+        "significance": 1,
+        "headings": 1,
+        "chair": 1,
+        "disassembled": 1,
+        "pieces": 1,
+        "keep": 1,
+        "sold": 1,
+        "article": 1,
+        "clothing": 1,
+        "financial": 1,
+        "aid": 1,
+        "tuition": 1,
+        "ailing": 1,
+        "heading": 1,
+        "climb": 1,
+        "ever": 1,
+        "imagined": 1,
+        "salt": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 56,
+        "PRON": 60,
         "WH": 14,
-        "NOUN": 69,
-        "DET": 98,
-        "VERB": 20,
+        "NOUN": 78,
+        "DET": 107,
+        "VERB": 25,
         "MODAL": 1,
-        "ADJ": 30,
-        "INTJ": 1,
-        "CONJ": 7,
+        "ADJ": 33,
+        "INTJ": 3,
+        "CONJ": 9,
         "AUX": 1,
-        "ADV": 6,
-        "PREP": 36,
+        "ADV": 7,
+        "PREP": 42,
         "PART": 2,
         "NUM": 2
       },
       "PRON": {
-        "AUX": 45,
-        "PUNCT": 9,
+        "AUX": 50,
+        "PUNCT": 13,
         "ADV": 3,
-        "VERB": 58,
-        "MODAL": 13,
+        "VERB": 61,
+        "MODAL": 19,
         "PREP": 7,
         "WH": 1,
         "DET": 3,
         "PART": 2,
         "</S>": 1,
         "NOUN": 2,
-        "CONJ": 1,
-        "PRON": 1
+        "CONJ": 2,
+        "PRON": 2
       },
       "AUX": {
-        "ADJ": 58,
+        "ADJ": 62,
         "PRON": 7,
         "PUNCT": 2,
-        "DET": 69,
-        "NOUN": 10,
-        "NEG": 10,
-        "VERB": 53,
+        "DET": 75,
+        "NOUN": 17,
+        "NEG": 11,
+        "VERB": 65,
         "INTJ": 1,
-        "ADV": 18,
+        "ADV": 23,
         "CONJ": 1,
-        "NUM": 2,
+        "NUM": 3,
         "PROPN": 2,
         "WH": 2,
         "AUX": 1,
-        "PREP": 1
+        "PREP": 2
       },
       "ADJ": {
-        "PART": 9,
-        "NOUN": 337,
+        "PART": 10,
+        "NOUN": 368,
         "WH": 2,
-        "PUNCT": 48,
-        "PREP": 25,
-        "CONJ": 14,
-        "PROPN": 9,
-        "ADJ": 41,
-        "DET": 9,
+        "PUNCT": 52,
+        "PREP": 28,
+        "CONJ": 17,
+        "PROPN": 11,
+        "ADJ": 42,
+        "DET": 10,
         "AUX": 8,
-        "VERB": 13,
-        "MODAL": 2
+        "VERB": 15,
+        "MODAL": 3
       },
       "PART": {
-        "VERB": 74,
-        "AUX": 5,
+        "VERB": 84,
+        "AUX": 6,
         "ADJ": 7,
         "NOUN": 10,
         "WH": 2,
         "PREP": 1,
         "CONJ": 2,
-        "PUNCT": 3
+        "PUNCT": 4
       },
       "VERB": {
-        "PREP": 89,
-        "PART": 31,
-        "ADJ": 25,
-        "NOUN": 76,
-        "PUNCT": 52,
-        "PRON": 21,
+        "PREP": 105,
+        "PART": 36,
+        "ADJ": 26,
+        "NOUN": 81,
+        "PUNCT": 64,
+        "PRON": 22,
         "AUX": 9,
-        "DET": 83,
-        "VERB": 6,
+        "DET": 95,
+        "VERB": 7,
         "CONJ": 29,
         "WH": 8,
         "</S>": 5,
-        "ADV": 10,
-        "PROPN": 7,
-        "NUM": 3
+        "ADV": 11,
+        "PROPN": 8,
+        "NUM": 4
       },
       "PREP": {
-        "PRON": 12,
-        "NOUN": 195,
-        "DET": 188,
+        "PRON": 15,
+        "NOUN": 205,
+        "DET": 211,
         "PUNCT": 14,
-        "VERB": 14,
+        "VERB": 15,
         "PREP": 7,
-        "ADJ": 71,
-        "PROPN": 27,
+        "ADJ": 79,
+        "PROPN": 32,
         "AUX": 7,
-        "NUM": 8,
-        "WH": 6,
+        "NUM": 10,
+        "WH": 7,
         "CONJ": 4,
         "ADV": 2,
-        "PART": 1
+        "PART": 2
       },
       "PUNCT": {
-        "</S>": 325,
-        "NOUN": 74,
-        "CONJ": 65,
-        "PRON": 7,
-        "VERB": 17,
-        "ADV": 17,
-        "PREP": 14,
-        "ADJ": 18,
-        "DET": 37,
-        "WH": 9,
+        "</S>": 365,
+        "NOUN": 92,
+        "CONJ": 73,
+        "PRON": 9,
+        "VERB": 20,
+        "ADV": 18,
+        "PREP": 15,
+        "ADJ": 20,
+        "DET": 46,
+        "WH": 10,
         "AUX": 9,
         "NUM": 1,
         "PUNCT": 2,
         "PROPN": 8,
-        "PART": 1
+        "PART": 1,
+        "NEG": 1,
+        "INTJ": 2
       },
       "WH": {
         "AUX": 15,
-        "DET": 9,
+        "DET": 10,
         "PRON": 2,
-        "NOUN": 19,
+        "NOUN": 20,
         "VERB": 8,
         "MODAL": 3,
         "PREP": 1,
         "PART": 4
       },
       "ADV": {
-        "PUNCT": 9,
-        "ADJ": 9,
+        "PUNCT": 11,
+        "ADJ": 10,
         "NOUN": 12,
         "CONJ": 2,
-        "DET": 5,
-        "VERB": 35,
+        "DET": 6,
+        "VERB": 42,
         "</S>": 1,
         "PRON": 1,
         "MODAL": 1,
         "PART": 1,
         "ADV": 1,
-        "PREP": 9,
-        "AUX": 1,
+        "PREP": 10,
+        "AUX": 3,
         "PROPN": 1
       },
       "NOUN": {
-        "AUX": 107,
-        "PREP": 335,
-        "NOUN": 316,
-        "PUNCT": 412,
-        "CONJ": 149,
-        "VERB": 99,
-        "ADV": 15,
-        "PART": 43,
-        "ADJ": 50,
-        "MODAL": 15,
-        "</S>": 11,
-        "PRON": 17,
+        "AUX": 123,
+        "PREP": 359,
+        "NOUN": 354,
+        "PUNCT": 466,
+        "CONJ": 166,
+        "VERB": 105,
+        "ADV": 18,
+        "PART": 47,
+        "ADJ": 52,
+        "MODAL": 18,
+        "</S>": 12,
+        "PRON": 23,
         "WH": 10,
-        "DET": 63,
-        "PROPN": 26,
+        "DET": 70,
+        "PROPN": 27,
         "NUM": 4,
         "NEG": 2
       },
       "DET": {
-        "NOUN": 383,
-        "ADJ": 165,
+        "NOUN": 426,
+        "ADJ": 183,
         "PRON": 4,
         "PREP": 14,
-        "NUM": 4,
+        "NUM": 6,
         "PART": 5,
         "VERB": 9,
-        "CONJ": 4,
-        "PROPN": 20,
-        "DET": 10,
-        "ADV": 4,
-        "PUNCT": 3
+        "CONJ": 9,
+        "PROPN": 22,
+        "DET": 11,
+        "ADV": 5,
+        "PUNCT": 5
       },
       "CONJ": {
-        "PRON": 16,
-        "DET": 45,
-        "NOUN": 112,
-        "VERB": 19,
-        "ADJ": 37,
-        "ADV": 10,
-        "PUNCT": 6,
+        "PRON": 19,
+        "DET": 47,
+        "NOUN": 126,
+        "VERB": 23,
+        "ADJ": 44,
+        "ADV": 11,
+        "PUNCT": 7,
         "WH": 7,
-        "PREP": 7,
-        "CONJ": 5,
+        "PREP": 8,
+        "CONJ": 6,
         "NUM": 2,
-        "AUX": 8,
-        "PROPN": 20,
-        "MODAL": 2,
+        "AUX": 9,
+        "PROPN": 21,
+        "MODAL": 3,
         "NEG": 3,
         "PART": 1
       },
       "MODAL": {
-        "VERB": 15,
+        "VERB": 17,
         "PRON": 2,
-        "DET": 2,
+        "DET": 3,
         "CONJ": 3,
-        "AUX": 13,
+        "AUX": 20,
         "NOUN": 2,
-        "NEG": 1
+        "NEG": 1,
+        "ADV": 1
       },
       "NEG": {
         "VERB": 6,
-        "NOUN": 1,
-        "DET": 2,
+        "NOUN": 2,
+        "DET": 3,
         "AUX": 2,
         "PREP": 1,
         "PART": 1,
@@ -18248,94 +19402,101 @@
       },
       "INTJ": {
         "VERB": 1,
-        "DET": 1
+        "DET": 1,
+        "PUNCT": 4
       },
       "PROPN": {
         "DET": 1,
-        "PUNCT": 43,
+        "PUNCT": 47,
         "PART": 3,
-        "NOUN": 42,
-        "AUX": 6,
-        "PROPN": 23,
-        "ADJ": 4,
-        "PREP": 7,
+        "NOUN": 43,
+        "AUX": 10,
+        "PROPN": 24,
+        "ADJ": 6,
+        "PREP": 8,
         "CONJ": 9,
         "VERB": 5
       },
       "NUM": {
-        "NOUN": 14,
+        "NOUN": 18,
         "PUNCT": 1,
         "CONJ": 5,
         "PREP": 2,
         "VERB": 2,
         "MODAL": 1,
-        "ADJ": 1
+        "ADJ": 1,
+        "PART": 1,
+        "AUX": 1
       }
     },
     "pos_trigrams": {
       "<S>|PRON": {
-        "AUX": 26,
-        "VERB": 21,
-        "MODAL": 5,
+        "AUX": 27,
+        "VERB": 23,
+        "MODAL": 6,
         "ADV": 2,
         "DET": 1,
         "NOUN": 1
       },
       "PRON|AUX": {
-        "ADJ": 14,
+        "ADJ": 15,
         "DET": 7,
         "NEG": 4,
-        "VERB": 13,
+        "VERB": 14,
         "INTJ": 1,
-        "ADV": 5,
-        "PUNCT": 1
+        "ADV": 6,
+        "PUNCT": 1,
+        "NUM": 1,
+        "NOUN": 1
       },
       "AUX|ADJ": {
         "PART": 8,
         "WH": 2,
         "PUNCT": 21,
-        "PREP": 4,
-        "DET": 5,
+        "PREP": 6,
+        "DET": 6,
         "NOUN": 11,
         "CONJ": 1,
-        "ADJ": 4,
+        "ADJ": 5,
         "VERB": 2
       },
       "ADJ|PART": {
-        "VERB": 8,
+        "VERB": 9,
         "WH": 1
       },
       "PART|VERB": {
-        "PREP": 9,
+        "PREP": 10,
         "ADJ": 9,
-        "PUNCT": 6,
-        "NOUN": 18,
+        "PUNCT": 8,
+        "NOUN": 22,
         "WH": 2,
-        "DET": 19,
+        "DET": 21,
         "PART": 1,
-        "NUM": 1,
+        "NUM": 2,
         "CONJ": 4,
         "PRON": 4,
         "VERB": 1
       },
       "VERB|PREP": {
-        "PRON": 4,
-        "DET": 36,
-        "NOUN": 18,
+        "PRON": 6,
+        "DET": 40,
+        "NOUN": 21,
         "PUNCT": 4,
         "VERB": 2,
-        "ADJ": 11,
+        "ADJ": 17,
         "PREP": 3,
-        "NUM": 3,
+        "NUM": 4,
         "PROPN": 8
       },
       "PREP|PRON": {
-        "PUNCT": 4,
+        "PUNCT": 7,
         "VERB": 5,
         "AUX": 3
       },
       "PRON|PUNCT": {
-        "</S>": 9
+        "</S>": 11,
+        "NOUN": 1,
+        "ADV": 1
       },
       "<S>|WH": {
         "AUX": 9,
@@ -18363,16 +19524,17 @@
         "</S>": 3,
         "ADV": 2,
         "DET": 2,
-        "CONJ": 2
+        "CONJ": 2,
+        "NOUN": 2
       },
       "PRON|VERB": {
-        "PART": 9,
-        "PREP": 9,
+        "PART": 10,
+        "PREP": 10,
         "NOUN": 5,
         "PRON": 8,
         "PUNCT": 5,
         "DET": 11,
-        "VERB": 2,
+        "VERB": 3,
         "ADJ": 3,
         "CONJ": 4,
         "</S>": 1,
@@ -18380,7 +19542,7 @@
       },
       "VERB|PART": {
         "AUX": 2,
-        "VERB": 26,
+        "VERB": 31,
         "ADJ": 1,
         "WH": 1,
         "CONJ": 1
@@ -18388,7 +19550,7 @@
       "PART|AUX": {
         "PUNCT": 1,
         "DET": 1,
-        "VERB": 2,
+        "VERB": 3,
         "ADJ": 1
       },
       "AUX|PUNCT": {
@@ -18396,34 +19558,34 @@
         "DET": 1
       },
       "<S>|NOUN": {
-        "AUX": 21,
-        "VERB": 9,
+        "AUX": 26,
+        "VERB": 10,
         "PUNCT": 4,
         "NOUN": 16,
         "CONJ": 8,
-        "PREP": 1,
+        "PREP": 4,
         "PROPN": 4,
         "ADJ": 3,
         "PART": 1,
         "WH": 2
       },
       "NOUN|AUX": {
-        "DET": 33,
-        "ADJ": 29,
-        "NOUN": 6,
-        "ADV": 10,
-        "VERB": 17,
+        "DET": 37,
+        "ADJ": 30,
+        "NOUN": 10,
+        "ADV": 12,
+        "VERB": 21,
         "CONJ": 1,
         "NUM": 2,
-        "NEG": 4,
+        "NEG": 5,
         "PROPN": 1,
         "WH": 2,
         "AUX": 1,
         "PREP": 1
       },
       "AUX|DET": {
-        "NOUN": 38,
-        "ADJ": 24,
+        "NOUN": 41,
+        "ADJ": 27,
         "PROPN": 2,
         "VERB": 2,
         "PREP": 1,
@@ -18431,101 +19593,102 @@
         "DET": 1
       },
       "DET|NOUN": {
-        "PREP": 133,
-        "AUX": 34,
-        "CONJ": 28,
-        "PUNCT": 77,
+        "PREP": 141,
+        "AUX": 39,
+        "CONJ": 32,
+        "PUNCT": 89,
         "VERB": 21,
         "ADV": 4,
         "ADJ": 13,
-        "NOUN": 33,
-        "PRON": 7,
-        "PART": 15,
+        "NOUN": 39,
+        "PRON": 10,
+        "PART": 16,
         "</S>": 1,
         "PROPN": 1,
-        "DET": 13,
-        "MODAL": 2,
+        "DET": 14,
+        "MODAL": 5,
         "WH": 1
       },
       "NOUN|PREP": {
-        "NOUN": 131,
-        "DET": 103,
+        "NOUN": 134,
+        "DET": 119,
         "PREP": 3,
         "ADJ": 51,
-        "PROPN": 12,
-        "VERB": 9,
+        "PROPN": 14,
+        "VERB": 10,
         "PUNCT": 6,
         "NUM": 4,
-        "WH": 5,
+        "WH": 6,
         "AUX": 5,
         "ADV": 1,
-        "PRON": 3,
+        "PRON": 4,
         "CONJ": 2
       },
       "PREP|NOUN": {
-        "NOUN": 30,
-        "PUNCT": 54,
+        "NOUN": 32,
+        "PUNCT": 57,
         "VERB": 13,
-        "CONJ": 31,
+        "CONJ": 32,
         "ADJ": 6,
-        "DET": 9,
+        "DET": 10,
         "AUX": 5,
-        "PREP": 24,
+        "PREP": 26,
         "PRON": 7,
-        "</S>": 9,
+        "</S>": 10,
         "WH": 1,
         "PART": 4,
         "PROPN": 1,
         "NUM": 1
       },
       "NOUN|NOUN": {
-        "PUNCT": 86,
-        "PART": 7,
-        "NOUN": 62,
-        "PREP": 57,
-        "CONJ": 28,
-        "VERB": 19,
+        "PUNCT": 98,
+        "PART": 8,
+        "NOUN": 72,
+        "PREP": 59,
+        "CONJ": 33,
+        "VERB": 21,
         "PROPN": 9,
-        "AUX": 13,
+        "AUX": 16,
         "MODAL": 5,
         "ADJ": 14,
         "NUM": 3,
         "ADV": 3,
-        "DET": 7,
+        "DET": 9,
         "NEG": 1,
-        "PRON": 1,
+        "PRON": 2,
         "WH": 1
       },
       "NOUN|PUNCT": {
-        "</S>": 222,
-        "NOUN": 54,
-        "CONJ": 42,
+        "</S>": 250,
+        "NOUN": 63,
+        "CONJ": 48,
         "ADV": 13,
         "PREP": 12,
-        "ADJ": 10,
-        "DET": 22,
+        "ADJ": 12,
+        "DET": 29,
         "VERB": 14,
-        "WH": 6,
-        "PRON": 5,
+        "WH": 7,
+        "PRON": 6,
         "AUX": 8,
         "NUM": 1,
         "PROPN": 2,
         "PART": 1
       },
       "<S>|DET": {
-        "NOUN": 67,
-        "ADJ": 22,
-        "PROPN": 4,
+        "NOUN": 72,
+        "ADJ": 23,
+        "PROPN": 5,
         "VERB": 2,
         "PREP": 1,
         "ADV": 1,
-        "DET": 1
+        "DET": 2,
+        "NUM": 1
       },
       "DET|ADJ": {
-        "NOUN": 137,
-        "CONJ": 2,
+        "NOUN": 152,
+        "CONJ": 4,
         "ADJ": 9,
-        "PUNCT": 4,
+        "PUNCT": 5,
         "VERB": 2,
         "PREP": 4,
         "PART": 1,
@@ -18535,55 +19698,57 @@
         "MODAL": 1
       },
       "ADJ|NOUN": {
-        "PUNCT": 99,
-        "NOUN": 71,
+        "PUNCT": 110,
+        "NOUN": 79,
         "MODAL": 5,
         "VERB": 20,
-        "PREP": 66,
-        "CONJ": 28,
-        "DET": 10,
+        "PREP": 71,
+        "CONJ": 31,
+        "DET": 11,
         "ADJ": 6,
-        "AUX": 18,
-        "PART": 8,
+        "AUX": 19,
+        "PART": 9,
         "WH": 1,
         "PROPN": 1,
-        "ADV": 4
+        "ADV": 4,
+        "PRON": 1
       },
       "VERB|ADJ": {
         "NOUN": 15,
-        "PUNCT": 2,
+        "PUNCT": 3,
         "CONJ": 3,
         "VERB": 3,
         "ADJ": 1,
         "AUX": 1
       },
       "PREP|DET": {
-        "NOUN": 120,
-        "ADJ": 44,
+        "NOUN": 136,
+        "ADJ": 50,
         "NUM": 4,
         "PREP": 6,
         "PROPN": 9,
         "DET": 3,
-        "VERB": 2
+        "VERB": 2,
+        "PUNCT": 1
       },
       "NOUN|CONJ": {
         "PRON": 3,
-        "DET": 24,
-        "VERB": 7,
-        "NOUN": 67,
-        "ADJ": 18,
+        "DET": 26,
+        "VERB": 9,
+        "NOUN": 75,
+        "ADJ": 20,
         "WH": 4,
-        "PREP": 4,
+        "PREP": 5,
         "NUM": 1,
         "CONJ": 2,
-        "ADV": 5,
+        "ADV": 6,
         "PROPN": 10,
-        "AUX": 3,
+        "AUX": 4,
         "PART": 1
       },
       "CONJ|PRON": {
-        "VERB": 9,
-        "MODAL": 2,
+        "VERB": 10,
+        "MODAL": 4,
         "AUX": 4,
         "PUNCT": 1
       },
@@ -18593,46 +19758,47 @@
         "PART": 2,
         "VERB": 4,
         "NOUN": 22,
-        "CONJ": 3,
+        "CONJ": 5,
         "MODAL": 1,
-        "ADJ": 2,
-        "DET": 5,
+        "ADJ": 3,
+        "DET": 7,
         "AUX": 1,
         "PROPN": 2,
         "NEG": 1
       },
       "PRON|MODAL": {
-        "VERB": 7,
+        "VERB": 9,
         "CONJ": 3,
         "NOUN": 1,
-        "AUX": 2
+        "AUX": 5,
+        "DET": 1
       },
       "MODAL|VERB": {
-        "PREP": 3,
+        "PREP": 4,
         "PART": 2,
         "PUNCT": 1,
         "DET": 3,
         "ADV": 2,
         "CONJ": 1,
-        "NOUN": 2,
+        "NOUN": 3,
         "AUX": 1
       },
       "PUNCT|NOUN": {
         "CONJ": 10,
-        "NOUN": 22,
+        "NOUN": 29,
         "ADJ": 2,
-        "PUNCT": 24,
+        "PUNCT": 33,
         "PREP": 6,
-        "AUX": 1,
+        "AUX": 2,
         "DET": 3,
-        "ADV": 1,
+        "ADV": 2,
         "PROPN": 3,
         "PART": 1,
         "VERB": 1
       },
       "CONJ|DET": {
-        "NOUN": 30,
-        "ADJ": 9,
+        "NOUN": 31,
+        "ADJ": 10,
         "CONJ": 1,
         "PUNCT": 2,
         "PART": 1,
@@ -18640,29 +19806,31 @@
         "PROPN": 1
       },
       "VERB|PUNCT": {
-        "</S>": 41,
-        "PRON": 2,
+        "</S>": 46,
+        "PRON": 3,
         "CONJ": 2,
-        "NOUN": 4,
-        "DET": 2,
-        "ADJ": 1
+        "NOUN": 7,
+        "DET": 4,
+        "ADJ": 1,
+        "NEG": 1
       },
       "<S>|VERB": {
         "PRON": 2,
         "AUX": 4,
         "VERB": 1,
         "NOUN": 2,
-        "DET": 4,
+        "DET": 8,
         "PREP": 3,
         "CONJ": 1,
         "ADJ": 1,
-        "WH": 2
+        "WH": 2,
+        "PROPN": 1
       },
       "VERB|PRON": {
         "PREP": 5,
         "VERB": 3,
         "AUX": 1,
-        "PUNCT": 3,
+        "PUNCT": 4,
         "WH": 1,
         "DET": 2,
         "PART": 2,
@@ -18691,25 +19859,25 @@
         "DET": 2
       },
       "WH|DET": {
-        "NOUN": 6,
+        "NOUN": 7,
         "ADJ": 3
       },
       "ADJ|PUNCT": {
-        "</S>": 30,
+        "</S>": 33,
         "CONJ": 6,
         "VERB": 2,
         "DET": 2,
         "ADJ": 4,
         "PREP": 1,
-        "NOUN": 2,
+        "NOUN": 3,
         "ADV": 1
       },
       "NOUN|VERB": {
-        "PART": 3,
-        "DET": 20,
+        "PART": 5,
+        "DET": 23,
         "PREP": 26,
         "WH": 3,
-        "PRON": 4,
+        "PRON": 5,
         "PUNCT": 10,
         "</S>": 3,
         "ADV": 6,
@@ -18722,54 +19890,58 @@
         "ADJ": 2
       },
       "AUX|NOUN": {
-        "PUNCT": 2,
+        "PUNCT": 3,
         "NOUN": 2,
         "DET": 2,
         "PREP": 1,
-        "VERB": 1,
+        "VERB": 4,
         "CONJ": 1,
-        "ADV": 1
+        "ADV": 3,
+        "ADJ": 1
       },
       "PUNCT|CONJ": {
-        "NOUN": 22,
+        "NOUN": 24,
         "PRON": 7,
         "DET": 9,
-        "PUNCT": 2,
-        "ADJ": 7,
-        "CONJ": 3,
+        "PUNCT": 3,
+        "ADJ": 9,
+        "CONJ": 4,
         "AUX": 3,
-        "PROPN": 4,
+        "PROPN": 5,
         "VERB": 5,
         "NEG": 1,
-        "ADV": 2
+        "ADV": 2,
+        "MODAL": 1
       },
       "CONJ|NOUN": {
         "AUX": 2,
-        "PUNCT": 24,
+        "PUNCT": 29,
         "</S>": 1,
-        "PREP": 24,
+        "PREP": 27,
         "VERB": 4,
         "WH": 4,
-        "NOUN": 41,
+        "NOUN": 45,
         "PRON": 2,
-        "PART": 5,
-        "CONJ": 2,
+        "PART": 6,
+        "CONJ": 3,
         "PROPN": 1,
         "ADJ": 1,
         "DET": 1
       },
       "VERB|DET": {
-        "NOUN": 56,
-        "ADJ": 22,
+        "NOUN": 60,
+        "ADJ": 27,
         "PREP": 1,
-        "CONJ": 1,
+        "CONJ": 2,
         "DET": 2,
-        "VERB": 1
+        "VERB": 1,
+        "PROPN": 1,
+        "NUM": 1
       },
       "NOUN|ADV": {
         "PUNCT": 2,
-        "VERB": 9,
-        "PREP": 2,
+        "VERB": 11,
+        "PREP": 3,
         "NOUN": 1,
         "ADJ": 1
       },
@@ -18779,7 +19951,8 @@
         "AUX": 1,
         "PREP": 1,
         "ADV": 2,
-        "ADJ": 1
+        "ADJ": 1,
+        "DET": 1
       },
       "NEG|VERB": {
         "DET": 2,
@@ -18797,19 +19970,20 @@
         "DET": 2
       },
       "AUX|VERB": {
-        "PREP": 22,
-        "PUNCT": 8,
+        "PREP": 30,
+        "PUNCT": 10,
         "PART": 10,
         "PRON": 1,
         "NOUN": 2,
         "DET": 5,
         "CONJ": 4,
-        "ADJ": 1
+        "ADJ": 2,
+        "ADV": 1
       },
       "CONJ|VERB": {
         "PART": 1,
         "NOUN": 6,
-        "PUNCT": 6,
+        "PUNCT": 10,
         "ADJ": 2,
         "PREP": 3,
         "CONJ": 1
@@ -18818,14 +19992,14 @@
         "NOUN": 19,
         "ADJ": 3,
         "VERB": 1,
-        "PREP": 4,
-        "PROPN": 2,
-        "MODAL": 1
+        "PREP": 5,
+        "PROPN": 3,
+        "MODAL": 2
       },
       "NOUN|PART": {
         "ADJ": 6,
-        "AUX": 3,
-        "VERB": 23,
+        "AUX": 4,
+        "VERB": 26,
         "NOUN": 8,
         "CONJ": 1,
         "PUNCT": 2
@@ -18836,14 +20010,15 @@
         "PREP": 1
       },
       "VERB|VERB": {
-        "PUNCT": 1,
+        "PUNCT": 2,
         "PREP": 2,
         "PRON": 1,
         "ADJ": 1,
         "DET": 1
       },
       "<S>|INTJ": {
-        "VERB": 1
+        "VERB": 1,
+        "PUNCT": 2
       },
       "INTJ|VERB": {
         "PRON": 1
@@ -18866,20 +20041,21 @@
         "AUX": 1
       },
       "NOUN|ADJ": {
-        "PUNCT": 5,
+        "PUNCT": 6,
         "NOUN": 32,
         "DET": 2,
         "PREP": 3,
         "ADJ": 4,
         "AUX": 1,
-        "CONJ": 2,
+        "CONJ": 3,
         "VERB": 1
       },
       "ADJ|PREP": {
-        "NOUN": 14,
+        "NOUN": 15,
         "DET": 8,
         "VERB": 2,
-        "ADJ": 1
+        "ADJ": 2,
+        "PROPN": 1
       },
       "VERB|CONJ": {
         "PRON": 3,
@@ -18896,24 +20072,25 @@
         "ADV": 1
       },
       "<S>|CONJ": {
-        "PRON": 3,
+        "PRON": 5,
         "PUNCT": 2,
         "PREP": 1,
         "NUM": 1
       },
       "PUNCT|PRON": {
-        "MODAL": 3,
+        "MODAL": 4,
         "VERB": 2,
-        "AUX": 2
+        "AUX": 3
       },
       "PUNCT|VERB": {
         "AUX": 1,
         "CONJ": 2,
-        "PREP": 3,
+        "PREP": 4,
         "NOUN": 7,
         "PUNCT": 2,
         "PROPN": 1,
-        "ADJ": 1
+        "ADJ": 1,
+        "DET": 2
       },
       "VERB|WH": {
         "NOUN": 2,
@@ -18925,14 +20102,14 @@
         "VERB": 2,
         "NOUN": 3,
         "CONJ": 6,
-        "AUX": 1,
+        "AUX": 2,
         "DET": 5,
         "ADV": 1,
         "ADJ": 1
       },
       "NOUN|MODAL": {
         "VERB": 6,
-        "AUX": 8,
+        "AUX": 11,
         "NEG": 1
       },
       "<S>|AUX": {
@@ -18951,38 +20128,39 @@
       },
       "MODAL|DET": {
         "ADJ": 1,
-        "NOUN": 1
+        "NOUN": 2
       },
       "AUX|ADV": {
         "ADJ": 3,
         "NOUN": 4,
-        "VERB": 7,
+        "VERB": 12,
         "ADV": 1,
         "PREP": 1,
         "DET": 2
       },
       "ADV|ADJ": {
         "PUNCT": 1,
-        "NOUN": 6,
+        "NOUN": 7,
         "PREP": 2
       },
       "ADJ|CONJ": {
-        "ADJ": 7,
-        "NOUN": 3,
+        "ADJ": 8,
+        "NOUN": 4,
         "ADV": 1,
         "AUX": 1,
-        "DET": 2
+        "DET": 2,
+        "PRON": 1
       },
       "CONJ|ADJ": {
-        "PUNCT": 2,
-        "NOUN": 24,
+        "PUNCT": 3,
+        "NOUN": 28,
         "ADJ": 5,
         "CONJ": 2,
-        "VERB": 3,
+        "VERB": 5,
         "PREP": 1
       },
       "PREP|VERB": {
-        "PUNCT": 4,
+        "PUNCT": 5,
         "ADJ": 4,
         "NOUN": 2,
         "DET": 3,
@@ -19001,7 +20179,7 @@
         "CONJ": 1,
         "VERB": 6,
         "PREP": 3,
-        "DET": 2,
+        "DET": 3,
         "ADJ": 1,
         "PUNCT": 1,
         "PROPN": 1
@@ -19015,7 +20193,7 @@
       "PUNCT|PREP": {
         "DET": 3,
         "ADJ": 2,
-        "NOUN": 4,
+        "NOUN": 5,
         "AUX": 2,
         "PRON": 1,
         "VERB": 1,
@@ -19032,12 +20210,13 @@
         "ADJ": 2,
         "CONJ": 1,
         "PREP": 1,
-        "NOUN": 1
+        "NOUN": 1,
+        "AUX": 1
       },
       "VERB|ADV": {
         "DET": 1,
         "PREP": 2,
-        "PUNCT": 2,
+        "PUNCT": 3,
         "VERB": 3,
         "NOUN": 2
       },
@@ -19045,31 +20224,32 @@
         "PRON": 1,
         "ADJ": 1,
         "PREP": 1,
-        "NOUN": 2
+        "NOUN": 3
       },
       "PRON|DET": {
         "NOUN": 3
       },
       "ADV|VERB": {
         "PROPN": 3,
-        "DET": 10,
-        "PART": 4,
+        "DET": 11,
+        "PART": 6,
         "NOUN": 8,
         "CONJ": 5,
-        "PREP": 3,
+        "PREP": 7,
         "WH": 1,
         "PUNCT": 1
       },
       "VERB|PROPN": {
         "DET": 1,
         "PUNCT": 4,
-        "PROPN": 2
+        "PROPN": 2,
+        "PREP": 1
       },
       "PROPN|DET": {
         "NOUN": 1
       },
       "PUNCT|ADJ": {
-        "NOUN": 7,
+        "NOUN": 9,
         "PUNCT": 6,
         "PROPN": 1,
         "PREP": 3,
@@ -19077,9 +20257,9 @@
       },
       "PREP|ADJ": {
         "CONJ": 3,
-        "PROPN": 3,
+        "PROPN": 4,
         "ADJ": 9,
-        "NOUN": 51,
+        "NOUN": 58,
         "PUNCT": 3,
         "AUX": 1,
         "VERB": 1
@@ -19088,7 +20268,7 @@
         "PRON": 1,
         "MODAL": 1,
         "PART": 1,
-        "PUNCT": 2,
+        "PUNCT": 3,
         "ADJ": 1
       },
       "ADV|PRON": {
@@ -19110,14 +20290,16 @@
       },
       "NOUN|PRON": {
         "VERB": 6,
-        "AUX": 7,
+        "AUX": 9,
         "PREP": 2,
-        "MODAL": 2
+        "MODAL": 4,
+        "PRON": 1,
+        "CONJ": 1
       },
       "PREP|PROPN": {
-        "PUNCT": 7,
+        "PUNCT": 11,
         "AUX": 1,
-        "PROPN": 5,
+        "PROPN": 6,
         "NOUN": 5,
         "PREP": 3,
         "VERB": 2,
@@ -19128,25 +20310,29 @@
         "</S>": 12,
         "DET": 4,
         "PROPN": 6,
-        "CONJ": 7,
+        "CONJ": 8,
         "NOUN": 8,
         "WH": 3,
         "PUNCT": 1,
         "ADV": 1,
-        "AUX": 1
+        "AUX": 1,
+        "VERB": 2,
+        "PREP": 1
       },
       "ADJ|PROPN": {
         "PUNCT": 4,
-        "NOUN": 3,
+        "NOUN": 4,
         "CONJ": 1,
-        "PROPN": 1
+        "PROPN": 1,
+        "AUX": 1
       },
       "PUNCT|DET": {
-        "NOUN": 23,
-        "ADJ": 9,
+        "NOUN": 27,
+        "ADJ": 10,
         "VERB": 1,
         "PROPN": 2,
-        "PREP": 2
+        "PREP": 2,
+        "CONJ": 4
       },
       "ADV|PART": {
         "VERB": 1
@@ -19156,10 +20342,11 @@
         "ADJ": 5,
         "PUNCT": 4,
         "AUX": 4,
-        "PREP": 3
+        "PREP": 3,
+        "PART": 1
       },
       "PUNCT|WH": {
-        "NOUN": 4,
+        "NOUN": 5,
         "AUX": 2,
         "DET": 1,
         "PREP": 1,
@@ -19167,7 +20354,7 @@
       },
       "CONJ|PUNCT": {
         "ADJ": 1,
-        "VERB": 1,
+        "VERB": 2,
         "CONJ": 2,
         "</S>": 1,
         "DET": 1
@@ -19182,10 +20369,10 @@
         "AUX": 1
       },
       "NOUN|DET": {
-        "NOUN": 25,
-        "ADJ": 28,
+        "NOUN": 30,
+        "ADJ": 29,
         "CONJ": 2,
-        "ADV": 2,
+        "ADV": 3,
         "PRON": 2,
         "PROPN": 1,
         "PREP": 1,
@@ -19194,7 +20381,7 @@
       "NOUN|PROPN": {
         "PART": 1,
         "NOUN": 13,
-        "AUX": 2,
+        "AUX": 3,
         "PROPN": 2,
         "PREP": 2,
         "CONJ": 1,
@@ -19212,34 +20399,39 @@
         "DET": 1
       },
       "DET|NUM": {
-        "NOUN": 4
+        "NOUN": 5,
+        "PART": 1
       },
       "NUM|NOUN": {
-        "PREP": 6,
+        "PREP": 7,
         "VERB": 1,
         "PUNCT": 2,
         "AUX": 2,
         "ADJ": 1,
         "MODAL": 1,
-        "CONJ": 1
+        "CONJ": 2,
+        "NOUN": 1,
+        "PROPN": 1
       },
       "ADJ|DET": {
         "NOUN": 4,
         "PART": 4,
-        "ADJ": 1
+        "ADJ": 1,
+        "PUNCT": 1
       },
       "<S>|PREP": {
-        "NOUN": 14,
-        "PROPN": 4,
+        "NOUN": 15,
+        "PROPN": 6,
         "ADJ": 2,
-        "DET": 12,
+        "DET": 14,
         "CONJ": 2,
-        "PUNCT": 2
+        "PUNCT": 2,
+        "NUM": 1
       },
       "PROPN|NOUN": {
         "CONJ": 1,
         "AUX": 9,
-        "PUNCT": 12,
+        "PUNCT": 13,
         "NOUN": 8,
         "DET": 2,
         "MODAL": 1,
@@ -19263,9 +20455,10 @@
         "PART": 1
       },
       "MODAL|AUX": {
-        "VERB": 8,
+        "VERB": 12,
         "DET": 3,
-        "ADJ": 2
+        "ADJ": 3,
+        "ADV": 2
       },
       "DET|VERB": {
         "NOUN": 8,
@@ -19274,7 +20467,7 @@
       "CONJ|PREP": {
         "DET": 2,
         "PUNCT": 1,
-        "NOUN": 1,
+        "NOUN": 2,
         "PRON": 2,
         "ADJ": 1
       },
@@ -19287,7 +20480,8 @@
       "VERB|NUM": {
         "PUNCT": 1,
         "CONJ": 1,
-        "NOUN": 1
+        "NOUN": 1,
+        "AUX": 1
       },
       "NUM|PUNCT": {
         "PREP": 1
@@ -19305,10 +20499,11 @@
         "NOUN": 5
       },
       "DET|CONJ": {
-        "NOUN": 1,
+        "NOUN": 2,
         "PROPN": 1,
         "DET": 1,
-        "ADJ": 1
+        "ADJ": 3,
+        "VERB": 2
       },
       "PUNCT|PUNCT": {
         "</S>": 2
@@ -19319,7 +20514,7 @@
       "CONJ|CONJ": {
         "PUNCT": 1,
         "DET": 1,
-        "NOUN": 1,
+        "NOUN": 2,
         "NEG": 1,
         "WH": 1
       },
@@ -19333,7 +20528,7 @@
         "NOUN": 3,
         "AUX": 1,
         "CONJ": 2,
-        "PUNCT": 3,
+        "PUNCT": 5,
         "PART": 1,
         "PREP": 3
       },
@@ -19345,15 +20540,17 @@
       },
       "PREP|NUM": {
         "CONJ": 2,
-        "NOUN": 3,
+        "NOUN": 5,
         "VERB": 1,
         "PREP": 1,
         "ADJ": 1
       },
       "PROPN|AUX": {
         "VERB": 1,
-        "DET": 3,
-        "ADJ": 2
+        "DET": 4,
+        "ADJ": 3,
+        "PREP": 1,
+        "NOUN": 1
       },
       "PART|WH": {
         "PRON": 1,
@@ -19362,7 +20559,7 @@
       "DET|PROPN": {
         "PROPN": 2,
         "NOUN": 9,
-        "ADJ": 3,
+        "ADJ": 5,
         "AUX": 3,
         "PUNCT": 2,
         "CONJ": 1
@@ -19373,10 +20570,11 @@
         "PROPN": 2,
         "PREP": 1,
         "CONJ": 1,
-        "VERB": 1
+        "VERB": 1,
+        "AUX": 1
       },
       "PREP|WH": {
-        "DET": 3,
+        "DET": 4,
         "AUX": 2,
         "PART": 1
       },
@@ -19385,26 +20583,27 @@
         "DET": 1
       },
       "NEG|NOUN": {
-        "DET": 1
+        "DET": 1,
+        "PRON": 1
       },
       "PRON|NOUN": {
         "NOUN": 1,
         "DET": 1
       },
       "CONJ|AUX": {
-        "VERB": 3,
+        "VERB": 4,
         "DET": 1,
         "NOUN": 1,
         "ADJ": 2,
         "NEG": 1
       },
       "PROPN|ADJ": {
-        "NOUN": 4
+        "NOUN": 6
       },
       "ADV|PREP": {
         "NOUN": 3,
         "ADJ": 1,
-        "DET": 5
+        "DET": 6
       },
       "PUNCT|PROPN": {
         "PROPN": 1,
@@ -19418,7 +20617,8 @@
         "VERB": 1,
         "PREP": 1,
         "ADJ": 1,
-        "PART": 1
+        "PART": 1,
+        "AUX": 1
       },
       "MODAL|NOUN": {
         "DET": 1,
@@ -19427,18 +20627,20 @@
       "PROPN|PREP": {
         "NOUN": 3,
         "PROPN": 2,
-        "DET": 2
+        "DET": 2,
+        "ADJ": 1
       },
       "CONJ|MODAL": {
         "VERB": 1,
-        "AUX": 1
+        "AUX": 1,
+        "ADV": 1
       },
       "AUX|CONJ": {
         "VERB": 1
       },
       "AUX|NUM": {
         "PREP": 1,
-        "NOUN": 1
+        "NOUN": 2
       },
       "NUM|PREP": {
         "PREP": 1,
@@ -19461,7 +20663,7 @@
       },
       "NEG|DET": {
         "PREP": 1,
-        "NOUN": 1
+        "NOUN": 2
       },
       "NEG|AUX": {
         "DET": 1,
@@ -19472,7 +20674,7 @@
         "ADJ": 1
       },
       "DET|DET": {
-        "NOUN": 6,
+        "NOUN": 7,
         "PROPN": 1,
         "PUNCT": 1,
         "ADJ": 1,
@@ -19484,10 +20686,12 @@
       "DET|ADV": {
         "AUX": 1,
         "VERB": 2,
-        "NOUN": 1
+        "NOUN": 1,
+        "ADJ": 1
       },
       "ADV|AUX": {
-        "DET": 1
+        "DET": 2,
+        "VERB": 1
       },
       "NUM|VERB": {
         "PREP": 1,
@@ -19500,7 +20704,8 @@
       },
       "DET|PUNCT": {
         "NOUN": 2,
-        "</S>": 1
+        "</S>": 2,
+        "CONJ": 1
       },
       "AUX|PROPN": {
         "PROPN": 1,
@@ -19526,7 +20731,8 @@
       "PART|PUNCT": {
         "CONJ": 1,
         "DET": 1,
-        "ADJ": 1
+        "ADJ": 1,
+        "</S>": 1
       },
       "AUX|WH": {
         "NOUN": 1,
@@ -19552,7 +20758,7 @@
         "VERB": 1
       },
       "ADJ|MODAL": {
-        "AUX": 1,
+        "AUX": 2,
         "NOUN": 1
       },
       "NUM|ADJ": {
@@ -19562,46 +20768,60 @@
         "CONJ": 1
       },
       "PRON|CONJ": {
-        "ADJ": 1
+        "ADJ": 1,
+        "NOUN": 1
       },
       "MODAL|NEG": {
         "VERB": 1
       },
       "AUX|PREP": {
-        "PART": 1
+        "PART": 2
       },
       "PREP|PART": {
-        "PUNCT": 1
+        "PUNCT": 2
       },
       "WH|PART": {
         "VERB": 4
       },
       "PRON|PRON": {
-        "PUNCT": 1
+        "PUNCT": 1,
+        "AUX": 1
+      },
+      "PUNCT|NEG": {
+        "NOUN": 1
+      },
+      "MODAL|ADV": {
+        "AUX": 1
+      },
+      "NUM|PART": {
+        "VERB": 1
+      },
+      "NUM|AUX": {
+        "NOUN": 1
+      },
+      "INTJ|PUNCT": {
+        "INTJ": 2,
+        "NOUN": 2
+      },
+      "PUNCT|INTJ": {
+        "PUNCT": 2
       }
     },
     "word_bigrams": {
       "i": {
-        "am": 3,
         "want": 4,
+        "am": 3,
+        "'m": 3,
+        "love": 2,
+        "told": 2,
+        "need": 2,
         "think": 1,
         "do": 1,
         "would": 1,
-        "love": 2,
         "enjoy": 1,
-        "will": 1,
-        "practise": 1,
-        "feel": 1,
-        "thought": 1,
-        "'ve": 1,
-        "wnat": 1,
-        "told": 2,
-        "just": 1,
-        "need": 2,
-        "fed": 1,
-        "brushed": 1,
-        "'m": 3,
-        "went": 1
+        "was": 1,
+        "could": 1,
+        "ever": 1
       },
       "am": {
         "happy": 1,
@@ -19615,13 +20835,15 @@
         "the": 11,
         "overlap": 3,
         "write": 3,
+        "learn": 3,
+        "separate": 3,
         "do": 2,
-        "learn": 2,
         "read": 2,
         "study": 2,
         "update": 2,
-        "separate": 3,
-        "talk": 1
+        "a": 2,
+        "express": 2,
+        "avoid": 1
       },
       "talk": {
         "with": 1,
@@ -19629,26 +20851,17 @@
         "is": 1
       },
       "with": {
+        "a": 5,
+        "those": 4,
+        "the": 4,
+        "their": 3,
         "you": 1,
         "my": 1,
-        "those": 4,
-        "a": 5,
-        "the": 4,
         "minimal": 1,
         "less": 1,
         "relatively": 1,
         "only": 1,
-        "zero": 1,
-        "difficulty": 1,
-        "structural": 1,
-        "particular": 1,
-        "their": 2,
-        "no": 1,
-        "east-asian": 1,
-        "objects": 1,
-        "solidification": 1,
-        "easy-to-follow": 1,
-        "used": 1
+        "two": 1
       },
       "how": {
         "are": 1,
@@ -19657,29 +20870,27 @@
         "backpropagation": 3,
         "entropy": 1,
         "languages": 1,
-        "to": 4
+        "to": 4,
+        "these": 1
       },
       "are": {
         "conjunctions": 3,
+        "used": 4,
         "you": 2,
         "very": 2,
-        "used": 3,
         "artificial": 2,
+        "not": 2,
+        "often": 2,
         "good": 1,
         "walking": 1,
         "important": 1,
-        "curious": 1,
-        "beautiful": 1,
-        "epitomized": 1,
-        "sometimes": 1,
-        "only": 1,
-        "checked": 1,
-        "not": 2,
-        "often": 2,
-        "learnt": 1,
-        "many": 1,
-        "more": 1,
-        "properly": 1
+        "usable": 1,
+        "included": 1,
+        "guides": 1,
+        "some": 1,
+        "an": 1,
+        "most": 2,
+        "words": 2
       },
       "you": {
         "today": 1,
@@ -19696,7 +20907,10 @@
         "to": 2,
         "do": 1,
         "had": 1,
-        "should": 1
+        "should": 1,
+        "can": 1,
+        "'re": 1,
+        "need": 1
       },
       "what": {
         "do": 2,
@@ -19720,59 +20934,62 @@
         "and": 1,
         "haskell": 1,
         "bash": 1,
-        "game": 1
+        "game": 1,
+        "a": 1,
+        "this": 1
       },
       "language": {
         "is": 2,
         "teaching": 1,
-        "that": 2,
+        "that": 3,
         "change": 1,
         "'s": 1,
         "developed": 2,
         "for": 1,
         "has": 1,
         "or": 1,
-        "and": 1
+        "and": 1,
+        ")": 1,
+        "yet": 1,
+        "are": 1
       },
       "is": {
-        "a": 33,
-        "an": 7,
+        "a": 35,
         "the": 9,
+        "an": 7,
         "important": 3,
+        "vague": 3,
         "good": 2,
         "fun": 1,
         "wonderful": 1,
-        "hard": 1,
+        "hard": 2,
         "useful": 1,
-        "full": 1,
-        "f": 1,
-        "traditionally": 1,
-        "distributed": 1,
-        "where": 1,
-        "considered": 1,
-        "more": 1,
-        "all": 1,
-        "generally": 1,
-        "particularly": 1,
-        "vague": 3
+        "no": 1,
+        "sold": 1,
+        "n't": 1,
+        "usually": 2
       },
       "a": {
-        "conjunction": 7,
+        "conjunction": 8,
         "noun": 5,
         "method": 4,
         "vocabulary": 4,
         "system": 3,
+        "preposition": 3,
+        "\"": 3,
         "good": 2,
         "thermodynamic": 2,
         "neural": 2,
-        "computational": 2,
-        "preposition": 3,
-        "\"": 3,
-        "bad": 1,
-        "widespread": 1,
-        "reader": 1,
-        "left": 1,
-        "used": 1
+        "commonly-used": 1,
+        "concept": 1,
+        "language": 1,
+        "software": 1,
+        "template": 1,
+        "codebase": 1,
+        "cultural": 1,
+        "connective": 1,
+        "greater": 1,
+        "sentence": 2
       },
       "tool": {
         "for": 1
@@ -19790,7 +21007,9 @@
         "food": 1,
         "an": 1,
         "women": 1,
-        "collective": 1
+        "collective": 1,
+        "my": 1,
+        "interjections": 2
       },
       "sharing": {
         "ideas": 1
@@ -19806,11 +21025,14 @@
         "head": 2,
         "jvm": 2,
         "automatic": 2,
-        "left": 1,
-        "road": 1,
-        "corner": 1,
-        "reader": 1,
-        "ground": 1
+        "headings": 1,
+        "plural": 1,
+        "early": 1,
+        "first": 1,
+        "types": 2,
+        "seriousness": 2,
+        "communication": 2,
+        "start": 2
       },
       "brain": {
         "is": 1,
@@ -19831,7 +21053,8 @@
         "that": 1,
         "because": 1,
         "what": 1,
-        "how": 1
+        "how": 1,
+        "lots": 1
       },
       "new": {
         "words": 2,
@@ -19839,7 +21062,8 @@
         "friend": 1,
         "york": 1,
         "knowledge": 2,
-        "language": 1
+        "language": 1,
+        "and": 1
       },
       "she": {
         "went": 1,
@@ -19847,7 +21071,8 @@
         "was": 1,
         "kept": 1,
         "sings": 1,
-        "works": 1
+        "works": 1,
+        "had": 1
       },
       "went": {
         "to": 2
@@ -19882,10 +21107,11 @@
         "you": 2,
         "change": 2,
         "operate": 2,
-        "be": 5,
+        "be": 10,
         "vary": 1,
         "sometimes": 1,
-        "use": 1
+        "use": 2,
+        "seem": 1
       },
       "about": {
         "music": 1,
@@ -19918,7 +21144,11 @@
         "activity": 1,
         "process": 1,
         "condition": 1,
-        "employ": 1
+        "employ": 1,
+        "historical": 1,
+        "extent": 1,
+        "professionalism": 2,
+        "emotions": 2
       },
       "it": {
         "is": 11,
@@ -19932,7 +21162,8 @@
         "forms": 1,
         "as": 1,
         "highlighted": 1,
-        "yourself": 1
+        "yourself": 1,
+        "can": 1
       },
       "important": {
         "to": 3,
@@ -19948,7 +21179,8 @@
         "knoledge": 1,
         "intentions": 1,
         "writing": 1,
-        "other": 1
+        "other": 1,
+        "daily": 1
       },
       "tell": {
         "me": 3
@@ -19975,7 +21207,9 @@
         "broadly": 1,
         "aspects": 1,
         "complex": 1,
-        "commonly": 1
+        "commonly": 1,
+        "climb": 1,
+        "beautiful": 1
       },
       "learning": {
         "is": 4,
@@ -20008,7 +21242,9 @@
         "trip": 1,
         "records": 1,
         "clothes": 1,
-        "time": 1
+        "time": 1,
+        "personal": 1,
+        "tuition": 1
       },
       "friend": {
         "likes": 1,
@@ -20030,9 +21266,10 @@
         "home": 1,
         "one": 1,
         "compile-time": 1,
-        "the": 2,
+        "the": 4,
         "ease": 1,
-        "different": 1
+        "different": 1,
+        "that": 1
       },
       "words": {
         "have": 1,
@@ -20041,7 +21278,8 @@
         "recognized": 1,
         "are": 1,
         "that": 1,
-        "with": 1
+        "with": 1,
+        "used": 2
       },
       "have": {
         "meanings": 1,
@@ -20049,7 +21287,7 @@
         "several": 1,
         "processed": 1,
         "come": 1,
-        "a": 1,
+        "a": 2,
         "suggested": 1,
         "specific": 1,
         "modeled": 1,
@@ -20059,24 +21297,25 @@
         "the": 7,
         "functions": 2,
         "gerund": 2,
-        "other": 2,
+        "other": 3,
         "human": 2,
         "meanings": 1,
         "began": 1,
         "i": 1,
         "ready": 1,
         "deep": 1,
-        "fewer": 1,
-        "ideological": 1,
-        "nonfiction": 1,
-        "how": 1,
-        "keeps": 1,
-        "format": 1,
-        "suggestions": 1,
-        "danger": 1
+        "english": 1,
+        "nuance": 1,
+        "often": 1,
+        "an": 1,
+        "practice": 2,
+        "writing": 2,
+        "creative": 2,
+        "enthusiasm": 2
       },
       "meanings": {
-        "have": 1
+        "have": 1,
+        "you": 1
       },
       "music": {
         "is": 1
@@ -20085,7 +21324,8 @@
         "is": 1
       },
       "hard": {
-        "to": 2
+        "to": 2,
+        "enough": 1
       },
       "teacher": {
         "explained": 1
@@ -20102,16 +21342,21 @@
         "about": 1
       },
       "that": {
-        "is": 4,
+        "is": 5,
         "description": 3,
         "quantifies": 2,
         "mimic": 2,
-        "can": 2,
+        "can": 3,
         "run": 2,
         "sounds": 2,
         "you": 1,
         "i": 1,
-        "for": 1
+        "for": 1,
+        "exists": 1,
+        "point": 1,
+        "archaic": 1,
+        "than": 1,
+        "grammar": 2
       },
       "good": {
         "idea": 1,
@@ -20124,11 +21369,13 @@
         "as": 1
       },
       "memory": {
-        "is": 1
+        "is": 1,
+        "allocation": 2
       },
       "grammar": {
         "is": 1,
-        "of": 1
+        "of": 1,
+        "alone": 2
       },
       "why": {
         "do": 1
@@ -20148,7 +21395,8 @@
         "use": 1,
         "hierarchical": 1,
         "necessarily": 1,
-        "reach": 1
+        "reach": 1,
+        "code": 1
       },
       "know": {
         "the": 1
@@ -20161,10 +21409,13 @@
         "not": 1,
         "the": 2,
         "also": 1,
-        "does": 2
+        "does": 2,
+        "would": 1,
+        "once": 1
       },
       "would": {
-        "like": 1
+        "like": 1,
+        "generally": 1
       },
       "find": {
         "out": 1,
@@ -20184,7 +21435,9 @@
         "measures": 1,
         "simply": 1,
         "class": 1,
-        "arrow": 1
+        "arrow": 1,
+        "one": 1,
+        "chair": 1
       },
       "they": {
         "are": 1,
@@ -20192,27 +21445,29 @@
         "may": 1,
         "fulfill": 1,
         "form": 1,
-        "hear": 1
+        "hear": 1,
+        "can": 2
       },
       "walking": {
         "in": 1
       },
       "in": {
-        "the": 16,
-        "a": 9,
-        "english": 3,
-        "machine": 2,
+        "the": 17,
+        "a": 11,
+        "english": 4,
         "\"": 4,
+        "c": 3,
+        "machine": 2,
         "which": 2,
         "most": 2,
         "type": 2,
-        "new": 1,
-        "ways": 1,
-        "your": 1,
-        "general": 1
+        "your": 2,
+        "informal": 1,
+        "formal": 1
       },
       "children": {
-        "play": 1
+        "play": 1,
+        "and": 1
       },
       "play": {
         "in": 1
@@ -20221,7 +21476,7 @@
         "a": 1,
         "tired": 1,
         "known": 1,
-        "then": 1,
+        "then": 2,
         "heavy": 1,
         "limited": 1,
         "somewhat": 1,
@@ -20235,7 +21490,9 @@
         "hard": 1,
         "up": 1,
         "only": 1,
-        "littered": 1
+        "littered": 1,
+        "dependent": 1,
+        "from": 1
       },
       "quiet": {
         "evening": 1
@@ -20318,7 +21575,7 @@
         "of": 1
       },
       "of": {
-        "the": 24,
+        "the": 27,
         "speech": 5,
         "information": 4,
         "criteria": 3,
@@ -20328,7 +21585,13 @@
         "learn": 2,
         "accessible": 2,
         "biological": 2,
-        "clause": 1
+        "clause": 1,
+        "common": 1,
+        "how": 1,
+        "any": 1,
+        "clothing": 1,
+        "conjunction": 1,
+        "a": 2
       },
       "reading": {
         "is": 1,
@@ -20457,7 +21720,8 @@
         "to": 1
       },
       "beautiful": {
-        "picture": 1
+        "picture": 1,
+        "than": 1
       },
       "writing": {
         "helps": 1
@@ -20509,7 +21773,8 @@
       },
       "while": {
         "she": 1,
-        "clojure": 1
+        "clojure": 1,
+        "they": 2
       },
       "lake": {
         "is": 1
@@ -20550,19 +21815,23 @@
       },
       "from": {
         "a": 2,
-        "the": 3,
+        "the": 4,
         "equilibrium": 1,
         "classical": 1,
         "erving": 1,
         "high": 1,
-        "published": 1
+        "published": 1,
+        "work": 1,
+        "to": 1
       },
       "point": {
         "of": 1,
-        "had": 1
+        "had": 1,
+        "i": 1
       },
       "especially": {
-        "downwards": 1
+        "downwards": 1,
+        "an": 1
       },
       "extending": {
         "far": 1
@@ -20591,7 +21860,8 @@
         "ideals": 1,
         "techniques": 1,
         "of": 1,
-        "defined": 1
+        "defined": 1,
+        "idiom": 1
       },
       "study": {
         "about": 1,
@@ -20638,7 +21908,7 @@
       },
       "found": {
         "ali": 1,
-        "in": 3
+        "in": 4
       },
       "ali": {
         "his": 1
@@ -20655,7 +21925,8 @@
         "degree": 1
       },
       "degree": {
-        "of": 3
+        "of": 3,
+        "or": 1
       },
       "well": {
         "i": 1,
@@ -20691,7 +21962,12 @@
         "amazing": 1,
         "individual": 2,
         "essential": 1,
-        "economic": 1
+        "economic": 1,
+        "idiom": 2,
+        "integral": 1,
+        "article": 1,
+        "ailing": 1,
+        "interjection": 2
       },
       "update": {
         "to": 1,
@@ -20718,13 +21994,14 @@
         "both": 1,
         "national": 1,
         "adoption": 1,
-        "how": 1
+        "how": 1,
+        "financial": 1
       },
       "situation": {
         "in": 1
       },
       "need": {
-        "to": 2,
+        "to": 3,
         "some": 1
       },
       "records": {
@@ -20744,7 +22021,8 @@
         "situations": 1,
         "frequently": 1,
         "compendious": 1,
-        "ample": 1
+        "ample": 1,
+        "commonly": 2
       },
       "recent": {
         "transaction": 1
@@ -20867,7 +22145,8 @@
         "enforces": 1,
         "was": 1,
         "may": 1,
-        "make": 1
+        "make": 1,
+        "cannot": 1
       },
       "computes": {
         "error": 1
@@ -20936,7 +22215,11 @@
         "adding": 1,
         "linguists": 1,
         "degree": 1,
-        "drug": 1
+        "drug": 1,
+        "context": 1,
+        "it": 1,
+        "native": 1,
+        "itself": 1
       },
       "thermodynamic": {
         "efficiency": 2,
@@ -20977,7 +22260,9 @@
         "global": 1,
         "merely": 1,
         "that": 1,
-        "when": 1
+        "when": 1,
+        "fly": 1,
+        "i": 1
       },
       "global": {
         "gradient": 2,
@@ -21062,7 +22347,8 @@
         "vocabulary": 1,
         "reading": 1,
         "how": 1,
-        "left": 1
+        "left": 1,
+        "voice": 1
       },
       "uncertainty": {
         "is": 1,
@@ -21106,7 +22392,9 @@
         "dissipative": 1,
         "other": 1,
         "the": 1,
-        "two": 1
+        "two": 1,
+        "a": 1,
+        "five": 1
       },
       "dissipative": {
         "structures": 1
@@ -21131,7 +22419,9 @@
         "orthography": 1,
         "normal": 1,
         "constitutions": 1,
-        "acquisition": 1
+        "acquisition": 1,
+        "meanings": 1,
+        "usage": 2
       },
       "maintaining": {
         "order": 1
@@ -21163,7 +22453,9 @@
         "principles": 1,
         "models": 1,
         "include": 1,
-        "criteria": 1
+        "criteria": 1,
+        "expressions": 1,
+        "phrases": 1
       },
       "principles": {
         "requires": 1,
@@ -21235,14 +22527,16 @@
       },
       "concept": {
         "are": 1,
-        "of": 1
+        "of": 1,
+        "in": 1
       },
       "used": {
-        "in": 2,
-        "to": 4,
+        "in": 6,
+        "to": 6,
         "for": 1,
         "syringes": 1,
-        "car": 1
+        "car": 1,
+        "by": 1
       },
       "diverse": {
         "fields": 1
@@ -21318,7 +22612,11 @@
         "ai": 1,
         "also": 2,
         "words": 2,
-        "eu": 1
+        "eu": 1,
+        "i": 1,
+        ")": 2,
+        "usually": 1,
+        "heading": 1
       },
       "nn": {
         ")": 1
@@ -21335,8 +22633,10 @@
         "–": 1,
         "together": 1,
         "prioritizes": 1,
-        "and": 1,
-        "suffered": 1
+        "and": 2,
+        "suffered": 1,
+        "anything": 1,
+        "to": 1
       },
       "ann": {
         ")": 2
@@ -21371,7 +22671,9 @@
         "of": 2,
         "as": 1,
         "that": 1,
-        "and": 2
+        "and": 2,
+        "such": 1,
+        "are": 1
       },
       "descent": {
         "is": 4,
@@ -21415,7 +22717,7 @@
         "in": 3,
         "is": 2,
         "was": 1,
-        "itself": 1,
+        "itself": 2,
         "referential": 1,
         "like": 1
       },
@@ -21429,21 +22731,22 @@
         ")": 1
       },
       "part": {
-        "of": 2
+        "of": 3
       },
       "speech": {
         "that": 1,
         "because": 4,
         "stream": 1,
         "impediment": 1,
-        "over": 1
+        "over": 1,
+        "and": 2
       },
       "connects": {
         "words": 1
       },
       "called": {
         "its": 1,
-        "a": 1,
+        "a": 2,
         "conjunction": 1,
         "subordinators": 1,
         "syntactic": 1,
@@ -21465,7 +22768,8 @@
         "enough": 4
       },
       "enough": {
-        "to": 4
+        "to": 4,
+        "salt": 1
       },
       "overlap": {
         "with": 4
@@ -21482,7 +22786,8 @@
         "forms": 2,
         "distributed": 2,
         "sentence": 2,
-        "left": 1
+        "left": 1,
+        "figurative": 1
       },
       "parts": {
         "of": 4
@@ -21515,10 +22820,8 @@
         "found": 1,
         "varied": 1,
         "given": 1,
-        "any": 1,
-        "quite": 1,
-        "oral": 1,
-        "categorized": 1
+        "carefully": 2,
+        "used": 1
       },
       "defined": {
         "for": 4,
@@ -21547,7 +22850,9 @@
         "(": 1
       },
       "contexts": {
-        "be": 1
+        "be": 1,
+        "yet": 1,
+        "for": 2
       },
       "preposition": {
         "but": 1,
@@ -21618,17 +22923,22 @@
         "function": 1,
         "in": 1,
         ")": 1,
-        "referred": 1
+        "referred": 1,
+        "have": 1
       },
       "separate": {
         "clauses": 2,
-        "a": 1
+        "a": 1,
+        "the": 1,
+        "pieces": 1,
+        "from": 1
       },
       "comma": {
         "is": 1
       },
       "dependent": {
-        "clause": 2
+        "clause": 2,
+        "on": 1
       },
       "clause": {
         "from": 1,
@@ -21653,7 +22963,7 @@
         "in": 1
       },
       "th": {
-        "century": 4
+        "century": 5
       },
       "element": {
         "of": 1
@@ -21675,32 +22985,36 @@
         "much": 1,
         "new": 1,
         "good": 1,
-        "possible": 1
+        "possible": 1,
+        "malloc": 1,
+        "casual": 2,
+        "surprise": 2
       },
       "itself": {
-        "was": 1
+        "was": 2
       },
       "then": {
-        "called": 1,
+        "called": 2,
         "instantiated": 1,
         "proceed": 1,
         "associate": 1
       },
       "archaic": {
-        "term": 1
+        "term": 2
       },
       "diminished": {
-        "in": 1
+        "in": 2
       },
       "usage": {
-        "during": 1
+        "during": 2,
+        "should": 2
       },
       "during": {
-        "the": 2,
+        "the": 3,
         "its": 1
       },
       "early": {
-        "th": 1,
+        "th": 2,
         "conception": 1,
         ")": 1
       },
@@ -21728,14 +23042,16 @@
       "two": {
         "or": 3,
         "most": 1,
-        "main": 1
+        "main": 1,
+        "children": 1
       },
       "items": {
         "(": 1,
         "in": 1
       },
       "such": {
-        "as": 3
+        "as": 8,
+        "constructs": 1
       },
       "main": {
         "clauses": 1,
@@ -21808,7 +23124,8 @@
       },
       "generally": {
         "agreed": 1,
-        "the": 1
+        "the": 1,
+        "be": 1
       },
       "agreed": {
         "that": 1
@@ -21828,8 +23145,8 @@
       },
       "there": {
         "was": 1,
-        "is": 1,
-        "are": 1
+        "is": 2,
+        "are": 2
       },
       "heavy": {
         "rain": 1
@@ -21881,7 +23198,9 @@
         "culture": 1,
         "can": 1,
         "uses": 1,
-        "recognizes": 1
+        "recognizes": 1,
+        "to": 1,
+        "'s": 1
       },
       "types": {
         "of": 1,
@@ -21890,7 +23209,9 @@
       },
       "usually": {
         "plants": 1,
-        "has": 1
+        "has": 1,
+        "in": 1,
+        "written": 2
       },
       "plants": {
         "grown": 1
@@ -21907,7 +23228,8 @@
       "our": {
         "school": 1,
         "proven": 1,
-        "understanding": 1
+        "understanding": 1,
+        "communication": 1
       },
       "school": {
         "a": 1
@@ -21990,7 +23312,8 @@
       },
       "communication": {
         "between": 1,
-        "following": 1
+        "following": 1,
+        "and": 1
       },
       "development": {
         "of": 2
@@ -22063,7 +23386,7 @@
       },
       "way": {
         "in": 1,
-        "to": 2
+        "to": 4
       },
       "character": {
         "etc": 1
@@ -22101,10 +23424,12 @@
         "used": 1
       },
       "small": {
-        "talk": 1
+        "talk": 1,
+        "construct": 1
       },
       "informal": {
-        "type": 1
+        "type": 1,
+        "speech": 2
       },
       "type": {
         "of": 3,
@@ -22125,7 +23450,8 @@
         "one": 1,
         "interconnected": 1,
         "member": 1,
-        "set": 1
+        "set": 1,
+        "language": 1
       },
       "functional": {
         "topics": 1,
@@ -22236,7 +23562,8 @@
       "following": {
         "conclusions": 1,
         "communicating": 1,
-        "table": 1
+        "table": 1,
+        "are": 1
       },
       "series": {
         "of": 1
@@ -22580,7 +23907,10 @@
         "relatively": 1,
         "a": 1,
         "to": 1,
-        "often": 1
+        "often": 1,
+        "the": 2,
+        "in": 1,
+        "one": 1
       },
       "smart": {
         "contracts": 2
@@ -22700,7 +24030,8 @@
       },
       "relatively": {
         "fixed": 1,
-        "free": 1
+        "free": 1,
+        "small": 1
       },
       "fixed": {
         "word": 3,
@@ -22722,7 +24053,8 @@
         "people": 1,
         "phrase": 1,
         "countries": 1,
-        "facets": 1
+        "facets": 1,
+        "such": 1
       },
       "ease": {
         "the": 1,
@@ -22813,7 +24145,8 @@
       },
       "vary": {
         "as": 1,
-        "or": 1
+        "or": 1,
+        "by": 1
       },
       "much": {
         "as": 1,
@@ -22879,7 +24212,8 @@
         ")": 1
       },
       "free": {
-        "word": 2
+        "word": 2,
+        "(": 1
       },
       "since": {
         "in": 1
@@ -22970,7 +24304,8 @@
         "better": 1,
         "/": 2,
         "built": 1,
-        "a": 1
+        "a": 1,
+        "three": 1
       },
       "before": {
         "losing": 1,
@@ -22993,7 +24328,8 @@
         "purpose": 1
       },
       "plural": {
-        "of": 7
+        "of": 8,
+        ")": 1
       },
       "science": {
         "of": 1,
@@ -23029,7 +24365,8 @@
         "to": 2
       },
       "see": {
-        "all": 1
+        "all": 1,
+        "the": 2
       },
       "interconnected": {
         "group": 1
@@ -23059,7 +24396,8 @@
       },
       "common": {
         "cross-linguistically": 1,
-        "lisp": 1
+        "lisp": 1,
+        "idioms": 1
       },
       "frequently": {
         "occurring": 1
@@ -23086,9 +24424,10 @@
         "of": 1
       },
       "examples": {
-        "of": 1,
+        "of": 2,
         "below": 1,
-        "from": 1
+        "from": 1,
+        "with": 1
       },
       "underlined": {
         "in": 1
@@ -23112,7 +24451,8 @@
       },
       "understood": {
         "to": 1,
-        "as": 1
+        "as": 1,
+        "literally": 1
       },
       "contain": {
         "two": 1
@@ -23121,7 +24461,8 @@
         "or": 1
       },
       "dependents": {
-        "of": 1
+        "of": 1,
+        "in": 1
       },
       "bear": {
         "argument": 1
@@ -23185,12 +24526,16 @@
         "a": 1
       },
       "first": {
-        "work": 1
+        "work": 1,
+        "century": 1
       },
       "english": {
         "by": 1,
         "offers": 1,
-        "language": 1
+        "language": 1,
+        "speakers": 1,
+        "can": 1,
+        "is": 2
       },
       "infinitive": {
         "of": 1
@@ -23251,7 +24596,11 @@
         "paradigms": 1,
         "on": 1,
         "through": 1,
-        "language": 2
+        "language": 3,
+        "and": 1,
+        "context": 1,
+        "contexts": 1,
+        "idiom": 1
       },
       "encompasses": {
         "a": 1
@@ -23281,7 +24630,8 @@
         "description": 1
       },
       "software": {
-        "ecosystems": 1
+        "ecosystems": 1,
+        "design": 1
       },
       "rust": {
         "advances": 1
@@ -23580,10 +24930,12 @@
         "of": 1
       },
       "c": {
-        "through": 1
+        "through": 1,
+        "dynamic": 2
       },
       "multiple": {
-        "dispatch": 1
+        "dispatch": 1,
+        "programming": 1
       },
       "dispatch": {
         "and": 1
@@ -23651,7 +25003,8 @@
         "logic": 1
       },
       "formal": {
-        "predicate": 1
+        "predicate": 1,
+        "contexts": 2
       },
       "predicate": {
         "calculus": 1
@@ -23693,7 +25046,8 @@
         "native": 1
       },
       "native": {
-        "mobile": 1
+        "mobile": 1,
+        "english": 1
       },
       "mobile": {
         "development": 1
@@ -23791,7 +25145,9 @@
         "piece": 1
       },
       "code": {
-        "to": 1
+        "to": 1,
+        "a": 1,
+        "that": 1
       },
       "generic": {
         "\"": 1,
@@ -23814,7 +25170,8 @@
       },
       "particular": {
         "types": 1,
-        "focus": 1
+        "focus": 1,
+        "programming": 1
       },
       "parametrically": {
         "polymorphic": 1
@@ -23863,7 +25220,8 @@
         "users": 1
       },
       "delete": {
-        "records": 1
+        "records": 1,
+        "operators": 1
       },
       "declarative": {
         "statements": 1
@@ -23918,7 +25276,9 @@
         "add": 1
       },
       "add": {
-        "a": 1
+        "a": 1,
+        "color": 1,
+        "more": 1
       },
       "fifth": {
         "criterion": 1
@@ -23946,7 +25306,8 @@
         "kinds": 1
       },
       "five": {
-        "criteria": 1
+        "criteria": 1,
+        "separate": 1
       },
       "compendious": {
         "of": 1
@@ -24012,7 +25373,9 @@
         "of": 1
       },
       "no": {
-        "tensed": 1
+        "tensed": 1,
+        "exception": 1,
+        "more": 1
       },
       "tensed": {
         "forms": 1
@@ -24127,7 +25490,9 @@
         "defined": 1
       },
       "considered": {
-        "polite": 1
+        "polite": 1,
+        "idiosyncratic": 1,
+        "to": 2
       },
       "culture": {
         "can": 1
@@ -24143,7 +25508,8 @@
         "in": 1
       },
       "cultural": {
-        "context": 1
+        "context": 1,
+        "or": 1
       },
       "anthropologists": {
         "penelope": 1
@@ -24220,7 +25586,8 @@
         "include": 1
       },
       "seem": {
-        "polite": 1
+        "polite": 1,
+        "downright": 1
       },
       "expressing": {
         "uncertainty": 1
@@ -24307,7 +25674,8 @@
         "a": 1
       },
       "century": {
-        "criminal": 1
+        "criminal": 1,
+        "ad": 1
       },
       "criminal": {
         "as": 1
@@ -24472,7 +25840,8 @@
         "or": 1
       },
       "context": {
-        "of": 1
+        "of": 1,
+        "(": 1
       },
       "refer": {
         "more": 1
@@ -24490,7 +25859,8 @@
         "depending": 1
       },
       "definition": {
-        "used": 1
+        "used": 1,
+        "of": 1
       },
       "receptive": {
         "–": 1
@@ -24540,7 +25910,8 @@
       },
       "greater": {
         "depth": 1,
-        "success": 1
+        "success": 1,
+        "degree": 1
       },
       "depth": {
         "of": 1
@@ -24570,7 +25941,8 @@
         "of": 1
       },
       "commonly": {
-        "encountered": 1
+        "encountered": 1,
+        "used": 2
       },
       "encountered": {
         "when": 1
@@ -24610,10 +25982,12 @@
         "or": 1
       },
       "n't": {
-        "work": 1
+        "work": 1,
+        "enough": 1
       },
       "should": {
-        "ask": 1
+        "ask": 1,
+        "be": 2
       },
       "help": {
         "you": 1
@@ -24652,7 +26026,8 @@
         "methoded": 1
       },
       "design": {
-        "and": 1
+        "and": 1,
+        "pattern": 1
       },
       "operation": {
         "of": 1
@@ -24686,7 +26061,8 @@
         "of": 1
       },
       "life": {
-        "began": 1
+        "began": 1,
+        "separate": 1
       },
       "turn": {
         "of": 1,
@@ -24764,7 +26140,8 @@
         "could": 1
       },
       "could": {
-        "not": 1
+        "not": 1,
+        "no": 1
       },
       "reach": {
         "consensus": 1
@@ -24963,38 +26340,275 @@
       },
       "bought": {
         "a": 1
+      },
+      "idiom": {
+        "describes": 1,
+        "is": 2,
+        "examples": 1
+      },
+      "describes": {
+        "a": 1
+      },
+      "commonly-used": {
+        "way": 2
+      },
+      "construct": {
+        "in": 1
+      },
+      "constructs": {
+        "are": 1
+      },
+      "yet": {
+        "tend": 1,
+        "is": 1
+      },
+      "tend": {
+        "to": 1
+      },
+      "linguistic": {
+        "idiom": 1
+      },
+      "express": {
+        "a": 1,
+        "feelings": 2
+      },
+      "exists": {
+        "outside": 1
+      },
+      "outside": {
+        "the": 1
+      },
+      "constrained": {
+        "by": 1
+      },
+      "similar": {
+        "to": 1
+      },
+      "template": {
+        "to": 1
+      },
+      "copy-and-pasted": {
+        "into": 1
+      },
+      "dynamic": {
+        "memory": 2
+      },
+      "allocation": {
+        "functions": 2
+      },
+      "malloc": {
+        "(": 1
+      },
+      "usable": {
+        "in": 1
+      },
+      "lots": {
+        "of": 1
+      },
+      "idioms": {
+        "in": 1,
+        "and": 1,
+        "are": 1
+      },
+      "expressions": {
+        "are": 1
+      },
+      "pretty": {
+        "difficult": 1
+      },
+      "difficult": {
+        "to": 1
+      },
+      "literal": {
+        "english": 1
+      },
+      "once": {
+        "idioms": 1
+      },
+      "figurative": {
+        "language": 1
+      },
+      "downright": {
+        "impossible": 1
+      },
+      "guides": {
+        "like": 1
+      },
+      "daily": {
+        "conversation": 1
+      },
+      "let's": {
+        "get": 1
+      },
+      "get": {
+        "the": 1
+      },
+      "ball": {
+        "rolling": 1
+      },
+      "integral": {
+        "part": 1
+      },
+      "cannot": {
+        "be": 1
+      },
+      "color": {
+        "and": 1
+      },
+      "nuance": {
+        "to": 1
+      },
+      "historical": {
+        "significance": 1
+      },
+      "articles": {
+        "from": 1
+      },
+      "chair": {
+        "can": 1
+      },
+      "disassembled": {
+        "into": 1
+      },
+      "try": {
+        "to": 1
+      },
+      "keep": {
+        "my": 1
+      },
+      "personal": {
+        "life": 1,
+        "emails": 2
+      },
+      "anything": {
+        "that": 1
+      },
+      "sold": {
+        "by": 1
+      },
+      "article": {
+        "of": 1
+      },
+      "financial": {
+        "aid": 1
+      },
+      "aid": {
+        "for": 1
+      },
+      "ailing": {
+        "mother": 1
+      },
+      "three": {
+        "dependents": 1
+      },
+      "heading": {
+        ")": 1
+      },
+      "ad": {
+        "was": 1
+      },
+      "climb": {
+        "that": 1
+      },
+      "'re": {
+        "more": 1
+      },
+      "ever": {
+        "imagined": 1
+      },
+      "salt": {
+        "in": 1
+      },
+      "alas": {
+        "interjections": 2
+      },
+      "interjections": {
+        "carry": 2,
+        "interjections": 2,
+        "are": 4
+      },
+      "carry": {
+        "emotion": 2
+      },
+      "emotion": {
+        "that": 2
+      },
+      "alone": {
+        "cannot": 2
+      },
+      "punctuation": {
+        "rules": 2
+      },
+      "rules": {
+        "and": 2
+      },
+      "practice": {
+        "exercises": 2
+      },
+      "casual": {
+        "conversations": 2
+      },
+      "creative": {
+        "writing": 2
+      },
+      "carefully": {
+        "considered": 2
+      },
+      "avoid": {
+        "undermining": 2
+      },
+      "undermining": {
+        "the": 2
+      },
+      "seriousness": {
+        "or": 2
+      },
+      "professionalism": {
+        "of": 2
+      },
+      "feelings": {
+        "or": 2
+      },
+      "interjection": {
+        "is": 2
+      },
+      "written": {
+        "at": 2
+      },
+      "start": {
+        "of": 2
       }
     },
     "starters": {
-      "i": 18,
+      "i": 20,
       "how": 2,
       "what": 5,
-      "<NOUN>": 69,
-      "the": 43,
+      "<NOUN>": 78,
+      "the": 45,
       "she": 3,
       "we": 8,
       "it": 16,
-      "<VERB>": 20,
+      "<VERB>": 25,
       "can": 1,
       "my": 3,
       "why": 1,
       "they": 1,
       "he": 6,
       "where": 1,
-      "<ADJ>": 30,
+      "<ADJ>": 33,
       "please": 1,
-      "that": 6,
+      "that": 7,
       "if": 3,
       "although": 1,
-      "a": 20,
+      "a": 21,
       "does": 1,
       "who": 1,
       "when": 4,
-      "you": 1,
-      "<ADV>": 6,
-      "an": 7,
+      "you": 3,
+      "<ADV>": 7,
+      "an": 9,
       "however": 2,
-      "in": 24,
+      "in": 27,
       "for": 2,
       "toward": 1,
       "<PART>": 2,
@@ -25002,37 +26616,42 @@
       "his": 2,
       "of": 4,
       "her": 1,
-      "this": 6,
-      "these": 2,
+      "this": 7,
+      "these": 3,
       "as": 1,
       "each": 2,
       "without": 1,
       "some": 4,
       "<NUM>": 2,
-      "many": 2,
+      "many": 3,
       "any": 1,
-      "with": 1,
+      "with": 2,
       "during": 2,
       "within": 1,
-      "your": 1
+      "your": 1,
+      "at": 1,
+      "to": 1,
+      "wow": 2,
+      "while": 2
     },
     "connectors": {
       "because": 7,
-      "or": 64,
-      "and": 150,
-      "but": 13,
+      "or": 70,
+      "and": 166,
+      "but": 15,
       "so": 4,
       "while": 2,
-      "than": 4,
+      "than": 6,
       "therefore": 5,
       "if": 2,
-      "as": 34,
-      "however": 1,
+      "as": 39,
+      "however": 2,
       "whether": 1,
       "that": 3,
-      "yet": 1,
+      "yet": 3,
       "though": 1,
-      "since": 1
+      "since": 1,
+      "once": 1
     },
     "connector_pairs": {
       "NOUN>PRON": {
@@ -25043,25 +26662,27 @@
       },
       "NOUN>DET": {
         "or": 7,
-        "and": 10,
+        "and": 12,
         "but": 6,
         "if": 2,
         "though": 1,
         "as": 4
       },
       "NOUN>NOUN": {
-        "and": 58,
-        "or": 23,
-        "as": 3
+        "and": 63,
+        "or": 27,
+        "as": 3,
+        "yet": 1
       },
       "NOUN>VERB": {
-        "and": 6,
+        "and": 8,
         "or": 2,
         "as": 1
       },
       "ADJ>PRON": {
         "but": 1,
-        "and": 1
+        "and": 1,
+        "than": 1
       },
       "VERB>PRON": {
         "because": 1,
@@ -25071,11 +26692,11 @@
       },
       "ADJ>ADJ": {
         "and": 6,
-        "or": 1,
+        "or": 2,
         "as": 1
       },
       "ADJ>NOUN": {
-        "and": 3,
+        "and": 4,
         "or": 1
       },
       "ADV>ADV": {
@@ -25089,9 +26710,9 @@
         "and": 1
       },
       "NOUN>ADJ": {
-        "and": 15,
+        "and": 18,
         "than": 1,
-        "or": 5,
+        "or": 6,
         "whether": 1,
         "as": 2
       },
@@ -25102,7 +26723,7 @@
         "because": 4
       },
       "NOUN>PREP": {
-        "and": 2,
+        "and": 3,
         "since": 1,
         "as": 1
       },
@@ -25111,13 +26732,13 @@
         "that": 2
       },
       "NOUN>PUNCT": {
-        "however": 1
+        "however": 2
       },
       "NUM>NOUN": {
         "or": 5
       },
       "DET>NOUN": {
-        "as": 1
+        "as": 2
       },
       "VERB>PUNCT": {
         "and": 1
@@ -25138,7 +26759,8 @@
       "NOUN>AUX": {
         "and": 4,
         "as": 1,
-        "but": 1
+        "but": 1,
+        "yet": 1
       },
       "PROPN>PROPN": {
         "and": 6,
@@ -25176,7 +26798,7 @@
         "as": 1
       },
       "NOUN>ADV": {
-        "and": 3,
+        "and": 4,
         "but": 1,
         "than": 1,
         "or": 1,
@@ -25184,7 +26806,7 @@
       },
       "NOUN>PROPN": {
         "or": 2,
-        "and": 9
+        "and": 10
       },
       "PROPN>ADJ": {
         "or": 1
@@ -25193,7 +26815,8 @@
         "and": 2
       },
       "CONJ>NOUN": {
-        "as": 1
+        "as": 1,
+        "once": 1
       },
       "VERB>AUX": {
         "or": 1
@@ -25245,7 +26868,7 @@
         "so": 1
       },
       "DET>ADJ": {
-        "as": 1
+        "as": 3
       },
       "PART>NOUN": {
         "as": 1
@@ -25262,6 +26885,18 @@
       },
       "PROPN>PREP": {
         "because": 1
+      },
+      "PROPN>MODAL": {
+        "but": 1
+      },
+      "DET>CONJ": {
+        "but": 1
+      },
+      "PRON>NOUN": {
+        "than": 1
+      },
+      "DET>VERB": {
+        "as": 2
       }
     },
     "skeletons": {
@@ -25615,6 +27250,35 @@
           "NOUN"
         ],
         "ex": "To utilize or employ."
+      },
+      "{VERB} the {NOUNS} from the {NOUNS}.": {
+        "n": 1,
+        "form": "imperative",
+        "slots": [
+          "VERB",
+          "NOUNS",
+          "NOUNS"
+        ],
+        "ex": "Separate the articles from the headings."
+      },
+      "I could no {NOUN} {NOUN} that than {NOUN}!": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "NOUN",
+          "NOUN",
+          "NOUN"
+        ],
+        "ex": "I could no more climb that than fly!"
+      },
+      "{NOUN} is n't enough {NOUN} in this.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "NOUN",
+          "NOUN"
+        ],
+        "ex": "There isn't enough salt in this."
       }
     },
     "clause_templates": {
@@ -25670,7 +27334,14 @@
       "VERB ADJ NOUN PREP ADJ NOUN | and | NOUN": 1,
       "VERB WH VERB ADJ NOUN VERB | and | WH PART VERB PRON": 1,
       "NOUN AUX WH PART VERB NOUN DET NOUN VERB NOUN | and | NOUN": 1,
-      "NOUN WH AUX VERB PART VERB | and | NOUN DET NOUN AUX VERB PREP VERB NOUN VERB PREP NOUN": 1
+      "NOUN WH AUX VERB PART VERB | and | NOUN DET NOUN AUX VERB PREP VERB NOUN VERB PREP NOUN": 1,
+      "PREP PROPN VERB DET PROPN ADJ NOUN VERB DET CONJ NOUN | and | ADJ NOUN": 1,
+      "PREP PROPN VERB DET ADJ | and | NOUN": 1,
+      "DET PROPN ADJ NOUN AUX ADJ PREP PROPN | but | MODAL ADV AUX VERB ADJ": 1,
+      "NOUN AUX DET ADJ NOUN PREP DET NOUN | and | PROPN AUX DET NOUN": 1,
+      "PREP NUM NOUN | and | DET NOUN PRON AUX NUM NOUN PREP DET": 1,
+      "VERB DET NOUN | and | NOUN": 2,
+      "NOUN AUX NOUN VERB PART VERB NOUN CONJ NOUN DET CONJ VERB NOUN | and | NOUN": 2
     },
     "sentence_bank": {
       "happy": [
@@ -25700,9 +27371,9 @@
         "I want to understand how the mind works."
       ],
       "learn": [
-        "In machine learning, a neural network or artificial neural network is a computational model inspired by the structure and functions of biological neural networks.",
         "Learn what makes great dialogue work and how to write it yourself.",
-        "Learn how to write and format dialogue with easy-to-follow tips, examples , and suggestions on how to include dialogue in your writing."
+        "Learn how to write and format dialogue with easy-to-follow tips, examples , and suggestions on how to include dialogue in your writing.",
+        "Learn LOTS of common idioms in English, with examples of how these expressions are used by native English speakers."
       ],
       "go": [
         "She went to the market because she needed bread."
@@ -25725,7 +27396,8 @@
       ],
       "help": [
         "Thank you for your help.",
-        "It is good to ask for help."
+        "It is good to ask for help.",
+        "Luckily, there are guides like this one to help!"
       ],
       "tell": [
         "Please tell me what you mean.",
@@ -25733,8 +27405,9 @@
         "The old man told a funny story."
       ],
       "more": [
-        "Can you tell me more about that?",
-        "I need some more information about this issue."
+        "I could no more climb that than fly!",
+        "You're more beautiful than I ever imagined.",
+        "You need to add more."
       ],
       "questions": [
         "Learning is fun when the questions are good.",
@@ -25748,14 +27421,16 @@
       ],
       "words": [
         "Words have meanings, and meanings have shades.",
-        "A vocabulary is the set of words in a given language that an individual knows or uses."
+        "A vocabulary is the set of words in a given language that an individual knows or uses.",
+        "Interjections are words used to express feelings or emotions, such as surprise, joy, disgust, excitement, and enthusiasm."
       ],
       "meanings": [
         "Words have meanings, and meanings have shades."
       ],
       "hard": [
         "It is hard to learn alone.",
-        "It was hard to hear his speech over the noise."
+        "It was hard to hear his speech over the noise.",
+        "Literal English is hard enough, but once idioms and other figurative language are included, it can seem downright impossible."
       ],
       "teacher": [
         "The teacher explained the lesson slowly."
@@ -25790,7 +27465,8 @@
         "They are walking in the park."
       ],
       "children": [
-        "The children play in the garden."
+        "The children play in the garden.",
+        "With two children and an ailing mother, she had three dependents in all."
       ],
       "play": [
         "The children play in the garden."
@@ -25890,7 +27566,8 @@
         "I just made an update to my blog about my trip to Rome."
       ],
       "beautiful": [
-        "Who made this beautiful picture?"
+        "Who made this beautiful picture?",
+        "You're more beautiful than I ever imagined."
       ],
       "lesson": [
         "When will the lesson begin?"
@@ -25968,7 +27645,8 @@
       ],
       "need": [
         "I need to update my records to take account of the most recent transaction.",
-        "I need some more information about this issue."
+        "I need some more information about this issue.",
+        "You need to add more."
       ],
       "additional": [
         "An additional piece of information, an addition to existing information."
@@ -26044,7 +27722,8 @@
       ],
       "used": [
         "Commas are often used to separate clauses .",
-        "He bought a used car."
+        "He bought a used car.",
+        "While they can be used in formal contexts, their usage should be carefully considered to avoid undermining the seriousness or professionalism of the communication."
       ],
       "conjunction": [
         "A conjunction itself was then called a connective ."
@@ -26316,7 +27995,8 @@
       ],
       "find": [
         "Many people find it worthwhile to network for jobs and information.",
-        "We had difficulty in finding the correct descent ."
+        "We had difficulty in finding the correct descent .",
+        "Many such constructs are found in multiple programming contexts yet tend to vary by context."
       ],
       "interconnected": [
         "Any interconnected group or system."
@@ -26325,9 +28005,9 @@
         "Any interconnected group or system."
       ],
       "phrases": [
-        "Noun phrases often function as verb subjects and objects , as predicative expressions , and as complements of prepositions .",
         "Noun phrases can be identified by the possibility of pronoun substitution, as is illustrated in the examples below.",
-        "Noun phrases typically bear argument functions."
+        "Noun phrases typically bear argument functions.",
+        "These phrases, which cannot be understood literally, add color and nuance to our communication and often have a cultural or historical significance."
       ],
       "examples": [
         "Some examples of noun phrases are underlined in the sentences below."
@@ -26351,7 +28031,8 @@
         "An early conception of the noun phrase can be found in First work in English by Alexander Murison ."
       ],
       "climb": [
-        "We climbed the mountain with difficulty, but the descent was easier."
+        "We climbed the mountain with difficulty, but the descent was easier.",
+        "I could no more climb that than fly!"
       ],
       "mountain": [
         "We climbed the mountain with difficulty, but the descent was easier."
@@ -26443,7 +28124,8 @@
         "Contractions are only shown if their orthography is distinctive."
       ],
       "most": [
-        "Each of the two most compendious of postwar reference grammars of English offers a more detailed list of criteria for auxiliary verbs."
+        "Each of the two most compendious of postwar reference grammars of English offers a more detailed list of criteria for auxiliary verbs.",
+        "Contexts for Interjections Interjections are most commonly used in informal speech and writing, such as casual conversations, personal emails, and creative writing."
       ],
       "compendious": [
         "Each of the two most compendious of postwar reference grammars of English offers a more detailed list of criteria for auxiliary verbs."
@@ -26645,7 +28327,8 @@
       ],
       "write": [
         "Here's how to write dialogue that sounds real, reads clean, and keeps people turning pages.",
-        "Learn how to write and format dialogue with easy-to-follow tips, examples , and suggestions on how to include dialogue in your writing."
+        "Learn how to write and format dialogue with easy-to-follow tips, examples , and suggestions on how to include dialogue in your writing.",
+        "An interjection is usually written at the start of a sentence."
       ],
       "joining": [
         "The act of joining , or condition of being joined."
@@ -26670,6 +28353,110 @@
       ],
       "buy": [
         "He bought a used car."
+      ],
+      "constructs": [
+        "Many such constructs are found in multiple programming contexts yet tend to vary by context."
+      ],
+      "similar": [
+        "Similar to a software design pattern , an idiom is a template to be followed, not code that can be copy-and-pasted into a codebase ."
+      ],
+      "software": [
+        "Similar to a software design pattern , an idiom is a template to be followed, not code that can be copy-and-pasted into a codebase ."
+      ],
+      "delete": [
+        "In C++ , use the new and delete operators."
+      ],
+      "operators": [
+        "In C++ , use the new and delete operators."
+      ],
+      "dynamic": [
+        "The C dynamic memory allocation functions are usable in C++, but would generally be considered idiosyncratic."
+      ],
+      "memory": [
+        "The C dynamic memory allocation functions are usable in C++, but would generally be considered idiosyncratic."
+      ],
+      "common": [
+        "Learn LOTS of common idioms in English, with examples of how these expressions are used by native English speakers."
+      ],
+      "english": [
+        "English can be pretty difficult to learn."
+      ],
+      "pretty": [
+        "English can be pretty difficult to learn."
+      ],
+      "literal": [
+        "Literal English is hard enough, but once idioms and other figurative language are included, it can seem downright impossible."
+      ],
+      "guides": [
+        "Luckily, there are guides like this one to help!"
+      ],
+      "following": [
+        "Following are some idiom examples with their meanings you can use in your daily conversation."
+      ],
+      "idiom": [
+        "Following are some idiom examples with their meanings you can use in your daily conversation."
+      ],
+      "let's": [
+        "Let's get the ball rolling!"
+      ],
+      "ball": [
+        "Let's get the ball rolling!"
+      ],
+      "idioms": [
+        "Idioms are an integral part of any language, and English is no exception."
+      ],
+      "integral": [
+        "Idioms are an integral part of any language, and English is no exception."
+      ],
+      "cannot": [
+        "These phrases, which cannot be understood literally, add color and nuance to our communication and often have a cultural or historical significance."
+      ],
+      "separate": [
+        "Separate the articles from the headings."
+      ],
+      "articles": [
+        "Separate the articles from the headings."
+      ],
+      "chair": [
+        "This chair can be disassembled into five separate pieces."
+      ],
+      "disassembl": [
+        "This chair can be disassembled into five separate pieces."
+      ],
+      "point": [
+        "At that point I was dependent on financial aid for my tuition."
+      ],
+      "dependent": [
+        "At that point I was dependent on financial aid for my tuition."
+      ],
+      "ailing": [
+        "With two children and an ailing mother, she had three dependents in all."
+      ],
+      "salt": [
+        "There isn't enough salt in this."
+      ],
+      "greater": [
+        "To a greater degree or extent."
+      ],
+      "degree": [
+        "To a greater degree or extent."
+      ],
+      "alas": [
+        "Wow, oops, alas - interjections carry emotion that grammar alone cannot."
+      ],
+      "interjections": [
+        "Wow, oops, alas - interjections carry emotion that grammar alone cannot.",
+        "Interjections are words used to express feelings or emotions, such as surprise, joy, disgust, excitement, and enthusiasm.",
+        "Contexts for Interjections Interjections are most commonly used in informal speech and writing, such as casual conversations, personal emails, and creative writing."
+      ],
+      "contexts": [
+        "Contexts for Interjections Interjections are most commonly used in informal speech and writing, such as casual conversations, personal emails, and creative writing."
+      ],
+      "formal": [
+        "While they can be used in formal contexts, their usage should be carefully considered to avoid undermining the seriousness or professionalism of the communication."
+      ],
+      "interjection": [
+        "An interjection is usually written at the start of a sentence."
       ]
     }
   },
@@ -26682,14 +28469,6 @@
     },
     "pending_words": [
       "matchine",
-      "separate",
-      "clause",
-      "dependent",
-      "called",
-      "term",
-      "century",
-      "conjunctions",
-      "more",
       "syntax",
       "items",
       "join",
@@ -26963,13 +28742,38 @@
       "conjunct",
       "utilize",
       "employ",
-      "commas"
+      "commas",
+      "multiple",
+      "contexts",
+      "idiom",
+      "definition",
+      "software",
+      "design",
+      "delete",
+      "dynamic",
+      "allocation",
+      "considered",
+      "common",
+      "expressions",
+      "native",
+      "idioms",
+      "seem",
+      "impossible",
+      "literally",
+      "articles",
+      "children",
+      "connective",
+      "archaic",
+      "diminished",
+      "usage",
+      "extent",
+      "alone"
     ],
     "names": [],
-    "lessons": 9,
-    "topic_cursor": 20,
+    "lessons": 10,
+    "topic_cursor": 23,
     "taught": 0,
-    "last_lesson": "2026-10-23 23:46:02",
+    "last_lesson": "2026-10-23 23:46:14",
     "pending_concepts": [
       "backpropagation",
       "neuroplasticity",
