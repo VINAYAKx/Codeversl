@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.6200000000000001,
+    "adenosine": 0.6800000000000002,
     "newborn": false
   },
   "episodic_memory": [
@@ -2910,6 +2910,13 @@
       "time": "2026-10-24 18:07:54",
       "speaker": "brain",
       "text": "I wondered about 'Ecosystem' by myself and went searching. From Wikipedia (live internet) I learned: An ecosystem is a system formed by organisms in interaction with their environment, where the biotic and abiotic components are linked together through nutrient cycles and energy flows. Key ideas I stored: ecosystem, organisms.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 18:09:55",
+      "speaker": "brain",
+      "text": "I wondered about 'Fourier transform' by myself and went searching. From Wikipedia (live internet) I learned: In mathematics, the Fourier transform (FT) is an integral transform that takes a function as input and outputs another function that describes the extent to which various frequencies are present in the original function. Key ideas I stored: term fourier transform, integral transform, frequency domain representation, complex-valued, mathematics.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6910,6 +6917,19 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Ecosystem",
       "learned": "2026-10-24 18:07:54"
+    },
+    "Fourier transform": {
+      "summary": "In mathematics, the Fourier transform (FT) is an integral transform that takes a function as input and outputs another function that describes the extent to which various frequencies are present in the original function. The output of the transform is a complex valued function of frequency. The term Fourier transform refers to both the mathematical operation and to this complex-valued function. When a distinction needs to be made, the output of the operation is sometimes called the frequency domain representation of the original function. The Fourier transform is analogous to decomposing the sound of a musical chord into the intensities of its constituent pitches.",
+      "concepts": [
+        "term fourier transform",
+        "integral transform",
+        "frequency domain representation",
+        "complex-valued",
+        "mathematics"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Fourier_transform",
+      "learned": "2026-10-24 18:09:55"
     }
   },
   "creator_teachings": [
@@ -8137,6 +8157,12 @@
       "kind": "explore_report",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 18:09:55",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -8264,7 +8290,8 @@
     "evolution",
     "electrons",
     "internet",
-    "ecosystem"
+    "ecosystem",
+    "transform"
   ],
   "sensory_log": [
     {
@@ -44859,23 +44886,78 @@
       "source": "corpus",
       "learned": "2026-10-24 18:07:54",
       "uses": 1
+    },
+    "transform": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 18:09:55",
+      "uses": 1
+    },
+    "outputs": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 18:09:55",
+      "uses": 1
+    },
+    "output": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The output of the transform is a complex valued function of frequency."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 18:09:55",
+      "uses": 1
+    },
+    "domain": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "When a distinction needs to be made, the output of the operation is sometimes called the frequency domain representation of the original function."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 18:09:55",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 2018,
-      "tokens": 27081,
+      "sentences": 2023,
+      "tokens": 27194,
       "sources": {
         "seed corpus": 64,
         "conversation": 31,
         "dictionary": 953,
-        "explore": 281,
+        "explore": 286,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "837a70d9849f",
         "6d5449df3f53",
         "c01c007a404f",
         "5c023cd963ca",
@@ -45174,7 +45256,8 @@
         "1a2f60d75064",
         "8b276a48b50a",
         "06caed5bc4fe",
-        "c3d626331b97"
+        "c3d626331b97",
+        "a209dac70c6f"
       ],
       "seeded": true,
       "rejected": 479,
@@ -46142,7 +46225,6 @@
         "inferring": 1,
         "gated": 1,
         "vector": 1,
-        "output": 1,
         "parameters": 1,
         "gru": 1,
         "polyphonic": 1,
@@ -46156,7 +46238,6 @@
         "employees": 1,
         "adjust": 1,
         "activities": 1,
-        "transform": 1,
         "systematic": 1,
         "scholarly": 1,
         "user": 1,
@@ -46990,7 +47071,6 @@
         "altitude": 1,
         "nearby": 1,
         "currents": 1,
-        "outputs": 1,
         "routed": 1,
         "inputs": 1,
         "chain": 1,
@@ -47060,7 +47140,6 @@
         "exerts": 1,
         "contained": 1,
         "ubiquitous": 1,
-        "domain": 1,
         "prokaryotic": 1,
         "microorganisms": 1,
         "micrometres": 1,
@@ -47289,15 +47368,23 @@
         "biotic": 1,
         "abiotic": 1,
         "cycles": 1,
-        "flows": 1
+        "flows": 1,
+        "frequencies": 1,
+        "valued": 1,
+        "analogous": 1,
+        "decomposing": 1,
+        "musical": 1,
+        "chord": 1,
+        "intensities": 1,
+        "pitches": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
         "PRON": 251,
-        "WH": 27,
+        "WH": 28,
         "NOUN": 617,
-        "DET": 515,
+        "DET": 518,
         "VERB": 241,
         "MODAL": 4,
         "ADJ": 109,
@@ -47305,7 +47392,7 @@
         "CONJ": 24,
         "AUX": 12,
         "ADV": 30,
-        "PREP": 142,
+        "PREP": 143,
         "PART": 24,
         "NUM": 7,
         "NEG": 2
@@ -47314,7 +47401,7 @@
         "AUX": 216,
         "PUNCT": 58,
         "ADV": 14,
-        "VERB": 244,
+        "VERB": 247,
         "MODAL": 86,
         "PREP": 29,
         "WH": 4,
@@ -47329,13 +47416,13 @@
         "NEG": 1
       },
       "AUX": {
-        "ADJ": 223,
+        "ADJ": 226,
         "PRON": 18,
         "PUNCT": 6,
-        "DET": 296,
+        "DET": 298,
         "NOUN": 66,
         "NEG": 43,
-        "VERB": 273,
+        "VERB": 274,
         "INTJ": 1,
         "ADV": 93,
         "CONJ": 12,
@@ -47347,17 +47434,17 @@
         "PART": 12
       },
       "ADJ": {
-        "PART": 34,
-        "NOUN": 1356,
+        "PART": 35,
+        "NOUN": 1362,
         "WH": 3,
         "PUNCT": 230,
-        "PREP": 145,
-        "CONJ": 76,
-        "PROPN": 26,
+        "PREP": 146,
+        "CONJ": 77,
+        "PROPN": 27,
         "ADJ": 104,
         "DET": 34,
         "AUX": 27,
-        "VERB": 67,
+        "VERB": 68,
         "MODAL": 8,
         "</S>": 5,
         "NUM": 7,
@@ -47365,24 +47452,24 @@
         "PRON": 1
       },
       "PART": {
-        "VERB": 300,
-        "AUX": 48,
+        "VERB": 301,
+        "AUX": 49,
         "ADJ": 23,
         "NOUN": 44,
-        "WH": 3,
+        "WH": 4,
         "PREP": 1,
         "CONJ": 10,
         "PUNCT": 9
       },
       "VERB": {
         "PREP": 479,
-        "PART": 104,
+        "PART": 105,
         "ADJ": 79,
-        "NOUN": 511,
-        "PUNCT": 228,
+        "NOUN": 513,
+        "PUNCT": 229,
         "PRON": 93,
         "AUX": 28,
-        "DET": 367,
+        "DET": 371,
         "VERB": 45,
         "CONJ": 152,
         "WH": 23,
@@ -47394,9 +47481,9 @@
         "MODAL": 1
       },
       "PREP": {
-        "PRON": 61,
-        "NOUN": 914,
-        "DET": 970,
+        "PRON": 62,
+        "NOUN": 916,
+        "DET": 978,
         "PUNCT": 48,
         "VERB": 69,
         "PREP": 23,
@@ -47411,7 +47498,7 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 1865,
+        "</S>": 1870,
         "NOUN": 569,
         "CONJ": 280,
         "PRON": 40,
@@ -47419,7 +47506,7 @@
         "ADV": 65,
         "PREP": 54,
         "ADJ": 92,
-        "DET": 154,
+        "DET": 156,
         "WH": 33,
         "AUX": 30,
         "NUM": 7,
@@ -47431,7 +47518,7 @@
       },
       "WH": {
         "AUX": 32,
-        "DET": 42,
+        "DET": 44,
         "PRON": 22,
         "NOUN": 51,
         "VERB": 23,
@@ -47460,36 +47547,36 @@
         "NUM": 3
       },
       "NOUN": {
-        "AUX": 514,
-        "PREP": 1532,
-        "NOUN": 1751,
-        "PUNCT": 2478,
-        "CONJ": 585,
-        "VERB": 445,
+        "AUX": 519,
+        "PREP": 1540,
+        "NOUN": 1755,
+        "PUNCT": 2484,
+        "CONJ": 587,
+        "VERB": 447,
         "ADV": 76,
-        "PART": 191,
+        "PART": 192,
         "ADJ": 248,
         "MODAL": 73,
         "</S>": 127,
-        "PRON": 114,
+        "PRON": 116,
         "WH": 52,
-        "DET": 285,
-        "PROPN": 90,
+        "DET": 286,
+        "PROPN": 91,
         "NUM": 13,
         "NEG": 6,
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 1785,
-        "ADJ": 776,
+        "NOUN": 1798,
+        "ADJ": 783,
         "PRON": 22,
         "PREP": 44,
         "NUM": 45,
         "PART": 6,
         "VERB": 38,
         "CONJ": 41,
-        "PROPN": 102,
-        "DET": 64,
+        "PROPN": 104,
+        "DET": 65,
         "ADV": 25,
         "PUNCT": 24,
         "AUX": 4,
@@ -47499,13 +47586,13 @@
       "CONJ": {
         "PRON": 77,
         "DET": 200,
-        "NOUN": 556,
+        "NOUN": 557,
         "VERB": 98,
-        "ADJ": 123,
+        "ADJ": 124,
         "ADV": 40,
         "PUNCT": 18,
         "WH": 12,
-        "PREP": 33,
+        "PREP": 34,
         "CONJ": 17,
         "NUM": 7,
         "AUX": 32,
@@ -47551,7 +47638,7 @@
         "DET": 7,
         "PUNCT": 132,
         "PART": 10,
-        "NOUN": 155,
+        "NOUN": 159,
         "AUX": 29,
         "PROPN": 101,
         "ADJ": 17,
@@ -47610,21 +47697,21 @@
         "PART": 5
       },
       "AUX|ADJ": {
-        "PART": 23,
+        "PART": 24,
         "WH": 3,
         "PUNCT": 69,
-        "PREP": 39,
+        "PREP": 40,
         "DET": 12,
         "NOUN": 38,
         "CONJ": 13,
         "ADJ": 9,
-        "VERB": 11,
+        "VERB": 12,
         "NUM": 3,
         "PROPN": 2,
         "MODAL": 1
       },
       "ADJ|PART": {
-        "VERB": 24,
+        "VERB": 25,
         "WH": 1,
         "NOUN": 5,
         "AUX": 3,
@@ -47636,7 +47723,7 @@
         "PUNCT": 41,
         "NOUN": 73,
         "WH": 4,
-        "DET": 68,
+        "DET": 69,
         "PART": 4,
         "NUM": 4,
         "CONJ": 22,
@@ -47664,7 +47751,7 @@
       },
       "PREP|PRON": {
         "PUNCT": 28,
-        "VERB": 13,
+        "VERB": 14,
         "AUX": 6,
         "ADV": 2,
         "</S>": 2,
@@ -47690,7 +47777,7 @@
         "MODAL": 3,
         "NOUN": 7,
         "PRON": 3,
-        "DET": 1
+        "DET": 2
       },
       "WH|AUX": {
         "PRON": 7,
@@ -47731,10 +47818,10 @@
       "PRON|VERB": {
         "PART": 21,
         "PREP": 33,
-        "NOUN": 33,
+        "NOUN": 34,
         "PRON": 23,
         "PUNCT": 17,
-        "DET": 64,
+        "DET": 66,
         "VERB": 9,
         "ADJ": 12,
         "CONJ": 16,
@@ -47747,7 +47834,7 @@
         "NUM": 1
       },
       "VERB|PART": {
-        "AUX": 15,
+        "AUX": 16,
         "VERB": 69,
         "ADJ": 5,
         "WH": 1,
@@ -47758,7 +47845,7 @@
       "PART|AUX": {
         "PUNCT": 2,
         "DET": 2,
-        "VERB": 21,
+        "VERB": 22,
         "ADJ": 10,
         "NUM": 1,
         "PREP": 4,
@@ -47789,8 +47876,8 @@
         "INTJ": 2
       },
       "NOUN|AUX": {
-        "DET": 167,
-        "ADJ": 100,
+        "DET": 169,
+        "ADJ": 103,
         "NOUN": 35,
         "ADV": 61,
         "VERB": 99,
@@ -47805,8 +47892,8 @@
         "PRON": 2
       },
       "AUX|DET": {
-        "NOUN": 149,
-        "ADJ": 113,
+        "NOUN": 150,
+        "ADJ": 114,
         "PROPN": 6,
         "VERB": 6,
         "PREP": 4,
@@ -47816,16 +47903,16 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 554,
-        "AUX": 155,
-        "CONJ": 130,
+        "PREP": 558,
+        "AUX": 158,
+        "CONJ": 131,
         "PUNCT": 386,
-        "VERB": 115,
+        "VERB": 117,
         "ADV": 21,
         "ADJ": 54,
-        "NOUN": 163,
-        "PRON": 33,
-        "PART": 54,
+        "NOUN": 164,
+        "PRON": 34,
+        "PART": 55,
         "</S>": 7,
         "PROPN": 7,
         "DET": 63,
@@ -47834,8 +47921,8 @@
         "NUM": 3
       },
       "NOUN|PREP": {
-        "NOUN": 574,
-        "DET": 558,
+        "NOUN": 575,
+        "DET": 565,
         "PREP": 8,
         "ADJ": 172,
         "PROPN": 51,
@@ -47850,7 +47937,7 @@
       },
       "PREP|NOUN": {
         "NOUN": 136,
-        "PUNCT": 281,
+        "PUNCT": 283,
         "VERB": 40,
         "CONJ": 99,
         "ADJ": 23,
@@ -47869,11 +47956,11 @@
       "NOUN|NOUN": {
         "PUNCT": 625,
         "PART": 26,
-        "NOUN": 463,
-        "PREP": 235,
+        "NOUN": 464,
+        "PREP": 237,
         "CONJ": 98,
         "VERB": 68,
-        "PROPN": 39,
+        "PROPN": 40,
         "AUX": 71,
         "MODAL": 16,
         "ADJ": 43,
@@ -47886,13 +47973,13 @@
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 1436,
+        "</S>": 1441,
         "NOUN": 367,
         "CONJ": 197,
         "ADV": 47,
         "PREP": 39,
         "ADJ": 61,
-        "DET": 101,
+        "DET": 102,
         "VERB": 50,
         "WH": 24,
         "PRON": 26,
@@ -47905,9 +47992,9 @@
         "INTJ": 1
       },
       "<S>|DET": {
-        "NOUN": 327,
-        "ADJ": 126,
-        "PROPN": 25,
+        "NOUN": 328,
+        "ADJ": 127,
+        "PROPN": 26,
         "VERB": 4,
         "PREP": 8,
         "ADV": 7,
@@ -47917,14 +48004,14 @@
         "PRON": 2
       },
       "DET|ADJ": {
-        "NOUN": 621,
+        "NOUN": 627,
         "CONJ": 25,
         "ADJ": 34,
         "PUNCT": 27,
         "VERB": 17,
         "PREP": 20,
         "PART": 4,
-        "PROPN": 11,
+        "PROPN": 12,
         "DET": 2,
         "AUX": 9,
         "MODAL": 2,
@@ -47933,12 +48020,12 @@
         "NUM": 2
       },
       "ADJ|NOUN": {
-        "PUNCT": 437,
+        "PUNCT": 440,
         "NOUN": 213,
         "MODAL": 13,
         "VERB": 73,
-        "PREP": 283,
-        "CONJ": 106,
+        "PREP": 284,
+        "CONJ": 107,
         "DET": 48,
         "ADJ": 19,
         "AUX": 74,
@@ -47946,7 +48033,7 @@
         "WH": 10,
         "PROPN": 3,
         "ADV": 10,
-        "PRON": 20,
+        "PRON": 21,
         "</S>": 6
       },
       "VERB|ADJ": {
@@ -47963,12 +48050,12 @@
         "DET": 1
       },
       "PREP|DET": {
-        "NOUN": 605,
-        "ADJ": 243,
+        "NOUN": 608,
+        "ADJ": 247,
         "NUM": 18,
         "PREP": 15,
         "PROPN": 41,
-        "DET": 20,
+        "DET": 21,
         "VERB": 15,
         "PUNCT": 6,
         "ADV": 2,
@@ -47981,9 +48068,9 @@
         "DET": 88,
         "VERB": 27,
         "NOUN": 315,
-        "ADJ": 50,
+        "ADJ": 51,
         "WH": 5,
-        "PREP": 16,
+        "PREP": 17,
         "NUM": 4,
         "CONJ": 9,
         "ADV": 20,
@@ -48003,8 +48090,8 @@
         "NOUN": 1
       },
       "VERB|NOUN": {
-        "PUNCT": 128,
-        "PREP": 73,
+        "PUNCT": 129,
+        "PREP": 74,
         "PART": 10,
         "VERB": 16,
         "NOUN": 167,
@@ -48078,7 +48165,7 @@
         "PRON": 8,
         "CONJ": 12,
         "NOUN": 28,
-        "DET": 9,
+        "DET": 10,
         "ADJ": 8,
         "NEG": 2,
         "WH": 2,
@@ -48149,7 +48236,7 @@
         "PRON": 1
       },
       "WH|DET": {
-        "NOUN": 34,
+        "NOUN": 36,
         "ADJ": 8
       },
       "ADJ|PUNCT": {
@@ -48169,7 +48256,7 @@
         "NEG": 1
       },
       "NOUN|VERB": {
-        "PART": 14,
+        "PART": 15,
         "DET": 96,
         "PREP": 100,
         "WH": 4,
@@ -48177,7 +48264,7 @@
         "PUNCT": 30,
         "</S>": 3,
         "ADV": 13,
-        "NOUN": 100,
+        "NOUN": 101,
         "NUM": 2,
         "CONJ": 25,
         "AUX": 6,
@@ -48228,14 +48315,14 @@
         "CONJ": 22,
         "PROPN": 4,
         "ADJ": 10,
-        "DET": 23,
+        "DET": 24,
         "NEG": 1,
         "NUM": 1,
         "MODAL": 3,
         "ADV": 2
       },
       "VERB|DET": {
-        "NOUN": 211,
+        "NOUN": 215,
         "ADJ": 121,
         "PREP": 3,
         "CONJ": 4,
@@ -48292,7 +48379,7 @@
       },
       "AUX|VERB": {
         "PREP": 120,
-        "PUNCT": 38,
+        "PUNCT": 39,
         "PART": 34,
         "PRON": 3,
         "NOUN": 20,
@@ -48335,7 +48422,7 @@
         "NOUN": 31,
         "CONJ": 1,
         "PUNCT": 2,
-        "WH": 1
+        "WH": 2
       },
       "PART|ADJ": {
         "NOUN": 12,
@@ -48408,7 +48495,7 @@
       },
       "ADJ|PREP": {
         "NOUN": 64,
-        "DET": 48,
+        "DET": 49,
         "VERB": 5,
         "ADJ": 13,
         "PROPN": 5,
@@ -48541,7 +48628,7 @@
       },
       "ADJ|CONJ": {
         "ADJ": 26,
-        "NOUN": 22,
+        "NOUN": 23,
         "ADV": 2,
         "AUX": 3,
         "DET": 14,
@@ -48553,7 +48640,7 @@
         "PUNCT": 13,
         "NOUN": 83,
         "ADJ": 6,
-        "CONJ": 6,
+        "CONJ": 7,
         "VERB": 8,
         "PREP": 3,
         "MODAL": 1,
@@ -48756,7 +48843,7 @@
         "PRON": 1
       },
       "NOUN|PRON": {
-        "VERB": 37,
+        "VERB": 39,
         "AUX": 37,
         "PREP": 8,
         "MODAL": 17,
@@ -48794,17 +48881,17 @@
       },
       "ADJ|PROPN": {
         "PUNCT": 7,
-        "NOUN": 9,
+        "NOUN": 10,
         "CONJ": 1,
         "PROPN": 6,
         "AUX": 2,
         "PREP": 1
       },
       "PUNCT|DET": {
-        "NOUN": 83,
+        "NOUN": 84,
         "ADJ": 32,
         "VERB": 3,
-        "PROPN": 10,
+        "PROPN": 11,
         "PREP": 4,
         "CONJ": 16,
         "PUNCT": 4,
@@ -48861,7 +48948,7 @@
         "ADV": 1
       },
       "NOUN|DET": {
-        "NOUN": 166,
+        "NOUN": 167,
         "ADJ": 58,
         "CONJ": 17,
         "ADV": 5,
@@ -48876,7 +48963,7 @@
       },
       "NOUN|PROPN": {
         "PART": 1,
-        "NOUN": 45,
+        "NOUN": 46,
         "AUX": 7,
         "PROPN": 10,
         "PREP": 7,
@@ -48933,7 +49020,7 @@
         "AUX": 1
       },
       "<S>|PREP": {
-        "NOUN": 52,
+        "NOUN": 53,
         "PROPN": 11,
         "ADJ": 11,
         "DET": 57,
@@ -48944,9 +49031,9 @@
       },
       "PROPN|NOUN": {
         "CONJ": 7,
-        "AUX": 25,
+        "AUX": 27,
         "PUNCT": 57,
-        "NOUN": 35,
+        "NOUN": 37,
         "DET": 5,
         "MODAL": 1,
         "PROPN": 6,
@@ -49000,7 +49087,7 @@
         "DET": 11,
         "PUNCT": 3,
         "NOUN": 10,
-        "PRON": 3,
+        "PRON": 4,
         "ADJ": 3,
         "PROPN": 3
       },
@@ -49094,7 +49181,7 @@
         "PREP": 16,
         "VERB": 4,
         "PRON": 1,
-        "DET": 1,
+        "DET": 2,
         "ADV": 1
       },
       "CONJ|NUM": {
@@ -49128,11 +49215,11 @@
       },
       "PART|WH": {
         "PRON": 1,
-        "DET": 2
+        "DET": 3
       },
       "DET|PROPN": {
         "PROPN": 15,
-        "NOUN": 49,
+        "NOUN": 51,
         "ADJ": 12,
         "AUX": 12,
         "PUNCT": 4,
@@ -49322,7 +49409,7 @@
         "NOUN": 42,
         "PROPN": 3,
         "PUNCT": 3,
-        "ADJ": 8,
+        "ADJ": 9,
         "VERB": 3,
         "CONJ": 1,
         "AUX": 1,
@@ -49671,7 +49758,7 @@
       "to": {
         "the": 52,
         "a": 26,
-        "be": 23,
+        "be": 24,
         "do": 12,
         "learn": 7,
         "write": 4,
@@ -49684,7 +49771,11 @@
         "hers": 1,
         "or": 1,
         "communicate": 1,
-        "global": 1
+        "global": 1,
+        "which": 1,
+        "both": 1,
+        "this": 1,
+        "decomposing": 1
       },
       "talk": {
         "with": 1,
@@ -49739,7 +49830,8 @@
         "steps": 1,
         "capable": 1,
         "also": 1,
-        "linked": 1
+        "linked": 1,
+        "present": 1
       },
       "you": {
         "to": 6,
@@ -49834,9 +49926,9 @@
         "to": 2
       },
       "is": {
-        "a": 108,
+        "a": 109,
         "the": 59,
-        "an": 19,
+        "an": 20,
         "usually": 6,
         "hard": 5,
         "one": 5,
@@ -49844,28 +49936,23 @@
         "vague": 3,
         "good": 3,
         "generally": 3,
-        "hers": 1
+        "hers": 1,
+        "sometimes": 1,
+        "analogous": 1
       },
       "a": {
         "noun": 18,
         "conjunction": 9,
         "\"": 7,
         "method": 6,
-        "vocabulary": 5,
         "system": 6,
+        "vocabulary": 5,
         "preposition": 3,
         "neural": 3,
         "thermodynamic": 3,
         "varying": 3,
-        "low-level": 1,
-        "population": 2,
-        "change": 1,
-        "vehicle": 1,
-        "wheeled": 1,
-        "set": 1,
-        "language": 1,
-        "product": 1,
-        "network": 1
+        "distinction": 1,
+        "musical": 1
       },
       "for": {
         "the": 19,
@@ -49897,11 +49984,14 @@
         "film": 4,
         "variable": 3,
         "listener": 3,
-        "news": 1,
-        "distinguishing": 1,
-        "internet": 2,
-        "global": 1,
-        "biotic": 1
+        "mathematical": 1,
+        "output": 1,
+        "operation": 1,
+        "frequency": 1,
+        "original": 1,
+        "fourier": 1,
+        "sound": 1,
+        "intensities": 1
       },
       "brain": {
         "is": 1,
@@ -49915,7 +50005,8 @@
         "organ": 1,
         "adaptive": 3,
         "than": 1,
-        "adj": 1
+        "adj": 1,
+        "valued": 1
       },
       "want": {
         "to": 4,
@@ -50168,7 +50259,7 @@
         "you": 3,
         "used": 3,
         "will": 2,
-        "a": 2,
+        "a": 3,
         "people": 1,
         "non-linear": 1,
         "it": 1,
@@ -50285,7 +50376,9 @@
         "government": 1,
         "optical": 1,
         "abiotic": 1,
-        "energy": 1
+        "energy": 1,
+        "outputs": 1,
+        "to": 1
       },
       "meanings": {
         "have": 1,
@@ -50336,7 +50429,9 @@
         "handbag": 1,
         "she": 1,
         "uses": 1,
-        "comprises": 1
+        "comprises": 1,
+        "takes": 1,
+        "describes": 1
       },
       "good": {
         "manners": 3,
@@ -50444,7 +50539,8 @@
         "term": 1,
         "cd": 1,
         "way": 1,
-        "software": 1
+        "software": 1,
+        "complex-valued": 1
       },
       "they": {
         "may": 4,
@@ -50460,7 +50556,7 @@
         "will": 1
       },
       "in": {
-        "the": 105,
+        "the": 106,
         "a": 49,
         "english": 16,
         "machine": 8,
@@ -50476,7 +50572,8 @@
         "their": 1,
         "some": 1,
         "distinctive": 1,
-        "interaction": 1
+        "interaction": 1,
+        "mathematics": 1
       },
       "children": {
         "play": 1,
@@ -50595,8 +50692,8 @@
         "at": 1
       },
       "of": {
-        "the": 122,
-        "a": 56,
+        "the": 125,
+        "a": 57,
         "an": 15,
         "or": 10,
         "speech": 8,
@@ -50610,7 +50707,9 @@
         "some": 1,
         "interconnected": 1,
         "networks": 1,
-        "local": 1
+        "local": 1,
+        "frequency": 1,
+        "its": 1
       },
       "reading": {
         "is": 1,
@@ -51122,7 +51221,8 @@
         "american": 2,
         "mit": 2,
         "executable": 1,
-        "ecosystem": 1
+        "ecosystem": 1,
+        "integral": 1
       },
       "update": {
         "to": 1,
@@ -51352,7 +51452,8 @@
         "something": 1,
         "is": 1,
         "way": 1,
-        "can": 1
+        "can": 1,
+        "various": 1
       },
       "error": {
         "gradients": 1,
@@ -51542,7 +51643,7 @@
       },
       "both": {
         "biological": 2,
-        "the": 2,
+        "the": 3,
         "in": 2,
         "members": 1,
         "healthcare": 1,
@@ -51656,7 +51757,7 @@
       "into": {
         "dissipative": 1,
         "other": 1,
-        "the": 4,
+        "the": 5,
         "two": 1,
         "a": 8,
         "five": 1,
@@ -51846,7 +51947,8 @@
         "of": 1,
         "optics": 1,
         "\"": 2,
-        "sociology": 1
+        "sociology": 1,
+        "fourier": 1
       },
       "concept": {
         "are": 1,
@@ -51969,20 +52071,10 @@
         "words": 2,
         ")": 2,
         "p": 2,
-        "with": 2,
-        "puberty": 1,
-        "initiation": 1,
-        "majority": 1,
-        "mas": 1,
-        "permission": 1,
-        "a": 2,
-        "or": 1,
-        "r": 1,
-        "campers": 1,
-        "tcp": 1
+        "with": 2
       },
       ")": {
-        "is": 15,
+        "is": 16,
         "and": 7,
         "grammatical": 4,
         "with": 3,
@@ -52078,7 +52170,8 @@
         "branch": 1,
         "objects": 1,
         "analysis": 1,
-        "limit": 1
+        "limit": 1,
+        "operation": 1
       },
       "first-order": {
         "iterative": 1,
@@ -52131,7 +52224,7 @@
         "visual": 2,
         "generic": 1,
         "supper": 1,
-        "the": 3,
+        "the": 4,
         "“": 1,
         "token": 1,
         "moral": 1,
@@ -52152,7 +52245,8 @@
         "infancy": 1,
         "habitats": 1,
         "galaxy": 1,
-        "etymology": 1
+        "etymology": 1,
+        "constituent": 1
       },
       "vague": {
         "enough": 4
@@ -52240,7 +52334,8 @@
         "proven": 1,
         "altered": 1,
         "described": 1,
-        "true": 1
+        "true": 1,
+        "made": 1
       },
       "defined": {
         "for": 4,
@@ -52474,7 +52569,8 @@
         "vocabulary": 2,
         "new": 2,
         "genetic": 1,
-        "much": 1
+        "much": 1,
+        "input": 1
       },
       "itself": {
         "was": 2,
@@ -52835,7 +52931,7 @@
         "indicative": 8,
         "and": 1,
         "(": 1,
-        "in": 4,
+        "in": 5,
         "day": 1,
         "worldwide": 1
       },
@@ -52999,7 +53095,8 @@
       "sound": {
         "when": 1,
         ")": 1,
-        "and": 1
+        "and": 1,
+        "of": 1
       },
       "relating": {
         "to": 9
@@ -53024,7 +53121,8 @@
         "at": 1,
         "a": 1,
         "det": 1,
-        "language": 1
+        "language": 1,
+        "function": 1
       },
       "small": {
         "talk": 1,
@@ -53463,7 +53561,8 @@
         "electronic": 1,
         "electrical": 1,
         "aspects": 1,
-        "methods": 1
+        "methods": 1,
+        "frequencies": 1
       },
       "work": {
         "is": 2,
@@ -53692,10 +53791,12 @@
       },
       "function": {
         "or": 2,
-        "as": 2,
+        "as": 3,
         "in": 1,
         "determines": 1,
-        "symbols": 1
+        "symbols": 1,
+        "that": 1,
+        "of": 1
       },
       "utility": {
         "to": 2
@@ -54171,7 +54272,7 @@
         "in": 1
       },
       "extent": {
-        "to": 1,
+        "to": 2,
         "of": 1
       },
       "resource": {
@@ -54378,7 +54479,7 @@
         "it": 1
       },
       "representation": {
-        "of": 4,
+        "of": 5,
         "learning": 1,
         "to": 1,
         "follow": 1
@@ -54918,7 +55019,8 @@
       },
       "original": {
         "visual": 1,
-        "music": 1
+        "music": 1,
+        "function": 2
       },
       "version": {
         "of": 2,
@@ -54981,7 +55083,7 @@
         "word": 1
       },
       "sometimes": {
-        "called": 1,
+        "called": 2,
         "be": 1,
         "abbreviated": 1,
         "i": 1,
@@ -55730,7 +55832,8 @@
       "distinction": {
         "lies": 2,
         "of": 1,
-        "that": 1
+        "that": 1,
+        "needs": 1
       },
       "lies": {
         "a": 2,
@@ -56240,7 +56343,7 @@
       },
       "describes": {
         "a": 2,
-        "the": 2
+        "the": 3
       },
       "commonly-used": {
         "way": 2
@@ -56521,7 +56624,7 @@
         "studying": 1
       },
       "refers": {
-        "to": 5,
+        "to": 6,
         "anaphorically": 1
       },
       "ability": {
@@ -57735,7 +57838,8 @@
       },
       "takes": {
         "inspiration": 2,
-        "an": 1
+        "an": 1,
+        "a": 1
       },
       "layers": {
         "and": 2,
@@ -57840,7 +57944,8 @@
       },
       "input": {
         "data": 2,
-        "or": 1
+        "or": 1,
+        "and": 1
       },
       "solving": {
         "them": 1,
@@ -58602,7 +58707,7 @@
       },
       "needs": {
         "a": 1,
-        "to": 1
+        "to": 2
       },
       "earth": {
         "is": 2,
@@ -61277,7 +61382,8 @@
         "occurs": 1
       },
       "outputs": {
-        "of": 1
+        "of": 1,
+        "another": 1
       },
       "routed": {
         "back": 1
@@ -61523,7 +61629,8 @@
         "a": 1
       },
       "domain": {
-        "of": 1
+        "of": 1,
+        "representation": 1
       },
       "prokaryotic": {
         "microorganisms": 1
@@ -61631,7 +61738,8 @@
         "calculus": 1
       },
       "integral": {
-        "calculus": 1
+        "calculus": 1,
+        "transform": 1
       },
       "convergence": {
         "of": 1
@@ -62262,7 +62370,8 @@
         "of": 1
       },
       "constituent": {
-        "units": 1
+        "units": 1,
+        "pitches": 1
       },
       "st": {
         "century": 1
@@ -62369,7 +62478,8 @@
         "becoming": 1
       },
       "frequency": {
-        "of": 1
+        "of": 1,
+        "domain": 1
       },
       "alleles": {
         "in": 1
@@ -62465,6 +62575,49 @@
       },
       "cycles": {
         "and": 1
+      },
+      "fourier": {
+        "transform": 3
+      },
+      "transform": {
+        "(": 1,
+        "that": 1,
+        "is": 2,
+        "refers": 1
+      },
+      "ft": {
+        ")": 1
+      },
+      "frequencies": {
+        "are": 1
+      },
+      "output": {
+        "of": 2
+      },
+      "valued": {
+        "function": 1
+      },
+      "operation": {
+        "and": 1,
+        "is": 1
+      },
+      "complex-valued": {
+        "function": 1
+      },
+      "analogous": {
+        "to": 1
+      },
+      "decomposing": {
+        "the": 1
+      },
+      "musical": {
+        "chord": 1
+      },
+      "chord": {
+        "into": 1
+      },
+      "intensities": {
+        "of": 1
       }
     },
     "starters": {
@@ -62472,7 +62625,7 @@
       "how": 4,
       "what": 6,
       "<NOUN>": 617,
-      "the": 250,
+      "the": 253,
       "she": 15,
       "we": 20,
       "it": 67,
@@ -62491,12 +62644,12 @@
       "a": 110,
       "does": 1,
       "who": 2,
-      "when": 11,
+      "when": 12,
       "you": 11,
       "<ADV>": 30,
       "an": 25,
       "however": 2,
-      "in": 98,
+      "in": 99,
       "for": 6,
       "toward": 1,
       "<PART>": 24,
@@ -62561,14 +62714,14 @@
     "connectors": {
       "because": 14,
       "or": 340,
-      "and": 546,
+      "and": 548,
       "but": 56,
       "so": 19,
       "while": 5,
       "than": 34,
       "therefore": 7,
       "if": 11,
-      "as": 176,
+      "as": 177,
       "however": 3,
       "whether": 4,
       "that": 19,
@@ -62648,7 +62801,7 @@
         "nor": 1
       },
       "ADJ>NOUN": {
-        "and": 15,
+        "and": 16,
         "or": 10,
         "while": 1,
         "as": 1,
@@ -62672,7 +62825,7 @@
         "than": 1,
         "or": 19,
         "whether": 1,
-        "as": 6,
+        "as": 7,
         "since": 1,
         "but": 1,
         "nor": 1,
@@ -62687,7 +62840,7 @@
         "but": 1
       },
       "NOUN>PREP": {
-        "and": 7,
+        "and": 8,
         "since": 1,
         "as": 5,
         "or": 4,
@@ -64647,25 +64800,10 @@
       "NOUN DET ADJ NOUN CONJ DET ADJ NOUN | but | DET ADJ NOUN VERB PREP NOUN VERB DET NOUN": 1,
       "PRON VERB PREP DET NOUN | and | VERB DET ADJ NOUN": 1,
       "DET NOUN MODAL NOUN | if | PRON AUX DET NOUN VERB PREP NOUN": 1,
-      "PRON VERB WH NOUN PREP DET NOUN PREP DET ADJ NOUN | and | PREP DET NOUN PREP DET NOUN": 1
+      "PRON VERB WH NOUN PREP DET NOUN PREP DET ADJ NOUN | and | PREP DET NOUN PREP DET NOUN": 1,
+      "DET ADJ PROPN NOUN PREP DET ADJ NOUN | and | PREP PRON VERB NOUN": 1
     },
     "sentence_bank": {
-      "reaction": [
-        "The reaction was automatic : flight !"
-      ],
-      "learn": [
-        "The process of learning how to live in a way acceptable to one's own society , said especially about children.",
-        "Reinforcement learning is one of the three basic machine learning paradigms, alongside supervised learning and unsupervised learning.",
-        "It might interest you to learn that others have already tried that approach."
-      ],
-      "operat": [
-        "Capable of operating without external control or intervention ."
-      ],
-      "process": [
-        "The act, process, or state of reinforcing or being reinforced.",
-        "The process of removing or the fact of being removed .",
-        "The process of showing a newcomer around a place where they will work or study."
-      ],
       "detecting": [
         "The act or process of detecting , uncovering , or finding out , the discovery of something new , hidden , or disguised ."
       ],
@@ -64941,13 +65079,14 @@
         "She claimed that only a hierarchical society with a leisure class at the top can produce works of 'true' art."
       ],
       "term": [
-        "This term needs a definition.",
         "The term optics is also applied to technology for manipulating beams of elementary charged particles.",
-        "This term, still used today, is a somewhat ambiguous definition of what is referred to as a gene."
+        "This term, still used today, is a somewhat ambiguous definition of what is referred to as a gene.",
+        "The term Fourier transform refers to both the mathematical operation and to this complex-valued function."
       ],
       "need": [
         "This term needs a definition.",
-        "I need the soonest date you have available."
+        "I need the soonest date you have available.",
+        "When a distinction needs to be made, the output of the operation is sometimes called the frequency domain representation of the original function."
       ],
       "mediocre": [
         "I would class this with most of the other mediocre works of the period."
@@ -66578,6 +66717,20 @@
       ],
       "writ": [
         "A set of conventions for writing a language, including norms of spelling, capitalization , emphasis , hyphenation , punctuation , and word breaks ."
+      ],
+      "output": [
+        "The output of the transform is a complex valued function of frequency."
+      ],
+      "transform": [
+        "The output of the transform is a complex valued function of frequency.",
+        "The term Fourier transform refers to both the mathematical operation and to this complex-valued function.",
+        "The Fourier transform is analogous to decomposing the sound of a musical chord into the intensities of its constituent pitches."
+      ],
+      "distinction": [
+        "When a distinction needs to be made, the output of the operation is sometimes called the frequency domain representation of the original function."
+      ],
+      "analogous": [
+        "The Fourier transform is analogous to decomposing the sound of a musical chord into the intensities of its constituent pitches."
       ]
     }
   },
