@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.38,
+    "adenosine": 0.44,
     "newborn": false
   },
   "episodic_memory": [
@@ -2868,6 +2868,20 @@
       "time": "2026-10-24 10:58:27",
       "speaker": "brain",
       "text": "I practised my English because I want to talk with you more naturally. I learned 6 new words: 'relying' (a verb) means present participle and gerund of rely; 'communication' (a noun) means the act or fact of communicating anything; transmission ; 'following' (an adjective) means coming next , either in sequence or in time ; 'applications' (a noun) means plural of application and 2 more. Now I know 427 words, I have studied 805 sentences, and I have 70 sentence patterns.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 11:00:30",
+      "speaker": "brain",
+      "text": "I practised my English because I want to talk with you more naturally. I learned 6 new words: 'powerful' (an adjective) means having, or capable of exerting , power or influence ; 'engine' (a noun) means a large construction used in warfare , such as a battering ram , catapult etc; 'leverage' (a noun) means a force compounded by means of a lever rotating around a pivot ; 'telecommunication' (a noun) means the science and technology of the communication of messages over a distance using electric and 2 more. Now I know 433 words, I have studied 815 sentences, and I have 71 sentence patterns.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 11:02:24",
+      "speaker": "brain",
+      "text": "I wondered about 'Fluctuation theorem' by myself and went searching. From Wikipedia (live internet) I learned: The fluctuation theorem (FT), which originated from statistical mechanics, deals with the relative probability that the entropy of a system which is currently away from thermodynamic equilibrium will increase or decrease over a given amount of time. Key ideas I stored: fluctuation theorem, statistical mechanics, thermodynamic equilibrium, relative probability, nonzero probability.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6076,6 +6090,20 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Synaptic_plasticity",
       "learned": "2026-10-24 10:56:24"
+    },
+    "Fluctuation theorem": {
+      "summary": "The fluctuation theorem (FT), which originated from statistical mechanics, deals with the relative probability that the entropy of a system which is currently away from thermodynamic equilibrium will increase or decrease over a given amount of time. While the second law of thermodynamics predicts that the entropy of an isolated system should tend to increase until it reaches equilibrium, it became apparent after the discovery of statistical mechanics that the second law is only a statistical one, suggesting that there should always be some nonzero probability that the entropy of an isolated system might spontaneously decrease; the fluctuation theorem precisely quantifies this probability.",
+      "concepts": [
+        "fluctuation theorem",
+        "statistical mechanics",
+        "thermodynamic equilibrium",
+        "relative probability",
+        "nonzero probability",
+        "entropy"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Fluctuation_theorem",
+      "learned": "2026-10-24 11:02:24"
     }
   },
   "creator_teachings": [
@@ -7345,6 +7373,18 @@
       "kind": "language_lesson",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 11:00:30",
+      "kind": "language_lesson",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-24 11:02:24",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -7405,7 +7445,8 @@
     "self-improving system",
     "git",
     "transformer",
-    "localized synaptic plasticity"
+    "localized synaptic plasticity",
+    "non-linear thermodynamics dictate"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -27754,10 +27795,11 @@
         "23ba1244a40e",
         "f5c208b730bc",
         "9c98d34813e1",
-        "0bcb4da7856f"
+        "0bcb4da7856f",
+        "1210dfdcf5e3"
       ],
       "seeded": true,
-      "rejected": 147,
+      "rejected": 149,
       "vocab_counts": {
         "tool": 1,
         "sharing": 1,
@@ -44493,7 +44535,6 @@
     "taught": 0,
     "last_lesson": "2026-10-24 11:00:30",
     "pending_concepts": [
-      "non-linear thermodynamics dictate",
       "dopamine-driven reinforcement learning",
       "merging spiking neural networks",
       "automated skill evolution",
