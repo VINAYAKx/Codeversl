@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.13,
+    "adenosine": 0.19,
     "newborn": false
   },
   "episodic_memory": [
@@ -2826,6 +2826,13 @@
       "time": "2026-10-24 14:44:31",
       "speaker": "brain",
       "text": "Two things I read keep meeting in my head: Cognitive model and Neuromorphic computing. A cognitive model is a representation of one or more cognitive processes in humans or other animals for the purposes of comprehension and prediction. Neuromorphic computing is a computing approach inspired by the human brain's structure and function. The shared thread seems to be perception and tasks. Could more cognitive processes and mimicking neural systems be two views of the same underlying pattern?",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 14:46:32",
+      "speaker": "brain",
+      "text": "I wondered about 'Neuron' by myself and went searching. From Wikipedia (live internet) I learned: A neuron, neurone, or nerve cell, is a cell that is excitable, firing electric signals called action potentials. Key ideas I stored: neurons form neural networks, chemical neurotransmitters, presynaptic neuron, synapses, synaptic.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6328,6 +6335,19 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Quantum",
       "learned": "2026-10-24 14:42:31"
+    },
+    "Neuron": {
+      "summary": "A neuron, neurone, or nerve cell, is a cell that is excitable, firing electric signals called action potentials. Neurons form neural networks in the nervous system, mainly in the central nervous system. Neurons receive and conduct impulses. They communicate with other cells via synapses, which are specialized connections that commonly use minute amounts of chemical neurotransmitters to pass the electric signal from the presynaptic neuron to the target cell through the synaptic gap.",
+      "concepts": [
+        "neurons form neural networks",
+        "chemical neurotransmitters",
+        "presynaptic neuron",
+        "synapses",
+        "synaptic"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Neuron",
+      "learned": "2026-10-24 14:46:32"
     }
   },
   "creator_teachings": [
@@ -8035,6 +8055,12 @@
       "kind": "daydream",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 14:46:32",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -8120,7 +8146,8 @@
     "optics",
     "logic",
     "ethics",
-    "quantum"
+    "quantum",
+    "neuron"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -36337,22 +36364,66 @@
       "source": "corpus",
       "learned": "2026-10-24 14:42:32",
       "uses": 1
+    },
+    "neuron": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "A neuron, neurone, or nerve cell, is a cell that is excitable, firing electric signals called action potentials."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:46:32",
+      "uses": 1
+    },
+    "nerve": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "A neuron, neurone, or nerve cell, is a cell that is excitable, firing electric signals called action potentials."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:46:32",
+      "uses": 1
+    },
+    "receive": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Neurons receive and conduct impulses."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:46:32",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 1215,
-      "tokens": 19482,
+      "sentences": 1218,
+      "tokens": 19527,
       "sources": {
         "seed corpus": 64,
         "conversation": 16,
         "dictionary": 701,
-        "explore": 167,
+        "explore": 170,
         "pasted text": 24,
         "deep study": 243
       },
       "hashes": [
-        "7729ffdf3857",
         "733047245e5e",
         "fdb07439d140",
         "6efbbf8ee9eb",
@@ -36651,10 +36722,11 @@
         "72f0d0872676",
         "a009e12045a1",
         "65314a2f09ed",
-        "faea4de9c988"
+        "faea4de9c988",
+        "c4b3a4a405bc"
       ],
       "seeded": true,
-      "rejected": 218,
+      "rejected": 219,
       "vocab_counts": {
         "tool": 1,
         "organ": 1,
@@ -36762,7 +36834,6 @@
         "synapse": 1,
         "junction": 1,
         "terminal": 1,
-        "neuron": 1,
         "correction": 1,
         "topics": 1,
         "transactions": 1,
@@ -37367,7 +37438,6 @@
         "artists": 1,
         "desirable": 1,
         "opposed": 1,
-        "receive": 1,
         "confirmation": 1,
         "listeners": 1,
         "absorb": 1,
@@ -37745,7 +37815,6 @@
         "kidneys": 1,
         "neurotransmitter": 1,
         "send": 1,
-        "nerve": 1,
         "pathways": 1,
         "motivational": 1,
         "hammer": 1,
@@ -38261,15 +38330,21 @@
         "frequency": 1,
         "electron": 1,
         "atoms": 1,
-        "electrons": 1
+        "electrons": 1,
+        "neurone": 1,
+        "excitable": 1,
+        "firing": 1,
+        "central": 1,
+        "conduct": 1,
+        "impulses": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
         "PRON": 188,
         "WH": 23,
-        "NOUN": 230,
-        "DET": 390,
+        "NOUN": 232,
+        "DET": 391,
         "VERB": 91,
         "MODAL": 4,
         "ADJ": 95,
@@ -38283,7 +38358,7 @@
         "NEG": 2
       },
       "PRON": {
-        "AUX": 159,
+        "AUX": 160,
         "PUNCT": 43,
         "ADV": 13,
         "VERB": 182,
@@ -38300,10 +38375,10 @@
         "NUM": 1
       },
       "AUX": {
-        "ADJ": 178,
+        "ADJ": 179,
         "PRON": 12,
         "PUNCT": 6,
-        "DET": 212,
+        "DET": 213,
         "NOUN": 51,
         "NEG": 32,
         "VERB": 209,
@@ -38319,13 +38394,13 @@
       },
       "ADJ": {
         "PART": 28,
-        "NOUN": 1034,
+        "NOUN": 1038,
         "WH": 2,
-        "PUNCT": 185,
+        "PUNCT": 186,
         "PREP": 116,
-        "CONJ": 61,
+        "CONJ": 62,
         "PROPN": 21,
-        "ADJ": 92,
+        "ADJ": 93,
         "DET": 23,
         "AUX": 20,
         "VERB": 51,
@@ -38349,7 +38424,7 @@
         "PREP": 365,
         "PART": 85,
         "ADJ": 68,
-        "NOUN": 313,
+        "NOUN": 314,
         "PUNCT": 169,
         "PRON": 72,
         "AUX": 23,
@@ -38367,7 +38442,7 @@
       "PREP": {
         "PRON": 45,
         "NOUN": 692,
-        "DET": 738,
+        "DET": 740,
         "PUNCT": 40,
         "VERB": 53,
         "PREP": 21,
@@ -38382,17 +38457,17 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 1106,
-        "NOUN": 389,
-        "CONJ": 218,
+        "</S>": 1109,
+        "NOUN": 391,
+        "CONJ": 219,
         "PRON": 27,
         "VERB": 57,
-        "ADV": 40,
+        "ADV": 41,
         "PREP": 39,
         "ADJ": 68,
         "DET": 116,
         "WH": 30,
-        "AUX": 22,
+        "AUX": 23,
         "NUM": 7,
         "PUNCT": 12,
         "PROPN": 26,
@@ -38424,24 +38499,24 @@
         "MODAL": 1,
         "PART": 3,
         "ADV": 7,
-        "PREP": 30,
+        "PREP": 31,
         "AUX": 14,
         "PROPN": 1,
         "NUM": 3
       },
       "NOUN": {
         "AUX": 389,
-        "PREP": 1171,
-        "NOUN": 988,
-        "PUNCT": 1506,
+        "PREP": 1172,
+        "NOUN": 992,
+        "PUNCT": 1513,
         "CONJ": 453,
-        "VERB": 333,
+        "VERB": 334,
         "ADV": 63,
         "PART": 158,
-        "ADJ": 164,
+        "ADJ": 167,
         "MODAL": 57,
         "</S>": 88,
-        "PRON": 83,
+        "PRON": 84,
         "WH": 40,
         "DET": 231,
         "PROPN": 65,
@@ -38449,8 +38524,8 @@
         "NEG": 6
       },
       "DET": {
-        "NOUN": 1361,
-        "ADJ": 587,
+        "NOUN": 1363,
+        "ADJ": 589,
         "PRON": 16,
         "PREP": 32,
         "NUM": 33,
@@ -38468,7 +38543,7 @@
       "CONJ": {
         "PRON": 60,
         "DET": 147,
-        "NOUN": 418,
+        "NOUN": 420,
         "VERB": 77,
         "ADJ": 105,
         "ADV": 30,
@@ -38558,7 +38633,7 @@
         "ADJ": 1
       },
       "PRON|AUX": {
-        "ADJ": 39,
+        "ADJ": 40,
         "DET": 29,
         "NEG": 13,
         "VERB": 42,
@@ -38576,7 +38651,7 @@
       "AUX|ADJ": {
         "PART": 20,
         "WH": 2,
-        "PUNCT": 56,
+        "PUNCT": 57,
         "PREP": 29,
         "DET": 10,
         "NOUN": 31,
@@ -38725,11 +38800,11 @@
         "AUX": 64,
         "VERB": 32,
         "PUNCT": 10,
-        "NOUN": 42,
+        "NOUN": 43,
         "CONJ": 15,
         "PREP": 32,
         "PROPN": 8,
-        "ADJ": 5,
+        "ADJ": 6,
         "PART": 4,
         "WH": 3,
         "ADV": 5,
@@ -38752,7 +38827,7 @@
         "PART": 1
       },
       "AUX|DET": {
-        "NOUN": 110,
+        "NOUN": 111,
         "ADJ": 78,
         "PROPN": 4,
         "VERB": 4,
@@ -38766,12 +38841,12 @@
         "PREP": 424,
         "AUX": 110,
         "CONJ": 104,
-        "PUNCT": 284,
+        "PUNCT": 285,
         "VERB": 96,
         "ADV": 17,
         "ADJ": 43,
         "NOUN": 129,
-        "PRON": 21,
+        "PRON": 22,
         "PART": 42,
         "</S>": 2,
         "PROPN": 6,
@@ -38781,7 +38856,7 @@
       },
       "NOUN|PREP": {
         "NOUN": 437,
-        "DET": 416,
+        "DET": 417,
         "PREP": 8,
         "ADJ": 145,
         "PROPN": 40,
@@ -38813,7 +38888,7 @@
         "ADV": 3
       },
       "NOUN|NOUN": {
-        "PUNCT": 262,
+        "PUNCT": 265,
         "PART": 23,
         "NOUN": 195,
         "PREP": 182,
@@ -38822,7 +38897,7 @@
         "PROPN": 24,
         "AUX": 62,
         "MODAL": 15,
-        "ADJ": 36,
+        "ADJ": 37,
         "NUM": 4,
         "ADV": 14,
         "DET": 18,
@@ -38832,17 +38907,17 @@
         "</S>": 2
       },
       "NOUN|PUNCT": {
-        "</S>": 769,
-        "NOUN": 286,
-        "CONJ": 148,
-        "ADV": 31,
+        "</S>": 772,
+        "NOUN": 287,
+        "CONJ": 149,
+        "ADV": 32,
         "PREP": 30,
         "ADJ": 47,
         "DET": 76,
         "VERB": 43,
         "WH": 21,
         "PRON": 18,
-        "AUX": 19,
+        "AUX": 20,
         "NUM": 5,
         "PROPN": 4,
         "PART": 3,
@@ -38851,7 +38926,7 @@
         "INTJ": 1
       },
       "<S>|DET": {
-        "NOUN": 250,
+        "NOUN": 251,
         "ADJ": 95,
         "PROPN": 18,
         "VERB": 3,
@@ -38863,9 +38938,9 @@
         "PRON": 1
       },
       "DET|ADJ": {
-        "NOUN": 465,
+        "NOUN": 466,
         "CONJ": 20,
-        "ADJ": 28,
+        "ADJ": 29,
         "PUNCT": 22,
         "VERB": 11,
         "PREP": 18,
@@ -38878,11 +38953,11 @@
         "PRON": 1
       },
       "ADJ|NOUN": {
-        "PUNCT": 296,
+        "PUNCT": 298,
         "NOUN": 188,
         "MODAL": 11,
-        "VERB": 54,
-        "PREP": 219,
+        "VERB": 55,
+        "PREP": 220,
         "CONJ": 80,
         "DET": 39,
         "ADJ": 17,
@@ -38908,7 +38983,7 @@
       },
       "PREP|DET": {
         "NOUN": 461,
-        "ADJ": 183,
+        "ADJ": 185,
         "NUM": 16,
         "PREP": 11,
         "PROPN": 32,
@@ -38950,7 +39025,7 @@
         "PREP": 57,
         "PART": 8,
         "VERB": 12,
-        "NOUN": 62,
+        "NOUN": 63,
         "CONJ": 22,
         "MODAL": 2,
         "ADJ": 17,
@@ -38988,8 +39063,8 @@
       "PUNCT|NOUN": {
         "CONJ": 32,
         "NOUN": 72,
-        "ADJ": 7,
-        "PUNCT": 177,
+        "ADJ": 8,
+        "PUNCT": 178,
         "PREP": 53,
         "AUX": 13,
         "DET": 9,
@@ -39094,7 +39169,7 @@
         "DET": 4,
         "ADJ": 10,
         "PREP": 5,
-        "NOUN": 38,
+        "NOUN": 39,
         "ADV": 2,
         "PRON": 1,
         "NUM": 1,
@@ -39110,7 +39185,7 @@
         "PUNCT": 26,
         "</S>": 3,
         "ADV": 11,
-        "NOUN": 53,
+        "NOUN": 54,
         "NUM": 1,
         "CONJ": 19,
         "AUX": 3,
@@ -39132,7 +39207,7 @@
         "PART": 1
       },
       "PUNCT|CONJ": {
-        "NOUN": 77,
+        "NOUN": 78,
         "PRON": 23,
         "DET": 28,
         "PUNCT": 5,
@@ -39155,7 +39230,7 @@
         "PREP": 80,
         "VERB": 16,
         "WH": 6,
-        "NOUN": 130,
+        "NOUN": 132,
         "PRON": 9,
         "PART": 14,
         "CONJ": 14,
@@ -39313,12 +39388,12 @@
       },
       "NOUN|ADJ": {
         "PUNCT": 26,
-        "NOUN": 91,
+        "NOUN": 93,
         "DET": 3,
         "PREP": 18,
         "ADJ": 8,
         "AUX": 2,
-        "CONJ": 8,
+        "CONJ": 9,
         "VERB": 7,
         "</S>": 1
       },
@@ -39447,7 +39522,7 @@
       },
       "ADJ|CONJ": {
         "ADJ": 22,
-        "NOUN": 16,
+        "NOUN": 17,
         "ADV": 2,
         "AUX": 2,
         "DET": 12,
@@ -39498,7 +39573,7 @@
         "NOUN": 6,
         "CONJ": 1,
         "VERB": 15,
-        "PREP": 9,
+        "PREP": 10,
         "DET": 3,
         "ADJ": 2,
         "PUNCT": 1,
@@ -39648,7 +39723,7 @@
       },
       "NOUN|PRON": {
         "VERB": 26,
-        "AUX": 28,
+        "AUX": 29,
         "PREP": 7,
         "MODAL": 13,
         "PRON": 1,
@@ -39704,7 +39779,7 @@
         "ADJ": 1
       },
       "ADJ|ADJ": {
-        "NOUN": 51,
+        "NOUN": 52,
         "ADJ": 6,
         "PUNCT": 12,
         "AUX": 7,
@@ -39903,7 +39978,7 @@
       "PUNCT|AUX": {
         "NOUN": 4,
         "VERB": 4,
-        "DET": 8,
+        "DET": 9,
         "ADJ": 4,
         "NUM": 1,
         "PART": 1
@@ -40065,7 +40140,7 @@
       "ADV|PREP": {
         "NOUN": 8,
         "ADJ": 3,
-        "DET": 14,
+        "DET": 15,
         "NUM": 3,
         "VERB": 1,
         "PRON": 1
@@ -40629,7 +40704,7 @@
         "whereas": 1
       },
       "is": {
-        "a": 76,
+        "a": 77,
         "the": 39,
         "an": 16,
         "hard": 5,
@@ -40647,7 +40722,8 @@
         "related": 1,
         "morally": 1,
         "referred": 1,
-        "quantized": 1
+        "quantized": 1,
+        "excitable": 1
       },
       "a": {
         "noun": 18,
@@ -40659,16 +40735,7 @@
         "preposition": 3,
         "neural": 3,
         "thermodynamic": 3,
-        "varying": 3,
-        "specific": 2,
-        "proof": 1,
-        "locomotive": 1,
-        "word": 1,
-        "purely": 1,
-        "quantum": 1,
-        "property": 1,
-        "photon": 1,
-        "single": 1
+        "varying": 3
       },
       "tool": {
         "for": 1
@@ -40702,7 +40769,9 @@
         "listener": 3,
         "application": 3,
         "physical": 1,
-        "energy": 1
+        "energy": 1,
+        "nervous": 1,
+        "central": 1
       },
       "brain": {
         "is": 1,
@@ -40867,7 +40936,8 @@
         "electric": 1,
         "noun": 1,
         "describes": 1,
-        "which": 1
+        "which": 1,
+        "nerve": 1
       },
       "it": {
         "is": 29,
@@ -41100,7 +41170,8 @@
         "creative": 2,
         "metaethics": 1,
         "can": 1,
-        "matter": 1
+        "matter": 1,
+        "conduct": 1
       },
       "meanings": {
         "have": 1,
@@ -41141,7 +41212,7 @@
         "originally": 1
       },
       "that": {
-        "is": 8,
+        "is": 9,
         "can": 8,
         "a": 5,
         "description": 3,
@@ -41287,7 +41358,7 @@
         "in": 1
       },
       "in": {
-        "the": 75,
+        "the": 77,
         "a": 40,
         "english": 15,
         "many": 7,
@@ -42140,7 +42211,7 @@
       },
       "neural": {
         "connections": 3,
-        "networks": 15,
+        "networks": 16,
         "network": 5,
         "plasticity": 1,
         "circuits": 2,
@@ -42169,7 +42240,8 @@
         "plurals": 1,
         "a": 2,
         "for": 1,
-        "to": 2
+        "to": 2,
+        "neural": 1
       },
       "architecture": {
         "of": 1,
@@ -42188,7 +42260,7 @@
         "(": 2,
         "are": 1,
         "that": 1,
-        "in": 1,
+        "in": 2,
         "to": 1
       },
       "relies": {
@@ -42660,7 +42732,7 @@
       },
       "nervous": {
         "systems": 1,
-        "system": 1
+        "system": 3
       },
       "systems": {
         "and": 3,
@@ -43025,7 +43097,8 @@
         "the": 2,
         "“": 1,
         "token": 1,
-        "moral": 1
+        "moral": 1,
+        "action": 1
       },
       "its": {
         "internal": 3,
@@ -43936,7 +44009,9 @@
       "neurons": {
         "or": 1,
         "into": 1,
-        "to": 2
+        "to": 2,
+        "form": 1,
+        "receive": 1
       },
       "synapse": {
         "—": 1
@@ -48685,7 +48760,8 @@
       },
       "action": {
         "happens": 1,
-        "of": 1
+        "of": 1,
+        "potentials": 1
       },
       "happens": {
         "—": 1
@@ -49757,7 +49833,8 @@
         "receive": 1
       },
       "receive": {
-        "confirmation": 1
+        "confirmation": 1,
+        "and": 1
       },
       "confirmation": {
         "that": 1
@@ -49974,7 +50051,8 @@
         "about": 2
       },
       "cell": {
-        "reception": 1
+        "reception": 1,
+        "that": 1
       },
       "factors": {
         "that": 1
@@ -50551,7 +50629,8 @@
         "of": 1
       },
       "mainly": {
-        "imitates": 1
+        "imitates": 1,
+        "in": 1
       },
       "imitates": {
         "are": 1
@@ -51367,10 +51446,12 @@
       },
       "signals": {
         "to": 1,
-        ")": 1
+        ")": 1,
+        "called": 1
       },
       "nerve": {
-        "cells": 1
+        "cells": 1,
+        "cell": 1
       },
       "major": {
         "role": 1,
@@ -53137,7 +53218,8 @@
       },
       "electric": {
         "and": 1,
-        "power": 1
+        "power": 1,
+        "signals": 1
       },
       "forces": {
         "are": 1
@@ -53226,13 +53308,22 @@
       },
       "electrons": {
         "can": 1
+      },
+      "firing": {
+        "electric": 1
+      },
+      "central": {
+        "nervous": 1
+      },
+      "conduct": {
+        "impulses": 1
       }
     },
     "starters": {
       "i": 52,
       "how": 4,
       "what": 6,
-      "<NOUN>": 230,
+      "<NOUN>": 232,
       "the": 186,
       "she": 13,
       "we": 15,
@@ -53249,7 +53340,7 @@
       "that": 12,
       "if": 6,
       "although": 2,
-      "a": 89,
+      "a": 90,
       "does": 1,
       "who": 2,
       "when": 9,
@@ -53310,8 +53401,8 @@
     },
     "connectors": {
       "because": 12,
-      "or": 255,
-      "and": 425,
+      "or": 256,
+      "and": 426,
       "but": 43,
       "so": 17,
       "while": 5,
@@ -53355,7 +53446,7 @@
       },
       "NOUN>NOUN": {
         "and": 173,
-        "or": 110,
+        "or": 111,
         "as": 6,
         "yet": 2,
         "so": 2,
@@ -53392,7 +53483,7 @@
         "nor": 1
       },
       "ADJ>NOUN": {
-        "and": 10,
+        "and": 11,
         "or": 9,
         "while": 1,
         "as": 1,
@@ -54944,18 +55035,10 @@
       "PRON VERB PRON NUM NOUN | but | PRON AUX NEG VERB DET": 1,
       "DET ADJ NOUN ADJ NOUN VERB NOUN | and | NOUN": 1,
       "ADV DET NOUN PREP DET ADJ NOUN PREP DET NOUN AUX VERB | and | MODAL NOUN ADJ PREP ADJ NOUN": 1,
-      "NOUN CONJ NOUN PREP NOUN AUX ADJ | because | NOUN MODAL NOUN ADJ PREP ADJ NOUN PREP DET NOUN": 1
+      "NOUN CONJ NOUN PREP NOUN AUX ADJ | because | NOUN MODAL NOUN ADJ PREP ADJ NOUN PREP DET NOUN": 1,
+      "NOUN ADJ | and | NOUN": 1
     },
     "sentence_bank": {
-      "join": [
-        "The plumber joined the two ends of the broken pipe."
-      ],
-      "presentation": [
-        "Now that everyone is here, we should begin the presentation."
-      ],
-      "rush": [
-        "I rushed to get to class on time, but the lesson had already begun."
-      ],
       "sleep": [
         "How do you sleep at night when you attack your kids like that!?",
         "I slept little last night , but even less the night before."
@@ -55308,7 +55391,8 @@
         "Speakers receive confirmation that their point is coming across and listeners absorb more information, comprehension, and understanding by being consciously engaged."
       ],
       "receive": [
-        "Speakers receive confirmation that their point is coming across and listeners absorb more information, comprehension, and understanding by being consciously engaged."
+        "Speakers receive confirmation that their point is coming across and listeners absorb more information, comprehension, and understanding by being consciously engaged.",
+        "Neurons receive and conduct impulses."
       ],
       "goal": [
         "The goal of active listening is to eliminate any misunderstandings and establish clear communication of thoughts, perceptions, and ideas between the speaker and listener."
@@ -56254,7 +56338,8 @@
       ],
       "form": [
         "It forms an essential component of language and communication , helping convey thoughts, ideas, emotions, and information.",
-        "A conversation or other form of discourse between two or more individuals."
+        "A conversation or other form of discourse between two or more individuals.",
+        "Neurons form neural networks in the nervous system, mainly in the central nervous system."
       ],
       "unusual": [
         "He is an unusual individual ."
@@ -56886,6 +56971,16 @@
       ],
       "atoms": [
         "Atoms and matter in general are stable because electrons can exist only at discrete energy levels within an atom."
+      ],
+      "neuron": [
+        "A neuron, neurone, or nerve cell, is a cell that is excitable, firing electric signals called action potentials."
+      ],
+      "neurone": [
+        "A neuron, neurone, or nerve cell, is a cell that is excitable, firing electric signals called action potentials."
+      ],
+      "neurons": [
+        "Neurons form neural networks in the nervous system, mainly in the central nervous system.",
+        "Neurons receive and conduct impulses."
       ]
     }
   },
