@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.5700000000000001,
+    "adenosine": 0.6300000000000001,
     "newborn": false
   },
   "episodic_memory": [
@@ -2912,6 +2912,13 @@
       "text": "Thinking about Quantum Computing and Qubits. Superconducting quantum computing is a branch of quantum computing and solid-state physics that implements superconducting electronic circuits as qubits in a quantum processor. Superconducting quantum computing is a branch of quantum computing and solid-state physics that implements superconducting electronic circuits as qubits in a quantum processor. Both touch on implementations and equivalent, so here is a question to test: is there a real link between microwave frequency electronic circuits and superconducting quantum computing?",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 0.945
+    },
+    {
+      "time": "2026-10-24 15:10:35",
+      "speaker": "brain",
+      "text": "I wondered about 'Fractal' by myself and went searching. From Wikipedia (live internet) I learned: In mathematics, a fractal is a geometric shape containing detailed structure at arbitrarily small scales, usually having a fractal dimension strictly exceeding the topological dimension. Key ideas I stored: fractal geometry, fractal dimension, affine self-similar, menger sponge, hausdorff dimension.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
     }
   ],
   "world_knowledge_graph": {
@@ -6465,6 +6472,20 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Photon",
       "learned": "2026-10-24 15:04:34"
+    },
+    "Fractal": {
+      "summary": "In mathematics, a fractal is a geometric shape containing detailed structure at arbitrarily small scales, usually having a fractal dimension strictly exceeding the topological dimension. Many fractals appear similar at various scales, as illustrated in successive magnifications of the Mandelbrot set. This exhibition of similar patterns at increasingly smaller scales is called self-similarity, also known as expanding symmetry or unfolding symmetry; if this replication is exactly the same at every scale, as in the Menger sponge, the shape is called affine self-similar. Fractal geometry relates to the mathematical branch of measure theory by their Hausdorff dimension.",
+      "concepts": [
+        "fractal geometry",
+        "fractal dimension",
+        "affine self-similar",
+        "menger sponge",
+        "hausdorff dimension",
+        "replication"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Fractal",
+      "learned": "2026-10-24 15:10:35"
     }
   },
   "creator_teachings": [
@@ -8244,6 +8265,12 @@
       "kind": "daydream",
       "score": 0.945,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 15:10:35",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -8334,7 +8361,8 @@
     "memory",
     "neurons",
     "artificial intelligence",
-    "photon"
+    "photon",
+    "fractal"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -37517,22 +37545,75 @@
       "source": "corpus",
       "learned": "2026-10-24 15:06:37",
       "uses": 1
+    },
+    "arbitrarily": {
+      "part_of_speech": "adverb",
+      "definition": "",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 15:10:35",
+      "uses": 1
+    },
+    "fractal": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 15:10:35",
+      "uses": 1
+    },
+    "dimension": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 15:10:35",
+      "uses": 1
+    },
+    "scales": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Many fractals appear similar at various scales, as illustrated in successive magnifications of the Mandelbrot set."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 15:10:35",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 1264,
-      "tokens": 20182,
+      "sentences": 1267,
+      "tokens": 20243,
       "sources": {
         "seed corpus": 64,
         "conversation": 16,
         "dictionary": 739,
-        "explore": 178,
+        "explore": 181,
         "pasted text": 24,
         "deep study": 243
       },
       "hashes": [
-        "7f9d3c8e81f3",
         "da669c5adafa",
         "89581742a3d8",
         "afd6e24ef45a",
@@ -37831,10 +37912,11 @@
         "d42c94e0a59a",
         "33ec0120db44",
         "2a533dd76066",
-        "faaa943fb8e2"
+        "faaa943fb8e2",
+        "c45f727c48d3"
       ],
       "seeded": true,
-      "rejected": 230,
+      "rejected": 231,
       "vocab_counts": {
         "tool": 1,
         "organ": 1,
@@ -39103,7 +39185,6 @@
         "obviating": 1,
         "opcode": 1,
         "judicious": 1,
-        "arbitrarily": 1,
         "resources": 1,
         "oiscs": 1,
         "recommended": 1,
@@ -39506,7 +39587,17 @@
         "peas": 1,
         "hatching": 1,
         "chicks": 1,
-        "scramble": 1
+        "scramble": 1,
+        "geometric": 1,
+        "exceeding": 1,
+        "topological": 1,
+        "fractals": 1,
+        "appear": 1,
+        "successive": 1,
+        "magnifications": 1,
+        "geometry": 1,
+        "relates": 1,
+        "measure": 1
       }
     },
     "pos_bigrams": {
@@ -39514,15 +39605,15 @@
         "PRON": 189,
         "WH": 24,
         "NOUN": 244,
-        "DET": 413,
+        "DET": 414,
         "VERB": 93,
         "MODAL": 4,
-        "ADJ": 98,
+        "ADJ": 99,
         "INTJ": 6,
         "CONJ": 20,
         "AUX": 4,
         "ADV": 21,
-        "PREP": 122,
+        "PREP": 123,
         "PART": 18,
         "NUM": 6,
         "NEG": 2
@@ -39548,7 +39639,7 @@
         "ADJ": 185,
         "PRON": 12,
         "PUNCT": 6,
-        "DET": 221,
+        "DET": 222,
         "NOUN": 52,
         "NEG": 32,
         "VERB": 217,
@@ -39564,7 +39655,7 @@
       },
       "ADJ": {
         "PART": 28,
-        "NOUN": 1070,
+        "NOUN": 1077,
         "WH": 2,
         "PUNCT": 194,
         "PREP": 120,
@@ -39572,7 +39663,7 @@
         "PROPN": 21,
         "ADJ": 94,
         "DET": 23,
-        "AUX": 21,
+        "AUX": 22,
         "VERB": 53,
         "MODAL": 8,
         "</S>": 5,
@@ -39591,14 +39682,14 @@
         "PUNCT": 7
       },
       "VERB": {
-        "PREP": 377,
+        "PREP": 379,
         "PART": 86,
         "ADJ": 69,
-        "NOUN": 320,
+        "NOUN": 321,
         "PUNCT": 183,
         "PRON": 72,
         "AUX": 24,
-        "DET": 286,
+        "DET": 288,
         "VERB": 37,
         "CONJ": 122,
         "WH": 20,
@@ -39611,31 +39702,31 @@
       },
       "PREP": {
         "PRON": 47,
-        "NOUN": 717,
-        "DET": 773,
+        "NOUN": 719,
+        "DET": 777,
         "PUNCT": 40,
         "VERB": 53,
         "PREP": 21,
-        "ADJ": 231,
+        "ADJ": 232,
         "PROPN": 89,
         "AUX": 16,
         "NUM": 40,
         "WH": 25,
         "CONJ": 12,
-        "ADV": 11,
+        "ADV": 12,
         "PART": 4,
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 1151,
+        "</S>": 1154,
         "NOUN": 404,
-        "CONJ": 227,
+        "CONJ": 228,
         "PRON": 28,
         "VERB": 59,
-        "ADV": 49,
+        "ADV": 50,
         "PREP": 41,
         "ADJ": 68,
-        "DET": 123,
+        "DET": 124,
         "WH": 30,
         "AUX": 23,
         "NUM": 7,
@@ -39660,11 +39751,11 @@
       },
       "ADV": {
         "PUNCT": 36,
-        "ADJ": 25,
+        "ADJ": 26,
         "NOUN": 48,
         "CONJ": 9,
         "DET": 19,
-        "VERB": 131,
+        "VERB": 133,
         "</S>": 2,
         "PRON": 3,
         "MODAL": 1,
@@ -39677,12 +39768,12 @@
       },
       "NOUN": {
         "AUX": 406,
-        "PREP": 1223,
-        "NOUN": 1016,
-        "PUNCT": 1570,
+        "PREP": 1228,
+        "NOUN": 1020,
+        "PUNCT": 1576,
         "CONJ": 467,
-        "VERB": 342,
-        "ADV": 64,
+        "VERB": 344,
+        "ADV": 65,
         "PART": 162,
         "ADJ": 168,
         "MODAL": 59,
@@ -39695,15 +39786,15 @@
         "NEG": 6
       },
       "DET": {
-        "NOUN": 1421,
-        "ADJ": 611,
+        "NOUN": 1423,
+        "ADJ": 616,
         "PRON": 16,
         "PREP": 34,
         "NUM": 34,
         "PART": 5,
         "VERB": 28,
         "CONJ": 36,
-        "PROPN": 79,
+        "PROPN": 81,
         "DET": 53,
         "ADV": 17,
         "PUNCT": 22,
@@ -39715,7 +39806,7 @@
         "PRON": 61,
         "DET": 152,
         "NOUN": 437,
-        "VERB": 81,
+        "VERB": 82,
         "ADJ": 110,
         "ADV": 30,
         "PUNCT": 15,
@@ -39763,7 +39854,7 @@
         "DET": 4,
         "PUNCT": 118,
         "PART": 6,
-        "NOUN": 120,
+        "NOUN": 122,
         "AUX": 22,
         "PROPN": 76,
         "ADJ": 17,
@@ -39857,11 +39948,11 @@
       },
       "VERB|PREP": {
         "PRON": 14,
-        "DET": 153,
+        "DET": 154,
         "NOUN": 97,
         "PUNCT": 16,
         "VERB": 8,
-        "ADJ": 41,
+        "ADJ": 42,
         "PREP": 9,
         "NUM": 9,
         "PROPN": 20,
@@ -40001,7 +40092,7 @@
       },
       "AUX|DET": {
         "NOUN": 117,
-        "ADJ": 80,
+        "ADJ": 81,
         "PROPN": 4,
         "VERB": 4,
         "PREP": 4,
@@ -40014,11 +40105,11 @@
         "PREP": 446,
         "AUX": 114,
         "CONJ": 108,
-        "PUNCT": 300,
+        "PUNCT": 301,
         "VERB": 100,
         "ADV": 17,
         "ADJ": 43,
-        "NOUN": 135,
+        "NOUN": 136,
         "PRON": 23,
         "PART": 42,
         "</S>": 2,
@@ -40028,8 +40119,8 @@
         "WH": 8
       },
       "NOUN|PREP": {
-        "NOUN": 456,
-        "DET": 439,
+        "NOUN": 457,
+        "DET": 442,
         "PREP": 8,
         "ADJ": 150,
         "PROPN": 40,
@@ -40038,13 +40129,13 @@
         "NUM": 20,
         "WH": 18,
         "AUX": 10,
-        "ADV": 6,
+        "ADV": 7,
         "PRON": 20,
         "CONJ": 6
       },
       "PREP|NOUN": {
-        "NOUN": 114,
-        "PUNCT": 197,
+        "NOUN": 115,
+        "PUNCT": 198,
         "VERB": 36,
         "CONJ": 76,
         "ADJ": 19,
@@ -40064,9 +40155,9 @@
         "PUNCT": 268,
         "PART": 24,
         "NOUN": 199,
-        "PREP": 190,
+        "PREP": 192,
         "CONJ": 80,
-        "VERB": 54,
+        "VERB": 56,
         "PROPN": 26,
         "AUX": 65,
         "MODAL": 16,
@@ -40080,13 +40171,13 @@
         "</S>": 2
       },
       "NOUN|PUNCT": {
-        "</S>": 799,
+        "</S>": 802,
         "NOUN": 298,
-        "CONJ": 154,
-        "ADV": 37,
+        "CONJ": 155,
+        "ADV": 38,
         "PREP": 32,
         "ADJ": 47,
-        "DET": 81,
+        "DET": 82,
         "VERB": 44,
         "WH": 21,
         "PRON": 18,
@@ -40099,7 +40190,7 @@
         "INTJ": 1
       },
       "<S>|DET": {
-        "NOUN": 262,
+        "NOUN": 263,
         "ADJ": 104,
         "PROPN": 18,
         "VERB": 3,
@@ -40111,7 +40202,7 @@
         "PRON": 1
       },
       "DET|ADJ": {
-        "NOUN": 485,
+        "NOUN": 489,
         "CONJ": 21,
         "ADJ": 29,
         "PUNCT": 24,
@@ -40120,17 +40211,17 @@
         "PART": 4,
         "PROPN": 8,
         "DET": 1,
-        "AUX": 6,
+        "AUX": 7,
         "MODAL": 2,
         "ADV": 1,
         "PRON": 1
       },
       "ADJ|NOUN": {
-        "PUNCT": 311,
-        "NOUN": 189,
+        "PUNCT": 313,
+        "NOUN": 191,
         "MODAL": 11,
         "VERB": 57,
-        "PREP": 226,
+        "PREP": 228,
         "CONJ": 82,
         "DET": 41,
         "ADJ": 17,
@@ -40138,7 +40229,7 @@
         "PART": 36,
         "WH": 7,
         "PROPN": 2,
-        "ADV": 8,
+        "ADV": 9,
         "PRON": 15,
         "</S>": 3
       },
@@ -40155,11 +40246,11 @@
         "MODAL": 1
       },
       "PREP|DET": {
-        "NOUN": 482,
-        "ADJ": 193,
+        "NOUN": 483,
+        "ADJ": 194,
         "NUM": 16,
         "PREP": 11,
-        "PROPN": 35,
+        "PROPN": 37,
         "DET": 15,
         "VERB": 10,
         "PUNCT": 6,
@@ -40195,7 +40286,7 @@
       },
       "VERB|NOUN": {
         "PUNCT": 85,
-        "PREP": 59,
+        "PREP": 60,
         "PART": 8,
         "VERB": 12,
         "NOUN": 64,
@@ -40352,13 +40443,13 @@
       "NOUN|VERB": {
         "PART": 11,
         "DET": 84,
-        "PREP": 78,
+        "PREP": 79,
         "WH": 4,
         "PRON": 22,
         "PUNCT": 26,
         "</S>": 3,
         "ADV": 11,
-        "NOUN": 55,
+        "NOUN": 56,
         "NUM": 1,
         "CONJ": 20,
         "AUX": 4,
@@ -40388,7 +40479,7 @@
         "CONJ": 8,
         "AUX": 8,
         "PROPN": 10,
-        "VERB": 17,
+        "VERB": 18,
         "NEG": 2,
         "ADV": 8,
         "MODAL": 5,
@@ -40417,7 +40508,7 @@
       },
       "VERB|DET": {
         "NOUN": 163,
-        "ADJ": 94,
+        "ADJ": 96,
         "PREP": 3,
         "CONJ": 4,
         "DET": 7,
@@ -40428,7 +40519,7 @@
       },
       "NOUN|ADV": {
         "PUNCT": 11,
-        "VERB": 26,
+        "VERB": 27,
         "PREP": 10,
         "NOUN": 5,
         "ADJ": 1,
@@ -40484,7 +40575,7 @@
         "NOUN": 17,
         "PUNCT": 25,
         "ADJ": 4,
-        "PREP": 21,
+        "PREP": 22,
         "CONJ": 2,
         "DET": 4,
         "VERB": 3,
@@ -40492,7 +40583,7 @@
         "WH": 1
       },
       "<S>|ADJ": {
-        "NOUN": 57,
+        "NOUN": 58,
         "ADJ": 8,
         "VERB": 4,
         "PREP": 18,
@@ -40690,7 +40781,7 @@
       },
       "ADV|ADJ": {
         "PUNCT": 6,
-        "NOUN": 11,
+        "NOUN": 12,
         "PREP": 4,
         "CONJ": 3,
         "ADV": 1
@@ -40748,7 +40839,7 @@
       "PUNCT|ADV": {
         "NOUN": 7,
         "CONJ": 1,
-        "VERB": 17,
+        "VERB": 18,
         "PREP": 11,
         "DET": 5,
         "ADJ": 3,
@@ -40821,7 +40912,7 @@
       },
       "ADV|VERB": {
         "PROPN": 3,
-        "DET": 23,
+        "DET": 25,
         "PART": 10,
         "NOUN": 20,
         "CONJ": 19,
@@ -40860,7 +40951,7 @@
         "CONJ": 3,
         "PROPN": 5,
         "ADJ": 23,
-        "NOUN": 167,
+        "NOUN": 168,
         "PUNCT": 17,
         "AUX": 3,
         "VERB": 8,
@@ -40943,7 +41034,7 @@
       },
       "PUNCT|DET": {
         "NOUN": 69,
-        "ADJ": 25,
+        "ADJ": 26,
         "VERB": 3,
         "PROPN": 6,
         "PREP": 3,
@@ -41065,7 +41156,7 @@
         "PREP": 1
       },
       "<S>|PREP": {
-        "NOUN": 42,
+        "NOUN": 43,
         "PROPN": 11,
         "ADJ": 11,
         "DET": 50,
@@ -41077,7 +41168,7 @@
       "PROPN|NOUN": {
         "CONJ": 5,
         "AUX": 21,
-        "PUNCT": 44,
+        "PUNCT": 46,
         "NOUN": 24,
         "DET": 5,
         "MODAL": 1,
@@ -41087,7 +41178,7 @@
         "VERB": 6
       },
       "ADJ|AUX": {
-        "DET": 9,
+        "DET": 10,
         "ADV": 2,
         "NOUN": 2,
         "ADJ": 5,
@@ -41253,7 +41344,7 @@
       },
       "DET|PROPN": {
         "PROPN": 11,
-        "NOUN": 38,
+        "NOUN": 40,
         "ADJ": 12,
         "AUX": 9,
         "PUNCT": 3,
@@ -41421,7 +41512,7 @@
       },
       "PREP|ADV": {
         "VERB": 5,
-        "ADJ": 2,
+        "ADJ": 3,
         "NOUN": 3,
         "PUNCT": 1
       },
@@ -41737,7 +41828,7 @@
         "alone": 1
       },
       "to": {
-        "the": 41,
+        "the": 42,
         "a": 20,
         "be": 16,
         "do": 11,
@@ -41900,7 +41991,7 @@
         "whereas": 1
       },
       "is": {
-        "a": 78,
+        "a": 79,
         "the": 43,
         "an": 17,
         "hard": 5,
@@ -41928,7 +42019,9 @@
         "neural": 3,
         "thermodynamic": 3,
         "varying": 3,
-        "type": 1
+        "type": 1,
+        "fractal": 2,
+        "geometric": 1
       },
       "for": {
         "example": 11,
@@ -41962,7 +42055,10 @@
         "listener": 3,
         "application": 3,
         "chicks": 1,
-        "surface": 1
+        "surface": 1,
+        "topological": 1,
+        "mandelbrot": 1,
+        "mathematical": 1
       },
       "brain": {
         "is": 1,
@@ -42289,7 +42385,9 @@
         "compile-time": 1,
         "different": 1,
         "that": 1,
-        "o'clock": 1
+        "o'clock": 1,
+        "arbitrarily": 1,
+        "various": 1
       },
       "words": {
         "have": 1,
@@ -42527,7 +42625,9 @@
         "\"": 4,
         "most": 4,
         "order": 4,
-        "which": 4
+        "which": 4,
+        "mathematics": 1,
+        "successive": 1
       },
       "children": {
         "play": 1,
@@ -42644,7 +42744,7 @@
         "at": 1
       },
       "of": {
-        "the": 97,
+        "the": 98,
         "a": 39,
         "an": 14,
         "speech": 8,
@@ -42657,7 +42757,8 @@
         "particles": 1,
         "considerable": 1,
         "animal": 1,
-        "exist": 1
+        "exist": 1,
+        "measure": 1
       },
       "reading": {
         "is": 1,
@@ -43388,7 +43489,8 @@
         "computer": 1,
         "professions": 1,
         "which": 1,
-        "melting": 1
+        "melting": 1,
+        "their": 1
       },
       "thermodynamic": {
         "efficiency": 2,
@@ -43653,7 +43755,8 @@
         "topic": 1,
         "parents": 1,
         "efficiency": 1,
-        "methods": 1
+        "methods": 1,
+        "hausdorff": 1
       },
       "order": {
         "against": 1,
@@ -43968,7 +44071,8 @@
         "out": 1,
         "of": 5,
         "my": 1,
-        "or": 1
+        "or": 1,
+        "at": 1
       },
       "functions": {
         "of": 2,
@@ -44002,7 +44106,8 @@
         "calculations": 1,
         "logic": 1,
         "theorems": 1,
-        "proof": 1
+        "proof": 1,
+        "branch": 1
       },
       "first-order": {
         "iterative": 1,
@@ -44375,7 +44480,8 @@
         "amnesia": 1,
         "learning": 1,
         "light": 1,
-        "to": 1
+        "to": 1,
+        "illustrated": 1
       },
       "itself": {
         "was": 2,
@@ -44608,7 +44714,8 @@
       "containing": {
         "one": 1,
         "more": 1,
-        "the": 1
+        "the": 1,
+        "detailed": 1
       },
       "one": {
         "of": 8,
@@ -44649,7 +44756,8 @@
         "described": 1,
         "printed": 1,
         "made": 1,
-        "of": 1
+        "of": 1,
+        "having": 1
       },
       "plants": {
         "grown": 1,
@@ -44796,7 +44904,7 @@
         "and": 1
       },
       "branch": {
-        "of": 4
+        "of": 5
       },
       "studies": {
         "the": 2,
@@ -44896,7 +45004,8 @@
         "amount": 1,
         "family": 1,
         "percent": 1,
-        "game": 1
+        "game": 1,
+        "scales": 1
       },
       "informal": {
         "type": 1,
@@ -44989,7 +45098,7 @@
         "too": 1
       },
       "having": {
-        "a": 3,
+        "a": 4,
         "excellence": 1
       },
       "were": {
@@ -45282,7 +45391,8 @@
         "books": 1,
         "reading": 1,
         "sources": 1,
-        "additives": 1
+        "additives": 1,
+        "scales": 1
       },
       "work": {
         "is": 2,
@@ -45624,7 +45734,8 @@
         "such": 2,
         "other": 1,
         "types": 1,
-        "resources": 1
+        "resources": 1,
+        "fractals": 1
       },
       "ease": {
         "the": 3,
@@ -46086,7 +46197,7 @@
         "that": 1
       },
       "illustrated": {
-        "in": 3
+        "in": 4
       },
       "understood": {
         "to": 1,
@@ -46822,7 +46933,8 @@
         "the": 1
       },
       "detailed": {
-        "list": 4
+        "list": 4,
+        "structure": 1
       },
       "comprehensive": {
         "grammar": 1,
@@ -47113,7 +47225,8 @@
         "about": 1,
         "used": 1,
         "is": 1,
-        "to": 1
+        "to": 1,
+        "by": 1
       },
       "been": {
         "criticised": 1,
@@ -47806,7 +47919,8 @@
         "to": 3,
         "from": 1,
         "parameter": 1,
-        "implementation": 1
+        "implementation": 1,
+        "at": 1
       },
       "template": {
         "to": 2
@@ -48998,7 +49112,8 @@
       },
       "shape": {
         "or": 1,
-        "to": 1
+        "to": 1,
+        "containing": 1
       },
       "visible": {
         "structure": 1,
@@ -52168,7 +52283,8 @@
         "choice": 1
       },
       "arbitrarily": {
-        "many": 1
+        "many": 1,
+        "small": 1
       },
       "universal": {
         "computer": 1,
@@ -53513,6 +53629,53 @@
       },
       "scramble": {
         "to": 1
+      },
+      "fractal": {
+        "is": 1,
+        "dimension": 1,
+        "geometry": 1
+      },
+      "geometric": {
+        "shape": 1
+      },
+      "dimension": {
+        "strictly": 1
+      },
+      "strictly": {
+        "exceeding": 1
+      },
+      "exceeding": {
+        "the": 1
+      },
+      "topological": {
+        "dimension": 1
+      },
+      "fractals": {
+        "appear": 1
+      },
+      "appear": {
+        "similar": 1
+      },
+      "successive": {
+        "magnifications": 1
+      },
+      "magnifications": {
+        "of": 1
+      },
+      "mandelbrot": {
+        "set": 1
+      },
+      "geometry": {
+        "relates": 1
+      },
+      "relates": {
+        "to": 1
+      },
+      "measure": {
+        "theory": 1
+      },
+      "hausdorff": {
+        "dimension": 1
       }
     },
     "starters": {
@@ -53531,7 +53694,7 @@
       "they": 9,
       "he": 26,
       "where": 1,
-      "<ADJ>": 98,
+      "<ADJ>": 99,
       "please": 2,
       "that": 12,
       "if": 7,
@@ -53544,7 +53707,7 @@
       "<ADV>": 21,
       "an": 17,
       "however": 2,
-      "in": 84,
+      "in": 85,
       "for": 6,
       "toward": 1,
       "<PART>": 18,
@@ -53559,7 +53722,7 @@
       "without": 3,
       "some": 12,
       "<NUM>": 6,
-      "many": 4,
+      "many": 5,
       "any": 4,
       "with": 6,
       "during": 3,
@@ -53605,7 +53768,7 @@
       "than": 30,
       "therefore": 7,
       "if": 8,
-      "as": 142,
+      "as": 143,
       "however": 3,
       "whether": 2,
       "that": 12,
@@ -53652,7 +53815,7 @@
       "NOUN>VERB": {
         "and": 20,
         "or": 11,
-        "as": 3,
+        "as": 4,
         "than": 1,
         "nor": 1,
         "unless": 1
@@ -55271,21 +55434,6 @@
       "NOUN PREP NOUN PART VERB NOUN PREP NOUN DET NOUN PREP DET NOUN | and | NOUN PREP DET ADJ": 1
     },
     "sentence_bank": {
-      "tomorrow": [
-        "I'll see you tomorrow morning .",
-        "Rain tomorrow is possible , but I wouldn't bet on it."
-      ],
-      "morning": [
-        "I'll see you tomorrow morning .",
-        "The activity for the morning was a walk to the store."
-      ],
-      "forc": [
-        "We're being forced to work overtime ?",
-        "Forced socialization rarely creates strong friendships, but there are exceptions."
-      ],
-      "same": [
-        "Son of the same parents as another person."
-      ],
       "parents": [
         "Son of the same parents as another person.",
         "Everyone is related to their parents."
@@ -57210,6 +57358,18 @@
       ],
       "metal": [
         "Precious metal , especially gold or silver ."
+      ],
+      "fractals": [
+        "Many fractals appear similar at various scales, as illustrated in successive magnifications of the Mandelbrot set."
+      ],
+      "appear": [
+        "Many fractals appear similar at various scales, as illustrated in successive magnifications of the Mandelbrot set."
+      ],
+      "fractal": [
+        "Fractal geometry relates to the mathematical branch of measure theory by their Hausdorff dimension."
+      ],
+      "geometry": [
+        "Fractal geometry relates to the mathematical branch of measure theory by their Hausdorff dimension."
       ]
     }
   },
@@ -57517,7 +57677,10 @@
       "speed",
       "distant",
       "precious",
-      "unique"
+      "unique",
+      "arbitrarily",
+      "fractal",
+      "dimension"
     ],
     "names": [],
     "lessons": 65,
