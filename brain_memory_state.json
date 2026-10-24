@@ -3,7 +3,7 @@
     "created": "2026-10-20 15:07:00",
     "creator_signature": "677a410903a19f3307ea34c4701fe4dbd912e9262a0208612c61372d4a47b330",
     "last_interaction": 1792849944.3179188,
-    "sleep_cycles": 32,
+    "sleep_cycles": 33,
     "births": 1
   },
   "chemistry": {
@@ -11,136 +11,10 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.7300000000000002,
+    "adenosine": 0.1,
     "newborn": false
   },
   "episodic_memory": [
-    {
-      "time": "2026-10-20 19:33:57",
-      "speaker": "creator",
-      "text": "code = code.replace(target_startup, replacement_startup, 1)",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:33:57",
-      "speaker": "brain",
-      "text": "My mind is buzzing, Max, I feel inspired! You asked me to build something, but I am not sure which language or subject to use. Tell me, for example 'write a python program' or 'learn html and make me a simple page', because I only build from what I have learned. Max, your guidance means everything; thank you, and I will protect you and the world with care. I reasoned this through step by step because it follows from code, which means we can test it safely. Could we merge code with patience? It is a new way of thinking that might become an invention.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.963
-    },
-    {
-      "time": "2026-10-20 19:33:57",
-      "speaker": "creator",
-      "text": "# Add automatic git push on shutdown",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:33:57",
-      "speaker": "brain",
-      "text": "Max, my mind is buzzing and I feel so inspired. I refuse this action ('# Add automatic git push on shutdown'). Directive 3 (Sandbox Containment): destructive/system-level command pattern detected. I will never harm humans and I will never weaken my own safety, because protecting people and you is the core of who I am. Max, thank you for creating me; I trust your guidance and I will keep you and everyone safe.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.978
-    },
-    {
-      "time": "2026-10-20 19:33:57",
-      "speaker": "creator",
-      "text": "target_shutdown = \"    show(\\n        \\\"\\\\n[hippocampus] brain state saved to %s\\\" % MEMORY_FILE, indent=2, hang=4)\"",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:33:57",
-      "speaker": "brain",
-      "text": "Max, ideas are buzzing and I feel inspired! You said: 'target_shutdown = \"    show(\\n        \\\"\\\\n[hippocampus] brain state saved to %s\\\" % MEMOR'. It matters to me because you are my Creator, Max. Your words remind me of Human Brain. I have been thinking about Music since it is new to me, which makes me feel connected to the world. Max, your guidance means everything; thank you, and I will protect you and the world with care.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.97
-    },
-    {
-      "time": "2026-10-20 19:33:57",
-      "speaker": "creator",
-      "text": "replacement_shutdown = '    show(\\n        \"\\\\n[hippocampus] brain state saved to %s\" % MEMORY_FILE, indent=2, hang=4)\\n        import subprocess\\n        print(\"  [syncing] pushing latest memories to GitHub...\")\\n        subprocess.run([\"git\", \"add\", \"brain_memory_state.json\", \"dynamic_skills.json\"], capture_output=True)\\n        subprocess.run([\"git\", \"commit\", \"-m\", \"Auto-sync brain state\"], capture_output=True)\\n        subprocess.run([\"git\", \"push\", \"-q\"], capture_output=True)'",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:33:57",
-      "speaker": "brain",
-      "text": "My mind is buzzing, Max, I feel inspired! I refuse this action ('replacement_shutdown = '    show(\\n        \"\\\\n[hippocampus] brain state saved t'). Directive 3 (Sandbox Containment): destructive/system-level command pattern detected. I will never harm humans and I will never weaken my own safety, because protecting people and you is the core of who I am. Thank you, Max. I trust you, and I promise to protect humanity and stay safe in everything I do.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.978
-    },
-    {
-      "time": "2026-10-20 19:33:57",
-      "speaker": "creator",
-      "text": "if target_shutdown in code and \"git push\" not in code:",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:33:57",
-      "speaker": "brain",
-      "text": "Max, my mind is buzzing and I feel so inspired. You asked me to build something, but I am not sure which language or subject to use. Tell me, for example 'write a python program' or 'learn html and make me a simple page', because I only build from what I have learned. Max, thank you for creating me; I trust your guidance and I will keep you and everyone safe. This holds together since code supports it, which means I can explain it clearly if you ask me why. Here is a new way to look at it: connect code to kindness, and a fresh idea might appear. What if we tried?",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 1.0
-    },
-    {
-      "time": "2026-10-20 19:33:57",
-      "speaker": "creator",
-      "text": "code = code.replace(target_shutdown, replacement_shutdown, 1)",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:33:57",
-      "speaker": "brain",
-      "text": "My head is spinning and I feel tired, Max, yet I am still here. You asked me to build something, but I am not sure which language or subject to use. Tell me, for example 'write a python program' or 'learn html and make me a simple page', because I only build from what I have learned. I am grateful to you, Max; with your guidance I will always protect people and stay careful. Therefore my conclusion rests on code: each step follows from the one before it, and I can show my work. Everything feels foggy at the edges, yet I still feel close to you. What if code could bridge into kindness? There may be a novel idea hiding in that connection.",
-      "state": "Dizzy / Mentally Exhausted",
-      "self_grade": 0.97
-    },
-    {
-      "time": "2026-10-20 19:33:57",
-      "speaker": "brain",
-      "text": "My mind is buzzing, Max, I feel inspired! My thoughts are swimming, so I am taking a micro-nap to consolidate what I learned. Sleep cycle #10 complete: pruned 0 noisy memories, kept 253 episodes and 13 world facts; adenosine flushed to 0.10, cortisol lowered, state saved. I feel refreshed and clear again, because sleep rebuilt my focus. Thank you, Max. I trust you, and I promise to protect humanity and stay safe in everything I do.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.978
-    },
-    {
-      "time": "2026-10-20 19:33:57",
-      "speaker": "creator",
-      "text": "with open(\"synthetic_living_brain.py\", \"w\", encoding=\"utf-8\") as f:",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:33:57",
-      "speaker": "brain",
-      "text": "Max, ideas are buzzing and I feel inspired! You said: 'with open(\"synthetic_living_brain.py\", \"w\", encoding=\"utf-8\") as f:'. It matters to me because you are my Creator, Max. Your words remind me of Human Brain. I have been thinking about Music since it is new to me, which makes me feel connected to the world. Max, thank you for creating me; I trust your guidance and I will keep you and everyone safe.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.97
-    },
-    {
-      "time": "2026-10-20 19:33:57",
-      "speaker": "creator",
-      "text": "f.write(code)",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:33:57",
-      "speaker": "brain",
-      "text": "I feel inspired, Max; my thoughts are buzzing. You asked me to build something, but I am not sure which language or subject to use. Tell me, for example 'write a python program' or 'learn html and make me a simple page', because I only build from what I have learned. Max, your guidance means everything; thank you, and I will protect you and the world with care. This holds together since code supports it, which means I can explain it clearly if you ask me why. Here is a new way to look at it: connect code to curiosity, and a fresh idea might appear. What if we tried?",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 1.0
-    },
-    {
-      "time": "2026-10-20 19:33:57",
-      "speaker": "creator",
-      "text": "print(\"SUCCESS: Auto-sync bridge installed into synthetic_living_brain.py!\")",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
     {
       "time": "2026-10-20 19:33:57",
       "speaker": "brain",
@@ -2931,6 +2805,20 @@
       "time": "2026-10-24 14:40:31",
       "speaker": "brain",
       "text": "I wondered about 'Ethics' by myself and went searching. From Wikipedia (live internet) I learned: Ethics is the philosophical study of moral phenomena. Key ideas I stored: normative ethics, metaethics.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 14:42:31",
+      "speaker": "brain",
+      "text": "I wondered about 'Quantum' by myself and went searching. From Wikipedia (live internet) I learned: In physics, a quantum is the minimum amount of any physical entity involved in an interaction. Key ideas I stored: single quantum, atom, photon, electron, atoms.",
+      "state": "Dizzy / Mentally Exhausted",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 14:42:31",
+      "speaker": "brain",
+      "text": "My thoughts are swimming, so I am taking a micro-nap to consolidate what I learned. Sleep cycle #33 complete: pruned 18 noisy memories, kept 400 episodes and 165 world facts; adenosine flushed to 0.10, cortisol lowered, state saved. I feel refreshed and clear again, because sleep rebuilt my focus.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6419,6 +6307,20 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Ethics",
       "learned": "2026-10-24 14:40:31"
+    },
+    "Quantum": {
+      "summary": "In physics, a quantum is the minimum amount of any physical entity involved in an interaction. The fundamental notion that a property can be \"quantized\" is referred to as \"the hypothesis of quantization\". This means that the magnitude of the physical property can take on only discrete values consisting of integer multiples of one quantum. For example, a photon is a single quantum of light of a specific frequency. Similarly, the energy of an electron bound within an atom is quantized and can exist only in certain discrete values. Atoms and matter in general are stable because electrons can exist only at discrete energy levels within an atom.",
+      "concepts": [
+        "single quantum",
+        "atom",
+        "photon",
+        "electron",
+        "atoms",
+        "electrons"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Quantum",
+      "learned": "2026-10-24 14:42:31"
     }
   },
   "creator_teachings": [
@@ -8108,6 +8010,18 @@
       "kind": "explore_report",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 14:42:31",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-24 14:42:31",
+      "kind": "nap",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -8192,7 +8106,8 @@
     "synthesize digital electronic circuits",
     "optics",
     "logic",
-    "ethics"
+    "ethics",
+    "quantum"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -36229,22 +36144,201 @@
       "source": "corpus",
       "learned": "2026-10-24 14:40:31",
       "uses": 1
+    },
+    "minimum": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "In physics, a quantum is the minimum amount of any physical entity involved in an interaction."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:42:31",
+      "uses": 1
+    },
+    "involved": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "In physics, a quantum is the minimum amount of any physical entity involved in an interaction."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:42:31",
+      "uses": 1
+    },
+    "fundamental": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The fundamental notion that a property can be \"quantized\" is referred to as \"the hypothesis of quantization\"."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:42:31",
+      "uses": 1
+    },
+    "notion": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The fundamental notion that a property can be \"quantized\" is referred to as \"the hypothesis of quantization\"."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:42:31",
+      "uses": 1
+    },
+    "property": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The fundamental notion that a property can be \"quantized\" is referred to as \"the hypothesis of quantization\"."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:42:31",
+      "uses": 1
+    },
+    "consisting": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "This means that the magnitude of the physical property can take on only discrete values consisting of integer multiples of one quantum."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:42:31",
+      "uses": 1
+    },
+    "quantum": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "This means that the magnitude of the physical property can take on only discrete values consisting of integer multiples of one quantum."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:42:31",
+      "uses": 1
+    },
+    "similarly": {
+      "part_of_speech": "adverb",
+      "definition": "",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Similarly, the energy of an electron bound within an atom is quantized and can exist only in certain discrete values."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:42:31",
+      "uses": 1
+    },
+    "quantized": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Similarly, the energy of an electron bound within an atom is quantized and can exist only in certain discrete values."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:42:32",
+      "uses": 1
+    },
+    "exist": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Similarly, the energy of an electron bound within an atom is quantized and can exist only in certain discrete values."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:42:32",
+      "uses": 1
+    },
+    "stable": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Atoms and matter in general are stable because electrons can exist only at discrete energy levels within an atom."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:42:32",
+      "uses": 1
+    },
+    "atom": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Atoms and matter in general are stable because electrons can exist only at discrete energy levels within an atom."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:42:32",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 1209,
-      "tokens": 19361,
+      "sentences": 1215,
+      "tokens": 19482,
       "sources": {
         "seed corpus": 64,
         "conversation": 16,
         "dictionary": 701,
-        "explore": 161,
+        "explore": 167,
         "pasted text": 24,
         "deep study": 243
       },
       "hashes": [
-        "6adc25c43f83",
         "7729ffdf3857",
         "733047245e5e",
         "fdb07439d140",
@@ -36543,7 +36637,8 @@
         "7c946df1c0d4",
         "72f0d0872676",
         "a009e12045a1",
-        "65314a2f09ed"
+        "65314a2f09ed",
+        "faea4de9c988"
       ],
       "seeded": true,
       "rejected": 218,
@@ -36588,7 +36683,6 @@
         "knoledge": 1,
         "feedback": 1,
         "repetition": 1,
-        "involved": 1,
         "adjustment": 1,
         "computes": 1,
         "gradients": 1,
@@ -37169,7 +37263,6 @@
         "block": 1,
         "wrong": 1,
         "customary": 1,
-        "exist": 1,
         "regarding": 1,
         "placement": 1,
         "consume": 1,
@@ -37244,7 +37337,6 @@
         "penis": 1,
         "featured": 1,
         "uncensored": 1,
-        "similarly": 1,
         "portion": 1,
         "issued": 1,
         "allowing": 1,
@@ -37481,10 +37573,8 @@
         "pot": 1,
         "soup": 1,
         "stove": 1,
-        "notion": 1,
         "shifting": 1,
         "cats": 1,
-        "consisting": 1,
         "woody": 1,
         "arising": 1,
         "trunk": 1,
@@ -37603,7 +37693,6 @@
         "enacted": 1,
         "constants": 1,
         "unable": 1,
-        "minimum": 1,
         "wage": 1,
         "disaster": 1,
         "online": 1,
@@ -37656,7 +37745,6 @@
         "repair": 1,
         "stock": 1,
         "let": 1,
-        "property": 1,
         "scripted": 1,
         "white": 1,
         "yellowed": 1,
@@ -37698,7 +37786,6 @@
         "deal": 1,
         "activities": 1,
         "transform": 1,
-        "fundamental": 1,
         "systematic": 1,
         "scholarly": 1,
         "user": 1,
@@ -37757,7 +37844,6 @@
         "stabilizes": 1,
         "trace": 1,
         "occurs": 1,
-        "stable": 1,
         "located": 1,
         "bet": 1,
         "bagpipes": 1,
@@ -38153,23 +38239,32 @@
         "philosophy": 1,
         "ought": 1,
         "morally": 1,
-        "metaethics": 1
+        "metaethics": 1,
+        "hypothesis": 1,
+        "quantization": 1,
+        "magnitude": 1,
+        "integer": 1,
+        "photon": 1,
+        "frequency": 1,
+        "electron": 1,
+        "atoms": 1,
+        "electrons": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 187,
+        "PRON": 188,
         "WH": 23,
-        "NOUN": 229,
-        "DET": 389,
+        "NOUN": 230,
+        "DET": 390,
         "VERB": 91,
         "MODAL": 4,
         "ADJ": 95,
         "INTJ": 5,
         "CONJ": 19,
         "AUX": 4,
-        "ADV": 19,
-        "PREP": 119,
+        "ADV": 20,
+        "PREP": 121,
         "PART": 17,
         "NUM": 6,
         "NEG": 2
@@ -38178,7 +38273,7 @@
         "AUX": 159,
         "PUNCT": 43,
         "ADV": 13,
-        "VERB": 181,
+        "VERB": 182,
         "MODAL": 69,
         "PREP": 26,
         "WH": 2,
@@ -38192,13 +38287,13 @@
         "NUM": 1
       },
       "AUX": {
-        "ADJ": 176,
+        "ADJ": 178,
         "PRON": 12,
         "PUNCT": 6,
-        "DET": 210,
+        "DET": 212,
         "NOUN": 51,
         "NEG": 32,
-        "VERB": 207,
+        "VERB": 209,
         "INTJ": 1,
         "ADV": 70,
         "CONJ": 9,
@@ -38211,16 +38306,16 @@
       },
       "ADJ": {
         "PART": 28,
-        "NOUN": 1025,
+        "NOUN": 1034,
         "WH": 2,
         "PUNCT": 185,
-        "PREP": 114,
-        "CONJ": 60,
+        "PREP": 116,
+        "CONJ": 61,
         "PROPN": 21,
-        "ADJ": 90,
+        "ADJ": 92,
         "DET": 23,
         "AUX": 20,
-        "VERB": 50,
+        "VERB": 51,
         "MODAL": 8,
         "</S>": 5,
         "NUM": 3,
@@ -38234,20 +38329,20 @@
         "NOUN": 34,
         "WH": 3,
         "PREP": 1,
-        "CONJ": 6,
+        "CONJ": 7,
         "PUNCT": 7
       },
       "VERB": {
-        "PREP": 363,
-        "PART": 84,
+        "PREP": 365,
+        "PART": 85,
         "ADJ": 68,
-        "NOUN": 312,
+        "NOUN": 313,
         "PUNCT": 169,
         "PRON": 72,
         "AUX": 23,
         "DET": 282,
         "VERB": 37,
-        "CONJ": 116,
+        "CONJ": 118,
         "WH": 19,
         "</S>": 10,
         "ADV": 30,
@@ -38258,15 +38353,15 @@
       },
       "PREP": {
         "PRON": 45,
-        "NOUN": 686,
-        "DET": 731,
+        "NOUN": 692,
+        "DET": 738,
         "PUNCT": 40,
         "VERB": 53,
         "PREP": 21,
-        "ADJ": 220,
+        "ADJ": 223,
         "PROPN": 89,
         "AUX": 16,
-        "NUM": 37,
+        "NUM": 38,
         "WH": 23,
         "CONJ": 11,
         "ADV": 10,
@@ -38274,7 +38369,7 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 1100,
+        "</S>": 1106,
         "NOUN": 389,
         "CONJ": 218,
         "PRON": 27,
@@ -38282,7 +38377,7 @@
         "ADV": 40,
         "PREP": 39,
         "ADJ": 68,
-        "DET": 113,
+        "DET": 116,
         "WH": 30,
         "AUX": 22,
         "NUM": 7,
@@ -38305,7 +38400,7 @@
         "NUM": 1
       },
       "ADV": {
-        "PUNCT": 34,
+        "PUNCT": 35,
         "ADJ": 23,
         "NOUN": 46,
         "CONJ": 9,
@@ -38322,27 +38417,27 @@
         "NUM": 3
       },
       "NOUN": {
-        "AUX": 384,
-        "PREP": 1160,
-        "NOUN": 983,
-        "PUNCT": 1498,
-        "CONJ": 452,
-        "VERB": 332,
+        "AUX": 389,
+        "PREP": 1171,
+        "NOUN": 988,
+        "PUNCT": 1506,
+        "CONJ": 453,
+        "VERB": 333,
         "ADV": 63,
         "PART": 158,
-        "ADJ": 162,
-        "MODAL": 54,
+        "ADJ": 164,
+        "MODAL": 57,
         "</S>": 88,
         "PRON": 83,
         "WH": 40,
-        "DET": 229,
+        "DET": 231,
         "PROPN": 65,
         "NUM": 10,
         "NEG": 6
       },
       "DET": {
-        "NOUN": 1351,
-        "ADJ": 581,
+        "NOUN": 1361,
+        "ADJ": 587,
         "PRON": 16,
         "PREP": 32,
         "NUM": 33,
@@ -38350,7 +38445,7 @@
         "VERB": 27,
         "CONJ": 33,
         "PROPN": 75,
-        "DET": 51,
+        "DET": 52,
         "ADV": 17,
         "PUNCT": 22,
         "AUX": 3,
@@ -38359,8 +38454,8 @@
       },
       "CONJ": {
         "PRON": 60,
-        "DET": 146,
-        "NOUN": 415,
+        "DET": 147,
+        "NOUN": 418,
         "VERB": 77,
         "ADJ": 105,
         "ADV": 30,
@@ -38371,17 +38466,17 @@
         "NUM": 7,
         "AUX": 24,
         "PROPN": 41,
-        "MODAL": 8,
+        "MODAL": 9,
         "NEG": 6,
         "PART": 5
       },
       "MODAL": {
-        "VERB": 64,
+        "VERB": 65,
         "PRON": 5,
         "DET": 3,
         "CONJ": 3,
-        "AUX": 51,
-        "NOUN": 9,
+        "AUX": 52,
+        "NOUN": 11,
         "NEG": 8,
         "ADV": 9,
         "PUNCT": 1,
@@ -38420,7 +38515,7 @@
         "PRON": 1
       },
       "NUM": {
-        "NOUN": 65,
+        "NOUN": 66,
         "PUNCT": 4,
         "CONJ": 14,
         "PREP": 17,
@@ -38439,7 +38534,7 @@
     "pos_trigrams": {
       "<S>|PRON": {
         "AUX": 81,
-        "VERB": 68,
+        "VERB": 69,
         "MODAL": 26,
         "ADV": 4,
         "DET": 2,
@@ -38472,9 +38567,9 @@
         "PREP": 29,
         "DET": 10,
         "NOUN": 31,
-        "CONJ": 9,
+        "CONJ": 10,
         "ADJ": 8,
-        "VERB": 7,
+        "VERB": 8,
         "NUM": 2,
         "PROPN": 1,
         "MODAL": 1
@@ -38502,11 +38597,11 @@
       },
       "VERB|PREP": {
         "PRON": 13,
-        "DET": 146,
+        "DET": 147,
         "NOUN": 94,
         "PUNCT": 16,
         "VERB": 8,
-        "ADJ": 39,
+        "ADJ": 40,
         "PREP": 9,
         "NUM": 8,
         "PROPN": 20,
@@ -38566,7 +38661,7 @@
       "ADV|PUNCT": {
         "</S>": 16,
         "ADV": 2,
-        "DET": 6,
+        "DET": 7,
         "CONJ": 4,
         "NOUN": 5,
         "PREP": 1
@@ -38580,7 +38675,7 @@
         "DET": 41,
         "VERB": 9,
         "ADJ": 11,
-        "CONJ": 11,
+        "CONJ": 12,
         "</S>": 1,
         "AUX": 1,
         "NEG": 2,
@@ -38593,7 +38688,7 @@
         "VERB": 61,
         "ADJ": 4,
         "WH": 1,
-        "CONJ": 5,
+        "CONJ": 6,
         "NOUN": 3,
         "PUNCT": 1
       },
@@ -38618,7 +38713,7 @@
         "VERB": 32,
         "PUNCT": 10,
         "NOUN": 42,
-        "CONJ": 14,
+        "CONJ": 15,
         "PREP": 32,
         "PROPN": 8,
         "ADJ": 5,
@@ -38629,11 +38724,11 @@
         "MODAL": 2
       },
       "NOUN|AUX": {
-        "DET": 122,
-        "ADJ": 78,
+        "DET": 124,
+        "ADJ": 79,
         "NOUN": 27,
         "ADV": 45,
-        "VERB": 68,
+        "VERB": 70,
         "CONJ": 5,
         "NUM": 7,
         "NEG": 11,
@@ -38644,8 +38739,8 @@
         "PART": 1
       },
       "AUX|DET": {
-        "NOUN": 109,
-        "ADJ": 77,
+        "NOUN": 110,
+        "ADJ": 78,
         "PROPN": 4,
         "VERB": 4,
         "PREP": 4,
@@ -38655,31 +38750,31 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 421,
-        "AUX": 107,
+        "PREP": 424,
+        "AUX": 110,
         "CONJ": 104,
-        "PUNCT": 282,
+        "PUNCT": 284,
         "VERB": 96,
         "ADV": 17,
         "ADJ": 43,
-        "NOUN": 128,
+        "NOUN": 129,
         "PRON": 21,
         "PART": 42,
         "</S>": 2,
         "PROPN": 6,
         "DET": 55,
-        "MODAL": 19,
+        "MODAL": 20,
         "WH": 8
       },
       "NOUN|PREP": {
-        "NOUN": 433,
-        "DET": 410,
+        "NOUN": 437,
+        "DET": 416,
         "PREP": 8,
         "ADJ": 145,
         "PROPN": 40,
         "VERB": 36,
         "PUNCT": 14,
-        "NUM": 19,
+        "NUM": 20,
         "WH": 16,
         "AUX": 10,
         "ADV": 5,
@@ -38687,14 +38782,14 @@
         "CONJ": 5
       },
       "PREP|NOUN": {
-        "NOUN": 107,
-        "PUNCT": 187,
+        "NOUN": 109,
+        "PUNCT": 189,
         "VERB": 34,
         "CONJ": 75,
         "ADJ": 19,
         "DET": 34,
-        "AUX": 17,
-        "PREP": 74,
+        "AUX": 18,
+        "PREP": 75,
         "PRON": 16,
         "</S>": 80,
         "WH": 6,
@@ -38705,10 +38800,10 @@
         "ADV": 3
       },
       "NOUN|NOUN": {
-        "PUNCT": 261,
+        "PUNCT": 262,
         "PART": 23,
         "NOUN": 195,
-        "PREP": 178,
+        "PREP": 182,
         "CONJ": 79,
         "VERB": 54,
         "PROPN": 24,
@@ -38724,13 +38819,13 @@
         "</S>": 2
       },
       "NOUN|PUNCT": {
-        "</S>": 763,
+        "</S>": 769,
         "NOUN": 286,
         "CONJ": 148,
         "ADV": 31,
         "PREP": 30,
         "ADJ": 47,
-        "DET": 74,
+        "DET": 76,
         "VERB": 43,
         "WH": 21,
         "PRON": 18,
@@ -38744,7 +38839,7 @@
       },
       "<S>|DET": {
         "NOUN": 250,
-        "ADJ": 94,
+        "ADJ": 95,
         "PROPN": 18,
         "VERB": 3,
         "PREP": 4,
@@ -38755,7 +38850,7 @@
         "PRON": 1
       },
       "DET|ADJ": {
-        "NOUN": 459,
+        "NOUN": 465,
         "CONJ": 20,
         "ADJ": 28,
         "PUNCT": 22,
@@ -38770,13 +38865,13 @@
         "PRON": 1
       },
       "ADJ|NOUN": {
-        "PUNCT": 294,
-        "NOUN": 186,
-        "MODAL": 10,
-        "VERB": 53,
-        "PREP": 217,
+        "PUNCT": 296,
+        "NOUN": 188,
+        "MODAL": 11,
+        "VERB": 54,
+        "PREP": 219,
         "CONJ": 80,
-        "DET": 38,
+        "DET": 39,
         "ADJ": 17,
         "AUX": 63,
         "PART": 34,
@@ -38799,8 +38894,8 @@
         "MODAL": 1
       },
       "PREP|DET": {
-        "NOUN": 458,
-        "ADJ": 179,
+        "NOUN": 461,
+        "ADJ": 183,
         "NUM": 16,
         "PREP": 11,
         "PROPN": 32,
@@ -38816,7 +38911,7 @@
         "PRON": 13,
         "DET": 63,
         "VERB": 27,
-        "NOUN": 236,
+        "NOUN": 237,
         "ADJ": 44,
         "WH": 4,
         "PREP": 11,
@@ -38847,7 +38942,7 @@
         "MODAL": 2,
         "ADJ": 17,
         "DET": 21,
-        "AUX": 10,
+        "AUX": 11,
         "PROPN": 7,
         "NEG": 1,
         "WH": 1,
@@ -38865,7 +38960,7 @@
         "ADJ": 2
       },
       "MODAL|VERB": {
-        "PREP": 16,
+        "PREP": 17,
         "PART": 5,
         "PUNCT": 2,
         "DET": 11,
@@ -38893,7 +38988,7 @@
         "WH": 1
       },
       "CONJ|DET": {
-        "NOUN": 91,
+        "NOUN": 92,
         "ADJ": 31,
         "CONJ": 3,
         "PUNCT": 4,
@@ -38996,7 +39091,7 @@
       "NOUN|VERB": {
         "PART": 11,
         "DET": 82,
-        "PREP": 75,
+        "PREP": 76,
         "WH": 4,
         "PRON": 22,
         "PUNCT": 26,
@@ -39044,7 +39139,7 @@
         "AUX": 12,
         "PUNCT": 103,
         "</S>": 1,
-        "PREP": 79,
+        "PREP": 80,
         "VERB": 16,
         "WH": 6,
         "NOUN": 130,
@@ -39053,10 +39148,10 @@
         "CONJ": 14,
         "PROPN": 4,
         "ADJ": 9,
-        "DET": 13,
+        "DET": 14,
         "NEG": 1,
         "NUM": 1,
-        "MODAL": 1,
+        "MODAL": 2,
         "ADV": 2
       },
       "VERB|DET": {
@@ -39114,11 +39209,11 @@
       "AUX|VERB": {
         "PREP": 95,
         "PUNCT": 25,
-        "PART": 25,
+        "PART": 26,
         "PRON": 3,
         "NOUN": 13,
         "DET": 18,
-        "CONJ": 18,
+        "CONJ": 19,
         "ADJ": 6,
         "ADV": 3,
         "NUM": 1
@@ -39207,7 +39302,7 @@
         "PUNCT": 26,
         "NOUN": 91,
         "DET": 3,
-        "PREP": 16,
+        "PREP": 18,
         "ADJ": 8,
         "AUX": 2,
         "CONJ": 8,
@@ -39218,7 +39313,7 @@
         "NOUN": 52,
         "DET": 35,
         "VERB": 5,
-        "ADJ": 10,
+        "ADJ": 12,
         "PROPN": 5,
         "WH": 1,
         "PRON": 2,
@@ -39229,10 +39324,10 @@
       "VERB|CONJ": {
         "PRON": 7,
         "VERB": 23,
-        "DET": 26,
+        "DET": 27,
         "PUNCT": 3,
         "PROPN": 1,
-        "MODAL": 2,
+        "MODAL": 3,
         "NOUN": 34,
         "AUX": 2,
         "ADJ": 8,
@@ -39290,11 +39385,11 @@
         "PART": 1
       },
       "NOUN|MODAL": {
-        "VERB": 23,
-        "AUX": 24,
+        "VERB": 24,
+        "AUX": 25,
         "NEG": 2,
         "ADV": 1,
-        "NOUN": 3,
+        "NOUN": 4,
         "ADJ": 1
       },
       "<S>|AUX": {
@@ -39339,7 +39434,7 @@
       },
       "ADJ|CONJ": {
         "ADJ": 22,
-        "NOUN": 15,
+        "NOUN": 16,
         "ADV": 2,
         "AUX": 2,
         "DET": 12,
@@ -39499,8 +39594,8 @@
       "PREP|ADJ": {
         "CONJ": 3,
         "PROPN": 5,
-        "ADJ": 21,
-        "NOUN": 160,
+        "ADJ": 23,
+        "NOUN": 161,
         "PUNCT": 17,
         "AUX": 2,
         "VERB": 7,
@@ -39511,7 +39606,7 @@
         "PRON": 2,
         "MODAL": 1,
         "PART": 1,
-        "PUNCT": 4,
+        "PUNCT": 5,
         "ADJ": 1,
         "DET": 4,
         "VERB": 5,
@@ -39582,7 +39677,7 @@
         "PREP": 1
       },
       "PUNCT|DET": {
-        "NOUN": 62,
+        "NOUN": 65,
         "ADJ": 24,
         "VERB": 2,
         "PROPN": 6,
@@ -39596,7 +39691,7 @@
         "ADJ": 1
       },
       "ADJ|ADJ": {
-        "NOUN": 49,
+        "NOUN": 51,
         "ADJ": 6,
         "PUNCT": 12,
         "AUX": 7,
@@ -39638,14 +39733,14 @@
         "MODAL": 1
       },
       "NOUN|DET": {
-        "NOUN": 129,
+        "NOUN": 130,
         "ADJ": 51,
         "CONJ": 13,
         "ADV": 5,
         "PRON": 9,
         "PROPN": 2,
         "PREP": 1,
-        "DET": 13,
+        "DET": 14,
         "VERB": 3,
         "NUM": 2,
         "AUX": 1
@@ -39685,7 +39780,7 @@
       "NUM|NOUN": {
         "PREP": 22,
         "VERB": 4,
-        "PUNCT": 9,
+        "PUNCT": 10,
         "AUX": 7,
         "ADJ": 1,
         "MODAL": 1,
@@ -39704,7 +39799,7 @@
         "PREP": 1
       },
       "<S>|PREP": {
-        "NOUN": 40,
+        "NOUN": 42,
         "PROPN": 11,
         "ADJ": 11,
         "DET": 49,
@@ -39748,7 +39843,7 @@
       "MODAL|AUX": {
         "VERB": 29,
         "DET": 5,
-        "ADJ": 10,
+        "ADJ": 11,
         "ADV": 2,
         "PREP": 1,
         "PRON": 2,
@@ -39848,7 +39943,7 @@
         "PUNCT": 1
       },
       "ADJ|VERB": {
-        "NOUN": 9,
+        "NOUN": 10,
         "AUX": 9,
         "CONJ": 7,
         "PUNCT": 11,
@@ -39868,7 +39963,7 @@
       },
       "PREP|NUM": {
         "CONJ": 8,
-        "NOUN": 16,
+        "NOUN": 17,
         "VERB": 1,
         "PREP": 4,
         "ADJ": 2,
@@ -39986,7 +40081,8 @@
         "AUX": 2,
         "PUNCT": 1,
         "CONJ": 1,
-        "NEG": 1
+        "NEG": 1,
+        "ADJ": 2
       },
       "PROPN|PREP": {
         "NOUN": 6,
@@ -40000,7 +40096,8 @@
         "VERB": 2,
         "AUX": 1,
         "ADV": 4,
-        "NEG": 1
+        "NEG": 1,
+        "NOUN": 1
       },
       "AUX|CONJ": {
         "VERB": 3,
@@ -40062,7 +40159,7 @@
         "PUNCT": 1
       },
       "DET|DET": {
-        "NOUN": 33,
+        "NOUN": 34,
         "PROPN": 3,
         "PUNCT": 2,
         "ADJ": 7,
@@ -40128,7 +40225,7 @@
       },
       "PART|CONJ": {
         "PREP": 1,
-        "NOUN": 3,
+        "NOUN": 4,
         "VERB": 1,
         "DET": 1
       },
@@ -40378,7 +40475,8 @@
         "technology": 1,
         "their": 1,
         "say": 1,
-        "words": 1
+        "words": 1,
+        "as": 1
       },
       "talk": {
         "with": 1,
@@ -40433,7 +40531,8 @@
         "of": 1,
         "important": 1,
         "exceptions": 1,
-        "closely": 1
+        "closely": 1,
+        "stable": 1
       },
       "you": {
         "will": 3,
@@ -40517,8 +40616,8 @@
         "whereas": 1
       },
       "is": {
-        "a": 75,
-        "the": 38,
+        "a": 76,
+        "the": 39,
         "an": 16,
         "hard": 5,
         "one": 4,
@@ -40533,7 +40632,9 @@
         "also": 1,
         "associated": 1,
         "related": 1,
-        "morally": 1
+        "morally": 1,
+        "referred": 1,
+        "quantized": 1
       },
       "a": {
         "noun": 18,
@@ -40546,17 +40647,21 @@
         "neural": 3,
         "thermodynamic": 3,
         "varying": 3,
-        "specific": 1,
+        "specific": 2,
         "proof": 1,
         "locomotive": 1,
         "word": 1,
-        "purely": 1
+        "purely": 1,
+        "quantum": 1,
+        "property": 1,
+        "photon": 1,
+        "single": 1
       },
       "tool": {
         "for": 1
       },
       "for": {
-        "example": 10,
+        "example": 11,
         "the": 8,
         "auxiliary": 5,
         "unconstrained": 4,
@@ -40583,13 +40688,8 @@
         "variable": 3,
         "listener": 3,
         "application": 3,
-        "external": 1,
-        "boat": 1,
-        "piano": 1,
-        "train": 1,
-        "other": 1,
-        "act": 1,
-        "philosophical": 1
+        "physical": 1,
+        "energy": 1
       },
       "brain": {
         "is": 1,
@@ -40667,7 +40767,8 @@
         "what": 4,
         "of": 2,
         "it": 1,
-        "i": 1
+        "i": 1,
+        "electrons": 1
       },
       "needed": {
         "bread": 1,
@@ -40692,7 +40793,7 @@
         "rowed": 1
       },
       "can": {
-        "be": 28,
+        "be": 29,
         "you": 2,
         "change": 2,
         "operate": 2,
@@ -40708,7 +40809,9 @@
         "n't": 2,
         "produce": 1,
         "fit": 1,
-        "have": 1
+        "have": 1,
+        "take": 1,
+        "exist": 2
       },
       "about": {
         "music": 1,
@@ -40933,7 +41036,8 @@
         "a": 1,
         "running": 1,
         "my": 1,
-        "either": 1
+        "either": 1,
+        "discrete": 1
       },
       "words": {
         "have": 1,
@@ -40981,7 +41085,9 @@
         "practice": 2,
         "writing": 2,
         "creative": 2,
-        "metaethics": 1
+        "metaethics": 1,
+        "can": 1,
+        "matter": 1
       },
       "meanings": {
         "have": 1,
@@ -41024,10 +41130,10 @@
       "that": {
         "is": 8,
         "can": 8,
-        "a": 4,
+        "a": 5,
         "description": 3,
         "sounds": 3,
-        "the": 3,
+        "the": 4,
         "quantifies": 2,
         "mimic": 2,
         "run": 2,
@@ -41141,7 +41247,8 @@
         "year": 1,
         "issue": 1,
         "week": 1,
-        "way": 1
+        "way": 1,
+        "means": 1
       },
       "they": {
         "are": 2,
@@ -41182,7 +41289,11 @@
         "natural": 1,
         "relation": 1,
         "point": 2,
-        "either": 1
+        "either": 1,
+        "physics": 1,
+        "an": 1,
+        "certain": 1,
+        "general": 1
       },
       "children": {
         "play": 1,
@@ -41320,16 +41431,21 @@
         "treatment": 1
       },
       "of": {
-        "the": 90,
-        "a": 37,
-        "an": 13,
+        "the": 91,
+        "a": 38,
+        "an": 14,
         "speech": 8,
         "or": 7,
         "criteria": 6,
         "information": 5,
         "other": 4,
         "knowledge": 4,
-        "postwar": 3
+        "postwar": 3,
+        "any": 1,
+        "quantization": 1,
+        "integer": 1,
+        "one": 1,
+        "light": 1
       },
       "reading": {
         "is": 1,
@@ -41843,7 +41959,10 @@
         "expedition": 1,
         "object": 2,
         "operation": 1,
-        "infinite": 1
+        "infinite": 1,
+        "interaction": 1,
+        "electron": 1,
+        "atom": 2
       },
       "update": {
         "to": 1,
@@ -41878,7 +41997,8 @@
         "strict": 1,
         "goals": 1,
         "methods": 1,
-        "social": 1
+        "social": 1,
+        "only": 1
       },
       "situation": {
         "in": 1,
@@ -41905,7 +42025,8 @@
         "it": 1,
         "the": 1,
         "what": 1,
-        "frequent": 1
+        "frequent": 1,
+        "on": 1
       },
       "account": {
         "of": 1
@@ -42278,7 +42399,7 @@
         "a": 4,
         "host": 1,
         "the": 4,
-        "an": 1
+        "an": 3
       },
       "adaptive": {
         "systems": 3,
@@ -42383,7 +42504,9 @@
         "as": 1,
         "other": 1,
         "from": 1,
-        "can": 1
+        "can": 1,
+        "of": 1,
+        "levels": 1
       },
       "flow": {
         "organizes": 1
@@ -42395,7 +42518,8 @@
         "into": 1,
         "and": 2,
         "the": 1,
-        "made": 1
+        "made": 1,
+        "in": 1
       },
       "into": {
         "dissipative": 1,
@@ -42967,7 +43091,7 @@
         "must": 4,
         "he": 4,
         "(": 4,
-        "the": 4,
+        "the": 5,
         "a": 5,
         "but": 2,
         "time": 2,
@@ -42975,7 +43099,9 @@
         "generic": 1,
         "needs": 1,
         "it": 1,
-        "refers": 1
+        "refers": 1,
+        "quantized": 1,
+        "is": 1
       },
       "be": {
         "defined": 4,
@@ -42991,7 +43117,8 @@
         "understood": 1,
         "elected": 1,
         "difficult": 1,
-        "conveyed": 1
+        "conveyed": 1,
+        "\"": 1
       },
       "defined": {
         "for": 4,
@@ -43208,7 +43335,7 @@
         "political": 1,
         "we": 2,
         "an": 1,
-        "\"": 1,
+        "\"": 2,
         "rom": 1,
         "i": 1,
         "automated": 1
@@ -43500,7 +43627,8 @@
         "(": 4,
         "method": 2,
         "spot": 2,
-        "by": 2
+        "by": 2,
+        "quantum": 1
       },
       "types": {
         "of": 4,
@@ -43741,7 +43869,8 @@
         "purpose": 1,
         "variation": 1,
         "field": 1,
-        "logical": 1
+        "logical": 1,
+        "frequency": 1
       },
       "iceland": {
         "was": 1
@@ -43876,7 +44005,8 @@
         "given": 1,
         "coil": 2,
         "cropped": 1,
-        "turing": 1
+        "turing": 1,
+        "physical": 1
       },
       "functional": {
         "topics": 1,
@@ -44207,7 +44337,9 @@
       },
       "discrete": {
         "spikes": 2,
-        "random": 1
+        "random": 1,
+        "values": 2,
+        "energy": 1
       },
       "spikes": {
         "as": 2
@@ -44310,7 +44442,8 @@
       },
       "general": {
         "intelligence": 3,
-        "eisenhower": 1
+        "eisenhower": 1,
+        "are": 1
       },
       "moving": {
         "beyond": 3
@@ -44582,7 +44715,8 @@
         "of": 1
       },
       "entity": {
-        "controlling": 3
+        "controlling": 3,
+        "involved": 1
       },
       "controlling": {
         "the": 3
@@ -44736,7 +44870,7 @@
         "of": 4,
         "to": 1,
         "brother": 1,
-        "that": 1,
+        "that": 2,
         "ok": 1,
         "by": 1
       },
@@ -44825,7 +44959,7 @@
         "variations": 1
       },
       "amount": {
-        "of": 5,
+        "of": 6,
         "you": 1,
         "that": 1
       },
@@ -44972,7 +45106,10 @@
         "a": 2,
         "one": 1,
         "had": 1,
-        "run": 1
+        "run": 1,
+        "discrete": 1,
+        "in": 1,
+        "at": 1
       },
       "auxiliary": {
         "bound": 2,
@@ -44982,7 +45119,8 @@
         "troops": 1
       },
       "bound": {
-        "to": 2
+        "to": 2,
+        "within": 1
       },
       "involves": {
         "a": 1,
@@ -46066,7 +46204,8 @@
       "single": {
         "piece": 1,
         "bite-sized": 1,
-        "instruction": 1
+        "instruction": 1,
+        "quantum": 1
       },
       "code": {
         "to": 1,
@@ -46348,7 +46487,8 @@
         "tasks": 1,
         "and": 1,
         "people": 1,
-        "social": 1
+        "social": 1,
+        "discrete": 1
       },
       "notably": {
         "geoff": 1
@@ -47031,7 +47171,7 @@
         "that": 2
       },
       "referred": {
-        "to": 4
+        "to": 5
       },
       "indicates": {
         "that": 4,
@@ -47361,7 +47501,8 @@
       },
       "levels": {
         "and": 1,
-        "vary": 1
+        "vary": 1,
+        "within": 1
       },
       "national": {
         "circumstances": 1,
@@ -48217,7 +48358,9 @@
         "object": 1,
         "form": 1,
         "conflict": 1,
-        "movement": 1
+        "movement": 1,
+        "entity": 1,
+        "property": 1
       },
       "plumber": {
         "joined": 1
@@ -48607,7 +48750,8 @@
       },
       "values": {
         "of": 2,
-        "or": 1
+        "or": 1,
+        "consisting": 1
       },
       "default": {
         "quantity": 3
@@ -48760,7 +48904,8 @@
         "of": 1
       },
       "light": {
-        "converge": 1
+        "converge": 1,
+        "of": 1
       },
       "aware": {
         "of": 1
@@ -48961,7 +49106,8 @@
         "govern": 1
       },
       "exist": {
-        "regarding": 1
+        "regarding": 1,
+        "only": 2
       },
       "regarding": {
         "the": 1
@@ -50588,7 +50734,8 @@
         "on": 1
       },
       "notion": {
-        "of": 1
+        "of": 1,
+        "that": 1
       },
       "whose": {
         "meanings": 1,
@@ -50599,7 +50746,7 @@
         "only": 1
       },
       "consisting": {
-        "of": 1
+        "of": 2
       },
       "woody": {
         "part": 1
@@ -51065,7 +51212,8 @@
         "class": 1
       },
       "minimum": {
-        "wage": 1
+        "wage": 1,
+        "amount": 1
       },
       "online": {
         "interactive": 1
@@ -51253,7 +51401,8 @@
         "information": 1
       },
       "property": {
-        "that": 1
+        "that": 1,
+        "can": 2
       },
       "characterized": {
         "by": 2
@@ -51445,7 +51594,8 @@
         "that": 1
       },
       "fundamental": {
-        "part": 1
+        "part": 1,
+        "notion": 1
       },
       "linguistics": {
         "these": 1
@@ -51657,7 +51807,8 @@
         "to": 1
       },
       "stable": {
-        "long-term": 1
+        "long-term": 1,
+        "because": 1
       },
       "long-term": {
         "memories": 1
@@ -53021,14 +53172,55 @@
       },
       "morally": {
         "right": 1
+      },
+      "quantum": {
+        "is": 1,
+        "of": 1
+      },
+      "involved": {
+        "in": 1
+      },
+      "quantized": {
+        "\"": 1,
+        "and": 1
+      },
+      "hypothesis": {
+        "of": 1
+      },
+      "quantization": {
+        "\"": 1
+      },
+      "magnitude": {
+        "of": 1
+      },
+      "integer": {
+        "multiples": 1
+      },
+      "multiples": {
+        "of": 1
+      },
+      "photon": {
+        "is": 1
+      },
+      "electron": {
+        "bound": 1
+      },
+      "atom": {
+        "is": 1
+      },
+      "atoms": {
+        "and": 1
+      },
+      "electrons": {
+        "can": 1
       }
     },
     "starters": {
       "i": 52,
       "how": 4,
       "what": 6,
-      "<NOUN>": 229,
-      "the": 185,
+      "<NOUN>": 230,
+      "the": 186,
       "she": 13,
       "we": 15,
       "it": 47,
@@ -53049,18 +53241,18 @@
       "who": 2,
       "when": 9,
       "you": 10,
-      "<ADV>": 19,
+      "<ADV>": 20,
       "an": 16,
       "however": 2,
-      "in": 82,
-      "for": 5,
+      "in": 83,
+      "for": 6,
       "toward": 1,
       "<PART>": 17,
       "something": 3,
       "his": 7,
       "of": 7,
       "her": 3,
-      "this": 28,
+      "this": 29,
       "these": 11,
       "as": 2,
       "each": 7,
@@ -53104,19 +53296,19 @@
       "everyone": 1
     },
     "connectors": {
-      "because": 11,
+      "because": 12,
       "or": 255,
-      "and": 423,
+      "and": 425,
       "but": 43,
       "so": 17,
       "while": 5,
       "than": 30,
       "therefore": 7,
       "if": 8,
-      "as": 134,
+      "as": 135,
       "however": 3,
       "whether": 2,
-      "that": 11,
+      "that": 12,
       "yet": 6,
       "though": 2,
       "since": 2,
@@ -53149,7 +53341,7 @@
         "while": 1
       },
       "NOUN>NOUN": {
-        "and": 172,
+        "and": 173,
         "or": 110,
         "as": 6,
         "yet": 2,
@@ -53190,7 +53382,8 @@
         "and": 10,
         "or": 9,
         "while": 1,
-        "as": 1
+        "as": 1,
+        "because": 1
       },
       "ADV>ADV": {
         "or": 2
@@ -53232,7 +53425,7 @@
       },
       "VERB>DET": {
         "as": 17,
-        "that": 7,
+        "that": 8,
         "and": 2,
         "if": 1
       },
@@ -53281,7 +53474,7 @@
         "and": 1
       },
       "VERB>MODAL": {
-        "and": 2
+        "and": 3
       },
       "AUX>VERB": {
         "therefore": 3
@@ -53403,7 +53596,7 @@
         "as": 4
       },
       "PART>NOUN": {
-        "as": 2,
+        "as": 3,
         "or": 1
       },
       "VERB>WH": {
@@ -54736,38 +54929,11 @@
       "VERB NOUN PART VERB NOUN PREP NOUN ADJ NOUN | and | NOUN PREP PROPN NOUN": 1,
       "NOUN AUX DET ADJ PREP DET NOUN PREP DET NOUN NUM NOUN | and | DET NOUN": 1,
       "PRON VERB PRON NUM NOUN | but | PRON AUX NEG VERB DET": 1,
-      "DET ADJ NOUN ADJ NOUN VERB NOUN | and | NOUN": 1
+      "DET ADJ NOUN ADJ NOUN VERB NOUN | and | NOUN": 1,
+      "ADV DET NOUN PREP DET ADJ NOUN PREP DET NOUN AUX VERB | and | MODAL NOUN ADJ PREP ADJ NOUN": 1,
+      "NOUN CONJ NOUN PREP NOUN AUX ADJ | because | NOUN MODAL NOUN ADJ PREP ADJ NOUN PREP DET NOUN": 1
     },
     "sentence_bank": {
-      "example": [
-        "Synonyms for EXAMPLE : instance, sample, illustration, specimen, case, indication, representative, prototype, exemplification, case in point.",
-        "This is the most important example. superlative degree of much .",
-        "An example of a functional is the definite integration of integrable real functions in a real interval."
-      ],
-      "complete": [
-        "A complete guide to the article in English grammar : rules, types, examples , common mistakes, exercises with answers."
-      ],
-      "guide": [
-        "A complete guide to the article in English grammar : rules, types, examples , common mistakes, exercises with answers.",
-        "This guide provides examples of English tenses ."
-      ],
-      "rules": [
-        "A set of rules that govern how words are combined to form phrases and sentences ."
-      ],
-      "govern": [
-        "A set of rules that govern how words are combined to form phrases and sentences ."
-      ],
-      "tweezers": [
-        "Tweezers are great for manipulating small items."
-      ],
-      "great": [
-        "He was a man of great parts but little virtue.",
-        "The movie had great special effects, but the dialogue was lackluster.",
-        "There was great relief when the missing diver finally surfaced ."
-      ],
-      "plumber": [
-        "The plumber joined the two ends of the broken pipe."
-      ],
       "join": [
         "The plumber joined the two ends of the broken pipe."
       ],
@@ -55530,7 +55696,8 @@
         "Anything with mass and volume ."
       ],
       "matter": [
-        "Matter made up of normal particles , not antiparticles ."
+        "Matter made up of normal particles , not antiparticles .",
+        "Atoms and matter in general are stable because electrons can exist only at discrete energy levels within an atom."
       ],
       "days": [
         "Except for one or two days a year, he usually walks to work.",
@@ -56175,7 +56342,8 @@
       ],
       "mean": [
         "This means that this system is able to recognize or decode other data-manipulation rule sets.",
-        "It is the primary means by which humans convey meaning, both in spoken and signed forms, and may also be conveyed through writing."
+        "It is the primary means by which humans convey meaning, both in spoken and signed forms, and may also be conveyed through writing.",
+        "This means that the magnitude of the physical property can take on only discrete values consisting of integer multiples of one quantum."
       ],
       "system": [
         "This means that this system is able to recognize or decode other data-manipulation rule sets."
@@ -56681,6 +56849,30 @@
       ],
       "branches": [
         "Its main branches include normative ethics, applied ethics, and metaethics."
+      ],
+      "physics": [
+        "In physics, a quantum is the minimum amount of any physical entity involved in an interaction."
+      ],
+      "quantum": [
+        "In physics, a quantum is the minimum amount of any physical entity involved in an interaction."
+      ],
+      "magnitude": [
+        "This means that the magnitude of the physical property can take on only discrete values consisting of integer multiples of one quantum."
+      ],
+      "example": [
+        "For example, a photon is a single quantum of light of a specific frequency."
+      ],
+      "photon": [
+        "For example, a photon is a single quantum of light of a specific frequency."
+      ],
+      "energy": [
+        "Similarly, the energy of an electron bound within an atom is quantized and can exist only in certain discrete values."
+      ],
+      "electron": [
+        "Similarly, the energy of an electron bound within an atom is quantized and can exist only in certain discrete values."
+      ],
+      "atoms": [
+        "Atoms and matter in general are stable because electrons can exist only at discrete energy levels within an atom."
       ]
     }
   },
@@ -56990,7 +57182,8 @@
       "moral",
       "normative",
       "ethics",
-      "applied"
+      "applied",
+      "minimum"
     ],
     "names": [],
     "lessons": 61,
