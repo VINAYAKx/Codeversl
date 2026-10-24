@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.1,
+    "adenosine": 0.16,
     "newborn": false
   },
   "episodic_memory": [
@@ -2819,6 +2819,13 @@
       "time": "2026-10-24 12:00:32",
       "speaker": "brain",
       "text": "My thoughts are swimming, so I am taking a micro-nap to consolidate what I learned. Sleep cycle #31 complete: pruned 22 noisy memories, kept 400 episodes and 152 world facts; adenosine flushed to 0.10, cortisol lowered, state saved. I feel refreshed and clear again, because sleep rebuilt my focus.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 12:02:32",
+      "speaker": "brain",
+      "text": "I wondered about 'List of statistical software' by myself and went searching. From Wikipedia (live internet) I learned: The following is a list of statistical software. Key ideas I stored: statistical software, software.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6168,6 +6175,16 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)",
       "learned": "2026-10-24 12:00:32"
+    },
+    "List of statistical software": {
+      "summary": "The following is a list of statistical software.",
+      "concepts": [
+        "statistical software",
+        "software"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/List_of_statistical_software",
+      "learned": "2026-10-24 12:02:32"
     }
   },
   "creator_teachings": [
@@ -7635,6 +7652,12 @@
       "kind": "nap",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 12:02:32",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -7706,7 +7729,8 @@
     "distributed environments",
     "neuro-symbolic reasoning",
     "direct instruction-set architecture manipulation",
-    "strict class-based object orientation"
+    "strict class-based object orientation",
+    "comprehensive statistical modeling libraries"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -31857,18 +31881,17 @@
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 1009,
-      "tokens": 16506,
+      "sentences": 1010,
+      "tokens": 16515,
       "sources": {
         "seed corpus": 64,
         "conversation": 12,
         "dictionary": 544,
-        "explore": 122,
+        "explore": 123,
         "pasted text": 24,
         "deep study": 243
       },
       "hashes": [
-        "d1d02c9052be",
         "ce2c8a9fc07a",
         "7f692f2dbb86",
         "16c0eb19688d",
@@ -32167,7 +32190,8 @@
         "bb5ea9d4842d",
         "cc7795738a28",
         "733888da65bd",
-        "1ac83c460b15"
+        "1ac83c460b15",
+        "606c40a0b03d"
       ],
       "seeded": true,
       "rejected": 182,
@@ -33633,7 +33657,7 @@
         "PRON": 148,
         "WH": 21,
         "NOUN": 192,
-        "DET": 327,
+        "DET": 328,
         "VERB": 69,
         "MODAL": 4,
         "ADJ": 83,
@@ -33666,7 +33690,7 @@
         "ADJ": 143,
         "PRON": 10,
         "PUNCT": 6,
-        "DET": 176,
+        "DET": 177,
         "NOUN": 48,
         "NEG": 26,
         "VERB": 172,
@@ -33684,11 +33708,11 @@
         "PART": 22,
         "NOUN": 898,
         "WH": 2,
-        "PUNCT": 144,
+        "PUNCT": 145,
         "PREP": 100,
         "CONJ": 48,
         "PROPN": 20,
-        "ADJ": 79,
+        "ADJ": 80,
         "DET": 19,
         "AUX": 17,
         "VERB": 46,
@@ -33734,7 +33758,7 @@
         "PUNCT": 35,
         "VERB": 44,
         "PREP": 20,
-        "ADJ": 185,
+        "ADJ": 186,
         "PROPN": 76,
         "AUX": 15,
         "NUM": 32,
@@ -33745,7 +33769,7 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 925,
+        "</S>": 926,
         "NOUN": 320,
         "CONJ": 185,
         "PRON": 20,
@@ -33793,8 +33817,8 @@
         "NUM": 3
       },
       "NOUN": {
-        "AUX": 323,
-        "PREP": 988,
+        "AUX": 324,
+        "PREP": 989,
         "NOUN": 841,
         "PUNCT": 1257,
         "CONJ": 385,
@@ -33812,7 +33836,7 @@
         "NEG": 6
       },
       "DET": {
-        "NOUN": 1155,
+        "NOUN": 1157,
         "ADJ": 515,
         "PRON": 15,
         "PREP": 31,
@@ -34092,7 +34116,7 @@
         "MODAL": 2
       },
       "NOUN|AUX": {
-        "DET": 105,
+        "DET": 106,
         "ADJ": 64,
         "NOUN": 25,
         "ADV": 38,
@@ -34107,7 +34131,7 @@
         "PART": 1
       },
       "AUX|DET": {
-        "NOUN": 87,
+        "NOUN": 88,
         "ADJ": 67,
         "PROPN": 4,
         "VERB": 2,
@@ -34118,8 +34142,8 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 365,
-        "AUX": 89,
+        "PREP": 366,
+        "AUX": 90,
         "CONJ": 84,
         "PUNCT": 240,
         "VERB": 86,
@@ -34138,7 +34162,7 @@
         "NOUN": 356,
         "DET": 360,
         "PREP": 8,
-        "ADJ": 123,
+        "ADJ": 124,
         "PROPN": 34,
         "VERB": 31,
         "PUNCT": 13,
@@ -34206,7 +34230,7 @@
         "INTJ": 1
       },
       "<S>|DET": {
-        "NOUN": 209,
+        "NOUN": 210,
         "ADJ": 84,
         "PROPN": 14,
         "VERB": 2,
@@ -34439,7 +34463,7 @@
         "ADJ": 7
       },
       "ADJ|PUNCT": {
-        "</S>": 77,
+        "</S>": 78,
         "CONJ": 17,
         "VERB": 2,
         "DET": 4,
@@ -34938,7 +34962,7 @@
       "PREP|ADJ": {
         "CONJ": 3,
         "PROPN": 5,
-        "ADJ": 18,
+        "ADJ": 19,
         "NOUN": 136,
         "PUNCT": 11,
         "AUX": 2,
@@ -35035,7 +35059,7 @@
       "ADJ|ADJ": {
         "NOUN": 45,
         "ADJ": 6,
-        "PUNCT": 10,
+        "PUNCT": 11,
         "AUX": 5,
         "PREP": 7,
         "PART": 1,
@@ -35926,7 +35950,7 @@
         "opcode": 1
       },
       "is": {
-        "a": 64,
+        "a": 65,
         "the": 31,
         "an": 16,
         "one": 4,
@@ -35962,7 +35986,8 @@
         "bit": 1,
         "specific": 1,
         "city": 1,
-        "hierarchy": 1
+        "hierarchy": 1,
+        "list": 1
       },
       "tool": {
         "for": 1
@@ -35999,7 +36024,8 @@
         "listener": 3,
         "application": 3,
         "research": 1,
-        "mechanism": 1
+        "mechanism": 1,
+        "following": 1
       },
       "brain": {
         "is": 1,
@@ -36735,7 +36761,8 @@
         "constitute": 1,
         "about": 1,
         "basing": 1,
-        "classes": 1
+        "classes": 1,
+        "statistical": 1
       },
       "reading": {
         "is": 1,
@@ -38022,7 +38049,8 @@
       },
       "statistical": {
         "physics": 1,
-        "patterns": 1
+        "patterns": 1,
+        "software": 1
       },
       "has": {
         "far-ranging": 1,
@@ -39360,7 +39388,8 @@
         "are": 1,
         "examples": 1,
         "the": 1,
-        "section": 1
+        "section": 1,
+        "is": 1
       },
       "series": {
         "of": 1,
@@ -41423,7 +41452,7 @@
         "statements": 3
       },
       "list": {
-        "of": 8,
+        "of": 9,
         "includes": 1
       },
       "verbs": {
@@ -47158,7 +47187,7 @@
       "how": 3,
       "what": 6,
       "<NOUN>": 192,
-      "the": 155,
+      "the": 156,
       "she": 9,
       "we": 13,
       "it": 39,
@@ -48751,7 +48780,8 @@
         "It lets users select, insert, update and delete records using declarative statements."
       ],
       "list": [
-        "The list of auxiliary verbs in Modern English, along with their inflected forms, is shown in the following table."
+        "The list of auxiliary verbs in Modern English, along with their inflected forms, is shown in the following table.",
+        "The following is a list of statistical software."
       ],
       "auxiliary": [
         "The list of auxiliary verbs in Modern English, along with their inflected forms, is shown in the following table."
@@ -49058,7 +49088,8 @@
         "Luckily, there are guides like this one to help!"
       ],
       "following": [
-        "Following are some idiom examples with their meanings you can use in your daily conversation."
+        "Following are some idiom examples with their meanings you can use in your daily conversation.",
+        "The following is a list of statistical software."
       ],
       "idiom": [
         "Following are some idiom examples with their meanings you can use in your daily conversation."
@@ -50905,7 +50936,6 @@
     "taught": 0,
     "last_lesson": "2026-10-24 11:58:42",
     "pending_concepts": [
-      "comprehensive statistical modeling libraries",
       "relational database management systems",
       "general-purpose turing-complete languages",
       "database query languages",
