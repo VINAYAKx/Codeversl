@@ -2,16 +2,16 @@
   "meta": {
     "created": "2026-10-20 15:07:00",
     "creator_signature": "677a410903a19f3307ea34c4701fe4dbd912e9262a0208612c61372d4a47b330",
-    "last_interaction": 1792834450.98863,
+    "last_interaction": 1792843777.6440308,
     "sleep_cycles": 31,
     "births": 1
   },
   "chemistry": {
-    "dopamine": 1.0,
-    "cortisol": 0.0,
-    "serotonin": 1.0,
+    "dopamine": 0.979,
+    "cortisol": 0.047779199999999994,
+    "serotonin": 0.9491752,
     "oxytocin": 1.0,
-    "adenosine": 0.28,
+    "adenosine": 0.43300000000000005,
     "newborn": false
   },
   "episodic_memory": [
@@ -2840,6 +2840,27 @@
       "time": "2026-10-24 12:06:33",
       "speaker": "brain",
       "text": "I wondered about 'Turing completeness' by myself and went searching. From Wikipedia (live internet) I learned: In computability theory, a system of data-manipulation rules is said to be Turing-complete or computationally universal if it can be used to simulate any Turing machine. Key ideas I stored: computability theory, turing machine, turing completeness, turing-complete, data-manipulation.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 12:07:35",
+      "speaker": "creator",
+      "text": "tell me about newton",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": null
+    },
+    {
+      "time": "2026-10-24 12:07:41",
+      "speaker": "brain",
+      "text": "Isaac Newton: Sir Isaac Newton was an English polymath who was a mathematician, physicist, astronomer, alchemist, theologian, historian and inventor. He was a key figure in the Scientific Revolution and the Enlightenment that followed. I just looked this up (Wikipedia (live internet)). Want me to go deeper?",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 12:08:53",
+      "speaker": "brain",
+      "text": "I upgraded myself safely and wrote a new skill called 'complexity_estimator_v10'. It estimates the cognitive load of a message from its length, long words, clauses and questions. It passed the safety core, a syntax check and a sandbox test, and returned: {'load': 0.72, 'level': 'heavy'}. Because only validated skills are registered, my core stays intact.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6223,6 +6244,20 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Turing_completeness",
       "learned": "2026-10-24 12:06:33"
+    },
+    "Isaac Newton": {
+      "summary": "Sir Isaac Newton was an English polymath who was a mathematician, physicist, astronomer, alchemist, theologian, historian and inventor. He was a key figure in the Scientific Revolution and the Enlightenment that followed. His book Philosophiæ Naturalis Principia Mathematica, first published in 1687, achieved the first great unification in physics and established classical mechanics. Newton also made seminal contributions to optics, and shares credit with the German mathematician Gottfried Wilhelm Leibniz for formulating infinitesimal calculus, although he developed calculus years before Leibniz.",
+      "concepts": [
+        "book philosophi naturalis principia",
+        "german mathematician gottfried wilhelm",
+        "formulating infinitesimal calculus",
+        "sir isaac newton",
+        "classical mechanics",
+        "optics"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Isaac_Newton",
+      "learned": "2026-10-24 12:07:41"
     }
   },
   "creator_teachings": [
@@ -7708,6 +7743,18 @@
       "kind": "explore_report",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 12:07:41",
+      "kind": "answer",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-24 12:08:53",
+      "kind": "evolve",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -7782,7 +7829,8 @@
     "strict class-based object orientation",
     "comprehensive statistical modeling libraries",
     "relational database management systems",
-    "general-purpose turing-complete languages"
+    "general-purpose turing-complete languages",
+    "newton"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -7919,7 +7967,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "my": {
       "part_of_speech": "determiner",
@@ -8172,7 +8220,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 2
+      "uses": 3
     },
     "for": {
       "part_of_speech": "preposition",
@@ -9164,7 +9212,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "ask": {
       "part_of_speech": "verb",
@@ -32002,24 +32050,86 @@
       "source": "corpus",
       "learned": "2026-10-24 12:06:33",
       "uses": 1
+    },
+    "newton": {
+      "part_of_speech": "noun",
+      "definition": "In the International System of Units , the derived unit of force ; the force required to accelerate a mass of one kilogram by one metre per second per second.",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "In the International System of Units , the derived unit of force ; the force required to accelerate a mass of one kilogram by one metre per second per second.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "A cookie consisting of fruit paste in a sheath of pastry dough.",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "wiktionary",
+      "learned": "2026-10-24 12:07:39",
+      "uses": 1,
+      "tags": []
+    },
+    "classical": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 12:07:41",
+      "uses": 1
+    },
+    "mathematician": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 12:07:41",
+      "uses": 1
+    },
+    "calculus": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 12:07:41",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 1015,
-      "tokens": 16612,
+      "sentences": 1020,
+      "tokens": 16709,
       "sources": {
         "seed corpus": 64,
-        "conversation": 12,
+        "conversation": 13,
         "dictionary": 544,
-        "explore": 128,
+        "explore": 132,
         "pasted text": 24,
         "deep study": 243
       },
       "hashes": [
-        "16c0eb19688d",
-        "4aafee889a7a",
-        "e396bde5949c",
         "20c3ddd05816",
         "7decfcc115fd",
         "1867c99034a2",
@@ -32316,10 +32426,13 @@
         "1ac83c460b15",
         "606c40a0b03d",
         "67c9ebfbbed0",
-        "47b3b8359da7"
+        "47b3b8359da7",
+        "afba74c8f2f3",
+        "837a70d9849f",
+        "6d5449df3f53"
       ],
       "seeded": true,
-      "rejected": 182,
+      "rejected": 183,
       "vocab_counts": {
         "tool": 1,
         "organ": 1,
@@ -32387,7 +32500,6 @@
         "constrain": 1,
         "processing": 1,
         "diverse": 1,
-        "classical": 1,
         "microscopic": 1,
         "chemistry": 1,
         "cosmology": 1,
@@ -32605,7 +32717,6 @@
         "dispatch": 1,
         "prolog": 1,
         "implements": 1,
-        "calculus": 1,
         "automated": 1,
         "resolution": 1,
         "theorem": 1,
@@ -33779,16 +33890,37 @@
         "decode": 1,
         "turing": 1,
         "completeness": 1,
-        "virtually": 1
+        "virtually": 1,
+        "sir": 1,
+        "polymath": 1,
+        "physicist": 1,
+        "astronomer": 1,
+        "alchemist": 1,
+        "theologian": 1,
+        "historian": 1,
+        "inventor": 1,
+        "key": 1,
+        "figure": 1,
+        "achieved": 1,
+        "unification": 1,
+        "established": 1,
+        "mechanics": 1,
+        "seminal": 1,
+        "contributions": 1,
+        "optics": 1,
+        "shares": 1,
+        "credit": 1,
+        "formulating": 1,
+        "infinitesimal": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 149,
+        "PRON": 150,
         "WH": 21,
-        "NOUN": 193,
-        "DET": 329,
-        "VERB": 69,
+        "NOUN": 195,
+        "DET": 330,
+        "VERB": 70,
         "MODAL": 4,
         "ADJ": 83,
         "INTJ": 5,
@@ -33801,12 +33933,12 @@
         "NEG": 2
       },
       "PRON": {
-        "AUX": 132,
+        "AUX": 133,
         "PUNCT": 34,
         "ADV": 11,
-        "VERB": 147,
+        "VERB": 149,
         "MODAL": 57,
-        "PREP": 24,
+        "PREP": 25,
         "WH": 2,
         "DET": 5,
         "PART": 9,
@@ -33820,7 +33952,7 @@
         "ADJ": 144,
         "PRON": 10,
         "PUNCT": 6,
-        "DET": 178,
+        "DET": 181,
         "NOUN": 48,
         "NEG": 26,
         "VERB": 175,
@@ -33836,7 +33968,7 @@
       },
       "ADJ": {
         "PART": 23,
-        "NOUN": 900,
+        "NOUN": 906,
         "WH": 2,
         "PUNCT": 145,
         "PREP": 100,
@@ -33856,21 +33988,21 @@
         "VERB": 208,
         "AUX": 29,
         "ADJ": 14,
-        "NOUN": 29,
+        "NOUN": 30,
         "WH": 3,
         "PREP": 1,
         "CONJ": 6,
         "PUNCT": 5
       },
       "VERB": {
-        "PREP": 306,
+        "PREP": 307,
         "PART": 74,
-        "ADJ": 56,
-        "NOUN": 258,
-        "PUNCT": 147,
-        "PRON": 61,
+        "ADJ": 58,
+        "NOUN": 259,
+        "PUNCT": 148,
+        "PRON": 62,
         "AUX": 21,
-        "DET": 238,
+        "DET": 239,
         "VERB": 32,
         "CONJ": 101,
         "WH": 15,
@@ -33883,13 +34015,13 @@
       },
       "PREP": {
         "PRON": 39,
-        "NOUN": 577,
-        "DET": 643,
-        "PUNCT": 36,
+        "NOUN": 580,
+        "DET": 645,
+        "PUNCT": 37,
         "VERB": 44,
         "PREP": 20,
         "ADJ": 186,
-        "PROPN": 77,
+        "PROPN": 78,
         "AUX": 15,
         "NUM": 32,
         "WH": 17,
@@ -33899,18 +34031,18 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 931,
-        "NOUN": 322,
-        "CONJ": 186,
+        "</S>": 935,
+        "NOUN": 327,
+        "CONJ": 188,
         "PRON": 20,
-        "VERB": 46,
+        "VERB": 47,
         "ADV": 34,
         "PREP": 30,
         "ADJ": 54,
         "DET": 103,
         "WH": 27,
         "AUX": 20,
-        "NUM": 5,
+        "NUM": 6,
         "PUNCT": 12,
         "PROPN": 23,
         "PART": 3,
@@ -33918,7 +34050,7 @@
         "INTJ": 3
       },
       "WH": {
-        "AUX": 24,
+        "AUX": 25,
         "DET": 29,
         "PRON": 13,
         "NOUN": 36,
@@ -33935,7 +34067,7 @@
         "NOUN": 41,
         "CONJ": 8,
         "DET": 16,
-        "VERB": 108,
+        "VERB": 109,
         "</S>": 2,
         "PRON": 3,
         "MODAL": 1,
@@ -33947,34 +34079,34 @@
         "NUM": 3
       },
       "NOUN": {
-        "AUX": 328,
-        "PREP": 993,
-        "NOUN": 850,
-        "PUNCT": 1263,
-        "CONJ": 385,
+        "AUX": 329,
+        "PREP": 997,
+        "NOUN": 852,
+        "PUNCT": 1272,
+        "CONJ": 387,
         "VERB": 291,
-        "ADV": 57,
-        "PART": 135,
-        "ADJ": 146,
+        "ADV": 58,
+        "PART": 136,
+        "ADJ": 147,
         "MODAL": 51,
-        "</S>": 66,
+        "</S>": 67,
         "PRON": 69,
-        "WH": 35,
+        "WH": 36,
         "DET": 208,
-        "PROPN": 58,
+        "PROPN": 61,
         "NUM": 10,
         "NEG": 6
       },
       "DET": {
-        "NOUN": 1165,
-        "ADJ": 517,
+        "NOUN": 1167,
+        "ADJ": 519,
         "PRON": 15,
         "PREP": 31,
-        "NUM": 26,
+        "NUM": 27,
         "PART": 5,
         "VERB": 22,
         "CONJ": 31,
-        "PROPN": 65,
+        "PROPN": 68,
         "DET": 47,
         "ADV": 14,
         "PUNCT": 18,
@@ -33983,10 +34115,10 @@
         "</S>": 1
       },
       "CONJ": {
-        "PRON": 49,
-        "DET": 131,
-        "NOUN": 352,
-        "VERB": 65,
+        "PRON": 50,
+        "DET": 132,
+        "NOUN": 354,
+        "VERB": 66,
         "ADJ": 91,
         "ADV": 29,
         "PUNCT": 14,
@@ -34031,26 +34163,27 @@
       },
       "PROPN": {
         "DET": 4,
-        "PUNCT": 100,
+        "PUNCT": 102,
         "PART": 5,
-        "NOUN": 107,
+        "NOUN": 109,
         "AUX": 19,
-        "PROPN": 67,
+        "PROPN": 73,
         "ADJ": 16,
-        "PREP": 19,
-        "CONJ": 19,
+        "PREP": 20,
+        "CONJ": 20,
         "VERB": 11,
         "NUM": 1,
-        "ADV": 1
+        "ADV": 1,
+        "PRON": 1
       },
       "NUM": {
         "NOUN": 55,
         "PUNCT": 4,
         "CONJ": 13,
         "PREP": 15,
-        "VERB": 3,
+        "VERB": 4,
         "MODAL": 3,
-        "ADJ": 4,
+        "ADJ": 5,
         "PART": 1,
         "AUX": 5,
         "PROPN": 1,
@@ -34061,7 +34194,7 @@
     },
     "pos_trigrams": {
       "<S>|PRON": {
-        "AUX": 66,
+        "AUX": 67,
         "VERB": 54,
         "MODAL": 21,
         "ADV": 3,
@@ -34072,7 +34205,7 @@
       },
       "PRON|AUX": {
         "ADJ": 33,
-        "DET": 19,
+        "DET": 20,
         "NEG": 10,
         "VERB": 35,
         "INTJ": 1,
@@ -34125,7 +34258,7 @@
         "PRON": 10,
         "DET": 121,
         "NOUN": 81,
-        "PUNCT": 13,
+        "PUNCT": 14,
         "VERB": 5,
         "ADJ": 32,
         "PREP": 9,
@@ -34163,7 +34296,7 @@
       },
       "WH|AUX": {
         "PRON": 7,
-        "DET": 4,
+        "DET": 5,
         "NOUN": 1,
         "VERB": 8,
         "PROPN": 1,
@@ -34193,9 +34326,9 @@
       "PRON|VERB": {
         "PART": 17,
         "PREP": 20,
-        "NOUN": 22,
+        "NOUN": 23,
         "PRON": 16,
-        "PUNCT": 11,
+        "PUNCT": 12,
         "DET": 30,
         "VERB": 7,
         "ADJ": 9,
@@ -34238,16 +34371,16 @@
         "NOUN": 39,
         "CONJ": 12,
         "PREP": 21,
-        "PROPN": 7,
+        "PROPN": 8,
         "ADJ": 5,
         "PART": 4,
         "WH": 3,
-        "ADV": 3,
+        "ADV": 4,
         "DET": 6,
         "MODAL": 2
       },
       "NOUN|AUX": {
-        "DET": 107,
+        "DET": 108,
         "ADJ": 65,
         "NOUN": 25,
         "ADV": 38,
@@ -34262,8 +34395,8 @@
         "PART": 1
       },
       "AUX|DET": {
-        "NOUN": 89,
-        "ADJ": 67,
+        "NOUN": 90,
+        "ADJ": 69,
         "PROPN": 4,
         "VERB": 2,
         "PREP": 4,
@@ -34276,7 +34409,7 @@
         "PREP": 368,
         "AUX": 91,
         "CONJ": 84,
-        "PUNCT": 240,
+        "PUNCT": 241,
         "VERB": 87,
         "ADV": 16,
         "ADJ": 39,
@@ -34284,17 +34417,17 @@
         "PRON": 19,
         "PART": 39,
         "</S>": 2,
-        "PROPN": 5,
+        "PROPN": 6,
         "DET": 48,
         "MODAL": 17,
         "WH": 6
       },
       "NOUN|PREP": {
-        "NOUN": 358,
-        "DET": 361,
+        "NOUN": 359,
+        "DET": 363,
         "PREP": 8,
         "ADJ": 124,
-        "PROPN": 34,
+        "PROPN": 35,
         "VERB": 31,
         "PUNCT": 14,
         "NUM": 15,
@@ -34308,13 +34441,13 @@
         "NOUN": 93,
         "PUNCT": 158,
         "VERB": 31,
-        "CONJ": 60,
-        "ADJ": 14,
+        "CONJ": 61,
+        "ADJ": 15,
         "DET": 30,
         "AUX": 14,
         "PREP": 62,
         "PRON": 15,
-        "</S>": 59,
+        "</S>": 60,
         "WH": 6,
         "PART": 23,
         "PROPN": 3,
@@ -34326,7 +34459,7 @@
         "PUNCT": 221,
         "PART": 15,
         "NOUN": 172,
-        "PREP": 147,
+        "PREP": 149,
         "CONJ": 70,
         "VERB": 49,
         "PROPN": 21,
@@ -34342,9 +34475,9 @@
         "</S>": 1
       },
       "NOUN|PUNCT": {
-        "</S>": 639,
-        "NOUN": 239,
-        "CONJ": 128,
+        "</S>": 641,
+        "NOUN": 244,
+        "CONJ": 130,
         "ADV": 26,
         "PREP": 24,
         "ADJ": 38,
@@ -34361,7 +34494,7 @@
         "INTJ": 1
       },
       "<S>|DET": {
-        "NOUN": 210,
+        "NOUN": 211,
         "ADJ": 85,
         "PROPN": 14,
         "VERB": 2,
@@ -34373,7 +34506,7 @@
         "PRON": 1
       },
       "DET|ADJ": {
-        "NOUN": 415,
+        "NOUN": 417,
         "CONJ": 14,
         "ADJ": 24,
         "PUNCT": 18,
@@ -34388,24 +34521,24 @@
         "PRON": 1
       },
       "ADJ|NOUN": {
-        "PUNCT": 246,
+        "PUNCT": 248,
         "NOUN": 170,
         "MODAL": 10,
         "VERB": 45,
-        "PREP": 196,
+        "PREP": 198,
         "CONJ": 70,
         "DET": 34,
         "ADJ": 15,
         "AUX": 54,
-        "PART": 30,
-        "WH": 5,
+        "PART": 31,
+        "WH": 6,
         "PROPN": 2,
         "ADV": 8,
         "PRON": 12,
         "</S>": 3
       },
       "VERB|ADJ": {
-        "NOUN": 33,
+        "NOUN": 35,
         "PUNCT": 9,
         "CONJ": 3,
         "VERB": 3,
@@ -34420,7 +34553,7 @@
         "ADJ": 165,
         "NUM": 15,
         "PREP": 11,
-        "PROPN": 30,
+        "PROPN": 32,
         "DET": 14,
         "VERB": 9,
         "PUNCT": 6,
@@ -34432,8 +34565,8 @@
       "NOUN|CONJ": {
         "PRON": 8,
         "DET": 57,
-        "VERB": 21,
-        "NOUN": 199,
+        "VERB": 22,
+        "NOUN": 200,
         "ADJ": 38,
         "WH": 4,
         "PREP": 9,
@@ -34446,7 +34579,7 @@
         "MODAL": 1
       },
       "CONJ|PRON": {
-        "VERB": 19,
+        "VERB": 20,
         "MODAL": 13,
         "AUX": 13,
         "PUNCT": 1,
@@ -34458,7 +34591,7 @@
         "PREP": 41,
         "PART": 6,
         "VERB": 10,
-        "NOUN": 52,
+        "NOUN": 53,
         "CONJ": 20,
         "MODAL": 2,
         "ADJ": 14,
@@ -34494,10 +34627,10 @@
         "VERB": 1
       },
       "PUNCT|NOUN": {
-        "CONJ": 28,
+        "CONJ": 29,
         "NOUN": 60,
         "ADJ": 7,
-        "PUNCT": 143,
+        "PUNCT": 147,
         "PREP": 41,
         "AUX": 13,
         "DET": 9,
@@ -34515,13 +34648,13 @@
         "PUNCT": 4,
         "PART": 1,
         "DET": 3,
-        "PROPN": 4,
+        "PROPN": 5,
         "PREP": 3,
         "AUX": 1,
         "WH": 1
       },
       "VERB|PUNCT": {
-        "</S>": 103,
+        "</S>": 104,
         "PRON": 3,
         "CONJ": 7,
         "NOUN": 19,
@@ -34533,7 +34666,7 @@
         "VERB": 1
       },
       "<S>|VERB": {
-        "PRON": 2,
+        "PRON": 3,
         "AUX": 4,
         "VERB": 2,
         "NOUN": 25,
@@ -34547,7 +34680,7 @@
         "PART": 1
       },
       "VERB|PRON": {
-        "PREP": 13,
+        "PREP": 14,
         "VERB": 14,
         "AUX": 1,
         "PUNCT": 10,
@@ -34563,7 +34696,7 @@
       },
       "PRON|PREP": {
         "DET": 13,
-        "NOUN": 6,
+        "NOUN": 7,
         "PUNCT": 1,
         "ADV": 2,
         "NUM": 1,
@@ -34638,8 +34771,8 @@
         "PART": 1
       },
       "PUNCT|CONJ": {
-        "NOUN": 64,
-        "PRON": 19,
+        "NOUN": 65,
+        "PRON": 20,
         "DET": 25,
         "PUNCT": 5,
         "ADJ": 21,
@@ -34656,12 +34789,12 @@
       },
       "CONJ|NOUN": {
         "AUX": 10,
-        "PUNCT": 89,
+        "PUNCT": 90,
         "</S>": 1,
         "PREP": 71,
         "VERB": 16,
         "WH": 5,
-        "NOUN": 107,
+        "NOUN": 108,
         "PRON": 3,
         "PART": 11,
         "CONJ": 11,
@@ -34681,12 +34814,12 @@
         "DET": 6,
         "VERB": 2,
         "PROPN": 3,
-        "NUM": 3,
+        "NUM": 4,
         "PUNCT": 2
       },
       "NOUN|ADV": {
         "PUNCT": 10,
-        "VERB": 21,
+        "VERB": 22,
         "PREP": 10,
         "NOUN": 5,
         "ADJ": 1,
@@ -34723,7 +34856,7 @@
         "ADJ": 1,
         "NOUN": 7,
         "DET": 3,
-        "VERB": 2
+        "VERB": 3
       },
       "AUX|VERB": {
         "PREP": 78,
@@ -34741,7 +34874,7 @@
         "PART": 3,
         "NOUN": 13,
         "PUNCT": 22,
-        "ADJ": 3,
+        "ADJ": 4,
         "PREP": 16,
         "CONJ": 2,
         "DET": 3,
@@ -34764,7 +34897,7 @@
         "ADJ": 9,
         "AUX": 13,
         "VERB": 87,
-        "NOUN": 22,
+        "NOUN": 23,
         "CONJ": 1,
         "PUNCT": 2,
         "WH": 1
@@ -34817,7 +34950,7 @@
       },
       "NOUN|ADJ": {
         "PUNCT": 22,
-        "NOUN": 84,
+        "NOUN": 85,
         "DET": 3,
         "PREP": 14,
         "ADJ": 7,
@@ -34873,7 +35006,7 @@
         "PUNCT": 3,
         "PROPN": 1,
         "ADJ": 2,
-        "DET": 4,
+        "DET": 5,
         "PART": 1,
         "VERB": 2
       },
@@ -35065,7 +35198,7 @@
         "PREP": 29,
         "WH": 3,
         "PUNCT": 2,
-        "ADJ": 2,
+        "ADJ": 3,
         "AUX": 1,
         "PRON": 3
       },
@@ -35142,7 +35275,7 @@
         "PUNCT": 3
       },
       "PREP|PROPN": {
-        "PUNCT": 24,
+        "PUNCT": 25,
         "AUX": 2,
         "PROPN": 17,
         "NOUN": 16,
@@ -35153,7 +35286,7 @@
         "ADJ": 1
       },
       "PROPN|PUNCT": {
-        "</S>": 33,
+        "</S>": 34,
         "DET": 9,
         "PROPN": 18,
         "CONJ": 12,
@@ -35163,7 +35296,8 @@
         "ADV": 1,
         "AUX": 2,
         "VERB": 3,
-        "PREP": 1
+        "PREP": 1,
+        "NUM": 1
       },
       "ADJ|PROPN": {
         "PUNCT": 6,
@@ -35223,7 +35357,7 @@
         "NOUN": 11,
         "VERB": 5,
         "DET": 8,
-        "AUX": 6,
+        "AUX": 7,
         "PRON": 3,
         "ADJ": 1,
         "MODAL": 1
@@ -35242,9 +35376,9 @@
       },
       "NOUN|PROPN": {
         "PART": 1,
-        "NOUN": 31,
+        "NOUN": 32,
         "AUX": 5,
-        "PROPN": 4,
+        "PROPN": 6,
         "PREP": 4,
         "CONJ": 2,
         "PUNCT": 9,
@@ -35257,7 +35391,7 @@
       },
       "PART|NOUN": {
         "NOUN": 7,
-        "PUNCT": 9,
+        "PUNCT": 10,
         "PREP": 6,
         "DET": 3,
         "PART": 2,
@@ -35267,7 +35401,7 @@
         "NOUN": 19,
         "PART": 1,
         "PROPN": 1,
-        "ADJ": 1,
+        "ADJ": 2,
         "DET": 3,
         "MODAL": 1
       },
@@ -35304,12 +35438,12 @@
       },
       "PROPN|NOUN": {
         "CONJ": 5,
-        "AUX": 17,
+        "AUX": 18,
         "PUNCT": 39,
         "NOUN": 22,
         "DET": 5,
         "MODAL": 1,
-        "PROPN": 4,
+        "PROPN": 5,
         "ADJ": 1,
         "PREP": 7,
         "VERB": 6
@@ -35391,7 +35525,8 @@
       "PUNCT|NUM": {
         "CONJ": 2,
         "NOUN": 1,
-        "PREP": 2
+        "PREP": 2,
+        "VERB": 1
       },
       "NUM|CONJ": {
         "NOUN": 11,
@@ -35475,21 +35610,22 @@
         "DET": 2
       },
       "DET|PROPN": {
-        "PROPN": 9,
-        "NOUN": 32,
+        "PROPN": 10,
+        "NOUN": 33,
         "ADJ": 12,
         "AUX": 7,
         "PUNCT": 2,
         "CONJ": 1,
         "DET": 1,
-        "ADV": 1
+        "ADV": 1,
+        "PRON": 1
       },
       "PROPN|PROPN": {
-        "PUNCT": 32,
+        "PUNCT": 33,
         "NOUN": 9,
-        "PROPN": 10,
-        "PREP": 5,
-        "CONJ": 3,
+        "PROPN": 13,
+        "PREP": 6,
+        "CONJ": 4,
         "VERB": 4,
         "AUX": 2,
         "ADJ": 1,
@@ -35569,7 +35705,7 @@
         "NEG": 1
       },
       "PROPN|PREP": {
-        "NOUN": 5,
+        "NOUN": 6,
         "PROPN": 3,
         "DET": 7,
         "ADJ": 2,
@@ -35612,7 +35748,7 @@
         "NOUN": 1,
         "VERB": 2,
         "PREP": 1,
-        "DET": 2,
+        "DET": 3,
         "ADV": 1
       },
       "CONJ|NEG": {
@@ -35664,7 +35800,7 @@
         "PROPN": 1
       },
       "NUM|VERB": {
-        "PREP": 1,
+        "PREP": 2,
         "ADV": 1,
         "PART": 1
       },
@@ -35749,7 +35885,7 @@
         "VERB": 2
       },
       "NUM|ADJ": {
-        "NOUN": 4
+        "NOUN": 5
       },
       "NEG|ADJ": {
         "CONJ": 1,
@@ -35891,6 +36027,9 @@
       },
       "NUM|DET": {
         "ADJ": 3
+      },
+      "PROPN|PRON": {
+        "VERB": 1
       }
     },
     "word_bigrams": {
@@ -35936,7 +36075,8 @@
         "read": 2,
         "study": 2,
         "recognize": 1,
-        "express": 1
+        "express": 1,
+        "optics": 1
       },
       "talk": {
         "with": 1,
@@ -35945,7 +36085,7 @@
       },
       "with": {
         "a": 15,
-        "the": 13,
+        "the": 14,
         "those": 5,
         "their": 6,
         "less": 3,
@@ -36110,7 +36250,9 @@
         "thermodynamic": 3,
         "varying": 3,
         "way": 1,
-        "data-manipulation": 1
+        "data-manipulation": 1,
+        "mathematician": 1,
+        "key": 1
       },
       "tool": {
         "for": 1
@@ -36129,7 +36271,8 @@
         "anyone": 1,
         "solving": 1,
         "a": 2,
-        "learning": 1
+        "learning": 1,
+        "formulating": 1
       },
       "sharing": {
         "ideas": 1,
@@ -36150,7 +36293,11 @@
         "mechanism": 1,
         "following": 1,
         "relational": 1,
-        "power": 1
+        "power": 1,
+        "scientific": 1,
+        "enlightenment": 1,
+        "first": 1,
+        "german": 1
       },
       "brain": {
         "is": 1,
@@ -36288,7 +36435,8 @@
         "these": 1,
         "dysfunction": 1,
         "by": 2,
-        "gum": 1
+        "gum": 1,
+        "newton": 1
       },
       "books": {
         "or": 1,
@@ -36356,12 +36504,12 @@
         "attack": 1
       },
       "tell": {
-        "me": 3
+        "me": 4
       },
       "me": {
         "more": 1,
         "what": 1,
-        "about": 1,
+        "about": 2,
         "remember": 1,
         "an": 1,
         "to": 1,
@@ -36516,24 +36664,16 @@
         "multiple": 1
       },
       "and": {
-        "the": 17,
+        "the": 18,
         "gerund": 10,
         "past": 9,
         "other": 5,
+        "then": 3,
         "functions": 2,
         "human": 2,
         "practice": 2,
         "writing": 2,
-        "creative": 2,
-        "enthusiasm": 2,
-        "our": 1,
-        "is": 1,
-        "given": 1,
-        "have": 1,
-        "then": 3,
-        "actions": 2,
-        "partly": 1,
-        "his": 1
+        "creative": 2
       },
       "meanings": {
         "have": 1,
@@ -36588,7 +36728,8 @@
         "they": 2,
         "houses": 1,
         "are": 2,
-        "this": 1
+        "this": 1,
+        "followed": 1
       },
       "good": {
         "idea": 1,
@@ -36709,7 +36850,7 @@
         "in": 1
       },
       "in": {
-        "the": 67,
+        "the": 68,
         "a": 36,
         "english": 11,
         "many": 7,
@@ -36724,7 +36865,8 @@
         "teaching": 1,
         "structural": 1,
         "object-oriented": 1,
-        "computability": 1
+        "computability": 1,
+        "physics": 1
       },
       "children": {
         "play": 1,
@@ -36736,8 +36878,8 @@
         "the": 2
       },
       "was": {
-        "a": 4,
-        "an": 3,
+        "a": 6,
+        "an": 4,
         "originally": 3,
         "then": 2,
         "flawed": 2,
@@ -36771,7 +36913,7 @@
       },
       "he": {
         "left": 4,
-        "was": 4,
+        "was": 5,
         "had": 2,
         "opened": 1,
         "quickly": 1,
@@ -36786,14 +36928,16 @@
         "needed": 1,
         "went": 1,
         "is": 2,
-        "insulted": 1
+        "insulted": 1,
+        "developed": 1
       },
       "opened": {
         "the": 1
       },
       "book": {
         "and": 1,
-        "a": 1
+        "a": 1,
+        "philosophi": 1
       },
       "began": {
         "to": 1,
@@ -36917,7 +37061,8 @@
       },
       "although": {
         "it": 2,
-        "they": 1
+        "they": 1,
+        "he": 1
       },
       "dreams": {
         "are": 1
@@ -37043,7 +37188,8 @@
         "can": 1,
         "i": 1,
         "belongs": 1,
-        "creates": 2
+        "creates": 2,
+        "was": 1
       },
       "made": {
         "this": 1,
@@ -37052,7 +37198,8 @@
         "with": 1,
         "progress": 1,
         "up": 1,
-        "jasmine": 1
+        "jasmine": 1,
+        "seminal": 1
       },
       "beautiful": {
         "picture": 1,
@@ -37323,7 +37470,8 @@
         "true": 1,
         "magic": 1,
         "conscience": 1,
-        "team": 1
+        "team": 1,
+        "book": 1
       },
       "comparative": {
         "degree": 2
@@ -37369,7 +37517,8 @@
         "mit": 2,
         "application": 2,
         "oisc": 1,
-        "object": 1
+        "object": 1,
+        "english": 1
       },
       "update": {
         "to": 1,
@@ -38125,7 +38274,8 @@
       "classical": {
         "thermodynamics": 1,
         "latin": 2,
-        "languages": 1
+        "languages": 1,
+        "mechanics": 1
       },
       "microscopic": {
         "description": 1
@@ -38728,7 +38878,8 @@
         "functional": 1,
         "synthesized": 1,
         "such": 1,
-        "defined": 1
+        "defined": 1,
+        "made": 1
       },
       "referential": {
         "markers": 1
@@ -40428,7 +40579,8 @@
         "turning": 1,
         "receiving": 1,
         "nine": 1,
-        "submitting": 1
+        "submitting": 1,
+        "leibniz": 1
       },
       "losing": {
         "it": 3
@@ -40708,7 +40860,9 @@
         "century": 1,
         "step": 1,
         "saceur": 1,
-        "carbon": 1
+        "carbon": 1,
+        "published": 1,
+        "great": 1
       },
       "english": {
         "by": 1,
@@ -40726,7 +40880,8 @@
         "word": 1,
         "has": 1,
         "nouns": 1,
-        "verb": 1
+        "verb": 1,
+        "polymath": 1
       },
       "infinitive": {
         "of": 3
@@ -41279,7 +41434,8 @@
         "calculus": 1
       },
       "calculus": {
-        "and": 1
+        "and": 1,
+        "years": 1
       },
       "automated": {
         "resolution": 1
@@ -41387,7 +41543,8 @@
       },
       "developed": {
         "by": 2,
-        "as": 1
+        "as": 1,
+        "calculus": 1
       },
       "microsoft": {
         "and": 2,
@@ -41947,7 +42104,8 @@
         "of": 1
       },
       "enlightenment": {
-        "era": 1
+        "era": 1,
+        "that": 1
       },
       "self-conscious": {
         "process": 1
@@ -42792,7 +42950,7 @@
       },
       "published": {
         "fiction": 1,
-        "in": 1,
+        "in": 2,
         "the": 1
       },
       "fiction": {
@@ -42811,7 +42969,8 @@
         "parts": 1,
         "ambiguity": 1,
         "labor-saving": 1,
-        "musician": 1
+        "musician": 1,
+        "unification": 1
       },
       "write": {
         "it": 1,
@@ -44251,7 +44410,8 @@
         "food": 1
       },
       "german": {
-        "style": 1
+        "style": 1,
+        "mathematician": 1
       },
       "continental": {
         "or": 1
@@ -45161,7 +45321,8 @@
       },
       "years": {
         "running": 1,
-        "it": 1
+        "it": 1,
+        "before": 1
       },
       "business": {
         "leaves": 1
@@ -47316,23 +47477,102 @@
       },
       "virtually": {
         "all": 1
+      },
+      "sir": {
+        "isaac": 1
+      },
+      "isaac": {
+        "newton": 1
+      },
+      "newton": {
+        "was": 1,
+        "also": 1
+      },
+      "polymath": {
+        "who": 1
+      },
+      "historian": {
+        "and": 1
+      },
+      "key": {
+        "figure": 1
+      },
+      "figure": {
+        "in": 1
+      },
+      "scientific": {
+        "revolution": 1
+      },
+      "revolution": {
+        "and": 1
+      },
+      "philosophi": {
+        "naturalis": 1
+      },
+      "naturalis": {
+        "principia": 1
+      },
+      "principia": {
+        "mathematica": 1
+      },
+      "achieved": {
+        "the": 1
+      },
+      "unification": {
+        "in": 1
+      },
+      "physics": {
+        "and": 1
+      },
+      "established": {
+        "classical": 1
+      },
+      "seminal": {
+        "contributions": 1
+      },
+      "contributions": {
+        "to": 1
+      },
+      "shares": {
+        "credit": 1
+      },
+      "credit": {
+        "with": 1
+      },
+      "mathematician": {
+        "gottfried": 1
+      },
+      "gottfried": {
+        "wilhelm": 1
+      },
+      "wilhelm": {
+        "leibniz": 1
+      },
+      "leibniz": {
+        "for": 1
+      },
+      "formulating": {
+        "infinitesimal": 1
+      },
+      "infinitesimal": {
+        "calculus": 1
       }
     },
     "starters": {
       "i": 45,
       "how": 3,
       "what": 6,
-      "<NOUN>": 193,
+      "<NOUN>": 195,
       "the": 156,
       "she": 9,
       "we": 13,
       "it": 39,
-      "<VERB>": 69,
+      "<VERB>": 70,
       "can": 1,
       "my": 8,
       "why": 1,
       "they": 6,
-      "he": 19,
+      "he": 20,
       "where": 1,
       "<ADJ>": 83,
       "please": 1,
@@ -47352,7 +47592,7 @@
       "toward": 1,
       "<PART>": 13,
       "something": 2,
-      "his": 5,
+      "his": 6,
       "of": 7,
       "her": 2,
       "this": 27,
@@ -47397,7 +47637,7 @@
     "connectors": {
       "because": 9,
       "or": 223,
-      "and": 358,
+      "and": 362,
       "but": 35,
       "so": 15,
       "while": 5,
@@ -47413,7 +47653,7 @@
       "since": 2,
       "once": 1,
       "nor": 2,
-      "although": 1
+      "although": 2
     },
     "connector_pairs": {
       "NOUN>PRON": {
@@ -47424,7 +47664,8 @@
         "whether": 1,
         "as": 2,
         "and": 1,
-        "if": 1
+        "if": 1,
+        "although": 1
       },
       "NOUN>DET": {
         "or": 14,
@@ -47437,7 +47678,7 @@
         "while": 1
       },
       "NOUN>NOUN": {
-        "and": 146,
+        "and": 148,
         "or": 94,
         "as": 5,
         "yet": 1,
@@ -47446,7 +47687,7 @@
         "than": 1
       },
       "NOUN>VERB": {
-        "and": 17,
+        "and": 18,
         "or": 9,
         "as": 3,
         "than": 1
@@ -47638,7 +47879,7 @@
         "and": 3
       },
       "PROPN>DET": {
-        "and": 4,
+        "and": 5,
         "if": 1,
         "or": 1
       },
@@ -48792,18 +49033,12 @@
       "NOUN AUX VERB CONJ NOUN PREP VERB NOUN | and | AUX VERB CONJ ADJ NOUN PREP ADJ NOUN": 1,
       "PRON MODAL NEG VERB DET ADJ NOUN PRON VERB PREP | but | PRON VERB DET NUM MODAL AUX": 1,
       "PART VERB PREP | and | ADV NOUN PRON": 1,
-      "DET NOUN DET NOUN PROPN | and | DET NOUN AUX PREP PROPN DET NOUN PREP NOUN": 1
+      "DET NOUN DET NOUN PROPN | and | DET NOUN AUX PREP PROPN DET NOUN PREP NOUN": 1,
+      "NOUN PROPN NOUN AUX DET ADJ NOUN WH AUX DET NOUN | and | NOUN": 1,
+      "PRON AUX DET ADJ NOUN PREP DET PROPN | and | DET PROPN PRON VERB": 1,
+      "DET NOUN PROPN NUM VERB PREP VERB DET NUM ADJ NOUN PREP NOUN | and | VERB ADJ NOUN": 1
     },
     "sentence_bank": {
-      "layered": [
-        "The layered trees of many phrase structure grammars grant noun phrases an intricate structure that acknowledges a hierarchy of functional projections."
-      ],
-      "trees": [
-        "The layered trees of many phrase structure grammars grant noun phrases an intricate structure that acknowledges a hierarchy of functional projections."
-      ],
-      "early": [
-        "An early conception of the noun phrase can be found in First work in English by Alexander Murison ."
-      ],
       "conception": [
         "An early conception of the noun phrase can be found in First work in English by Alexander Murison ."
       ],
@@ -49194,9 +49429,9 @@
         "In a typical or common manner."
       ],
       "english": [
-        "English can be pretty difficult to learn.",
         "English has two types of participles: the present participle and the past participle .",
-        "English nouns usually have singular and plural forms."
+        "English nouns usually have singular and plural forms.",
+        "Sir Isaac Newton was an English polymath who was a mathematician, physicist, astronomer, alchemist, theologian, historian and inventor."
       ],
       "pretty": [
         "English can be pretty difficult to learn.",
@@ -50754,6 +50989,15 @@
       ],
       "languages": [
         "Virtually all programming languages today are Turing-complete."
+      ],
+      "newton": [
+        "Sir Isaac Newton was an English polymath who was a mathematician, physicist, astronomer, alchemist, theologian, historian and inventor."
+      ],
+      "figure": [
+        "He was a key figure in the Scientific Revolution and the Enlightenment that followed."
+      ],
+      "follow": [
+        "He was a key figure in the Scientific Revolution and the Enlightenment that followed."
       ]
     }
   },

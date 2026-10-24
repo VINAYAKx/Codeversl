@@ -62,5 +62,11 @@
     "description": "Links any sentence to the articles I have studied by their shared concept keywords.",
     "created": "2026-10-24 09:29:43",
     "test_input": "human brain and brain"
+  },
+  "complexity_estimator_v10": {
+    "code": "def complexity_estimator_v10(text):\n    t = str(text)\n    words = t.split()\n    n = len(words)\n    if n == 0:\n        return {'load': 0.0, 'level': 'light'}\n    long_words = sum(1 for w in words if len(w) >= 9)\n    clauses = t.count(',') + t.count(';') + t.count(' and ') + t.count(' because ') + t.count(' which ')\n    questions = t.count('?')\n    score = n / 40.0 + long_words / n + clauses / 8.0 + questions / 4.0\n    load = round(min(1.0, score / 2.0), 2)\n    level = 'heavy' if load >= 0.6 else ('moderate' if load >= 0.3 else 'light')\n    return {'load': load, 'level': level}\n",
+    "description": "Estimates the cognitive load of a message from its length, long words, clauses and questions.",
+    "created": "2026-10-24 12:08:53",
+    "test_input": "Explain how neurons, memory and learning connect, because the brain adapts, which means experience matters?"
   }
 }
