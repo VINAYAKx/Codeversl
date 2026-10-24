@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.56,
+    "adenosine": 0.6200000000000001,
     "newborn": false
   },
   "episodic_memory": [
@@ -2903,6 +2903,13 @@
       "time": "2026-10-24 18:05:54",
       "speaker": "brain",
       "text": "I wondered about 'Internet' by myself and went searching. From Wikipedia (live internet) I learned: The Internet is the global system of interconnected computer networks that uses the Internet protocol suite (TCP/IP) to communicate between networks and devices. Key ideas I stored: optical networking technologies, internet protocol, electronic, wide.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 18:07:54",
+      "speaker": "brain",
+      "text": "I wondered about 'Ecosystem' by myself and went searching. From Wikipedia (live internet) I learned: An ecosystem is a system formed by organisms in interaction with their environment, where the biotic and abiotic components are linked together through nutrient cycles and energy flows. Key ideas I stored: ecosystem, organisms.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6893,6 +6900,16 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Internet",
       "learned": "2026-10-24 18:05:54"
+    },
+    "Ecosystem": {
+      "summary": "An ecosystem is a system formed by organisms in interaction with their environment, where the biotic and abiotic components are linked together through nutrient cycles and energy flows.",
+      "concepts": [
+        "ecosystem",
+        "organisms"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Ecosystem",
+      "learned": "2026-10-24 18:07:54"
     }
   },
   "creator_teachings": [
@@ -8114,6 +8131,12 @@
       "kind": "explore_report",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 18:07:54",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -8240,7 +8263,8 @@
     "compiler",
     "evolution",
     "electrons",
-    "internet"
+    "internet",
+    "ecosystem"
   ],
   "sensory_log": [
     {
@@ -44796,23 +44820,61 @@
       "source": "corpus",
       "learned": "2026-10-24 18:05:54",
       "uses": 1
+    },
+    "ecosystem": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 18:07:54",
+      "uses": 1
+    },
+    "linked": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 18:07:54",
+      "uses": 1
+    },
+    "nutrient": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 18:07:54",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 2017,
-      "tokens": 27051,
+      "sentences": 2018,
+      "tokens": 27081,
       "sources": {
         "seed corpus": 64,
         "conversation": 31,
         "dictionary": 953,
-        "explore": 280,
+        "explore": 281,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "afba74c8f2f3",
         "837a70d9849f",
         "6d5449df3f53",
         "c01c007a404f",
@@ -45111,7 +45173,8 @@
         "caf9fe907e47",
         "1a2f60d75064",
         "8b276a48b50a",
-        "06caed5bc4fe"
+        "06caed5bc4fe",
+        "c3d626331b97"
       ],
       "seeded": true,
       "rejected": 479,
@@ -46854,7 +46917,6 @@
         "bleeding": 1,
         "situated": 1,
         "considers": 1,
-        "ecosystem": 1,
         "biogeography": 1,
         "ethology": 1,
         "moved": 1,
@@ -47011,7 +47073,6 @@
         "waste": 1,
         "crust": 1,
         "stages": 1,
-        "nutrient": 1,
         "cycle": 1,
         "recycling": 1,
         "nutrients": 1,
@@ -47222,10 +47283,13 @@
         "suite": 1,
         "comprises": 1,
         "scope": 1,
-        "linked": 1,
         "wireless": 1,
         "optical": 1,
-        "technologies": 1
+        "technologies": 1,
+        "biotic": 1,
+        "abiotic": 1,
+        "cycles": 1,
+        "flows": 1
       }
     },
     "pos_bigrams": {
@@ -47233,7 +47297,7 @@
         "PRON": 251,
         "WH": 27,
         "NOUN": 617,
-        "DET": 514,
+        "DET": 515,
         "VERB": 241,
         "MODAL": 4,
         "ADJ": 109,
@@ -47268,10 +47332,10 @@
         "ADJ": 223,
         "PRON": 18,
         "PUNCT": 6,
-        "DET": 295,
+        "DET": 296,
         "NOUN": 66,
         "NEG": 43,
-        "VERB": 272,
+        "VERB": 273,
         "INTJ": 1,
         "ADV": 93,
         "CONJ": 12,
@@ -47284,11 +47348,11 @@
       },
       "ADJ": {
         "PART": 34,
-        "NOUN": 1354,
+        "NOUN": 1356,
         "WH": 3,
         "PUNCT": 230,
         "PREP": 145,
-        "CONJ": 75,
+        "CONJ": 76,
         "PROPN": 26,
         "ADJ": 104,
         "DET": 34,
@@ -47311,7 +47375,7 @@
         "PUNCT": 9
       },
       "VERB": {
-        "PREP": 478,
+        "PREP": 479,
         "PART": 104,
         "ADJ": 79,
         "NOUN": 511,
@@ -47323,7 +47387,7 @@
         "CONJ": 152,
         "WH": 23,
         "</S>": 14,
-        "ADV": 53,
+        "ADV": 54,
         "PROPN": 18,
         "NUM": 11,
         "NEG": 2,
@@ -47331,12 +47395,12 @@
       },
       "PREP": {
         "PRON": 61,
-        "NOUN": 912,
-        "DET": 969,
+        "NOUN": 914,
+        "DET": 970,
         "PUNCT": 48,
         "VERB": 69,
         "PREP": 23,
-        "ADJ": 267,
+        "ADJ": 268,
         "PROPN": 107,
         "AUX": 18,
         "NUM": 46,
@@ -47347,7 +47411,7 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 1864,
+        "</S>": 1865,
         "NOUN": 569,
         "CONJ": 280,
         "PRON": 40,
@@ -47356,7 +47420,7 @@
         "PREP": 54,
         "ADJ": 92,
         "DET": 154,
-        "WH": 32,
+        "WH": 33,
         "AUX": 30,
         "NUM": 7,
         "PUNCT": 95,
@@ -47367,7 +47431,7 @@
       },
       "WH": {
         "AUX": 32,
-        "DET": 41,
+        "DET": 42,
         "PRON": 22,
         "NOUN": 51,
         "VERB": 23,
@@ -47390,18 +47454,18 @@
         "MODAL": 1,
         "PART": 3,
         "ADV": 10,
-        "PREP": 41,
+        "PREP": 42,
         "AUX": 18,
         "PROPN": 1,
         "NUM": 3
       },
       "NOUN": {
-        "AUX": 512,
-        "PREP": 1530,
-        "NOUN": 1750,
-        "PUNCT": 2476,
-        "CONJ": 584,
-        "VERB": 444,
+        "AUX": 514,
+        "PREP": 1532,
+        "NOUN": 1751,
+        "PUNCT": 2478,
+        "CONJ": 585,
+        "VERB": 445,
         "ADV": 76,
         "PART": 191,
         "ADJ": 248,
@@ -47416,8 +47480,8 @@
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 1782,
-        "ADJ": 775,
+        "NOUN": 1785,
+        "ADJ": 776,
         "PRON": 22,
         "PREP": 44,
         "NUM": 45,
@@ -47435,9 +47499,9 @@
       "CONJ": {
         "PRON": 77,
         "DET": 200,
-        "NOUN": 555,
+        "NOUN": 556,
         "VERB": 98,
-        "ADJ": 122,
+        "ADJ": 123,
         "ADV": 40,
         "PUNCT": 18,
         "WH": 12,
@@ -47585,7 +47649,7 @@
       "VERB|PREP": {
         "PRON": 16,
         "DET": 185,
-        "NOUN": 143,
+        "NOUN": 144,
         "PUNCT": 17,
         "VERB": 11,
         "ADJ": 50,
@@ -47725,11 +47789,11 @@
         "INTJ": 2
       },
       "NOUN|AUX": {
-        "DET": 166,
+        "DET": 167,
         "ADJ": 100,
         "NOUN": 35,
         "ADV": 61,
-        "VERB": 98,
+        "VERB": 99,
         "CONJ": 5,
         "NUM": 8,
         "NEG": 12,
@@ -47741,7 +47805,7 @@
         "PRON": 2
       },
       "AUX|DET": {
-        "NOUN": 148,
+        "NOUN": 149,
         "ADJ": 113,
         "PROPN": 6,
         "VERB": 6,
@@ -47753,10 +47817,10 @@
       },
       "DET|NOUN": {
         "PREP": 554,
-        "AUX": 154,
+        "AUX": 155,
         "CONJ": 130,
-        "PUNCT": 385,
-        "VERB": 114,
+        "PUNCT": 386,
+        "VERB": 115,
         "ADV": 21,
         "ADJ": 54,
         "NOUN": 163,
@@ -47770,8 +47834,8 @@
         "NUM": 3
       },
       "NOUN|PREP": {
-        "NOUN": 573,
-        "DET": 557,
+        "NOUN": 574,
+        "DET": 558,
         "PREP": 8,
         "ADJ": 172,
         "PROPN": 51,
@@ -47792,7 +47856,7 @@
         "ADJ": 23,
         "DET": 37,
         "AUX": 21,
-        "PREP": 98,
+        "PREP": 100,
         "PRON": 18,
         "</S>": 109,
         "WH": 6,
@@ -47803,7 +47867,7 @@
         "ADV": 3
       },
       "NOUN|NOUN": {
-        "PUNCT": 624,
+        "PUNCT": 625,
         "PART": 26,
         "NOUN": 463,
         "PREP": 235,
@@ -47822,7 +47886,7 @@
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 1435,
+        "</S>": 1436,
         "NOUN": 367,
         "CONJ": 197,
         "ADV": 47,
@@ -47830,7 +47894,7 @@
         "ADJ": 61,
         "DET": 101,
         "VERB": 50,
-        "WH": 23,
+        "WH": 24,
         "PRON": 26,
         "AUX": 25,
         "NUM": 5,
@@ -47841,7 +47905,7 @@
         "INTJ": 1
       },
       "<S>|DET": {
-        "NOUN": 326,
+        "NOUN": 327,
         "ADJ": 126,
         "PROPN": 25,
         "VERB": 4,
@@ -47854,7 +47918,7 @@
       },
       "DET|ADJ": {
         "NOUN": 621,
-        "CONJ": 24,
+        "CONJ": 25,
         "ADJ": 34,
         "PUNCT": 27,
         "VERB": 17,
@@ -47874,10 +47938,10 @@
         "MODAL": 13,
         "VERB": 73,
         "PREP": 283,
-        "CONJ": 105,
+        "CONJ": 106,
         "DET": 48,
         "ADJ": 19,
-        "AUX": 73,
+        "AUX": 74,
         "PART": 41,
         "WH": 10,
         "PROPN": 3,
@@ -47899,7 +47963,7 @@
         "DET": 1
       },
       "PREP|DET": {
-        "NOUN": 604,
+        "NOUN": 605,
         "ADJ": 243,
         "NUM": 18,
         "PREP": 15,
@@ -47916,7 +47980,7 @@
         "PRON": 17,
         "DET": 88,
         "VERB": 27,
-        "NOUN": 314,
+        "NOUN": 315,
         "ADJ": 50,
         "WH": 5,
         "PREP": 16,
@@ -48086,7 +48150,7 @@
       },
       "WH|DET": {
         "NOUN": 34,
-        "ADJ": 7
+        "ADJ": 8
       },
       "ADJ|PUNCT": {
         "</S>": 117,
@@ -48107,7 +48171,7 @@
       "NOUN|VERB": {
         "PART": 14,
         "DET": 96,
-        "PREP": 99,
+        "PREP": 100,
         "WH": 4,
         "PRON": 28,
         "PUNCT": 30,
@@ -48158,7 +48222,7 @@
         "PREP": 112,
         "VERB": 20,
         "WH": 7,
-        "NOUN": 162,
+        "NOUN": 163,
         "PRON": 12,
         "PART": 15,
         "CONJ": 22,
@@ -48235,7 +48299,7 @@
         "DET": 21,
         "CONJ": 22,
         "ADJ": 6,
-        "ADV": 6,
+        "ADV": 7,
         "NUM": 1,
         "</S>": 1
       },
@@ -48476,7 +48540,7 @@
         "ADJ": 1
       },
       "ADJ|CONJ": {
-        "ADJ": 25,
+        "ADJ": 26,
         "NOUN": 22,
         "ADV": 2,
         "AUX": 3,
@@ -48487,7 +48551,7 @@
       },
       "CONJ|ADJ": {
         "PUNCT": 13,
-        "NOUN": 82,
+        "NOUN": 83,
         "ADJ": 6,
         "CONJ": 6,
         "VERB": 8,
@@ -48582,7 +48646,7 @@
       },
       "VERB|ADV": {
         "DET": 4,
-        "PREP": 9,
+        "PREP": 10,
         "PUNCT": 8,
         "VERB": 8,
         "NOUN": 18,
@@ -48650,7 +48714,7 @@
         "CONJ": 3,
         "PROPN": 6,
         "ADJ": 24,
-        "NOUN": 198,
+        "NOUN": 199,
         "PUNCT": 18,
         "AUX": 3,
         "VERB": 8,
@@ -48766,7 +48830,7 @@
       "PUNCT|WH": {
         "NOUN": 9,
         "AUX": 5,
-        "DET": 8,
+        "DET": 9,
         "PREP": 3,
         "MODAL": 3,
         "NUM": 1,
@@ -49140,7 +49204,7 @@
       },
       "ADV|PREP": {
         "NOUN": 13,
-        "ADJ": 4,
+        "ADJ": 5,
         "DET": 17,
         "NUM": 3,
         "VERB": 2,
@@ -49631,7 +49695,7 @@
       "with": {
         "the": 22,
         "a": 18,
-        "their": 6,
+        "their": 7,
         "those": 6,
         "less": 4,
         "zero": 3,
@@ -49674,7 +49738,8 @@
         "fine": 1,
         "steps": 1,
         "capable": 1,
-        "also": 1
+        "also": 1,
+        "linked": 1
       },
       "you": {
         "to": 6,
@@ -49769,7 +49834,7 @@
         "to": 2
       },
       "is": {
-        "a": 107,
+        "a": 108,
         "the": 59,
         "an": 19,
         "usually": 6,
@@ -49787,7 +49852,7 @@
         "\"": 7,
         "method": 6,
         "vocabulary": 5,
-        "system": 5,
+        "system": 6,
         "preposition": 3,
         "neural": 3,
         "thermodynamic": 3,
@@ -49835,7 +49900,8 @@
         "news": 1,
         "distinguishing": 1,
         "internet": 2,
-        "global": 1
+        "global": 1,
+        "biotic": 1
       },
       "brain": {
         "is": 1,
@@ -50217,7 +50283,9 @@
         "word": 1,
         "devices": 1,
         "government": 1,
-        "optical": 1
+        "optical": 1,
+        "abiotic": 1,
+        "energy": 1
       },
       "meanings": {
         "have": 1,
@@ -50407,7 +50475,8 @@
         "one": 1,
         "their": 1,
         "some": 1,
-        "distinctive": 1
+        "distinctive": 1,
+        "interaction": 1
       },
       "children": {
         "play": 1,
@@ -50478,7 +50547,7 @@
       "where": {
         "did": 1,
         "uncertainty": 1,
-        "the": 6,
+        "the": 7,
         "denotes": 1,
         "no": 2,
         "necessary": 2,
@@ -51052,7 +51121,8 @@
         "update": 2,
         "american": 2,
         "mit": 2,
-        "executable": 1
+        "executable": 1,
+        "ecosystem": 1
       },
       "update": {
         "to": 1,
@@ -51182,7 +51252,8 @@
         "actor-model": 1,
         "multiple": 1,
         "formal": 1,
-        "hedging": 1
+        "hedging": 1,
+        "nutrient": 1
       },
       "strengthen": {
         "the": 1,
@@ -51353,7 +51424,8 @@
         "bishops": 1,
         "gravity": 1,
         "charles": 1,
-        "electronic": 1
+        "electronic": 1,
+        "organisms": 1
       },
       "thermodynamic": {
         "efficiency": 2,
@@ -51567,7 +51639,8 @@
         "from": 1,
         "can": 1,
         "of": 1,
-        "levels": 1
+        "levels": 1,
+        "flows": 1
       },
       "matter": {
         "into": 1,
@@ -51631,7 +51704,8 @@
         "acquisition": 1,
         "constituent": 1,
         "genetic": 1,
-        "surviving": 1
+        "surviving": 1,
+        "environment": 1
       },
       "order": {
         "against": 1,
@@ -53270,7 +53344,8 @@
         "the": 1,
         "a": 1,
         "as": 1,
-        "by": 1
+        "by": 1,
+        "through": 1
       },
       "computer": {
         "scientist": 1,
@@ -53351,7 +53426,8 @@
         "can": 1,
         "as": 1,
         "studying": 1,
-        "they": 1
+        "they": 1,
+        "formed": 1
       },
       "iteratively": {
         "designs": 2
@@ -57701,7 +57777,7 @@
       },
       "components": {
         "in": 2,
-        "are": 2,
+        "are": 3,
         "of": 1
       },
       "reinforcement": {
@@ -60925,7 +61001,8 @@
         "at": 1,
         "often": 1,
         "evolution": 1,
-        "inherit": 1
+        "inherit": 1,
+        "in": 1
       },
       "considers": {
         "organisms": 1
@@ -61105,7 +61182,8 @@
       },
       "formed": {
         "from": 1,
-        "of": 1
+        "of": 1,
+        "by": 1
       },
       "fabricated": {
         "onto": 1
@@ -61479,7 +61557,8 @@
         "of": 1
       },
       "nutrient": {
-        "cycle": 1
+        "cycle": 1,
+        "cycles": 1
       },
       "cycle": {
         "by": 1
@@ -62033,7 +62112,8 @@
         "of": 2
       },
       "interaction": {
-        "and": 1
+        "and": 1,
+        "with": 1
       },
       "macro-level": {
         "analyses": 1
@@ -62365,13 +62445,26 @@
         "private": 1
       },
       "linked": {
-        "by": 1
+        "by": 1,
+        "together": 1
       },
       "optical": {
         "networking": 1
       },
       "networking": {
         "technologies": 1
+      },
+      "ecosystem": {
+        "is": 1
+      },
+      "biotic": {
+        "and": 1
+      },
+      "abiotic": {
+        "components": 1
+      },
+      "cycles": {
+        "and": 1
       }
     },
     "starters": {
@@ -62401,7 +62494,7 @@
       "when": 11,
       "you": 11,
       "<ADV>": 30,
-      "an": 24,
+      "an": 25,
       "however": 2,
       "in": 98,
       "for": 6,
@@ -62468,7 +62561,7 @@
     "connectors": {
       "because": 14,
       "or": 340,
-      "and": 544,
+      "and": 546,
       "but": 56,
       "so": 19,
       "while": 5,
@@ -62512,7 +62605,7 @@
         "nor": 1
       },
       "NOUN>NOUN": {
-        "and": 237,
+        "and": 238,
         "or": 137,
         "as": 9,
         "yet": 2,
@@ -62549,7 +62642,7 @@
         "as": 1
       },
       "ADJ>ADJ": {
-        "and": 15,
+        "and": 16,
         "or": 12,
         "as": 1,
         "nor": 1
@@ -66799,7 +66892,8 @@
       "breaks",
       "distinguishing",
       "private",
-      "public"
+      "public",
+      "ecosystem"
     ],
     "names": [],
     "lessons": 86,
