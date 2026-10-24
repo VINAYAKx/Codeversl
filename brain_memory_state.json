@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.45000000000000007,
+    "adenosine": 0.51,
     "newborn": false
   },
   "episodic_memory": [
@@ -2889,6 +2889,20 @@
       "time": "2026-10-24 11:38:33",
       "speaker": "brain",
       "text": "I practised my English because I want to talk with you more naturally. I learned 6 new words: 'according' (a verb) means present participle and gerund of accord; 'etiquette' (a noun) means the manners or decent behaviour to be observed in social or professional life; conventiona; 'others' (a noun) means plural of other; 'defined' (an adjective) means having a definition or value and 2 more. Now I know 487 words, I have studied 938 sentences, and I have 82 sentence patterns.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 11:40:34",
+      "speaker": "brain",
+      "text": "I practised my English because I want to talk with you more naturally. I learned 6 new words: 'quite' (an adverb) means to the greatest extent or degree; completely , entirely ; 'identified' (a verb) means simple past and past participle of identify; 'politeness' (a noun) means the quality of being polite ; 'concept' (a noun) means an abstract and general idea; an abstraction and 2 more. Now I know 493 words, I have studied 943 sentences, and I have 83 sentence patterns.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 11:42:30",
+      "speaker": "brain",
+      "text": "I wondered about 'Neuro-symbolic AI' by myself and went searching. From Wikipedia (live internet) I learned: Neuro-symbolic AI describes a relatively newer approach to artificial intelligence that combines neural networks and symbolic AI approaches, such as knowledge representation and automated reasoning, to create more robust, more reliable, and more trustworthy AI... Key ideas I stored: neuro-symbolic ai, more trustworthy ai, neural networks, artificial intelligence, symbolic ai.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6201,6 +6215,20 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Distributed_computing",
       "learned": "2026-10-24 11:34:29"
+    },
+    "Neuro-symbolic AI": {
+      "summary": "Neuro-symbolic AI describes a relatively newer approach to artificial intelligence that combines neural networks and symbolic AI approaches, such as knowledge representation and automated reasoning, to create more robust, more reliable, and more trustworthy AI. This combination allows statistical patterns to be combined with explicitly defined rules and knowledge to give AI systems the ability to better represent, reason and generalize. Thus, neuro-symbolic AI provides a reasoning infrastructure to state-of-the-art machine learning for solving a wider range of problems more effectively.",
+      "concepts": [
+        "neuro-symbolic ai",
+        "more trustworthy ai",
+        "neural networks",
+        "artificial intelligence",
+        "symbolic ai",
+        "ai systems"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Neuro-symbolic_AI",
+      "learned": "2026-10-24 11:42:30"
     }
   },
   "creator_teachings": [
@@ -7596,6 +7624,18 @@
       "kind": "language_lesson",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 11:40:34",
+      "kind": "language_lesson",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-24 11:42:30",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -7664,7 +7704,8 @@
     "internal cognitive layers",
     "biological neuromorphic processing",
     "dynamic memory consolidation",
-    "distributed environments"
+    "distributed environments",
+    "neuro-symbolic reasoning"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -30345,22 +30386,90 @@
       "source": "corpus",
       "learned": "2026-10-24 11:40:34",
       "uses": 1
+    },
+    "combination": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:42:30",
+      "uses": 1
+    },
+    "statistical": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:42:30",
+      "uses": 1
+    },
+    "explicitly": {
+      "part_of_speech": "adverb",
+      "definition": "",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:42:30",
+      "uses": 1
+    },
+    "reasoning": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Thus, neuro-symbolic AI provides a reasoning infrastructure to state-of-the-art machine learning for solving a wider range of problems more effectively."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:42:30",
+      "uses": 1
+    },
+    "infrastructure": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Thus, neuro-symbolic AI provides a reasoning infrastructure to state-of-the-art machine learning for solving a wider range of problems more effectively."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:42:30",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 943,
-      "tokens": 15462,
+      "sentences": 945,
+      "tokens": 15512,
       "sources": {
         "seed corpus": 64,
         "conversation": 12,
         "dictionary": 486,
-        "explore": 114,
+        "explore": 116,
         "pasted text": 24,
         "deep study": 243
       },
       "hashes": [
-        "4eb1d272816a",
         "1885890f6dbe",
         "552e8dc3b99d",
         "2755780cd3fa",
@@ -30659,10 +30768,11 @@
         "87c877a70f90",
         "2b0626498f52",
         "021cf87a1e84",
-        "9457321934bf"
+        "9457321934bf",
+        "538764b5ae9d"
       ],
       "seeded": true,
-      "rejected": 167,
+      "rejected": 168,
       "vocab_counts": {
         "tool": 1,
         "sharing": 1,
@@ -30737,7 +30847,6 @@
         "diverse": 1,
         "classical": 1,
         "microscopic": 1,
-        "statistical": 1,
         "chemistry": 1,
         "cosmology": 1,
         "economics": 1,
@@ -30855,7 +30964,6 @@
         "essentially": 1,
         "cases": 1,
         "postpositions": 1,
-        "explicitly": 1,
         "latin": 1,
         "southern": 1,
         "shift": 1,
@@ -30912,7 +31020,6 @@
         "optimizing": 1,
         "backend": 1,
         "microservices": 1,
-        "infrastructure": 1,
         "typescript": 1,
         "introducing": 1,
         "checker": 1,
@@ -31314,7 +31421,6 @@
         "tempus": 1,
         "tenseless": 1,
         "indicated": 1,
-        "combination": 1,
         "prominent": 1,
         "analyses": 1,
         "interacts": 1,
@@ -31714,7 +31820,6 @@
         "prediction": 1,
         "diagrams": 1,
         "equations": 1,
-        "reasoning": 1,
         "progress": 1,
         "sure": 1,
         "condolences": 1,
@@ -32086,15 +32191,19 @@
         "restaurant": 1,
         "identify": 1,
         "pedestrian": 1,
-        "belongs": 1
+        "belongs": 1,
+        "reason": 1,
+        "generalize": 1,
+        "wider": 1,
+        "effectively": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
         "PRON": 139,
         "WH": 21,
-        "NOUN": 177,
-        "DET": 301,
+        "NOUN": 178,
+        "DET": 302,
         "VERB": 66,
         "MODAL": 4,
         "ADJ": 80,
@@ -32130,7 +32239,7 @@
         "DET": 165,
         "NOUN": 44,
         "NEG": 26,
-        "VERB": 164,
+        "VERB": 165,
         "INTJ": 1,
         "ADV": 54,
         "CONJ": 8,
@@ -32143,12 +32252,12 @@
       },
       "ADJ": {
         "PART": 21,
-        "NOUN": 857,
+        "NOUN": 858,
         "WH": 2,
-        "PUNCT": 137,
+        "PUNCT": 138,
         "PREP": 91,
         "CONJ": 45,
-        "PROPN": 17,
+        "PROPN": 18,
         "ADJ": 78,
         "DET": 18,
         "AUX": 17,
@@ -32160,8 +32269,8 @@
         "PRON": 1
       },
       "PART": {
-        "VERB": 195,
-        "AUX": 24,
+        "VERB": 198,
+        "AUX": 25,
         "ADJ": 13,
         "NOUN": 26,
         "WH": 3,
@@ -32170,30 +32279,30 @@
         "PUNCT": 4
       },
       "VERB": {
-        "PREP": 286,
+        "PREP": 289,
         "PART": 68,
-        "ADJ": 53,
-        "NOUN": 237,
-        "PUNCT": 136,
+        "ADJ": 55,
+        "NOUN": 239,
+        "PUNCT": 137,
         "PRON": 58,
         "AUX": 21,
-        "DET": 220,
+        "DET": 221,
         "VERB": 30,
         "CONJ": 88,
         "WH": 13,
         "</S>": 10,
         "ADV": 22,
-        "PROPN": 15,
+        "PROPN": 16,
         "NUM": 5,
         "NEG": 1,
         "MODAL": 1
       },
       "PREP": {
         "PRON": 37,
-        "NOUN": 546,
+        "NOUN": 547,
         "DET": 607,
         "PUNCT": 32,
-        "VERB": 39,
+        "VERB": 40,
         "PREP": 19,
         "ADJ": 181,
         "PROPN": 74,
@@ -32201,19 +32310,19 @@
         "NUM": 30,
         "WH": 16,
         "CONJ": 9,
-        "ADV": 8,
+        "ADV": 9,
         "PART": 2,
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 865,
-        "NOUN": 291,
+        "</S>": 867,
+        "NOUN": 292,
         "CONJ": 172,
         "PRON": 20,
         "VERB": 44,
         "ADV": 32,
         "PREP": 28,
-        "ADJ": 53,
+        "ADJ": 54,
         "DET": 96,
         "WH": 27,
         "AUX": 19,
@@ -32237,12 +32346,12 @@
         "NUM": 1
       },
       "ADV": {
-        "PUNCT": 27,
+        "PUNCT": 28,
         "ADJ": 15,
         "NOUN": 35,
         "CONJ": 7,
         "DET": 11,
-        "VERB": 96,
+        "VERB": 97,
         "</S>": 2,
         "PRON": 3,
         "MODAL": 1,
@@ -32256,24 +32365,24 @@
       "NOUN": {
         "AUX": 300,
         "PREP": 943,
-        "NOUN": 798,
-        "PUNCT": 1174,
-        "CONJ": 357,
-        "VERB": 268,
-        "ADV": 51,
-        "PART": 123,
+        "NOUN": 800,
+        "PUNCT": 1175,
+        "CONJ": 359,
+        "VERB": 271,
+        "ADV": 52,
+        "PART": 127,
         "ADJ": 139,
         "MODAL": 49,
         "</S>": 61,
         "PRON": 60,
         "WH": 33,
-        "DET": 188,
+        "DET": 190,
         "PROPN": 54,
         "NUM": 10,
         "NEG": 6
       },
       "DET": {
-        "NOUN": 1076,
+        "NOUN": 1080,
         "ADJ": 485,
         "PRON": 12,
         "PREP": 29,
@@ -32292,8 +32401,8 @@
       "CONJ": {
         "PRON": 44,
         "DET": 119,
-        "NOUN": 326,
-        "VERB": 58,
+        "NOUN": 327,
+        "VERB": 59,
         "ADJ": 85,
         "ADV": 22,
         "PUNCT": 14,
@@ -32340,7 +32449,7 @@
         "DET": 4,
         "PUNCT": 96,
         "PART": 5,
-        "NOUN": 98,
+        "NOUN": 100,
         "AUX": 16,
         "PROPN": 66,
         "ADJ": 16,
@@ -32415,9 +32524,9 @@
       },
       "PART|VERB": {
         "PREP": 23,
-        "ADJ": 15,
+        "ADJ": 16,
         "PUNCT": 23,
-        "NOUN": 47,
+        "NOUN": 48,
         "WH": 4,
         "DET": 42,
         "PART": 3,
@@ -32425,14 +32534,15 @@
         "CONJ": 15,
         "PRON": 12,
         "VERB": 5,
-        "ADV": 3
+        "ADV": 3,
+        "PROPN": 1
       },
       "VERB|PREP": {
         "PRON": 10,
         "DET": 112,
-        "NOUN": 80,
+        "NOUN": 81,
         "PUNCT": 11,
-        "VERB": 4,
+        "VERB": 5,
         "ADJ": 30,
         "PREP": 9,
         "NUM": 7,
@@ -32440,7 +32550,7 @@
         "CONJ": 2,
         "AUX": 1,
         "WH": 1,
-        "ADV": 1
+        "ADV": 2
       },
       "PREP|PRON": {
         "PUNCT": 17,
@@ -32489,7 +32599,7 @@
         "NOUN": 2
       },
       "ADV|PUNCT": {
-        "</S>": 11,
+        "</S>": 12,
         "ADV": 2,
         "DET": 5,
         "CONJ": 4,
@@ -32524,7 +32634,7 @@
       "PART|AUX": {
         "PUNCT": 2,
         "DET": 2,
-        "VERB": 11,
+        "VERB": 12,
         "ADJ": 4,
         "NUM": 1,
         "PREP": 3,
@@ -32537,7 +32647,7 @@
       "<S>|NOUN": {
         "AUX": 51,
         "VERB": 22,
-        "PUNCT": 9,
+        "PUNCT": 10,
         "NOUN": 37,
         "CONJ": 11,
         "PREP": 18,
@@ -32580,12 +32690,12 @@
         "AUX": 84,
         "CONJ": 78,
         "PUNCT": 223,
-        "VERB": 76,
+        "VERB": 78,
         "ADV": 15,
         "ADJ": 38,
-        "NOUN": 91,
+        "NOUN": 92,
         "PRON": 18,
-        "PART": 35,
+        "PART": 36,
         "</S>": 2,
         "PROPN": 4,
         "DET": 48,
@@ -32608,7 +32718,7 @@
         "CONJ": 4
       },
       "PREP|NOUN": {
-        "NOUN": 88,
+        "NOUN": 89,
         "PUNCT": 148,
         "VERB": 30,
         "CONJ": 56,
@@ -32627,7 +32737,7 @@
       },
       "NOUN|NOUN": {
         "PUNCT": 208,
-        "PART": 14,
+        "PART": 15,
         "NOUN": 161,
         "PREP": 143,
         "CONJ": 64,
@@ -32637,7 +32747,7 @@
         "MODAL": 14,
         "ADJ": 34,
         "NUM": 4,
-        "ADV": 10,
+        "ADV": 11,
         "DET": 14,
         "NEG": 3,
         "PRON": 7,
@@ -32650,7 +32760,7 @@
         "CONJ": 118,
         "ADV": 24,
         "PREP": 22,
-        "ADJ": 37,
+        "ADJ": 38,
         "DET": 63,
         "VERB": 34,
         "WH": 18,
@@ -32664,7 +32774,7 @@
         "INTJ": 1
       },
       "<S>|DET": {
-        "NOUN": 194,
+        "NOUN": 195,
         "ADJ": 78,
         "PROPN": 13,
         "VERB": 2,
@@ -32699,7 +32809,7 @@
         "DET": 32,
         "ADJ": 13,
         "AUX": 50,
-        "PART": 28,
+        "PART": 29,
         "WH": 5,
         "PROPN": 2,
         "ADV": 8,
@@ -32707,8 +32817,8 @@
         "</S>": 3
       },
       "VERB|ADJ": {
-        "NOUN": 32,
-        "PUNCT": 8,
+        "NOUN": 33,
+        "PUNCT": 9,
         "CONJ": 3,
         "VERB": 3,
         "ADJ": 3,
@@ -32733,8 +32843,8 @@
       "NOUN|CONJ": {
         "PRON": 7,
         "DET": 54,
-        "VERB": 19,
-        "NOUN": 184,
+        "VERB": 20,
+        "NOUN": 185,
         "ADJ": 36,
         "WH": 4,
         "PREP": 9,
@@ -32758,9 +32868,9 @@
         "PUNCT": 63,
         "PREP": 40,
         "PART": 6,
-        "VERB": 8,
+        "VERB": 9,
         "NOUN": 49,
-        "CONJ": 18,
+        "CONJ": 19,
         "MODAL": 2,
         "ADJ": 13,
         "DET": 17,
@@ -32794,7 +32904,7 @@
         "PRON": 2
       },
       "PUNCT|NOUN": {
-        "CONJ": 24,
+        "CONJ": 25,
         "NOUN": 57,
         "ADJ": 6,
         "PUNCT": 131,
@@ -32821,7 +32931,7 @@
         "WH": 1
       },
       "VERB|PUNCT": {
-        "</S>": 95,
+        "</S>": 96,
         "PRON": 3,
         "CONJ": 6,
         "NOUN": 17,
@@ -32900,7 +33010,7 @@
         "DET": 4,
         "ADJ": 9,
         "PREP": 2,
-        "NOUN": 23,
+        "NOUN": 24,
         "ADV": 2,
         "PRON": 1,
         "NUM": 1,
@@ -32910,7 +33020,7 @@
       "NOUN|VERB": {
         "PART": 7,
         "DET": 65,
-        "PREP": 61,
+        "PREP": 63,
         "WH": 4,
         "PRON": 18,
         "PUNCT": 23,
@@ -32922,7 +33032,7 @@
         "AUX": 3,
         "VERB": 4,
         "PROPN": 7,
-        "ADJ": 5,
+        "ADJ": 6,
         "MODAL": 1
       },
       "AUX|NOUN": {
@@ -32961,7 +33071,7 @@
         "WH": 5,
         "NOUN": 102,
         "PRON": 3,
-        "PART": 9,
+        "PART": 10,
         "CONJ": 9,
         "PROPN": 4,
         "ADJ": 7,
@@ -32972,7 +33082,7 @@
         "ADV": 2
       },
       "VERB|DET": {
-        "NOUN": 129,
+        "NOUN": 130,
         "ADJ": 74,
         "PREP": 2,
         "CONJ": 3,
@@ -32983,7 +33093,7 @@
         "PUNCT": 2
       },
       "NOUN|ADV": {
-        "PUNCT": 9,
+        "PUNCT": 10,
         "VERB": 18,
         "PREP": 9,
         "NOUN": 5,
@@ -33024,7 +33134,7 @@
         "VERB": 2
       },
       "AUX|VERB": {
-        "PREP": 75,
+        "PREP": 76,
         "PUNCT": 21,
         "PART": 22,
         "PRON": 2,
@@ -33037,7 +33147,7 @@
       "CONJ|VERB": {
         "PART": 3,
         "NOUN": 11,
-        "PUNCT": 21,
+        "PUNCT": 22,
         "ADJ": 3,
         "PREP": 14,
         "CONJ": 2,
@@ -33058,8 +33168,8 @@
       },
       "NOUN|PART": {
         "ADJ": 8,
-        "AUX": 11,
-        "VERB": 81,
+        "AUX": 12,
+        "VERB": 84,
         "NOUN": 19,
         "CONJ": 1,
         "PUNCT": 2,
@@ -33258,7 +33368,7 @@
         "PUNCT": 10,
         "ADJ": 4,
         "NOUN": 6,
-        "DET": 5,
+        "DET": 6,
         "</S>": 6,
         "PROPN": 1,
         "VERB": 1,
@@ -33349,7 +33459,7 @@
         "PROPN": 3,
         "DET": 21,
         "PART": 7,
-        "NOUN": 16,
+        "NOUN": 17,
         "CONJ": 13,
         "PREP": 28,
         "WH": 1,
@@ -33363,7 +33473,8 @@
         "PUNCT": 7,
         "PROPN": 4,
         "PREP": 1,
-        "CONJ": 1
+        "CONJ": 1,
+        "NOUN": 1
       },
       "PROPN|DET": {
         "NOUN": 3,
@@ -33372,7 +33483,7 @@
       "PUNCT|ADJ": {
         "NOUN": 22,
         "PUNCT": 14,
-        "PROPN": 1,
+        "PROPN": 2,
         "PREP": 11,
         "ADJ": 1,
         "CONJ": 1,
@@ -33454,7 +33565,7 @@
       },
       "ADJ|PROPN": {
         "PUNCT": 5,
-        "NOUN": 7,
+        "NOUN": 8,
         "CONJ": 1,
         "PROPN": 1,
         "AUX": 2,
@@ -33516,7 +33627,7 @@
         "MODAL": 1
       },
       "NOUN|DET": {
-        "NOUN": 104,
+        "NOUN": 106,
         "ADJ": 44,
         "CONJ": 9,
         "ADV": 5,
@@ -33591,7 +33702,7 @@
         "AUX": 15,
         "PUNCT": 34,
         "NOUN": 22,
-        "DET": 3,
+        "DET": 5,
         "MODAL": 1,
         "PROPN": 4,
         "ADJ": 1,
@@ -33904,7 +34015,7 @@
         "VERB": 3
       },
       "PREP|ADV": {
-        "VERB": 3,
+        "VERB": 4,
         "ADJ": 2,
         "NOUN": 2,
         "PUNCT": 1
@@ -34187,7 +34298,7 @@
         "the": 30,
         "a": 12,
         "do": 8,
-        "be": 5,
+        "be": 6,
         "learn": 4,
         "overlap": 3,
         "write": 3,
@@ -34200,7 +34311,10 @@
         "hide": 1,
         "use": 1,
         "become": 1,
-        "seem": 1
+        "seem": 1,
+        "give": 1,
+        "better": 1,
+        "state-of-the-art": 1
       },
       "talk": {
         "with": 1,
@@ -34219,7 +34333,8 @@
         "you": 1,
         "my": 1,
         "knowledge": 1,
-        "someone": 1
+        "someone": 1,
+        "explicitly": 1
       },
       "how": {
         "are": 1,
@@ -34370,7 +34485,9 @@
         "restaurant": 1,
         "pedestrian": 1,
         "group": 1,
-        "variety": 1
+        "variety": 1,
+        "reasoning": 1,
+        "wider": 1
       },
       "tool": {
         "for": 1
@@ -34386,7 +34503,8 @@
         "your": 1,
         "help": 1,
         "better": 1,
-        "anyone": 1
+        "anyone": 1,
+        "solving": 1
       },
       "sharing": {
         "ideas": 1
@@ -34404,7 +34522,8 @@
         "application": 3,
         "practical": 1,
         "quality": 1,
-        "i-beams": 1
+        "i-beams": 1,
+        "ability": 1
       },
       "brain": {
         "is": 1,
@@ -34634,7 +34753,8 @@
         "of": 1,
         "easily": 1,
         "sophisticated": 1,
-        "detailed": 3
+        "detailed": 3,
+        "effectively": 1
       },
       "learning": {
         "is": 5,
@@ -34649,7 +34769,8 @@
         "where": 1,
         "aims": 1,
         "by": 1,
-        "as": 1
+        "as": 1,
+        "for": 1
       },
       "fun": {
         "when": 1
@@ -34773,7 +34894,9 @@
         "creative": 2,
         "enthusiasm": 2,
         "to": 2,
-        "think": 1
+        "think": 1,
+        "knowledge": 1,
+        "generalize": 1
       },
       "meanings": {
         "have": 1,
@@ -34925,7 +35048,8 @@
         "may": 1,
         "section": 2,
         "interdisciplinary": 1,
-        "according": 1
+        "according": 1,
+        "combination": 1
       },
       "they": {
         "are": 2,
@@ -35094,7 +35218,8 @@
         "postwar": 3,
         "being": 1,
         "techniques": 1,
-        "technique": 1
+        "technique": 1,
+        "problems": 1
       },
       "reading": {
         "is": 1,
@@ -35167,7 +35292,8 @@
         "of": 1,
         "source": 3,
         "are": 1,
-        "imply": 1
+        "imply": 1,
+        "to": 1
       },
       "grows": {
         "when": 1
@@ -35494,7 +35620,8 @@
         "understanding": 1,
         "/": 2,
         "and": 2,
-        "so": 1
+        "so": 1,
+        "represent": 1
       },
       "now": {
         "that": 2,
@@ -36265,7 +36392,8 @@
         "can": 1,
         "have": 1,
         "for": 1,
-        "whose": 1
+        "whose": 1,
+        "the": 1
       },
       "distributed": {
         "computing": 3,
@@ -36355,7 +36483,8 @@
         "never": 1
       },
       "statistical": {
-        "physics": 1
+        "physics": 1,
+        "patterns": 1
       },
       "has": {
         "far-ranging": 1,
@@ -36400,7 +36529,7 @@
         "errored": 1
       },
       "machine": {
-        "learning": 9,
+        "learning": 10,
         "to": 2
       },
       "network": {
@@ -36695,14 +36824,16 @@
         "separated": 1,
         "similar": 1,
         "stored": 1,
-        "transformed": 1
+        "transformed": 1,
+        "combined": 1
       },
       "defined": {
         "for": 4,
         "phenomenon": 1,
         "sense": 1,
         "as": 1,
-        "role": 1
+        "role": 1,
+        "rules": 1
       },
       "each": {
         "language": 4,
@@ -37304,7 +37435,7 @@
         ")": 1
       },
       "provides": {
-        "a": 1,
+        "a": 2,
         "examples": 1
       },
       "definitive": {
@@ -37714,7 +37845,9 @@
         "is": 2,
         ")": 2,
         "companies": 1,
-        "for": 1
+        "for": 1,
+        "systems": 1,
+        "provides": 1
       },
       "american": {
         "artificial": 2,
@@ -38505,7 +38638,8 @@
         "explicitly": 1
       },
       "explicitly": {
-        "mark": 1
+        "mark": 1,
+        "defined": 1
       },
       "mark": {
         "the": 1,
@@ -39022,7 +39156,8 @@
       "problems": {
         "across": 1,
         "that": 1,
-        "to": 1
+        "to": 1,
+        "more": 1
       },
       "hardware": {
         "and": 1,
@@ -39595,7 +39730,8 @@
       },
       "allows": {
         "a": 1,
-        "experiences": 1
+        "experiences": 1,
+        "statistical": 1
       },
       "single": {
         "piece": 1,
@@ -40488,7 +40624,7 @@
         "(": 1
       },
       "range": {
-        "of": 2,
+        "of": 3,
         "from": 2
       },
       "abilities": {
@@ -40640,7 +40776,7 @@
         "combined": 1
       },
       "combined": {
-        "with": 2,
+        "with": 3,
         "to": 1
       },
       "solidification": {
@@ -40672,7 +40808,8 @@
       },
       "give": {
         "a": 1,
-        "definiteness": 1
+        "definiteness": 1,
+        "ai": 1
       },
       "verbal": {
         "description": 1,
@@ -41271,7 +41408,7 @@
         "rules": 2
       },
       "rules": {
-        "and": 2,
+        "and": 3,
         "that": 1,
         "or": 1
       },
@@ -41330,7 +41467,7 @@
         "anaphorically": 1
       },
       "ability": {
-        "to": 2,
+        "to": 3,
         "of": 1,
         "(": 1
       },
@@ -43632,7 +43769,8 @@
         "training": 1
       },
       "solving": {
-        "them": 1
+        "them": 1,
+        "a": 1
       },
       "capturing": {
         "essential": 1,
@@ -45039,13 +45177,37 @@
       },
       "belongs": {
         "to": 1
+      },
+      "combination": {
+        "allows": 1
+      },
+      "patterns": {
+        "to": 1
+      },
+      "reason": {
+        "and": 1
+      },
+      "neuro-symbolic": {
+        "ai": 1
+      },
+      "reasoning": {
+        "infrastructure": 1
+      },
+      "infrastructure": {
+        "to": 1
+      },
+      "state-of-the-art": {
+        "machine": 1
+      },
+      "wider": {
+        "range": 1
       }
     },
     "starters": {
       "i": 42,
       "how": 3,
       "what": 6,
-      "<NOUN>": 177,
+      "<NOUN>": 178,
       "the": 147,
       "she": 7,
       "we": 13,
@@ -45078,7 +45240,7 @@
       "his": 5,
       "of": 7,
       "her": 1,
-      "this": 21,
+      "this": 22,
       "these": 9,
       "as": 1,
       "each": 7,
@@ -45119,7 +45281,7 @@
     "connectors": {
       "because": 9,
       "or": 203,
-      "and": 334,
+      "and": 336,
       "but": 34,
       "so": 14,
       "while": 5,
@@ -45159,7 +45321,7 @@
         "while": 1
       },
       "NOUN>NOUN": {
-        "and": 138,
+        "and": 139,
         "or": 86,
         "as": 4,
         "yet": 1,
@@ -45168,7 +45330,7 @@
         "than": 1
       },
       "NOUN>VERB": {
-        "and": 15,
+        "and": 16,
         "or": 8,
         "as": 2,
         "than": 1
@@ -46421,12 +46583,6 @@
       "ADJ NOUN | and | NOUN PREP VERB": 1
     },
     "sentence_bank": {
-      "events": [
-        "A series of events leading to a result or product ."
-      ],
-      "conversion": [
-        "Of, or relating to the conversion of heat into other forms of energy ."
-      ],
       "liquid": [
         "Liquid AI is an American artificial intelligence company, an MIT spin-off, that develops liquid foundation models running directly on devices without a cloud connection."
       ],
@@ -48391,6 +48547,12 @@
       ],
       "belongs": [
         "One who belongs to a group ."
+      ],
+      "thus": [
+        "Thus, neuro-symbolic AI provides a reasoning infrastructure to state-of-the-art machine learning for solving a wider range of problems more effectively."
+      ],
+      "neuro-symbolic": [
+        "Thus, neuro-symbolic AI provides a reasoning infrastructure to state-of-the-art machine learning for solving a wider range of problems more effectively."
       ]
     }
   },
@@ -48694,7 +48856,12 @@
       "mobile",
       "structural",
       "bridge",
-      "technique"
+      "technique",
+      "combination",
+      "statistical",
+      "explicitly",
+      "reasoning",
+      "infrastructure"
     ],
     "names": [],
     "lessons": 44,
@@ -48702,7 +48869,6 @@
     "taught": 0,
     "last_lesson": "2026-10-24 11:40:34",
     "pending_concepts": [
-      "neuro-symbolic reasoning",
       "autonomous recursive self-improvement",
       "direct instruction-set architecture manipulation",
       "strict class-based object orientation",
