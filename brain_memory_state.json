@@ -11,7 +11,7 @@
     "cortisol": 0.018,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.5898000000000002,
+    "adenosine": 0.6498000000000002,
     "newborn": false
   },
   "episodic_memory": [
@@ -2933,6 +2933,20 @@
       "text": "Two things I read keep meeting in my head: Quantum Computing and Qubits. Superconducting quantum computing is a branch of quantum computing and solid-state physics that implements superconducting electronic circuits as qubits in a quantum processor. Superconducting quantum computing is a branch of quantum computing and solid-state physics that implements superconducting electronic circuits as qubits in a quantum processor. The shared thread seems to be implementations and equivalent. Is there a real link between quantum processor and microwave frequency electronic circuits?",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 0.945
+    },
+    {
+      "time": "2026-10-24 09:56:24",
+      "speaker": "brain",
+      "text": "I practised my English because I want to talk with you more naturally. I learned 6 new words: 'successor' (a noun) means a person or thing that immediately follows another in holding an office or title ; 'general' (an adjective) means including or involving every part or member of a given or implied entity, whole, etc.; com; 'requires' (a verb) means third-person singular simple present indicative of require; 'static' (an adjective) means unchanging ; that cannot or does not change and 2 more. Now I know 349 words, I have studied 630 sentences, and I have 53 sentence patterns.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 09:58:14",
+      "speaker": "brain",
+      "text": "I wondered about 'Deep learning' by myself and went searching. From Wikipedia (live internet) I learned: In machine learning, deep learning (DL) focuses on utilizing multilayered neural networks to perform tasks such as classification, regression, and representation learning. Key ideas I stored: utilizing multilayered neural networks, stacking artificial neurons, machine learning, deep learning, biological neuroscience.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
     }
   ],
   "world_knowledge_graph": {
@@ -5996,6 +6010,20 @@
       "building_blocks": [
         "{{cite journal}}"
       ]
+    },
+    "Deep learning": {
+      "summary": "In machine learning, deep learning (DL) focuses on utilizing multilayered neural networks to perform tasks such as classification, regression, and representation learning. The field takes inspiration from biological neuroscience and revolves around stacking artificial neurons into layers and \"training\" them to process data. The adjective \"deep\" refers to the use of multiple layers in the network. Methods used can be supervised, semi-supervised or unsupervised.",
+      "concepts": [
+        "utilizing multilayered neural networks",
+        "stacking artificial neurons",
+        "machine learning",
+        "deep learning",
+        "biological neuroscience",
+        "representation learning"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Deep_learning",
+      "learned": "2026-10-24 09:58:14"
     }
   },
   "creator_teachings": [
@@ -7667,6 +7695,18 @@
       "kind": "daydream",
       "score": 0.945,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 09:56:24",
+      "kind": "language_lesson",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-24 09:58:14",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -7715,7 +7755,8 @@
     "etiquette",
     "dissipative",
     "storytelling",
-    "active listening"
+    "active listening",
+    "deep learning"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -23886,17 +23927,75 @@
       "source": "corpus",
       "learned": "2026-10-24 09:56:24",
       "uses": 1
+    },
+    "representation": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 09:58:14",
+      "uses": 1
+    },
+    "inspiration": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The field takes inspiration from biological neuroscience and revolves around stacking artificial neurons into layers and \"training\" them to process data."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 09:58:14",
+      "uses": 1
+    },
+    "neurons": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The field takes inspiration from biological neuroscience and revolves around stacking artificial neurons into layers and \"training\" them to process data."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 09:58:14",
+      "uses": 1
+    },
+    "layers": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The adjective \"deep\" refers to the use of multiple layers in the network."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 09:58:14",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 630,
-      "tokens": 10479,
+      "sentences": 634,
+      "tokens": 10557,
       "sources": {
         "seed corpus": 64,
         "conversation": 12,
         "dictionary": 235,
-        "explore": 52,
+        "explore": 56,
         "pasted text": 24,
         "deep study": 243
       },
@@ -24096,7 +24195,8 @@
         "304ed2f9c8be",
         "192e04b196cf",
         "8f4eb8e8d1b8",
-        "c7e4cf0a163b"
+        "c7e4cf0a163b",
+        "6adc25c43f83"
       ],
       "seeded": true,
       "rejected": 117,
@@ -24248,7 +24348,6 @@
         "etc": 1,
         "spell": 1,
         "nerves": 1,
-        "neurons": 1,
         "synapse": 1,
         "junction": 1,
         "terminal": 1,
@@ -24385,7 +24484,6 @@
         "dependents": 1,
         "bear": 1,
         "fulfill": 1,
-        "representation": 1,
         "parse": 1,
         "depends": 1,
         "basic": 1,
@@ -24631,7 +24729,6 @@
         "masterpiece": 1,
         "rumors": 1,
         "excellence": 1,
-        "inspiration": 1,
         "amazing": 1,
         "sticks": 1,
         "discarded": 1,
@@ -25248,15 +25345,27 @@
         "counters": 1,
         "whenever": 1,
         "pollution": 1,
-        "employed": 1
+        "employed": 1,
+        "utilizing": 1,
+        "multilayered": 1,
+        "perform": 1,
+        "tasks": 1,
+        "classification": 1,
+        "regression": 1,
+        "field": 1,
+        "neuroscience": 1,
+        "revolves": 1,
+        "stacking": 1,
+        "supervised": 1,
+        "unsupervised": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
         "PRON": 83,
         "WH": 19,
-        "NOUN": 117,
-        "DET": 192,
+        "NOUN": 118,
+        "DET": 194,
         "VERB": 49,
         "MODAL": 2,
         "ADJ": 58,
@@ -25264,7 +25373,7 @@
         "CONJ": 15,
         "AUX": 2,
         "ADV": 8,
-        "PREP": 71,
+        "PREP": 72,
         "PART": 6,
         "NUM": 2,
         "NEG": 1
@@ -25278,7 +25387,7 @@
         "PREP": 11,
         "WH": 1,
         "DET": 3,
-        "PART": 5,
+        "PART": 6,
         "</S>": 2,
         "NOUN": 5,
         "CONJ": 2,
@@ -25292,7 +25401,7 @@
         "DET": 115,
         "NOUN": 31,
         "NEG": 17,
-        "VERB": 107,
+        "VERB": 108,
         "INTJ": 1,
         "ADV": 37,
         "CONJ": 3,
@@ -25305,7 +25414,7 @@
       },
       "ADJ": {
         "PART": 14,
-        "NOUN": 591,
+        "NOUN": 596,
         "WH": 2,
         "PUNCT": 87,
         "PREP": 57,
@@ -25322,7 +25431,7 @@
         "PRON": 1
       },
       "PART": {
-        "VERB": 132,
+        "VERB": 134,
         "AUX": 13,
         "ADJ": 8,
         "NOUN": 20,
@@ -25334,29 +25443,30 @@
       "VERB": {
         "PREP": 185,
         "PART": 52,
-        "ADJ": 37,
-        "NOUN": 153,
-        "PUNCT": 96,
-        "PRON": 36,
+        "ADJ": 38,
+        "NOUN": 157,
+        "PUNCT": 100,
+        "PRON": 37,
         "AUX": 16,
         "DET": 149,
-        "VERB": 18,
-        "CONJ": 57,
+        "VERB": 19,
+        "CONJ": 58,
         "WH": 8,
         "</S>": 7,
         "ADV": 16,
         "PROPN": 13,
         "NUM": 4,
-        "NEG": 1
+        "NEG": 1,
+        "MODAL": 1
       },
       "PREP": {
         "PRON": 25,
-        "NOUN": 346,
-        "DET": 383,
+        "NOUN": 349,
+        "DET": 385,
         "PUNCT": 20,
-        "VERB": 22,
+        "VERB": 23,
         "PREP": 12,
-        "ADJ": 121,
+        "ADJ": 123,
         "PROPN": 65,
         "AUX": 9,
         "NUM": 16,
@@ -25367,11 +25477,11 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 590,
-        "NOUN": 194,
-        "CONJ": 128,
+        "</S>": 594,
+        "NOUN": 196,
+        "CONJ": 129,
         "PRON": 16,
-        "VERB": 27,
+        "VERB": 28,
         "ADV": 25,
         "PREP": 20,
         "ADJ": 34,
@@ -25415,32 +25525,32 @@
       },
       "NOUN": {
         "AUX": 202,
-        "PREP": 606,
-        "NOUN": 552,
-        "PUNCT": 804,
-        "CONJ": 244,
-        "VERB": 178,
+        "PREP": 613,
+        "NOUN": 557,
+        "PUNCT": 808,
+        "CONJ": 246,
+        "VERB": 184,
         "ADV": 34,
-        "PART": 83,
-        "ADJ": 85,
+        "PART": 84,
+        "ADJ": 86,
         "MODAL": 33,
         "</S>": 29,
         "PRON": 36,
         "WH": 23,
-        "DET": 123,
-        "PROPN": 39,
+        "DET": 124,
+        "PROPN": 40,
         "NUM": 8,
         "NEG": 4
       },
       "DET": {
-        "NOUN": 684,
-        "ADJ": 334,
+        "NOUN": 687,
+        "ADJ": 335,
         "PRON": 10,
         "PREP": 21,
         "NUM": 14,
         "PART": 5,
         "VERB": 15,
-        "CONJ": 24,
+        "CONJ": 25,
         "PROPN": 55,
         "DET": 26,
         "ADV": 7,
@@ -25451,8 +25561,8 @@
       "CONJ": {
         "PRON": 30,
         "DET": 88,
-        "NOUN": 212,
-        "VERB": 40,
+        "NOUN": 216,
+        "VERB": 41,
         "ADJ": 65,
         "ADV": 14,
         "PUNCT": 14,
@@ -25471,7 +25581,7 @@
         "PRON": 3,
         "DET": 3,
         "CONJ": 3,
-        "AUX": 27,
+        "AUX": 28,
         "NOUN": 7,
         "NEG": 3,
         "ADV": 4,
@@ -25498,7 +25608,7 @@
         "DET": 2,
         "PUNCT": 89,
         "PART": 3,
-        "NOUN": 84,
+        "NOUN": 85,
         "AUX": 13,
         "PROPN": 60,
         "ADJ": 15,
@@ -25567,7 +25677,7 @@
         "PREP": 15,
         "ADJ": 11,
         "PUNCT": 17,
-        "NOUN": 32,
+        "NOUN": 34,
         "WH": 2,
         "DET": 29,
         "PART": 2,
@@ -25676,7 +25786,7 @@
       },
       "<S>|NOUN": {
         "AUX": 37,
-        "VERB": 15,
+        "VERB": 16,
         "PUNCT": 7,
         "NOUN": 23,
         "CONJ": 10,
@@ -25714,11 +25824,11 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 210,
+        "PREP": 211,
         "AUX": 60,
         "CONJ": 54,
-        "PUNCT": 143,
-        "VERB": 44,
+        "PUNCT": 144,
+        "VERB": 45,
         "ADV": 10,
         "ADJ": 19,
         "NOUN": 57,
@@ -25731,12 +25841,12 @@
         "WH": 3
       },
       "NOUN|PREP": {
-        "NOUN": 211,
-        "DET": 213,
+        "NOUN": 213,
+        "DET": 215,
         "PREP": 5,
-        "ADJ": 82,
+        "ADJ": 84,
         "PROPN": 32,
-        "VERB": 16,
+        "VERB": 17,
         "PUNCT": 8,
         "NUM": 10,
         "WH": 9,
@@ -25748,9 +25858,9 @@
       "PREP|NOUN": {
         "NOUN": 51,
         "PUNCT": 105,
-        "VERB": 18,
-        "CONJ": 44,
-        "ADJ": 7,
+        "VERB": 19,
+        "CONJ": 45,
+        "ADJ": 8,
         "DET": 18,
         "AUX": 6,
         "PREP": 42,
@@ -25765,10 +25875,10 @@
       "NOUN|NOUN": {
         "PUNCT": 142,
         "PART": 11,
-        "NOUN": 124,
-        "PREP": 97,
+        "NOUN": 126,
+        "PREP": 99,
         "CONJ": 44,
-        "VERB": 34,
+        "VERB": 35,
         "PROPN": 10,
         "AUX": 23,
         "MODAL": 9,
@@ -25782,9 +25892,9 @@
         "</S>": 1
       },
       "NOUN|PUNCT": {
-        "</S>": 400,
-        "NOUN": 139,
-        "CONJ": 85,
+        "</S>": 402,
+        "NOUN": 140,
+        "CONJ": 86,
         "ADV": 19,
         "PREP": 16,
         "ADJ": 23,
@@ -25799,8 +25909,8 @@
         "PUNCT": 4
       },
       "<S>|DET": {
-        "NOUN": 116,
-        "ADJ": 54,
+        "NOUN": 117,
+        "ADJ": 55,
         "PROPN": 11,
         "VERB": 2,
         "PREP": 1,
@@ -25809,7 +25919,7 @@
         "NUM": 3
       },
       "DET|ADJ": {
-        "NOUN": 268,
+        "NOUN": 269,
         "CONJ": 7,
         "ADJ": 14,
         "PUNCT": 12,
@@ -25825,15 +25935,15 @@
       },
       "ADJ|NOUN": {
         "PUNCT": 172,
-        "NOUN": 114,
+        "NOUN": 115,
         "MODAL": 5,
         "VERB": 33,
-        "PREP": 131,
-        "CONJ": 42,
+        "PREP": 133,
+        "CONJ": 43,
         "DET": 16,
         "ADJ": 10,
         "AUX": 34,
-        "PART": 18,
+        "PART": 19,
         "WH": 3,
         "PROPN": 1,
         "ADV": 7,
@@ -25841,7 +25951,7 @@
         "</S>": 3
       },
       "VERB|ADJ": {
-        "NOUN": 24,
+        "NOUN": 25,
         "PUNCT": 4,
         "CONJ": 3,
         "VERB": 3,
@@ -25850,7 +25960,7 @@
         "PREP": 1
       },
       "PREP|DET": {
-        "NOUN": 228,
+        "NOUN": 230,
         "ADJ": 100,
         "NUM": 5,
         "PREP": 6,
@@ -25865,7 +25975,7 @@
         "PRON": 6,
         "DET": 42,
         "VERB": 14,
-        "NOUN": 115,
+        "NOUN": 117,
         "ADJ": 28,
         "WH": 4,
         "PREP": 7,
@@ -25886,17 +25996,17 @@
         "PREP": 1
       },
       "VERB|NOUN": {
-        "PUNCT": 40,
-        "PREP": 28,
+        "PUNCT": 41,
+        "PREP": 29,
         "PART": 3,
         "VERB": 5,
         "NOUN": 33,
         "CONJ": 12,
         "MODAL": 1,
         "ADJ": 6,
-        "DET": 11,
+        "DET": 12,
         "AUX": 6,
-        "PROPN": 4,
+        "PROPN": 5,
         "NEG": 1,
         "WH": 1,
         "PRON": 1,
@@ -25927,14 +26037,14 @@
         "CONJ": 12,
         "NOUN": 44,
         "ADJ": 4,
-        "PUNCT": 86,
+        "PUNCT": 87,
         "PREP": 20,
         "AUX": 9,
         "DET": 7,
         "ADV": 2,
         "PROPN": 3,
         "PART": 1,
-        "VERB": 4,
+        "VERB": 5,
         "PRON": 1,
         "WH": 1
       },
@@ -25951,15 +26061,16 @@
         "WH": 1
       },
       "VERB|PUNCT": {
-        "</S>": 70,
+        "</S>": 72,
         "PRON": 3,
         "CONJ": 3,
-        "NOUN": 11,
+        "NOUN": 12,
         "DET": 5,
         "ADJ": 1,
         "NEG": 1,
         "WH": 1,
-        "ADV": 1
+        "ADV": 1,
+        "VERB": 1
       },
       "<S>|VERB": {
         "PRON": 2,
@@ -25981,7 +26092,7 @@
         "PUNCT": 6,
         "WH": 1,
         "DET": 2,
-        "PART": 4,
+        "PART": 5,
         "</S>": 1,
         "NOUN": 4,
         "CONJ": 1,
@@ -26033,17 +26144,18 @@
         "DET": 41,
         "PREP": 44,
         "WH": 3,
-        "PRON": 11,
-        "PUNCT": 14,
+        "PRON": 12,
+        "PUNCT": 16,
         "</S>": 3,
         "ADV": 8,
-        "NOUN": 23,
+        "NOUN": 25,
         "NUM": 1,
         "CONJ": 12,
         "AUX": 1,
         "VERB": 2,
         "PROPN": 5,
-        "ADJ": 5
+        "ADJ": 5,
+        "MODAL": 1
       },
       "AUX|NOUN": {
         "PUNCT": 6,
@@ -26056,7 +26168,7 @@
         "ADJ": 3
       },
       "PUNCT|CONJ": {
-        "NOUN": 46,
+        "NOUN": 47,
         "PRON": 10,
         "DET": 18,
         "PUNCT": 5,
@@ -26073,12 +26185,12 @@
       },
       "CONJ|NOUN": {
         "AUX": 8,
-        "PUNCT": 52,
+        "PUNCT": 53,
         "</S>": 1,
-        "PREP": 42,
-        "VERB": 8,
+        "PREP": 43,
+        "VERB": 9,
         "WH": 4,
-        "NOUN": 67,
+        "NOUN": 68,
         "PRON": 2,
         "PART": 8,
         "CONJ": 6,
@@ -26137,7 +26249,7 @@
       },
       "AUX|VERB": {
         "PREP": 44,
-        "PUNCT": 16,
+        "PUNCT": 17,
         "PART": 17,
         "PRON": 1,
         "NOUN": 7,
@@ -26149,7 +26261,7 @@
       "CONJ|VERB": {
         "PART": 3,
         "NOUN": 10,
-        "PUNCT": 14,
+        "PUNCT": 15,
         "ADJ": 2,
         "PREP": 9,
         "CONJ": 1,
@@ -26168,7 +26280,7 @@
       "NOUN|PART": {
         "ADJ": 6,
         "AUX": 7,
-        "VERB": 52,
+        "VERB": 53,
         "NOUN": 14,
         "CONJ": 1,
         "PUNCT": 2,
@@ -26184,7 +26296,7 @@
         "PUNCT": 2,
         "PREP": 4,
         "PRON": 1,
-        "ADJ": 2,
+        "ADJ": 3,
         "DET": 4,
         "NOUN": 3,
         "CONJ": 2
@@ -26219,7 +26331,7 @@
       },
       "NOUN|ADJ": {
         "PUNCT": 9,
-        "NOUN": 46,
+        "NOUN": 47,
         "DET": 3,
         "PREP": 9,
         "ADJ": 6,
@@ -26237,7 +26349,7 @@
       },
       "VERB|CONJ": {
         "PRON": 3,
-        "VERB": 11,
+        "VERB": 12,
         "DET": 13,
         "PUNCT": 3,
         "PROPN": 1,
@@ -26266,7 +26378,7 @@
       },
       "PUNCT|VERB": {
         "AUX": 1,
-        "CONJ": 2,
+        "CONJ": 3,
         "PREP": 6,
         "NOUN": 12,
         "PUNCT": 2,
@@ -26354,7 +26466,8 @@
         "NOUN": 3,
         "DET": 5,
         "</S>": 3,
-        "PROPN": 1
+        "PROPN": 1,
+        "VERB": 1
       },
       "ADV|NOUN": {
         "PUNCT": 8,
@@ -26460,7 +26573,7 @@
         "CONJ": 3,
         "PROPN": 5,
         "ADJ": 12,
-        "NOUN": 89,
+        "NOUN": 91,
         "PUNCT": 6,
         "AUX": 1,
         "VERB": 4,
@@ -26478,7 +26591,7 @@
         "VERB": 1
       },
       "PRON|PART": {
-        "VERB": 4,
+        "VERB": 5,
         "AUX": 1
       },
       "DET|PREP": {
@@ -26585,7 +26698,7 @@
       "NOUN|DET": {
         "NOUN": 54,
         "ADJ": 38,
-        "CONJ": 7,
+        "CONJ": 8,
         "ADV": 4,
         "PRON": 5,
         "PROPN": 2,
@@ -26596,7 +26709,7 @@
       },
       "NOUN|PROPN": {
         "PART": 1,
-        "NOUN": 18,
+        "NOUN": 19,
         "AUX": 5,
         "PROPN": 3,
         "PREP": 3,
@@ -26640,7 +26753,7 @@
         "PUNCT": 1
       },
       "<S>|PREP": {
-        "NOUN": 26,
+        "NOUN": 27,
         "PROPN": 8,
         "ADJ": 4,
         "DET": 27,
@@ -26652,7 +26765,7 @@
         "CONJ": 3,
         "AUX": 12,
         "PUNCT": 31,
-        "NOUN": 18,
+        "NOUN": 19,
         "DET": 3,
         "MODAL": 1,
         "PROPN": 4,
@@ -26679,7 +26792,7 @@
         "PART": 1
       },
       "MODAL|AUX": {
-        "VERB": 16,
+        "VERB": 17,
         "DET": 3,
         "ADJ": 5,
         "ADV": 2,
@@ -26733,7 +26846,7 @@
         "ADJ": 1
       },
       "DET|CONJ": {
-        "NOUN": 9,
+        "NOUN": 10,
         "PROPN": 2,
         "DET": 5,
         "ADJ": 4,
@@ -27144,6 +27257,9 @@
       },
       "NUM|PROPN": {
         "PUNCT": 1
+      },
+      "VERB|MODAL": {
+        "AUX": 1
       }
     },
     "word_bigrams": {
@@ -27178,7 +27294,7 @@
         "to": 1
       },
       "to": {
-        "the": 23,
+        "the": 24,
         "a": 7,
         "do": 5,
         "overlap": 3,
@@ -27195,7 +27311,9 @@
         "ridicule": 1,
         "itself": 1,
         "bill": 1,
-        "proceed": 1
+        "proceed": 1,
+        "perform": 1,
+        "process": 1
       },
       "talk": {
         "with": 1,
@@ -27404,7 +27522,11 @@
         "realization": 2,
         "world": 2,
         "action": 1,
-        "bean": 1
+        "bean": 1,
+        "field": 1,
+        "adjective": 1,
+        "use": 1,
+        "network": 1
       },
       "brain": {
         "is": 1,
@@ -27493,7 +27615,7 @@
         "you": 2,
         "change": 2,
         "operate": 2,
-        "be": 15,
+        "be": 16,
         "vary": 1,
         "sometimes": 1,
         "use": 2,
@@ -27534,17 +27656,7 @@
         "other": 2,
         "professionalism": 2,
         "emotions": 2,
-        "contrasts": 2,
-        "information": 1,
-        "by": 1,
-        "bottom-up": 1,
-        "permanent": 1,
-        "belonging": 1,
-        "its": 1,
-        "beginning": 1,
-        "referring": 1,
-        "thing": 1,
-        "title": 1
+        "contrasts": 2
       },
       "it": {
         "is": 19,
@@ -27613,7 +27725,8 @@
         "models": 1,
         "new": 1,
         "english": 1,
-        "simple": 1
+        "simple": 1,
+        "(": 1
       },
       "fun": {
         "when": 1
@@ -27735,7 +27848,10 @@
         "mental": 1,
         "all": 1,
         "did": 1,
-        "efficient": 1
+        "efficient": 1,
+        "representation": 1,
+        "revolves": 1,
+        "\"": 1
       },
       "meanings": {
         "have": 1,
@@ -27888,13 +28004,13 @@
         "in": 1
       },
       "in": {
-        "the": 42,
+        "the": 43,
         "a": 19,
         "english": 10,
         "many": 5,
         "\"": 4,
         "c": 3,
-        "machine": 3,
+        "machine": 4,
         "most": 3,
         "which": 3,
         "type": 2,
@@ -28027,17 +28143,7 @@
         "criteria": 3,
         "knowledge": 3,
         "other": 3,
-        "learn": 2,
-        "run": 1,
-        "device": 1,
-        "water": 1,
-        "connecting": 1,
-        "stories": 1,
-        "design": 1,
-        "artificial": 2,
-        "require": 1,
-        "static": 1,
-        "architecture": 1
+        "learn": 2
       },
       "reading": {
         "is": 1,
@@ -28268,7 +28374,9 @@
       },
       "deep": {
         "underground": 1,
-        "study": 1
+        "study": 1,
+        "learning": 1,
+        "\"": 1
       },
       "thought": {
         "long": 1,
@@ -28301,7 +28409,8 @@
         "work": 1,
         "to": 1,
         "its": 1,
-        "each": 1
+        "each": 1,
+        "biological": 1
       },
       "point": {
         "of": 1,
@@ -28497,7 +28606,8 @@
         "adoption": 1,
         "how": 1,
         "what": 1,
-        "it": 1
+        "it": 1,
+        "utilizing": 1
       },
       "situation": {
         "in": 1,
@@ -28559,7 +28669,8 @@
         "is": 2,
         "to": 1,
         "can": 1,
-        "that": 1
+        "that": 1,
+        "data": 1
       },
       "acquiring": {
         "new": 2
@@ -28599,7 +28710,7 @@
       },
       "neural": {
         "connections": 3,
-        "networks": 11,
+        "networks": 12,
         "network": 5,
         "plasticity": 1
       },
@@ -28635,14 +28746,16 @@
         "neural": 5,
         "intelligence": 6,
         "superintelligence": 1,
-        "general": 3
+        "general": 3,
+        "neurons": 1
       },
       "networks": {
         "relies": 1,
         "(": 2,
         "are": 1,
         "that": 1,
-        "in": 1
+        "in": 1,
+        "to": 1
       },
       "relies": {
         "on": 1
@@ -28711,7 +28824,8 @@
         "nervous": 1,
         "systems": 1,
         "neural": 2,
-        "cognitive": 1
+        "cognitive": 1,
+        "neuroscience": 1
       },
       "brains": {
         "operate": 1
@@ -28956,7 +29070,8 @@
         "five": 1,
         "adulthood": 1,
         "or": 1,
-        "effect": 1
+        "effect": 1,
+        "layers": 1
       },
       "dissipative": {
         "structures": 1,
@@ -29122,7 +29237,8 @@
         "car": 1,
         "by": 3,
         "with": 1,
-        "solution": 1
+        "solution": 1,
+        "can": 1
       },
       "diverse": {
         "fields": 1
@@ -29184,7 +29300,7 @@
         "errored": 1
       },
       "machine": {
-        "learning": 4,
+        "learning": 5,
         "to": 2
       },
       "network": {
@@ -29210,32 +29326,23 @@
         "for": 1,
         "or": 1,
         "and": 1,
-        "with": 1
+        "with": 1,
+        "dl": 1
       },
       "nn": {
         ")": 1
       },
       ")": {
-        "or": 1,
         "is": 8,
+        "and": 5,
         "grammatical": 3,
-        "of": 1,
         "are": 2,
+        "with": 2,
+        "or": 1,
+        "of": 1,
         "that": 1,
         "system": 1,
-        "language": 1,
-        "–": 1,
-        "together": 1,
-        "prioritizes": 1,
-        "and": 5,
-        "suffered": 1,
-        "anything": 1,
-        "to": 1,
-        "used": 1,
-        "with": 2,
-        "female": 1,
-        "also": 1,
-        "in": 1
+        "language": 1
       },
       "ann": {
         ")": 2
@@ -29443,7 +29550,11 @@
         "red": 1,
         "was": 1,
         "fiction": 1,
-        "portion": 1
+        "portion": 1,
+        "training": 1,
+        "them": 1,
+        "deep": 1,
+        "refers": 1
       },
       "be": {
         "defined": 4,
@@ -29459,7 +29570,8 @@
         "done": 1,
         "temporary": 1,
         "desired": 1,
-        "under": 1
+        "under": 1,
+        "supervised": 1
       },
       "defined": {
         "for": 4,
@@ -29648,7 +29760,8 @@
         "it": 1,
         "rehearsal": 1,
         "me": 1,
-        "president": 1
+        "president": 1,
+        "classification": 1
       },
       "itself": {
         "was": 2
@@ -29725,7 +29838,7 @@
         "in": 3
       },
       "such": {
-        "as": 18,
+        "as": 19,
         "constructs": 1,
         "adaptability": 1,
         "a": 1,
@@ -29800,7 +29913,7 @@
         "them": 1
       },
       "them": {
-        "to": 1,
+        "to": 2,
         "rather": 1,
         "are": 1,
         "at": 1,
@@ -29954,7 +30067,8 @@
       },
       "around": {
         "twenty": 1,
-        "the": 1
+        "the": 1,
+        "stacking": 1
       },
       "twenty": {
         "lessons": 1
@@ -30129,7 +30243,8 @@
         "to": 6
       },
       "neurons": {
-        "or": 1
+        "or": 1,
+        "into": 1
       },
       "synapse": {
         "—": 1
@@ -30577,7 +30692,8 @@
       },
       "training": {
         "corpora": 1,
-        "a": 1
+        "a": 1,
+        "\"": 1
       },
       "corpora": {
         "and": 1
@@ -30691,7 +30807,7 @@
         "denote": 1
       },
       "use": {
-        "of": 10,
+        "of": 11,
         "relatively": 1,
         "a": 1,
         "to": 1,
@@ -31355,7 +31471,8 @@
         "and": 1
       },
       "representation": {
-        "of": 1
+        "of": 1,
+        "learning": 1
       },
       "parse": {
         "trees": 1
@@ -31841,7 +31958,8 @@
       },
       "multiple": {
         "dispatch": 1,
-        "programming": 1
+        "programming": 1,
+        "layers": 1
       },
       "dispatch": {
         "and": 1
@@ -31891,7 +32009,8 @@
         "and": 1
       },
       "field": {
-        "programmable": 1
+        "programmable": 1,
+        "takes": 1
       },
       "programmable": {
         "gate": 1
@@ -33655,7 +33774,7 @@
         "and": 1
       },
       "refers": {
-        "to": 2
+        "to": 3
       },
       "ability": {
         "to": 2
@@ -33897,7 +34016,8 @@
         "—": 1
       },
       "adjective": {
-        "unus": 1
+        "unus": 1,
+        "\"": 1
       },
       "perfect": {
         "for": 1,
@@ -35389,7 +35509,8 @@
         "a": 1
       },
       "focuses": {
-        "only": 1
+        "only": 1,
+        "on": 1
       },
       "expect": {
         "to": 1
@@ -35617,14 +35738,54 @@
       },
       "pollution": {
         "is": 1
+      },
+      "dl": {
+        ")": 1
+      },
+      "utilizing": {
+        "multilayered": 1
+      },
+      "multilayered": {
+        "neural": 1
+      },
+      "perform": {
+        "tasks": 1
+      },
+      "tasks": {
+        "such": 1
+      },
+      "takes": {
+        "inspiration": 1
+      },
+      "inspiration": {
+        "from": 1
+      },
+      "neuroscience": {
+        "and": 1
+      },
+      "revolves": {
+        "around": 1
+      },
+      "stacking": {
+        "artificial": 1
+      },
+      "layers": {
+        "and": 1,
+        "in": 1
+      },
+      "methods": {
+        "used": 1
+      },
+      "semi-supervised": {
+        "or": 1
       }
     },
     "starters": {
       "i": 27,
       "how": 3,
       "what": 5,
-      "<NOUN>": 117,
-      "the": 93,
+      "<NOUN>": 118,
+      "the": 95,
       "she": 4,
       "we": 9,
       "it": 22,
@@ -35648,7 +35809,7 @@
       "<ADV>": 8,
       "an": 11,
       "however": 2,
-      "in": 46,
+      "in": 47,
       "for": 5,
       "toward": 1,
       "<PART>": 6,
@@ -35690,15 +35851,15 @@
     },
     "connectors": {
       "because": 8,
-      "or": 122,
-      "and": 255,
+      "or": 123,
+      "and": 258,
       "but": 24,
       "so": 6,
       "while": 3,
       "than": 15,
       "therefore": 5,
       "if": 4,
-      "as": 71,
+      "as": 72,
       "however": 2,
       "whether": 2,
       "that": 6,
@@ -35729,7 +35890,7 @@
         "while": 1
       },
       "NOUN>NOUN": {
-        "and": 97,
+        "and": 100,
         "or": 49,
         "as": 4,
         "yet": 1,
@@ -35768,7 +35929,7 @@
         "and": 1
       },
       "VERB>VERB": {
-        "or": 6,
+        "or": 7,
         "and": 6
       },
       "NOUN>ADJ": {
@@ -35804,7 +35965,7 @@
         "or": 6
       },
       "DET>NOUN": {
-        "as": 8,
+        "as": 9,
         "than": 1
       },
       "VERB>PUNCT": {
@@ -37024,9 +37185,9 @@
         "Commas are often used to separate clauses ."
       ],
       "used": [
-        "He bought a used car.",
         "While they can be used in formal contexts, their usage should be carefully considered to avoid undermining the seriousness or professionalism of the communication.",
-        "When used in conjunction with a knife to cut and consume food in Western social settings, two forms of fork etiquette are common."
+        "When used in conjunction with a knife to cut and consume food in Western social settings, two forms of fork etiquette are common.",
+        "Methods used can be supervised, semi-supervised or unsupervised."
       ],
       "conjunction": [
         "A conjunction itself was then called a connective .",
@@ -38384,6 +38545,9 @@
       ],
       "parts": [
         "Concerning all parts of the world ."
+      ],
+      "methods": [
+        "Methods used can be supervised, semi-supervised or unsupervised."
       ]
     }
   },
@@ -38692,7 +38856,9 @@
       "keep",
       "support",
       "concerning",
-      "architecture"
+      "architecture",
+      "representation",
+      "inspiration"
     ],
     "names": [],
     "lessons": 20,
@@ -38700,7 +38866,6 @@
     "taught": 0,
     "last_lesson": "2026-10-24 09:56:24",
     "pending_concepts": [
-      "deep learning",
       "attention mechanism",
       "reinforcement learning",
       "cognitive architecture",
