@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.27,
+    "adenosine": 0.33,
     "newborn": false
   },
   "episodic_memory": [
@@ -2847,6 +2847,13 @@
       "time": "2026-10-24 14:16:27",
       "speaker": "brain",
       "text": "Thinking about Machine learning and Neuro-symbolic AI. Machine learning is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data. Neuro-symbolic AI describes a relatively newer approach to artificial intelligence that combines neural networks and symbolic AI approaches, such as knowledge representation and automated reasoning. Both touch on explicitly and generalize, so here is a question to test: does statistical algorithms constrain more trustworthy ai, or the other way round?",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 14:18:31",
+      "speaker": "brain",
+      "text": "I wondered about 'Music technology (electronic and digital)' by myself and went searching. From Wikipedia (live internet) I learned: Digital music technology encompasses the use of digital instruments to produce, perform or record music. Key ideas I stored: digital music technology encompasses, electronic.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6290,6 +6297,16 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Automated_theorem_proving",
       "learned": "2026-10-24 14:14:29"
+    },
+    "Music technology (electronic and digital)": {
+      "summary": "Digital music technology encompasses the use of digital instruments to produce, perform or record music. These instruments vary, including computers, electronic effects units, software, and digital audio equipment. Digital music technology is used in performance, playback, recording, composition, mixing, analysis and editing of music, by professions in all parts of the music industry.",
+      "concepts": [
+        "digital music technology encompasses",
+        "electronic"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Music_technology_(electronic_and_digital)",
+      "learned": "2026-10-24 14:18:31"
     }
   },
   "creator_teachings": [
@@ -7907,6 +7924,12 @@
       "kind": "daydream",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 14:18:31",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -7987,7 +8010,8 @@
     "sql standardizes declarative",
     "language",
     "formal predicate calculus",
-    "automated resolution theorem"
+    "automated resolution theorem",
+    "synthesize digital electronic circuits"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -35296,22 +35320,92 @@
       "source": "corpus",
       "learned": "2026-10-24 14:14:29",
       "uses": 1
+    },
+    "instruments": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "These instruments vary, including computers, electronic effects units, software, and digital audio equipment."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:18:31",
+      "uses": 1
+    },
+    "effects": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "These instruments vary, including computers, electronic effects units, software, and digital audio equipment."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:18:31",
+      "uses": 1
+    },
+    "units": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "These instruments vary, including computers, electronic effects units, software, and digital audio equipment."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:18:31",
+      "uses": 1
+    },
+    "analysis": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:18:31",
+      "uses": 1
+    },
+    "industry": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:18:31",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 1167,
-      "tokens": 18769,
+      "sentences": 1170,
+      "tokens": 18836,
       "sources": {
         "seed corpus": 64,
         "conversation": 16,
         "dictionary": 676,
-        "explore": 144,
+        "explore": 147,
         "pasted text": 24,
         "deep study": 243
       },
       "hashes": [
-        "a3df4f4eedc0",
         "75ef8848602a",
         "eaa0c707d78a",
         "25d76c61cb88",
@@ -35610,7 +35704,8 @@
         "508e44e32600",
         "91207030e0c8",
         "df02f41f2e53",
-        "15a5dfe3fce4"
+        "15a5dfe3fce4",
+        "f26d702594bb"
       ],
       "seeded": true,
       "rejected": 215,
@@ -35715,7 +35810,6 @@
         "definitive": 1,
         "characterization": 1,
         "specified": 1,
-        "analysis": 1,
         "sociology": 1,
         "hiccough": 1,
         "terrible": 1,
@@ -36768,14 +36862,12 @@
         "indeed": 1,
         "concrete": 1,
         "conclusion": 1,
-        "units": 1,
         "advice": 1,
         "buy": 1,
         "services": 1,
         "remotely": 1,
         "practiced": 1,
         "reflects": 1,
-        "industry": 1,
         "measured": 1,
         "retention": 1,
         "employees": 1,
@@ -37002,7 +37094,6 @@
         "melinda": 1,
         "maintained": 1,
         "movie": 1,
-        "effects": 1,
         "lackluster": 1,
         "pearson": 1,
         "overseas": 1,
@@ -37181,7 +37272,14 @@
         "dealing": 1,
         "theorems": 1,
         "proof": 1,
-        "motivating": 1
+        "motivating": 1,
+        "audio": 1,
+        "playback": 1,
+        "recording": 1,
+        "composition": 1,
+        "mixing": 1,
+        "editing": 1,
+        "professions": 1
       }
     },
     "pos_bigrams": {
@@ -37189,10 +37287,10 @@
         "PRON": 181,
         "WH": 22,
         "NOUN": 219,
-        "DET": 377,
+        "DET": 378,
         "VERB": 87,
         "MODAL": 4,
-        "ADJ": 89,
+        "ADJ": 91,
         "INTJ": 5,
         "CONJ": 19,
         "AUX": 3,
@@ -37225,7 +37323,7 @@
         "DET": 205,
         "NOUN": 51,
         "NEG": 30,
-        "VERB": 203,
+        "VERB": 204,
         "INTJ": 1,
         "ADV": 67,
         "CONJ": 8,
@@ -37238,7 +37336,7 @@
       },
       "ADJ": {
         "PART": 28,
-        "NOUN": 992,
+        "NOUN": 997,
         "WH": 2,
         "PUNCT": 177,
         "PREP": 110,
@@ -37255,7 +37353,7 @@
         "PRON": 1
       },
       "PART": {
-        "VERB": 239,
+        "VERB": 240,
         "AUX": 38,
         "ADJ": 14,
         "NOUN": 33,
@@ -37265,16 +37363,16 @@
         "PUNCT": 7
       },
       "VERB": {
-        "PREP": 347,
+        "PREP": 348,
         "PART": 84,
         "ADJ": 65,
-        "NOUN": 299,
-        "PUNCT": 164,
+        "NOUN": 300,
+        "PUNCT": 166,
         "PRON": 71,
         "AUX": 23,
         "DET": 275,
         "VERB": 37,
-        "CONJ": 113,
+        "CONJ": 114,
         "WH": 18,
         "</S>": 10,
         "ADV": 30,
@@ -37285,12 +37383,12 @@
       },
       "PREP": {
         "PRON": 45,
-        "NOUN": 661,
-        "DET": 714,
+        "NOUN": 665,
+        "DET": 716,
         "PUNCT": 38,
         "VERB": 53,
         "PREP": 20,
-        "ADJ": 212,
+        "ADJ": 213,
         "PROPN": 88,
         "AUX": 16,
         "NUM": 36,
@@ -37301,14 +37399,14 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 1060,
-        "NOUN": 357,
-        "CONJ": 210,
+        "</S>": 1063,
+        "NOUN": 362,
+        "CONJ": 211,
         "PRON": 26,
-        "VERB": 54,
+        "VERB": 56,
         "ADV": 40,
-        "PREP": 34,
-        "ADJ": 63,
+        "PREP": 36,
+        "ADJ": 64,
         "DET": 112,
         "WH": 30,
         "AUX": 22,
@@ -37349,26 +37447,26 @@
         "NUM": 3
       },
       "NOUN": {
-        "AUX": 372,
-        "PREP": 1129,
-        "NOUN": 960,
-        "PUNCT": 1421,
-        "CONJ": 440,
+        "AUX": 373,
+        "PREP": 1133,
+        "NOUN": 967,
+        "PUNCT": 1433,
+        "CONJ": 441,
         "VERB": 322,
         "ADV": 61,
-        "PART": 153,
+        "PART": 154,
         "ADJ": 156,
         "MODAL": 54,
         "</S>": 86,
         "PRON": 79,
         "WH": 39,
-        "DET": 222,
+        "DET": 223,
         "PROPN": 65,
         "NUM": 10,
         "NEG": 6
       },
       "DET": {
-        "NOUN": 1314,
+        "NOUN": 1318,
         "ADJ": 569,
         "PRON": 16,
         "PREP": 32,
@@ -37387,9 +37485,9 @@
       "CONJ": {
         "PRON": 57,
         "DET": 144,
-        "NOUN": 405,
-        "VERB": 73,
-        "ADJ": 98,
+        "NOUN": 406,
+        "VERB": 74,
+        "ADJ": 99,
         "ADV": 30,
         "PUNCT": 15,
         "WH": 10,
@@ -37515,7 +37613,7 @@
       "PART|VERB": {
         "PREP": 34,
         "ADJ": 17,
-        "PUNCT": 27,
+        "PUNCT": 28,
         "NOUN": 57,
         "WH": 4,
         "DET": 51,
@@ -37530,7 +37628,7 @@
       "VERB|PREP": {
         "PRON": 13,
         "DET": 140,
-        "NOUN": 89,
+        "NOUN": 90,
         "PUNCT": 14,
         "VERB": 8,
         "ADJ": 36,
@@ -37659,7 +37757,7 @@
         "ADJ": 76,
         "NOUN": 27,
         "ADV": 42,
-        "VERB": 66,
+        "VERB": 67,
         "CONJ": 5,
         "NUM": 7,
         "NEG": 11,
@@ -37681,14 +37779,14 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 406,
+        "PREP": 408,
         "AUX": 106,
         "CONJ": 100,
         "PUNCT": 276,
         "VERB": 94,
         "ADV": 17,
         "ADJ": 41,
-        "NOUN": 125,
+        "NOUN": 127,
         "PRON": 21,
         "PART": 41,
         "</S>": 2,
@@ -37698,10 +37796,10 @@
         "WH": 8
       },
       "NOUN|PREP": {
-        "NOUN": 418,
-        "DET": 404,
+        "NOUN": 419,
+        "DET": 406,
         "PREP": 8,
-        "ADJ": 140,
+        "ADJ": 141,
         "PROPN": 39,
         "VERB": 36,
         "PUNCT": 14,
@@ -37714,13 +37812,13 @@
       },
       "PREP|NOUN": {
         "NOUN": 104,
-        "PUNCT": 175,
+        "PUNCT": 178,
         "VERB": 32,
         "CONJ": 73,
         "ADJ": 18,
         "DET": 34,
         "AUX": 17,
-        "PREP": 72,
+        "PREP": 73,
         "PRON": 15,
         "</S>": 78,
         "WH": 6,
@@ -37731,33 +37829,33 @@
         "ADV": 3
       },
       "NOUN|NOUN": {
-        "PUNCT": 254,
+        "PUNCT": 258,
         "PART": 21,
-        "NOUN": 192,
+        "NOUN": 193,
         "PREP": 174,
         "CONJ": 77,
         "VERB": 54,
         "PROPN": 24,
-        "AUX": 61,
+        "AUX": 62,
         "MODAL": 15,
         "ADJ": 35,
         "NUM": 4,
         "ADV": 13,
-        "DET": 17,
+        "DET": 18,
         "NEG": 3,
         "PRON": 7,
         "WH": 7,
         "</S>": 2
       },
       "NOUN|PUNCT": {
-        "</S>": 734,
-        "NOUN": 260,
-        "CONJ": 141,
+        "</S>": 737,
+        "NOUN": 264,
+        "CONJ": 142,
         "ADV": 31,
-        "PREP": 25,
-        "ADJ": 42,
+        "PREP": 27,
+        "ADJ": 43,
         "DET": 73,
-        "VERB": 41,
+        "VERB": 42,
         "WH": 21,
         "PRON": 17,
         "AUX": 19,
@@ -37769,7 +37867,7 @@
         "INTJ": 1
       },
       "<S>|DET": {
-        "NOUN": 243,
+        "NOUN": 244,
         "ADJ": 91,
         "PROPN": 18,
         "VERB": 3,
@@ -37797,7 +37895,7 @@
       },
       "ADJ|NOUN": {
         "PUNCT": 281,
-        "NOUN": 179,
+        "NOUN": 183,
         "MODAL": 10,
         "VERB": 51,
         "PREP": 216,
@@ -37805,7 +37903,7 @@
         "DET": 36,
         "ADJ": 16,
         "AUX": 59,
-        "PART": 33,
+        "PART": 34,
         "WH": 6,
         "PROPN": 2,
         "ADV": 8,
@@ -37825,7 +37923,7 @@
         "MODAL": 1
       },
       "PREP|DET": {
-        "NOUN": 442,
+        "NOUN": 444,
         "ADJ": 178,
         "NUM": 16,
         "PREP": 11,
@@ -37842,7 +37940,7 @@
         "PRON": 11,
         "DET": 62,
         "VERB": 25,
-        "NOUN": 232,
+        "NOUN": 233,
         "ADJ": 41,
         "WH": 4,
         "PREP": 11,
@@ -37864,7 +37962,7 @@
         "PREP": 1
       },
       "VERB|NOUN": {
-        "PUNCT": 77,
+        "PUNCT": 78,
         "PREP": 56,
         "PART": 8,
         "VERB": 11,
@@ -37904,10 +38002,10 @@
         "VERB": 2
       },
       "PUNCT|NOUN": {
-        "CONJ": 31,
+        "CONJ": 32,
         "NOUN": 71,
         "ADJ": 7,
-        "PUNCT": 151,
+        "PUNCT": 155,
         "PREP": 49,
         "AUX": 13,
         "DET": 9,
@@ -37935,13 +38033,13 @@
         "</S>": 112,
         "PRON": 6,
         "CONJ": 7,
-        "NOUN": 20,
+        "NOUN": 21,
         "DET": 7,
         "ADJ": 5,
         "NEG": 2,
         "WH": 2,
         "ADV": 2,
-        "VERB": 1
+        "VERB": 2
       },
       "<S>|VERB": {
         "PRON": 5,
@@ -38053,7 +38151,7 @@
         "PRON": 22,
         "DET": 28,
         "PUNCT": 5,
-        "ADJ": 21,
+        "ADJ": 22,
         "CONJ": 8,
         "AUX": 8,
         "PROPN": 9,
@@ -38069,7 +38167,7 @@
         "AUX": 12,
         "PUNCT": 101,
         "</S>": 1,
-        "PREP": 77,
+        "PREP": 78,
         "VERB": 16,
         "WH": 6,
         "NOUN": 127,
@@ -38137,7 +38235,7 @@
         "VERB": 3
       },
       "AUX|VERB": {
-        "PREP": 91,
+        "PREP": 92,
         "PUNCT": 25,
         "PART": 25,
         "PRON": 3,
@@ -38150,7 +38248,7 @@
       },
       "CONJ|VERB": {
         "PART": 3,
-        "NOUN": 15,
+        "NOUN": 16,
         "PUNCT": 22,
         "ADJ": 4,
         "PREP": 20,
@@ -38160,7 +38258,7 @@
         "ADV": 1
       },
       "<S>|ADJ": {
-        "NOUN": 50,
+        "NOUN": 52,
         "ADJ": 7,
         "VERB": 4,
         "PREP": 18,
@@ -38174,7 +38272,7 @@
       "NOUN|PART": {
         "ADJ": 9,
         "AUX": 18,
-        "VERB": 97,
+        "VERB": 98,
         "NOUN": 25,
         "CONJ": 1,
         "PUNCT": 2,
@@ -38252,7 +38350,7 @@
       },
       "VERB|CONJ": {
         "PRON": 7,
-        "VERB": 22,
+        "VERB": 23,
         "DET": 25,
         "PUNCT": 3,
         "PROPN": 1,
@@ -38282,10 +38380,10 @@
       },
       "PUNCT|VERB": {
         "AUX": 1,
-        "CONJ": 4,
+        "CONJ": 5,
         "PREP": 13,
         "NOUN": 20,
-        "PUNCT": 3,
+        "PUNCT": 4,
         "PROPN": 1,
         "ADJ": 2,
         "DET": 6,
@@ -38372,7 +38470,7 @@
       },
       "CONJ|ADJ": {
         "PUNCT": 9,
-        "NOUN": 66,
+        "NOUN": 67,
         "ADJ": 6,
         "CONJ": 5,
         "VERB": 6,
@@ -38432,7 +38530,7 @@
       "PUNCT|PREP": {
         "DET": 6,
         "ADJ": 4,
-        "NOUN": 16,
+        "NOUN": 18,
         "AUX": 2,
         "PRON": 1,
         "VERB": 1,
@@ -38509,7 +38607,7 @@
         "PUNCT": 1
       },
       "PUNCT|ADJ": {
-        "NOUN": 26,
+        "NOUN": 27,
         "PUNCT": 18,
         "PROPN": 2,
         "PREP": 11,
@@ -38522,7 +38620,7 @@
         "CONJ": 3,
         "PROPN": 5,
         "ADJ": 21,
-        "NOUN": 154,
+        "NOUN": 155,
         "PUNCT": 16,
         "AUX": 2,
         "VERB": 6,
@@ -38660,7 +38758,7 @@
         "MODAL": 1
       },
       "NOUN|DET": {
-        "NOUN": 125,
+        "NOUN": 126,
         "ADJ": 48,
         "CONJ": 13,
         "ADV": 5,
@@ -39390,17 +39488,7 @@
         "overlap": 3,
         "separate": 3,
         "read": 2,
-        "study": 2,
-        "exaggeration": 1,
-        "our": 1,
-        "record": 1,
-        "move": 1,
-        "coordinate": 1,
-        "refer": 1,
-        "objects": 1,
-        "live": 1,
-        "one": 1,
-        "frequent": 1
+        "study": 2
       },
       "talk": {
         "with": 1,
@@ -39541,7 +39629,8 @@
         "usually": 3,
         "generally": 3,
         "acquired": 1,
-        "all": 1
+        "all": 1,
+        "used": 1
       },
       "a": {
         "noun": 16,
@@ -39598,7 +39687,9 @@
         "form": 1,
         "ball": 1,
         "target": 1,
-        "process": 1
+        "process": 1,
+        "use": 1,
+        "music": 1
       },
       "brain": {
         "is": 1,
@@ -39758,7 +39849,8 @@
         "appointed": 1,
         "privilege": 1,
         "manner": 1,
-        "competitive": 1
+        "competitive": 1,
+        "record": 1
       },
       "it": {
         "is": 29,
@@ -39991,16 +40083,7 @@
         "practice": 2,
         "writing": 2,
         "creative": 2,
-        "signed": 1,
-        "may": 1,
-        "historical": 1,
-        "across": 1,
-        "displacement": 1,
-        "ideas": 1,
-        "is": 2,
-        "there": 1,
-        "games": 1,
-        "mathematical": 1
+        "editing": 1
       },
       "meanings": {
         "have": 1,
@@ -40011,7 +40094,9 @@
         "is": 1,
         "by": 1,
         "and": 1,
-        "modeling": 1
+        "modeling": 1,
+        "technology": 2,
+        "industry": 1
       },
       "curiosity": {
         "is": 1
@@ -40188,7 +40273,9 @@
         "\"": 4,
         "most": 4,
         "order": 4,
-        "which": 4
+        "which": 4,
+        "performance": 1,
+        "all": 1
       },
       "children": {
         "play": 1,
@@ -40319,7 +40406,7 @@
         "allocation": 1
       },
       "of": {
-        "the": 88,
+        "the": 89,
         "a": 37,
         "an": 12,
         "speech": 8,
@@ -40332,7 +40419,9 @@
         "lie": 1,
         "learning": 1,
         "automated": 1,
-        "computer": 1
+        "computer": 1,
+        "digital": 1,
+        "music": 1
       },
       "reading": {
         "is": 1,
@@ -41176,7 +41265,8 @@
         "alexander": 1,
         "introducing": 1,
         "languages": 1,
-        "computer": 1
+        "computer": 1,
+        "professions": 1
       },
       "thermodynamic": {
         "efficiency": 2,
@@ -41499,7 +41589,8 @@
         "data": 1,
         "clues": 1,
         "systems": 1,
-        "days": 1
+        "days": 1,
+        "instruments": 1
       },
       "principles": {
         "requires": 1,
@@ -41599,7 +41690,7 @@
         "for": 1
       },
       "used": {
-        "in": 9,
+        "in": 10,
         "to": 14,
         "for": 6,
         "syringes": 1,
@@ -41678,7 +41769,8 @@
         "the": 1,
         "japanese": 1,
         "english": 1,
-        "your": 1
+        "your": 1,
+        "computers": 1
       },
       "transmission": {
         "of": 1,
@@ -41946,7 +42038,7 @@
         "words": 1
       },
       "parts": {
-        "of": 6,
+        "of": 7,
         "together": 1,
         "but": 1
       },
@@ -42700,7 +42792,8 @@
         "computer": 1
       },
       "analysis": {
-        "is": 1
+        "is": 1,
+        "and": 1
       },
       "branch": {
         "of": 3
@@ -43483,7 +43576,7 @@
         "augmented": 1
       },
       "use": {
-        "of": 12,
+        "of": 13,
         "relatively": 3,
         "a": 3,
         "to": 3,
@@ -43753,7 +43846,8 @@
         "their": 1,
         "motion": 1,
         "activity": 1,
-        "fun": 1
+        "fun": 1,
+        "parts": 1
       },
       "possible": {
         "permutations": 1,
@@ -44405,7 +44499,8 @@
       },
       "encompasses": {
         "a": 1,
-        "mental": 1
+        "mental": 1,
+        "the": 1
       },
       "vast": {
         "array": 1
@@ -44836,12 +44931,16 @@
       },
       "digital": {
         "electronic": 2,
-        "communication": 1
+        "communication": 1,
+        "music": 2,
+        "instruments": 1,
+        "audio": 1
       },
       "electronic": {
         "circuits": 2,
         "device": 1,
-        "engineering": 1
+        "engineering": 1,
+        "effects": 1
       },
       "circuits": {
         "and": 2,
@@ -48683,7 +48782,9 @@
       },
       "technology": {
         "by": 1,
-        "in": 1
+        "in": 1,
+        "encompasses": 1,
+        "is": 1
       },
       "fran": {
         "ois": 1
@@ -49016,7 +49117,8 @@
       },
       "perform": {
         "tasks": 1,
-        "computations": 1
+        "computations": 1,
+        "or": 1
       },
       "tasks": {
         "such": 2,
@@ -51655,7 +51757,8 @@
         "to": 1
       },
       "record": {
-        "his": 1
+        "his": 1,
+        "music": 1
       },
       "goals": {
         "than": 1
@@ -51779,6 +51882,22 @@
       },
       "motivating": {
         "factor": 1
+      },
+      "instruments": {
+        "to": 1,
+        "vary": 1
+      },
+      "effects": {
+        "units": 1
+      },
+      "audio": {
+        "equipment": 1
+      },
+      "editing": {
+        "of": 1
+      },
+      "professions": {
+        "in": 1
       }
     },
     "starters": {
@@ -51797,7 +51916,7 @@
       "they": 9,
       "he": 25,
       "where": 1,
-      "<ADJ>": 89,
+      "<ADJ>": 91,
       "please": 1,
       "that": 12,
       "if": 6,
@@ -51819,7 +51938,7 @@
       "of": 7,
       "her": 3,
       "this": 28,
-      "these": 10,
+      "these": 11,
       "as": 2,
       "each": 7,
       "without": 3,
@@ -51861,8 +51980,8 @@
     },
     "connectors": {
       "because": 11,
-      "or": 245,
-      "and": 409,
+      "or": 246,
+      "and": 411,
       "but": 42,
       "so": 17,
       "while": 5,
@@ -51905,7 +52024,7 @@
         "while": 1
       },
       "NOUN>NOUN": {
-        "and": 167,
+        "and": 168,
         "or": 108,
         "as": 6,
         "yet": 2,
@@ -51956,12 +52075,12 @@
         "but": 1
       },
       "VERB>VERB": {
-        "or": 12,
+        "or": 13,
         "and": 10,
         "as": 2
       },
       "NOUN>ADJ": {
-        "and": 35,
+        "and": 36,
         "than": 1,
         "or": 13,
         "whether": 1,
@@ -53434,22 +53553,10 @@
       "PREP DET NOUN DET ADJ NOUN AUX PREP DET NOUN WH AUX DET NOUN | and | AUX DET NOUN": 1,
       "VERB NOUN ADV VERB ADJ NOUN | but | NOUN AUX NOUN": 1,
       "PRON VERB ADJ NOUN | so | PRON AUX NEG VERB ADV ADJ": 1,
-      "AUX DET NOUN AUX DET NOUN | and | NOUN": 1
+      "AUX DET NOUN AUX DET NOUN | and | NOUN": 1,
+      "DET NOUN PREP NOUN ADJ NOUN | and | ADJ NOUN": 1
     },
     "sentence_bank": {
-      "let's": [
-        "Let's get the ball rolling!"
-      ],
-      "ball": [
-        "Let's get the ball rolling!",
-        "If you throw the ball thus , as I’m showing you, you’ll have better luck hitting the target."
-      ],
-      "idioms": [
-        "Idioms are an integral part of any language, and English is no exception."
-      ],
-      "integral": [
-        "Idioms are an integral part of any language, and English is no exception."
-      ],
       "cannot": [
         "These phrases, which cannot be understood literally, add color and nuance to our communication and often have a cultural or historical significance."
       ],
@@ -55379,6 +55486,18 @@
       ],
       "reasoning": [
         "Automated reasoning over mathematical proof was a major motivating factor for the development of computer science."
+      ],
+      "digital": [
+        "Digital music technology encompasses the use of digital instruments to produce, perform or record music."
+      ],
+      "music": [
+        "Digital music technology encompasses the use of digital instruments to produce, perform or record music."
+      ],
+      "instruments": [
+        "These instruments vary, including computers, electronic effects units, software, and digital audio equipment."
+      ],
+      "vary": [
+        "These instruments vary, including computers, electronic effects units, software, and digital audio equipment."
       ]
     }
   },
@@ -55697,7 +55816,6 @@
     "taught": 0,
     "last_lesson": "2026-10-24 14:12:37",
     "pending_concepts": [
-      "synthesize digital electronic circuits",
       "nosql ecosystems utilize domain-specific",
       "net ecosystem supporting multi-paradigm",
       "powerful hindley-milner type inference"
