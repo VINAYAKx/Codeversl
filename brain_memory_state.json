@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.35,
+    "adenosine": 0.41,
     "newborn": false
   },
   "episodic_memory": [
@@ -2863,6 +2863,13 @@
       "text": "Two things I read keep meeting in my head: Quantum Computing and Qubits. Superconducting quantum computing is a branch of quantum computing and solid-state physics that implements superconducting electronic circuits as qubits in a quantum processor. Superconducting quantum computing is a branch of quantum computing and solid-state physics that implements superconducting electronic circuits as qubits in a quantum processor. The shared thread seems to be implementations and equivalent. What would change about quantum processor if microwave frequency electronic circuits were taken seriously?",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 0.945
+    },
+    {
+      "time": "2026-10-24 10:20:17",
+      "speaker": "brain",
+      "text": "I wondered about 'Evolutionary algorithm' by myself and went searching. From Wikipedia (live internet) I learned: Evolutionary algorithms (EA) reproduce essential elements of biological evolution in a computer algorithm in order to solve \"difficult\" problems, at least approximately, for which no exact or satisfactory solution methods are known. Key ideas I stored: population-based bio-inspired algorithms, evolutionary computation, biological evolution, evolutionary algorithms, optimization.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
     }
   ],
   "world_knowledge_graph": {
@@ -5989,6 +5996,20 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Self-supervised_learning",
       "learned": "2026-10-24 10:16:16"
+    },
+    "Evolutionary algorithm": {
+      "summary": "Evolutionary algorithms (EA) reproduce essential elements of biological evolution in a computer algorithm in order to solve \"difficult\" problems, at least approximately, for which no exact or satisfactory solution methods are known. They are metaheuristics and population-based bio-inspired algorithms and evolutionary computation, which itself are part of the field of computational intelligence. The mechanisms of biological evolution that an EA mainly imitates are reproduction, mutation, recombination and selection. Candidate solutions to the optimization problem play the role of individuals in a population, and the fitness function determines the quality of the solutions.",
+      "concepts": [
+        "population-based bio-inspired algorithms",
+        "evolutionary computation",
+        "biological evolution",
+        "evolutionary algorithms",
+        "optimization",
+        "metaheuristics"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Evolutionary_algorithm",
+      "learned": "2026-10-24 10:20:17"
     }
   },
   "creator_teachings": [
@@ -7738,6 +7759,12 @@
       "kind": "daydream",
       "score": 0.945,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 10:20:17",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -7791,7 +7818,8 @@
     "attention mechanism",
     "reinforcement learning",
     "cognitive architecture",
-    "self-supervised learning"
+    "self-supervised learning",
+    "evolutionary algorithm"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -25058,17 +25086,114 @@
       "source": "corpus",
       "learned": "2026-10-24 10:16:16",
       "uses": 1
+    },
+    "algorithm": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 10:20:17",
+      "uses": 1
+    },
+    "algorithms": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 10:20:17",
+      "uses": 1
+    },
+    "evolutionary": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 10:20:17",
+      "uses": 1
+    },
+    "field": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 10:20:17",
+      "uses": 1
+    },
+    "role": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Candidate solutions to the optimization problem play the role of individuals in a population, and the fitness function determines the quality of the solutions."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 10:20:17",
+      "uses": 1
+    },
+    "individuals": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Candidate solutions to the optimization problem play the role of individuals in a population, and the fitness function determines the quality of the solutions."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 10:20:17",
+      "uses": 1
+    },
+    "determines": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Candidate solutions to the optimization problem play the role of individuals in a population, and the fitness function determines the quality of the solutions."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 10:20:17",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 680,
-      "tokens": 11314,
+      "sentences": 684,
+      "tokens": 11420,
       "sources": {
         "seed corpus": 64,
         "conversation": 12,
         "dictionary": 268,
-        "explore": 69,
+        "explore": 73,
         "pasted text": 24,
         "deep study": 243
       },
@@ -25297,7 +25422,8 @@
         "c1e991715d08",
         "2343c45e8265",
         "8593597077f4",
-        "7f9d3c8e81f3"
+        "7f9d3c8e81f3",
+        "da669c5adafa"
       ],
       "seeded": true,
       "rejected": 125,
@@ -25388,7 +25514,6 @@
         "cosmology": 1,
         "economics": 1,
         "iterative": 1,
-        "algorithm": 1,
         "minimizing": 1,
         "differentiable": 1,
         "multivariate": 1,
@@ -25752,7 +25877,6 @@
         "eccentric": 1,
         "anthropologists": 1,
         "deriving": 1,
-        "individuals": 1,
         "prefer": 1,
         "ideals": 1,
         "era": 1,
@@ -26322,7 +26446,6 @@
         "ois": 1,
         "researcher": 1,
         "healthcare": 1,
-        "role": 1,
         "intercultural": 1,
         "empathy": 1,
         "reflection": 1,
@@ -26414,7 +26537,6 @@
         "perform": 1,
         "classification": 1,
         "regression": 1,
-        "field": 1,
         "neuroscience": 1,
         "revolves": 1,
         "stacking": 1,
@@ -26436,7 +26558,6 @@
         "applying": 1,
         "meeting": 1,
         "distribute": 1,
-        "determines": 1,
         "components": 1,
         "soft": 1,
         "assigned": 1,
@@ -26485,18 +26606,33 @@
         "pairs": 1,
         "samples": 1,
         "serves": 1,
-        "formulate": 1
+        "formulate": 1,
+        "reproduce": 1,
+        "elements": 1,
+        "least": 1,
+        "approximately": 1,
+        "exact": 1,
+        "satisfactory": 1,
+        "metaheuristics": 1,
+        "mechanisms": 1,
+        "imitates": 1,
+        "reproduction": 1,
+        "mutation": 1,
+        "recombination": 1,
+        "selection": 1,
+        "population": 1,
+        "fitness": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 88,
+        "PRON": 89,
         "WH": 20,
-        "NOUN": 124,
-        "DET": 209,
+        "NOUN": 125,
+        "DET": 210,
         "VERB": 55,
         "MODAL": 3,
-        "ADJ": 60,
+        "ADJ": 61,
         "INTJ": 5,
         "CONJ": 15,
         "AUX": 2,
@@ -26507,7 +26643,7 @@
         "NEG": 1
       },
       "PRON": {
-        "AUX": 79,
+        "AUX": 81,
         "PUNCT": 23,
         "ADV": 8,
         "VERB": 97,
@@ -26523,13 +26659,13 @@
         "ADJ": 2
       },
       "AUX": {
-        "ADJ": 96,
+        "ADJ": 97,
         "PRON": 9,
         "PUNCT": 2,
         "DET": 125,
-        "NOUN": 31,
+        "NOUN": 33,
         "NEG": 17,
-        "VERB": 116,
+        "VERB": 117,
         "INTJ": 1,
         "ADV": 43,
         "CONJ": 6,
@@ -26542,10 +26678,10 @@
       },
       "ADJ": {
         "PART": 14,
-        "NOUN": 638,
+        "NOUN": 645,
         "WH": 2,
         "PUNCT": 91,
-        "PREP": 65,
+        "PREP": 66,
         "CONJ": 31,
         "PROPN": 17,
         "ADJ": 62,
@@ -26559,7 +26695,7 @@
         "PRON": 1
       },
       "PART": {
-        "VERB": 142,
+        "VERB": 143,
         "AUX": 13,
         "ADJ": 8,
         "NOUN": 22,
@@ -26572,12 +26708,12 @@
         "PREP": 203,
         "PART": 56,
         "ADJ": 39,
-        "NOUN": 177,
-        "PUNCT": 108,
+        "NOUN": 179,
+        "PUNCT": 109,
         "PRON": 42,
-        "AUX": 17,
-        "DET": 160,
-        "VERB": 25,
+        "AUX": 18,
+        "DET": 162,
+        "VERB": 26,
         "CONJ": 65,
         "WH": 10,
         "</S>": 8,
@@ -26589,32 +26725,32 @@
       },
       "PREP": {
         "PRON": 25,
-        "NOUN": 377,
-        "DET": 417,
+        "NOUN": 380,
+        "DET": 422,
         "PUNCT": 24,
         "VERB": 27,
         "PREP": 12,
-        "ADJ": 132,
+        "ADJ": 135,
         "PROPN": 66,
         "AUX": 10,
         "NUM": 16,
-        "WH": 12,
+        "WH": 13,
         "CONJ": 8,
         "ADV": 4,
         "PART": 2,
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 633,
-        "NOUN": 206,
-        "CONJ": 131,
+        "</S>": 637,
+        "NOUN": 208,
+        "CONJ": 132,
         "PRON": 16,
         "VERB": 33,
         "ADV": 27,
-        "PREP": 20,
+        "PREP": 22,
         "ADJ": 39,
         "DET": 83,
-        "WH": 21,
+        "WH": 22,
         "AUX": 16,
         "NUM": 3,
         "PUNCT": 12,
@@ -26625,8 +26761,8 @@
       },
       "WH": {
         "AUX": 22,
-        "DET": 27,
-        "PRON": 8,
+        "DET": 28,
+        "PRON": 9,
         "NOUN": 26,
         "VERB": 12,
         "MODAL": 4,
@@ -26636,12 +26772,12 @@
         "NUM": 1
       },
       "ADV": {
-        "PUNCT": 20,
+        "PUNCT": 21,
         "ADJ": 11,
         "NOUN": 24,
         "CONJ": 5,
         "DET": 9,
-        "VERB": 74,
+        "VERB": 75,
         "</S>": 1,
         "PRON": 1,
         "MODAL": 1,
@@ -26653,26 +26789,26 @@
         "NUM": 2
       },
       "NOUN": {
-        "AUX": 221,
-        "PREP": 655,
-        "NOUN": 586,
-        "PUNCT": 855,
-        "CONJ": 263,
-        "VERB": 209,
-        "ADV": 37,
-        "PART": 90,
-        "ADJ": 95,
+        "AUX": 222,
+        "PREP": 664,
+        "NOUN": 595,
+        "PUNCT": 863,
+        "CONJ": 267,
+        "VERB": 211,
+        "ADV": 38,
+        "PART": 91,
+        "ADJ": 97,
         "MODAL": 35,
         "</S>": 34,
         "PRON": 39,
         "WH": 26,
-        "DET": 131,
-        "PROPN": 43,
+        "DET": 132,
+        "PROPN": 44,
         "NUM": 9,
         "NEG": 4
       },
       "DET": {
-        "NOUN": 748,
+        "NOUN": 758,
         "ADJ": 359,
         "PRON": 10,
         "PREP": 21,
@@ -26680,8 +26816,8 @@
         "PART": 5,
         "VERB": 15,
         "CONJ": 25,
-        "PROPN": 55,
-        "DET": 31,
+        "PROPN": 56,
+        "DET": 32,
         "ADV": 7,
         "PUNCT": 15,
         "AUX": 2,
@@ -26689,10 +26825,10 @@
       },
       "CONJ": {
         "PRON": 31,
-        "DET": 95,
-        "NOUN": 231,
-        "VERB": 46,
-        "ADJ": 70,
+        "DET": 96,
+        "NOUN": 233,
+        "VERB": 47,
+        "ADJ": 71,
         "ADV": 14,
         "PUNCT": 14,
         "WH": 7,
@@ -26737,14 +26873,15 @@
         "DET": 2,
         "PUNCT": 90,
         "PART": 3,
-        "NOUN": 88,
+        "NOUN": 89,
         "AUX": 13,
         "PROPN": 61,
         "ADJ": 15,
         "PREP": 15,
         "CONJ": 16,
         "VERB": 9,
-        "NUM": 1
+        "NUM": 1,
+        "ADV": 1
       },
       "NUM": {
         "NOUN": 39,
@@ -26761,7 +26898,7 @@
     },
     "pos_trigrams": {
       "<S>|PRON": {
-        "AUX": 38,
+        "AUX": 39,
         "VERB": 33,
         "MODAL": 13,
         "ADV": 2,
@@ -26769,7 +26906,7 @@
         "NOUN": 1
       },
       "PRON|AUX": {
-        "ADJ": 18,
+        "ADJ": 19,
         "DET": 12,
         "NEG": 6,
         "VERB": 23,
@@ -26777,7 +26914,7 @@
         "ADV": 10,
         "PUNCT": 1,
         "NUM": 1,
-        "NOUN": 1,
+        "NOUN": 2,
         "PRON": 1,
         "PREP": 1,
         "AUX": 2,
@@ -26787,7 +26924,7 @@
         "PART": 9,
         "WH": 2,
         "PUNCT": 31,
-        "PREP": 13,
+        "PREP": 14,
         "DET": 6,
         "NOUN": 15,
         "CONJ": 3,
@@ -26806,7 +26943,7 @@
         "PREP": 16,
         "ADJ": 12,
         "PUNCT": 17,
-        "NOUN": 37,
+        "NOUN": 38,
         "WH": 2,
         "DET": 31,
         "PART": 2,
@@ -26876,7 +27013,8 @@
         "ADV": 2,
         "DET": 4,
         "CONJ": 2,
-        "NOUN": 3
+        "NOUN": 3,
+        "PREP": 1
       },
       "PRON|VERB": {
         "PART": 15,
@@ -26919,7 +27057,7 @@
         "AUX": 38,
         "VERB": 17,
         "PUNCT": 8,
-        "NOUN": 25,
+        "NOUN": 26,
         "CONJ": 10,
         "PREP": 6,
         "PROPN": 7,
@@ -26934,7 +27072,7 @@
         "ADJ": 43,
         "NOUN": 19,
         "ADV": 25,
-        "VERB": 41,
+        "VERB": 42,
         "CONJ": 4,
         "NUM": 2,
         "NEG": 7,
@@ -26955,14 +27093,14 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 232,
+        "PREP": 236,
         "AUX": 65,
-        "CONJ": 56,
-        "PUNCT": 156,
+        "CONJ": 57,
+        "PUNCT": 158,
         "VERB": 49,
         "ADV": 11,
         "ADJ": 22,
-        "NOUN": 62,
+        "NOUN": 65,
         "PRON": 16,
         "PART": 26,
         "</S>": 2,
@@ -26972,10 +27110,10 @@
         "WH": 3
       },
       "NOUN|PREP": {
-        "NOUN": 222,
-        "DET": 234,
+        "NOUN": 224,
+        "DET": 238,
         "PREP": 5,
-        "ADJ": 90,
+        "ADJ": 93,
         "PROPN": 32,
         "VERB": 21,
         "PUNCT": 9,
@@ -26994,27 +27132,27 @@
         "ADJ": 11,
         "DET": 18,
         "AUX": 6,
-        "PREP": 44,
+        "PREP": 45,
         "PRON": 9,
         "</S>": 27,
         "WH": 5,
-        "PART": 16,
+        "PART": 17,
         "PROPN": 3,
         "NUM": 3,
         "MODAL": 1,
-        "ADV": 1
+        "ADV": 2
       },
       "NOUN|NOUN": {
-        "PUNCT": 151,
+        "PUNCT": 152,
         "PART": 11,
-        "NOUN": 130,
-        "PREP": 103,
+        "NOUN": 131,
+        "PREP": 105,
         "CONJ": 45,
-        "VERB": 40,
-        "PROPN": 11,
-        "AUX": 27,
+        "VERB": 42,
+        "PROPN": 12,
+        "AUX": 28,
         "MODAL": 9,
-        "ADJ": 24,
+        "ADJ": 25,
         "NUM": 4,
         "ADV": 6,
         "DET": 14,
@@ -27024,15 +27162,15 @@
         "</S>": 1
       },
       "NOUN|PUNCT": {
-        "</S>": 425,
-        "NOUN": 146,
-        "CONJ": 88,
+        "</S>": 428,
+        "NOUN": 148,
+        "CONJ": 89,
         "ADV": 21,
-        "PREP": 16,
+        "PREP": 17,
         "ADJ": 27,
         "DET": 55,
         "VERB": 25,
-        "WH": 16,
+        "WH": 17,
         "PRON": 12,
         "AUX": 13,
         "NUM": 2,
@@ -27041,7 +27179,7 @@
         "PUNCT": 4
       },
       "<S>|DET": {
-        "NOUN": 128,
+        "NOUN": 129,
         "ADJ": 58,
         "PROPN": 11,
         "VERB": 2,
@@ -27067,13 +27205,13 @@
         "PRON": 1
       },
       "ADJ|NOUN": {
-        "PUNCT": 182,
-        "NOUN": 119,
+        "PUNCT": 184,
+        "NOUN": 121,
         "MODAL": 5,
         "VERB": 38,
-        "PREP": 138,
+        "PREP": 140,
         "CONJ": 51,
-        "DET": 17,
+        "DET": 18,
         "ADJ": 10,
         "AUX": 39,
         "PART": 20,
@@ -27093,7 +27231,7 @@
         "PREP": 1
       },
       "PREP|DET": {
-        "NOUN": 246,
+        "NOUN": 251,
         "ADJ": 111,
         "NUM": 8,
         "PREP": 6,
@@ -27107,9 +27245,9 @@
       "NOUN|CONJ": {
         "PRON": 6,
         "DET": 46,
-        "VERB": 14,
-        "NOUN": 128,
-        "ADJ": 30,
+        "VERB": 15,
+        "NOUN": 130,
+        "ADJ": 31,
         "WH": 4,
         "PREP": 7,
         "NUM": 2,
@@ -27134,9 +27272,9 @@
         "PART": 3,
         "VERB": 5,
         "NOUN": 36,
-        "CONJ": 12,
+        "CONJ": 13,
         "MODAL": 2,
-        "ADJ": 8,
+        "ADJ": 9,
         "DET": 14,
         "AUX": 6,
         "PROPN": 7,
@@ -27167,10 +27305,10 @@
         "PRON": 1
       },
       "PUNCT|NOUN": {
-        "CONJ": 14,
+        "CONJ": 15,
         "NOUN": 46,
         "ADJ": 4,
-        "PUNCT": 88,
+        "PUNCT": 89,
         "PREP": 20,
         "AUX": 11,
         "DET": 8,
@@ -27182,7 +27320,7 @@
         "WH": 1
       },
       "CONJ|DET": {
-        "NOUN": 56,
+        "NOUN": 57,
         "ADJ": 21,
         "CONJ": 2,
         "PUNCT": 4,
@@ -27194,7 +27332,7 @@
         "WH": 1
       },
       "VERB|PUNCT": {
-        "</S>": 77,
+        "</S>": 78,
         "PRON": 3,
         "CONJ": 3,
         "NOUN": 14,
@@ -27249,7 +27387,7 @@
         "ADJ": 4,
         "VERB": 3,
         "DET": 6,
-        "NOUN": 1,
+        "NOUN": 2,
         "PART": 1,
         "AUX": 1,
         "NUM": 1
@@ -27258,7 +27396,7 @@
         "DET": 2
       },
       "WH|DET": {
-        "NOUN": 20,
+        "NOUN": 21,
         "ADJ": 7
       },
       "ADJ|PUNCT": {
@@ -27276,7 +27414,7 @@
       },
       "NOUN|VERB": {
         "PART": 5,
-        "DET": 47,
+        "DET": 49,
         "PREP": 48,
         "WH": 4,
         "PRON": 14,
@@ -27293,19 +27431,19 @@
         "MODAL": 1
       },
       "AUX|NOUN": {
-        "PUNCT": 6,
+        "PUNCT": 7,
         "NOUN": 2,
         "DET": 2,
         "PREP": 4,
         "VERB": 5,
-        "CONJ": 5,
+        "CONJ": 6,
         "ADV": 4,
         "ADJ": 3
       },
       "PUNCT|CONJ": {
         "NOUN": 48,
         "PRON": 10,
-        "DET": 19,
+        "DET": 20,
         "PUNCT": 5,
         "ADJ": 13,
         "CONJ": 6,
@@ -27320,12 +27458,12 @@
       },
       "CONJ|NOUN": {
         "AUX": 8,
-        "PUNCT": 55,
+        "PUNCT": 56,
         "</S>": 1,
         "PREP": 49,
         "VERB": 9,
         "WH": 4,
-        "NOUN": 73,
+        "NOUN": 74,
         "PRON": 2,
         "PART": 9,
         "CONJ": 7,
@@ -27338,7 +27476,7 @@
         "ADV": 1
       },
       "VERB|DET": {
-        "NOUN": 91,
+        "NOUN": 93,
         "ADJ": 53,
         "PREP": 2,
         "CONJ": 3,
@@ -27349,7 +27487,7 @@
         "PUNCT": 2
       },
       "NOUN|ADV": {
-        "PUNCT": 7,
+        "PUNCT": 8,
         "VERB": 17,
         "PREP": 4,
         "NOUN": 4,
@@ -27385,7 +27523,7 @@
       },
       "AUX|VERB": {
         "PREP": 49,
-        "PUNCT": 17,
+        "PUNCT": 18,
         "PART": 19,
         "PRON": 1,
         "NOUN": 7,
@@ -27402,10 +27540,10 @@
         "PREP": 11,
         "CONJ": 1,
         "DET": 1,
-        "VERB": 1
+        "VERB": 2
       },
       "<S>|ADJ": {
-        "NOUN": 31,
+        "NOUN": 32,
         "ADJ": 5,
         "VERB": 4,
         "PREP": 13,
@@ -27417,7 +27555,7 @@
       "NOUN|PART": {
         "ADJ": 6,
         "AUX": 7,
-        "VERB": 58,
+        "VERB": 59,
         "NOUN": 15,
         "CONJ": 1,
         "PUNCT": 2,
@@ -27435,7 +27573,7 @@
         "PRON": 1,
         "ADJ": 3,
         "DET": 4,
-        "NOUN": 5,
+        "NOUN": 6,
         "CONJ": 3
       },
       "<S>|INTJ": {
@@ -27453,7 +27591,7 @@
       "WH|PRON": {
         "VERB": 6,
         "MODAL": 1,
-        "AUX": 1
+        "AUX": 2
       },
       "AUX|INTJ": {
         "DET": 1
@@ -27469,7 +27607,7 @@
       },
       "NOUN|ADJ": {
         "PUNCT": 11,
-        "NOUN": 53,
+        "NOUN": 55,
         "DET": 3,
         "PREP": 10,
         "ADJ": 6,
@@ -27479,7 +27617,7 @@
       },
       "ADJ|PREP": {
         "NOUN": 32,
-        "DET": 19,
+        "DET": 20,
         "VERB": 3,
         "ADJ": 7,
         "PROPN": 3,
@@ -27595,7 +27733,7 @@
       },
       "CONJ|ADJ": {
         "PUNCT": 7,
-        "NOUN": 47,
+        "NOUN": 48,
         "ADJ": 6,
         "CONJ": 3,
         "VERB": 6,
@@ -27642,12 +27780,13 @@
       "PUNCT|PREP": {
         "DET": 3,
         "ADJ": 2,
-        "NOUN": 9,
+        "NOUN": 10,
         "AUX": 2,
         "PRON": 1,
         "VERB": 1,
         "ADV": 1,
-        "PROPN": 1
+        "PROPN": 1,
+        "WH": 1
       },
       "ADV|CONJ": {
         "ADV": 1,
@@ -27690,7 +27829,8 @@
         "PREP": 20,
         "WH": 1,
         "PUNCT": 2,
-        "ADJ": 1
+        "ADJ": 1,
+        "AUX": 1
       },
       "VERB|PROPN": {
         "DET": 1,
@@ -27716,7 +27856,7 @@
         "CONJ": 3,
         "PROPN": 5,
         "ADJ": 14,
-        "NOUN": 97,
+        "NOUN": 100,
         "PUNCT": 6,
         "AUX": 1,
         "VERB": 4,
@@ -27819,7 +27959,8 @@
         "DET": 8,
         "PREP": 1,
         "MODAL": 2,
-        "NUM": 1
+        "NUM": 1,
+        "PRON": 1
       },
       "CONJ|PUNCT": {
         "ADJ": 2,
@@ -27848,13 +27989,13 @@
         "PRON": 5,
         "PROPN": 2,
         "PREP": 1,
-        "DET": 8,
+        "DET": 9,
         "VERB": 2,
         "NUM": 2
       },
       "NOUN|PROPN": {
         "PART": 1,
-        "NOUN": 22,
+        "NOUN": 23,
         "AUX": 5,
         "PROPN": 3,
         "PREP": 3,
@@ -27911,7 +28052,7 @@
         "CONJ": 4,
         "AUX": 14,
         "PUNCT": 31,
-        "NOUN": 19,
+        "NOUN": 20,
         "DET": 3,
         "MODAL": 1,
         "PROPN": 4,
@@ -28068,7 +28209,8 @@
         "AUX": 3,
         "PUNCT": 2,
         "CONJ": 1,
-        "DET": 1
+        "DET": 1,
+        "ADV": 1
       },
       "PROPN|PROPN": {
         "PUNCT": 31,
@@ -28082,7 +28224,7 @@
         "NUM": 1
       },
       "PREP|WH": {
-        "DET": 6,
+        "DET": 7,
         "AUX": 2,
         "PART": 1,
         "NOUN": 1,
@@ -28209,7 +28351,7 @@
       },
       "DET|DET": {
         "NOUN": 20,
-        "PROPN": 2,
+        "PROPN": 3,
         "PUNCT": 1,
         "ADJ": 5,
         "VERB": 1,
@@ -28418,6 +28560,9 @@
       },
       "WH|NUM": {
         "NOUN": 1
+      },
+      "PROPN|ADV": {
+        "VERB": 1
       }
     },
     "word_bigrams": {
@@ -28442,7 +28587,7 @@
         "to": 1
       },
       "to": {
-        "the": 25,
+        "the": 26,
         "a": 7,
         "do": 5,
         "overlap": 3,
@@ -28454,7 +28599,8 @@
         "update": 2,
         "leverage": 1,
         "create": 1,
-        "formulate": 1
+        "formulate": 1,
+        "solve": 1
       },
       "talk": {
         "with": 1,
@@ -28500,7 +28646,11 @@
         "words": 2,
         "usually": 2,
         "also": 1,
-        "designed": 1
+        "designed": 1,
+        "known": 1,
+        "metaheuristics": 1,
+        "part": 1,
+        "reproduction": 1
       },
       "you": {
         "ask": 2,
@@ -28608,7 +28758,9 @@
         "paradigm": 1,
         "model": 1,
         "task": 1,
-        "way": 1
+        "way": 1,
+        "computer": 1,
+        "population": 1
       },
       "tool": {
         "for": 1
@@ -28630,7 +28782,8 @@
         "listening": 1,
         "its": 1,
         "organizations": 1,
-        "useful": 1
+        "useful": 1,
+        "which": 1
       },
       "sharing": {
         "ideas": 1
@@ -28645,11 +28798,7 @@
         "variable": 3,
         "listener": 3,
         "application": 3,
-        "garden": 2,
-        "data": 1,
-        "input": 2,
-        "other": 1,
-        "supervisory": 1
+        "garden": 2
       },
       "brain": {
         "is": 1,
@@ -28785,7 +28934,8 @@
         "emotions": 2,
         "contrasts": 2,
         "relationships": 1,
-        "transformed": 1
+        "transformed": 1,
+        "satisfactory": 1
       },
       "it": {
         "is": 19,
@@ -28935,7 +29085,8 @@
         "o'clock": 1,
         "which": 1,
         "thesaurus": 2,
-        "sony": 1
+        "sony": 1,
+        "least": 1
       },
       "words": {
         "have": 1,
@@ -28972,7 +29123,7 @@
         "no": 1
       },
       "and": {
-        "the": 13,
+        "the": 14,
         "gerund": 7,
         "other": 4,
         "past": 4,
@@ -28983,7 +29134,10 @@
         "creative": 2,
         "enthusiasm": 2,
         "serve": 1,
-        "soar": 1
+        "soar": 1,
+        "population-based": 1,
+        "evolutionary": 1,
+        "selection": 1
       },
       "meanings": {
         "have": 1,
@@ -29033,7 +29187,8 @@
         "sequence": 1,
         "which": 1,
         "solving": 1,
-        "creates": 1
+        "creates": 1,
+        "an": 1
       },
       "good": {
         "idea": 1,
@@ -29128,7 +29283,7 @@
         "meeting": 1
       },
       "they": {
-        "are": 1,
+        "are": 2,
         "fought": 2,
         "may": 2,
         "fulfill": 1,
@@ -29145,7 +29300,7 @@
       },
       "in": {
         "the": 47,
-        "a": 24,
+        "a": 26,
         "english": 10,
         "many": 5,
         "machine": 7,
@@ -29154,7 +29309,7 @@
         "most": 3,
         "which": 3,
         "type": 2,
-        "order": 1,
+        "order": 2,
         "age": 1,
         "linguistics": 1,
         "different": 2
@@ -29165,7 +29320,8 @@
         "in": 1
       },
       "play": {
-        "in": 1
+        "in": 1,
+        "the": 1
       },
       "was": {
         "then": 2,
@@ -29279,7 +29435,7 @@
         "detail": 1
       },
       "of": {
-        "the": 49,
+        "the": 51,
         "a": 15,
         "speech": 6,
         "or": 5,
@@ -29288,7 +29444,10 @@
         "criteria": 3,
         "knowledge": 3,
         "other": 3,
-        "learn": 2
+        "learn": 2,
+        "biological": 2,
+        "computational": 1,
+        "individuals": 1
       },
       "reading": {
         "is": 1,
@@ -29728,7 +29887,8 @@
         "emergency": 1,
         "office": 1,
         "autonomous": 1,
-        "intelligent": 1
+        "intelligent": 1,
+        "ea": 1
       },
       "update": {
         "to": 1,
@@ -29933,25 +30093,16 @@
         "assigned": 1
       },
       "which": {
-        "computes": 1,
         "are": 4,
-        "studies": 1,
         "a": 3,
         "an": 2,
+        "may": 2,
+        "computes": 1,
+        "studies": 1,
         "scale": 1,
         "at": 1,
         "enforces": 1,
-        "was": 1,
-        "may": 2,
-        "make": 1,
-        "cannot": 1,
-        "do": 1,
-        "the": 1,
-        "corresponds": 1,
-        "reflected": 1,
-        "borrow": 1,
-        "has": 1,
-        "have": 1
+        "was": 1
       },
       "computes": {
         "error": 1
@@ -29986,7 +30137,8 @@
         "systems": 1,
         "neural": 2,
         "cognitive": 1,
-        "neuroscience": 1
+        "neuroscience": 1,
+        "evolution": 2
       },
       "brains": {
         "operate": 1
@@ -30293,7 +30445,7 @@
         "typology": 1,
         "is": 1,
         "can": 2,
-        "to": 6,
+        "to": 7,
         "and": 1,
         "in": 2,
         "since": 1,
@@ -30505,7 +30657,8 @@
         "dl": 1,
         "rl": 1,
         "ai": 1,
-        "ssl": 1
+        "ssl": 1,
+        "ea": 1
       },
       "nn": {
         ")": 1
@@ -30520,7 +30673,8 @@
         "of": 1,
         "that": 1,
         "system": 1,
-        "language": 1
+        "language": 1,
+        "reproduce": 1
       },
       "ann": {
         ")": 2
@@ -30531,7 +30685,8 @@
         "problems": 1,
         "limits": 1,
         "instantiation": 1,
-        "cognitive": 1
+        "cognitive": 1,
+        "intelligence": 1
       },
       "model": {
         "inspired": 2,
@@ -30590,7 +30745,8 @@
         "algorithm": 1
       },
       "algorithm": {
-        "for": 1
+        "for": 1,
+        "in": 1
       },
       "minimizing": {
         "a": 1
@@ -30624,7 +30780,7 @@
         ")": 1
       },
       "part": {
-        "of": 7,
+        "of": 8,
         "fred": 1,
         "owner": 1
       },
@@ -30732,7 +30888,9 @@
         "hiccough": 1,
         "the": 1,
         "generic": 1,
-        "weights": 1
+        "weights": 1,
+        "difficult": 1,
+        "problems": 1
       },
       "be": {
         "defined": 4,
@@ -30949,7 +31107,8 @@
       },
       "itself": {
         "was": 2,
-        "to": 1
+        "to": 1,
+        "are": 1
       },
       "then": {
         "called": 2,
@@ -31535,7 +31694,7 @@
         "things": 1
       },
       "quality": {
-        "of": 1,
+        "of": 2,
         "standards": 2,
         "for": 1,
         "or": 1
@@ -31741,7 +31900,8 @@
       },
       "computer": {
         "scientist": 1,
-        "science": 3
+        "science": 3,
+        "algorithm": 1
       },
       "scientist": {
         "daniela": 1
@@ -31973,7 +32133,8 @@
       "solution": {
         "when": 3,
         "is": 3,
-        "concept": 1
+        "concept": 1,
+        "methods": 1
       },
       "internal": {
         "constraints": 3
@@ -31986,7 +32147,8 @@
       },
       "solve": {
         "the": 1,
-        "distinct": 1
+        "distinct": 1,
+        "\"": 1
       },
       "originally": {
         "designed": 3,
@@ -32062,7 +32224,8 @@
       "function": {
         "or": 2,
         "as": 2,
-        "in": 1
+        "in": 1,
+        "determines": 1
       },
       "utility": {
         "to": 2
@@ -33162,7 +33325,8 @@
       },
       "problem": {
         "by": 1,
-        "of": 1
+        "of": 1,
+        "play": 1
       },
       "combining": {
         "the": 1
@@ -33238,7 +33402,8 @@
       },
       "field": {
         "programmable": 1,
-        "takes": 1
+        "takes": 1,
+        "of": 1
       },
       "programmable": {
         "gate": 1
@@ -33676,7 +33841,8 @@
         "other": 1,
         "player": 1,
         "physical": 1,
-        "different": 1
+        "different": 1,
+        "exact": 1
       },
       "tensed": {
         "forms": 1
@@ -33862,7 +34028,8 @@
         "concept": 1
       },
       "individuals": {
-        "prefer": 1
+        "prefer": 1,
+        "in": 1
       },
       "prefer": {
         "some": 1
@@ -34146,7 +34313,8 @@
       "essential": {
         "component": 1,
         "part": 1,
-        "features": 1
+        "features": 1,
+        "elements": 1
       },
       "component": {
         "of": 1,
@@ -34437,7 +34605,9 @@
         "and": 1
       },
       "evolution": {
-        "of": 1
+        "of": 1,
+        "in": 1,
+        "that": 1
       },
       "life": {
         "began": 1,
@@ -34823,7 +34993,8 @@
         "difficult": 1
       },
       "difficult": {
-        "to": 2
+        "to": 2,
+        "\"": 1
       },
       "literal": {
         "english": 1
@@ -35319,7 +35490,8 @@
       },
       "candidate": {
         "a": 1,
-        "or": 1
+        "or": 1,
+        "solutions": 1
       },
       "voter": {
         "not": 1
@@ -36727,7 +36899,8 @@
         "a": 1
       },
       "role": {
-        "in": 1
+        "in": 1,
+        "of": 1
       },
       "intercultural": {
         "communication": 1
@@ -37037,7 +37210,8 @@
         "in": 1
       },
       "methods": {
-        "used": 1
+        "used": 1,
+        "are": 1
       },
       "semi-supervised": {
         "or": 1
@@ -37079,7 +37253,7 @@
         "operates": 1
       },
       "determines": {
-        "the": 1
+        "the": 2
       },
       "sequence": {
         "relative": 1,
@@ -37270,14 +37444,71 @@
       },
       "formulate": {
         "the": 1
+      },
+      "evolutionary": {
+        "algorithms": 1,
+        "computation": 1
+      },
+      "algorithms": {
+        "(": 1,
+        "and": 1
+      },
+      "ea": {
+        ")": 1,
+        "mainly": 1
+      },
+      "reproduce": {
+        "essential": 1
+      },
+      "elements": {
+        "of": 1
+      },
+      "least": {
+        "approximately": 1
+      },
+      "exact": {
+        "or": 1
+      },
+      "satisfactory": {
+        "solution": 1
+      },
+      "metaheuristics": {
+        "and": 1
+      },
+      "population-based": {
+        "bio-inspired": 1
+      },
+      "bio-inspired": {
+        "algorithms": 1
+      },
+      "mechanisms": {
+        "of": 1
+      },
+      "mainly": {
+        "imitates": 1
+      },
+      "imitates": {
+        "are": 1
+      },
+      "recombination": {
+        "and": 1
+      },
+      "solutions": {
+        "to": 1
+      },
+      "optimization": {
+        "problem": 1
+      },
+      "fitness": {
+        "function": 1
       }
     },
     "starters": {
       "i": 27,
       "how": 3,
       "what": 6,
-      "<NOUN>": 124,
-      "the": 104,
+      "<NOUN>": 125,
+      "the": 105,
       "she": 4,
       "we": 10,
       "it": 22,
@@ -37285,10 +37516,10 @@
       "can": 1,
       "my": 4,
       "why": 1,
-      "they": 3,
+      "they": 4,
       "he": 11,
       "where": 1,
-      "<ADJ>": 60,
+      "<ADJ>": 61,
       "please": 1,
       "that": 8,
       "if": 5,
@@ -37344,8 +37575,8 @@
     },
     "connectors": {
       "because": 8,
-      "or": 137,
-      "and": 267,
+      "or": 138,
+      "and": 271,
       "but": 25,
       "so": 7,
       "while": 3,
@@ -37374,7 +37605,7 @@
       },
       "NOUN>DET": {
         "or": 11,
-        "and": 19,
+        "and": 20,
         "but": 8,
         "if": 3,
         "though": 2,
@@ -37383,8 +37614,8 @@
         "while": 1
       },
       "NOUN>NOUN": {
-        "and": 103,
-        "or": 56,
+        "and": 104,
+        "or": 57,
         "as": 4,
         "yet": 1,
         "so": 1,
@@ -37392,7 +37623,7 @@
         "than": 1
       },
       "NOUN>VERB": {
-        "and": 12,
+        "and": 13,
         "or": 5,
         "as": 1
       },
@@ -37429,7 +37660,7 @@
         "and": 7
       },
       "NOUN>ADJ": {
-        "and": 26,
+        "and": 27,
         "than": 1,
         "or": 9,
         "whether": 1,
@@ -38358,7 +38589,8 @@
       "NOUN VERB AUX NUM PREP DET NUM ADJ NOUN VERB NOUN VERB | and | VERB": 1,
       "PRON VERB NOUN MODAL AUX VERB PART NOUN ADJ NOUN PREP NOUN | and | NOUN CONJ DET NOUN PREP ADJ NOUN": 1,
       "ADJ NOUN VERB PROPN | and | PROPN": 1,
-      "NOUN AUX VERB | so | PRON VERB PRON VERB NOUN ADJ NOUN CONJ NOUN PREP DET NOUN": 1
+      "NOUN AUX VERB | so | PRON VERB PRON VERB NOUN ADJ NOUN CONJ NOUN PREP DET NOUN": 1,
+      "DET NOUN PREP ADJ NOUN DET PROPN ADV VERB AUX NOUN | and | NOUN": 1
     },
     "sentence_bank": {
       "happy": [
@@ -38726,7 +38958,8 @@
       ],
       "biological": [
         "Furthermore, both biological and artificial intelligence process information in ways that mirror Shannon's information entropy, where uncertainty is reduced through hierarchical feature extraction.",
-        "In contrast, biological cognitive architectures utilize decentralized neuromorphic processing, homeostatic regulation, and localized synaptic plasticity to maintain continuous adaptation with minimal metabolic overhead."
+        "In contrast, biological cognitive architectures utilize decentralized neuromorphic processing, homeostatic regulation, and localized synaptic plasticity to maintain continuous adaptation with minimal metabolic overhead.",
+        "The mechanisms of biological evolution that an EA mainly imitates are reproduction, mutation, recombination and selection."
       ],
       "principles": [
         "Understanding these principles requires exploring how entropy and thermodynamic efficiency constrain information processing across both biological nervous systems and distributed computing architectures."
@@ -40198,6 +40431,21 @@
       ],
       "tasks": [
         "SSL tasks are designed so that solving them requires capturing essential features or relationships in the data."
+      ],
+      "metaheuristics": [
+        "They are metaheuristics and population-based bio-inspired algorithms and evolutionary computation, which itself are part of the field of computational intelligence."
+      ],
+      "population-bas": [
+        "They are metaheuristics and population-based bio-inspired algorithms and evolutionary computation, which itself are part of the field of computational intelligence."
+      ],
+      "mechanisms": [
+        "The mechanisms of biological evolution that an EA mainly imitates are reproduction, mutation, recombination and selection."
+      ],
+      "candidate": [
+        "Candidate solutions to the optimization problem play the role of individuals in a population, and the fitness function determines the quality of the solutions."
+      ],
+      "solutions": [
+        "Candidate solutions to the optimization problem play the role of individuals in a population, and the fitness function determines the quality of the solutions."
       ]
     }
   },
@@ -40516,7 +40764,6 @@
     "taught": 0,
     "last_lesson": "2026-10-24 10:12:22",
     "pending_concepts": [
-      "evolutionary algorithm",
       "cognitive modeling",
       "multi-agent system",
       "self-improving system",
