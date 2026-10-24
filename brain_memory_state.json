@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.22999999999999998,
+    "adenosine": 0.29,
     "newborn": false
   },
   "episodic_memory": [
@@ -2840,6 +2840,20 @@
       "time": "2026-10-24 18:21:55",
       "speaker": "brain",
       "text": "Ecology and Bacteria overlap more than I expected. Ecology is the natural science which studies the interactions between organisms and their environments. Bacteria are ubiquitous, mostly free-living organisms often consisting of one biological cell. What they share is biosphere and organisms. Could ecosystem and free-living organisms be two views of the same underlying pattern?",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 18:24:01",
+      "speaker": "brain",
+      "text": "I practised my English because I want to talk with you more naturally. I learned 6 new words: 'transformed' (a verb) means simple past and past participle of transform; 'behavior' (a noun) means human conduct relative to social norms; 'rain' (a noun) means condensed water falling from a cloud ; 'tomorrow' (an adverb) means on the day after the present day and 2 more. Now I know 787 words, I have studied 2063 sentences, and I have 152 sentence patterns.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 18:25:56",
+      "speaker": "brain",
+      "text": "I wondered about 'Creativity' by myself and went searching. From Wikipedia (live internet) I learned: Creativity is the ability to generate novel and valuable ideas or works through the exercise of imagination. Key ideas I stored: imagination, creativity, products, intangible, ability.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6877,6 +6891,20 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Organism",
       "learned": "2026-10-24 18:17:55"
+    },
+    "Creativity": {
+      "summary": "Creativity is the ability to generate novel and valuable ideas or works through the exercise of imagination. The products of creativity may be classified as either intangible or physical. Intangible products of creativity include ideas, scientific theories, literary works, musical compositions, and jokes. Physical products of creativity include inventions, dishes or meals, pieces of jewelry, costumes, and paintings.",
+      "concepts": [
+        "imagination",
+        "creativity",
+        "products",
+        "intangible",
+        "ability",
+        "classified"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Creativity",
+      "learned": "2026-10-24 18:25:56"
     }
   },
   "creator_teachings": [
@@ -8152,6 +8180,18 @@
       "kind": "daydream",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 18:24:01",
+      "kind": "language_lesson",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-24 18:25:56",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -8282,7 +8322,9 @@
     "ecosystem",
     "transform",
     "molecules",
-    "organisms"
+    "organisms",
+    "databases",
+    "creativity"
   ],
   "sensory_log": [
     {
@@ -45677,23 +45719,112 @@
       "source": "corpus",
       "learned": "2026-10-24 18:24:01",
       "uses": 1
+    },
+    "creativity": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Creativity is the ability to generate novel and valuable ideas or works through the exercise of imagination."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 18:25:56",
+      "uses": 1
+    },
+    "generate": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Creativity is the ability to generate novel and valuable ideas or works through the exercise of imagination."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 18:25:56",
+      "uses": 1
+    },
+    "exercise": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Creativity is the ability to generate novel and valuable ideas or works through the exercise of imagination."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 18:25:56",
+      "uses": 1
+    },
+    "classified": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The products of creativity may be classified as either intangible or physical."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 18:25:56",
+      "uses": 1
+    },
+    "intangible": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Intangible products of creativity include ideas, scientific theories, literary works, musical compositions, and jokes."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 18:25:56",
+      "uses": 1
+    },
+    "musical": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Intangible products of creativity include ideas, scientific theories, literary works, musical compositions, and jokes."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 18:25:56",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 2063,
-      "tokens": 27785,
+      "sentences": 2067,
+      "tokens": 27855,
       "sources": {
         "seed corpus": 64,
         "conversation": 31,
         "dictionary": 987,
-        "explore": 292,
+        "explore": 296,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "3ebd4057c662",
         "06f2cd5c7af4",
         "bdded06f39d0",
         "2fecabc91595",
@@ -45992,7 +46123,8 @@
         "06f4fba6ab77",
         "bf6a7254ba2f",
         "d61f6ca434bd",
-        "691ec7a1ed19"
+        "691ec7a1ed19",
+        "ab5aafd7e5e5"
       ],
       "seeded": true,
       "rejected": 488,
@@ -46671,7 +46803,6 @@
         "won": 1,
         "ribbon": 1,
         "desired": 1,
-        "exercise": 1,
         "petrol": 1,
         "droplets": 1,
         "suspended": 1,
@@ -46727,7 +46858,6 @@
         "frameworks": 1,
         "initiated": 1,
         "trained": 1,
-        "generate": 1,
         "labels": 1,
         "inherent": 1,
         "meaningful": 1,
@@ -47430,7 +47560,6 @@
         "measure": 1,
         "intertwined": 1,
         "temperament": 1,
-        "creativity": 1,
         "oxford": 1,
         "inde": 1,
         "nite": 1,
@@ -47725,7 +47854,6 @@
         "influences": 1,
         "immediate": 1,
         "vicinity": 1,
-        "classified": 1,
         "coupled": 1,
         "bidirectionally": 1,
         "gap": 1,
@@ -48081,7 +48209,6 @@
         "valued": 1,
         "analogous": 1,
         "decomposing": 1,
-        "musical": 1,
         "chord": 1,
         "intensities": 1,
         "pitches": 1,
@@ -48126,18 +48253,28 @@
         "laugh": 1,
         "diplomats": 1,
         "advised": 1,
-        "official": 1
+        "official": 1,
+        "novel": 1,
+        "valuable": 1,
+        "imagination": 1,
+        "literary": 1,
+        "compositions": 1,
+        "jokes": 1,
+        "inventions": 1,
+        "jewelry": 1,
+        "costumes": 1,
+        "paintings": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
         "PRON": 259,
         "WH": 29,
-        "NOUN": 626,
-        "DET": 526,
+        "NOUN": 627,
+        "DET": 527,
         "VERB": 246,
         "MODAL": 4,
-        "ADJ": 111,
+        "ADJ": 113,
         "INTJ": 13,
         "CONJ": 25,
         "AUX": 13,
@@ -48169,10 +48306,10 @@
         "ADJ": 231,
         "PRON": 19,
         "PUNCT": 6,
-        "DET": 304,
+        "DET": 305,
         "NOUN": 67,
         "NEG": 44,
-        "VERB": 287,
+        "VERB": 288,
         "INTJ": 1,
         "ADV": 99,
         "CONJ": 12,
@@ -48185,16 +48322,16 @@
       },
       "ADJ": {
         "PART": 35,
-        "NOUN": 1396,
+        "NOUN": 1401,
         "WH": 3,
-        "PUNCT": 233,
+        "PUNCT": 234,
         "PREP": 151,
-        "CONJ": 77,
+        "CONJ": 78,
         "PROPN": 27,
         "ADJ": 104,
         "DET": 34,
         "AUX": 28,
-        "VERB": 69,
+        "VERB": 70,
         "MODAL": 8,
         "</S>": 5,
         "NUM": 7,
@@ -48202,7 +48339,7 @@
         "PRON": 1
       },
       "PART": {
-        "VERB": 306,
+        "VERB": 307,
         "AUX": 54,
         "ADJ": 25,
         "NOUN": 46,
@@ -48212,16 +48349,16 @@
         "PUNCT": 9
       },
       "VERB": {
-        "PREP": 497,
+        "PREP": 498,
         "PART": 108,
         "ADJ": 80,
-        "NOUN": 521,
-        "PUNCT": 233,
+        "NOUN": 522,
+        "PUNCT": 234,
         "PRON": 93,
         "AUX": 28,
         "DET": 378,
         "VERB": 46,
-        "CONJ": 158,
+        "CONJ": 159,
         "WH": 25,
         "</S>": 14,
         "ADV": 54,
@@ -48232,8 +48369,8 @@
       },
       "PREP": {
         "PRON": 62,
-        "NOUN": 937,
-        "DET": 1002,
+        "NOUN": 942,
+        "DET": 1003,
         "PUNCT": 50,
         "VERB": 73,
         "PREP": 23,
@@ -48248,14 +48385,14 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 1909,
-        "NOUN": 574,
-        "CONJ": 283,
+        "</S>": 1913,
+        "NOUN": 577,
+        "CONJ": 285,
         "PRON": 43,
         "VERB": 69,
         "ADV": 66,
         "PREP": 54,
-        "ADJ": 94,
+        "ADJ": 97,
         "DET": 161,
         "WH": 34,
         "AUX": 31,
@@ -48298,16 +48435,16 @@
         "INTJ": 1
       },
       "NOUN": {
-        "AUX": 537,
-        "PREP": 1567,
-        "NOUN": 1783,
-        "PUNCT": 2532,
-        "CONJ": 596,
+        "AUX": 538,
+        "PREP": 1572,
+        "NOUN": 1787,
+        "PUNCT": 2542,
+        "CONJ": 599,
         "VERB": 449,
         "ADV": 79,
-        "PART": 202,
+        "PART": 203,
         "ADJ": 253,
-        "MODAL": 74,
+        "MODAL": 75,
         "</S>": 128,
         "PRON": 122,
         "WH": 52,
@@ -48318,8 +48455,8 @@
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 1837,
-        "ADJ": 803,
+        "NOUN": 1840,
+        "ADJ": 804,
         "PRON": 22,
         "PREP": 45,
         "NUM": 46,
@@ -48336,10 +48473,10 @@
       },
       "CONJ": {
         "PRON": 84,
-        "DET": 205,
-        "NOUN": 565,
-        "VERB": 98,
-        "ADJ": 124,
+        "DET": 206,
+        "NOUN": 568,
+        "VERB": 99,
+        "ADJ": 126,
         "ADV": 40,
         "PUNCT": 18,
         "WH": 12,
@@ -48357,7 +48494,7 @@
         "PRON": 5,
         "DET": 3,
         "CONJ": 3,
-        "AUX": 68,
+        "AUX": 69,
         "NOUN": 13,
         "NEG": 12,
         "ADV": 13,
@@ -48473,7 +48610,7 @@
         "PREP": 40,
         "ADJ": 20,
         "PUNCT": 41,
-        "NOUN": 73,
+        "NOUN": 74,
         "WH": 5,
         "DET": 71,
         "PART": 4,
@@ -48487,7 +48624,7 @@
       },
       "VERB|PREP": {
         "PRON": 16,
-        "DET": 192,
+        "DET": 193,
         "NOUN": 146,
         "PUNCT": 17,
         "VERB": 12,
@@ -48612,7 +48749,7 @@
         "DET": 1
       },
       "<S>|NOUN": {
-        "AUX": 99,
+        "AUX": 100,
         "VERB": 67,
         "PUNCT": 15,
         "NOUN": 268,
@@ -48628,7 +48765,7 @@
         "INTJ": 2
       },
       "NOUN|AUX": {
-        "DET": 173,
+        "DET": 174,
         "ADJ": 107,
         "NOUN": 36,
         "ADV": 63,
@@ -48644,7 +48781,7 @@
         "PRON": 2
       },
       "AUX|DET": {
-        "NOUN": 153,
+        "NOUN": 154,
         "ADJ": 116,
         "PROPN": 6,
         "VERB": 6,
@@ -48655,7 +48792,7 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 568,
+        "PREP": 570,
         "AUX": 162,
         "CONJ": 132,
         "PUNCT": 405,
@@ -48664,7 +48801,7 @@
         "ADJ": 55,
         "NOUN": 168,
         "PRON": 34,
-        "PART": 55,
+        "PART": 56,
         "</S>": 7,
         "PROPN": 7,
         "DET": 63,
@@ -48673,7 +48810,7 @@
         "NUM": 3
       },
       "NOUN|PREP": {
-        "NOUN": 588,
+        "NOUN": 593,
         "DET": 576,
         "PREP": 8,
         "ADJ": 173,
@@ -48688,8 +48825,8 @@
         "CONJ": 9
       },
       "PREP|NOUN": {
-        "NOUN": 139,
-        "PUNCT": 287,
+        "NOUN": 141,
+        "PUNCT": 289,
         "VERB": 41,
         "CONJ": 101,
         "ADJ": 23,
@@ -48702,13 +48839,13 @@
         "PART": 30,
         "PROPN": 4,
         "NUM": 4,
-        "MODAL": 3,
+        "MODAL": 4,
         "ADV": 5
       },
       "NOUN|NOUN": {
-        "PUNCT": 632,
+        "PUNCT": 634,
         "PART": 28,
-        "NOUN": 467,
+        "NOUN": 469,
         "PREP": 242,
         "CONJ": 100,
         "VERB": 68,
@@ -48725,12 +48862,12 @@
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 1471,
-        "NOUN": 372,
-        "CONJ": 199,
+        "</S>": 1474,
+        "NOUN": 375,
+        "CONJ": 201,
         "ADV": 48,
         "PREP": 39,
-        "ADJ": 63,
+        "ADJ": 65,
         "DET": 106,
         "VERB": 50,
         "WH": 25,
@@ -48744,7 +48881,7 @@
         "INTJ": 1
       },
       "<S>|DET": {
-        "NOUN": 332,
+        "NOUN": 333,
         "ADJ": 130,
         "PROPN": 26,
         "VERB": 4,
@@ -48757,7 +48894,7 @@
       },
       "DET|ADJ": {
         "NOUN": 645,
-        "CONJ": 25,
+        "CONJ": 26,
         "ADJ": 34,
         "PUNCT": 28,
         "VERB": 17,
@@ -48772,12 +48909,12 @@
         "NUM": 2
       },
       "ADJ|NOUN": {
-        "PUNCT": 448,
+        "PUNCT": 450,
         "NOUN": 223,
         "MODAL": 13,
         "VERB": 73,
-        "PREP": 287,
-        "CONJ": 108,
+        "PREP": 289,
+        "CONJ": 109,
         "DET": 50,
         "ADJ": 20,
         "AUX": 77,
@@ -48802,7 +48939,7 @@
         "DET": 1
       },
       "PREP|DET": {
-        "NOUN": 619,
+        "NOUN": 620,
         "ADJ": 258,
         "NUM": 19,
         "PREP": 15,
@@ -48818,9 +48955,9 @@
       "NOUN|CONJ": {
         "PRON": 19,
         "DET": 91,
-        "VERB": 27,
-        "NOUN": 317,
-        "ADJ": 51,
+        "VERB": 28,
+        "NOUN": 318,
+        "ADJ": 52,
         "WH": 5,
         "PREP": 17,
         "NUM": 4,
@@ -48847,7 +48984,7 @@
         "PART": 13,
         "VERB": 16,
         "NOUN": 168,
-        "CONJ": 35,
+        "CONJ": 36,
         "MODAL": 3,
         "ADJ": 21,
         "DET": 23,
@@ -48883,11 +49020,11 @@
         "VERB": 2
       },
       "PUNCT|NOUN": {
-        "CONJ": 38,
+        "CONJ": 39,
         "NOUN": 89,
         "ADJ": 8,
-        "PUNCT": 309,
-        "PREP": 64,
+        "PUNCT": 310,
+        "PREP": 65,
         "AUX": 19,
         "DET": 12,
         "ADV": 3,
@@ -48899,7 +49036,7 @@
       },
       "CONJ|DET": {
         "NOUN": 134,
-        "ADJ": 44,
+        "ADJ": 45,
         "CONJ": 3,
         "PUNCT": 4,
         "PART": 1,
@@ -48918,7 +49055,7 @@
         "CONJ": 12,
         "NOUN": 28,
         "DET": 11,
-        "ADJ": 8,
+        "ADJ": 9,
         "NEG": 3,
         "WH": 2,
         "ADV": 5,
@@ -48993,7 +49130,7 @@
         "ADJ": 9
       },
       "ADJ|PUNCT": {
-        "</S>": 120,
+        "</S>": 121,
         "CONJ": 25,
         "VERB": 5,
         "DET": 5,
@@ -49039,7 +49176,7 @@
         "PART": 1
       },
       "PUNCT|CONJ": {
-        "NOUN": 104,
+        "NOUN": 106,
         "PRON": 27,
         "DET": 39,
         "PUNCT": 6,
@@ -49057,7 +49194,7 @@
       },
       "CONJ|NOUN": {
         "AUX": 20,
-        "PUNCT": 144,
+        "PUNCT": 147,
         "</S>": 1,
         "PREP": 114,
         "VERB": 20,
@@ -49137,7 +49274,7 @@
         "PRON": 3,
         "NOUN": 21,
         "DET": 22,
-        "CONJ": 23,
+        "CONJ": 24,
         "ADJ": 6,
         "ADV": 7,
         "NUM": 1,
@@ -49149,7 +49286,7 @@
         "NOUN": 21,
         "PUNCT": 33,
         "ADJ": 4,
-        "PREP": 23,
+        "PREP": 24,
         "CONJ": 2,
         "DET": 5,
         "VERB": 4,
@@ -49157,7 +49294,7 @@
         "WH": 1
       },
       "<S>|ADJ": {
-        "NOUN": 65,
+        "NOUN": 67,
         "ADJ": 8,
         "VERB": 4,
         "PREP": 18,
@@ -49172,7 +49309,7 @@
       "NOUN|PART": {
         "ADJ": 15,
         "AUX": 25,
-        "VERB": 125,
+        "VERB": 126,
         "NOUN": 32,
         "CONJ": 1,
         "PUNCT": 2,
@@ -49264,7 +49401,7 @@
       "VERB|CONJ": {
         "PRON": 11,
         "VERB": 32,
-        "DET": 34,
+        "DET": 35,
         "PUNCT": 3,
         "PROPN": 1,
         "MODAL": 3,
@@ -49329,7 +49466,7 @@
       },
       "NOUN|MODAL": {
         "VERB": 27,
-        "AUX": 34,
+        "AUX": 35,
         "NEG": 3,
         "ADV": 3,
         "NOUN": 5,
@@ -49385,7 +49522,7 @@
         "VERB": 1
       },
       "ADJ|CONJ": {
-        "ADJ": 26,
+        "ADJ": 27,
         "NOUN": 23,
         "ADV": 2,
         "AUX": 3,
@@ -49395,8 +49532,8 @@
         "VERB": 2
       },
       "CONJ|ADJ": {
-        "PUNCT": 13,
-        "NOUN": 83,
+        "PUNCT": 14,
+        "NOUN": 84,
         "ADJ": 6,
         "CONJ": 7,
         "VERB": 8,
@@ -49546,13 +49683,13 @@
         "PRON": 1
       },
       "PUNCT|ADJ": {
-        "NOUN": 42,
+        "NOUN": 44,
         "PUNCT": 28,
         "PROPN": 2,
         "PREP": 13,
         "ADJ": 2,
         "CONJ": 1,
-        "VERB": 5,
+        "VERB": 6,
         "DET": 1
       },
       "PREP|ADJ": {
@@ -49824,7 +49961,7 @@
         "PRON": 1
       },
       "MODAL|AUX": {
-        "VERB": 36,
+        "VERB": 37,
         "DET": 8,
         "ADJ": 16,
         "ADV": 2,
@@ -49938,7 +50075,7 @@
         "NOUN": 13,
         "AUX": 9,
         "CONJ": 7,
-        "PUNCT": 13,
+        "PUNCT": 14,
         "PART": 2,
         "PREP": 17,
         "VERB": 4,
@@ -50539,7 +50676,8 @@
         "study": 4,
         "overlap": 3,
         "separate": 3,
-        "read": 3
+        "read": 3,
+        "generate": 1
       },
       "talk": {
         "with": 1,
@@ -50692,7 +50830,7 @@
       },
       "is": {
         "a": 110,
-        "the": 59,
+        "the": 60,
         "an": 20,
         "usually": 6,
         "hard": 5,
@@ -50753,15 +50891,7 @@
         "lesson": 4,
         "film": 4,
         "variable": 3,
-        "listener": 3,
-        "black": 1,
-        "day": 1,
-        "present": 1,
-        "countryside": 1,
-        "cars": 1,
-        "front": 1,
-        "french": 1,
-        "diplomats": 1
+        "listener": 3
       },
       "brain": {
         "is": 1,
@@ -50926,15 +51056,7 @@
         "professionalism": 2,
         "emotions": 2,
         "contrasts": 2,
-        "positive": 1,
-        "something": 1,
-        "descriptive": 1,
-        "control": 2,
-        "into": 1,
-        "less": 1,
-        "enabling": 1,
-        "printing": 1,
-        "as": 1
+        "meals": 1
       },
       "it": {
         "is": 39,
@@ -51150,7 +51272,10 @@
         "thoroughness": 1,
         "function": 1,
         "implement": 1,
-        "so": 1
+        "so": 1,
+        "valuable": 1,
+        "jokes": 1,
+        "paintings": 1
       },
       "meanings": {
         "have": 1,
@@ -51487,7 +51612,10 @@
         "treatment": 1,
         "transform": 1,
         "rain": 1,
-        "every": 1
+        "every": 1,
+        "imagination": 1,
+        "creativity": 3,
+        "jewelry": 1
       },
       "reading": {
         "is": 1,
@@ -52127,7 +52255,7 @@
         "are": 1
       },
       "through": {
-        "the": 3,
+        "the": 4,
         "experience": 2,
         "backpropagation": 1,
         "hierarchical": 1,
@@ -53128,7 +53256,8 @@
         "carefully": 2,
         "able": 2,
         "the": 2,
-        "considered": 2
+        "considered": 2,
+        "classified": 1
       },
       "defined": {
         "for": 4,
@@ -53155,7 +53284,7 @@
         "begin": 3,
         "trigger": 1,
         "become": 1,
-        "be": 8,
+        "be": 9,
         "refer": 2,
         "take": 2,
         "also": 2,
@@ -53369,7 +53498,8 @@
         "input": 1,
         "its": 1,
         "an": 1,
-        "it": 3
+        "it": 3,
+        "either": 1
       },
       "itself": {
         "was": 2,
@@ -55927,7 +56057,9 @@
         "methodic": 1,
         "car": 1,
         "normative": 1,
-        "an": 1
+        "an": 1,
+        "ideas": 1,
+        "inventions": 1
       },
       "branches": {
         "of": 2,
@@ -56631,7 +56763,8 @@
       "ideas": {
         "such": 3,
         "between": 1,
-        "that": 1
+        "that": 1,
+        "or": 1
       },
       "size": {
         "differs": 3,
@@ -57467,7 +57600,7 @@
         "anaphorically": 1
       },
       "ability": {
-        "to": 5,
+        "to": 6,
         "of": 1,
         "(": 1,
         "n": 1
@@ -57628,7 +57761,8 @@
         "entity": 1,
         "property": 1,
         "sciences": 1,
-        "system": 1
+        "system": 1,
+        "products": 1
       },
       "broken": {
         "pipe": 1,
@@ -57802,7 +57936,8 @@
         "term": 1,
         "colour": 1,
         "end": 1,
-        "chemical": 1
+        "chemical": 1,
+        "intangible": 1
       },
       "representing": {
         "two": 1,
@@ -59557,7 +59692,8 @@
         "that": 1
       },
       "works": {
-        "of": 2
+        "of": 2,
+        "through": 1
       },
       "needs": {
         "a": 1,
@@ -59632,7 +59768,8 @@
         "consensus": 1,
         "models": 1,
         "study": 2,
-        "field": 1
+        "field": 1,
+        "theories": 1
       },
       "physics": {
         "and": 1,
@@ -62039,7 +62176,7 @@
         "vicinity": 1
       },
       "classified": {
-        "as": 1
+        "as": 2
       },
       "coupled": {
         "bidirectionally": 1
@@ -63487,7 +63624,8 @@
         "the": 1
       },
       "musical": {
-        "chord": 1
+        "chord": 1,
+        "compositions": 1
       },
       "chord": {
         "into": 1
@@ -63684,14 +63822,47 @@
       },
       "official": {
         "duty": 1
+      },
+      "creativity": {
+        "is": 1,
+        "may": 1,
+        "include": 2
+      },
+      "generate": {
+        "novel": 1
+      },
+      "novel": {
+        "and": 1
+      },
+      "valuable": {
+        "ideas": 1
+      },
+      "exercise": {
+        "of": 1
+      },
+      "products": {
+        "of": 3
+      },
+      "intangible": {
+        "or": 1,
+        "products": 1
+      },
+      "literary": {
+        "works": 1
+      },
+      "dishes": {
+        "or": 1
+      },
+      "pieces": {
+        "of": 1
       }
     },
     "starters": {
       "i": 65,
       "how": 4,
       "what": 6,
-      "<NOUN>": 626,
-      "the": 254,
+      "<NOUN>": 627,
+      "the": 255,
       "she": 15,
       "we": 24,
       "it": 67,
@@ -63702,7 +63873,7 @@
       "they": 11,
       "he": 37,
       "where": 1,
-      "<ADJ>": 111,
+      "<ADJ>": 113,
       "please": 4,
       "that": 18,
       "if": 9,
@@ -63781,15 +63952,15 @@
     },
     "connectors": {
       "because": 15,
-      "or": 342,
-      "and": 556,
+      "or": 345,
+      "and": 559,
       "but": 56,
       "so": 21,
       "while": 5,
       "than": 36,
       "therefore": 7,
       "if": 11,
-      "as": 183,
+      "as": 184,
       "however": 3,
       "whether": 4,
       "that": 19,
@@ -63828,8 +63999,8 @@
         "because": 1
       },
       "NOUN>NOUN": {
-        "and": 242,
-        "or": 137,
+        "and": 244,
+        "or": 138,
         "as": 9,
         "yet": 2,
         "so": 2,
@@ -63841,7 +64012,7 @@
       },
       "NOUN>VERB": {
         "and": 23,
-        "or": 11,
+        "or": 12,
         "as": 4,
         "than": 1,
         "nor": 1,
@@ -63866,7 +64037,7 @@
       },
       "ADJ>ADJ": {
         "and": 16,
-        "or": 12,
+        "or": 13,
         "as": 1,
         "nor": 1
       },
@@ -63891,7 +64062,7 @@
         "as": 2
       },
       "NOUN>ADJ": {
-        "and": 41,
+        "and": 42,
         "than": 1,
         "or": 19,
         "whether": 1,
@@ -63918,7 +64089,7 @@
         "than": 1
       },
       "VERB>DET": {
-        "as": 23,
+        "as": 24,
         "that": 9,
         "and": 3,
         "if": 1,
@@ -65943,18 +66114,12 @@
       "ADV ADJ VERB PREP NOUN PREP NOUN | and | NOUN PREP NOUN": 1,
       "ADJ NOUN ADJ NOUN AUX DET NOUN ADJ PREP DET ADJ NOUN PART VERB | and | NOUN": 1,
       "PRON VERB | and | NOUN ADJ NOUN PREP DET ADJ NOUN PART AUX VERB PREP DET ADJ NOUN": 1,
-      "PRON AUX ADV VERB PREP DET NOUN PREP NOUN PREP | so | PRON MODAL VERB PREP PROPN PART PREP NOUN PREP NOUN": 1
+      "PRON AUX ADV VERB PREP DET NOUN PREP NOUN PREP | so | PRON MODAL VERB PREP PROPN PART PREP NOUN PREP NOUN": 1,
+      "NOUN AUX DET NOUN PART VERB NOUN | and | ADJ NOUN CONJ VERB PREP DET NOUN PREP NOUN": 1,
+      "ADJ NOUN PREP NOUN ADJ NOUN ADJ VERB ADJ NOUN | and | NOUN": 1,
+      "ADJ NOUN PREP NOUN CONJ NOUN PREP NOUN | and | NOUN": 1
     },
     "sentence_bank": {
-      "even": [
-        "Even from a young age it was clear that she had the potential to become a great musician."
-      ],
-      "young": [
-        "Even from a young age it was clear that she had the potential to become a great musician."
-      ],
-      "city": [
-        "Our city is plagued by random acts of violence."
-      ],
       "plagu": [
         "Our city is plagued by random acts of violence."
       ],
@@ -66297,9 +66462,9 @@
         "To contend in physical conflict, either singly or in war, battle etc."
       ],
       "physical": [
-        "To contend in physical conflict, either singly or in war, battle etc.",
         "In the physical sciences, a particle is a separate part of a larger system.",
-        "A galaxy is a physical system of stars, planetary systems, stellar remnants, substellar objects, interstellar gas, dust, and dark matter bound together by gravity."
+        "A galaxy is a physical system of stars, planetary systems, stellar remnants, substellar objects, interstellar gas, dust, and dark matter bound together by gravity.",
+        "Physical products of creativity include inventions, dishes or meals, pieces of jewelry, costumes, and paintings."
       ],
       "conjunct": [
         "Set A is conjunct with set B. Either term of a conjunction ."
@@ -67514,7 +67679,8 @@
         "This CD player is powered by batteries."
       ],
       "ability": [
-        "The ability to do or undergo something."
+        "The ability to do or undergo something.",
+        "Creativity is the ability to generate novel and valuable ideas or works through the exercise of imagination."
       ],
       "undergo": [
         "The ability to do or undergo something."
@@ -67872,6 +68038,18 @@
       ],
       "levels": [
         "Pollution levels are almost always higher in cities rather than the countryside, what with the cars, industry and so on."
+      ],
+      "creativity": [
+        "Creativity is the ability to generate novel and valuable ideas or works through the exercise of imagination.",
+        "The products of creativity may be classified as either intangible or physical."
+      ],
+      "products": [
+        "The products of creativity may be classified as either intangible or physical.",
+        "Intangible products of creativity include ideas, scientific theories, literary works, musical compositions, and jokes.",
+        "Physical products of creativity include inventions, dishes or meals, pieces of jewelry, costumes, and paintings."
+      ],
+      "intangible": [
+        "Intangible products of creativity include ideas, scientific theories, literary works, musical compositions, and jokes."
       ]
     }
   },
