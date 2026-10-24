@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.4600000000000001,
+    "adenosine": 0.52,
     "newborn": false
   },
   "episodic_memory": [
@@ -2882,6 +2882,20 @@
       "time": "2026-10-24 15:00:42",
       "speaker": "brain",
       "text": "I practised my English because I want to talk with you more naturally. I learned 6 new words: 'engineers' (a noun) means plural of engineer; 'active' (an adjective) means having the power or quality of acting; causing change; communicating action or motion; act; 'month' (a noun) means a period into which a year is divided, historically based on the phases of the moon; 'activity' (a noun) means the state or quality of being active ; activeness and 2 more. Now I know 626 words, I have studied 1243 sentences, and I have 110 sentence patterns.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 15:02:38",
+      "speaker": "brain",
+      "text": "I practised my English because I want to talk with you more naturally. I learned 6 new words: 'character' (a noun) means a being involved in the action of a story ; a persona ; 'share' (a noun) means a portion of something, especially a portion given or allotted to someone; 'leaves' (a noun) means plural of leaf; 'office' (a noun) means a ceremonial duty or service , particularly : The authorized form of ceremonial worship of and 2 more. Now I know 632 words, I have studied 1251 sentences, and I have 111 sentence patterns.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 15:04:34",
+      "speaker": "brain",
+      "text": "I wondered about 'Photon' by myself and went searching. From Wikipedia (live internet) I learned: A photon is an elementary particle that is a quantum of the electromagnetic field, including electromagnetic radiation such as light and radio waves, and the force carrier for the electromagnetic force. Key ideas I stored: electromagnetic radiation, boson particles, photon, quantum, photons.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6424,6 +6438,19 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
       "learned": "2026-10-24 14:50:32"
+    },
+    "Photon": {
+      "summary": "A photon is an elementary particle that is a quantum of the electromagnetic field, including electromagnetic radiation such as light and radio waves, and the force carrier for the electromagnetic force. Photons are massless particles that can only move at one speed, the speed of light measured in a vacuum. The photon belongs to the class of boson particles.",
+      "concepts": [
+        "electromagnetic radiation",
+        "boson particles",
+        "photon",
+        "quantum",
+        "photons"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Photon",
+      "learned": "2026-10-24 15:04:34"
     }
   },
   "creator_teachings": [
@@ -8179,6 +8206,18 @@
       "kind": "language_lesson",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 15:02:38",
+      "kind": "language_lesson",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-24 15:04:34",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -8268,7 +8307,8 @@
     "neuron",
     "memory",
     "neurons",
-    "artificial intelligence"
+    "artificial intelligence",
+    "photon"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -37194,22 +37234,105 @@
       "source": "corpus",
       "learned": "2026-10-24 15:02:38",
       "uses": 1
+    },
+    "photon": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 15:04:34",
+      "uses": 1
+    },
+    "elementary": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 15:04:34",
+      "uses": 1
+    },
+    "waves": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 15:04:34",
+      "uses": 1
+    },
+    "speed": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Photons are massless particles that can only move at one speed, the speed of light measured in a vacuum."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 15:04:34",
+      "uses": 1
+    },
+    "measured": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Photons are massless particles that can only move at one speed, the speed of light measured in a vacuum."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 15:04:34",
+      "uses": 1
+    },
+    "belongs": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The photon belongs to the class of boson particles."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 15:04:34",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 1251,
-      "tokens": 19994,
+      "sentences": 1254,
+      "tokens": 20059,
       "sources": {
         "seed corpus": 64,
         "conversation": 16,
         "dictionary": 729,
-        "explore": 175,
+        "explore": 178,
         "pasted text": 24,
         "deep study": 243
       },
       "hashes": [
-        "0f7238517029",
         "58b4cd0b3cbc",
         "3575bbb88f41",
         "316909a4112f",
@@ -37508,7 +37631,8 @@
         "aeb6cbcf329b",
         "3982a713f628",
         "35d16ac9ad9a",
-        "2e3fad5a8974"
+        "2e3fad5a8974",
+        "bc82a30fabc7"
       ],
       "seeded": true,
       "rejected": 227,
@@ -37771,7 +37895,6 @@
         "julia": 1,
         "combining": 1,
         "execution": 1,
-        "speed": 1,
         "dispatch": 1,
         "prolog": 1,
         "implements": 1,
@@ -38633,7 +38756,6 @@
         "remotely": 1,
         "practiced": 1,
         "reflects": 1,
-        "measured": 1,
         "employees": 1,
         "adjust": 1,
         "personality": 1,
@@ -38729,7 +38851,6 @@
         "phone": 1,
         "identify": 1,
         "pedestrian": 1,
-        "belongs": 1,
         "reason": 1,
         "generalize": 1,
         "wider": 1,
@@ -39040,10 +39161,8 @@
         "ultraviolet": 1,
         "infrared": 1,
         "extends": 1,
-        "waves": 1,
         "microwaves": 1,
         "beams": 1,
-        "elementary": 1,
         "charged": 1,
         "deductively": 1,
         "topic": 1,
@@ -39094,7 +39213,6 @@
         "quantization": 1,
         "magnitude": 1,
         "integer": 1,
-        "photon": 1,
         "frequency": 1,
         "electron": 1,
         "atoms": 1,
@@ -39169,15 +39287,19 @@
         "additives": 1,
         "soda": 1,
         "potash": 1,
-        "lime": 1
+        "lime": 1,
+        "photons": 1,
+        "massless": 1,
+        "vacuum": 1,
+        "boson": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
         "PRON": 189,
         "WH": 23,
-        "NOUN": 239,
-        "DET": 408,
+        "NOUN": 240,
+        "DET": 410,
         "VERB": 92,
         "MODAL": 4,
         "ADJ": 97,
@@ -39191,11 +39313,11 @@
         "NEG": 2
       },
       "PRON": {
-        "AUX": 161,
+        "AUX": 162,
         "PUNCT": 45,
         "ADV": 13,
         "VERB": 183,
-        "MODAL": 70,
+        "MODAL": 71,
         "PREP": 26,
         "WH": 2,
         "DET": 7,
@@ -39208,10 +39330,10 @@
         "NUM": 1
       },
       "AUX": {
-        "ADJ": 183,
+        "ADJ": 184,
         "PRON": 12,
         "PUNCT": 6,
-        "DET": 219,
+        "DET": 221,
         "NOUN": 51,
         "NEG": 32,
         "VERB": 215,
@@ -39227,7 +39349,7 @@
       },
       "ADJ": {
         "PART": 28,
-        "NOUN": 1062,
+        "NOUN": 1068,
         "WH": 2,
         "PUNCT": 190,
         "PREP": 119,
@@ -39236,7 +39358,7 @@
         "ADJ": 93,
         "DET": 23,
         "AUX": 20,
-        "VERB": 51,
+        "VERB": 52,
         "MODAL": 8,
         "</S>": 5,
         "NUM": 4,
@@ -39254,11 +39376,11 @@
         "PUNCT": 7
       },
       "VERB": {
-        "PREP": 373,
+        "PREP": 376,
         "PART": 86,
         "ADJ": 68,
         "NOUN": 318,
-        "PUNCT": 179,
+        "PUNCT": 180,
         "PRON": 72,
         "AUX": 24,
         "DET": 286,
@@ -39274,15 +39396,15 @@
       },
       "PREP": {
         "PRON": 47,
-        "NOUN": 710,
-        "DET": 764,
+        "NOUN": 711,
+        "DET": 768,
         "PUNCT": 40,
         "VERB": 53,
         "PREP": 21,
-        "ADJ": 227,
+        "ADJ": 229,
         "PROPN": 89,
         "AUX": 16,
-        "NUM": 39,
+        "NUM": 40,
         "WH": 25,
         "CONJ": 12,
         "ADV": 11,
@@ -39290,15 +39412,15 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 1139,
+        "</S>": 1142,
         "NOUN": 404,
-        "CONJ": 225,
+        "CONJ": 226,
         "PRON": 28,
         "VERB": 59,
         "ADV": 47,
-        "PREP": 40,
+        "PREP": 41,
         "ADJ": 68,
-        "DET": 120,
+        "DET": 121,
         "WH": 30,
         "AUX": 23,
         "NUM": 7,
@@ -39338,33 +39460,33 @@
         "NUM": 3
       },
       "NOUN": {
-        "AUX": 403,
-        "PREP": 1209,
-        "NOUN": 1005,
-        "PUNCT": 1558,
-        "CONJ": 460,
-        "VERB": 340,
+        "AUX": 405,
+        "PREP": 1213,
+        "NOUN": 1008,
+        "PUNCT": 1563,
+        "CONJ": 461,
+        "VERB": 341,
         "ADV": 64,
         "PART": 160,
         "ADJ": 168,
         "MODAL": 59,
         "</S>": 91,
-        "PRON": 85,
+        "PRON": 87,
         "WH": 40,
-        "DET": 236,
+        "DET": 237,
         "PROPN": 66,
         "NUM": 10,
         "NEG": 6
       },
       "DET": {
-        "NOUN": 1405,
-        "ADJ": 605,
+        "NOUN": 1411,
+        "ADJ": 608,
         "PRON": 16,
         "PREP": 34,
         "NUM": 34,
         "PART": 5,
-        "VERB": 27,
-        "CONJ": 35,
+        "VERB": 28,
+        "CONJ": 36,
         "PROPN": 79,
         "DET": 53,
         "ADV": 17,
@@ -39375,8 +39497,8 @@
       },
       "CONJ": {
         "PRON": 61,
-        "DET": 150,
-        "NOUN": 430,
+        "DET": 151,
+        "NOUN": 432,
         "VERB": 81,
         "ADJ": 109,
         "ADV": 30,
@@ -39401,7 +39523,7 @@
         "NEG": 9,
         "ADV": 9,
         "PUNCT": 1,
-        "ADJ": 3
+        "ADJ": 4
       },
       "NEG": {
         "VERB": 30,
@@ -39441,7 +39563,7 @@
         "PUNCT": 5,
         "CONJ": 14,
         "PREP": 17,
-        "VERB": 5,
+        "VERB": 6,
         "MODAL": 3,
         "ADJ": 5,
         "PART": 1,
@@ -39468,7 +39590,7 @@
       },
       "PRON|AUX": {
         "ADJ": 40,
-        "DET": 30,
+        "DET": 31,
         "NEG": 13,
         "VERB": 42,
         "INTJ": 1,
@@ -39488,7 +39610,7 @@
         "PUNCT": 59,
         "PREP": 31,
         "DET": 10,
-        "NOUN": 31,
+        "NOUN": 32,
         "CONJ": 10,
         "ADJ": 8,
         "VERB": 8,
@@ -39519,13 +39641,13 @@
       },
       "VERB|PREP": {
         "PRON": 14,
-        "DET": 151,
-        "NOUN": 96,
+        "DET": 152,
+        "NOUN": 97,
         "PUNCT": 16,
         "VERB": 8,
         "ADJ": 41,
         "PREP": 9,
-        "NUM": 8,
+        "NUM": 9,
         "PROPN": 20,
         "CONJ": 3,
         "AUX": 2,
@@ -39631,7 +39753,7 @@
         "DET": 1
       },
       "<S>|NOUN": {
-        "AUX": 66,
+        "AUX": 67,
         "VERB": 32,
         "PUNCT": 10,
         "NOUN": 45,
@@ -39646,8 +39768,8 @@
         "MODAL": 2
       },
       "NOUN|AUX": {
-        "DET": 128,
-        "ADJ": 82,
+        "DET": 129,
+        "ADJ": 83,
         "NOUN": 27,
         "ADV": 47,
         "VERB": 75,
@@ -39661,8 +39783,8 @@
         "PART": 1
       },
       "AUX|DET": {
-        "NOUN": 116,
-        "ADJ": 79,
+        "NOUN": 117,
+        "ADJ": 80,
         "PROPN": 4,
         "VERB": 4,
         "PREP": 4,
@@ -39672,14 +39794,14 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 441,
-        "AUX": 113,
+        "PREP": 443,
+        "AUX": 114,
         "CONJ": 106,
-        "PUNCT": 297,
+        "PUNCT": 298,
         "VERB": 99,
         "ADV": 17,
         "ADJ": 43,
-        "NOUN": 131,
+        "NOUN": 133,
         "PRON": 23,
         "PART": 42,
         "</S>": 2,
@@ -39690,9 +39812,9 @@
       },
       "NOUN|PREP": {
         "NOUN": 450,
-        "DET": 433,
+        "DET": 436,
         "PREP": 8,
-        "ADJ": 148,
+        "ADJ": 149,
         "PROPN": 40,
         "VERB": 36,
         "PUNCT": 14,
@@ -39706,7 +39828,7 @@
       "PREP|NOUN": {
         "NOUN": 111,
         "PUNCT": 196,
-        "VERB": 35,
+        "VERB": 36,
         "CONJ": 75,
         "ADJ": 19,
         "DET": 34,
@@ -39722,10 +39844,10 @@
         "ADV": 3
       },
       "NOUN|NOUN": {
-        "PUNCT": 266,
+        "PUNCT": 267,
         "PART": 23,
         "NOUN": 198,
-        "PREP": 185,
+        "PREP": 187,
         "CONJ": 79,
         "VERB": 54,
         "PROPN": 25,
@@ -39741,11 +39863,11 @@
         "</S>": 2
       },
       "NOUN|PUNCT": {
-        "</S>": 792,
+        "</S>": 795,
         "NOUN": 298,
-        "CONJ": 153,
+        "CONJ": 154,
         "ADV": 36,
-        "PREP": 31,
+        "PREP": 32,
         "ADJ": 47,
         "DET": 79,
         "VERB": 44,
@@ -39760,7 +39882,7 @@
         "INTJ": 1
       },
       "<S>|DET": {
-        "NOUN": 258,
+        "NOUN": 260,
         "ADJ": 103,
         "PROPN": 18,
         "VERB": 3,
@@ -39772,7 +39894,7 @@
         "PRON": 1
       },
       "DET|ADJ": {
-        "NOUN": 480,
+        "NOUN": 483,
         "CONJ": 21,
         "ADJ": 29,
         "PUNCT": 23,
@@ -39787,20 +39909,20 @@
         "PRON": 1
       },
       "ADJ|NOUN": {
-        "PUNCT": 307,
+        "PUNCT": 310,
         "NOUN": 189,
         "MODAL": 11,
         "VERB": 57,
         "PREP": 226,
         "CONJ": 82,
-        "DET": 39,
+        "DET": 40,
         "ADJ": 17,
         "AUX": 65,
         "PART": 36,
         "WH": 7,
         "PROPN": 2,
         "ADV": 8,
-        "PRON": 13,
+        "PRON": 15,
         "</S>": 3
       },
       "VERB|ADJ": {
@@ -39816,8 +39938,8 @@
         "MODAL": 1
       },
       "PREP|DET": {
-        "NOUN": 477,
-        "ADJ": 189,
+        "NOUN": 479,
+        "ADJ": 191,
         "NUM": 16,
         "PREP": 11,
         "PROPN": 35,
@@ -39833,7 +39955,7 @@
         "PRON": 13,
         "DET": 64,
         "VERB": 27,
-        "NOUN": 242,
+        "NOUN": 243,
         "ADJ": 45,
         "WH": 4,
         "PREP": 11,
@@ -39879,7 +40001,7 @@
         "DET": 1,
         "ADV": 4,
         "NEG": 5,
-        "ADJ": 2
+        "ADJ": 3
       },
       "MODAL|VERB": {
         "PREP": 18,
@@ -39910,7 +40032,7 @@
         "WH": 1
       },
       "CONJ|DET": {
-        "NOUN": 95,
+        "NOUN": 96,
         "ADJ": 31,
         "CONJ": 3,
         "PUNCT": 4,
@@ -39927,7 +40049,7 @@
         "PRON": 7,
         "CONJ": 10,
         "NOUN": 23,
-        "DET": 7,
+        "DET": 8,
         "ADJ": 5,
         "NEG": 2,
         "WH": 2,
@@ -40013,7 +40135,7 @@
       "NOUN|VERB": {
         "PART": 11,
         "DET": 84,
-        "PREP": 77,
+        "PREP": 78,
         "WH": 4,
         "PRON": 22,
         "PUNCT": 26,
@@ -40043,7 +40165,7 @@
       "PUNCT|CONJ": {
         "NOUN": 79,
         "PRON": 23,
-        "DET": 30,
+        "DET": 31,
         "PUNCT": 5,
         "ADJ": 24,
         "CONJ": 8,
@@ -40064,10 +40186,10 @@
         "PREP": 80,
         "VERB": 16,
         "WH": 6,
-        "NOUN": 133,
+        "NOUN": 134,
         "PRON": 9,
         "PART": 14,
-        "CONJ": 15,
+        "CONJ": 16,
         "PROPN": 4,
         "ADJ": 9,
         "DET": 16,
@@ -40428,7 +40550,7 @@
       },
       "PUNCT|PREP": {
         "DET": 7,
-        "ADJ": 4,
+        "ADJ": 5,
         "NOUN": 20,
         "AUX": 2,
         "PRON": 1,
@@ -40520,7 +40642,7 @@
         "CONJ": 3,
         "PROPN": 5,
         "ADJ": 23,
-        "NOUN": 165,
+        "NOUN": 167,
         "PUNCT": 17,
         "AUX": 2,
         "VERB": 7,
@@ -40560,9 +40682,9 @@
       },
       "NOUN|PRON": {
         "VERB": 26,
-        "AUX": 29,
+        "AUX": 30,
         "PREP": 7,
-        "MODAL": 13,
+        "MODAL": 14,
         "PRON": 1,
         "CONJ": 2,
         "PART": 2,
@@ -40604,7 +40726,7 @@
       "PUNCT|DET": {
         "NOUN": 67,
         "ADJ": 25,
-        "VERB": 2,
+        "VERB": 3,
         "PROPN": 6,
         "PREP": 3,
         "CONJ": 13,
@@ -40660,7 +40782,7 @@
       "NOUN|DET": {
         "NOUN": 134,
         "ADJ": 51,
-        "CONJ": 14,
+        "CONJ": 15,
         "ADV": 5,
         "PRON": 9,
         "PROPN": 2,
@@ -40781,7 +40903,7 @@
         "VERB": 4,
         "PROPN": 1,
         "ADJ": 2,
-        "PREP": 1,
+        "PREP": 2,
         "AUX": 1
       },
       "CONJ|PREP": {
@@ -40832,7 +40954,7 @@
         "NUM": 1
       },
       "DET|CONJ": {
-        "NOUN": 17,
+        "NOUN": 18,
         "PROPN": 3,
         "DET": 6,
         "ADJ": 4,
@@ -40873,7 +40995,7 @@
         "CONJ": 7,
         "PUNCT": 11,
         "PART": 1,
-        "PREP": 8,
+        "PREP": 9,
         "VERB": 3,
         "PRON": 1,
         "DET": 1
@@ -40889,7 +41011,7 @@
       "PREP|NUM": {
         "CONJ": 8,
         "NOUN": 17,
-        "VERB": 1,
+        "VERB": 2,
         "PREP": 4,
         "ADJ": 2,
         "PUNCT": 2,
@@ -41114,7 +41236,8 @@
       "NUM|VERB": {
         "PREP": 2,
         "ADV": 1,
-        "PART": 2
+        "PART": 2,
+        "PUNCT": 1
       },
       "PROPN|VERB": {
         "DET": 7,
@@ -41343,7 +41466,8 @@
       },
       "MODAL|ADJ": {
         "ADJ": 1,
-        "NOUN": 2
+        "NOUN": 2,
+        "VERB": 1
       },
       "NUM|DET": {
         "ADJ": 3,
@@ -41389,7 +41513,7 @@
         "alone": 1
       },
       "to": {
-        "the": 38,
+        "the": 39,
         "a": 20,
         "be": 15,
         "do": 11,
@@ -41463,7 +41587,8 @@
         "closely": 1,
         "stable": 1,
         "parallel": 2,
-        "obliged": 1
+        "obliged": 1,
+        "massless": 1
       },
       "you": {
         "will": 3,
@@ -41547,9 +41672,9 @@
         "whereas": 1
       },
       "is": {
-        "a": 77,
+        "a": 78,
         "the": 43,
-        "an": 16,
+        "an": 17,
         "hard": 5,
         "one": 4,
         "important": 3,
@@ -41579,11 +41704,14 @@
         "daily": 1,
         "particular": 1,
         "mechanical": 1,
-        "mixture": 1
+        "mixture": 1,
+        "photon": 1,
+        "quantum": 1,
+        "vacuum": 1
       },
       "for": {
         "example": 11,
-        "the": 11,
+        "the": 12,
         "auxiliary": 5,
         "unconstrained": 4,
         "each": 4,
@@ -41612,16 +41740,11 @@
         "variable": 3,
         "listener": 3,
         "application": 3,
-        "store": 1,
-        "robbers": 1,
-        "loot": 1,
-        "latin": 1,
-        "divine": 1,
-        "authorized": 1,
-        "office": 1,
-        "dead": 1,
-        "virgin": 1,
-        "eucharist": 1
+        "force": 1,
+        "electromagnetic": 1,
+        "speed": 1,
+        "photon": 1,
+        "class": 1
       },
       "brain": {
         "is": 1,
@@ -41733,7 +41856,7 @@
         "sometimes": 1,
         "seem": 3,
         "adjust": 1,
-        "only": 1,
+        "only": 2,
         "guide": 1,
         "n't": 2,
         "produce": 1,
@@ -41946,7 +42069,7 @@
       },
       "at": {
         "the": 20,
-        "one": 3,
+        "one": 4,
         "ease": 3,
         "thesaurus": 3,
         "night": 2,
@@ -41992,7 +42115,7 @@
         "it": 1
       },
       "and": {
-        "the": 22,
+        "the": 23,
         "past": 13,
         "gerund": 11,
         "other": 7,
@@ -42010,7 +42133,8 @@
         "decision-making": 1,
         "sign": 1,
         "transitional": 1,
-        "lime": 1
+        "lime": 1,
+        "radio": 1
       },
       "meanings": {
         "have": 1,
@@ -42045,8 +42169,8 @@
         "originally": 1
       },
       "that": {
-        "is": 9,
-        "can": 8,
+        "is": 10,
+        "can": 9,
         "a": 5,
         "description": 3,
         "sounds": 3,
@@ -42192,7 +42316,7 @@
       },
       "in": {
         "the": 78,
-        "a": 40,
+        "a": 41,
         "english": 15,
         "many": 7,
         "machine": 7,
@@ -42316,7 +42440,7 @@
         "at": 1
       },
       "of": {
-        "the": 96,
+        "the": 97,
         "a": 39,
         "an": 14,
         "speech": 8,
@@ -42332,7 +42456,9 @@
         "ceremonial": 1,
         "equipment": 1,
         "glass": 1,
-        "soda": 1
+        "soda": 1,
+        "light": 1,
+        "boson": 1
       },
       "reading": {
         "is": 1,
@@ -42781,7 +42907,8 @@
         "electron": 1,
         "atom": 2,
         "active": 1,
-        "amorphous": 1
+        "amorphous": 1,
+        "elementary": 1
       },
       "update": {
         "to": 1,
@@ -43551,7 +43678,8 @@
         "your": 1,
         "computers": 1,
         "its": 1,
-        "radio": 1
+        "radio": 1,
+        "electromagnetic": 1
       },
       "transmission": {
         "of": 1,
@@ -43953,7 +44081,7 @@
         "enough": 1
       },
       "particle": {
-        "that": 2
+        "that": 3
       },
       "stands": {
         "between": 2
@@ -44051,7 +44179,8 @@
         "vocabulary": 2,
         "new": 2,
         "amnesia": 1,
-        "learning": 1
+        "learning": 1,
+        "light": 1
       },
       "itself": {
         "was": 2,
@@ -44137,7 +44266,7 @@
         "in": 3
       },
       "such": {
-        "as": 28,
+        "as": 29,
         "constructs": 2,
         "adaptability": 1,
         "a": 4,
@@ -44298,7 +44427,8 @@
         "spot": 2,
         "by": 2,
         "quantum": 1,
-        "another": 1
+        "another": 1,
+        "speed": 1
       },
       "types": {
         "of": 4,
@@ -45539,7 +45669,8 @@
         "run": 1,
         "discrete": 1,
         "in": 1,
-        "at": 1
+        "at": 1,
+        "move": 1
       },
       "auxiliary": {
         "bound": 2,
@@ -47033,7 +47164,7 @@
         "from": 1
       },
       "class": {
-        "of": 4,
+        "of": 5,
         "on": 1,
         "at": 1,
         "this": 1,
@@ -48549,7 +48680,9 @@
       },
       "light": {
         "converge": 1,
-        "of": 1
+        "of": 1,
+        "and": 1,
+        "measured": 1
       },
       "aware": {
         "of": 1
@@ -49013,7 +49146,8 @@
         "and": 1
       },
       "radiation": {
-        "from": 1
+        "from": 1,
+        "such": 1
       },
       "body": {
         "to": 1,
@@ -50722,7 +50856,8 @@
       },
       "force": {
         "(": 1,
-        "compounded": 1
+        "compounded": 1,
+        "carrier": 1
       },
       "emf": {
         ")": 1
@@ -50803,7 +50938,7 @@
       },
       "radio": {
         "or": 1,
-        "waves": 1
+        "waves": 2
       },
       "television": {
         "program": 1
@@ -51237,7 +51372,8 @@
         "and": 1
       },
       "measured": {
-        "through": 1
+        "through": 1,
+        "in": 1
       },
       "employees": {
         "\"": 1
@@ -51588,7 +51724,7 @@
         "bridge": 1
       },
       "belongs": {
-        "to": 1
+        "to": 2
       },
       "combination": {
         "allows": 1,
@@ -51684,7 +51820,8 @@
       "move": {
         "(": 1,
         "to": 1,
-        "along": 1
+        "along": 1,
+        "at": 1
       },
       "unusual": {
         "individual": 1
@@ -52687,7 +52824,9 @@
         "extends": 1
       },
       "electromagnetic": {
-        "radiation": 2
+        "radiation": 3,
+        "field": 1,
+        "force": 1
       },
       "detect": {
         "it": 1
@@ -52709,7 +52848,8 @@
         "of": 1
       },
       "elementary": {
-        "charged": 1
+        "charged": 1,
+        "particle": 1
       },
       "charged": {
         "particles": 1
@@ -52843,7 +52983,7 @@
       },
       "quantum": {
         "is": 1,
-        "of": 1
+        "of": 2
       },
       "involved": {
         "in": 1
@@ -52868,7 +53008,8 @@
         "of": 1
       },
       "photon": {
-        "is": 1
+        "is": 2,
+        "belongs": 1
       },
       "electron": {
         "bound": 1
@@ -53009,7 +53150,8 @@
         "carrier": 1
       },
       "carrier": {
-        "a": 1
+        "a": 1,
+        "for": 1
       },
       "carries": {
         "someone": 1
@@ -53086,14 +53228,29 @@
       },
       "lime": {
         "is": 1
+      },
+      "photons": {
+        "are": 1
+      },
+      "massless": {
+        "particles": 1
+      },
+      "particles": {
+        "that": 1
+      },
+      "speed": {
+        "of": 1
+      },
+      "boson": {
+        "particles": 1
       }
     },
     "starters": {
       "i": 52,
       "how": 4,
       "what": 6,
-      "<NOUN>": 239,
-      "the": 191,
+      "<NOUN>": 240,
+      "the": 192,
       "she": 13,
       "we": 15,
       "it": 48,
@@ -53109,7 +53266,7 @@
       "that": 12,
       "if": 7,
       "although": 2,
-      "a": 94,
+      "a": 95,
       "does": 1,
       "who": 2,
       "when": 9,
@@ -53171,14 +53328,14 @@
     "connectors": {
       "because": 12,
       "or": 268,
-      "and": 431,
+      "and": 433,
       "but": 43,
       "so": 17,
       "while": 5,
       "than": 30,
       "therefore": 7,
       "if": 8,
-      "as": 140,
+      "as": 141,
       "however": 3,
       "whether": 2,
       "that": 12,
@@ -53205,7 +53362,7 @@
       },
       "NOUN>DET": {
         "or": 17,
-        "and": 31,
+        "and": 32,
         "but": 10,
         "if": 3,
         "though": 2,
@@ -53214,7 +53371,7 @@
         "while": 1
       },
       "NOUN>NOUN": {
-        "and": 176,
+        "and": 177,
         "or": 114,
         "as": 6,
         "yet": 2,
@@ -53309,7 +53466,7 @@
         "or": 12
       },
       "DET>NOUN": {
-        "as": 16,
+        "as": 17,
         "than": 1
       },
       "VERB>PUNCT": {
@@ -54833,12 +54990,6 @@
       "PREP DET PROPN NOUN DET NOUN | and | ADJ NOUN AUX VERB PART VERB DET PROPN NOUN ADJ": 1
     },
     "sentence_bank": {
-      "experience": [
-        "It was an experience he would not soon forget."
-      ],
-      "soon": [
-        "It was an experience he would not soon forget."
-      ],
       "synonym": [
         "Synonyms for EXAMPLE : instance, sample, illustration, specimen, case, indication, representative, prototype, exemplification, case in point."
       ],
@@ -55971,7 +56122,8 @@
         "The I-beams were to become structural members of a pedestrian bridge."
       ],
       "belongs": [
-        "One who belongs to a group ."
+        "One who belongs to a group .",
+        "The photon belongs to the class of boson particles."
       ],
       "thus": [
         "Thus, neuro-symbolic AI provides a reasoning infrastructure to state-of-the-art machine learning for solving a wider range of problems more effectively."
@@ -56645,7 +56797,8 @@
         "For example, a photon is a single quantum of light of a specific frequency."
       ],
       "photon": [
-        "For example, a photon is a single quantum of light of a specific frequency."
+        "For example, a photon is a single quantum of light of a specific frequency.",
+        "The photon belongs to the class of boson particles."
       ],
       "energy": [
         "Similarly, the energy of an electron bound within an atom is quantized and can exist only in certain discrete values."
@@ -56771,6 +56924,12 @@
       ],
       "tabletop": [
         "This tabletop is made of glass ."
+      ],
+      "photons": [
+        "Photons are massless particles that can only move at one speed, the speed of light measured in a vacuum."
+      ],
+      "massless": [
+        "Photons are massless particles that can only move at one speed, the speed of light measured in a vacuum."
       ]
     }
   },
@@ -57077,7 +57236,11 @@
       "ceremonial",
       "substance",
       "mixture",
-      "added"
+      "added",
+      "photon",
+      "elementary",
+      "waves",
+      "speed"
     ],
     "names": [],
     "lessons": 64,
