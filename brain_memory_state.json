@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.27,
+    "adenosine": 0.33,
     "newborn": false
   },
   "episodic_memory": [
@@ -2863,6 +2863,13 @@
       "text": "Two things I read keep meeting in my head: Quantum Computing and Qubits. Superconducting quantum computing is a branch of quantum computing and solid-state physics that implements superconducting electronic circuits as qubits in a quantum processor. Superconducting quantum computing is a branch of quantum computing and solid-state physics that implements superconducting electronic circuits as qubits in a quantum processor. The shared thread seems to be implementations and equivalent. Does quantum processor constrain microwave frequency electronic circuits, or the other way round?",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 0.945
+    },
+    {
+      "time": "2026-10-24 11:32:28",
+      "speaker": "brain",
+      "text": "I wondered about 'Memory consolidation' by myself and went searching. From Wikipedia (live internet) I learned: Memory consolidation is a process in the brain that stabilizes newly learned information, allowing the memory to be stored long-term. Key ideas I stored: neural circuits, memory consolidation, stable long-term memories, stored long-term.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
     }
   ],
   "world_knowledge_graph": {
@@ -6150,6 +6157,18 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Neuromorphic_computing",
       "learned": "2026-10-24 11:26:28"
+    },
+    "Memory consolidation": {
+      "summary": "Memory consolidation is a process in the brain that stabilizes newly learned information, allowing the memory to be stored long-term. A memory trace is the biological change in neural circuits that occurs during learning. Memory consolidation is essential for learning as it allows experiences to be transformed into stable long-term memories that can guide future behavior.",
+      "concepts": [
+        "neural circuits",
+        "memory consolidation",
+        "stable long-term memories",
+        "stored long-term"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Memory_consolidation",
+      "learned": "2026-10-24 11:32:28"
     }
   },
   "creator_teachings": [
@@ -7521,6 +7540,12 @@
       "kind": "daydream",
       "score": 0.945,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 11:32:28",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -7587,7 +7612,8 @@
     "merging spiking neural networks",
     "automated skill evolution",
     "internal cognitive layers",
-    "biological neuromorphic processing"
+    "biological neuromorphic processing",
+    "dynamic memory consolidation"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -29631,22 +29657,66 @@
       "source": "corpus",
       "learned": "2026-10-24 11:28:31",
       "uses": 1
+    },
+    "consolidation": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Memory consolidation is essential for learning as it allows experiences to be transformed into stable long-term memories that can guide future behavior."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:32:28",
+      "uses": 1
+    },
+    "transformed": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Memory consolidation is essential for learning as it allows experiences to be transformed into stable long-term memories that can guide future behavior."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:32:28",
+      "uses": 1
+    },
+    "behavior": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Memory consolidation is essential for learning as it allows experiences to be transformed into stable long-term memories that can guide future behavior."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:32:28",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 915,
-      "tokens": 15084,
+      "sentences": 918,
+      "tokens": 15144,
       "sources": {
         "seed corpus": 64,
         "conversation": 12,
         "dictionary": 462,
-        "explore": 110,
+        "explore": 113,
         "pasted text": 24,
         "deep study": 243
       },
       "hashes": [
-        "1152654169e7",
         "ec8105d36bfc",
         "e2ea75242de4",
         "2a89477ad708",
@@ -29945,7 +30015,8 @@
         "818740d2b32c",
         "e8cc7d27c112",
         "b5d4e40caf56",
-        "e326ae9498a3"
+        "e326ae9498a3",
+        "3e44f1625c06"
       ],
       "seeded": true,
       "rejected": 157,
@@ -30978,7 +31049,6 @@
         "ssl": 1,
         "solving": 1,
         "augmented": 1,
-        "transformed": 1,
         "pairs": 1,
         "samples": 1,
         "serves": 1,
@@ -31225,7 +31295,6 @@
         "pathways": 1,
         "major": 1,
         "motivational": 1,
-        "behavior": 1,
         "hammer": 1,
         "screws": 1,
         "nuts": 1,
@@ -31347,15 +31416,20 @@
         "contact": 1,
         "proximity": 1,
         "linguist": 1,
-        "traditional": 1
+        "traditional": 1,
+        "stabilizes": 1,
+        "stored": 1,
+        "trace": 1,
+        "occurs": 1,
+        "stable": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
         "PRON": 135,
         "WH": 21,
-        "NOUN": 169,
-        "DET": 292,
+        "NOUN": 171,
+        "DET": 293,
         "VERB": 64,
         "MODAL": 4,
         "ADJ": 79,
@@ -31372,8 +31446,8 @@
         "AUX": 117,
         "PUNCT": 30,
         "ADV": 10,
-        "VERB": 127,
-        "MODAL": 51,
+        "VERB": 128,
+        "MODAL": 52,
         "PREP": 21,
         "WH": 2,
         "DET": 4,
@@ -31385,13 +31459,13 @@
         "ADJ": 3
       },
       "AUX": {
-        "ADJ": 128,
+        "ADJ": 129,
         "PRON": 10,
         "PUNCT": 5,
-        "DET": 157,
+        "DET": 159,
         "NOUN": 43,
         "NEG": 25,
-        "VERB": 160,
+        "VERB": 162,
         "INTJ": 1,
         "ADV": 53,
         "CONJ": 8,
@@ -31404,10 +31478,10 @@
       },
       "ADJ": {
         "PART": 21,
-        "NOUN": 834,
+        "NOUN": 838,
         "WH": 2,
         "PUNCT": 131,
-        "PREP": 89,
+        "PREP": 90,
         "CONJ": 45,
         "PROPN": 17,
         "ADJ": 78,
@@ -31422,7 +31496,7 @@
       },
       "PART": {
         "VERB": 183,
-        "AUX": 22,
+        "AUX": 24,
         "ADJ": 13,
         "NOUN": 26,
         "WH": 3,
@@ -31431,16 +31505,16 @@
         "PUNCT": 4
       },
       "VERB": {
-        "PREP": 282,
+        "PREP": 283,
         "PART": 64,
         "ADJ": 51,
-        "NOUN": 225,
-        "PUNCT": 131,
+        "NOUN": 228,
+        "PUNCT": 132,
         "PRON": 54,
         "AUX": 21,
-        "DET": 213,
+        "DET": 214,
         "VERB": 29,
-        "CONJ": 85,
+        "CONJ": 86,
         "WH": 13,
         "</S>": 9,
         "ADV": 22,
@@ -31452,11 +31526,11 @@
       "PREP": {
         "PRON": 35,
         "NOUN": 536,
-        "DET": 596,
+        "DET": 597,
         "PUNCT": 32,
-        "VERB": 36,
+        "VERB": 38,
         "PREP": 19,
-        "ADJ": 173,
+        "ADJ": 175,
         "PROPN": 74,
         "AUX": 12,
         "NUM": 29,
@@ -31467,11 +31541,11 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 841,
+        "</S>": 844,
         "NOUN": 287,
         "CONJ": 170,
         "PRON": 20,
-        "VERB": 42,
+        "VERB": 43,
         "ADV": 32,
         "PREP": 28,
         "ADJ": 53,
@@ -31503,7 +31577,7 @@
         "NOUN": 33,
         "CONJ": 7,
         "DET": 11,
-        "VERB": 93,
+        "VERB": 94,
         "</S>": 2,
         "PRON": 1,
         "MODAL": 1,
@@ -31515,27 +31589,27 @@
         "NUM": 3
       },
       "NOUN": {
-        "AUX": 287,
-        "PREP": 915,
-        "NOUN": 786,
-        "PUNCT": 1154,
+        "AUX": 290,
+        "PREP": 918,
+        "NOUN": 791,
+        "PUNCT": 1157,
         "CONJ": 346,
         "VERB": 263,
-        "ADV": 50,
-        "PART": 120,
+        "ADV": 51,
+        "PART": 122,
         "ADJ": 139,
         "MODAL": 49,
         "</S>": 59,
-        "PRON": 57,
+        "PRON": 58,
         "WH": 32,
-        "DET": 185,
+        "DET": 187,
         "PROPN": 54,
         "NUM": 9,
         "NEG": 6
       },
       "DET": {
-        "NOUN": 1056,
-        "ADJ": 470,
+        "NOUN": 1062,
+        "ADJ": 471,
         "PRON": 11,
         "PREP": 29,
         "NUM": 24,
@@ -31550,7 +31624,7 @@
         "WH": 3
       },
       "CONJ": {
-        "PRON": 42,
+        "PRON": 43,
         "DET": 119,
         "NOUN": 318,
         "VERB": 57,
@@ -31577,7 +31651,7 @@
         "NEG": 3,
         "ADV": 6,
         "PUNCT": 1,
-        "ADJ": 1
+        "ADJ": 2
       },
       "NEG": {
         "VERB": 19,
@@ -31657,7 +31731,7 @@
         "PART": 14,
         "WH": 2,
         "PUNCT": 41,
-        "PREP": 18,
+        "PREP": 19,
         "DET": 8,
         "NOUN": 21,
         "CONJ": 6,
@@ -31693,7 +31767,7 @@
         "NOUN": 79,
         "PUNCT": 11,
         "VERB": 4,
-        "ADJ": 28,
+        "ADJ": 29,
         "PREP": 9,
         "NUM": 7,
         "PROPN": 18,
@@ -31758,7 +31832,7 @@
       "PRON|VERB": {
         "PART": 16,
         "PREP": 18,
-        "NOUN": 19,
+        "NOUN": 20,
         "PRON": 14,
         "PUNCT": 9,
         "DET": 26,
@@ -31783,7 +31857,7 @@
       "PART|AUX": {
         "PUNCT": 2,
         "DET": 2,
-        "VERB": 9,
+        "VERB": 11,
         "ADJ": 4,
         "NUM": 1,
         "PREP": 3,
@@ -31797,7 +31871,7 @@
         "AUX": 47,
         "VERB": 22,
         "PUNCT": 9,
-        "NOUN": 34,
+        "NOUN": 36,
         "CONJ": 11,
         "PREP": 17,
         "PROPN": 7,
@@ -31809,8 +31883,8 @@
         "MODAL": 2
       },
       "NOUN|AUX": {
-        "DET": 91,
-        "ADJ": 57,
+        "DET": 93,
+        "ADJ": 58,
         "NOUN": 23,
         "ADV": 33,
         "VERB": 51,
@@ -31823,8 +31897,8 @@
         "PREP": 1
       },
       "AUX|DET": {
-        "NOUN": 77,
-        "ADJ": 58,
+        "NOUN": 78,
+        "ADJ": 59,
         "PROPN": 4,
         "VERB": 2,
         "PREP": 4,
@@ -31834,29 +31908,29 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 335,
+        "PREP": 337,
         "AUX": 83,
         "CONJ": 77,
         "PUNCT": 220,
         "VERB": 75,
-        "ADV": 14,
+        "ADV": 15,
         "ADJ": 38,
-        "NOUN": 90,
+        "NOUN": 91,
         "PRON": 18,
-        "PART": 33,
+        "PART": 34,
         "</S>": 2,
         "PROPN": 4,
-        "DET": 47,
+        "DET": 48,
         "MODAL": 16,
         "WH": 4
       },
       "NOUN|PREP": {
         "NOUN": 326,
-        "DET": 335,
+        "DET": 336,
         "PREP": 7,
-        "ADJ": 115,
+        "ADJ": 116,
         "PROPN": 33,
-        "VERB": 27,
+        "VERB": 28,
         "PUNCT": 13,
         "NUM": 14,
         "WH": 11,
@@ -31884,33 +31958,33 @@
         "ADV": 3
       },
       "NOUN|NOUN": {
-        "PUNCT": 207,
+        "PUNCT": 208,
         "PART": 14,
         "NOUN": 161,
         "PREP": 141,
         "CONJ": 63,
         "VERB": 47,
         "PROPN": 18,
-        "AUX": 44,
+        "AUX": 47,
         "MODAL": 14,
         "ADJ": 34,
         "NUM": 4,
         "ADV": 10,
         "DET": 14,
         "NEG": 3,
-        "PRON": 5,
+        "PRON": 6,
         "WH": 6,
         "</S>": 1
       },
       "NOUN|PUNCT": {
-        "</S>": 580,
+        "</S>": 582,
         "NOUN": 213,
         "CONJ": 118,
         "ADV": 24,
         "PREP": 22,
         "ADJ": 37,
         "DET": 63,
-        "VERB": 32,
+        "VERB": 33,
         "WH": 18,
         "PRON": 15,
         "AUX": 16,
@@ -31922,7 +31996,7 @@
         "INTJ": 1
       },
       "<S>|DET": {
-        "NOUN": 188,
+        "NOUN": 189,
         "ADJ": 77,
         "PROPN": 12,
         "VERB": 2,
@@ -31933,7 +32007,7 @@
         "WH": 1
       },
       "DET|ADJ": {
-        "NOUN": 376,
+        "NOUN": 377,
         "CONJ": 13,
         "ADJ": 23,
         "PUNCT": 15,
@@ -31949,12 +32023,12 @@
       },
       "ADJ|NOUN": {
         "PUNCT": 231,
-        "NOUN": 161,
+        "NOUN": 163,
         "MODAL": 9,
         "VERB": 44,
-        "PREP": 178,
+        "PREP": 179,
         "CONJ": 65,
-        "DET": 31,
+        "DET": 32,
         "ADJ": 13,
         "AUX": 48,
         "PART": 28,
@@ -31975,7 +32049,7 @@
         "ADV": 1
       },
       "PREP|DET": {
-        "NOUN": 365,
+        "NOUN": 366,
         "ADJ": 149,
         "NUM": 15,
         "PREP": 10,
@@ -32004,7 +32078,7 @@
         "MODAL": 1
       },
       "CONJ|PRON": {
-        "VERB": 16,
+        "VERB": 17,
         "MODAL": 10,
         "AUX": 12,
         "PUNCT": 1,
@@ -32012,9 +32086,9 @@
         "PREP": 1
       },
       "VERB|NOUN": {
-        "PUNCT": 59,
+        "PUNCT": 61,
         "PREP": 39,
-        "PART": 5,
+        "PART": 6,
         "VERB": 6,
         "NOUN": 48,
         "CONJ": 16,
@@ -32036,7 +32110,7 @@
         "DET": 1,
         "ADV": 4,
         "NEG": 1,
-        "ADJ": 1
+        "ADJ": 2
       },
       "MODAL|VERB": {
         "PREP": 15,
@@ -32078,7 +32152,7 @@
         "WH": 1
       },
       "VERB|PUNCT": {
-        "</S>": 92,
+        "</S>": 93,
         "PRON": 3,
         "CONJ": 5,
         "NOUN": 17,
@@ -32229,7 +32303,7 @@
         "ADV": 2
       },
       "VERB|DET": {
-        "NOUN": 126,
+        "NOUN": 127,
         "ADJ": 70,
         "PREP": 2,
         "CONJ": 3,
@@ -32241,7 +32315,7 @@
       },
       "NOUN|ADV": {
         "PUNCT": 9,
-        "VERB": 17,
+        "VERB": 18,
         "PREP": 9,
         "NOUN": 5,
         "ADJ": 1,
@@ -32280,11 +32354,11 @@
         "VERB": 2
       },
       "AUX|VERB": {
-        "PREP": 72,
+        "PREP": 73,
         "PUNCT": 21,
         "PART": 22,
         "PRON": 2,
-        "NOUN": 10,
+        "NOUN": 11,
         "DET": 15,
         "CONJ": 13,
         "ADJ": 4,
@@ -32314,7 +32388,7 @@
       },
       "NOUN|PART": {
         "ADJ": 8,
-        "AUX": 9,
+        "AUX": 11,
         "VERB": 80,
         "NOUN": 19,
         "CONJ": 1,
@@ -32380,13 +32454,13 @@
       "ADJ|PREP": {
         "NOUN": 45,
         "DET": 28,
-        "VERB": 4,
+        "VERB": 5,
         "ADJ": 8,
         "PROPN": 3,
         "WH": 1
       },
       "VERB|CONJ": {
-        "PRON": 5,
+        "PRON": 6,
         "VERB": 16,
         "DET": 21,
         "PUNCT": 3,
@@ -32423,7 +32497,7 @@
         "PUNCT": 2,
         "PROPN": 1,
         "ADJ": 2,
-        "DET": 3,
+        "DET": 4,
         "PART": 1,
         "VERB": 1
       },
@@ -32510,7 +32584,7 @@
         "PART": 1
       },
       "PREP|VERB": {
-        "PUNCT": 9,
+        "PUNCT": 10,
         "ADJ": 4,
         "NOUN": 6,
         "DET": 5,
@@ -32518,7 +32592,7 @@
         "PROPN": 1,
         "VERB": 1,
         "PREP": 4,
-        "CONJ": 1
+        "CONJ": 2
       },
       "ADV|NOUN": {
         "PUNCT": 11,
@@ -32603,7 +32677,7 @@
         "PROPN": 3,
         "DET": 21,
         "PART": 7,
-        "NOUN": 13,
+        "NOUN": 14,
         "CONJ": 13,
         "PREP": 28,
         "WH": 1,
@@ -32636,7 +32710,7 @@
         "CONJ": 3,
         "PROPN": 5,
         "ADJ": 18,
-        "NOUN": 126,
+        "NOUN": 128,
         "PUNCT": 10,
         "AUX": 2,
         "VERB": 6,
@@ -32674,7 +32748,7 @@
         "VERB": 15,
         "AUX": 19,
         "PREP": 7,
-        "MODAL": 10,
+        "MODAL": 11,
         "PRON": 1,
         "CONJ": 1,
         "PART": 2,
@@ -32768,7 +32842,7 @@
         "MODAL": 1
       },
       "NOUN|DET": {
-        "NOUN": 102,
+        "NOUN": 104,
         "ADJ": 44,
         "CONJ": 9,
         "ADV": 5,
@@ -33396,7 +33470,8 @@
         "MODAL": 1
       },
       "MODAL|ADJ": {
-        "ADJ": 1
+        "ADJ": 1,
+        "NOUN": 1
       },
       "NUM|DET": {
         "ADJ": 3
@@ -33434,7 +33509,7 @@
         "write": 3,
         "learn": 3,
         "separate": 3,
-        "be": 3,
+        "be": 5,
         "read": 2,
         "study": 2,
         "those": 1,
@@ -33578,8 +33653,8 @@
         "models": 1
       },
       "is": {
-        "a": 58,
-        "the": 27,
+        "a": 59,
+        "the": 28,
         "an": 14,
         "one": 4,
         "important": 3,
@@ -33589,7 +33664,8 @@
         "hard": 2,
         "here": 2,
         "distinctive": 1,
-        "traditionally": 1
+        "traditionally": 1,
+        "essential": 1
       },
       "a": {
         "noun": 16,
@@ -33603,32 +33679,24 @@
         "thermodynamic": 3,
         "varying": 3,
         "verb": 1,
-        "traditional": 1
+        "traditional": 1,
+        "process": 1,
+        "memory": 1
       },
       "tool": {
         "for": 1
       },
       "for": {
         "example": 8,
+        "auxiliary": 5,
         "unconstrained": 4,
         "each": 4,
         "the": 4,
-        "auxiliary": 5,
         "interjections": 2,
         "sharing": 1,
         "your": 1,
         "help": 1,
-        "better": 1,
-        "an": 1,
-        "version": 1,
-        "leverage": 1,
-        "my": 1,
-        "general-purpose": 1,
-        "now": 1,
-        "any": 1,
-        "miles": 1,
-        "word": 1,
-        "tasks": 1
+        "better": 1
       },
       "sharing": {
         "ideas": 1
@@ -33637,26 +33705,17 @@
         "blackboard": 9,
         "order": 9,
         "development": 7,
+        "brain": 6,
         "structure": 5,
         "lesson": 4,
         "film": 4,
         "variable": 3,
         "listener": 3,
-        "application": 3,
-        "brain": 5,
-        "paradigm": 1,
-        "five": 1,
-        "dictionary": 1,
-        "two": 3,
-        "human": 1,
-        "edge": 1,
-        "vacation": 2,
-        "supermarket": 1,
-        "past": 1
+        "application": 3
       },
       "brain": {
         "is": 1,
-        "that": 1,
+        "that": 2,
         "to": 1,
         "'s": 4,
         "and": 1,
@@ -33765,7 +33824,8 @@
         "sometimes": 1,
         "seem": 1,
         "adjust": 1,
-        "only": 1
+        "only": 1,
+        "guide": 1
       },
       "about": {
         "music": 1,
@@ -33814,7 +33874,8 @@
         "from": 1,
         "worthwhile": 1,
         "forms": 1,
-        "uses": 1
+        "uses": 1,
+        "allows": 1
       },
       "important": {
         "to": 3,
@@ -33888,7 +33949,8 @@
         "paradigms": 1,
         "where": 1,
         "aims": 1,
-        "by": 1
+        "by": 1,
+        "as": 1
       },
       "fun": {
         "when": 1
@@ -34057,7 +34119,7 @@
       },
       "that": {
         "is": 8,
-        "can": 5,
+        "can": 6,
         "description": 3,
         "a": 3,
         "quantifies": 2,
@@ -34068,7 +34130,9 @@
         "marks": 2,
         "dish": 1,
         "emulate": 1,
-        "\"": 1
+        "\"": 1,
+        "stabilizes": 1,
+        "occurs": 1
       },
       "good": {
         "idea": 1,
@@ -34090,7 +34154,10 @@
         "is": 1,
         "allocation": 2,
         "and": 1,
-        "(": 1
+        "(": 1,
+        "consolidation": 2,
+        "to": 1,
+        "trace": 1
       },
       "grammar": {
         "is": 1,
@@ -34193,7 +34260,7 @@
         "in": 1
       },
       "in": {
-        "the": 62,
+        "the": 63,
         "a": 35,
         "english": 11,
         "many": 7,
@@ -34210,7 +34277,8 @@
         "this": 2,
         "analog": 1,
         "proximity": 1,
-        "you": 1
+        "you": 1,
+        "neural": 1
       },
       "children": {
         "play": 1,
@@ -34459,7 +34527,7 @@
         "over": 1,
         "involves": 1,
         "through": 1,
-        "in": 1,
+        "in": 2,
         "with": 1
       },
       "mother": {
@@ -34946,7 +35014,7 @@
         "of": 7,
         "information": 2,
         "was": 2,
-        "in": 2,
+        "in": 3,
         "is": 2,
         "to": 1,
         "can": 1,
@@ -34998,7 +35066,7 @@
         "networks": 15,
         "network": 5,
         "plasticity": 1,
-        "circuits": 1,
+        "circuits": 2,
         "systems": 1
       },
       "connections": {
@@ -35119,7 +35187,8 @@
         "neural": 2,
         "cognitive": 1,
         "neuroscience": 1,
-        "evolution": 2
+        "evolution": 2,
+        "change": 1
       },
       "brains": {
         "operate": 1
@@ -35393,7 +35462,8 @@
         "or": 1,
         "effect": 1,
         "layers": 1,
-        "typicals": 1
+        "typicals": 1,
+        "stable": 1
       },
       "dissipative": {
         "structures": 1,
@@ -35945,7 +36015,9 @@
         "resolved": 1,
         "accurate": 1,
         "separated": 1,
-        "similar": 1
+        "similar": 1,
+        "stored": 1,
+        "transformed": 1
       },
       "defined": {
         "for": 4,
@@ -36149,7 +36221,8 @@
         "intended": 1,
         "sold": 1,
         "stock": 1,
-        "perception": 1
+        "perception": 1,
+        "it": 1
       },
       "itself": {
         "was": 2,
@@ -36175,7 +36248,8 @@
       },
       "during": {
         "the": 5,
-        "its": 1
+        "its": 1,
+        "learning": 1
       },
       "early": {
         "th": 2,
@@ -38641,7 +38715,8 @@
       },
       "circuits": {
         "and": 2,
-        "in": 1
+        "in": 1,
+        "that": 1
       },
       "field": {
         "programmable": 2,
@@ -38817,7 +38892,8 @@
         "allows": 1
       },
       "allows": {
-        "a": 1
+        "a": 1,
+        "experiences": 1
       },
       "single": {
         "piece": 1,
@@ -39613,7 +39689,8 @@
         "component": 1,
         "part": 1,
         "features": 1,
-        "elements": 1
+        "elements": 1,
+        "for": 1
       },
       "component": {
         "of": 2,
@@ -40797,7 +40874,8 @@
         "to": 2,
         "provides": 1,
         "here": 1,
-        "helps": 1
+        "helps": 1,
+        "future": 1
       },
       "exercises": {
         "with": 1
@@ -40989,7 +41067,8 @@
       "future": {
         "and": 1,
         "form": 1,
-        "perfect": 1
+        "perfect": 1,
+        "behavior": 1
       },
       "finer": {
         "tense": 1,
@@ -42048,7 +42127,8 @@
         "allowing": 1
       },
       "allowing": {
-        "what": 1
+        "what": 1,
+        "the": 1
       },
       "“": {
         "adaptive": 1,
@@ -42840,7 +42920,8 @@
         "or": 1
       },
       "transformed": {
-        "in": 1
+        "in": 1,
+        "into": 1
       },
       "creates": {
         "pairs": 1
@@ -43458,7 +43539,8 @@
         "or": 1
       },
       "memories": {
-        "are": 1
+        "are": 1,
+        "that": 1
       },
       "postulated": {
         "to": 1
@@ -43946,7 +44028,8 @@
         "was": 1
       },
       "learned": {
-        "to": 1
+        "to": 1,
+        "information": 1
       },
       "drive": {
         "a": 1,
@@ -44099,13 +44182,40 @@
       },
       "traditional": {
         "manner": 1
+      },
+      "consolidation": {
+        "is": 2
+      },
+      "stabilizes": {
+        "newly": 1
+      },
+      "newly": {
+        "learned": 1
+      },
+      "stored": {
+        "long-term": 1
+      },
+      "trace": {
+        "is": 1
+      },
+      "occurs": {
+        "during": 1
+      },
+      "experiences": {
+        "to": 1
+      },
+      "stable": {
+        "long-term": 1
+      },
+      "long-term": {
+        "memories": 1
       }
     },
     "starters": {
       "i": 41,
       "how": 3,
       "what": 6,
-      "<NOUN>": 169,
+      "<NOUN>": 171,
       "the": 141,
       "she": 7,
       "we": 13,
@@ -44122,7 +44232,7 @@
       "that": 10,
       "if": 5,
       "although": 2,
-      "a": 62,
+      "a": 63,
       "does": 1,
       "who": 2,
       "when": 8,
@@ -44186,7 +44296,7 @@
       "than": 23,
       "therefore": 7,
       "if": 6,
-      "as": 102,
+      "as": 103,
       "however": 2,
       "whether": 2,
       "that": 8,
@@ -44243,7 +44353,8 @@
         "and": 1,
         "while": 1,
         "that": 1,
-        "so": 2
+        "so": 2,
+        "as": 1
       },
       "ADJ>ADJ": {
         "and": 9,
@@ -45466,14 +45577,6 @@
       "NOUN WH PRON VERB PREP DET NOUN ADV NOUN PART VERB NOUN PREP PRON VERB | while | PREP NOUN": 1
     },
     "sentence_bank": {
-      "typical": [
-        "In our school a typical working week consists of around twenty lessons and ten hours of related laboratory work.",
-        "In a typical or common manner."
-      ],
-      "provides": [
-        "Something that provides a definitive characterization or description of the nature and attributes of a specified entity .",
-        "This guide provides examples of English tenses ."
-      ],
       "definitive": [
         "Something that provides a definitive characterization or description of the nature and attributes of a specified entity ."
       ],
@@ -46145,7 +46248,9 @@
         "The C dynamic memory allocation functions are usable in C++, but would generally be considered idiosyncratic."
       ],
       "memory": [
-        "The C dynamic memory allocation functions are usable in C++, but would generally be considered idiosyncratic."
+        "Memory consolidation is a process in the brain that stabilizes newly learned information, allowing the memory to be stored long-term.",
+        "A memory trace is the biological change in neural circuits that occurs during learning.",
+        "Memory consolidation is essential for learning as it allows experiences to be transformed into stable long-term memories that can guide future behavior."
       ],
       "common": [
         "Learn LOTS of common idioms in English, with examples of how these expressions are used by native English speakers.",
@@ -47449,6 +47554,13 @@
       ],
       "package": [
         "The vacation package includes car rental."
+      ],
+      "consolidation": [
+        "Memory consolidation is a process in the brain that stabilizes newly learned information, allowing the memory to be stored long-term.",
+        "Memory consolidation is essential for learning as it allows experiences to be transformed into stable long-term memories that can guide future behavior."
+      ],
+      "trace": [
+        "A memory trace is the biological change in neural circuits that occurs during learning."
       ]
     }
   },
@@ -47756,7 +47868,10 @@
       "neuromorphic",
       "package",
       "vacation",
-      "arrive"
+      "arrive",
+      "consolidation",
+      "transformed",
+      "behavior"
     ],
     "names": [],
     "lessons": 41,
@@ -47764,7 +47879,6 @@
     "taught": 0,
     "last_lesson": "2026-10-24 11:28:32",
     "pending_concepts": [
-      "dynamic memory consolidation",
       "distributed environments",
       "neuro-symbolic reasoning",
       "autonomous recursive self-improvement",
