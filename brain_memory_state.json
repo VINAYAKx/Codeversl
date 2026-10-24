@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.16,
+    "adenosine": 0.22,
     "newborn": false
   },
   "episodic_memory": [
@@ -2826,6 +2826,13 @@
       "time": "2026-10-24 12:02:32",
       "speaker": "brain",
       "text": "I wondered about 'List of statistical software' by myself and went searching. From Wikipedia (live internet) I learned: The following is a list of statistical software. Key ideas I stored: statistical software, software.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 12:04:32",
+      "speaker": "brain",
+      "text": "I wondered about 'Relational database' by myself and went searching. From Wikipedia (live internet) I learned: A relational database (RDB) is a database based on the relational model of data, as proposed by E. Key ideas I stored: relational database, database, relational.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6185,6 +6192,17 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/List_of_statistical_software",
       "learned": "2026-10-24 12:02:32"
+    },
+    "Relational database": {
+      "summary": "A relational database (RDB) is a database based on the relational model of data, as proposed by E. F. Codd in 1970.",
+      "concepts": [
+        "relational database",
+        "database",
+        "relational"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Relational_database",
+      "learned": "2026-10-24 12:04:32"
     }
   },
   "creator_teachings": [
@@ -7658,6 +7676,12 @@
       "kind": "explore_report",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 12:04:32",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -7730,7 +7754,8 @@
     "neuro-symbolic reasoning",
     "direct instruction-set architecture manipulation",
     "strict class-based object orientation",
-    "comprehensive statistical modeling libraries"
+    "comprehensive statistical modeling libraries",
+    "relational database management systems"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -31877,22 +31902,66 @@
       "source": "corpus",
       "learned": "2026-10-24 12:00:32",
       "uses": 1
+    },
+    "relational": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "A relational database (RDB) is a database based on the relational model of data, as proposed by E. F. Codd in 1970."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 12:04:32",
+      "uses": 1
+    },
+    "database": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "A relational database (RDB) is a database based on the relational model of data, as proposed by E. F. Codd in 1970."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 12:04:32",
+      "uses": 1
+    },
+    "based": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "A relational database (RDB) is a database based on the relational model of data, as proposed by E. F. Codd in 1970."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 12:04:32",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 1010,
-      "tokens": 16515,
+      "sentences": 1011,
+      "tokens": 16542,
       "sources": {
         "seed corpus": 64,
         "conversation": 12,
         "dictionary": 544,
-        "explore": 123,
+        "explore": 124,
         "pasted text": 24,
         "deep study": 243
       },
       "hashes": [
-        "ce2c8a9fc07a",
         "7f692f2dbb86",
         "16c0eb19688d",
         "4aafee889a7a",
@@ -32191,7 +32260,8 @@
         "cc7795738a28",
         "733888da65bd",
         "1ac83c460b15",
-        "606c40a0b03d"
+        "606c40a0b03d",
+        "67c9ebfbbed0"
       ],
       "seeded": true,
       "rejected": 182,
@@ -32516,7 +32586,6 @@
         "branches": 1,
         "sql": 1,
         "querying": 1,
-        "relational": 1,
         "databases": 1,
         "distinguishing": 1,
         "revised": 1,
@@ -32847,7 +32916,6 @@
         "notation": 1,
         "tags": 1,
         "distinguish": 1,
-        "based": 1,
         "semantic": 1,
         "regular": 1,
         "irregular": 1,
@@ -33649,7 +33717,9 @@
         "inheritance": 1,
         "basing": 1,
         "implementation": 1,
-        "super": 1
+        "super": 1,
+        "proposed": 1,
+        "codd": 1
       }
     },
     "pos_bigrams": {
@@ -33657,7 +33727,7 @@
         "PRON": 148,
         "WH": 21,
         "NOUN": 192,
-        "DET": 328,
+        "DET": 329,
         "VERB": 69,
         "MODAL": 4,
         "ADJ": 83,
@@ -33690,7 +33760,7 @@
         "ADJ": 143,
         "PRON": 10,
         "PUNCT": 6,
-        "DET": 177,
+        "DET": 178,
         "NOUN": 48,
         "NEG": 26,
         "VERB": 172,
@@ -33706,7 +33776,7 @@
       },
       "ADJ": {
         "PART": 22,
-        "NOUN": 898,
+        "NOUN": 900,
         "WH": 2,
         "PUNCT": 145,
         "PREP": 100,
@@ -33733,7 +33803,7 @@
         "PUNCT": 5
       },
       "VERB": {
-        "PREP": 304,
+        "PREP": 306,
         "PART": 72,
         "ADJ": 56,
         "NOUN": 258,
@@ -33753,13 +33823,13 @@
       },
       "PREP": {
         "PRON": 39,
-        "NOUN": 574,
-        "DET": 641,
-        "PUNCT": 35,
+        "NOUN": 575,
+        "DET": 642,
+        "PUNCT": 36,
         "VERB": 44,
         "PREP": 20,
         "ADJ": 186,
-        "PROPN": 76,
+        "PROPN": 77,
         "AUX": 15,
         "NUM": 32,
         "WH": 17,
@@ -33769,9 +33839,9 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 926,
-        "NOUN": 320,
-        "CONJ": 185,
+        "</S>": 927,
+        "NOUN": 322,
+        "CONJ": 186,
         "PRON": 20,
         "VERB": 46,
         "ADV": 34,
@@ -33817,12 +33887,12 @@
         "NUM": 3
       },
       "NOUN": {
-        "AUX": 324,
-        "PREP": 989,
-        "NOUN": 841,
-        "PUNCT": 1257,
+        "AUX": 325,
+        "PREP": 991,
+        "NOUN": 842,
+        "PUNCT": 1259,
         "CONJ": 385,
-        "VERB": 290,
+        "VERB": 291,
         "ADV": 56,
         "PART": 134,
         "ADJ": 146,
@@ -33831,13 +33901,13 @@
         "PRON": 69,
         "WH": 35,
         "DET": 207,
-        "PROPN": 57,
+        "PROPN": 58,
         "NUM": 10,
         "NEG": 6
       },
       "DET": {
-        "NOUN": 1157,
-        "ADJ": 515,
+        "NOUN": 1158,
+        "ADJ": 517,
         "PRON": 15,
         "PREP": 31,
         "NUM": 26,
@@ -33856,7 +33926,7 @@
         "PRON": 48,
         "DET": 130,
         "NOUN": 351,
-        "VERB": 64,
+        "VERB": 65,
         "ADJ": 91,
         "ADV": 28,
         "PUNCT": 14,
@@ -33901,9 +33971,9 @@
       },
       "PROPN": {
         "DET": 4,
-        "PUNCT": 98,
+        "PUNCT": 99,
         "PART": 5,
-        "NOUN": 105,
+        "NOUN": 106,
         "AUX": 19,
         "PROPN": 67,
         "ADJ": 16,
@@ -33993,14 +34063,14 @@
       },
       "VERB|PREP": {
         "PRON": 10,
-        "DET": 120,
+        "DET": 121,
         "NOUN": 81,
         "PUNCT": 13,
         "VERB": 5,
         "ADJ": 32,
         "PREP": 9,
         "NUM": 8,
-        "PROPN": 18,
+        "PROPN": 19,
         "CONJ": 3,
         "AUX": 1,
         "WH": 2,
@@ -34116,7 +34186,7 @@
         "MODAL": 2
       },
       "NOUN|AUX": {
-        "DET": 106,
+        "DET": 107,
         "ADJ": 64,
         "NOUN": 25,
         "ADV": 38,
@@ -34131,7 +34201,7 @@
         "PART": 1
       },
       "AUX|DET": {
-        "NOUN": 88,
+        "NOUN": 89,
         "ADJ": 67,
         "PROPN": 4,
         "VERB": 2,
@@ -34146,7 +34216,7 @@
         "AUX": 90,
         "CONJ": 84,
         "PUNCT": 240,
-        "VERB": 86,
+        "VERB": 87,
         "ADV": 16,
         "ADJ": 39,
         "NOUN": 101,
@@ -34159,13 +34229,13 @@
         "WH": 6
       },
       "NOUN|PREP": {
-        "NOUN": 356,
+        "NOUN": 357,
         "DET": 360,
         "PREP": 8,
         "ADJ": 124,
         "PROPN": 34,
         "VERB": 31,
-        "PUNCT": 13,
+        "PUNCT": 14,
         "NUM": 15,
         "WH": 11,
         "AUX": 10,
@@ -34175,7 +34245,7 @@
       },
       "PREP|NOUN": {
         "NOUN": 91,
-        "PUNCT": 157,
+        "PUNCT": 158,
         "VERB": 31,
         "CONJ": 60,
         "ADJ": 14,
@@ -34198,7 +34268,7 @@
         "PREP": 147,
         "CONJ": 70,
         "VERB": 49,
-        "PROPN": 20,
+        "PROPN": 21,
         "AUX": 52,
         "MODAL": 14,
         "ADJ": 35,
@@ -34212,8 +34282,8 @@
       },
       "NOUN|PUNCT": {
         "</S>": 636,
-        "NOUN": 238,
-        "CONJ": 127,
+        "NOUN": 239,
+        "CONJ": 128,
         "ADV": 26,
         "PREP": 24,
         "ADJ": 38,
@@ -34231,7 +34301,7 @@
       },
       "<S>|DET": {
         "NOUN": 210,
-        "ADJ": 84,
+        "ADJ": 85,
         "PROPN": 14,
         "VERB": 2,
         "PREP": 4,
@@ -34242,7 +34312,7 @@
         "PRON": 1
       },
       "DET|ADJ": {
-        "NOUN": 413,
+        "NOUN": 415,
         "CONJ": 14,
         "ADJ": 24,
         "PUNCT": 18,
@@ -34258,10 +34328,10 @@
       },
       "ADJ|NOUN": {
         "PUNCT": 246,
-        "NOUN": 169,
+        "NOUN": 170,
         "MODAL": 10,
         "VERB": 45,
-        "PREP": 195,
+        "PREP": 196,
         "CONJ": 70,
         "DET": 34,
         "ADJ": 15,
@@ -34286,7 +34356,7 @@
       },
       "PREP|DET": {
         "NOUN": 389,
-        "ADJ": 164,
+        "ADJ": 165,
         "NUM": 15,
         "PREP": 11,
         "PROPN": 30,
@@ -34366,8 +34436,8 @@
         "CONJ": 28,
         "NOUN": 60,
         "ADJ": 7,
-        "PUNCT": 142,
-        "PREP": 40,
+        "PUNCT": 143,
+        "PREP": 41,
         "AUX": 13,
         "DET": 9,
         "ADV": 2,
@@ -34479,7 +34549,7 @@
       "NOUN|VERB": {
         "PART": 7,
         "DET": 71,
-        "PREP": 66,
+        "PREP": 67,
         "WH": 4,
         "PRON": 18,
         "PUNCT": 25,
@@ -34515,7 +34585,7 @@
         "CONJ": 6,
         "AUX": 7,
         "PROPN": 8,
-        "VERB": 14,
+        "VERB": 15,
         "NEG": 1,
         "ADV": 8,
         "MODAL": 2,
@@ -34586,7 +34656,7 @@
         "PART": 1
       },
       "PREP|PUNCT": {
-        "</S>": 13,
+        "</S>": 14,
         "PUNCT": 3,
         "CONJ": 6,
         "ADJ": 1,
@@ -34611,7 +34681,7 @@
         "NOUN": 13,
         "PUNCT": 22,
         "ADJ": 3,
-        "PREP": 15,
+        "PREP": 16,
         "CONJ": 2,
         "DET": 3,
         "VERB": 2,
@@ -35011,7 +35081,7 @@
         "PUNCT": 3
       },
       "PREP|PROPN": {
-        "PUNCT": 23,
+        "PUNCT": 24,
         "AUX": 2,
         "PROPN": 17,
         "NOUN": 16,
@@ -35026,7 +35096,7 @@
         "DET": 9,
         "PROPN": 18,
         "CONJ": 12,
-        "NOUN": 13,
+        "NOUN": 14,
         "WH": 4,
         "PUNCT": 3,
         "ADV": 1,
@@ -35111,7 +35181,7 @@
       },
       "NOUN|PROPN": {
         "PART": 1,
-        "NOUN": 30,
+        "NOUN": 31,
         "AUX": 5,
         "PROPN": 4,
         "PREP": 4,
@@ -35173,7 +35243,7 @@
       },
       "PROPN|NOUN": {
         "CONJ": 5,
-        "AUX": 16,
+        "AUX": 17,
         "PUNCT": 38,
         "NOUN": 22,
         "DET": 5,
@@ -35950,7 +36020,7 @@
         "opcode": 1
       },
       "is": {
-        "a": 65,
+        "a": 66,
         "the": 31,
         "an": 16,
         "one": 4,
@@ -35978,16 +36048,7 @@
         "preposition": 3,
         "neural": 3,
         "thermodynamic": 3,
-        "varying": 3,
-        "one-instruction": 1,
-        "machine": 1,
-        "judicious": 1,
-        "universal": 1,
-        "bit": 1,
-        "specific": 1,
-        "city": 1,
-        "hierarchy": 1,
-        "list": 1
+        "varying": 3
       },
       "tool": {
         "for": 1
@@ -36025,7 +36086,8 @@
         "application": 3,
         "research": 1,
         "mechanism": 1,
-        "following": 1
+        "following": 1,
+        "relational": 1
       },
       "brain": {
         "is": 1,
@@ -36762,7 +36824,8 @@
         "about": 1,
         "basing": 1,
         "classes": 1,
-        "statistical": 1
+        "statistical": 1,
+        "data": 1
       },
       "reading": {
         "is": 1,
@@ -37285,7 +37348,7 @@
         "me": 1
       },
       "on": {
-        "the": 24,
+        "the": 25,
         "a": 5,
         "devices": 2,
         "their": 2,
@@ -37575,23 +37638,13 @@
         "the": 13,
         "microsoft": 2,
         "thermodynamic": 2,
+        "adding": 2,
+        "a": 2,
         "ramin": 1,
         "alexander": 1,
         "introducing": 1,
         "languages": 1,
-        "combining": 1,
-        "adding": 2,
-        "linguists": 1,
-        "removing": 1,
-        "neurons": 1,
-        "a": 2,
-        "which": 1,
-        "myself": 1,
-        "deduction": 1,
-        "kyunghyun": 1,
-        "emulating": 1,
-        "random": 1,
-        "one": 1
+        "combining": 1
       },
       "thermodynamic": {
         "efficiency": 2,
@@ -38121,23 +38174,13 @@
         "words": 2,
         ")": 2,
         "p": 2,
-        "nn": 1,
-        "to": 1,
-        "new": 1,
-        "with": 2,
-        "as": 1,
-        "only": 1,
-        "something": 1,
-        "a": 1,
-        "oisc": 1,
-        "urisc": 1,
-        "that": 1
+        "with": 2
       },
       "nn": {
         ")": 1
       },
       ")": {
-        "is": 12,
+        "is": 13,
         "and": 6,
         "grammatical": 4,
         "with": 3,
@@ -38168,7 +38211,8 @@
         "was": 3,
         "for": 1,
         "is": 2,
-        "you": 1
+        "you": 1,
+        "of": 1
       },
       "inspired": {
         "by": 3,
@@ -38588,7 +38632,8 @@
         "is": 2,
         "vocabulary": 2,
         "new": 2,
-        "super": 1
+        "super": 1,
+        "proposed": 1
       },
       "itself": {
         "was": 2,
@@ -41439,7 +41484,9 @@
         "data": 1
       },
       "relational": {
-        "databases": 1
+        "databases": 1,
+        "database": 1,
+        "model": 1
       },
       "lets": {
         "users": 3
@@ -43848,7 +43895,7 @@
         "different": 1
       },
       "based": {
-        "on": 1
+        "on": 2
       },
       "semantic": {
         "context": 1
@@ -47180,6 +47227,19 @@
       },
       "forming": {
         "them": 1
+      },
+      "database": {
+        "(": 1,
+        "based": 1
+      },
+      "rdb": {
+        ")": 1
+      },
+      "proposed": {
+        "by": 1
+      },
+      "codd": {
+        "in": 1
       }
     },
     "starters": {
@@ -47203,7 +47263,7 @@
       "that": 11,
       "if": 5,
       "although": 2,
-      "a": 73,
+      "a": 74,
       "does": 1,
       "who": 2,
       "when": 8,
@@ -47268,7 +47328,7 @@
       "than": 26,
       "therefore": 7,
       "if": 6,
-      "as": 121,
+      "as": 122,
       "however": 2,
       "whether": 2,
       "that": 10,
@@ -47312,7 +47372,7 @@
       "NOUN>VERB": {
         "and": 17,
         "or": 9,
-        "as": 2,
+        "as": 3,
         "than": 1
       },
       "ADJ>PRON": {
@@ -50936,7 +50996,6 @@
     "taught": 0,
     "last_lesson": "2026-10-24 11:58:42",
     "pending_concepts": [
-      "relational database management systems",
       "general-purpose turing-complete languages",
       "database query languages",
       "sql standardizes declarative",
