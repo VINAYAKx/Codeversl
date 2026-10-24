@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.19,
+    "adenosine": 0.25,
     "newborn": false
   },
   "episodic_memory": [
@@ -2833,6 +2833,13 @@
       "time": "2026-10-24 14:46:32",
       "speaker": "brain",
       "text": "I wondered about 'Neuron' by myself and went searching. From Wikipedia (live internet) I learned: A neuron, neurone, or nerve cell, is a cell that is excitable, firing electric signals called action potentials. Key ideas I stored: neurons form neural networks, chemical neurotransmitters, presynaptic neuron, synapses, synaptic.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 14:48:32",
+      "speaker": "brain",
+      "text": "I wondered about 'Memory' by myself and went searching. From Wikipedia (live internet) I learned: Memory is the faculty of the mind by which data or information is encoded, stored, and retrieved when needed. Key ideas I stored: action, amnesia, disorder, events, faculty.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6348,6 +6355,19 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Neuron",
       "learned": "2026-10-24 14:46:32"
+    },
+    "Memory": {
+      "summary": "Memory is the faculty of the mind by which data or information is encoded, stored, and retrieved when needed. It is the retention of information over time for the purpose of influencing future action. If past events could not be remembered, it would be impossible for language, relationships, or personal identity to develop. Memory loss is usually described as forgetfulness or a disorder such as amnesia.",
+      "concepts": [
+        "action",
+        "amnesia",
+        "disorder",
+        "events",
+        "faculty"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Memory",
+      "learned": "2026-10-24 14:48:32"
     }
   },
   "creator_teachings": [
@@ -8061,6 +8081,12 @@
       "kind": "explore_report",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 14:48:32",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -8147,7 +8173,8 @@
     "logic",
     "ethics",
     "quantum",
-    "neuron"
+    "neuron",
+    "memory"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -36409,22 +36436,51 @@
       "source": "corpus",
       "learned": "2026-10-24 14:46:32",
       "uses": 1
+    },
+    "encoded": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Memory is the faculty of the mind by which data or information is encoded, stored, and retrieved when needed."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:48:32",
+      "uses": 1
+    },
+    "retention": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "It is the retention of information over time for the purpose of influencing future action."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:48:32",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 1218,
-      "tokens": 19527,
+      "sentences": 1222,
+      "tokens": 19602,
       "sources": {
         "seed corpus": 64,
         "conversation": 16,
         "dictionary": 701,
-        "explore": 170,
+        "explore": 174,
         "pasted text": 24,
         "deep study": 243
       },
       "hashes": [
-        "733047245e5e",
         "fdb07439d140",
         "6efbbf8ee9eb",
         "fa0e11ba96e2",
@@ -36723,7 +36779,8 @@
         "a009e12045a1",
         "65314a2f09ed",
         "faea4de9c988",
-        "c4b3a4a405bc"
+        "c4b3a4a405bc",
+        "753b1dd2cfe7"
       ],
       "seeded": true,
       "rejected": 219,
@@ -37861,7 +37918,6 @@
         "practiced": 1,
         "reflects": 1,
         "measured": 1,
-        "retention": 1,
         "employees": 1,
         "adjust": 1,
         "personality": 1,
@@ -38172,7 +38228,6 @@
         "elephant": 1,
         "precise": 1,
         "ears": 1,
-        "encoded": 1,
         "modifiable": 1,
         "unalterable": 1,
         "rejected": 1,
@@ -38336,20 +38391,28 @@
         "firing": 1,
         "central": 1,
         "conduct": 1,
-        "impulses": 1
+        "impulses": 1,
+        "faculty": 1,
+        "retrieved": 1,
+        "influencing": 1,
+        "identity": 1,
+        "described": 1,
+        "forgetfulness": 1,
+        "disorder": 1,
+        "amnesia": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 188,
+        "PRON": 189,
         "WH": 23,
-        "NOUN": 232,
+        "NOUN": 234,
         "DET": 391,
         "VERB": 91,
         "MODAL": 4,
         "ADJ": 95,
         "INTJ": 5,
-        "CONJ": 19,
+        "CONJ": 20,
         "AUX": 4,
         "ADV": 20,
         "PREP": 121,
@@ -38358,11 +38421,11 @@
         "NEG": 2
       },
       "PRON": {
-        "AUX": 160,
+        "AUX": 161,
         "PUNCT": 43,
         "ADV": 13,
         "VERB": 182,
-        "MODAL": 69,
+        "MODAL": 70,
         "PREP": 26,
         "WH": 2,
         "DET": 7,
@@ -38375,15 +38438,15 @@
         "NUM": 1
       },
       "AUX": {
-        "ADJ": 179,
+        "ADJ": 180,
         "PRON": 12,
         "PUNCT": 6,
-        "DET": 213,
+        "DET": 215,
         "NOUN": 51,
         "NEG": 32,
-        "VERB": 209,
+        "VERB": 211,
         "INTJ": 1,
-        "ADV": 70,
+        "ADV": 71,
         "CONJ": 9,
         "NUM": 13,
         "PROPN": 4,
@@ -38394,10 +38457,10 @@
       },
       "ADJ": {
         "PART": 28,
-        "NOUN": 1038,
+        "NOUN": 1039,
         "WH": 2,
         "PUNCT": 186,
-        "PREP": 116,
+        "PREP": 117,
         "CONJ": 62,
         "PROPN": 21,
         "ADJ": 93,
@@ -38411,7 +38474,7 @@
         "PRON": 1
       },
       "PART": {
-        "VERB": 241,
+        "VERB": 242,
         "AUX": 39,
         "ADJ": 15,
         "NOUN": 34,
@@ -38425,13 +38488,13 @@
         "PART": 85,
         "ADJ": 68,
         "NOUN": 314,
-        "PUNCT": 169,
+        "PUNCT": 174,
         "PRON": 72,
         "AUX": 23,
         "DET": 282,
         "VERB": 37,
-        "CONJ": 118,
-        "WH": 19,
+        "CONJ": 119,
+        "WH": 20,
         "</S>": 10,
         "ADV": 30,
         "PROPN": 17,
@@ -38441,8 +38504,8 @@
       },
       "PREP": {
         "PRON": 45,
-        "NOUN": 692,
-        "DET": 740,
+        "NOUN": 696,
+        "DET": 742,
         "PUNCT": 40,
         "VERB": 53,
         "PREP": 21,
@@ -38450,18 +38513,18 @@
         "PROPN": 89,
         "AUX": 16,
         "NUM": 38,
-        "WH": 23,
+        "WH": 24,
         "CONJ": 11,
         "ADV": 10,
         "PART": 4,
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 1109,
-        "NOUN": 391,
-        "CONJ": 219,
-        "PRON": 27,
-        "VERB": 57,
+        "</S>": 1113,
+        "NOUN": 392,
+        "CONJ": 221,
+        "PRON": 28,
+        "VERB": 58,
         "ADV": 41,
         "PREP": 39,
         "ADJ": 68,
@@ -38479,8 +38542,8 @@
         "AUX": 26,
         "DET": 35,
         "PRON": 15,
-        "NOUN": 42,
-        "VERB": 20,
+        "NOUN": 43,
+        "VERB": 21,
         "MODAL": 7,
         "PREP": 4,
         "PART": 7,
@@ -38493,7 +38556,7 @@
         "NOUN": 46,
         "CONJ": 9,
         "DET": 17,
-        "VERB": 125,
+        "VERB": 126,
         "</S>": 2,
         "PRON": 3,
         "MODAL": 1,
@@ -38505,33 +38568,33 @@
         "NUM": 3
       },
       "NOUN": {
-        "AUX": 389,
-        "PREP": 1172,
-        "NOUN": 992,
-        "PUNCT": 1513,
-        "CONJ": 453,
+        "AUX": 392,
+        "PREP": 1178,
+        "NOUN": 996,
+        "PUNCT": 1517,
+        "CONJ": 455,
         "VERB": 334,
         "ADV": 63,
-        "PART": 158,
+        "PART": 159,
         "ADJ": 167,
-        "MODAL": 57,
+        "MODAL": 58,
         "</S>": 88,
         "PRON": 84,
         "WH": 40,
-        "DET": 231,
+        "DET": 232,
         "PROPN": 65,
         "NUM": 10,
         "NEG": 6
       },
       "DET": {
-        "NOUN": 1363,
+        "NOUN": 1368,
         "ADJ": 589,
         "PRON": 16,
         "PREP": 32,
         "NUM": 33,
         "PART": 5,
         "VERB": 27,
-        "CONJ": 33,
+        "CONJ": 34,
         "PROPN": 75,
         "DET": 52,
         "ADV": 17,
@@ -38542,10 +38605,10 @@
       },
       "CONJ": {
         "PRON": 60,
-        "DET": 147,
-        "NOUN": 420,
-        "VERB": 77,
-        "ADJ": 105,
+        "DET": 148,
+        "NOUN": 424,
+        "VERB": 78,
+        "ADJ": 106,
         "ADV": 30,
         "PUNCT": 15,
         "WH": 11,
@@ -38563,9 +38626,9 @@
         "PRON": 5,
         "DET": 3,
         "CONJ": 3,
-        "AUX": 52,
+        "AUX": 53,
         "NOUN": 11,
-        "NEG": 8,
+        "NEG": 9,
         "ADV": 9,
         "PUNCT": 1,
         "ADJ": 3
@@ -38574,7 +38637,7 @@
         "VERB": 30,
         "NOUN": 5,
         "DET": 5,
-        "AUX": 6,
+        "AUX": 7,
         "PREP": 2,
         "PART": 4,
         "ADV": 5,
@@ -38621,7 +38684,7 @@
     },
     "pos_trigrams": {
       "<S>|PRON": {
-        "AUX": 81,
+        "AUX": 82,
         "VERB": 69,
         "MODAL": 26,
         "ADV": 4,
@@ -38634,7 +38697,7 @@
       },
       "PRON|AUX": {
         "ADJ": 40,
-        "DET": 29,
+        "DET": 30,
         "NEG": 13,
         "VERB": 42,
         "INTJ": 1,
@@ -38652,7 +38715,7 @@
         "PART": 20,
         "WH": 2,
         "PUNCT": 57,
-        "PREP": 29,
+        "PREP": 30,
         "DET": 10,
         "NOUN": 31,
         "CONJ": 10,
@@ -38671,7 +38734,7 @@
       "PART|VERB": {
         "PREP": 34,
         "ADJ": 17,
-        "PUNCT": 28,
+        "PUNCT": 29,
         "NOUN": 58,
         "WH": 4,
         "DET": 51,
@@ -38797,10 +38860,10 @@
         "DET": 1
       },
       "<S>|NOUN": {
-        "AUX": 64,
+        "AUX": 65,
         "VERB": 32,
         "PUNCT": 10,
-        "NOUN": 43,
+        "NOUN": 44,
         "CONJ": 15,
         "PREP": 32,
         "PROPN": 8,
@@ -38812,11 +38875,11 @@
         "MODAL": 2
       },
       "NOUN|AUX": {
-        "DET": 124,
+        "DET": 125,
         "ADJ": 79,
         "NOUN": 27,
-        "ADV": 45,
-        "VERB": 70,
+        "ADV": 46,
+        "VERB": 71,
         "CONJ": 5,
         "NUM": 7,
         "NEG": 11,
@@ -38827,7 +38890,7 @@
         "PART": 1
       },
       "AUX|DET": {
-        "NOUN": 111,
+        "NOUN": 113,
         "ADJ": 78,
         "PROPN": 4,
         "VERB": 4,
@@ -38838,7 +38901,7 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 424,
+        "PREP": 428,
         "AUX": 110,
         "CONJ": 104,
         "PUNCT": 285,
@@ -38850,34 +38913,34 @@
         "PART": 42,
         "</S>": 2,
         "PROPN": 6,
-        "DET": 55,
+        "DET": 56,
         "MODAL": 20,
         "WH": 8
       },
       "NOUN|PREP": {
-        "NOUN": 437,
-        "DET": 417,
+        "NOUN": 440,
+        "DET": 419,
         "PREP": 8,
         "ADJ": 145,
         "PROPN": 40,
         "VERB": 36,
         "PUNCT": 14,
         "NUM": 20,
-        "WH": 16,
+        "WH": 17,
         "AUX": 10,
         "ADV": 5,
         "PRON": 19,
         "CONJ": 5
       },
       "PREP|NOUN": {
-        "NOUN": 109,
-        "PUNCT": 189,
+        "NOUN": 110,
+        "PUNCT": 190,
         "VERB": 34,
         "CONJ": 75,
         "ADJ": 19,
         "DET": 34,
         "AUX": 18,
-        "PREP": 75,
+        "PREP": 77,
         "PRON": 16,
         "</S>": 80,
         "WH": 6,
@@ -38888,15 +38951,15 @@
         "ADV": 3
       },
       "NOUN|NOUN": {
-        "PUNCT": 265,
+        "PUNCT": 266,
         "PART": 23,
-        "NOUN": 195,
+        "NOUN": 196,
         "PREP": 182,
         "CONJ": 79,
         "VERB": 54,
         "PROPN": 24,
-        "AUX": 62,
-        "MODAL": 15,
+        "AUX": 63,
+        "MODAL": 16,
         "ADJ": 37,
         "NUM": 4,
         "ADV": 14,
@@ -38907,9 +38970,9 @@
         "</S>": 2
       },
       "NOUN|PUNCT": {
-        "</S>": 772,
-        "NOUN": 287,
-        "CONJ": 149,
+        "</S>": 774,
+        "NOUN": 288,
+        "CONJ": 150,
         "ADV": 32,
         "PREP": 30,
         "ADJ": 47,
@@ -38962,7 +39025,7 @@
         "DET": 39,
         "ADJ": 17,
         "AUX": 63,
-        "PART": 34,
+        "PART": 35,
         "WH": 7,
         "PROPN": 2,
         "ADV": 8,
@@ -38982,7 +39045,7 @@
         "MODAL": 1
       },
       "PREP|DET": {
-        "NOUN": 461,
+        "NOUN": 463,
         "ADJ": 185,
         "NUM": 16,
         "PREP": 11,
@@ -38997,9 +39060,9 @@
       },
       "NOUN|CONJ": {
         "PRON": 13,
-        "DET": 63,
+        "DET": 64,
         "VERB": 27,
-        "NOUN": 237,
+        "NOUN": 238,
         "ADJ": 44,
         "WH": 4,
         "PREP": 11,
@@ -39041,7 +39104,7 @@
         "VERB": 31,
         "CONJ": 3,
         "NOUN": 5,
-        "AUX": 18,
+        "AUX": 19,
         "DET": 1,
         "ADV": 4,
         "NEG": 5,
@@ -39064,7 +39127,7 @@
         "CONJ": 32,
         "NOUN": 72,
         "ADJ": 8,
-        "PUNCT": 178,
+        "PUNCT": 179,
         "PREP": 53,
         "AUX": 13,
         "DET": 9,
@@ -39076,7 +39139,7 @@
         "WH": 1
       },
       "CONJ|DET": {
-        "NOUN": 92,
+        "NOUN": 93,
         "ADJ": 31,
         "CONJ": 3,
         "PUNCT": 4,
@@ -39089,16 +39152,16 @@
         "ADV": 1
       },
       "VERB|PUNCT": {
-        "</S>": 114,
-        "PRON": 6,
-        "CONJ": 8,
+        "</S>": 116,
+        "PRON": 7,
+        "CONJ": 9,
         "NOUN": 21,
         "DET": 7,
         "ADJ": 5,
         "NEG": 2,
         "WH": 2,
         "ADV": 2,
-        "VERB": 2
+        "VERB": 3
       },
       "<S>|VERB": {
         "PRON": 5,
@@ -39211,11 +39274,11 @@
         "PRON": 23,
         "DET": 28,
         "PUNCT": 5,
-        "ADJ": 22,
+        "ADJ": 23,
         "CONJ": 8,
         "AUX": 8,
         "PROPN": 10,
-        "VERB": 16,
+        "VERB": 17,
         "NEG": 2,
         "ADV": 8,
         "MODAL": 5,
@@ -39224,16 +39287,16 @@
         "WH": 1
       },
       "CONJ|NOUN": {
-        "AUX": 12,
-        "PUNCT": 103,
+        "AUX": 13,
+        "PUNCT": 104,
         "</S>": 1,
         "PREP": 80,
         "VERB": 16,
         "WH": 6,
-        "NOUN": 132,
+        "NOUN": 133,
         "PRON": 9,
         "PART": 14,
-        "CONJ": 14,
+        "CONJ": 15,
         "PROPN": 4,
         "ADJ": 9,
         "DET": 14,
@@ -39296,7 +39359,7 @@
       },
       "AUX|VERB": {
         "PREP": 95,
-        "PUNCT": 25,
+        "PUNCT": 27,
         "PART": 26,
         "PRON": 3,
         "NOUN": 13,
@@ -39315,7 +39378,8 @@
         "CONJ": 2,
         "DET": 4,
         "VERB": 3,
-        "ADV": 1
+        "ADV": 1,
+        "WH": 1
       },
       "<S>|ADJ": {
         "NOUN": 55,
@@ -39332,7 +39396,7 @@
       "NOUN|PART": {
         "ADJ": 10,
         "AUX": 19,
-        "VERB": 99,
+        "VERB": 100,
         "NOUN": 26,
         "CONJ": 1,
         "PUNCT": 2,
@@ -39398,7 +39462,7 @@
         "</S>": 1
       },
       "ADJ|PREP": {
-        "NOUN": 52,
+        "NOUN": 53,
         "DET": 35,
         "VERB": 5,
         "ADJ": 12,
@@ -39416,7 +39480,7 @@
         "PUNCT": 3,
         "PROPN": 1,
         "MODAL": 3,
-        "NOUN": 34,
+        "NOUN": 35,
         "AUX": 2,
         "ADJ": 8,
         "NEG": 1,
@@ -39429,11 +39493,11 @@
         "PUNCT": 3,
         "PREP": 1,
         "NUM": 1,
-        "NOUN": 2,
+        "NOUN": 3,
         "AUX": 1
       },
       "PUNCT|PRON": {
-        "MODAL": 12,
+        "MODAL": 13,
         "VERB": 5,
         "AUX": 8,
         "ADJ": 1,
@@ -39444,7 +39508,7 @@
         "CONJ": 5,
         "PREP": 13,
         "NOUN": 21,
-        "PUNCT": 4,
+        "PUNCT": 5,
         "PROPN": 1,
         "ADJ": 2,
         "DET": 6,
@@ -39455,7 +39519,7 @@
       "VERB|WH": {
         "NOUN": 3,
         "DET": 2,
-        "VERB": 6,
+        "VERB": 7,
         "PART": 3,
         "PRON": 3,
         "MODAL": 1,
@@ -39464,7 +39528,7 @@
       "WH|NOUN": {
         "VERB": 4,
         "NOUN": 6,
-        "CONJ": 7,
+        "CONJ": 8,
         "AUX": 7,
         "DET": 10,
         "ADV": 2,
@@ -39475,7 +39539,7 @@
       "NOUN|MODAL": {
         "VERB": 24,
         "AUX": 25,
-        "NEG": 2,
+        "NEG": 3,
         "ADV": 1,
         "NOUN": 4,
         "ADJ": 1
@@ -39487,7 +39551,7 @@
       },
       "WH|VERB": {
         "DET": 3,
-        "PUNCT": 5,
+        "PUNCT": 6,
         "VERB": 1,
         "CONJ": 5,
         "ADJ": 1,
@@ -39507,7 +39571,7 @@
       "AUX|ADV": {
         "ADJ": 11,
         "NOUN": 10,
-        "VERB": 33,
+        "VERB": 34,
         "ADV": 4,
         "PREP": 4,
         "DET": 7,
@@ -39532,7 +39596,7 @@
       },
       "CONJ|ADJ": {
         "PUNCT": 10,
-        "NOUN": 72,
+        "NOUN": 73,
         "ADJ": 6,
         "CONJ": 5,
         "VERB": 6,
@@ -39648,7 +39712,7 @@
         "DET": 23,
         "PART": 10,
         "NOUN": 20,
-        "CONJ": 18,
+        "CONJ": 19,
         "PREP": 34,
         "WH": 3,
         "PUNCT": 4,
@@ -39823,7 +39887,7 @@
       "NOUN|DET": {
         "NOUN": 130,
         "ADJ": 51,
-        "CONJ": 13,
+        "CONJ": 14,
         "ADV": 5,
         "PRON": 9,
         "PROPN": 2,
@@ -39931,7 +39995,7 @@
       "MODAL|AUX": {
         "VERB": 29,
         "DET": 5,
-        "ADJ": 11,
+        "ADJ": 12,
         "ADV": 2,
         "PREP": 1,
         "PRON": 2,
@@ -39995,7 +40059,7 @@
         "NUM": 1
       },
       "DET|CONJ": {
-        "NOUN": 16,
+        "NOUN": 17,
         "PROPN": 3,
         "DET": 6,
         "ADJ": 4,
@@ -40100,7 +40164,7 @@
         "DET": 11,
         "AUX": 2,
         "PART": 1,
-        "NOUN": 4,
+        "NOUN": 5,
         "VERB": 2,
         "PRON": 2,
         "PREP": 1
@@ -40238,7 +40302,7 @@
       "NEG|AUX": {
         "DET": 2,
         "ADV": 1,
-        "VERB": 3
+        "VERB": 4
       },
       "PREP|ADV": {
         "VERB": 5,
@@ -40374,7 +40438,7 @@
       },
       "MODAL|NEG": {
         "VERB": 7,
-        "AUX": 1
+        "AUX": 2
       },
       "AUX|PREP": {
         "PART": 4,
@@ -40545,9 +40609,6 @@
         "in": 1,
         "alone": 1
       },
-      "happy": {
-        "to": 1
-      },
       "to": {
         "the": 35,
         "a": 20,
@@ -40564,7 +40625,8 @@
         "their": 1,
         "say": 1,
         "words": 1,
-        "as": 1
+        "as": 1,
+        "develop": 1
       },
       "talk": {
         "with": 1,
@@ -40705,25 +40767,15 @@
       },
       "is": {
         "a": 77,
-        "the": 39,
+        "the": 41,
         "an": 16,
         "hard": 5,
         "one": 4,
         "important": 3,
         "vague": 3,
         "good": 3,
-        "usually": 3,
-        "generally": 3,
-        "acquired": 1,
-        "all": 1,
-        "used": 1,
-        "also": 1,
-        "associated": 1,
-        "related": 1,
-        "morally": 1,
-        "referred": 1,
-        "quantized": 1,
-        "excitable": 1
+        "usually": 4,
+        "generally": 3
       },
       "a": {
         "noun": 18,
@@ -40735,14 +40787,12 @@
         "preposition": 3,
         "neural": 3,
         "thermodynamic": 3,
-        "varying": 3
-      },
-      "tool": {
-        "for": 1
+        "varying": 3,
+        "disorder": 1
       },
       "for": {
         "example": 11,
-        "the": 8,
+        "the": 9,
         "auxiliary": 5,
         "unconstrained": 4,
         "each": 4,
@@ -40751,7 +40801,8 @@
         "a": 2,
         "sharing": 1,
         "your": 1,
-        "manipulating": 1
+        "manipulating": 1,
+        "language": 1
       },
       "sharing": {
         "ideas": 1,
@@ -40771,7 +40822,11 @@
         "physical": 1,
         "energy": 1,
         "nervous": 1,
-        "central": 1
+        "central": 1,
+        "faculty": 1,
+        "mind": 1,
+        "retention": 1,
+        "purpose": 1
       },
       "brain": {
         "is": 1,
@@ -40839,9 +40894,6 @@
       "went": {
         "to": 4,
         "there": 1
-      },
-      "market": {
-        "because": 1
       },
       "because": {
         "she": 2,
@@ -40937,10 +40989,13 @@
         "noun": 1,
         "describes": 1,
         "which": 1,
-        "nerve": 1
+        "nerve": 1,
+        "information": 1,
+        "personal": 1,
+        "a": 1
       },
       "it": {
-        "is": 29,
+        "is": 30,
         "was": 9,
         "has": 4,
         "can": 4,
@@ -40950,7 +41005,8 @@
         "forms": 2,
         "'s": 2,
         "some": 1,
-        "investigates": 1
+        "investigates": 1,
+        "would": 1
       },
       "important": {
         "to": 3,
@@ -40959,9 +41015,6 @@
         "neurochemical": 1,
         "roles": 1,
         "things": 1
-      },
-      "thank": {
-        "you": 1
       },
       "your": {
         "help": 1,
@@ -41059,7 +41112,8 @@
         "published": 1,
         "practicing": 1,
         "he": 1,
-        "they": 1
+        "they": 1,
+        "needed": 1
       },
       "questions": {
         "are": 1,
@@ -41086,12 +41140,6 @@
         "listens": 1,
         "to": 1,
         "or": 1
-      },
-      "likes": {
-        "to": 1
-      },
-      "read": {
-        "stories": 1
       },
       "stories": {
         "at": 1,
@@ -41171,7 +41219,8 @@
         "metaethics": 1,
         "can": 1,
         "matter": 1,
-        "conduct": 1
+        "conduct": 1,
+        "retrieved": 1
       },
       "meanings": {
         "have": 1,
@@ -41186,16 +41235,10 @@
         "technology": 2,
         "industry": 1
       },
-      "curiosity": {
-        "is": 1
-      },
       "hard": {
         "to": 4,
         "enough": 3,
         "for": 1
-      },
-      "teacher": {
-        "explained": 1
       },
       "explained": {
         "the": 1,
@@ -41250,14 +41293,15 @@
         "faith": 1
       },
       "memory": {
-        "is": 1,
+        "is": 2,
         "allocation": 4,
         "and": 1,
         "(": 1,
         "consolidation": 2,
         "to": 1,
         "trace": 1,
-        "such": 1
+        "such": 1,
+        "loss": 1
       },
       "grammar": {
         "is": 1,
@@ -41268,9 +41312,6 @@
         "fluency": 1,
         "guide": 1,
         "and": 1
-      },
-      "why": {
-        "do": 1
       },
       "not": {
         "have": 4,
@@ -41284,7 +41325,8 @@
         "the": 1,
         "being": 1,
         "immediately": 1,
-        "accept": 1
+        "accept": 1,
+        "be": 1
       },
       "know": {
         "the": 1,
@@ -41311,7 +41353,8 @@
         "not": 1,
         "you": 1,
         "n't": 1,
-        "class": 1
+        "class": 1,
+        "be": 1
       },
       "find": {
         "out": 1,
@@ -41353,9 +41396,6 @@
         "rate": 1,
         "only": 1,
         "disagree": 1
-      },
-      "walking": {
-        "in": 1
       },
       "in": {
         "the": 77,
@@ -41406,9 +41446,6 @@
         "fed": 1,
         "great": 1
       },
-      "quiet": {
-        "evening": 1
-      },
       "so": {
         "we": 3,
         "as": 4,
@@ -41421,9 +41458,6 @@
         "he": 1,
         "it": 1,
         "do": 1
-      },
-      "stayed": {
-        "at": 1
       },
       "he": {
         "was": 8,
@@ -41440,9 +41474,6 @@
         "says": 1,
         "programmed": 1,
         "made": 1
-      },
-      "opened": {
-        "the": 1
       },
       "book": {
         "and": 1,
@@ -41476,23 +41507,8 @@
       "love": {
         "to": 2
       },
-      "explore": {
-        "new": 1
-      },
-      "friends": {
-        "are": 1
-      },
       "lead": {
         "to": 2
-      },
-      "kept": {
-        "working": 1
-      },
-      "please": {
-        "tell": 1
-      },
-      "sorry": {
-        "that": 1
       },
       "feel": {
         "sad": 1,
@@ -41515,13 +41531,13 @@
         "treatment": 1
       },
       "of": {
-        "the": 91,
+        "the": 92,
         "a": 38,
         "an": 14,
         "speech": 8,
         "or": 7,
         "criteria": 6,
-        "information": 5,
+        "information": 6,
         "other": 4,
         "knowledge": 4,
         "postwar": 3,
@@ -41529,7 +41545,8 @@
         "quantization": 1,
         "integer": 1,
         "one": 1,
-        "light": 1
+        "light": 1,
+        "influencing": 1
       },
       "reading": {
         "is": 1,
@@ -41550,12 +41567,6 @@
         "has": 1,
         "focused": 1
       },
-      "enjoy": {
-        "talking": 1
-      },
-      "talking": {
-        "with": 1
-      },
       "if": {
         "you": 5,
         "the": 2,
@@ -41564,7 +41575,8 @@
         "one": 1,
         "its": 1,
         "it": 1,
-        "not": 1
+        "not": 1,
+        "past": 1
       },
       "will": {
         "explain": 1,
@@ -41588,9 +41600,6 @@
         "they": 1,
         "he": 1
       },
-      "dreams": {
-        "are": 1
-      },
       "time": {
         "is": 1,
         "of": 1,
@@ -41602,7 +41611,8 @@
         "in": 1,
         "or": 1,
         "i": 1,
-        "from": 1
+        "from": 1,
+        "for": 1
       },
       "knowledge": {
         "grows": 1,
@@ -41612,9 +41622,6 @@
         "imply": 1,
         "to": 1,
         "he": 1
-      },
-      "grows": {
-        "when": 1
       },
       "people": {
         "share": 1,
@@ -41629,9 +41636,6 @@
         "it": 1,
         "common": 1,
         "of": 1
-      },
-      "kind": {
-        "word": 1
       },
       "word": {
         "can": 1,
@@ -41687,9 +41691,6 @@
         "a": 1,
         "you": 2
       },
-      "funny": {
-        "story": 1
-      },
       "understand": {
         "how": 1,
         "all": 1,
@@ -41697,7 +41698,8 @@
       },
       "mind": {
         "works": 1,
-        "and": 1
+        "and": 1,
+        "by": 1
       },
       "does": {
         "the": 1,
@@ -41705,9 +41707,6 @@
         "more": 1,
         "n't": 1,
         "or": 1
-      },
-      "dog": {
-        "like": 1
       },
       "who": {
         "made": 1,
@@ -41760,12 +41759,6 @@
         "all": 1,
         "to": 1
       },
-      "practise": {
-        "every": 1
-      },
-      "every": {
-        "day": 1
-      },
       "very": {
         "kind": 1,
         "common": 2,
@@ -41774,18 +41767,9 @@
         "clearly": 1,
         "limited": 1
       },
-      "calm": {
-        "and": 1
-      },
-      "favourite": {
-        "book": 1
-      },
       "birds": {
         "fly": 1,
         "had": 1
-      },
-      "teach": {
-        "us": 1
       },
       "us": {
         "about": 1,
@@ -41795,9 +41779,6 @@
       "ask": {
         "for": 2,
         "a": 1
-      },
-      "sings": {
-        "while": 1
       },
       "while": {
         "she": 1,
@@ -41809,21 +41790,9 @@
         "preserving": 1,
         "in": 1
       },
-      "lake": {
-        "is": 1
-      },
       "extremely": {
         "deep": 1,
         "flexible": 2
-      },
-      "ogre": {
-        "lived": 1
-      },
-      "lived": {
-        "in": 1
-      },
-      "cave": {
-        "deep": 1
       },
       "deep": {
         "underground": 1,
@@ -41842,12 +41811,6 @@
         "as": 1,
         "time": 1,
         "short-term": 1
-      },
-      "reaching": {
-        "or": 1
-      },
-      "positioned": {
-        "far": 1
       },
       "far": {
         "from": 2,
@@ -41885,21 +41848,12 @@
         "money": 1,
         "about": 1
       },
-      "extending": {
-        "far": 1
-      },
       "down": {
         "from": 1,
         "each": 1,
         ")": 1,
         "on": 1,
         "these": 1
-      },
-      "literally": {
-        "or": 1
-      },
-      "u": {
-        "to": 1
       },
       "some": {
         "languages": 8,
@@ -41932,9 +41886,6 @@
       "engine": {
         "runs": 1,
         "is": 1
-      },
-      "runs": {
-        "better": 1
       },
       "better": {
         "now": 1,
@@ -41970,16 +41921,10 @@
         "audience": 1,
         "arbitrarily": 1
       },
-      "quickly": {
-        "found": 1
-      },
       "found": {
         "ali": 1,
         "in": 10,
         "to": 1
-      },
-      "ali": {
-        "his": 1
       },
       "his": {
         "speech": 2,
@@ -42006,18 +41951,12 @@
         "as": 1,
         "known": 1
       },
-      "wnat": {
-        "you": 1
-      },
       "understanding": {
         "about": 1,
         "these": 1,
         "of": 3,
         "tenses": 1,
         "by": 1
-      },
-      "matchines": {
-        "and": 1
       },
       "just": {
         "made": 1,
@@ -42055,15 +41994,6 @@
         "your": 1,
         "and": 3,
         "soon": 1
-      },
-      "blog": {
-        "about": 1
-      },
-      "trip": {
-        "to": 1
-      },
-      "gave": {
-        "me": 1
       },
       "on": {
         "the": 30,
@@ -42112,9 +42042,6 @@
         "frequent": 1,
         "on": 1
       },
-      "account": {
-        "of": 1
-      },
       "most": {
         "recent": 1,
         "cases": 1,
@@ -42145,9 +42072,6 @@
         "of": 5,
         "is": 1,
         "together": 1
-      },
-      "addition": {
-        "to": 1
       },
       "existing": {
         "information": 1,
@@ -42198,12 +42122,6 @@
         "customer": 1,
         "writing": 1,
         "learning": 1
-      },
-      "feedback": {
-        "and": 1
-      },
-      "repetition": {
-        "strengthen": 1
       },
       "strengthen": {
         "the": 1,
@@ -42270,9 +42188,6 @@
         "adjustment": 1,
         "adaptation": 1
       },
-      "adjustment": {
-        "of": 1
-      },
       "synaptic": {
         "weights": 1,
         "plasticity": 4
@@ -42292,21 +42207,13 @@
         "studies": 1,
         "scale": 1,
         "enforces": 1,
-        "behavior": 1
-      },
-      "computes": {
-        "error": 1
+        "behavior": 1,
+        "data": 1
       },
       "error": {
         "gradients": 1,
         "correction": 1,
         "in": 1
-      },
-      "gradients": {
-        "backwards": 1
-      },
-      "backwards": {
-        "across": 1
       },
       "across": {
         "multi-layer": 1,
@@ -42320,9 +42227,6 @@
         "small": 1,
         "time": 1
       },
-      "multi-layer": {
-        "perceptrons": 1
-      },
       "biological": {
         "brains": 1,
         "and": 1,
@@ -42333,9 +42237,6 @@
         "neuroscience": 1,
         "evolution": 2,
         "change": 1
-      },
-      "brains": {
-        "operate": 1
       },
       "operate": {
         "under": 1,
@@ -42351,16 +42252,10 @@
         "purity": 1,
         "theory": 1
       },
-      "energetic": {
-        "constraints": 1
-      },
       "constraints": {
         "governed": 1,
         "match": 3,
         "of": 1
-      },
-      "governed": {
-        "by": 1
       },
       "by": {
         "the": 14,
@@ -42374,7 +42269,8 @@
         "introducing": 1,
         "languages": 1,
         "computer": 1,
-        "professions": 1
+        "professions": 1,
+        "which": 1
       },
       "thermodynamic": {
         "efficiency": 2,
@@ -42391,9 +42287,6 @@
         "limits": 1,
         "overhead": 1,
         "activity": 1
-      },
-      "requiring": {
-        "local": 1
       },
       "local": {
         "forms": 1,
@@ -42523,18 +42416,13 @@
         "associated": 1,
         "needed": 1,
         "such": 1,
-        "is": 1
+        "is": 2,
+        "over": 1
       },
       "ways": {
         "that": 2,
         "to": 6,
         "out": 1
-      },
-      "mirror": {
-        "shannon": 1
-      },
-      "shannon": {
-        "'s": 1
       },
       "'s": {
         "ability": 2,
@@ -42575,9 +42463,6 @@
         "dynamics": 1,
         "physical": 1
       },
-      "dynamics": {
-        "far": 1
-      },
       "equilibrium": {
         "are": 1,
         "is": 3
@@ -42592,12 +42477,6 @@
         "can": 1,
         "of": 1,
         "levels": 1
-      },
-      "flow": {
-        "organizes": 1
-      },
-      "organizes": {
-        "matter": 1
       },
       "matter": {
         "into": 1,
@@ -42629,9 +42508,6 @@
         "that": 1,
         "or": 1
       },
-      "export": {
-        "entropy": 1
-      },
       "entropy": {
         "to": 1,
         "and": 2,
@@ -42654,9 +42530,6 @@
         "own": 1,
         "topic": 1,
         "parents": 1
-      },
-      "maintaining": {
-        "order": 1
       },
       "order": {
         "against": 1,
@@ -42718,12 +42591,6 @@
         "the": 2,
         "capturing": 1,
         "that": 1
-      },
-      "exploring": {
-        "how": 1
-      },
-      "constrain": {
-        "information": 1
       },
       "processing": {
         "across": 2,
@@ -42818,17 +42685,11 @@
         "can": 1,
         "as": 4
       },
-      "diverse": {
-        "fields": 1
-      },
       "classical": {
         "thermodynamics": 1,
         "latin": 2,
         "languages": 1,
         "mechanics": 1
-      },
-      "microscopic": {
-        "description": 1
       },
       "description": {
         "of": 4,
@@ -42865,16 +42726,10 @@
         "six": 1,
         "multiple": 1
       },
-      "far-ranging": {
-        "applications": 1
-      },
       "applications": {
         "in": 2,
         "maintainable": 1,
         "like": 1
-      },
-      "chemistry": {
-        "and": 1
       },
       "relation": {
         "to": 1,
@@ -42931,9 +42786,6 @@
         "atp": 1,
         "of": 1,
         "signals": 1
-      },
-      "nn": {
-        ")": 1
       },
       ")": {
         "is": 13,
@@ -43026,21 +42878,9 @@
         "iterative": 1,
         "logic": 1
       },
-      "iterative": {
-        "algorithm": 1
-      },
       "algorithm": {
         "for": 1,
         "in": 1
-      },
-      "minimizing": {
-        "a": 1
-      },
-      "differentiable": {
-        "multivariate": 1
-      },
-      "multivariate": {
-        "function": 1
       },
       "conjunction": {
         "(": 1,
@@ -43057,12 +42897,6 @@
       "abbreviated": {
         "conj": 1,
         "as": 1
-      },
-      "conj": {
-        "or": 1
-      },
-      "cnj": {
-        ")": 1
       },
       "part": {
         "of": 15,
@@ -43081,9 +42915,6 @@
         "was": 1,
         "in": 1,
         "signal": 1
-      },
-      "connects": {
-        "words": 1
       },
       "called": {
         "its": 1,
@@ -43204,7 +43035,9 @@
         "elected": 1,
         "difficult": 1,
         "conveyed": 1,
-        "\"": 1
+        "\"": 1,
+        "remembered": 1,
+        "impossible": 1
       },
       "defined": {
         "for": 4,
@@ -43357,9 +43190,6 @@
         "from": 1,
         "coils": 1
       },
-      "comma": {
-        "is": 1
-      },
       "dependent": {
         "clause": 2,
         "on": 2
@@ -43385,18 +43215,12 @@
         "the": 1,
         "to": 1
       },
-      "brushed": {
-        "my": 1
-      },
       "beginning": {
         "in": 1,
         "to": 1
       },
       "th": {
         "century": 5
-      },
-      "element": {
-        "of": 1
       },
       "known": {
         "as": 8,
@@ -43415,16 +43239,7 @@
         "is": 2,
         "vocabulary": 2,
         "new": 2,
-        "super": 1,
-        "proposed": 1,
-        "data": 1,
-        "political": 1,
-        "we": 2,
-        "an": 1,
-        "\"": 2,
-        "rom": 1,
-        "i": 1,
-        "automated": 1
+        "amnesia": 1
       },
       "itself": {
         "was": 2,
@@ -43486,12 +43301,6 @@
         "be": 1,
         "applied": 1
       },
-      "referential": {
-        "markers": 1
-      },
-      "markers": {
-        "and": 1
-      },
       "conjunctions": {
         "that": 2,
         "are": 3,
@@ -43515,7 +43324,7 @@
         "in": 3
       },
       "such": {
-        "as": 26,
+        "as": 27,
         "constructs": 2,
         "adaptability": 1,
         "a": 4,
@@ -43543,9 +43352,6 @@
         "below": 1,
         "at": 3,
         "or": 1
-      },
-      "equal": {
-        "syntactic": 1
       },
       "syntactic": {
         "importance": 1,
@@ -43578,24 +43384,6 @@
         "was": 1,
         "makes": 1,
         "as": 1
-      },
-      "subordinating": {
-        "conjunctions": 1
-      },
-      "introduce": {
-        "content": 1
-      },
-      "adverbial": {
-        "clauses": 1
-      },
-      "clauses": {
-        "as": 1
-      },
-      "subordinate": {
-        "ones": 1
-      },
-      "join": {
-        "them": 1
       },
       "them": {
         "to": 3,
@@ -43657,12 +43445,6 @@
         "between": 1,
         "at": 1
       },
-      "afternoon": {
-        "and": 1
-      },
-      "garden": {
-        "—": 1
-      },
       "—": {
         "this": 1,
         "the": 1,
@@ -43675,24 +43457,12 @@
         "in": 1,
         "we": 1
       },
-      "year": {
-        "i": 1
-      },
       "'m": {
         "going": 1,
         "trying": 1,
         "not": 1,
         "a": 1,
         "showing": 1
-      },
-      "going": {
-        "to": 1
-      },
-      "plant": {
-        "some": 1
-      },
-      "outdoor": {
-        "area": 1
       },
       "area": {
         "containing": 1,
@@ -43735,21 +43505,16 @@
         "measured": 1,
         "alphabetized": 1,
         "modifiable": 1,
-        "describes": 1
+        "describes": 1,
+        "described": 1
       },
       "plants": {
         "grown": 1,
         "and": 1
       },
-      "grown": {
-        "for": 1
-      },
       "food": {
         "or": 1,
         "in": 2
-      },
-      "ornamental": {
-        "purposes": 1
       },
       "our": {
         "school": 1,
@@ -43782,9 +43547,6 @@
         "as": 1,
         "on": 1
       },
-      "week": {
-        "consists": 1
-      },
       "consists": {
         "of": 7
       },
@@ -43793,15 +43555,6 @@
         "the": 2,
         "stacking": 1,
         "a": 1,
-        "hours": 1
-      },
-      "twenty": {
-        "lessons": 1
-      },
-      "lessons": {
-        "and": 1
-      },
-      "ten": {
         "hours": 1
       },
       "hours": {
@@ -43813,12 +43566,6 @@
         "words": 3,
         "to": 3,
         "samples": 1
-      },
-      "laboratory": {
-        "work": 1
-      },
-      "instruct": {
-        "to": 1
       },
       "present": {
         "participle": 12,
@@ -43848,18 +43595,6 @@
       "provides": {
         "a": 2,
         "examples": 1
-      },
-      "definitive": {
-        "characterization": 1
-      },
-      "characterization": {
-        "or": 1
-      },
-      "attributes": {
-        "of": 1
-      },
-      "specified": {
-        "entity": 1
       },
       "conversation": {
         "is": 1,
@@ -43918,17 +43653,11 @@
       "branch": {
         "of": 4
       },
-      "sociology": {
-        "which": 1
-      },
       "studies": {
         "the": 2,
         "it": 1,
         "is": 1,
         "distributed": 1
-      },
-      "organization": {
-        "of": 1
       },
       "human": {
         "interaction": 1,
@@ -43958,9 +43687,6 @@
         "logical": 1,
         "frequency": 1
       },
-      "iceland": {
-        "was": 1
-      },
       "limited": {
         "to": 5,
         "north": 1,
@@ -43974,18 +43700,6 @@
         "heard": 1,
         "like": 1,
         "she": 1
-      },
-      "seen": {
-        "on": 1
-      },
-      "travel": {
-        "channel": 1
-      },
-      "hiccough": {
-        "\"": 1
-      },
-      "italian": {
-        "pronunciation": 1
       },
       "way": {
         "in": 1,
@@ -44013,18 +43727,6 @@
         "form": 1,
         "receive": 1
       },
-      "synapse": {
-        "—": 1
-      },
-      "junction": {
-        "between": 1
-      },
-      "terminal": {
-        "of": 1
-      },
-      "neuron": {
-        "and": 1
-      },
       "another": {
         "cell": 1,
         "verb": 2,
@@ -44034,12 +43736,6 @@
         "circuit": 1,
         "piece": 1,
         "object": 1
-      },
-      "correction": {
-        "technique": 1
-      },
-      "technique": {
-        "used": 1
       },
       "small": {
         "talk": 1,
@@ -44102,12 +43798,6 @@
         "programming": 2,
         "is": 1
       },
-      "topics": {
-        "of": 1
-      },
-      "transactions": {
-        "that": 1
-      },
       "polite": {
         "and": 1,
         "in": 1,
@@ -44119,9 +43809,6 @@
         "conversation": 1,
         "word": 3,
         "spelling": 1
-      },
-      "unimportant": {
-        "things": 1
       },
       "quality": {
         "of": 3,
@@ -44154,12 +43841,6 @@
         "a": 3,
         "excellence": 1
       },
-      "adapts": {
-        "to": 1
-      },
-      "flowers": {
-        "were": 1
-      },
       "were": {
         "artificial": 1,
         "to": 1,
@@ -44173,9 +43854,6 @@
         "voice": 1,
         "eyes": 1,
         "she": 1
-      },
-      "somewhat": {
-        "artificial": 1
       },
       "product": {
         "of": 2,
@@ -44214,9 +43892,6 @@
       "though": {
         "the": 2
       },
-      "processed": {
-        "the": 1
-      },
       "data": {
         "using": 1,
         "races": 1,
@@ -44229,7 +43904,8 @@
         "can": 1,
         "very": 1,
         "query": 1,
-        "(": 1
+        "(": 1,
+        "or": 1
       },
       "using": {
         "our": 1,
@@ -44243,9 +43919,6 @@
         "chopsticks": 1,
         "the": 1,
         "competitors": 1
-      },
-      "proven": {
-        "techniques": 1
       },
       "come": {
         "to": 1,
@@ -44269,18 +43942,13 @@
       },
       "events": {
         "leading": 1,
-        "that": 1
-      },
-      "leading": {
-        "to": 1
+        "that": 1,
+        "could": 1
       },
       "result": {
         "or": 1,
         "of": 1,
         "by": 1
-      },
-      "conversion": {
-        "of": 1
       },
       "heat": {
         "into": 1,
@@ -44357,15 +44025,6 @@
         "connection": 2,
         "infrastructure": 1
       },
-      "founded": {
-        "in": 1
-      },
-      "ramin": {
-        "hasani": 1
-      },
-      "mathias": {
-        "lechner": 1
-      },
       "alexander": {
         "amini": 1,
         "murison": 1
@@ -44390,17 +44049,8 @@
         "instructions": 1,
         "programs": 1
       },
-      "scientist": {
-        "daniela": 1
-      },
-      "daniela": {
-        "rus": 1
-      },
       "spiking": {
         "neural": 2
-      },
-      "snns": {
-        ")": 1
       },
       "mimic": {
         "natural": 2
@@ -44440,9 +44090,6 @@
         "(": 1,
         "is": 1
       },
-      "rsi": {
-        ")": 1
-      },
       "system": {
         "iteratively": 2,
         "automation": 1,
@@ -44466,12 +44113,6 @@
         "and": 1,
         "of": 5
       },
-      "trigger": {
-        "an": 1
-      },
-      "potentially": {
-        "resulting": 1
-      },
       "resulting": {
         "in": 2
       },
@@ -44489,24 +44130,6 @@
         "books": 1,
         "reading": 1,
         "sources": 1
-      },
-      "rsi-related": {
-        "projects": 1
-      },
-      "projects": {
-        "are": 1
-      },
-      "ongoing": {
-        "and": 1
-      },
-      "companies": {
-        "are": 1
-      },
-      "increasingly": {
-        "using": 1
-      },
-      "coding": {
-        "and": 1
       },
       "work": {
         "is": 2,
@@ -44558,32 +44181,11 @@
         "recursive": 3,
         "or": 1
       },
-      "contemporary": {
-        "machine": 1
-      },
-      "depend": {
-        "on": 1
-      },
-      "massive": {
-        "static": 1
-      },
       "training": {
         "corpora": 1,
         "a": 1,
         "\"": 1,
         "signals": 1
-      },
-      "corpora": {
-        "and": 1
-      },
-      "scale": {
-        "exponentially": 1
-      },
-      "exponentially": {
-        "in": 1
-      },
-      "cost": {
-        "and": 1
       },
       "cognitive": {
         "architectures": 3,
@@ -44605,27 +44207,9 @@
         "decentralized": 1,
         "or": 1
       },
-      "decentralized": {
-        "neuromorphic": 1
-      },
       "neuromorphic": {
         "processing": 1,
         "computing": 1
-      },
-      "homeostatic": {
-        "regulation": 1
-      },
-      "localized": {
-        "synaptic": 1
-      },
-      "maintain": {
-        "continuous": 1
-      },
-      "adaptation": {
-        "with": 1
-      },
-      "minimal": {
-        "metabolic": 1
       },
       "source": {
         "updates": 3,
@@ -44655,9 +44239,6 @@
       },
       "match": {
         "the": 3
-      },
-      "specialists": {
-        "work": 1
       },
       "solve": {
         "the": 1,
@@ -44780,14 +44361,11 @@
         "some": 1,
         "holders": 1,
         "a": 3,
-        "time": 2,
+        "time": 3,
         "the": 8,
         "there": 1,
         "and": 1,
         "mathematical": 1
-      },
-      "holders": {
-        "of": 1
       },
       "tokens": {
         "that": 1,
@@ -44818,12 +44396,6 @@
         "to": 3,
         "in": 4
       },
-      "typology": {
-        "studies": 1
-      },
-      "cross-linguistic": {
-        "perspective": 1
-      },
       "examines": {
         "how": 2,
         "arguments": 1
@@ -44841,9 +44413,6 @@
         "employ": 1,
         "rely": 1,
         "possess": 1
-      },
-      "employ": {
-        "different": 1
       },
       "different": {
         "orders": 1,
@@ -44917,12 +44486,6 @@
         "the": 1,
         "large-scale": 1
       },
-      "stream": {
-        "less": 1
-      },
-      "open": {
-        "to": 1
-      },
       "ambiguity": {
         "(": 1,
         "is": 1,
@@ -44938,12 +44501,9 @@
       "removal": {
         "of": 2
       },
-      "probably": {
-        "impossible": 1
-      },
       "impossible": {
         ")": 1,
-        "for": 1
+        "for": 2
       },
       "arguments": {
         "and": 1,
@@ -44966,12 +44526,6 @@
         "and": 1,
         "is": 1
       },
-      "discussed": {
-        "below": 1
-      },
-      "almost": {
-        "all": 1
-      },
       "all": {
         "the": 5,
         "possible": 1,
@@ -44993,9 +44547,6 @@
         "in": 1,
         "for": 2,
         "amount": 1
-      },
-      "permutations": {
-        "of": 1
       },
       "phrase": {
         "can": 3,
@@ -45038,9 +44589,6 @@
         "from": 1,
         "'s": 1
       },
-      "adpositional": {
-        "phrase": 1
-      },
       "significant": {
         "amount": 2,
         "applications": 1,
@@ -45078,27 +44626,6 @@
         "and": 2,
         "is": 2
       },
-      "communicative": {
-        "intentions": 1
-      },
-      "hindi": {
-        "urdu": 1
-      },
-      "urdu": {
-        "(": 1
-      },
-      "hindustani": {
-        ")": 1
-      },
-      "essentially": {
-        "a": 1
-      },
-      "verb-final": {
-        "(": 1
-      },
-      "sov": {
-        ")": 1
-      },
       "free": {
         "word": 3,
         "(": 1,
@@ -45110,12 +44637,6 @@
         "in": 1,
         "early": 1,
         "memories": 1
-      },
-      "cases": {
-        "postpositions": 1
-      },
-      "postpositions": {
-        "explicitly": 1
       },
       "explicitly": {
         "mark": 1,
@@ -45172,15 +44693,6 @@
         "expression": 1,
         "and": 1
       },
-      "southern": {
-        "arizona": 1
-      },
-      "arizona": {
-        "and": 1
-      },
-      "northern": {
-        "sonora": 1
-      },
       "only": {
         "the": 2,
         "shown": 2,
@@ -45213,9 +44725,6 @@
       "involves": {
         "a": 1,
         "placing": 1
-      },
-      "shift": {
-        "in": 1
       },
       "example": {
         "of": 5,
@@ -45290,9 +44799,6 @@
         "than": 1,
         "that": 1
       },
-      "conversions": {
-        "between": 1
-      },
       "concerned": {
         "with": 2
       },
@@ -45306,18 +44812,6 @@
         "and": 1,
         "are": 1,
         "with": 1
-      },
-      "roads": {
-        "crisscrossed": 1
-      },
-      "crisscrossed": {
-        "the": 1
-      },
-      "worthwhile": {
-        "to": 1
-      },
-      "jobs": {
-        "and": 1
       },
       "able": {
         "to": 6
@@ -45408,9 +44902,6 @@
         "expression": 1,
         "position": 1
       },
-      "complements": {
-        "of": 1
-      },
       "examples": {
         "of": 6,
         "below": 3,
@@ -45421,16 +44912,10 @@
         "support": 1,
         "include": 1
       },
-      "underlined": {
-        "in": 1
-      },
       "head": {
         "noun": 1,
         "of": 5,
         "cook": 1
-      },
-      "appears": {
-        "in": 1
       },
       "identified": {
         "by": 3,
@@ -45448,9 +44933,6 @@
         "as": 2,
         "literally": 2
       },
-      "contain": {
-        "two": 1
-      },
       "zero": {
         "or": 5,
         "article": 1
@@ -45459,16 +44941,10 @@
         "of": 4,
         "in": 1
       },
-      "bear": {
-        "argument": 1
-      },
       "argument": {
         "functions": 1,
         "for": 1,
         "is": 1
-      },
-      "fulfill": {
-        "are": 1
       },
       "particularly": {
         "those": 1,
@@ -45484,16 +44960,10 @@
         "of": 2,
         "learning": 1
       },
-      "parse": {
-        "trees": 1
-      },
       "trees": {
         "depends": 1,
         "of": 3,
         "and": 1
-      },
-      "depends": {
-        "on": 1
       },
       "basic": {
         "approach": 1,
@@ -45563,9 +45033,6 @@
       "infinitive": {
         "of": 3
       },
-      "internet": {
-        "is": 1
-      },
       "large": {
         "network": 1,
         "class": 1,
@@ -45577,18 +45044,6 @@
       "line": {
         "of": 1,
         "i": 1
-      },
-      "railroad": {
-        "gradient": 1
-      },
-      "slope": {
-        "or": 1
-      },
-      "climbed": {
-        "the": 1
-      },
-      "mountain": {
-        "with": 1
       },
       "difficulty": {
         "in": 2,
@@ -45603,12 +45058,6 @@
         "descent": 1,
         "plural": 1,
         "reasoning": 1
-      },
-      "stated": {
-        "that": 1
-      },
-      "willing": {
-        "to": 1
       },
       "third-person": {
         "singular": 6
@@ -45628,9 +45077,6 @@
       "indicative": {
         "of": 6
       },
-      "taxonomy": {
-        "of": 1
-      },
       "programming": {
         "languages": 5,
         "paradigms": 1,
@@ -45648,15 +45094,6 @@
         "a": 1,
         "mental": 1,
         "the": 1
-      },
-      "vast": {
-        "array": 1
-      },
-      "array": {
-        "of": 1
-      },
-      "syntactical": {
-        "architectures": 1
       },
       "compilation": {
         "models": 1,
@@ -45694,12 +45131,6 @@
         "package": 1,
         "will": 1
       },
-      "rust": {
-        "advances": 1
-      },
-      "advances": {
-        "systems": 1
-      },
       "safety": {
         "further": 1,
         "administration": 1
@@ -45708,67 +45139,13 @@
         "through": 1,
         "refine": 1
       },
-      "borrowing": {
-        "rules": 1
-      },
-      "affine": {
-        "type": 1
-      },
       "eliminate": {
         "data": 1,
         "any": 1
       },
-      "races": {
-        "and": 1
-      },
-      "null-pointer": {
-        "dereferences": 1
-      },
-      "dereferences": {
-        "at": 1
-      },
-      "compile-time": {
-        "without": 1
-      },
-      "garbage": {
-        "collector": 1
-      },
       "go": {
         "(": 2,
         "into": 1
-      },
-      "golang": {
-        ")": 1
-      },
-      "prioritizes": {
-        "concurrency": 1
-      },
-      "concurrency": {
-        "through": 1
-      },
-      "goroutines": {
-        "and": 1
-      },
-      "channel-based": {
-        "communication": 1
-      },
-      "communicating": {
-        "sequential": 1
-      },
-      "sequential": {
-        "processes": 1
-      },
-      "optimizing": {
-        "backend": 1
-      },
-      "backend": {
-        "microservices": 1
-      },
-      "microservices": {
-        "and": 1
-      },
-      "typescript": {
-        "builds": 1
       },
       "builds": {
         "upon": 1,
@@ -45783,61 +45160,25 @@
         "by": 1,
         "environments": 1
       },
-      "introducing": {
-        "a": 1
-      },
       "powerful": {
         "static": 1,
         "hindley-milner": 1,
         "role": 1,
         "set": 1
       },
-      "checker": {
-        "with": 1
-      },
       "structural": {
         "typing": 1,
         "members": 1,
         "computing": 1
       },
-      "conditional": {
-        "types": 1
-      },
-      "large-scale": {
-        "web": 1
-      },
-      "web": {
-        "applications": 1
-      },
-      "paradigms": {
-        "are": 1
-      },
-      "epitomized": {
-        "by": 1
-      },
-      "enforces": {
-        "strict": 1
-      },
-      "lazy": {
-        "evaluation": 1
-      },
       "advanced": {
         "algebraic": 1,
         "technology": 1
-      },
-      "algebraic": {
-        "data": 1
       },
       "enabling": {
         "mathematically": 1,
         "it": 1,
         "more": 1
-      },
-      "mathematically": {
-        "rigorous": 1
-      },
-      "rigorous": {
-        "program": 1
       },
       "program": {
         "verification": 1,
@@ -45845,22 +45186,10 @@
         "/": 1,
         "he": 1
       },
-      "ocaml": {
-        "combines": 1
-      },
-      "combines": {
-        "functional": 1
-      },
       "object-oriented": {
         "styles": 1,
         "and": 1,
         "programming": 3
-      },
-      "styles": {
-        "with": 1
-      },
-      "hindley-milner": {
-        "type": 1
       },
       "inference": {
         "engine": 1,
@@ -45870,24 +45199,9 @@
         "in": 1,
         "advanced": 1
       },
-      "high-assurance": {
-        "systems": 1
-      },
-      "compiler": {
-        "construction": 1
-      },
-      "erlang": {
-        "and": 1
-      },
-      "elixir": {
-        "leverage": 1
-      },
       "beam": {
         "virtual": 1,
         "headlights": 1
-      },
-      "virtual": {
-        "machine": 1
       },
       "achieve": {
         "fault-tolerant": 1,
@@ -45898,76 +45212,25 @@
         "concurrent": 1,
         "skilled": 1
       },
-      "concurrent": {
-        "telecommunication": 1
-      },
-      "telecommunication": {
-        "and": 1
-      },
-      "chat": {
-        "systems": 1
-      },
-      "actor-model": {
-        "supervision": 1
-      },
-      "supervision": {
-        "trees": 1
-      },
       "immutable": {
         "state": 1,
         "dialect": 1,
         "law": 1
       },
-      "scala": {
-        "bridges": 1
-      },
       "bridges": {
         "object-oriented": 1,
         "the": 1
       },
-      "clojure": {
-        "offers": 1
-      },
       "offers": {
         "a": 5
-      },
-      "dialect": {
-        "of": 1
       },
       "lisp": {
         "hosted": 1,
         "provide": 1
       },
-      "hosted": {
-        "on": 1
-      },
-      "jvm": {
-        "and": 1
-      },
-      "clojurescript": {
-        "for": 1
-      },
-      "emphasizing": {
-        "code-as-data": 1
-      },
-      "code-as-data": {
-        "homoiconicity": 1
-      },
-      "scheme": {
-        "and": 1
-      },
-      "classic": {
-        "lexical": 1
-      },
       "lexical": {
         "scoping": 1,
         "verbs": 1
-      },
-      "macro": {
-        "systems": 1
-      },
-      "symbolic": {
-        "computation": 1
       },
       "computation": {
         "foundations": 1,
@@ -45976,9 +45239,6 @@
       "foundations": {
         "that": 1,
         "of": 1
-      },
-      "heavily": {
-        "influenced": 1
       },
       "influenced": {
         "modern": 1,
@@ -45992,19 +45252,10 @@
         "approach": 1,
         "look": 1
       },
-      "julia": {
-        "bridges": 1
-      },
-      "two-language": {
-        "problem": 1
-      },
       "problem": {
         "by": 1,
         "of": 1,
         "play": 1
-      },
-      "combining": {
-        "the": 1
       },
       "scripting": {
         "languages": 1,
@@ -46013,12 +45264,6 @@
       "raw": {
         "execution": 1,
         "materials": 1
-      },
-      "execution": {
-        "speed": 1
-      },
-      "speed": {
-        "of": 1
       },
       "c": {
         "through": 1,
@@ -46033,12 +45278,6 @@
         "instructions": 1,
         "blades": 1,
         "citizenship": 1
-      },
-      "dispatch": {
-        "and": 1
-      },
-      "just-in-time": {
-        "compilation": 1
       },
       "via": {
         "llvm": 1,
@@ -46118,12 +45357,6 @@
       "register-transfer": {
         "levels": 2
       },
-      "prolog": {
-        "implements": 1
-      },
-      "implements": {
-        "logic": 1
-      },
       "formal": {
         "predicate": 1,
         "contexts": 2,
@@ -46148,36 +45381,12 @@
         "deduction": 1,
         "reasoning": 2
       },
-      "resolution": {
-        "theorem": 1
-      },
       "theorem": {
         "proving": 2
       },
       "laying": {
         "groundwork": 1,
         "on": 1
-      },
-      "groundwork": {
-        "for": 1
-      },
-      "expert": {
-        "systems": 1
-      },
-      "swift": {
-        "and": 1
-      },
-      "kotlin": {
-        "provide": 1
-      },
-      "null-safe": {
-        "syntax": 1
-      },
-      "ios": {
-        "and": 1
-      },
-      "android": {
-        "native": 1
       },
       "native": {
         "mobile": 1,
@@ -46188,27 +45397,6 @@
         "development": 1,
         "phone": 1
       },
-      "replacing": {
-        "objective-c": 1
-      },
-      "objective-c": {
-        "and": 1
-      },
-      "legacy": {
-        "java": 1
-      },
-      "java": {
-        "patterns": 1
-      },
-      "shell": {
-        "languages": 1
-      },
-      "lua": {
-        "facilitate": 1
-      },
-      "facilitate": {
-        "operating": 1
-      },
       "operating": {
         "system": 1,
         "without": 1
@@ -46217,33 +45405,15 @@
         "orchestration": 1,
         "using": 1
       },
-      "lightweight": {
-        "embedding": 1
-      },
-      "embedding": {
-        "within": 1
-      },
-      "host": {
-        "applications": 1
-      },
       "game": {
         "engines": 1,
         "theory": 2,
         "is": 1,
         "as": 1
       },
-      "engines": {
-        "and": 1
-      },
-      "redis": {
-        "plugins": 1
-      },
       "visual": {
         "basic": 6,
         "reference": 1
-      },
-      "vb": {
-        ")": 1
       },
       "net": {
         "(": 1,
@@ -46264,9 +45434,6 @@
         "on": 2,
         "in": 1
       },
-      "launched": {
-        "vb": 1
-      },
       "successor": {
         "to": 2
       },
@@ -46277,12 +45444,6 @@
       "version": {
         "of": 2,
         "control": 2
-      },
-      "parametric": {
-        "polymorphism": 1
-      },
-      "polymorphism": {
-        "allows": 1
       },
       "allows": {
         "a": 1,
@@ -46321,12 +45482,6 @@
         "all": 1,
         "to": 1
       },
-      "actual": {
-        "types": 1
-      },
-      "instantiated": {
-        "with": 1
-      },
       "particular": {
         "types": 1,
         "focus": 1,
@@ -46337,21 +45492,12 @@
         "model": 1,
         "platform": 1
       },
-      "parametrically": {
-        "polymorphic": 1
-      },
-      "polymorphic": {
-        "functions": 1
-      },
       "sometimes": {
         "called": 1,
         "be": 1,
         "abbreviated": 1,
         "i": 1,
         "referred": 1
-      },
-      "basis": {
-        "of": 1
       },
       "automatic": {
         "detection": 4,
@@ -46389,9 +45535,6 @@
       "managing": {
         "and": 1,
         "versions": 1
-      },
-      "querying": {
-        "data": 1
       },
       "relational": {
         "databases": 1,
@@ -46457,15 +45600,6 @@
         "for": 6,
         "of": 3
       },
-      "distinguishing": {
-        "between": 1
-      },
-      "revised": {
-        "set": 1
-      },
-      "owes": {
-        "much": 1
-      },
       "merely": {
         "add": 1,
         "artistic": 1
@@ -46478,9 +45612,6 @@
       "fifth": {
         "criterion": 1,
         "standard": 1
-      },
-      "criterion": {
-        "to": 1
       },
       "number": {
         "of": 6,
@@ -46534,18 +45665,9 @@
         "grammar": 1,
         "theories": 1
       },
-      "eight": {
-        "criteria": 1
-      },
       "linguists": {
         "who": 1,
         "working": 1
-      },
-      "cite": {
-        "or": 1
-      },
-      "propound": {
-        "clear": 1
       },
       "clear": {
         "grammatical": 1,
@@ -46554,9 +45676,6 @@
         "understanding": 1,
         "communication": 1,
         "that": 1
-      },
-      "proceed": {
-        "to": 1
       },
       "among": {
         "auxiliary": 1,
@@ -46578,18 +45697,9 @@
         "social": 1,
         "discrete": 1
       },
-      "notably": {
-        "geoff": 1
-      },
-      "geoff": {
-        "pullum": 1
-      },
       "suggested": {
         "that": 1,
         "by": 1
-      },
-      "rome": {
-        ")": 1
       },
       "special": {
         "case": 1,
@@ -46610,9 +45720,6 @@
         "exact": 1,
         "concrete": 1,
         "function": 1
-      },
-      "tensed": {
-        "forms": 1
       },
       "normal": {
         "senses": 2,
@@ -46655,26 +45762,14 @@
       "pertaining": {
         "to": 3
       },
-      "derived": {
-        "using": 1
-      },
       "act": {
         "of": 8,
         "or": 3,
         "by": 1
       },
-      "distributing": {
-        "or": 1
-      },
       "random": {
         "variable": 2,
         "acts": 1
-      },
-      "average": {
-        "level": 1
-      },
-      "level": {
-        "of": 1
       },
       "associated": {
         "with": 2
@@ -46688,9 +45783,6 @@
         "a": 1,
         "do": 1
       },
-      "measures": {
-        "the": 1
-      },
       "expected": {
         "amount": 1,
         "event": 1
@@ -46698,12 +45790,6 @@
       "describe": {
         "the": 1,
         "their": 1
-      },
-      "considering": {
-        "the": 1
-      },
-      "probabilities": {
-        "across": 1
       },
       "member": {
         "within": 1,
@@ -46753,9 +45839,6 @@
         "all": 1,
         "the": 1
       },
-      "culturally": {
-        "defined": 1
-      },
       "considered": {
         "polite": 1,
         "idiosyncratic": 3,
@@ -46780,45 +45863,21 @@
         "indicates": 2,
         "plasticity": 1
       },
-      "eccentric": {
-        "in": 1
-      },
       "cultural": {
         "context": 1,
         "or": 2,
         "and": 1
       },
-      "anthropologists": {
-        "penelope": 1
-      },
-      "penelope": {
-        "brown": 1
-      },
       "brown": {
         "and": 2
-      },
-      "stephen": {
-        "levinson": 1
       },
       "levinson": {
         "identified": 1,
         "'s": 1
       },
-      "kinds": {
-        "of": 1
-      },
       "deriving": {
         "from": 1,
         "new": 1
-      },
-      "erving": {
-        "goffman": 1
-      },
-      "goffman": {
-        "s": 1
-      },
-      "s": {
-        "concept": 1
       },
       "individuals": {
         "prefer": 1,
@@ -46829,37 +45888,13 @@
         "some": 1,
         "it": 1
       },
-      "ideals": {
-        "of": 1
-      },
       "enlightenment": {
         "era": 1,
         "that": 1
       },
-      "self-conscious": {
-        "process": 1
-      },
-      "imposition": {
-        "of": 1
-      },
-      "norms": {
-        "and": 1
-      },
-      "behaviors": {
-        "became": 1
-      },
-      "became": {
-        "a": 1
-      },
       "symbol": {
         "of": 1,
         "and": 1
-      },
-      "genteel": {
-        "member": 1
-      },
-      "upper": {
-        "class": 1
       },
       "variety": {
         "of": 8
@@ -46879,15 +45914,6 @@
         "uncertainty": 1,
         "thoughts": 1
       },
-      "hedging": {
-        "and": 1
-      },
-      "lying": {
-        "or": 1
-      },
-      "euphemisms": {
-        "(": 1
-      },
       "make": {
         "use": 1,
         "it": 2,
@@ -46899,24 +45925,12 @@
         "a": 1,
         "you": 1
       },
-      "connotation": {
-        ")": 1
-      },
-      "besides": {
-        "and": 1
-      },
-      "additionally": {
-        "to": 1
-      },
       "show": {
         "politeness": 1,
         "articles": 1,
         "that": 2,
         "the": 1,
         "good": 1
-      },
-      "recognition": {
-        "of": 1
       },
       "social": {
         "status": 1,
@@ -46927,9 +45941,6 @@
         "at": 1,
         "situations": 1,
         "convention": 1
-      },
-      "status": {
-        "of": 1
       },
       "theory": {
         "of": 1,
@@ -46953,23 +45964,8 @@
         "considered": 1,
         "fighting": 1
       },
-      "criticised": {
-        "as": 1
-      },
-      "universally": {
-        "valid": 1
-      },
-      "east-asian": {
-        "languages": 1
-      },
       "device": {
         "that": 2
-      },
-      "directs": {
-        "and": 1
-      },
-      "controls": {
-        "energy": 1
       },
       "movement": {
         "or": 1,
@@ -46979,53 +45975,14 @@
         "a": 1,
         "works": 1
       },
-      "limits": {
-        "of": 1
-      },
-      "leonardo": {
-        "da": 1
-      },
-      "da": {
-        "vinci": 1
-      },
-      "vinci": {
-        "chose": 1
-      },
-      "chose": {
-        "a": 1
-      },
       "century": {
         "criminal": 1,
         "ad": 1,
         "limited": 1
       },
-      "criminal": {
-        "as": 1
-      },
-      "judas": {
-        "in": 1
-      },
-      "painting": {
-        "the": 1
-      },
       "countries": {
         "have": 1,
         "was": 3
-      },
-      "modeled": {
-        "their": 1
-      },
-      "constitutions": {
-        "on": 1
-      },
-      "sculptor": {
-        "modelled": 1
-      },
-      "modelled": {
-        "the": 1
-      },
-      "clay": {
-        "into": 1
       },
       "person": {
         "who": 4,
@@ -47033,38 +45990,20 @@
         "or": 2,
         "considered": 1
       },
-      "poses": {
-        "as": 1
-      },
       "subject": {
         "or": 1,
         "has": 1,
         "to": 2,
         "of": 1
       },
-      "actor": {
-        "'s": 1
-      },
       "performance": {
         "of": 1,
         "on": 1
-      },
-      "hamlet": {
-        "'s": 1
-      },
-      "soliloquy": {
-        "left": 1
       },
       "audience": {
         "dumbfounded": 1,
         "'s": 1,
         "member": 1
-      },
-      "artist": {
-        "was": 1
-      },
-      "paint": {
-        "a": 1
       },
       "true": {
         "masterpiece": 1,
@@ -47076,29 +46015,11 @@
         "and": 2,
         "has": 1
       },
-      "rumors": {
-        "having": 1
-      },
-      "excellence": {
-        "through": 1
-      },
       "built": {
         "an": 1,
         "up": 1,
         "by": 1,
         "in": 1
-      },
-      "amazing": {
-        "structure": 1
-      },
-      "sticks": {
-        "and": 1
-      },
-      "discarded": {
-        "items": 1
-      },
-      "studied": {
-        "the": 1
       },
       "trying": {
         "to": 2
@@ -47107,12 +46028,6 @@
         "late": 1,
         "suffixed": 1,
         "take": 1
-      },
-      "cohesive": {
-        "whole": 1
-      },
-      "whole": {
-        "built": 1
       },
       "up": {
         "of": 2,
@@ -47129,9 +46044,6 @@
         "may": 2,
         "size": 3,
         "over": 2
-      },
-      "lexicon": {
-        ")": 1
       },
       "originated": {
         "from": 2
@@ -47168,9 +46080,6 @@
         "and": 1,
         "forms": 1
       },
-      "categorized": {
-        "into": 1
-      },
       "active": {
         "vocabulary": 1,
         "listening": 11
@@ -47183,15 +46092,9 @@
         "to": 1,
         "formal": 1
       },
-      "regularly": {
-        ")": 1
-      },
       "passive": {
         "vocabulary": 1,
         "component": 1
-      },
-      "recognizes": {
-        "but": 1
       },
       "individual": {
         "knows": 1,
@@ -47200,9 +46103,6 @@
         "agent": 1,
         "pages": 1,
         "personal": 1
-      },
-      "knows": {
-        "or": 1
       },
       "context": {
         "of": 3,
@@ -47278,15 +46178,9 @@
       "aspects": {
         "of": 2
       },
-      "differing": {
-        "degrees": 1
-      },
       "degrees": {
         "of": 1,
         "and": 1
-      },
-      "imply": {
-        "a": 1
       },
       "greater": {
         "depth": 1,
@@ -47294,31 +46188,10 @@
         "degree": 1,
         "than": 1
       },
-      "depth": {
-        "of": 1
-      },
-      "facets": {
-        "to": 1
-      },
-      "knowing": {
-        "a": 1
-      },
-      "acquisition": {
-        "does": 1
-      },
-      "necessarily": {
-        "follow": 1
-      },
       "follow": {
         "a": 1,
         "the": 1,
         "from": 1
-      },
-      "progression": {
-        "suggested": 1
-      },
-      "recognized": {
-        "when": 1
       },
       "class": {
         "of": 4,
@@ -47342,9 +46215,6 @@
         "instinctively": 1,
         "is": 2
       },
-      "instinctively": {
-        "builds": 1
-      },
       "infants": {
         "imitate": 3
       },
@@ -47362,16 +46232,10 @@
         "and": 3,
         ")": 3
       },
-      "focal": {
-        "vocabulary": 1
-      },
       "terms": {
         "and": 1,
         "of": 1,
         "give": 1
-      },
-      "distinctions": {
-        "that": 1
       },
       "experience": {
         "or": 1,
@@ -47413,35 +46277,14 @@
         "extensive": 1,
         "hundreds": 1
       },
-      "extensive": {
-        "use": 1
-      },
-      "modelling": {
-        "combined": 1
-      },
       "combined": {
         "with": 3,
         "to": 1
-      },
-      "solidification": {
-        "simulation": 1
-      },
-      "simulation": {
-        "to": 1
-      },
-      "ensure": {
-        "that": 1
       },
       "critical": {
         "castings": 1,
         "communication": 1,
         "thinking": 1
-      },
-      "castings": {
-        "are": 1
-      },
-      "properly": {
-        "methoded": 1
       },
       "design": {
         "and": 1,
@@ -47449,9 +46292,6 @@
         "projects": 1,
         "of": 1,
         "ed": 1
-      },
-      "operation": {
-        "of": 1
       },
       "give": {
         "a": 1,
@@ -47493,9 +46333,6 @@
         "represented": 1,
         "is": 1,
         "of": 2
-      },
-      "origin": {
-        "and": 1
       },
       "evolution": {
         "of": 1,
@@ -47539,30 +46376,9 @@
         "payment": 1,
         "man": 1
       },
-      "opportunities": {
-        "for": 1
-      },
-      "women": {
-        "and": 1
-      },
-      "men": {
-        "to": 1
-      },
-      "obtain": {
-        "decent": 1
-      },
-      "decent": {
-        "and": 1
-      },
       "conditions": {
         "of": 1,
         "to": 2
-      },
-      "security": {
-        "and": 1
-      },
-      "widespread": {
-        "procedure": 1
       },
       "procedure": {
         "to": 1,
@@ -47572,12 +46388,6 @@
         "public": 1,
         "by": 1,
         "systems": 1
-      },
-      "public": {
-        "policies": 1
-      },
-      "policies": {
-        "in": 1
       },
       "western": {
         "europe": 1,
@@ -47601,7 +46411,7 @@
         "could": 2
       },
       "could": {
-        "not": 3,
+        "not": 4,
         "no": 1,
         "gain": 2,
         "barely": 1,
@@ -47697,15 +46507,6 @@
         "union": 1,
         "style": 1
       },
-      "union": {
-        "(": 1
-      },
-      "eu": {
-        ")": 1
-      },
-      "suffered": {
-        "from": 1
-      },
       "high": {
         "unemployment": 1,
         "school": 1
@@ -47723,9 +46524,6 @@
       },
       "netherlands": {
         "was": 2
-      },
-      "brilliant": {
-        "dialogue": 1
       },
       "published": {
         "fiction": 1,
@@ -47758,12 +46556,6 @@
         "dialogue": 2,
         "and": 1
       },
-      "fastest": {
-        "way": 1
-      },
-      "lose": {
-        "a": 1
-      },
       "here": {
         "'s": 2,
         "to": 1
@@ -47779,27 +46571,12 @@
         "on": 2,
         "about": 1
       },
-      "format": {
-        "dialogue": 1
-      },
-      "easy-to-follow": {
-        "tips": 1
-      },
-      "suggestions": {
-        "on": 1
-      },
       "condition": {
         "of": 2
-      },
-      "material": {
-        "before": 1
       },
       "road": {
         "up": 1,
         "with": 1
-      },
-      "ahead": {
-        "contains": 1
       },
       "contains": {
         "a": 2,
@@ -47816,36 +46593,9 @@
         "of": 1,
         "north": 1
       },
-      "reader": {
-        "'s": 1
-      },
-      "soldiers": {
-        "who": 1
-      },
-      "hardships": {
-        "and": 1
-      },
-      "danger": {
-        "the": 1
-      },
-      "ground": {
-        "was": 1
-      },
-      "littered": {
-        "with": 1
-      },
-      "syringes": {
-        "left": 1
-      },
       "behind": {
         "by": 1,
         "all": 1
-      },
-      "drug": {
-        "abusers": 1
-      },
-      "bought": {
-        "a": 1
       },
       "idiom": {
         "describes": 1,
@@ -47861,9 +46611,6 @@
       "commonly-used": {
         "way": 2
       },
-      "construct": {
-        "in": 1
-      },
       "constructs": {
         "are": 2
       },
@@ -47874,23 +46621,14 @@
       "tend": {
         "to": 2
       },
-      "linguistic": {
-        "idiom": 1
-      },
       "express": {
         "a": 1,
         "feelings": 2,
         "the": 1
       },
-      "exists": {
-        "outside": 1
-      },
       "outside": {
         "the": 1,
         "lijiang": 1
-      },
-      "constrained": {
-        "by": 1
       },
       "similar": {
         "to": 3,
@@ -47913,9 +46651,6 @@
       "allocation": {
         "functions": 4,
         "of": 2
-      },
-      "malloc": {
-        "(": 1
       },
       "usable": {
         "in": 3
@@ -47953,15 +46688,9 @@
       "downright": {
         "impossible": 3
       },
-      "guides": {
-        "like": 1
-      },
       "daily": {
         "conversation": 1,
         "writing": 1
-      },
-      "let's": {
-        "get": 1
       },
       "get": {
         "the": 1,
@@ -47973,9 +46702,6 @@
       "ball": {
         "rolling": 1,
         "thus": 1
-      },
-      "integral": {
-        "part": 1
       },
       "cannot": {
         "be": 2,
@@ -48006,9 +46732,6 @@
         "can": 1,
         "so": 1
       },
-      "disassembled": {
-        "into": 1
-      },
       "try": {
         "to": 2,
         "using": 1
@@ -48021,7 +46744,8 @@
         "life": 1,
         "emails": 2,
         "turmoil": 1,
-        "pension": 1
+        "pension": 1,
+        "identity": 1
       },
       "anything": {
         "that": 1,
@@ -48040,15 +46764,6 @@
         "specifically": 1,
         "in": 3
       },
-      "financial": {
-        "aid": 1
-      },
-      "aid": {
-        "for": 1
-      },
-      "ailing": {
-        "mother": 1
-      },
       "three": {
         "dependents": 1,
         "objects": 1,
@@ -48059,12 +46774,6 @@
       "heading": {
         ")": 2
       },
-      "ad": {
-        "was": 1
-      },
-      "climb": {
-        "that": 1
-      },
       "'re": {
         "more": 1,
         "a": 1,
@@ -48074,9 +46783,6 @@
       "ever": {
         "imagined": 1,
         "felt": 1
-      },
-      "salt": {
-        "in": 1
       },
       "alas": {
         "interjections": 2
@@ -48370,7 +47076,8 @@
       },
       "loss": {
         "of": 1,
-        "and": 1
+        "and": 1,
+        "is": 1
       },
       "inflection": {
         "as": 1
@@ -48636,13 +47343,15 @@
         ")": 1,
         "tenses": 1,
         "participle": 13,
-        "of": 1
+        "of": 1,
+        "events": 1
       },
       "future": {
         "and": 1,
         "form": 1,
         "perfect": 1,
-        "behavior": 1
+        "behavior": 1,
+        "action": 1
       },
       "finer": {
         "tense": 1,
@@ -53317,17 +52026,44 @@
       },
       "conduct": {
         "impulses": 1
+      },
+      "faculty": {
+        "of": 1
+      },
+      "retrieved": {
+        "when": 1
+      },
+      "retention": {
+        "of": 1
+      },
+      "purpose": {
+        "of": 1
+      },
+      "influencing": {
+        "future": 1
+      },
+      "identity": {
+        "to": 1
+      },
+      "described": {
+        "as": 1
+      },
+      "forgetfulness": {
+        "or": 1
+      },
+      "disorder": {
+        "such": 1
       }
     },
     "starters": {
       "i": 52,
       "how": 4,
       "what": 6,
-      "<NOUN>": 232,
+      "<NOUN>": 234,
       "the": 186,
       "she": 13,
       "we": 15,
-      "it": 47,
+      "it": 48,
       "<VERB>": 91,
       "can": 1,
       "my": 9,
@@ -53338,7 +52074,7 @@
       "<ADJ>": 95,
       "please": 1,
       "that": 12,
-      "if": 6,
+      "if": 7,
       "although": 2,
       "a": 90,
       "does": 1,
@@ -53401,15 +52137,15 @@
     },
     "connectors": {
       "because": 12,
-      "or": 256,
-      "and": 426,
+      "or": 259,
+      "and": 427,
       "but": 43,
       "so": 17,
       "while": 5,
       "than": 30,
       "therefore": 7,
       "if": 8,
-      "as": 135,
+      "as": 137,
       "however": 3,
       "whether": 2,
       "that": 12,
@@ -53435,7 +52171,7 @@
         "although": 1
       },
       "NOUN>DET": {
-        "or": 16,
+        "or": 17,
         "and": 31,
         "but": 10,
         "if": 3,
@@ -53446,7 +52182,7 @@
       },
       "NOUN>NOUN": {
         "and": 173,
-        "or": 111,
+        "or": 112,
         "as": 6,
         "yet": 2,
         "so": 2,
@@ -53498,13 +52234,13 @@
       },
       "VERB>VERB": {
         "or": 13,
-        "and": 10,
+        "and": 11,
         "as": 2
       },
       "NOUN>ADJ": {
         "and": 36,
         "than": 1,
-        "or": 15,
+        "or": 16,
         "whether": 1,
         "as": 6,
         "since": 1,
@@ -53540,7 +52276,7 @@
         "or": 12
       },
       "DET>NOUN": {
-        "as": 15,
+        "as": 16,
         "than": 1
       },
       "VERB>PUNCT": {
@@ -53584,7 +52320,7 @@
         "therefore": 3
       },
       "VERB>NOUN": {
-        "as": 10,
+        "as": 11,
         "and": 15,
         "or": 7,
         "that": 2,
@@ -55036,27 +53772,10 @@
       "DET ADJ NOUN ADJ NOUN VERB NOUN | and | NOUN": 1,
       "ADV DET NOUN PREP DET ADJ NOUN PREP DET NOUN AUX VERB | and | MODAL NOUN ADJ PREP ADJ NOUN": 1,
       "NOUN CONJ NOUN PREP NOUN AUX ADJ | because | NOUN MODAL NOUN ADJ PREP ADJ NOUN PREP DET NOUN": 1,
-      "NOUN ADJ | and | NOUN": 1
+      "NOUN ADJ | and | NOUN": 1,
+      "NOUN AUX DET NOUN PREP DET NOUN PREP WH NOUN CONJ NOUN AUX VERB | and | VERB WH VERB": 1
     },
     "sentence_bank": {
-      "sleep": [
-        "How do you sleep at night when you attack your kids like that!?",
-        "I slept little last night , but even less the night before."
-      ],
-      "night": [
-        "How do you sleep at night when you attack your kids like that!?"
-      ],
-      "period": [
-        "The period between sunset and sunrise, when a location faces far away from the sun, thus when the sky is dark."
-      ],
-      "sunset": [
-        "The period between sunset and sunrise, when a location faces far away from the sun, thus when the sky is dark."
-      ],
-      "tense": [
-        "In grammar , tense is a category that expresses time reference.",
-        "Not all languages have tense: tenseless languages include Dyirbal .",
-        "By breaking down each tense with clear explanations and examples , you'll gain confidence in using them in both."
-      ],
       "tenses": [
         "The main tenses found in many languages include the past , present , and future .",
         "Learn tenses in English grammar with examples , rules, and easy charts.",
@@ -55425,7 +54144,8 @@
       ],
       "information": [
         "Retaining information is a necessary factor to the active listening process, as it is the process of storing and recalling data.",
-        "In terms of information processing, cognitive modeling is modeling of human perception, reasoning, memory and action."
+        "In terms of information processing, cognitive modeling is modeling of human perception, reasoning, memory and action.",
+        "It is the retention of information over time for the purpose of influencing future action."
       ],
       "environmental": [
         "Environmental barriers are brought about by the speaker's environment."
@@ -55445,7 +54165,8 @@
         "They can be temporary or permanent."
       ],
       "loss": [
-        "Hearing loss and deficiencies are usually permanent boundaries."
+        "Hearing loss and deficiencies are usually permanent boundaries.",
+        "Memory loss is usually described as forgetfulness or a disorder such as amnesia."
       ],
       "psychological": [
         "Psychological barriers interfere with one's willingness and mental capacity for listening.",
@@ -56981,6 +55702,22 @@
       "neurons": [
         "Neurons form neural networks in the nervous system, mainly in the central nervous system.",
         "Neurons receive and conduct impulses."
+      ],
+      "memory": [
+        "Memory is the faculty of the mind by which data or information is encoded, stored, and retrieved when needed.",
+        "Memory loss is usually described as forgetfulness or a disorder such as amnesia."
+      ],
+      "faculty": [
+        "Memory is the faculty of the mind by which data or information is encoded, stored, and retrieved when needed."
+      ],
+      "retention": [
+        "It is the retention of information over time for the purpose of influencing future action."
+      ],
+      "past": [
+        "If past events could not be remembered, it would be impossible for language, relationships, or personal identity to develop."
+      ],
+      "events": [
+        "If past events could not be remembered, it would be impossible for language, relationships, or personal identity to develop."
       ]
     }
   },
