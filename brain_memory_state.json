@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.33,
+    "adenosine": 0.39,
     "newborn": false
   },
   "episodic_memory": [
@@ -2868,6 +2868,13 @@
       "time": "2026-10-24 11:32:28",
       "speaker": "brain",
       "text": "I wondered about 'Memory consolidation' by myself and went searching. From Wikipedia (live internet) I learned: Memory consolidation is a process in the brain that stabilizes newly learned information, allowing the memory to be stored long-term. Key ideas I stored: neural circuits, memory consolidation, stable long-term memories, stored long-term.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 11:34:29",
+      "speaker": "brain",
+      "text": "I wondered about 'Distributed computing' by myself and went searching. From Wikipedia (live internet) I learned: Distributed computing is a field of computer science that studies distributed systems, defined as computer systems whose inter-communicating components are located on different networked computers. Key ideas I stored: distributed computing, distributed systems, inter-communicating.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6169,6 +6176,17 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Memory_consolidation",
       "learned": "2026-10-24 11:32:28"
+    },
+    "Distributed computing": {
+      "summary": "Distributed computing is a field of computer science that studies distributed systems, defined as computer systems whose inter-communicating components are located on different networked computers.",
+      "concepts": [
+        "distributed computing",
+        "distributed systems",
+        "inter-communicating"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Distributed_computing",
+      "learned": "2026-10-24 11:34:29"
     }
   },
   "creator_teachings": [
@@ -7546,6 +7564,12 @@
       "kind": "explore_report",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 11:34:29",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -7613,7 +7637,8 @@
     "automated skill evolution",
     "internal cognitive layers",
     "biological neuromorphic processing",
-    "dynamic memory consolidation"
+    "dynamic memory consolidation",
+    "distributed environments"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -29702,22 +29727,34 @@
       "source": "corpus",
       "learned": "2026-10-24 11:32:28",
       "uses": 1
+    },
+    "components": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:34:29",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 918,
-      "tokens": 15144,
+      "sentences": 919,
+      "tokens": 15171,
       "sources": {
         "seed corpus": 64,
         "conversation": 12,
         "dictionary": 462,
-        "explore": 113,
+        "explore": 114,
         "pasted text": 24,
         "deep study": 243
       },
       "hashes": [
-        "ec8105d36bfc",
         "e2ea75242de4",
         "2a89477ad708",
         "53b22631afc4",
@@ -30016,7 +30053,8 @@
         "e8cc7d27c112",
         "b5d4e40caf56",
         "e326ae9498a3",
-        "3e44f1625c06"
+        "3e44f1625c06",
+        "e8672c9cb607"
       ],
       "seeded": true,
       "rejected": 157,
@@ -31012,7 +31050,6 @@
         "applying": 1,
         "meeting": 1,
         "distribute": 1,
-        "components": 1,
         "soft": 1,
         "assigned": 1,
         "encodes": 1,
@@ -31421,7 +31458,8 @@
         "stored": 1,
         "trace": 1,
         "occurs": 1,
-        "stable": 1
+        "stable": 1,
+        "located": 1
       }
     },
     "pos_bigrams": {
@@ -31430,7 +31468,7 @@
         "WH": 21,
         "NOUN": 171,
         "DET": 293,
-        "VERB": 64,
+        "VERB": 65,
         "MODAL": 4,
         "ADJ": 79,
         "INTJ": 5,
@@ -31446,7 +31484,7 @@
         "AUX": 117,
         "PUNCT": 30,
         "ADV": 10,
-        "VERB": 128,
+        "VERB": 129,
         "MODAL": 52,
         "PREP": 21,
         "WH": 2,
@@ -31462,10 +31500,10 @@
         "ADJ": 129,
         "PRON": 10,
         "PUNCT": 5,
-        "DET": 159,
+        "DET": 160,
         "NOUN": 43,
         "NEG": 25,
-        "VERB": 162,
+        "VERB": 163,
         "INTJ": 1,
         "ADV": 53,
         "CONJ": 8,
@@ -31505,16 +31543,16 @@
         "PUNCT": 4
       },
       "VERB": {
-        "PREP": 283,
+        "PREP": 284,
         "PART": 64,
         "ADJ": 51,
-        "NOUN": 228,
+        "NOUN": 231,
         "PUNCT": 132,
         "PRON": 54,
         "AUX": 21,
         "DET": 214,
-        "VERB": 29,
-        "CONJ": 86,
+        "VERB": 30,
+        "CONJ": 87,
         "WH": 13,
         "</S>": 9,
         "ADV": 22,
@@ -31525,7 +31563,7 @@
       },
       "PREP": {
         "PRON": 35,
-        "NOUN": 536,
+        "NOUN": 538,
         "DET": 597,
         "PUNCT": 32,
         "VERB": 38,
@@ -31541,11 +31579,11 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 844,
+        "</S>": 845,
         "NOUN": 287,
         "CONJ": 170,
         "PRON": 20,
-        "VERB": 43,
+        "VERB": 44,
         "ADV": 32,
         "PREP": 28,
         "ADJ": 53,
@@ -31563,7 +31601,7 @@
         "AUX": 24,
         "DET": 29,
         "PRON": 12,
-        "NOUN": 33,
+        "NOUN": 34,
         "VERB": 13,
         "MODAL": 6,
         "PREP": 4,
@@ -31589,26 +31627,26 @@
         "NUM": 3
       },
       "NOUN": {
-        "AUX": 290,
-        "PREP": 918,
-        "NOUN": 791,
-        "PUNCT": 1157,
+        "AUX": 292,
+        "PREP": 919,
+        "NOUN": 794,
+        "PUNCT": 1159,
         "CONJ": 346,
-        "VERB": 263,
+        "VERB": 264,
         "ADV": 51,
         "PART": 122,
         "ADJ": 139,
         "MODAL": 49,
         "</S>": 59,
-        "PRON": 58,
-        "WH": 32,
+        "PRON": 59,
+        "WH": 33,
         "DET": 187,
         "PROPN": 54,
         "NUM": 9,
         "NEG": 6
       },
       "DET": {
-        "NOUN": 1062,
+        "NOUN": 1063,
         "ADJ": 471,
         "PRON": 11,
         "PREP": 29,
@@ -31626,7 +31664,7 @@
       "CONJ": {
         "PRON": 43,
         "DET": 119,
-        "NOUN": 318,
+        "NOUN": 319,
         "VERB": 57,
         "ADJ": 85,
         "ADV": 21,
@@ -31764,7 +31802,7 @@
       "VERB|PREP": {
         "PRON": 9,
         "DET": 112,
-        "NOUN": 79,
+        "NOUN": 80,
         "PUNCT": 11,
         "VERB": 4,
         "ADJ": 29,
@@ -31836,7 +31874,7 @@
         "PRON": 14,
         "PUNCT": 9,
         "DET": 26,
-        "VERB": 6,
+        "VERB": 7,
         "ADJ": 8,
         "CONJ": 5,
         "</S>": 1,
@@ -31883,11 +31921,11 @@
         "MODAL": 2
       },
       "NOUN|AUX": {
-        "DET": 93,
+        "DET": 94,
         "ADJ": 58,
         "NOUN": 23,
         "ADV": 33,
-        "VERB": 51,
+        "VERB": 52,
         "CONJ": 5,
         "NUM": 6,
         "NEG": 11,
@@ -31897,7 +31935,7 @@
         "PREP": 1
       },
       "AUX|DET": {
-        "NOUN": 78,
+        "NOUN": 79,
         "ADJ": 59,
         "PROPN": 4,
         "VERB": 2,
@@ -31908,7 +31946,7 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 337,
+        "PREP": 338,
         "AUX": 83,
         "CONJ": 77,
         "PUNCT": 220,
@@ -31925,7 +31963,7 @@
         "WH": 4
       },
       "NOUN|PREP": {
-        "NOUN": 326,
+        "NOUN": 327,
         "DET": 336,
         "PREP": 7,
         "ADJ": 116,
@@ -31940,9 +31978,9 @@
         "CONJ": 4
       },
       "PREP|NOUN": {
-        "NOUN": 87,
+        "NOUN": 88,
         "PUNCT": 144,
-        "VERB": 29,
+        "VERB": 30,
         "CONJ": 56,
         "ADJ": 14,
         "DET": 27,
@@ -31965,26 +32003,26 @@
         "CONJ": 63,
         "VERB": 47,
         "PROPN": 18,
-        "AUX": 47,
+        "AUX": 48,
         "MODAL": 14,
         "ADJ": 34,
         "NUM": 4,
         "ADV": 10,
         "DET": 14,
         "NEG": 3,
-        "PRON": 6,
-        "WH": 6,
+        "PRON": 7,
+        "WH": 7,
         "</S>": 1
       },
       "NOUN|PUNCT": {
-        "</S>": 582,
+        "</S>": 583,
         "NOUN": 213,
         "CONJ": 118,
         "ADV": 24,
         "PREP": 22,
         "ADJ": 37,
         "DET": 63,
-        "VERB": 33,
+        "VERB": 34,
         "WH": 18,
         "PRON": 15,
         "AUX": 16,
@@ -32086,7 +32124,7 @@
         "PREP": 1
       },
       "VERB|NOUN": {
-        "PUNCT": 61,
+        "PUNCT": 63,
         "PREP": 39,
         "PART": 6,
         "VERB": 6,
@@ -32095,7 +32133,7 @@
         "MODAL": 2,
         "ADJ": 13,
         "DET": 17,
-        "AUX": 7,
+        "AUX": 8,
         "PROPN": 7,
         "NEG": 1,
         "WH": 1,
@@ -32167,7 +32205,7 @@
         "PRON": 2,
         "AUX": 4,
         "VERB": 2,
-        "NOUN": 23,
+        "NOUN": 24,
         "DET": 12,
         "PREP": 11,
         "CONJ": 1,
@@ -32247,7 +32285,7 @@
         "PUNCT": 22,
         "</S>": 3,
         "ADV": 11,
-        "NOUN": 37,
+        "NOUN": 38,
         "NUM": 1,
         "CONJ": 17,
         "AUX": 3,
@@ -32290,7 +32328,7 @@
         "PREP": 65,
         "VERB": 14,
         "WH": 5,
-        "NOUN": 100,
+        "NOUN": 101,
         "PRON": 3,
         "PART": 9,
         "CONJ": 7,
@@ -32354,7 +32392,7 @@
         "VERB": 2
       },
       "AUX|VERB": {
-        "PREP": 73,
+        "PREP": 74,
         "PUNCT": 21,
         "PART": 22,
         "PRON": 2,
@@ -32408,7 +32446,7 @@
         "PRON": 1,
         "ADJ": 3,
         "DET": 4,
-        "NOUN": 6,
+        "NOUN": 7,
         "CONJ": 3
       },
       "<S>|INTJ": {
@@ -32466,7 +32504,7 @@
         "PUNCT": 3,
         "PROPN": 1,
         "MODAL": 2,
-        "NOUN": 23,
+        "NOUN": 24,
         "AUX": 2,
         "ADJ": 6,
         "NEG": 1,
@@ -32491,7 +32529,7 @@
       },
       "PUNCT|VERB": {
         "AUX": 1,
-        "CONJ": 3,
+        "CONJ": 4,
         "PREP": 12,
         "NOUN": 16,
         "PUNCT": 2,
@@ -32511,7 +32549,7 @@
       },
       "WH|NOUN": {
         "VERB": 2,
-        "NOUN": 4,
+        "NOUN": 5,
         "CONJ": 7,
         "AUX": 4,
         "DET": 10,
@@ -32745,7 +32783,7 @@
         "PRON": 1
       },
       "NOUN|PRON": {
-        "VERB": 15,
+        "VERB": 16,
         "AUX": 19,
         "PREP": 7,
         "MODAL": 11,
@@ -32833,7 +32871,7 @@
         "NOUN": 3
       },
       "NOUN|WH": {
-        "NOUN": 10,
+        "NOUN": 11,
         "VERB": 3,
         "DET": 8,
         "AUX": 6,
@@ -33572,7 +33610,8 @@
         "a": 1,
         "only": 1,
         "limited": 1,
-        "checked": 2
+        "checked": 2,
+        "located": 1
       },
       "you": {
         "ask": 2,
@@ -33653,7 +33692,7 @@
         "models": 1
       },
       "is": {
-        "a": 59,
+        "a": 60,
         "the": 28,
         "an": 14,
         "one": 4,
@@ -33681,7 +33720,8 @@
         "verb": 1,
         "traditional": 1,
         "process": 1,
-        "memory": 1
+        "memory": 1,
+        "field": 1
       },
       "tool": {
         "for": 1
@@ -34132,7 +34172,8 @@
         "emulate": 1,
         "\"": 1,
         "stabilizes": 1,
-        "occurs": 1
+        "occurs": 1,
+        "studies": 1
       },
       "good": {
         "idea": 1,
@@ -34414,7 +34455,8 @@
         "other": 3,
         "postwar": 3,
         "linguist": 1,
-        "sense": 1
+        "sense": 1,
+        "computer": 1
       },
       "reading": {
         "is": 1,
@@ -34937,17 +34979,7 @@
         "both": 1,
         "national": 1,
         "adoption": 1,
-        "how": 1,
-        "what": 1,
-        "it": 1,
-        "utilizing": 1,
-        "cognitive": 1,
-        "externally-provided": 1,
-        "your": 1,
-        "minimum": 1,
-        "certain": 1,
-        "which": 1,
-        "employees": 1
+        "how": 1
       },
       "situation": {
         "in": 1,
@@ -35588,21 +35620,23 @@
         "through": 1,
         "can": 1,
         "have": 1,
-        "for": 1
+        "for": 1,
+        "whose": 1
       },
       "distributed": {
-        "computing": 2,
+        "computing": 3,
         "ledger": 2,
         "over": 1,
         "according": 1,
         "version": 1,
-        "processing": 1
+        "processing": 1,
+        "systems": 1
       },
       "computing": {
         "architectures": 1,
         "parameter": 1,
         "simple": 1,
-        "is": 1,
+        "is": 2,
         "approach": 1,
         "elements": 1
       },
@@ -36022,7 +36056,8 @@
       "defined": {
         "for": 4,
         "phenomenon": 1,
-        "sense": 1
+        "sense": 1,
+        "as": 1
       },
       "each": {
         "language": 4,
@@ -36222,7 +36257,8 @@
         "sold": 1,
         "stock": 1,
         "perception": 1,
-        "it": 1
+        "it": 1,
+        "computer": 1
       },
       "itself": {
         "was": 2,
@@ -36692,7 +36728,8 @@
       "studies": {
         "the": 1,
         "it": 1,
-        "is": 1
+        "is": 1,
+        "distributed": 1
       },
       "organization": {
         "of": 1
@@ -37098,8 +37135,9 @@
       },
       "computer": {
         "scientist": 1,
-        "science": 5,
-        "algorithm": 1
+        "science": 6,
+        "algorithm": 1,
+        "systems": 1
       },
       "scientist": {
         "daniela": 1
@@ -37560,7 +37598,8 @@
         "types": 1,
         "medications": 1,
         "ways": 2,
-        "actors": 1
+        "actors": 1,
+        "networked": 1
       },
       "correlations": {
         "between": 3
@@ -37958,7 +37997,8 @@
         "education": 1,
         "and": 2,
         "laboratory": 1,
-        "than": 1
+        "than": 1,
+        "that": 1
       },
       "conversions": {
         "between": 1
@@ -38721,7 +38761,7 @@
       "field": {
         "programmable": 2,
         "takes": 1,
-        "of": 1,
+        "of": 2,
         "integrates": 1
       },
       "programmable": {
@@ -42746,7 +42786,8 @@
         "to": 1
       },
       "components": {
-        "in": 1
+        "in": 1,
+        "are": 1
       },
       "soft": {
         "\"": 1
@@ -43173,7 +43214,8 @@
         "of": 1
       },
       "whose": {
-        "meanings": 1
+        "meanings": 1,
+        "inter-communicating": 1
       },
       "cat": {
         "is": 1,
@@ -44209,6 +44251,15 @@
       },
       "long-term": {
         "memories": 1
+      },
+      "inter-communicating": {
+        "components": 1
+      },
+      "located": {
+        "on": 1
+      },
+      "networked": {
+        "computers": 1
       }
     },
     "starters": {
@@ -44220,7 +44271,7 @@
       "she": 7,
       "we": 13,
       "it": 34,
-      "<VERB>": 64,
+      "<VERB>": 65,
       "can": 1,
       "my": 7,
       "why": 1,
@@ -44296,7 +44347,7 @@
       "than": 23,
       "therefore": 7,
       "if": 6,
-      "as": 103,
+      "as": 104,
       "however": 2,
       "whether": 2,
       "that": 8,
@@ -44457,7 +44508,7 @@
         "therefore": 3
       },
       "VERB>NOUN": {
-        "as": 6,
+        "as": 7,
         "and": 11,
         "or": 4,
         "that": 2
@@ -47879,7 +47930,6 @@
     "taught": 0,
     "last_lesson": "2026-10-24 11:28:32",
     "pending_concepts": [
-      "distributed environments",
       "neuro-symbolic reasoning",
       "autonomous recursive self-improvement",
       "direct instruction-set architecture manipulation",
