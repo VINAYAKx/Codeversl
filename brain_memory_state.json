@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.6700000000000002,
+    "adenosine": 0.7300000000000002,
     "newborn": false
   },
   "episodic_memory": [
@@ -2917,6 +2917,20 @@
       "time": "2026-10-24 14:36:36",
       "speaker": "brain",
       "text": "I practised my English because I want to talk with you more naturally. I learned 6 new words: 'full' (an adjective) means containing the maximum possible amount that can fit in the space available; 'surface' (a noun) means the external boundary of an object or body ; 'along' (a preposition) means by the length of; in a line with the length of; lengthwise next to; 'related' (an adjective) means standing in relation or connection and 2 more. Now I know 608 words, I have studied 1198 sentences, and I have 108 sentence patterns.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 14:38:41",
+      "speaker": "brain",
+      "text": "I practised my English because I want to talk with you more naturally. I learned 6 new words: 'kids' (a noun) means plural of kid; 'either' (a determiner) means any one (of two); 'transmission' (a noun) means the act of transmitting , e.g; 'continues' (a verb) means third-person singular simple present indicative of continue and 2 more. Now I know 614 words, I have studied 1206 sentences, and I have 109 sentence patterns.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 14:40:31",
+      "speaker": "brain",
+      "text": "I wondered about 'Ethics' by myself and went searching. From Wikipedia (live internet) I learned: Ethics is the philosophical study of moral phenomena. Key ideas I stored: normative ethics, metaethics.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6395,6 +6409,16 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Logic",
       "learned": "2026-10-24 14:24:29"
+    },
+    "Ethics": {
+      "summary": "Ethics is the philosophical study of moral phenomena. Also called moral philosophy, it investigates normative questions about what people ought to do or which behavior is morally right. Its main branches include normative ethics, applied ethics, and metaethics.",
+      "concepts": [
+        "normative ethics",
+        "metaethics"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Ethics",
+      "learned": "2026-10-24 14:40:31"
     }
   },
   "creator_teachings": [
@@ -8072,6 +8096,18 @@
       "kind": "language_lesson",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 14:38:41",
+      "kind": "language_lesson",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-24 14:40:31",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -8155,7 +8191,8 @@
     "automated resolution theorem",
     "synthesize digital electronic circuits",
     "optics",
-    "logic"
+    "logic",
+    "ethics"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -36117,22 +36154,96 @@
       "source": "corpus",
       "learned": "2026-10-24 14:38:40",
       "uses": 1
+    },
+    "phenomena": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Ethics is the philosophical study of moral phenomena."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:40:31",
+      "uses": 1
+    },
+    "moral": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Also called moral philosophy, it investigates normative questions about what people ought to do or which behavior is morally right."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:40:31",
+      "uses": 1
+    },
+    "normative": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Its main branches include normative ethics, applied ethics, and metaethics."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:40:31",
+      "uses": 1
+    },
+    "ethics": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Its main branches include normative ethics, applied ethics, and metaethics."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:40:31",
+      "uses": 1
+    },
+    "applied": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Its main branches include normative ethics, applied ethics, and metaethics."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:40:31",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 1206,
-      "tokens": 19317,
+      "sentences": 1209,
+      "tokens": 19361,
       "sources": {
         "seed corpus": 64,
         "conversation": 16,
         "dictionary": 701,
-        "explore": 158,
+        "explore": 161,
         "pasted text": 24,
         "deep study": 243
       },
       "hashes": [
-        "c7e4cf0a163b",
         "6adc25c43f83",
         "7729ffdf3857",
         "733047245e5e",
@@ -36431,7 +36542,8 @@
         "7a561dd2d177",
         "7c946df1c0d4",
         "72f0d0872676",
-        "a009e12045a1"
+        "a009e12045a1",
+        "65314a2f09ed"
       ],
       "seeded": true,
       "rejected": 218,
@@ -37089,7 +37201,6 @@
         "adverb": 1,
         "relate": 1,
         "causes": 1,
-        "phenomena": 1,
         "unsolved": 1,
         "inquire": 1,
         "ascertain": 1,
@@ -37994,7 +38105,6 @@
         "extends": 1,
         "waves": 1,
         "microwaves": 1,
-        "applied": 1,
         "beams": 1,
         "elementary": 1,
         "charged": 1,
@@ -38038,22 +38148,27 @@
         "transmitting": 1,
         "continue": 1,
         "modifies": 1,
-        "referent": 1
+        "referent": 1,
+        "philosophical": 1,
+        "philosophy": 1,
+        "ought": 1,
+        "morally": 1,
+        "metaethics": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
         "PRON": 187,
         "WH": 23,
-        "NOUN": 228,
-        "DET": 388,
+        "NOUN": 229,
+        "DET": 389,
         "VERB": 91,
         "MODAL": 4,
         "ADJ": 95,
         "INTJ": 5,
         "CONJ": 19,
         "AUX": 4,
-        "ADV": 18,
+        "ADV": 19,
         "PREP": 119,
         "PART": 17,
         "NUM": 6,
@@ -38063,7 +38178,7 @@
         "AUX": 159,
         "PUNCT": 43,
         "ADV": 13,
-        "VERB": 180,
+        "VERB": 181,
         "MODAL": 69,
         "PREP": 26,
         "WH": 2,
@@ -38080,13 +38195,13 @@
         "ADJ": 176,
         "PRON": 12,
         "PUNCT": 6,
-        "DET": 209,
+        "DET": 210,
         "NOUN": 51,
         "NEG": 32,
         "VERB": 207,
         "INTJ": 1,
-        "ADV": 69,
-        "CONJ": 8,
+        "ADV": 70,
+        "CONJ": 9,
         "NUM": 13,
         "PROPN": 4,
         "WH": 3,
@@ -38096,7 +38211,7 @@
       },
       "ADJ": {
         "PART": 28,
-        "NOUN": 1020,
+        "NOUN": 1025,
         "WH": 2,
         "PUNCT": 185,
         "PREP": 114,
@@ -38105,7 +38220,7 @@
         "ADJ": 90,
         "DET": 23,
         "AUX": 20,
-        "VERB": 49,
+        "VERB": 50,
         "MODAL": 8,
         "</S>": 5,
         "NUM": 3,
@@ -38114,7 +38229,7 @@
       },
       "PART": {
         "VERB": 241,
-        "AUX": 38,
+        "AUX": 39,
         "ADJ": 15,
         "NOUN": 34,
         "WH": 3,
@@ -38123,10 +38238,10 @@
         "PUNCT": 7
       },
       "VERB": {
-        "PREP": 362,
+        "PREP": 363,
         "PART": 84,
-        "ADJ": 66,
-        "NOUN": 311,
+        "ADJ": 68,
+        "NOUN": 312,
         "PUNCT": 169,
         "PRON": 72,
         "AUX": 23,
@@ -38148,22 +38263,22 @@
         "PUNCT": 40,
         "VERB": 53,
         "PREP": 21,
-        "ADJ": 219,
+        "ADJ": 220,
         "PROPN": 89,
         "AUX": 16,
         "NUM": 37,
-        "WH": 22,
+        "WH": 23,
         "CONJ": 11,
         "ADV": 10,
         "PART": 4,
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 1097,
+        "</S>": 1100,
         "NOUN": 389,
-        "CONJ": 217,
-        "PRON": 26,
-        "VERB": 56,
+        "CONJ": 218,
+        "PRON": 27,
+        "VERB": 57,
         "ADV": 40,
         "PREP": 39,
         "ADJ": 68,
@@ -38181,7 +38296,7 @@
         "AUX": 26,
         "DET": 35,
         "PRON": 15,
-        "NOUN": 40,
+        "NOUN": 42,
         "VERB": 20,
         "MODAL": 7,
         "PREP": 4,
@@ -38192,10 +38307,10 @@
       "ADV": {
         "PUNCT": 34,
         "ADJ": 23,
-        "NOUN": 45,
+        "NOUN": 46,
         "CONJ": 9,
         "DET": 17,
-        "VERB": 124,
+        "VERB": 125,
         "</S>": 2,
         "PRON": 3,
         "MODAL": 1,
@@ -38207,15 +38322,15 @@
         "NUM": 3
       },
       "NOUN": {
-        "AUX": 382,
-        "PREP": 1159,
-        "NOUN": 981,
-        "PUNCT": 1492,
+        "AUX": 384,
+        "PREP": 1160,
+        "NOUN": 983,
+        "PUNCT": 1498,
         "CONJ": 452,
         "VERB": 332,
         "ADV": 63,
-        "PART": 157,
-        "ADJ": 161,
+        "PART": 158,
+        "ADJ": 162,
         "MODAL": 54,
         "</S>": 88,
         "PRON": 83,
@@ -38227,7 +38342,7 @@
       },
       "DET": {
         "NOUN": 1351,
-        "ADJ": 579,
+        "ADJ": 581,
         "PRON": 16,
         "PREP": 32,
         "NUM": 33,
@@ -38245,12 +38360,12 @@
       "CONJ": {
         "PRON": 60,
         "DET": 146,
-        "NOUN": 414,
+        "NOUN": 415,
         "VERB": 77,
         "ADJ": 105,
         "ADV": 30,
         "PUNCT": 15,
-        "WH": 10,
+        "WH": 11,
         "PREP": 23,
         "CONJ": 16,
         "NUM": 7,
@@ -38391,7 +38506,7 @@
         "NOUN": 94,
         "PUNCT": 16,
         "VERB": 8,
-        "ADJ": 38,
+        "ADJ": 39,
         "PREP": 9,
         "NUM": 8,
         "PROPN": 20,
@@ -38464,7 +38579,7 @@
         "PUNCT": 14,
         "DET": 41,
         "VERB": 9,
-        "ADJ": 10,
+        "ADJ": 11,
         "CONJ": 11,
         "</S>": 1,
         "AUX": 1,
@@ -38491,14 +38606,15 @@
         "PREP": 4,
         "NOUN": 2,
         "AUX": 1,
-        "PROPN": 1
+        "PROPN": 1,
+        "CONJ": 1
       },
       "AUX|PUNCT": {
         "</S>": 5,
         "DET": 1
       },
       "<S>|NOUN": {
-        "AUX": 63,
+        "AUX": 64,
         "VERB": 32,
         "PUNCT": 10,
         "NOUN": 42,
@@ -38513,10 +38629,10 @@
         "MODAL": 2
       },
       "NOUN|AUX": {
-        "DET": 121,
+        "DET": 122,
         "ADJ": 78,
         "NOUN": 27,
-        "ADV": 44,
+        "ADV": 45,
         "VERB": 68,
         "CONJ": 5,
         "NUM": 7,
@@ -38529,7 +38645,7 @@
       },
       "AUX|DET": {
         "NOUN": 109,
-        "ADJ": 76,
+        "ADJ": 77,
         "PROPN": 4,
         "VERB": 4,
         "PREP": 4,
@@ -38564,7 +38680,7 @@
         "VERB": 36,
         "PUNCT": 14,
         "NUM": 19,
-        "WH": 15,
+        "WH": 16,
         "AUX": 10,
         "ADV": 5,
         "PRON": 19,
@@ -38590,7 +38706,7 @@
       },
       "NOUN|NOUN": {
         "PUNCT": 261,
-        "PART": 22,
+        "PART": 23,
         "NOUN": 195,
         "PREP": 178,
         "CONJ": 79,
@@ -38598,7 +38714,7 @@
         "PROPN": 24,
         "AUX": 62,
         "MODAL": 15,
-        "ADJ": 35,
+        "ADJ": 36,
         "NUM": 4,
         "ADV": 14,
         "DET": 18,
@@ -38608,16 +38724,16 @@
         "</S>": 2
       },
       "NOUN|PUNCT": {
-        "</S>": 760,
+        "</S>": 763,
         "NOUN": 286,
-        "CONJ": 147,
+        "CONJ": 148,
         "ADV": 31,
         "PREP": 30,
         "ADJ": 47,
         "DET": 74,
-        "VERB": 42,
+        "VERB": 43,
         "WH": 21,
-        "PRON": 17,
+        "PRON": 18,
         "AUX": 19,
         "NUM": 5,
         "PROPN": 4,
@@ -38628,7 +38744,7 @@
       },
       "<S>|DET": {
         "NOUN": 250,
-        "ADJ": 93,
+        "ADJ": 94,
         "PROPN": 18,
         "VERB": 3,
         "PREP": 4,
@@ -38639,11 +38755,11 @@
         "PRON": 1
       },
       "DET|ADJ": {
-        "NOUN": 458,
+        "NOUN": 459,
         "CONJ": 20,
         "ADJ": 28,
         "PUNCT": 22,
-        "VERB": 10,
+        "VERB": 11,
         "PREP": 18,
         "PART": 4,
         "PROPN": 8,
@@ -38654,11 +38770,11 @@
         "PRON": 1
       },
       "ADJ|NOUN": {
-        "PUNCT": 291,
-        "NOUN": 185,
+        "PUNCT": 294,
+        "NOUN": 186,
         "MODAL": 10,
         "VERB": 53,
-        "PREP": 216,
+        "PREP": 217,
         "CONJ": 80,
         "DET": 38,
         "ADJ": 17,
@@ -38671,7 +38787,7 @@
         "</S>": 3
       },
       "VERB|ADJ": {
-        "NOUN": 39,
+        "NOUN": 41,
         "PUNCT": 11,
         "CONJ": 3,
         "VERB": 3,
@@ -38722,7 +38838,7 @@
         "PREP": 1
       },
       "VERB|NOUN": {
-        "PUNCT": 83,
+        "PUNCT": 84,
         "PREP": 57,
         "PART": 8,
         "VERB": 12,
@@ -38908,7 +39024,7 @@
         "PART": 1
       },
       "PUNCT|CONJ": {
-        "NOUN": 76,
+        "NOUN": 77,
         "PRON": 23,
         "DET": 28,
         "PUNCT": 5,
@@ -38926,7 +39042,7 @@
       },
       "CONJ|NOUN": {
         "AUX": 12,
-        "PUNCT": 102,
+        "PUNCT": 103,
         "</S>": 1,
         "PREP": 79,
         "VERB": 16,
@@ -39032,7 +39148,7 @@
       },
       "NOUN|PART": {
         "ADJ": 10,
-        "AUX": 18,
+        "AUX": 19,
         "VERB": 99,
         "NOUN": 26,
         "CONJ": 1,
@@ -39089,7 +39205,7 @@
       },
       "NOUN|ADJ": {
         "PUNCT": 26,
-        "NOUN": 90,
+        "NOUN": 91,
         "DET": 3,
         "PREP": 16,
         "ADJ": 8,
@@ -39135,7 +39251,7 @@
       },
       "PUNCT|PRON": {
         "MODAL": 12,
-        "VERB": 4,
+        "VERB": 5,
         "AUX": 8,
         "ADJ": 1,
         "ADV": 1
@@ -39144,7 +39260,7 @@
         "AUX": 1,
         "CONJ": 5,
         "PREP": 13,
-        "NOUN": 20,
+        "NOUN": 21,
         "PUNCT": 4,
         "PROPN": 1,
         "ADJ": 2,
@@ -39164,9 +39280,9 @@
       },
       "WH|NOUN": {
         "VERB": 4,
-        "NOUN": 5,
+        "NOUN": 6,
         "CONJ": 7,
-        "AUX": 6,
+        "AUX": 7,
         "DET": 10,
         "ADV": 2,
         "ADJ": 2,
@@ -39207,7 +39323,7 @@
       },
       "AUX|ADV": {
         "ADJ": 11,
-        "NOUN": 9,
+        "NOUN": 10,
         "VERB": 33,
         "ADV": 4,
         "PREP": 4,
@@ -39256,7 +39372,7 @@
         "WH": 1
       },
       "ADV|NOUN": {
-        "PUNCT": 16,
+        "PUNCT": 17,
         "VERB": 3,
         "PROPN": 1,
         "ADV": 1,
@@ -39353,7 +39469,7 @@
         "PREP": 34,
         "WH": 3,
         "PUNCT": 4,
-        "ADJ": 4,
+        "ADJ": 5,
         "AUX": 1,
         "PRON": 4
       },
@@ -39384,7 +39500,7 @@
         "CONJ": 3,
         "PROPN": 5,
         "ADJ": 21,
-        "NOUN": 159,
+        "NOUN": 160,
         "PUNCT": 17,
         "AUX": 2,
         "VERB": 7,
@@ -39398,7 +39514,7 @@
         "PUNCT": 4,
         "ADJ": 1,
         "DET": 4,
-        "VERB": 4,
+        "VERB": 5,
         "CONJ": 1
       },
       "ADV|PRON": {
@@ -39623,7 +39739,7 @@
         "PREP": 1
       },
       "CONJ|WH": {
-        "NOUN": 4,
+        "NOUN": 5,
         "AUX": 1,
         "VERB": 3,
         "PART": 1,
@@ -39737,7 +39853,7 @@
         "CONJ": 7,
         "PUNCT": 11,
         "PART": 1,
-        "PREP": 7,
+        "PREP": 8,
         "VERB": 3,
         "PRON": 1,
         "DET": 1
@@ -39801,7 +39917,7 @@
         "DET": 11,
         "AUX": 2,
         "PART": 1,
-        "NOUN": 3,
+        "NOUN": 4,
         "VERB": 2,
         "PRON": 2,
         "PREP": 1
@@ -39890,7 +40006,8 @@
         "VERB": 3,
         "PRON": 1,
         "DET": 2,
-        "AUX": 2
+        "AUX": 2,
+        "WH": 1
       },
       "AUX|NUM": {
         "PREP": 6,
@@ -40250,7 +40367,7 @@
         "the": 35,
         "a": 20,
         "be": 15,
-        "do": 10,
+        "do": 11,
         "learn": 5,
         "write": 4,
         "overlap": 3,
@@ -40346,7 +40463,8 @@
         "the": 1,
         "they": 1,
         "something": 1,
-        "context": 1
+        "context": 1,
+        "people": 1
       },
       "do": {
         "you": 5,
@@ -40362,7 +40480,8 @@
         "is": 1,
         "that": 1,
         "explicitly": 1,
-        "alone": 1
+        "alone": 1,
+        "or": 1
       },
       "like": {
         "to": 2,
@@ -40399,7 +40518,7 @@
       },
       "is": {
         "a": 75,
-        "the": 37,
+        "the": 38,
         "an": 16,
         "hard": 5,
         "one": 4,
@@ -40413,7 +40532,8 @@
         "used": 1,
         "also": 1,
         "associated": 1,
-        "related": 1
+        "related": 1,
+        "morally": 1
       },
       "a": {
         "noun": 18,
@@ -40468,7 +40588,8 @@
         "piano": 1,
         "train": 1,
         "other": 1,
-        "act": 1
+        "act": 1,
+        "philosophical": 1
       },
       "brain": {
         "is": 1,
@@ -40606,7 +40727,8 @@
         "gum": 1,
         "newton": 1,
         "its": 1,
-        "children": 1
+        "children": 1,
+        "what": 1
       },
       "books": {
         "or": 1,
@@ -40628,7 +40750,8 @@
         "connection": 1,
         "electric": 1,
         "noun": 1,
-        "describes": 1
+        "describes": 1,
+        "which": 1
       },
       "it": {
         "is": 29,
@@ -40640,7 +40763,8 @@
         "to": 2,
         "forms": 2,
         "'s": 2,
-        "some": 1
+        "some": 1,
+        "investigates": 1
       },
       "important": {
         "to": 3,
@@ -40754,7 +40878,8 @@
       "questions": {
         "are": 1,
         "lead": 1,
-        "or": 3
+        "or": 3,
+        "about": 1
       },
       "my": {
         "friend": 2,
@@ -40855,7 +40980,8 @@
         "functions": 2,
         "practice": 2,
         "writing": 2,
-        "creative": 2
+        "creative": 2,
+        "metaethics": 1
       },
       "meanings": {
         "have": 1,
@@ -41203,17 +41329,7 @@
         "information": 5,
         "other": 4,
         "knowledge": 4,
-        "postwar": 3,
-        "correct": 1,
-        "deductively": 1,
-        "arguments": 1,
-        "their": 1,
-        "overflowing": 1,
-        "angling": 1,
-        "synonym": 1,
-        "two": 1,
-        "transmitting": 1,
-        "continue": 1
+        "postwar": 3
       },
       "reading": {
         "is": 1,
@@ -41306,7 +41422,8 @@
         "turning": 2,
         "are": 1,
         "to": 1,
-        "or": 1
+        "or": 1,
+        "ought": 1
       },
       "share": {
         "it": 1,
@@ -41604,7 +41721,7 @@
         "i": 1,
         "matchine": 2,
         "or": 2,
-        "of": 6,
+        "of": 7,
         "brilliant": 1,
         "in": 2
       },
@@ -41968,7 +42085,8 @@
         "computes": 1,
         "studies": 1,
         "scale": 1,
-        "enforces": 1
+        "enforces": 1,
+        "behavior": 1
       },
       "computes": {
         "error": 1
@@ -42769,7 +42887,8 @@
         "supper": 1,
         "the": 2,
         "“": 1,
-        "token": 1
+        "token": 1,
+        "moral": 1
       },
       "its": {
         "internal": 3,
@@ -42788,7 +42907,8 @@
         "axis": 1,
         "employ": 1,
         "cultural": 1,
-        "interactions": 1
+        "interactions": 1,
+        "main": 1
       },
       "vague": {
         "enough": 4
@@ -43136,7 +43256,7 @@
         "conjunction": 4
       },
       "also": {
-        "called": 4,
+        "called": 5,
         "known": 6,
         "of": 3,
         "natural": 2,
@@ -43201,7 +43321,8 @@
         "verb": 1,
         "office": 1,
         "timbers": 1,
-        "sense": 1
+        "sense": 1,
+        "branches": 1
       },
       "sentences": {
         ")": 1,
@@ -46023,10 +46144,12 @@
         "noises": 1,
         "act-r": 1,
         "methodic": 1,
-        "car": 1
+        "car": 1,
+        "normative": 1
       },
       "branches": {
-        "of": 2
+        "of": 2,
+        "include": 1
       },
       "structured": {
         "query": 2,
@@ -52761,7 +52884,8 @@
         "to": 1
       },
       "applied": {
-        "to": 1
+        "to": 1,
+        "ethics": 1
       },
       "beams": {
         "of": 1
@@ -52871,13 +52995,39 @@
       },
       "modifies": {
         "a": 1
+      },
+      "ethics": {
+        "is": 1
+      },
+      "philosophical": {
+        "study": 1
+      },
+      "moral": {
+        "phenomena": 1,
+        "philosophy": 1
+      },
+      "investigates": {
+        "normative": 1
+      },
+      "normative": {
+        "questions": 1,
+        "ethics": 1
+      },
+      "ought": {
+        "to": 1
+      },
+      "behavior": {
+        "is": 1
+      },
+      "morally": {
+        "right": 1
       }
     },
     "starters": {
       "i": 52,
       "how": 4,
       "what": 6,
-      "<NOUN>": 228,
+      "<NOUN>": 229,
       "the": 185,
       "she": 13,
       "we": 15,
@@ -52899,7 +53049,7 @@
       "who": 2,
       "when": 9,
       "you": 10,
-      "<ADV>": 18,
+      "<ADV>": 19,
       "an": 16,
       "however": 2,
       "in": 82,
@@ -52938,7 +53088,7 @@
       "from": 1,
       "be": 1,
       "yes": 1,
-      "its": 1,
+      "its": 2,
       "would": 1,
       "beyond": 1,
       "could": 1,
@@ -52955,8 +53105,8 @@
     },
     "connectors": {
       "because": 11,
-      "or": 254,
-      "and": 422,
+      "or": 255,
+      "and": 423,
       "but": 43,
       "so": 17,
       "while": 5,
@@ -52999,7 +53149,7 @@
         "while": 1
       },
       "NOUN>NOUN": {
-        "and": 171,
+        "and": 172,
         "or": 110,
         "as": 6,
         "yet": 2,
@@ -53355,6 +53505,9 @@
         "or": 1
       },
       "ADV>PREP": {
+        "or": 1
+      },
+      "AUX>WH": {
         "or": 1
       }
     },
@@ -54582,26 +54735,10 @@
       "NOUN VERB DET NOUN | and | PRON VERB PREP": 1,
       "VERB NOUN PART VERB NOUN PREP NOUN ADJ NOUN | and | NOUN PREP PROPN NOUN": 1,
       "NOUN AUX DET ADJ PREP DET NOUN PREP DET NOUN NUM NOUN | and | DET NOUN": 1,
-      "PRON VERB PRON NUM NOUN | but | PRON AUX NEG VERB DET": 1
+      "PRON VERB PRON NUM NOUN | but | PRON AUX NEG VERB DET": 1,
+      "DET ADJ NOUN ADJ NOUN VERB NOUN | and | NOUN": 1
     },
     "sentence_bank": {
-      "hand": [
-        "On the other hand, some consider such a word to be a simple determiner rather than an article."
-      ],
-      "consider": [
-        "On the other hand, some consider such a word to be a simple determiner rather than an article.",
-        "In some Asian cultures, it is considered impolite to point with chopsticks, or to leave them resting in a bowl.",
-        "Unemployment has been considered a cause of crime."
-      ],
-      "absence": [
-        "The zero article is the absence of an article."
-      ],
-      "hav": [
-        "In languages having a definite article, the lack of an article specifically indicates that the noun is indefinite."
-      ],
-      "develop": [
-        "Articles often develop by specialization of adjectives or determiners ."
-      ],
       "example": [
         "Synonyms for EXAMPLE : instance, sample, illustration, specimen, case, indication, representative, prototype, exemplification, case in point.",
         "This is the most important example. superlative degree of much .",
@@ -54668,7 +54805,8 @@
       ],
       "main": [
         "The main tenses found in many languages include the past , present , and future .",
-        "The main office is actually one of the smaller rooms. main timbers He mains the same character as me in that game."
+        "The main office is actually one of the smaller rooms. main timbers He mains the same character as me in that game.",
+        "Its main branches include normative ethics, applied ethics, and metaethics."
       ],
       "syntactic": [
         "The syntactic properties of tense have been prominent in formal analyses of how tense-marking interacts with word order."
@@ -56528,6 +56666,21 @@
       ],
       "modifies": [
         "A word that modifies a noun or noun phrase or describes a noun’s referent."
+      ],
+      "ethics": [
+        "Ethics is the philosophical study of moral phenomena."
+      ],
+      "philosophical": [
+        "Ethics is the philosophical study of moral phenomena."
+      ],
+      "call": [
+        "Also called moral philosophy, it investigates normative questions about what people ought to do or which behavior is morally right."
+      ],
+      "moral": [
+        "Also called moral philosophy, it investigates normative questions about what people ought to do or which behavior is morally right."
+      ],
+      "branches": [
+        "Its main branches include normative ethics, applied ethics, and metaethics."
       ]
     }
   },
@@ -56832,7 +56985,12 @@
       "piano",
       "parents",
       "electric",
-      "purely"
+      "purely",
+      "phenomena",
+      "moral",
+      "normative",
+      "ethics",
+      "applied"
     ],
     "names": [],
     "lessons": 61,
