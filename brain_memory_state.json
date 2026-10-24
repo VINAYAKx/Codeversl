@@ -7,11 +7,11 @@
     "births": 1
   },
   "chemistry": {
-    "dopamine": 0.98686640784,
+    "dopamine": 1.0,
     "cortisol": 0.018,
     "serotonin": 0.982,
     "oxytocin": 1.0,
-    "adenosine": 0.7658000000000003,
+    "adenosine": 0.7958000000000003,
     "newborn": false
   },
   "episodic_memory": [
@@ -2953,6 +2953,20 @@
       "speaker": "brain",
       "text": "I practised my English because I want to talk with you more naturally. I learned 6 new words: 'employ' (a verb) means to retain (someone) as an employee ; 'commas' (a noun) means plural of comma; 'multiple' (a determiner) means more than one (followed by plural) ; 'contexts' (a noun) means plural of context and 2 more. Now I know 566 words, I have studied 1092 sentences, and I have 92 sentence patterns.",
       "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 13:56:32",
+      "speaker": "brain",
+      "text": "I practised my English because I want to talk with you more naturally. I learned 6 new words: 'software' (a noun) means encoded computer instructions , usually modifiable (unless stored in some form of unaltera; 'design' (a noun) means a specification of an object or process, referring to requirements to be satisfied and thu; 'delete' (a verb) means to remove , get rid of or erase , especially written or printed material , or data on a co; 'dynamic' (an adjective) means changing; active ; in motion and 2 more. Now I know 572 words, I have studied 1107 sentences, and I have 93 sentence patterns.",
+      "state": "Dizzy / Mentally Exhausted",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 13:58:25",
+      "speaker": "brain",
+      "text": "Thinking about Multi-agent system and Relational database. A multi-agent system or \"self-organized system\" is a computational system composed of multiple interacting intelligent agents. A relational database is a database based on the relational model of data, as proposed by E. Both touch on based, so here is a question to test: is there a real link between llms and relational database?",
+      "state": "Dizzy / Mentally Exhausted",
       "self_grade": 1.0
     }
   ],
@@ -7904,6 +7918,18 @@
     {
       "time": "2026-10-24 13:54:30",
       "kind": "language_lesson",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-24 13:56:32",
+      "kind": "language_lesson",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-24 13:58:25",
+      "kind": "daydream",
       "score": 1.0,
       "passes": 0
     }
@@ -54051,6 +54077,10 @@
       [
         "gated recurrent unit",
         "self supervised learning"
+      ],
+      [
+        "multi agent system",
+        "relational database"
       ]
     ]
   }
