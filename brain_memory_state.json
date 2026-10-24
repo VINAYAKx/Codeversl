@@ -7,11 +7,11 @@
     "births": 1
   },
   "chemistry": {
-    "dopamine": 0.99926,
+    "dopamine": 1.0,
     "cortisol": 0.047779199999999994,
-    "serotonin": 0.9650799999999999,
+    "serotonin": 0.98508,
     "oxytocin": 1.0,
-    "adenosine": 0.5962000000000002,
+    "adenosine": 0.6562000000000001,
     "newborn": false
   },
   "episodic_memory": [
@@ -2973,6 +2973,13 @@
       "time": "2026-10-24 15:41:35",
       "speaker": "brain",
       "text": "Two things I read keep meeting in my head: Dissipation and Fluctuation theorem. In thermodynamics, dissipation is the result of an irreversible process that affects a thermodynamic system. The fluctuation theorem, which originated from statistical mechanics, deals with the relative probability that the entropy of a system. The shared thread seems to be thermodynamics and entropy. Could dissipative process and statistical mechanics be two views of the same underlying pattern?",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 15:43:36",
+      "speaker": "brain",
+      "text": "I wondered about 'Ecology' by myself and went searching. From Wikipedia (live internet) I learned: Ecology is the natural science which studies the interactions between organisms and their environments. Key ideas I stored: ecology overlaps, evolutionary biology, ecosystem, genetics, organisms.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6601,6 +6608,20 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Runtime_system",
       "learned": "2026-10-24 15:35:05"
+    },
+    "Ecology": {
+      "summary": "Ecology is the natural science which studies the interactions between organisms and their environments. Ecology considers organisms at the community, ecosystem, and biosphere levels. Ecology overlaps with the sciences of biogeography, evolutionary biology, genetics, and ethology.",
+      "concepts": [
+        "ecology overlaps",
+        "evolutionary biology",
+        "ecosystem",
+        "genetics",
+        "organisms",
+        "biosphere"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Ecology",
+      "learned": "2026-10-24 15:43:36"
     }
   },
   "creator_teachings": [
@@ -7972,6 +7993,12 @@
       "kind": "daydream",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 15:43:36",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -8067,7 +8094,8 @@
     "photons",
     "emotion",
     "© oxford university press 1 / 11",
-    "runtime"
+    "runtime",
+    "ecology"
   ],
   "sensory_log": [
     {
@@ -39692,23 +39720,82 @@
       "source": "corpus",
       "learned": "2026-10-24 15:38:10",
       "uses": 1
+    },
+    "environments": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Ecology is the natural science which studies the interactions between organisms and their environments."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 15:43:36",
+      "uses": 1
+    },
+    "ecology": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Ecology considers organisms at the community, ecosystem, and biosphere levels."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 15:43:36",
+      "uses": 1
+    },
+    "organisms": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Ecology considers organisms at the community, ecosystem, and biosphere levels."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 15:43:36",
+      "uses": 1
+    },
+    "community": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Ecology considers organisms at the community, ecosystem, and biosphere levels."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 15:43:36",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 1759,
-      "tokens": 23122,
+      "sentences": 1762,
+      "tokens": 23166,
       "sources": {
         "seed corpus": 64,
         "conversation": 31,
         "dictionary": 789,
-        "explore": 186,
+        "explore": 189,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "c4831b4c76f8",
         "4372f78b885e",
         "08b96de2b269",
         "593bf62e3620",
@@ -40007,7 +40094,8 @@
         "cbefb4df774b",
         "5b030ce67f61",
         "c4b4434d5986",
-        "9d00bc6ebbbd"
+        "9d00bc6ebbbd",
+        "9dff8c469b67"
       ],
       "seeded": true,
       "rejected": 428,
@@ -40247,7 +40335,6 @@
         "scala": 1,
         "dialect": 1,
         "hosted": 1,
-        "environments": 1,
         "emphasizing": 1,
         "homoiconicity": 1,
         "scheme": 1,
@@ -41806,7 +41893,6 @@
         "commission": 1,
         "commit": 1,
         "commitment": 1,
-        "community": 1,
         "compare": 1,
         "comparison": 1,
         "compete": 1,
@@ -41897,14 +41983,20 @@
         "obvious": 1,
         "compartments": 1,
         "bleeding": 1,
-        "situated": 1
+        "situated": 1,
+        "considers": 1,
+        "ecosystem": 1,
+        "biosphere": 1,
+        "biogeography": 1,
+        "genetics": 1,
+        "ethology": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
         "PRON": 209,
         "WH": 24,
-        "NOUN": 550,
+        "NOUN": 553,
         "DET": 435,
         "VERB": 221,
         "MODAL": 4,
@@ -41940,7 +42032,7 @@
         "ADJ": 192,
         "PRON": 14,
         "PUNCT": 6,
-        "DET": 234,
+        "DET": 235,
         "NOUN": 55,
         "NEG": 35,
         "VERB": 227,
@@ -41956,7 +42048,7 @@
       },
       "ADJ": {
         "PART": 30,
-        "NOUN": 1162,
+        "NOUN": 1164,
         "WH": 2,
         "PUNCT": 200,
         "PREP": 123,
@@ -41990,7 +42082,7 @@
         "PUNCT": 195,
         "PRON": 82,
         "AUX": 25,
-        "DET": 316,
+        "DET": 317,
         "VERB": 39,
         "CONJ": 129,
         "WH": 21,
@@ -42003,8 +42095,8 @@
       },
       "PREP": {
         "PRON": 51,
-        "NOUN": 758,
-        "DET": 808,
+        "NOUN": 760,
+        "DET": 810,
         "PUNCT": 41,
         "VERB": 57,
         "PREP": 21,
@@ -42019,14 +42111,14 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 1630,
-        "NOUN": 503,
-        "CONJ": 235,
+        "</S>": 1633,
+        "NOUN": 505,
+        "CONJ": 237,
         "PRON": 32,
         "VERB": 61,
         "ADV": 52,
         "PREP": 44,
-        "ADJ": 68,
+        "ADJ": 69,
         "DET": 128,
         "WH": 31,
         "AUX": 23,
@@ -42042,7 +42134,7 @@
         "DET": 40,
         "PRON": 17,
         "NOUN": 45,
-        "VERB": 21,
+        "VERB": 22,
         "MODAL": 7,
         "PREP": 4,
         "PART": 7,
@@ -42068,11 +42160,11 @@
         "NUM": 3
       },
       "NOUN": {
-        "AUX": 420,
-        "PREP": 1281,
-        "NOUN": 1578,
-        "PUNCT": 2145,
-        "CONJ": 487,
+        "AUX": 421,
+        "PREP": 1285,
+        "NOUN": 1582,
+        "PUNCT": 2153,
+        "CONJ": 488,
         "VERB": 384,
         "ADV": 66,
         "PART": 165,
@@ -42080,7 +42172,7 @@
         "MODAL": 61,
         "</S>": 105,
         "PRON": 93,
-        "WH": 43,
+        "WH": 44,
         "DET": 249,
         "PROPN": 80,
         "NUM": 11,
@@ -42088,8 +42180,8 @@
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 1502,
-        "ADJ": 646,
+        "NOUN": 1506,
+        "ADJ": 647,
         "PRON": 18,
         "PREP": 35,
         "NUM": 36,
@@ -42106,8 +42198,8 @@
       },
       "CONJ": {
         "PRON": 64,
-        "DET": 155,
-        "NOUN": 460,
+        "DET": 156,
+        "NOUN": 462,
         "VERB": 87,
         "ADJ": 111,
         "ADV": 32,
@@ -42369,10 +42461,10 @@
         "DET": 1
       },
       "<S>|NOUN": {
-        "AUX": 73,
+        "AUX": 74,
         "VERB": 59,
         "PUNCT": 14,
-        "NOUN": 251,
+        "NOUN": 253,
         "CONJ": 19,
         "PREP": 37,
         "PROPN": 12,
@@ -42385,7 +42477,7 @@
         "INTJ": 2
       },
       "NOUN|AUX": {
-        "DET": 134,
+        "DET": 135,
         "ADJ": 85,
         "NOUN": 28,
         "ADV": 48,
@@ -42401,7 +42493,7 @@
       },
       "AUX|DET": {
         "NOUN": 124,
-        "ADJ": 84,
+        "ADJ": 85,
         "PROPN": 5,
         "VERB": 4,
         "PREP": 4,
@@ -42411,10 +42503,10 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 469,
+        "PREP": 471,
         "AUX": 120,
         "CONJ": 110,
-        "PUNCT": 319,
+        "PUNCT": 321,
         "VERB": 106,
         "ADV": 18,
         "ADJ": 43,
@@ -42429,8 +42521,8 @@
         "NUM": 1
       },
       "NOUN|PREP": {
-        "NOUN": 475,
-        "DET": 461,
+        "NOUN": 477,
+        "DET": 463,
         "PREP": 8,
         "ADJ": 153,
         "PROPN": 45,
@@ -42445,9 +42537,9 @@
       },
       "PREP|NOUN": {
         "NOUN": 119,
-        "PUNCT": 218,
+        "PUNCT": 219,
         "VERB": 36,
-        "CONJ": 79,
+        "CONJ": 80,
         "ADJ": 20,
         "DET": 34,
         "AUX": 19,
@@ -42462,10 +42554,10 @@
         "ADV": 3
       },
       "NOUN|NOUN": {
-        "PUNCT": 576,
+        "PUNCT": 577,
         "PART": 24,
-        "NOUN": 425,
-        "PREP": 195,
+        "NOUN": 426,
+        "PREP": 197,
         "CONJ": 84,
         "VERB": 59,
         "PROPN": 34,
@@ -42481,12 +42573,12 @@
         "</S>": 3
       },
       "NOUN|PUNCT": {
-        "</S>": 1256,
-        "NOUN": 314,
-        "CONJ": 161,
+        "</S>": 1259,
+        "NOUN": 316,
+        "CONJ": 163,
         "ADV": 40,
         "PREP": 33,
-        "ADJ": 47,
+        "ADJ": 48,
         "DET": 84,
         "VERB": 46,
         "WH": 22,
@@ -42512,7 +42604,7 @@
         "PRON": 1
       },
       "DET|ADJ": {
-        "NOUN": 516,
+        "NOUN": 517,
         "CONJ": 21,
         "ADJ": 30,
         "PUNCT": 25,
@@ -42527,7 +42619,7 @@
         "PRON": 1
       },
       "ADJ|NOUN": {
-        "PUNCT": 376,
+        "PUNCT": 377,
         "NOUN": 193,
         "MODAL": 11,
         "VERB": 58,
@@ -42537,7 +42629,7 @@
         "ADJ": 17,
         "AUX": 65,
         "PART": 37,
-        "WH": 7,
+        "WH": 8,
         "PROPN": 3,
         "ADV": 9,
         "PRON": 16,
@@ -42556,7 +42648,7 @@
         "MODAL": 1
       },
       "PREP|DET": {
-        "NOUN": 504,
+        "NOUN": 506,
         "ADJ": 201,
         "NUM": 16,
         "PREP": 12,
@@ -42571,7 +42663,7 @@
       },
       "NOUN|CONJ": {
         "PRON": 13,
-        "DET": 67,
+        "DET": 68,
         "VERB": 27,
         "NOUN": 260,
         "ADJ": 47,
@@ -42638,7 +42730,7 @@
         "CONJ": 33,
         "NOUN": 78,
         "ADJ": 8,
-        "PUNCT": 280,
+        "PUNCT": 282,
         "PREP": 56,
         "AUX": 13,
         "DET": 9,
@@ -42650,7 +42742,7 @@
         "WH": 1
       },
       "CONJ|DET": {
-        "NOUN": 99,
+        "NOUN": 100,
         "ADJ": 32,
         "CONJ": 3,
         "PUNCT": 4,
@@ -42783,7 +42875,7 @@
         "PART": 1
       },
       "PUNCT|CONJ": {
-        "NOUN": 83,
+        "NOUN": 85,
         "PRON": 24,
         "DET": 32,
         "PUNCT": 6,
@@ -42801,12 +42893,12 @@
       },
       "CONJ|NOUN": {
         "AUX": 14,
-        "PUNCT": 118,
+        "PUNCT": 119,
         "</S>": 1,
         "PREP": 89,
         "VERB": 16,
         "WH": 7,
-        "NOUN": 137,
+        "NOUN": 138,
         "PRON": 10,
         "PART": 14,
         "CONJ": 17,
@@ -42819,7 +42911,7 @@
         "ADV": 2
       },
       "VERB|DET": {
-        "NOUN": 181,
+        "NOUN": 182,
         "ADJ": 106,
         "PREP": 3,
         "CONJ": 4,
@@ -43072,7 +43164,7 @@
         "PRON": 2
       },
       "WH|VERB": {
-        "DET": 3,
+        "DET": 4,
         "PUNCT": 6,
         "VERB": 1,
         "CONJ": 5,
@@ -43261,7 +43353,7 @@
         "PROPN": 1
       },
       "PUNCT|ADJ": {
-        "NOUN": 28,
+        "NOUN": 29,
         "PUNCT": 20,
         "PROPN": 2,
         "PREP": 11,
@@ -43406,7 +43498,7 @@
       },
       "NOUN|WH": {
         "NOUN": 12,
-        "VERB": 5,
+        "VERB": 6,
         "DET": 12,
         "AUX": 7,
         "PRON": 4,
@@ -44202,7 +44294,7 @@
         "we": 1
       },
       "with": {
-        "the": 17,
+        "the": 18,
         "a": 16,
         "their": 6,
         "those": 5,
@@ -44338,7 +44430,7 @@
       },
       "is": {
         "a": 80,
-        "the": 45,
+        "the": 46,
         "an": 17,
         "hard": 5,
         "usually": 5,
@@ -44397,7 +44489,11 @@
         "variable": 3,
         "listener": 3,
         "machine": 1,
-        "inside": 1
+        "inside": 1,
+        "natural": 1,
+        "interactions": 1,
+        "community": 1,
+        "sciences": 1
       },
       "brain": {
         "is": 1,
@@ -44714,7 +44810,7 @@
         "which": 1
       },
       "at": {
-        "the": 20,
+        "the": 21,
         "one": 4,
         "ease": 3,
         "thesaurus": 3,
@@ -44767,7 +44863,10 @@
         "writing": 2,
         "creative": 2,
         "flattening": 1,
-        "murat": 1
+        "murat": 1,
+        "their": 1,
+        "biosphere": 1,
+        "ethology": 1
       },
       "meanings": {
         "have": 1,
@@ -45106,7 +45205,8 @@
         "other": 4,
         "knowledge": 4,
         "postwar": 3,
-        "pertain": 1
+        "pertain": 1,
+        "biogeography": 1
       },
       "reading": {
         "is": 1,
@@ -45803,7 +45903,7 @@
         "may": 2,
         "cannot": 2,
         "computes": 1,
-        "studies": 1,
+        "studies": 2,
         "scale": 1,
         "enforces": 1,
         "behavior": 1,
@@ -46149,7 +46249,8 @@
         "parents": 1,
         "efficiency": 1,
         "methods": 1,
-        "hausdorff": 1
+        "hausdorff": 1,
+        "environments": 1
       },
       "order": {
         "against": 1,
@@ -46782,7 +46883,8 @@
         "parties": 1,
         "separate": 1,
         "cultures": 1,
-        "prep": 1
+        "prep": 1,
+        "organisms": 1
       },
       "commas": {
         "are": 2
@@ -47312,7 +47414,7 @@
         "n": 1
       },
       "studies": {
-        "the": 2,
+        "the": 3,
         "it": 1,
         "is": 1,
         "distributed": 1
@@ -47730,7 +47832,8 @@
         "phenomena": 1,
         "manner": 1,
         "habitat": 1,
-        "language": 3
+        "language": 3,
+        "science": 1
       },
       "leverage": {
         "timing": 2,
@@ -48500,7 +48603,8 @@
         "and": 2,
         "laboratory": 1,
         "than": 1,
-        "that": 1
+        "that": 1,
+        "which": 1
       },
       "concerned": {
         "with": 2,
@@ -48512,7 +48616,7 @@
       },
       "interactions": {
         "of": 1,
-        "between": 1,
+        "between": 2,
         "and": 1,
         "are": 1,
         "with": 1
@@ -51913,7 +52017,8 @@
       },
       "evolutionary": {
         "algorithms": 1,
-        "computation": 1
+        "computation": 1,
+        "biology": 1
       },
       "algorithms": {
         "(": 1,
@@ -56233,13 +56338,34 @@
       },
       "situated": {
         "on": 1
+      },
+      "ecology": {
+        "is": 1,
+        "considers": 1,
+        "overlaps": 1
+      },
+      "organisms": {
+        "and": 1,
+        "at": 1
+      },
+      "considers": {
+        "organisms": 1
+      },
+      "biosphere": {
+        "levels": 1
+      },
+      "overlaps": {
+        "with": 1
+      },
+      "sciences": {
+        "of": 1
       }
     },
     "starters": {
       "i": 56,
       "how": 4,
       "what": 6,
-      "<NOUN>": 550,
+      "<NOUN>": 553,
       "the": 210,
       "she": 14,
       "we": 17,
@@ -56323,7 +56449,7 @@
     "connectors": {
       "because": 13,
       "or": 282,
-      "and": 451,
+      "and": 454,
       "but": 47,
       "so": 19,
       "while": 5,
@@ -56357,7 +56483,7 @@
       },
       "NOUN>DET": {
         "or": 17,
-        "and": 34,
+        "and": 35,
         "but": 10,
         "if": 3,
         "though": 2,
@@ -56366,7 +56492,7 @@
         "while": 1
       },
       "NOUN>NOUN": {
-        "and": 189,
+        "and": 191,
         "or": 118,
         "as": 7,
         "yet": 2,
@@ -58086,22 +58212,12 @@
       "PRON DET NUM NOUN ADV NOUN | and | NOUN": 1,
       "ADV PRON AUX NOUN | but | NOUN DET ADJ NOUN PRON AUX DET NOUN": 1,
       "DET ADJ NOUN PREP DET PROPN AUX DET PROPN | and | PROPN": 1,
-      "PRON AUX ADJ PART VERB NOUN | but | PRON AUX NEG ADJ DET PRON AUX ADV NOUN": 1
+      "PRON AUX ADJ PART VERB NOUN | but | PRON AUX NEG ADJ DET PRON AUX ADV NOUN": 1,
+      "NOUN AUX DET ADJ NOUN WH VERB DET NOUN PREP NOUN | and | DET NOUN": 1,
+      "NOUN PREP DET NOUN | and | NOUN": 1,
+      "NOUN PREP DET NOUN PREP NOUN ADJ NOUN | and | NOUN": 1
     },
     "sentence_bank": {
-      "step": [
-        "The first step in the active listening process is that of comprehension.",
-        "Retaining is the second step in the process."
-      ],
-      "comprehension": [
-        "Comprehension is a shared meaning between parties in communication."
-      ],
-      "shared": [
-        "Comprehension is a shared meaning between parties in communication."
-      ],
-      "top-down": [
-        "This can be done through top-down or bottom-up listening strategies."
-      ],
       "retaining": [
         "Retaining is the second step in the process.",
         "Retaining information is a necessary factor to the active listening process, as it is the process of storing and recalling data."
@@ -60021,6 +60137,20 @@
       ],
       "situat": [
         "Of or situated on the inside ."
+      ],
+      "ecology": [
+        "Ecology is the natural science which studies the interactions between organisms and their environments.",
+        "Ecology considers organisms at the community, ecosystem, and biosphere levels.",
+        "Ecology overlaps with the sciences of biogeography, evolutionary biology, genetics, and ethology."
+      ],
+      "natural": [
+        "Ecology is the natural science which studies the interactions between organisms and their environments."
+      ],
+      "considers": [
+        "Ecology considers organisms at the community, ecosystem, and biosphere levels."
+      ],
+      "overlaps": [
+        "Ecology overlaps with the sciences of biogeography, evolutionary biology, genetics, and ethology."
       ]
     }
   },
@@ -60333,7 +60463,8 @@
       "revolves",
       "accused",
       "drugs",
-      "totally"
+      "totally",
+      "environments"
     ],
     "names": [],
     "lessons": 67,
