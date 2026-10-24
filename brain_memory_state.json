@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.1,
+    "adenosine": 0.16,
     "newborn": false
   },
   "episodic_memory": [
@@ -2819,6 +2819,13 @@
       "time": "2026-10-24 10:44:20",
       "speaker": "brain",
       "text": "My thoughts are swimming, so I am taking a micro-nap to consolidate what I learned. Sleep cycle #29 complete: pruned 20 noisy memories, kept 400 episodes and 138 world facts; adenosine flushed to 0.10, cortisol lowered, state saved. I feel refreshed and clear again, because sleep rebuilt my focus.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 10:46:22",
+      "speaker": "brain",
+      "text": "I wondered about 'Git' by myself and went searching. From Wikipedia (live internet) I learned: Git is a distributed version control software system that is capable of managing versions of source code or data. Key ideas I stored: distributed version control software, linux kernel, linus, torvalds.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -5989,6 +5996,18 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Multi-agent_system",
       "learned": "2026-10-24 10:44:20"
+    },
+    "Git": {
+      "summary": "Git is a distributed version control software system that is capable of managing versions of source code or data. It is often used to control source code by programmers who are developing software collaboratively. It was originally created by Linus Torvalds for version control in the development of the Linux kernel.",
+      "concepts": [
+        "distributed version control software",
+        "linux kernel",
+        "linus",
+        "torvalds"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Git",
+      "learned": "2026-10-24 10:46:22"
     }
   },
   "creator_teachings": [
@@ -7216,6 +7235,12 @@
       "kind": "nap",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 10:46:22",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -7272,7 +7297,9 @@
     "self-supervised learning",
     "evolutionary algorithm",
     "cognitive modeling",
-    "multi-agent system"
+    "multi-agent system",
+    "self-improving system",
+    "git"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -26132,17 +26159,32 @@
       "source": "corpus",
       "learned": "2026-10-24 10:44:20",
       "uses": 1
+    },
+    "managing": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Git is a distributed version control software system that is capable of managing versions of source code or data."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 10:46:22",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 755,
-      "tokens": 12613,
+      "sentences": 758,
+      "tokens": 12667,
       "sources": {
         "seed corpus": 64,
         "conversation": 12,
         "dictionary": 332,
-        "explore": 80,
+        "explore": 83,
         "pasted text": 24,
         "deep study": 243
       },
@@ -26404,7 +26446,8 @@
         "c055a55fe686",
         "fb6762c03c35",
         "1b5fa8ab3254",
-        "261d408866bf"
+        "261d408866bf",
+        "67ec85ea5e5a"
       ],
       "seeded": true,
       "rejected": 136,
@@ -26778,7 +26821,6 @@
         "basis": 1,
         "branches": 1,
         "sql": 1,
-        "managing": 1,
         "querying": 1,
         "relational": 1,
         "databases": 1,
@@ -27643,14 +27685,20 @@
         "advancements": 1,
         "emerged": 1,
         "sophisticated": 1,
-        "coordination": 1
+        "coordination": 1,
+        "git": 1,
+        "versions": 1,
+        "programmers": 1,
+        "developing": 1,
+        "collaboratively": 1,
+        "kernel": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 101,
+        "PRON": 103,
         "WH": 21,
-        "NOUN": 136,
+        "NOUN": 137,
         "DET": 241,
         "VERB": 56,
         "MODAL": 3,
@@ -27665,7 +27713,7 @@
         "NEG": 2
       },
       "PRON": {
-        "AUX": 93,
+        "AUX": 96,
         "PUNCT": 25,
         "ADV": 9,
         "VERB": 101,
@@ -27681,15 +27729,15 @@
         "ADJ": 2
       },
       "AUX": {
-        "ADJ": 107,
+        "ADJ": 108,
         "PRON": 9,
         "PUNCT": 2,
-        "DET": 135,
+        "DET": 136,
         "NOUN": 39,
         "NEG": 20,
-        "VERB": 132,
+        "VERB": 133,
         "INTJ": 1,
-        "ADV": 46,
+        "ADV": 48,
         "CONJ": 6,
         "NUM": 10,
         "PROPN": 2,
@@ -27700,10 +27748,10 @@
       },
       "ADJ": {
         "PART": 15,
-        "NOUN": 705,
+        "NOUN": 707,
         "WH": 2,
         "PUNCT": 101,
-        "PREP": 73,
+        "PREP": 74,
         "CONJ": 38,
         "PROPN": 17,
         "ADJ": 68,
@@ -27713,7 +27761,7 @@
         "MODAL": 6,
         "</S>": 2,
         "NUM": 2,
-        "ADV": 2,
+        "ADV": 3,
         "PRON": 1
       },
       "PART": {
@@ -27727,9 +27775,9 @@
         "PUNCT": 4
       },
       "VERB": {
-        "PREP": 225,
+        "PREP": 227,
         "PART": 58,
-        "ADJ": 42,
+        "ADJ": 43,
         "NOUN": 191,
         "PUNCT": 118,
         "PRON": 46,
@@ -27747,13 +27795,13 @@
       },
       "PREP": {
         "PRON": 28,
-        "NOUN": 432,
-        "DET": 477,
+        "NOUN": 437,
+        "DET": 479,
         "PUNCT": 27,
         "VERB": 28,
         "PREP": 15,
         "ADJ": 150,
-        "PROPN": 70,
+        "PROPN": 71,
         "AUX": 10,
         "NUM": 23,
         "WH": 13,
@@ -27763,7 +27811,7 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 702,
+        "</S>": 705,
         "NOUN": 229,
         "CONJ": 146,
         "PRON": 17,
@@ -27782,7 +27830,7 @@
         "INTJ": 2
       },
       "WH": {
-        "AUX": 22,
+        "AUX": 23,
         "DET": 28,
         "PRON": 9,
         "NOUN": 30,
@@ -27794,12 +27842,12 @@
         "NUM": 1
       },
       "ADV": {
-        "PUNCT": 22,
+        "PUNCT": 23,
         "ADJ": 14,
         "NOUN": 29,
         "CONJ": 6,
         "DET": 9,
-        "VERB": 80,
+        "VERB": 82,
         "</S>": 1,
         "PRON": 1,
         "MODAL": 1,
@@ -27811,34 +27859,34 @@
         "NUM": 2
       },
       "NOUN": {
-        "AUX": 243,
-        "PREP": 750,
-        "NOUN": 650,
-        "PUNCT": 963,
-        "CONJ": 293,
+        "AUX": 244,
+        "PREP": 754,
+        "NOUN": 656,
+        "PUNCT": 965,
+        "CONJ": 294,
         "VERB": 231,
         "ADV": 44,
         "PART": 99,
-        "ADJ": 101,
+        "ADJ": 102,
         "MODAL": 43,
         "</S>": 40,
-        "PRON": 45,
-        "WH": 27,
+        "PRON": 46,
+        "WH": 28,
         "DET": 150,
         "PROPN": 46,
         "NUM": 9,
         "NEG": 4
       },
       "DET": {
-        "NOUN": 862,
-        "ADJ": 392,
+        "NOUN": 863,
+        "ADJ": 393,
         "PRON": 10,
         "PREP": 22,
         "NUM": 17,
         "PART": 5,
         "VERB": 17,
         "CONJ": 27,
-        "PROPN": 56,
+        "PROPN": 57,
         "DET": 35,
         "ADV": 9,
         "PUNCT": 16,
@@ -27848,7 +27896,7 @@
       "CONJ": {
         "PRON": 36,
         "DET": 108,
-        "NOUN": 262,
+        "NOUN": 263,
         "VERB": 48,
         "ADJ": 75,
         "ADV": 17,
@@ -27895,11 +27943,11 @@
         "DET": 2,
         "PUNCT": 91,
         "PART": 4,
-        "NOUN": 91,
+        "NOUN": 92,
         "AUX": 14,
-        "PROPN": 62,
+        "PROPN": 63,
         "ADJ": 16,
-        "PREP": 16,
+        "PREP": 17,
         "CONJ": 17,
         "VERB": 9,
         "NUM": 1,
@@ -27921,7 +27969,7 @@
     },
     "pos_trigrams": {
       "<S>|PRON": {
-        "AUX": 45,
+        "AUX": 47,
         "VERB": 35,
         "MODAL": 14,
         "ADV": 2,
@@ -27931,12 +27979,12 @@
         "PREP": 1
       },
       "PRON|AUX": {
-        "ADJ": 24,
+        "ADJ": 25,
         "DET": 13,
         "NEG": 7,
         "VERB": 27,
         "INTJ": 1,
-        "ADV": 10,
+        "ADV": 12,
         "PUNCT": 1,
         "NUM": 1,
         "NOUN": 2,
@@ -27949,7 +27997,7 @@
         "PART": 10,
         "WH": 2,
         "PUNCT": 33,
-        "PREP": 16,
+        "PREP": 17,
         "DET": 6,
         "NOUN": 18,
         "CONJ": 5,
@@ -27981,13 +28029,13 @@
       "VERB|PREP": {
         "PRON": 9,
         "DET": 91,
-        "NOUN": 60,
+        "NOUN": 61,
         "PUNCT": 7,
         "VERB": 3,
         "ADJ": 24,
         "PREP": 7,
         "NUM": 4,
-        "PROPN": 16,
+        "PROPN": 17,
         "CONJ": 2,
         "AUX": 1,
         "WH": 1
@@ -28017,7 +28065,7 @@
         "PRON": 7,
         "DET": 4,
         "NOUN": 1,
-        "VERB": 6,
+        "VERB": 7,
         "PROPN": 1,
         "NEG": 2,
         "ADV": 1
@@ -28035,7 +28083,7 @@
         "NOUN": 1
       },
       "ADV|PUNCT": {
-        "</S>": 9,
+        "</S>": 10,
         "ADV": 2,
         "DET": 4,
         "CONJ": 3,
@@ -28081,7 +28129,7 @@
         "DET": 1
       },
       "<S>|NOUN": {
-        "AUX": 40,
+        "AUX": 41,
         "VERB": 18,
         "PUNCT": 8,
         "NOUN": 29,
@@ -28096,7 +28144,7 @@
         "MODAL": 1
       },
       "NOUN|AUX": {
-        "DET": 76,
+        "DET": 77,
         "ADJ": 46,
         "NOUN": 22,
         "ADV": 28,
@@ -28111,7 +28159,7 @@
       },
       "AUX|DET": {
         "NOUN": 71,
-        "ADJ": 44,
+        "ADJ": 45,
         "PROPN": 4,
         "VERB": 2,
         "PREP": 4,
@@ -28121,7 +28169,7 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 284,
+        "PREP": 285,
         "AUX": 70,
         "CONJ": 63,
         "PUNCT": 181,
@@ -28138,8 +28186,8 @@
         "WH": 3
       },
       "NOUN|PREP": {
-        "NOUN": 259,
-        "DET": 269,
+        "NOUN": 261,
+        "DET": 271,
         "PREP": 5,
         "ADJ": 102,
         "PROPN": 33,
@@ -28153,7 +28201,7 @@
         "CONJ": 4
       },
       "PREP|NOUN": {
-        "NOUN": 61,
+        "NOUN": 65,
         "PUNCT": 118,
         "VERB": 27,
         "CONJ": 50,
@@ -28163,7 +28211,7 @@
         "PREP": 54,
         "PRON": 11,
         "</S>": 33,
-        "WH": 5,
+        "WH": 6,
         "PART": 20,
         "PROPN": 3,
         "NUM": 3,
@@ -28173,14 +28221,14 @@
       "NOUN|NOUN": {
         "PUNCT": 168,
         "PART": 12,
-        "NOUN": 141,
-        "PREP": 113,
-        "CONJ": 51,
+        "NOUN": 142,
+        "PREP": 116,
+        "CONJ": 52,
         "VERB": 43,
         "PROPN": 14,
         "AUX": 33,
         "MODAL": 12,
-        "ADJ": 25,
+        "ADJ": 26,
         "NUM": 4,
         "ADV": 9,
         "DET": 14,
@@ -28190,7 +28238,7 @@
         "</S>": 1
       },
       "NOUN|PUNCT": {
-        "</S>": 478,
+        "</S>": 480,
         "NOUN": 166,
         "CONJ": 102,
         "ADV": 22,
@@ -28219,7 +28267,7 @@
         "WH": 1
       },
       "DET|ADJ": {
-        "NOUN": 316,
+        "NOUN": 317,
         "CONJ": 10,
         "ADJ": 18,
         "PUNCT": 12,
@@ -28235,7 +28283,7 @@
       },
       "ADJ|NOUN": {
         "PUNCT": 200,
-        "NOUN": 132,
+        "NOUN": 133,
         "MODAL": 7,
         "VERB": 40,
         "PREP": 152,
@@ -28247,7 +28295,7 @@
         "WH": 5,
         "PROPN": 1,
         "ADV": 8,
-        "PRON": 3,
+        "PRON": 4,
         "</S>": 3
       },
       "VERB|ADJ": {
@@ -28257,14 +28305,15 @@
         "VERB": 3,
         "ADJ": 2,
         "AUX": 1,
-        "PREP": 1
+        "PREP": 1,
+        "ADV": 1
       },
       "PREP|DET": {
-        "NOUN": 292,
+        "NOUN": 293,
         "ADJ": 122,
         "NUM": 8,
         "PREP": 6,
-        "PROPN": 27,
+        "PROPN": 28,
         "DET": 9,
         "VERB": 7,
         "PUNCT": 4,
@@ -28275,7 +28324,7 @@
         "PRON": 6,
         "DET": 50,
         "VERB": 15,
-        "NOUN": 144,
+        "NOUN": 145,
         "ADJ": 33,
         "WH": 4,
         "PREP": 7,
@@ -28489,7 +28538,7 @@
       },
       "CONJ|NOUN": {
         "AUX": 8,
-        "PUNCT": 66,
+        "PUNCT": 67,
         "</S>": 1,
         "PREP": 51,
         "VERB": 12,
@@ -28561,7 +28610,7 @@
         "NOUN": 9,
         "DET": 12,
         "CONJ": 10,
-        "ADJ": 2,
+        "ADJ": 3,
         "ADV": 1
       },
       "CONJ|VERB": {
@@ -28640,7 +28689,7 @@
       },
       "NOUN|ADJ": {
         "PUNCT": 11,
-        "NOUN": 58,
+        "NOUN": 59,
         "DET": 3,
         "PREP": 10,
         "ADJ": 6,
@@ -28649,7 +28698,7 @@
         "VERB": 5
       },
       "ADJ|PREP": {
-        "NOUN": 36,
+        "NOUN": 37,
         "DET": 23,
         "VERB": 3,
         "ADJ": 7,
@@ -28747,7 +28796,7 @@
       "AUX|ADV": {
         "ADJ": 6,
         "NOUN": 4,
-        "VERB": 23,
+        "VERB": 25,
         "ADV": 4,
         "PREP": 4,
         "DET": 4,
@@ -28867,7 +28916,7 @@
         "PART": 6,
         "NOUN": 13,
         "CONJ": 12,
-        "PREP": 21,
+        "PREP": 23,
         "WH": 1,
         "PUNCT": 2,
         "ADJ": 1,
@@ -28933,7 +28982,7 @@
       },
       "NOUN|PRON": {
         "VERB": 12,
-        "AUX": 14,
+        "AUX": 15,
         "PREP": 6,
         "MODAL": 8,
         "PRON": 1,
@@ -28944,7 +28993,7 @@
       "PREP|PROPN": {
         "PUNCT": 21,
         "AUX": 2,
-        "PROPN": 15,
+        "PROPN": 16,
         "NOUN": 15,
         "PREP": 6,
         "VERB": 2,
@@ -29020,7 +29069,7 @@
         "NOUN": 9,
         "VERB": 3,
         "DET": 7,
-        "AUX": 5,
+        "AUX": 6,
         "PRON": 2,
         "ADJ": 1
       },
@@ -29095,7 +29144,7 @@
       "PROPN|NOUN": {
         "CONJ": 5,
         "AUX": 14,
-        "PUNCT": 32,
+        "PUNCT": 33,
         "NOUN": 20,
         "DET": 3,
         "MODAL": 1,
@@ -29253,7 +29302,7 @@
       },
       "DET|PROPN": {
         "PROPN": 9,
-        "NOUN": 27,
+        "NOUN": 28,
         "ADJ": 12,
         "AUX": 3,
         "PUNCT": 2,
@@ -29265,7 +29314,7 @@
         "PUNCT": 32,
         "NOUN": 8,
         "PROPN": 9,
-        "PREP": 3,
+        "PREP": 4,
         "CONJ": 3,
         "VERB": 4,
         "AUX": 1,
@@ -29342,7 +29391,7 @@
         "NEG": 1
       },
       "PROPN|PREP": {
-        "NOUN": 4,
+        "NOUN": 5,
         "PROPN": 3,
         "DET": 5,
         "ADJ": 2,
@@ -29581,7 +29630,7 @@
       },
       "ADJ|ADV": {
         "VERB": 1,
-        "PUNCT": 1
+        "PUNCT": 2
       },
       "ADV|NUM": {
         "NOUN": 1,
@@ -29666,7 +29715,8 @@
         "separate": 3,
         "read": 2,
         "study": 2,
-        "update": 2
+        "update": 2,
+        "control": 1
       },
       "talk": {
         "with": 1,
@@ -29708,24 +29758,14 @@
       "are": {
         "used": 6,
         "conjunctions": 5,
-        "you": 2,
         "very": 3,
+        "you": 2,
         "artificial": 2,
         "not": 2,
         "often": 2,
         "most": 2,
         "words": 2,
-        "usually": 2,
-        "also": 1,
-        "designed": 1,
-        "known": 1,
-        "metaheuristics": 1,
-        "part": 1,
-        "reproduction": 1,
-        "many": 1,
-        "plural": 1,
-        "science": 1,
-        "difficult": 1
+        "usually": 2
       },
       "you": {
         "ask": 2,
@@ -29806,7 +29846,7 @@
         "models": 1
       },
       "is": {
-        "a": 52,
+        "a": 53,
         "the": 21,
         "an": 11,
         "important": 3,
@@ -29819,7 +29859,9 @@
         "children": 1,
         "more": 1,
         "being": 1,
-        "illustrated": 2
+        "illustrated": 2,
+        "capable": 1,
+        "often": 1
       },
       "a": {
         "conjunction": 8,
@@ -29839,7 +29881,8 @@
         "multi-agent": 1,
         "computational": 1,
         "monolithic": 1,
-        "new": 1
+        "new": 1,
+        "distributed": 1
       },
       "tool": {
         "for": 1
@@ -29855,7 +29898,8 @@
         "your": 1,
         "help": 1,
         "better": 1,
-        "an": 1
+        "an": 1,
+        "version": 1
       },
       "sharing": {
         "ideas": 1
@@ -29863,7 +29907,7 @@
       "the": {
         "blackboard": 9,
         "order": 9,
-        "development": 6,
+        "development": 7,
         "structure": 5,
         "lesson": 4,
         "film": 4,
@@ -29873,7 +29917,8 @@
         "garden": 2,
         "overall": 1,
         "head": 1,
-        "phrase": 1
+        "phrase": 1,
+        "linux": 1
       },
       "brain": {
         "is": 1,
@@ -30020,11 +30065,12 @@
         "\"": 1,
         "impossible": 1,
         "a": 1,
-        "reinforcement": 1
+        "reinforcement": 1,
+        "data": 1
       },
       "it": {
-        "is": 19,
-        "was": 5,
+        "is": 20,
+        "was": 6,
         "has": 3,
         "some": 1,
         "from": 1,
@@ -30257,7 +30303,7 @@
         "about": 1
       },
       "that": {
-        "is": 6,
+        "is": 7,
         "can": 4,
         "description": 3,
         "quantifies": 2,
@@ -30394,7 +30440,7 @@
         "in": 1
       },
       "in": {
-        "the": 49,
+        "the": 50,
         "a": 29,
         "english": 11,
         "many": 7,
@@ -30426,7 +30472,7 @@
         "limited": 1,
         "somewhat": 1,
         "founded": 1,
-        "originally": 2,
+        "originally": 3,
         "initiated": 1,
         "made": 1,
         "n't": 1,
@@ -30532,7 +30578,7 @@
         "detail": 1
       },
       "of": {
-        "the": 59,
+        "the": 60,
         "a": 22,
         "speech": 8,
         "or": 6,
@@ -30541,7 +30587,9 @@
         "criteria": 3,
         "knowledge": 3,
         "other": 3,
-        "learn": 2
+        "learn": 2,
+        "managing": 1,
+        "source": 1
       },
       "reading": {
         "is": 1,
@@ -30690,7 +30738,7 @@
         "made": 1,
         "cite": 1,
         "poses": 1,
-        "are": 1,
+        "are": 2,
         "has": 1,
         "could": 1,
         "heads": 1
@@ -31293,7 +31341,9 @@
         "dissolving": 1,
         "\"": 1,
         "allen": 1,
-        "a": 1
+        "a": 1,
+        "programmers": 1,
+        "linus": 1
       },
       "thermodynamic": {
         "efficiency": 2,
@@ -31639,7 +31689,8 @@
         "computing": 2,
         "ledger": 2,
         "over": 1,
-        "according": 1
+        "according": 1,
+        "version": 1
       },
       "computing": {
         "architectures": 1,
@@ -31683,7 +31734,7 @@
       },
       "used": {
         "in": 8,
-        "to": 10,
+        "to": 11,
         "for": 5,
         "syringes": 1,
         "car": 1,
@@ -32161,7 +32212,7 @@
         "are": 2
       },
       "often": {
-        "used": 3,
+        "used": 4,
         "relying": 3,
         "use": 2,
         "function": 1,
@@ -32646,7 +32697,7 @@
         "tools": 1
       },
       "development": {
-        "of": 6,
+        "of": 7,
         "is": 1
       },
       "conversational": {
@@ -33117,7 +33168,8 @@
         "(": 1,
         "\"": 1,
         "composed": 1,
-        "to": 1
+        "to": 1,
+        "that": 1
       },
       "iteratively": {
         "designs": 2
@@ -33127,7 +33179,8 @@
       },
       "capable": {
         "successor": 2,
-        "and": 1
+        "and": 1,
+        "of": 1
       },
       "trigger": {
         "an": 1
@@ -33284,7 +33337,8 @@
         "metabolic": 1
       },
       "source": {
-        "updates": 3
+        "updates": 3,
+        "code": 2
       },
       "updates": {
         "the": 3
@@ -33320,7 +33374,8 @@
       },
       "originally": {
         "designed": 3,
-        "called": 2
+        "called": 2,
+        "created": 1
       },
       "designed": {
         "as": 3,
@@ -33413,7 +33468,10 @@
         "sugar": 1
       },
       "control": {
-        "over": 1
+        "over": 1,
+        "software": 1,
+        "source": 1,
+        "in": 1
       },
       "over": {
         "some": 1,
@@ -34231,7 +34289,9 @@
         "ecosystems": 1,
         "design": 1,
         "instantiation": 1,
-        "programs": 1
+        "programs": 1,
+        "system": 1,
+        "collaboratively": 1
       },
       "rust": {
         "advances": 1
@@ -34760,7 +34820,8 @@
         "music": 1
       },
       "version": {
-        "of": 2
+        "of": 2,
+        "control": 2
       },
       "parametric": {
         "polymorphism": 1
@@ -34779,7 +34840,9 @@
         "to": 1,
         "a": 1,
         "that": 1,
-        "for": 2
+        "for": 2,
+        "or": 1,
+        "by": 1
       },
       "generic": {
         "\"": 1,
@@ -34852,7 +34915,8 @@
         "language": 1
       },
       "managing": {
-        "and": 1
+        "and": 1,
+        "versions": 1
       },
       "querying": {
         "data": 1
@@ -39071,17 +39135,41 @@
       },
       "coordination": {
         "among": 1
+      },
+      "git": {
+        "is": 1
+      },
+      "versions": {
+        "of": 1
+      },
+      "programmers": {
+        "who": 1
+      },
+      "developing": {
+        "software": 1
+      },
+      "created": {
+        "by": 1
+      },
+      "linus": {
+        "torvalds": 1
+      },
+      "torvalds": {
+        "for": 1
+      },
+      "linux": {
+        "kernel": 1
       }
     },
     "starters": {
       "i": 33,
       "how": 3,
       "what": 6,
-      "<NOUN>": 136,
+      "<NOUN>": 137,
       "the": 116,
       "she": 4,
       "we": 10,
-      "it": 24,
+      "it": 26,
       "<VERB>": 56,
       "can": 1,
       "my": 5,
@@ -39146,7 +39234,7 @@
     },
     "connectors": {
       "because": 8,
-      "or": 159,
+      "or": 160,
       "and": 290,
       "but": 28,
       "so": 8,
@@ -39187,7 +39275,7 @@
       },
       "NOUN>NOUN": {
         "and": 116,
-        "or": 64,
+        "or": 65,
         "as": 4,
         "yet": 1,
         "so": 1,
@@ -40251,14 +40339,6 @@
       "ADJ NOUN MODAL AUX VERB PREP NOUN | and | NOUN": 1
     },
     "sentence_bank": {
-      "language": [
-        "When language change involves a shift in a language's syntax, this is called syntactic change .",
-        "SQL, or Structured Query Language, is a language for managing and querying data in relational databases.",
-        "A Comprehensive Grammar of the English Language has eight criteria."
-      ],
-      "tool": [
-        "Language is a tool for sharing ideas."
-      ],
       "brain": [
         "The brain is a complex organ."
       ],
@@ -40645,9 +40725,9 @@
         "Commas are often used to separate clauses ."
       ],
       "used": [
-        "When used in conjunction with a knife to cut and consume food in Western social settings, two forms of fork etiquette are common.",
         "Methods used can be supervised, semi-supervised or unsupervised.",
-        "What something does or is used for."
+        "What something does or is used for.",
+        "It is often used to control source code by programmers who are developing software collaboratively."
       ],
       "conjunction": [
         "A conjunction itself was then called a connective .",
@@ -40853,10 +40933,12 @@
         "Swift and Kotlin provide modern, concise, null-safe syntax for iOS and Android native mobile development, replacing Objective-C and legacy Java patterns."
       ],
       "control": [
-        "Control over some DApps is distributed over holders of tokens that represent ownership over a DApps governance."
+        "Control over some DApps is distributed over holders of tokens that represent ownership over a DApps governance.",
+        "It is often used to control source code by programmers who are developing software collaboratively."
       ],
       "distributed": [
-        "Control over some DApps is distributed over holders of tokens that represent ownership over a DApps governance."
+        "Control over some DApps is distributed over holders of tokens that represent ownership over a DApps governance.",
+        "Git is a distributed version control software system that is capable of managing versions of source code or data."
       ],
       "entity": [
         "Without any one entity controlling the system, the application is therefore decentralised."
@@ -42267,6 +42349,13 @@
       ],
       "systems": [
         "Multi-agent systems can solve problems that are difficult or impossible for an individual agent or a monolithic system to solve."
+      ],
+      "version": [
+        "Git is a distributed version control software system that is capable of managing versions of source code or data.",
+        "It was originally created by Linus Torvalds for version control in the development of the Linux kernel."
+      ],
+      "creat": [
+        "It was originally created by Linus Torvalds for version control in the development of the Linux kernel."
       ]
     }
   },
@@ -42585,7 +42674,6 @@
     "taught": 0,
     "last_lesson": "2026-10-24 10:42:26",
     "pending_concepts": [
-      "self-improving system",
       "transformer",
       "localized synaptic plasticity",
       "non-linear thermodynamics dictate",
