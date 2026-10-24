@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.33,
+    "adenosine": 0.39,
     "newborn": false
   },
   "episodic_memory": [
@@ -2854,6 +2854,13 @@
       "time": "2026-10-24 14:18:31",
       "speaker": "brain",
       "text": "I wondered about 'Music technology (electronic and digital)' by myself and went searching. From Wikipedia (live internet) I learned: Digital music technology encompasses the use of digital instruments to produce, perform or record music. Key ideas I stored: digital music technology encompasses, electronic.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 14:20:29",
+      "speaker": "brain",
+      "text": "I wondered about 'Optics' by myself and went searching. From Wikipedia (live internet) I learned: Optics is the branch of physics that studies the behaviour, manipulation, and detection of electromagnetic radiation, including its interactions with matter and instruments that use or detect it. Key ideas I stored: electromagnetic radiation, term optics, x-rays, manipulation, microwaves.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6307,6 +6314,20 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Music_technology_(electronic_and_digital)",
       "learned": "2026-10-24 14:18:31"
+    },
+    "Optics": {
+      "summary": "Optics is the branch of physics that studies the behaviour, manipulation, and detection of electromagnetic radiation, including its interactions with matter and instruments that use or detect it. Optics usually describes the behaviour of visible, ultraviolet, and infrared light. The study of optics extends to other forms of electromagnetic radiation, including radio waves, microwaves, \nand X-rays. The term optics is also applied to technology for manipulating beams of elementary charged particles.",
+      "concepts": [
+        "electromagnetic radiation",
+        "term optics",
+        "x-rays",
+        "manipulation",
+        "microwaves",
+        "technology"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Optics",
+      "learned": "2026-10-24 14:20:29"
     }
   },
   "creator_teachings": [
@@ -7930,6 +7951,12 @@
       "kind": "explore_report",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 14:20:29",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -8011,7 +8038,8 @@
     "language",
     "formal predicate calculus",
     "automated resolution theorem",
-    "synthesize digital electronic circuits"
+    "synthesize digital electronic circuits",
+    "optics"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -35391,22 +35419,105 @@
       "source": "corpus",
       "learned": "2026-10-24 14:18:31",
       "uses": 1
+    },
+    "optics": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:20:29",
+      "uses": 1
+    },
+    "behaviour": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:20:29",
+      "uses": 1
+    },
+    "radiation": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:20:29",
+      "uses": 1
+    },
+    "electromagnetic": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The study of optics extends to other forms of electromagnetic radiation, including radio waves, microwaves, and X-rays."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:20:29",
+      "uses": 1
+    },
+    "radio": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The study of optics extends to other forms of electromagnetic radiation, including radio waves, microwaves, and X-rays."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:20:29",
+      "uses": 1
+    },
+    "manipulating": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The term optics is also applied to technology for manipulating beams of elementary charged particles."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:20:29",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 1170,
-      "tokens": 18836,
+      "sentences": 1174,
+      "tokens": 18919,
       "sources": {
         "seed corpus": 64,
         "conversation": 16,
         "dictionary": 676,
-        "explore": 147,
+        "explore": 151,
         "pasted text": 24,
         "deep study": 243
       },
       "hashes": [
-        "75ef8848602a",
         "eaa0c707d78a",
         "25d76c61cb88",
         "838147767d82",
@@ -35705,7 +35816,8 @@
         "91207030e0c8",
         "df02f41f2e53",
         "15a5dfe3fce4",
-        "f26d702594bb"
+        "f26d702594bb",
+        "dc4a81502dea"
       ],
       "seeded": true,
       "rejected": 215,
@@ -36217,7 +36329,6 @@
         "beginners": 1,
         "mistakes": 1,
         "tweezers": 1,
-        "manipulating": 1,
         "plumber": 1,
         "ends": 1,
         "broken": 1,
@@ -36310,7 +36421,6 @@
         "aware": 1,
         "medications": 1,
         "bunch": 1,
-        "behaviour": 1,
         "soon": 1,
         "lil": 1,
         "soccer": 1,
@@ -36385,7 +36495,6 @@
         "spreads": 1,
         "concentrated": 1,
         "conduction": 1,
-        "radiation": 1,
         "temperature": 1,
         "isolated": 1,
         "directed": 1,
@@ -36759,7 +36868,6 @@
         "designing": 1,
         "scheduling": 1,
         "planning": 1,
-        "radio": 1,
         "television": 1,
         "programme": 1,
         "postulates": 1,
@@ -37077,7 +37185,6 @@
         "mechanics": 1,
         "seminal": 1,
         "contributions": 1,
-        "optics": 1,
         "shares": 1,
         "credit": 1,
         "formulating": 1,
@@ -37279,15 +37386,26 @@
         "composition": 1,
         "mixing": 1,
         "editing": 1,
-        "professions": 1
+        "professions": 1,
+        "manipulation": 1,
+        "detect": 1,
+        "ultraviolet": 1,
+        "infrared": 1,
+        "extends": 1,
+        "waves": 1,
+        "microwaves": 1,
+        "applied": 1,
+        "beams": 1,
+        "elementary": 1,
+        "charged": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
         "PRON": 181,
         "WH": 22,
-        "NOUN": 219,
-        "DET": 378,
+        "NOUN": 221,
+        "DET": 380,
         "VERB": 87,
         "MODAL": 4,
         "ADJ": 91,
@@ -37302,9 +37420,9 @@
       },
       "PRON": {
         "AUX": 156,
-        "PUNCT": 42,
+        "PUNCT": 43,
         "ADV": 13,
-        "VERB": 173,
+        "VERB": 175,
         "MODAL": 67,
         "PREP": 25,
         "WH": 2,
@@ -37320,12 +37438,12 @@
         "ADJ": 174,
         "PRON": 11,
         "PUNCT": 6,
-        "DET": 205,
+        "DET": 206,
         "NOUN": 51,
         "NEG": 30,
         "VERB": 204,
         "INTJ": 1,
-        "ADV": 67,
+        "ADV": 68,
         "CONJ": 8,
         "NUM": 13,
         "PROPN": 4,
@@ -37336,16 +37454,16 @@
       },
       "ADJ": {
         "PART": 28,
-        "NOUN": 997,
+        "NOUN": 1000,
         "WH": 2,
-        "PUNCT": 177,
+        "PUNCT": 178,
         "PREP": 110,
         "CONJ": 57,
         "PROPN": 21,
         "ADJ": 88,
         "DET": 23,
         "AUX": 20,
-        "VERB": 47,
+        "VERB": 48,
         "MODAL": 8,
         "</S>": 5,
         "NUM": 3,
@@ -37363,16 +37481,16 @@
         "PUNCT": 7
       },
       "VERB": {
-        "PREP": 348,
+        "PREP": 350,
         "PART": 84,
         "ADJ": 65,
-        "NOUN": 300,
+        "NOUN": 302,
         "PUNCT": 166,
         "PRON": 71,
         "AUX": 23,
-        "DET": 275,
+        "DET": 277,
         "VERB": 37,
-        "CONJ": 114,
+        "CONJ": 115,
         "WH": 18,
         "</S>": 10,
         "ADV": 30,
@@ -37383,12 +37501,12 @@
       },
       "PREP": {
         "PRON": 45,
-        "NOUN": 665,
-        "DET": 716,
+        "NOUN": 671,
+        "DET": 718,
         "PUNCT": 38,
         "VERB": 53,
         "PREP": 20,
-        "ADJ": 213,
+        "ADJ": 217,
         "PROPN": 88,
         "AUX": 16,
         "NUM": 36,
@@ -37399,13 +37517,13 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 1063,
-        "NOUN": 362,
-        "CONJ": 211,
+        "</S>": 1067,
+        "NOUN": 365,
+        "CONJ": 214,
         "PRON": 26,
         "VERB": 56,
         "ADV": 40,
-        "PREP": 36,
+        "PREP": 38,
         "ADJ": 64,
         "DET": 112,
         "WH": 30,
@@ -37435,7 +37553,7 @@
         "NOUN": 45,
         "CONJ": 9,
         "DET": 17,
-        "VERB": 118,
+        "VERB": 120,
         "</S>": 2,
         "PRON": 3,
         "MODAL": 1,
@@ -37447,18 +37565,18 @@
         "NUM": 3
       },
       "NOUN": {
-        "AUX": 373,
-        "PREP": 1133,
-        "NOUN": 967,
-        "PUNCT": 1433,
-        "CONJ": 441,
-        "VERB": 322,
-        "ADV": 61,
+        "AUX": 375,
+        "PREP": 1141,
+        "NOUN": 969,
+        "PUNCT": 1442,
+        "CONJ": 442,
+        "VERB": 323,
+        "ADV": 62,
         "PART": 154,
         "ADJ": 156,
         "MODAL": 54,
         "</S>": 86,
-        "PRON": 79,
+        "PRON": 82,
         "WH": 39,
         "DET": 223,
         "PROPN": 65,
@@ -37466,8 +37584,8 @@
         "NEG": 6
       },
       "DET": {
-        "NOUN": 1318,
-        "ADJ": 569,
+        "NOUN": 1324,
+        "ADJ": 570,
         "PRON": 16,
         "PREP": 32,
         "NUM": 32,
@@ -37485,8 +37603,8 @@
       "CONJ": {
         "PRON": 57,
         "DET": 144,
-        "NOUN": 406,
-        "VERB": 74,
+        "NOUN": 409,
+        "VERB": 75,
         "ADJ": 99,
         "ADV": 30,
         "PUNCT": 15,
@@ -37495,7 +37613,7 @@
         "CONJ": 16,
         "NUM": 7,
         "AUX": 24,
-        "PROPN": 40,
+        "PROPN": 41,
         "MODAL": 8,
         "NEG": 6,
         "PART": 5
@@ -37531,7 +37649,7 @@
       },
       "PROPN": {
         "DET": 4,
-        "PUNCT": 115,
+        "PUNCT": 116,
         "PART": 6,
         "NOUN": 117,
         "AUX": 21,
@@ -37627,8 +37745,8 @@
       },
       "VERB|PREP": {
         "PRON": 13,
-        "DET": 140,
-        "NOUN": 90,
+        "DET": 141,
+        "NOUN": 91,
         "PUNCT": 14,
         "VERB": 8,
         "ADJ": 36,
@@ -37651,7 +37769,7 @@
         "PART": 3
       },
       "PRON|PUNCT": {
-        "</S>": 29,
+        "</S>": 30,
         "NOUN": 4,
         "ADV": 2,
         "PUNCT": 1,
@@ -37702,10 +37820,10 @@
         "NOUN": 26,
         "PRON": 16,
         "PUNCT": 14,
-        "DET": 39,
+        "DET": 40,
         "VERB": 9,
         "ADJ": 10,
-        "CONJ": 10,
+        "CONJ": 11,
         "</S>": 1,
         "AUX": 1,
         "NEG": 2,
@@ -37738,7 +37856,7 @@
         "DET": 1
       },
       "<S>|NOUN": {
-        "AUX": 59,
+        "AUX": 60,
         "VERB": 30,
         "PUNCT": 10,
         "NOUN": 42,
@@ -37748,15 +37866,15 @@
         "ADJ": 5,
         "PART": 4,
         "WH": 3,
-        "ADV": 4,
+        "ADV": 5,
         "DET": 7,
         "MODAL": 2
       },
       "NOUN|AUX": {
-        "DET": 117,
+        "DET": 118,
         "ADJ": 76,
         "NOUN": 27,
-        "ADV": 42,
+        "ADV": 43,
         "VERB": 67,
         "CONJ": 5,
         "NUM": 7,
@@ -37768,7 +37886,7 @@
         "PART": 1
       },
       "AUX|DET": {
-        "NOUN": 106,
+        "NOUN": 107,
         "ADJ": 75,
         "PROPN": 4,
         "VERB": 4,
@@ -37779,10 +37897,10 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 408,
+        "PREP": 413,
         "AUX": 106,
         "CONJ": 100,
-        "PUNCT": 276,
+        "PUNCT": 277,
         "VERB": 94,
         "ADV": 17,
         "ADJ": 41,
@@ -37796,10 +37914,10 @@
         "WH": 8
       },
       "NOUN|PREP": {
-        "NOUN": 419,
+        "NOUN": 423,
         "DET": 406,
         "PREP": 8,
-        "ADJ": 141,
+        "ADJ": 145,
         "PROPN": 39,
         "VERB": 36,
         "PUNCT": 14,
@@ -37811,15 +37929,15 @@
         "CONJ": 4
       },
       "PREP|NOUN": {
-        "NOUN": 104,
+        "NOUN": 106,
         "PUNCT": 178,
-        "VERB": 32,
-        "CONJ": 73,
+        "VERB": 33,
+        "CONJ": 74,
         "ADJ": 18,
         "DET": 34,
         "AUX": 17,
-        "PREP": 73,
-        "PRON": 15,
+        "PREP": 74,
+        "PRON": 16,
         "</S>": 78,
         "WH": 6,
         "PART": 24,
@@ -37829,10 +37947,10 @@
         "ADV": 3
       },
       "NOUN|NOUN": {
-        "PUNCT": 258,
+        "PUNCT": 259,
         "PART": 21,
         "NOUN": 193,
-        "PREP": 174,
+        "PREP": 175,
         "CONJ": 77,
         "VERB": 54,
         "PROPN": 24,
@@ -37848,11 +37966,11 @@
         "</S>": 2
       },
       "NOUN|PUNCT": {
-        "</S>": 737,
-        "NOUN": 264,
-        "CONJ": 142,
+        "</S>": 739,
+        "NOUN": 266,
+        "CONJ": 145,
         "ADV": 31,
-        "PREP": 27,
+        "PREP": 29,
         "ADJ": 43,
         "DET": 73,
         "VERB": 42,
@@ -37867,8 +37985,8 @@
         "INTJ": 1
       },
       "<S>|DET": {
-        "NOUN": 244,
-        "ADJ": 91,
+        "NOUN": 245,
+        "ADJ": 92,
         "PROPN": 18,
         "VERB": 3,
         "PREP": 4,
@@ -37879,7 +37997,7 @@
         "PRON": 1
       },
       "DET|ADJ": {
-        "NOUN": 452,
+        "NOUN": 453,
         "CONJ": 18,
         "ADJ": 27,
         "PUNCT": 22,
@@ -37894,7 +38012,7 @@
         "PRON": 1
       },
       "ADJ|NOUN": {
-        "PUNCT": 281,
+        "PUNCT": 283,
         "NOUN": 183,
         "MODAL": 10,
         "VERB": 51,
@@ -37902,7 +38020,7 @@
         "CONJ": 79,
         "DET": 36,
         "ADJ": 16,
-        "AUX": 59,
+        "AUX": 60,
         "PART": 34,
         "WH": 6,
         "PROPN": 2,
@@ -37923,7 +38041,7 @@
         "MODAL": 1
       },
       "PREP|DET": {
-        "NOUN": 444,
+        "NOUN": 446,
         "ADJ": 178,
         "NUM": 16,
         "PREP": 11,
@@ -37940,7 +38058,7 @@
         "PRON": 11,
         "DET": 62,
         "VERB": 25,
-        "NOUN": 233,
+        "NOUN": 234,
         "ADJ": 41,
         "WH": 4,
         "PREP": 11,
@@ -37962,7 +38080,7 @@
         "PREP": 1
       },
       "VERB|NOUN": {
-        "PUNCT": 78,
+        "PUNCT": 80,
         "PREP": 56,
         "PART": 8,
         "VERB": 11,
@@ -38005,7 +38123,7 @@
         "CONJ": 32,
         "NOUN": 71,
         "ADJ": 7,
-        "PUNCT": 155,
+        "PUNCT": 158,
         "PREP": 49,
         "AUX": 13,
         "DET": 9,
@@ -38109,7 +38227,7 @@
         "DET": 4,
         "ADJ": 10,
         "PREP": 5,
-        "NOUN": 34,
+        "NOUN": 35,
         "ADV": 2,
         "PRON": 1,
         "NUM": 1,
@@ -38119,7 +38237,7 @@
       "NOUN|VERB": {
         "PART": 11,
         "DET": 80,
-        "PREP": 70,
+        "PREP": 71,
         "WH": 4,
         "PRON": 22,
         "PUNCT": 26,
@@ -38147,15 +38265,15 @@
         "PART": 1
       },
       "PUNCT|CONJ": {
-        "NOUN": 73,
+        "NOUN": 74,
         "PRON": 22,
         "DET": 28,
         "PUNCT": 5,
         "ADJ": 22,
         "CONJ": 8,
         "AUX": 8,
-        "PROPN": 9,
-        "VERB": 15,
+        "PROPN": 10,
+        "VERB": 16,
         "NEG": 2,
         "ADV": 8,
         "MODAL": 5,
@@ -38167,11 +38285,11 @@
         "AUX": 12,
         "PUNCT": 101,
         "</S>": 1,
-        "PREP": 78,
+        "PREP": 79,
         "VERB": 16,
         "WH": 6,
         "NOUN": 127,
-        "PRON": 7,
+        "PRON": 9,
         "PART": 13,
         "CONJ": 14,
         "PROPN": 4,
@@ -38183,7 +38301,7 @@
         "ADV": 2
       },
       "VERB|DET": {
-        "NOUN": 156,
+        "NOUN": 158,
         "ADJ": 92,
         "PREP": 3,
         "CONJ": 4,
@@ -38195,7 +38313,7 @@
       },
       "NOUN|ADV": {
         "PUNCT": 11,
-        "VERB": 23,
+        "VERB": 24,
         "PREP": 10,
         "NOUN": 5,
         "ADJ": 1,
@@ -38248,7 +38366,7 @@
       },
       "CONJ|VERB": {
         "PART": 3,
-        "NOUN": 16,
+        "NOUN": 17,
         "PUNCT": 22,
         "ADJ": 4,
         "PREP": 20,
@@ -38355,7 +38473,7 @@
         "PUNCT": 3,
         "PROPN": 1,
         "MODAL": 2,
-        "NOUN": 33,
+        "NOUN": 34,
         "AUX": 2,
         "ADJ": 8,
         "NEG": 1,
@@ -38445,7 +38563,7 @@
       "AUX|ADV": {
         "ADJ": 10,
         "NOUN": 9,
-        "VERB": 32,
+        "VERB": 33,
         "ADV": 4,
         "PREP": 4,
         "DET": 7,
@@ -38528,9 +38646,9 @@
         "PUNCT": 1
       },
       "PUNCT|PREP": {
-        "DET": 6,
+        "DET": 7,
         "ADJ": 4,
-        "NOUN": 18,
+        "NOUN": 19,
         "AUX": 2,
         "PRON": 1,
         "VERB": 1,
@@ -38582,11 +38700,11 @@
       },
       "ADV|VERB": {
         "PROPN": 3,
-        "DET": 22,
+        "DET": 23,
         "PART": 10,
         "NOUN": 18,
         "CONJ": 18,
-        "PREP": 32,
+        "PREP": 33,
         "WH": 3,
         "PUNCT": 3,
         "ADJ": 4,
@@ -38620,10 +38738,10 @@
         "CONJ": 3,
         "PROPN": 5,
         "ADJ": 21,
-        "NOUN": 155,
-        "PUNCT": 16,
+        "NOUN": 157,
+        "PUNCT": 17,
         "AUX": 2,
-        "VERB": 6,
+        "VERB": 7,
         "</S>": 4,
         "DET": 1
       },
@@ -38659,14 +38777,14 @@
         "PRON": 1
       },
       "NOUN|PRON": {
-        "VERB": 24,
+        "VERB": 26,
         "AUX": 28,
         "PREP": 7,
         "MODAL": 12,
         "PRON": 1,
         "CONJ": 1,
         "PART": 2,
-        "PUNCT": 4
+        "PUNCT": 5
       },
       "PREP|PROPN": {
         "PUNCT": 34,
@@ -38680,7 +38798,7 @@
         "ADJ": 1
       },
       "PROPN|PUNCT": {
-        "</S>": 35,
+        "</S>": 36,
         "DET": 10,
         "PROPN": 20,
         "CONJ": 18,
@@ -38968,7 +39086,7 @@
         "PUNCT": 1
       },
       "ADJ|VERB": {
-        "NOUN": 8,
+        "NOUN": 9,
         "AUX": 9,
         "CONJ": 7,
         "PUNCT": 10,
@@ -39093,7 +39211,7 @@
         "PROPN": 10,
         "NOUN": 10,
         "CONJ": 3,
-        "PUNCT": 7,
+        "PUNCT": 8,
         "VERB": 4,
         "PREP": 2,
         "ADJ": 1,
@@ -39488,7 +39606,9 @@
         "overlap": 3,
         "separate": 3,
         "read": 2,
-        "study": 2
+        "study": 2,
+        "other": 1,
+        "technology": 1
       },
       "talk": {
         "with": 1,
@@ -39506,7 +39626,8 @@
         "examples": 3,
         "nouns": 2,
         "antonyms": 2,
-        "objects": 2
+        "objects": 2,
+        "matter": 1
       },
       "how": {
         "are": 1,
@@ -39619,7 +39740,7 @@
       },
       "is": {
         "a": 74,
-        "the": 34,
+        "the": 35,
         "an": 16,
         "hard": 5,
         "one": 4,
@@ -39630,7 +39751,8 @@
         "generally": 3,
         "acquired": 1,
         "all": 1,
-        "used": 1
+        "used": 1,
+        "also": 1
       },
       "a": {
         "noun": 16,
@@ -39666,7 +39788,8 @@
         "help": 2,
         "a": 2,
         "sharing": 1,
-        "your": 1
+        "your": 1,
+        "manipulating": 1
       },
       "sharing": {
         "ideas": 1,
@@ -39682,14 +39805,7 @@
         "film": 4,
         "variable": 3,
         "listener": 3,
-        "application": 3,
-        "signature": 1,
-        "form": 1,
-        "ball": 1,
-        "target": 1,
-        "process": 1,
-        "use": 1,
-        "music": 1
+        "application": 3
       },
       "brain": {
         "is": 1,
@@ -39850,7 +39966,8 @@
         "privilege": 1,
         "manner": 1,
         "competitive": 1,
-        "record": 1
+        "record": 1,
+        "detect": 1
       },
       "it": {
         "is": 29,
@@ -40083,7 +40200,11 @@
         "practice": 2,
         "writing": 2,
         "creative": 2,
-        "editing": 1
+        "editing": 1,
+        "detection": 1,
+        "instruments": 1,
+        "infrared": 1,
+        "x-rays": 1
       },
       "meanings": {
         "have": 1,
@@ -40136,7 +40257,9 @@
         "grammar": 2,
         "are": 1,
         "kebab": 1,
-        "restaurant": 1
+        "restaurant": 1,
+        "studies": 1,
+        "use": 1
       },
       "good": {
         "idea": 1,
@@ -40415,13 +40538,7 @@
         "information": 5,
         "other": 4,
         "knowledge": 4,
-        "postwar": 3,
-        "lie": 1,
-        "learning": 1,
-        "automated": 1,
-        "computer": 1,
-        "digital": 1,
-        "music": 1
+        "postwar": 3
       },
       "reading": {
         "is": 1,
@@ -40821,7 +40938,7 @@
         "i": 1,
         "matchine": 2,
         "or": 2,
-        "of": 3,
+        "of": 4,
         "brilliant": 1,
         "in": 2
       },
@@ -41294,7 +41411,7 @@
         "garage": 1
       },
       "forms": {
-        "of": 5,
+        "of": 6,
         "an": 2,
         "–": 1
       },
@@ -41489,7 +41606,7 @@
       },
       "matter": {
         "into": 1,
-        "and": 1,
+        "and": 2,
         "the": 1,
         "made": 1
       },
@@ -41681,7 +41798,8 @@
         "and": 1,
         "for": 1,
         "needs": 1,
-        "of": 1
+        "of": 1,
+        "optics": 1
       },
       "concept": {
         "are": 1,
@@ -41770,7 +41888,9 @@
         "japanese": 1,
         "english": 1,
         "your": 1,
-        "computers": 1
+        "computers": 1,
+        "its": 1,
+        "radio": 1
       },
       "transmission": {
         "of": 1,
@@ -41992,7 +42112,8 @@
         "products": 1,
         "axis": 1,
         "employ": 1,
-        "cultural": 1
+        "cultural": 1,
+        "interactions": 1
       },
       "vague": {
         "enough": 4
@@ -42019,7 +42140,7 @@
       "other": {
         "parts": 5,
         "than": 4,
-        "forms": 2,
+        "forms": 3,
         "distributed": 2,
         "sentence": 2,
         "languages": 2,
@@ -42350,7 +42471,8 @@
         "such": 1,
         "defined": 1,
         "made": 1,
-        "be": 1
+        "be": 1,
+        "applied": 1
       },
       "referential": {
         "markers": 1
@@ -42616,7 +42738,8 @@
         "see": 1,
         "measured": 1,
         "alphabetized": 1,
-        "modifiable": 1
+        "modifiable": 1,
+        "describes": 1
       },
       "plants": {
         "grown": 1,
@@ -42796,13 +42919,13 @@
         "and": 1
       },
       "branch": {
-        "of": 3
+        "of": 4
       },
       "sociology": {
         "which": 1
       },
       "studies": {
-        "the": 1,
+        "the": 2,
         "it": 1,
         "is": 1,
         "distributed": 1
@@ -43586,7 +43709,8 @@
         "one": 1,
         "tenses": 1,
         "thr": 1,
-        "its": 1
+        "its": 1,
+        "or": 1
       },
       "smart": {
         "contracts": 2
@@ -44159,7 +44283,8 @@
         "of": 1,
         "between": 1,
         "and": 1,
-        "are": 1
+        "are": 1,
+        "with": 1
       },
       "roads": {
         "crisscrossed": 1
@@ -45202,7 +45327,7 @@
         "clothes": 1
       },
       "detection": {
-        "of": 4
+        "of": 5
       },
       "include": {
         "programming": 2,
@@ -46687,7 +46812,7 @@
       },
       "describes": {
         "a": 1,
-        "the": 1
+        "the": 2
       },
       "commonly-used": {
         "way": 2
@@ -47270,7 +47395,8 @@
         "are": 1
       },
       "manipulating": {
-        "small": 1
+        "small": 1,
+        "beams": 1
       },
       "physical": {
         "object": 1,
@@ -48784,7 +48910,8 @@
         "by": 1,
         "in": 1,
         "encompasses": 1,
-        "is": 1
+        "is": 1,
+        "for": 1
       },
       "fran": {
         "ois": 1
@@ -50043,7 +50170,8 @@
         "of": 1
       },
       "radio": {
-        "or": 1
+        "or": 1,
+        "waves": 1
       },
       "television": {
         "program": 1
@@ -51240,7 +51368,8 @@
         "in": 1
       },
       "physics": {
-        "and": 1
+        "and": 1,
+        "that": 1
       },
       "established": {
         "classical": 1
@@ -51885,7 +52014,8 @@
       },
       "instruments": {
         "to": 1,
-        "vary": 1
+        "vary": 1,
+        "that": 1
       },
       "effects": {
         "units": 1
@@ -51898,14 +52028,46 @@
       },
       "professions": {
         "in": 1
+      },
+      "optics": {
+        "is": 2,
+        "usually": 1,
+        "extends": 1
+      },
+      "electromagnetic": {
+        "radiation": 2
+      },
+      "detect": {
+        "it": 1
+      },
+      "behaviour": {
+        "of": 1
+      },
+      "infrared": {
+        "light": 1
+      },
+      "extends": {
+        "to": 1
+      },
+      "applied": {
+        "to": 1
+      },
+      "beams": {
+        "of": 1
+      },
+      "elementary": {
+        "charged": 1
+      },
+      "charged": {
+        "particles": 1
       }
     },
     "starters": {
       "i": 51,
       "how": 4,
       "what": 6,
-      "<NOUN>": 219,
-      "the": 179,
+      "<NOUN>": 221,
+      "the": 181,
       "she": 13,
       "we": 15,
       "it": 45,
@@ -51980,8 +52142,8 @@
     },
     "connectors": {
       "because": 11,
-      "or": 246,
-      "and": 411,
+      "or": 247,
+      "and": 415,
       "but": 42,
       "so": 17,
       "while": 5,
@@ -52024,7 +52186,7 @@
         "while": 1
       },
       "NOUN>NOUN": {
-        "and": 168,
+        "and": 170,
         "or": 108,
         "as": 6,
         "yet": 2,
@@ -52033,7 +52195,7 @@
         "than": 2
       },
       "NOUN>VERB": {
-        "and": 19,
+        "and": 20,
         "or": 9,
         "as": 3,
         "than": 1,
@@ -52163,7 +52325,7 @@
       "VERB>NOUN": {
         "as": 10,
         "and": 14,
-        "or": 6,
+        "or": 7,
         "that": 2,
         "than": 1
       },
@@ -52197,7 +52359,7 @@
       },
       "NOUN>PROPN": {
         "or": 4,
-        "and": 14,
+        "and": 15,
         "than": 1
       },
       "PROPN>ADJ": {
@@ -53554,20 +53716,11 @@
       "VERB NOUN ADV VERB ADJ NOUN | but | NOUN AUX NOUN": 1,
       "PRON VERB ADJ NOUN | so | PRON AUX NEG VERB ADV ADJ": 1,
       "AUX DET NOUN AUX DET NOUN | and | NOUN": 1,
-      "DET NOUN PREP NOUN ADJ NOUN | and | ADJ NOUN": 1
+      "DET NOUN PREP NOUN ADJ NOUN | and | ADJ NOUN": 1,
+      "NOUN ADV VERB DET NOUN PREP ADJ NOUN | and | VERB NOUN": 1,
+      "DET NOUN PREP NOUN VERB PREP DET NOUN PREP ADJ NOUN PREP NOUN | and | PROPN": 1
     },
     "sentence_bank": {
-      "cannot": [
-        "These phrases, which cannot be understood literally, add color and nuance to our communication and often have a cultural or historical significance."
-      ],
-      "separate": [
-        "Separate the articles from the headings."
-      ],
-      "articles": [
-        "Articles often develop by specialization of adjectives or determiners .",
-        "Definite articles typically arise from demonstratives meaning that .",
-        "Indefinite articles typically arise from adjectives meaning one ."
-      ],
       "chair": [
         "This chair can be disassembled into five separate pieces.",
         "Turn the chair so it faces the table."
@@ -55042,7 +55195,8 @@
         "She claimed that only a hierarchical society with a leisure class at the top can produce works of 'true' art."
       ],
       "term": [
-        "This term needs a definition."
+        "This term needs a definition.",
+        "The term optics is also applied to technology for manipulating beams of elementary charged particles."
       ],
       "need": [
         "This term needs a definition.",
@@ -55498,6 +55652,17 @@
       ],
       "vary": [
         "These instruments vary, including computers, electronic effects units, software, and digital audio equipment."
+      ],
+      "optics": [
+        "Optics usually describes the behaviour of visible, ultraviolet, and infrared light.",
+        "The study of optics extends to other forms of electromagnetic radiation, including radio waves, microwaves, and X-rays.",
+        "The term optics is also applied to technology for manipulating beams of elementary charged particles."
+      ],
+      "describ": [
+        "Optics usually describes the behaviour of visible, ultraviolet, and infrared light."
+      ],
+      "study": [
+        "The study of optics extends to other forms of electromagnetic radiation, including radio waves, microwaves, and X-rays."
       ]
     }
   },
@@ -55815,11 +55980,7 @@
     "topic_cursor": 1350,
     "taught": 0,
     "last_lesson": "2026-10-24 14:12:37",
-    "pending_concepts": [
-      "nosql ecosystems utilize domain-specific",
-      "net ecosystem supporting multi-paradigm",
-      "powerful hindley-milner type inference"
-    ],
+    "pending_concepts": [],
     "recent_concepts": [
       "thermodynamic efficiency constrain",
       "artificial neural networks",
