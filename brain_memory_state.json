@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.19999999999999998,
+    "adenosine": 0.26,
     "newborn": false
   },
   "episodic_memory": [
@@ -2833,6 +2833,20 @@
       "time": "2026-10-24 10:10:15",
       "speaker": "brain",
       "text": "I wondered about 'Reinforcement learning' by myself and went searching. From Wikipedia (live internet) I learned: In machine learning and optimal control, reinforcement learning (RL) is concerned with how an intelligent agent should take actions in a dynamic environment in order to maximize a reward signal. Key ideas I stored: machine learning, alongside supervised learning, reinforcement learning, unsupervised learning.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 10:12:22",
+      "speaker": "brain",
+      "text": "I practised my English because I want to talk with you more naturally. I learned 6 new words: 'ledger' (a noun) means a book for keeping notes ; a record book , a register ; 'order' (a noun) means arrangement , disposition , or sequence ; 'syntactic' (an adjective) means of, related to or connected with syntax ; 'orders' (a noun) means plural of order and 2 more. Now I know 373 words, I have studied 672 sentences, and I have 60 sentence patterns.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 10:14:16",
+      "speaker": "brain",
+      "text": "I wondered about 'Cognitive architecture' by myself and went searching. From Wikipedia (live internet) I learned: A cognitive architecture is both a theory about the structure of the human mind and a computational instantiation of such a theory used in the fields of artificial intelligence (AI) and computational cognitive science. Key ideas I stored: artificial intelligence, computational cognitive science, successful cognitive architectures, cognitive architecture, computational instantiation.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -5935,6 +5949,20 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Reinforcement_learning",
       "learned": "2026-10-24 10:10:15"
+    },
+    "Cognitive architecture": {
+      "summary": "A cognitive architecture is both a theory about the structure of the human mind and a computational instantiation of such a theory used in the fields of artificial intelligence (AI) and computational cognitive science. These formalized models can be used to further refine comprehensive theories of cognition and serve as the frameworks for useful artificial intelligence programs. Successful cognitive architectures include ACT-R and SOAR. \nThe research on cognitive architectures as software instantiation of cognitive theories was initiated by Allen Newell in 1990.",
+      "concepts": [
+        "artificial intelligence",
+        "computational cognitive science",
+        "successful cognitive architectures",
+        "cognitive architecture",
+        "computational instantiation",
+        "software instantiation"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Cognitive_architecture",
+      "learned": "2026-10-24 10:14:16"
     }
   },
   "creator_teachings": [
@@ -7660,6 +7688,18 @@
       "kind": "explore_report",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 10:12:22",
+      "kind": "language_lesson",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-24 10:14:16",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -7711,7 +7751,8 @@
     "active listening",
     "deep learning",
     "attention mechanism",
-    "reinforcement learning"
+    "reinforcement learning",
+    "cognitive architecture"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -24790,17 +24831,86 @@
       "source": "corpus",
       "learned": "2026-10-24 10:12:20",
       "uses": 1
+    },
+    "fields": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 10:14:16",
+      "uses": 1
+    },
+    "further": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 10:14:16",
+      "uses": 1
+    },
+    "serve": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 10:14:16",
+      "uses": 1
+    },
+    "instantiation": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The research on cognitive architectures as software instantiation of cognitive theories was initiated by Allen Newell in 1990."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 10:14:16",
+      "uses": 1
+    },
+    "theories": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The research on cognitive architectures as software instantiation of cognitive theories was initiated by Allen Newell in 1990."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 10:14:16",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 672,
-      "tokens": 11111,
+      "sentences": 676,
+      "tokens": 11198,
       "sources": {
         "seed corpus": 64,
         "conversation": 12,
         "dictionary": 268,
-        "explore": 61,
+        "explore": 65,
         "pasted text": 24,
         "deep study": 243
       },
@@ -25027,7 +25137,8 @@
         "3575bbb88f41",
         "316909a4112f",
         "c1e991715d08",
-        "2343c45e8265"
+        "2343c45e8265",
+        "8593597077f4"
       ],
       "seeded": true,
       "rejected": 125,
@@ -25110,7 +25221,6 @@
         "constrain": 1,
         "processing": 1,
         "diverse": 1,
-        "fields": 1,
         "classical": 1,
         "microscopic": 1,
         "statistical": 1,
@@ -25324,7 +25434,6 @@
         "rust": 1,
         "advances": 1,
         "safety": 1,
-        "further": 1,
         "borrowing": 1,
         "affine": 1,
         "races": 1,
@@ -25978,7 +26087,6 @@
         "actors": 1,
         "titled": 1,
         "college": 1,
-        "serve": 1,
         "backdrop": 1,
         "dysfunction": 1,
         "turmoil": 1,
@@ -26202,18 +26310,26 @@
         "mistake": 1,
         "connected": 1,
         "grandpa": 1,
-        "constituent": 1
+        "constituent": 1,
+        "formalized": 1,
+        "refine": 1,
+        "comprehensive": 1,
+        "cognition": 1,
+        "frameworks": 1,
+        "programs": 1,
+        "successful": 1,
+        "initiated": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 87,
+        "PRON": 88,
         "WH": 20,
         "NOUN": 123,
-        "DET": 206,
+        "DET": 208,
         "VERB": 54,
         "MODAL": 3,
-        "ADJ": 59,
+        "ADJ": 60,
         "INTJ": 5,
         "CONJ": 15,
         "AUX": 2,
@@ -26227,7 +26343,7 @@
         "AUX": 79,
         "PUNCT": 23,
         "ADV": 8,
-        "VERB": 93,
+        "VERB": 94,
         "MODAL": 35,
         "PREP": 11,
         "WH": 1,
@@ -26243,10 +26359,10 @@
         "ADJ": 96,
         "PRON": 9,
         "PUNCT": 2,
-        "DET": 123,
+        "DET": 124,
         "NOUN": 31,
         "NEG": 17,
-        "VERB": 111,
+        "VERB": 113,
         "INTJ": 1,
         "ADV": 42,
         "CONJ": 6,
@@ -26259,13 +26375,13 @@
       },
       "ADJ": {
         "PART": 14,
-        "NOUN": 620,
+        "NOUN": 631,
         "WH": 2,
         "PUNCT": 90,
         "PREP": 65,
         "CONJ": 31,
         "PROPN": 17,
-        "ADJ": 59,
+        "ADJ": 62,
         "DET": 11,
         "AUX": 14,
         "VERB": 37,
@@ -26279,17 +26395,17 @@
         "VERB": 139,
         "AUX": 13,
         "ADJ": 8,
-        "NOUN": 21,
+        "NOUN": 22,
         "WH": 3,
         "PREP": 1,
         "CONJ": 3,
         "PUNCT": 4
       },
       "VERB": {
-        "PREP": 199,
-        "PART": 54,
+        "PREP": 201,
+        "PART": 55,
         "ADJ": 38,
-        "NOUN": 169,
+        "NOUN": 170,
         "PUNCT": 108,
         "PRON": 41,
         "AUX": 17,
@@ -26299,20 +26415,20 @@
         "WH": 9,
         "</S>": 8,
         "ADV": 18,
-        "PROPN": 13,
+        "PROPN": 14,
         "NUM": 4,
         "NEG": 1,
         "MODAL": 1
       },
       "PREP": {
         "PRON": 25,
-        "NOUN": 374,
-        "DET": 408,
-        "PUNCT": 23,
+        "NOUN": 375,
+        "DET": 412,
+        "PUNCT": 24,
         "VERB": 25,
         "PREP": 12,
-        "ADJ": 127,
-        "PROPN": 65,
+        "ADJ": 131,
+        "PROPN": 66,
         "AUX": 10,
         "NUM": 16,
         "WH": 12,
@@ -26322,7 +26438,7 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 625,
+        "</S>": 629,
         "NOUN": 205,
         "CONJ": 130,
         "PRON": 16,
@@ -26369,27 +26485,27 @@
         "NUM": 2
       },
       "NOUN": {
-        "AUX": 215,
-        "PREP": 640,
-        "NOUN": 579,
-        "PUNCT": 846,
-        "CONJ": 254,
-        "VERB": 206,
+        "AUX": 217,
+        "PREP": 648,
+        "NOUN": 582,
+        "PUNCT": 848,
+        "CONJ": 259,
+        "VERB": 208,
         "ADV": 37,
         "PART": 89,
-        "ADJ": 91,
-        "MODAL": 34,
+        "ADJ": 92,
+        "MODAL": 35,
         "</S>": 34,
         "PRON": 37,
         "WH": 26,
         "DET": 130,
-        "PROPN": 41,
+        "PROPN": 42,
         "NUM": 9,
         "NEG": 4
       },
       "DET": {
-        "NOUN": 734,
-        "ADJ": 353,
+        "NOUN": 740,
+        "ADJ": 356,
         "PRON": 10,
         "PREP": 21,
         "NUM": 17,
@@ -26397,7 +26513,7 @@
         "VERB": 15,
         "CONJ": 25,
         "PROPN": 55,
-        "DET": 28,
+        "DET": 30,
         "ADV": 7,
         "PUNCT": 15,
         "AUX": 1,
@@ -26405,10 +26521,10 @@
       },
       "CONJ": {
         "PRON": 30,
-        "DET": 91,
-        "NOUN": 227,
+        "DET": 93,
+        "NOUN": 228,
         "VERB": 45,
-        "ADJ": 68,
+        "ADJ": 70,
         "ADV": 14,
         "PUNCT": 14,
         "WH": 7,
@@ -26416,7 +26532,7 @@
         "CONJ": 9,
         "NUM": 4,
         "AUX": 13,
-        "PROPN": 31,
+        "PROPN": 32,
         "MODAL": 5,
         "NEG": 3,
         "PART": 2
@@ -26426,7 +26542,7 @@
         "PRON": 4,
         "DET": 3,
         "CONJ": 3,
-        "AUX": 29,
+        "AUX": 30,
         "NOUN": 7,
         "NEG": 3,
         "ADV": 4,
@@ -26451,14 +26567,14 @@
       },
       "PROPN": {
         "DET": 2,
-        "PUNCT": 89,
+        "PUNCT": 90,
         "PART": 3,
-        "NOUN": 86,
+        "NOUN": 87,
         "AUX": 13,
-        "PROPN": 60,
+        "PROPN": 61,
         "ADJ": 15,
-        "PREP": 14,
-        "CONJ": 15,
+        "PREP": 15,
+        "CONJ": 16,
         "VERB": 9,
         "NUM": 1
       },
@@ -26478,7 +26594,7 @@
     "pos_trigrams": {
       "<S>|PRON": {
         "AUX": 38,
-        "VERB": 32,
+        "VERB": 33,
         "MODAL": 13,
         "ADV": 2,
         "DET": 1,
@@ -26534,14 +26650,14 @@
       },
       "VERB|PREP": {
         "PRON": 9,
-        "DET": 76,
+        "DET": 77,
         "NOUN": 57,
         "PUNCT": 7,
         "VERB": 2,
         "ADJ": 20,
         "PREP": 6,
         "NUM": 4,
-        "PROPN": 14,
+        "PROPN": 15,
         "CONJ": 2,
         "AUX": 1,
         "WH": 1
@@ -26597,7 +26713,7 @@
       "PRON|VERB": {
         "PART": 15,
         "PREP": 14,
-        "NOUN": 10,
+        "NOUN": 11,
         "PRON": 12,
         "PUNCT": 5,
         "DET": 17,
@@ -26617,7 +26733,7 @@
         "ADJ": 2,
         "WH": 1,
         "CONJ": 2,
-        "NOUN": 2
+        "NOUN": 3
       },
       "PART|AUX": {
         "PUNCT": 1,
@@ -26646,11 +26762,11 @@
         "DET": 2
       },
       "NOUN|AUX": {
-        "DET": 69,
+        "DET": 70,
         "ADJ": 43,
         "NOUN": 19,
         "ADV": 24,
-        "VERB": 38,
+        "VERB": 39,
         "CONJ": 4,
         "NUM": 2,
         "NEG": 7,
@@ -26666,16 +26782,16 @@
         "VERB": 2,
         "PREP": 4,
         "ADV": 1,
-        "DET": 3,
+        "DET": 4,
         "NUM": 2,
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 225,
+        "PREP": 230,
         "AUX": 64,
         "CONJ": 56,
         "PUNCT": 154,
-        "VERB": 48,
+        "VERB": 49,
         "ADV": 11,
         "ADJ": 21,
         "NOUN": 62,
@@ -26688,10 +26804,10 @@
         "WH": 3
       },
       "NOUN|PREP": {
-        "NOUN": 219,
-        "DET": 229,
+        "NOUN": 220,
+        "DET": 232,
         "PREP": 5,
-        "ADJ": 85,
+        "ADJ": 89,
         "PROPN": 32,
         "VERB": 19,
         "PUNCT": 9,
@@ -26706,7 +26822,7 @@
         "NOUN": 53,
         "PUNCT": 109,
         "VERB": 24,
-        "CONJ": 45,
+        "CONJ": 46,
         "ADJ": 10,
         "DET": 18,
         "AUX": 6,
@@ -26721,16 +26837,16 @@
         "ADV": 1
       },
       "NOUN|NOUN": {
-        "PUNCT": 148,
+        "PUNCT": 149,
         "PART": 11,
         "NOUN": 130,
         "PREP": 103,
         "CONJ": 44,
         "VERB": 40,
-        "PROPN": 10,
+        "PROPN": 11,
         "AUX": 26,
         "MODAL": 9,
-        "ADJ": 23,
+        "ADJ": 24,
         "NUM": 4,
         "ADV": 6,
         "DET": 14,
@@ -26740,7 +26856,7 @@
         "</S>": 1
       },
       "NOUN|PUNCT": {
-        "</S>": 420,
+        "</S>": 422,
         "NOUN": 145,
         "CONJ": 87,
         "ADV": 21,
@@ -26757,8 +26873,8 @@
         "PUNCT": 4
       },
       "<S>|DET": {
-        "NOUN": 127,
-        "ADJ": 56,
+        "NOUN": 128,
+        "ADJ": 57,
         "PROPN": 11,
         "VERB": 2,
         "PREP": 1,
@@ -26768,7 +26884,7 @@
         "WH": 1
       },
       "DET|ADJ": {
-        "NOUN": 282,
+        "NOUN": 285,
         "CONJ": 9,
         "ADJ": 15,
         "PUNCT": 12,
@@ -26783,15 +26899,15 @@
         "PRON": 1
       },
       "ADJ|NOUN": {
-        "PUNCT": 180,
-        "NOUN": 116,
+        "PUNCT": 181,
+        "NOUN": 118,
         "MODAL": 5,
-        "VERB": 37,
-        "PREP": 135,
-        "CONJ": 47,
+        "VERB": 38,
+        "PREP": 138,
+        "CONJ": 49,
         "DET": 16,
         "ADJ": 10,
-        "AUX": 36,
+        "AUX": 38,
         "PART": 19,
         "WH": 5,
         "PROPN": 1,
@@ -26809,12 +26925,12 @@
         "PREP": 1
       },
       "PREP|DET": {
-        "NOUN": 241,
-        "ADJ": 108,
+        "NOUN": 243,
+        "ADJ": 109,
         "NUM": 8,
         "PREP": 6,
         "PROPN": 27,
-        "DET": 7,
+        "DET": 8,
         "VERB": 6,
         "PUNCT": 3,
         "ADV": 1,
@@ -26822,10 +26938,10 @@
       },
       "NOUN|CONJ": {
         "PRON": 6,
-        "DET": 43,
+        "DET": 45,
         "VERB": 14,
-        "NOUN": 124,
-        "ADJ": 28,
+        "NOUN": 125,
+        "ADJ": 30,
         "WH": 4,
         "PREP": 7,
         "NUM": 2,
@@ -26851,7 +26967,7 @@
         "VERB": 5,
         "NOUN": 35,
         "CONJ": 12,
-        "MODAL": 1,
+        "MODAL": 2,
         "ADJ": 7,
         "DET": 14,
         "AUX": 6,
@@ -26898,8 +27014,8 @@
         "WH": 1
       },
       "CONJ|DET": {
-        "NOUN": 54,
-        "ADJ": 20,
+        "NOUN": 55,
+        "ADJ": 21,
         "CONJ": 2,
         "PUNCT": 4,
         "PART": 1,
@@ -26993,7 +27109,7 @@
       "NOUN|VERB": {
         "PART": 5,
         "DET": 47,
-        "PREP": 47,
+        "PREP": 48,
         "WH": 3,
         "PRON": 14,
         "PUNCT": 18,
@@ -27004,7 +27120,7 @@
         "CONJ": 13,
         "AUX": 2,
         "VERB": 4,
-        "PROPN": 5,
+        "PROPN": 6,
         "ADJ": 5,
         "MODAL": 1
       },
@@ -27044,7 +27160,7 @@
         "NOUN": 73,
         "PRON": 2,
         "PART": 9,
-        "CONJ": 6,
+        "CONJ": 7,
         "PROPN": 2,
         "ADJ": 2,
         "DET": 6,
@@ -27091,7 +27207,7 @@
         "NOUN": 3
       },
       "PREP|PUNCT": {
-        "</S>": 7,
+        "</S>": 8,
         "PUNCT": 3,
         "CONJ": 4,
         "ADJ": 1,
@@ -27100,9 +27216,9 @@
         "VERB": 1
       },
       "AUX|VERB": {
-        "PREP": 47,
+        "PREP": 48,
         "PUNCT": 17,
-        "PART": 17,
+        "PART": 18,
         "PRON": 1,
         "NOUN": 7,
         "DET": 11,
@@ -27122,7 +27238,7 @@
       },
       "<S>|ADJ": {
         "NOUN": 31,
-        "ADJ": 4,
+        "ADJ": 5,
         "VERB": 4,
         "PREP": 13,
         "PROPN": 3,
@@ -27185,7 +27301,7 @@
       },
       "NOUN|ADJ": {
         "PUNCT": 10,
-        "NOUN": 50,
+        "NOUN": 51,
         "DET": 3,
         "PREP": 10,
         "ADJ": 6,
@@ -27260,7 +27376,7 @@
       },
       "NOUN|MODAL": {
         "VERB": 16,
-        "AUX": 14,
+        "AUX": 15,
         "NEG": 1,
         "ADV": 1,
         "NOUN": 2
@@ -27310,8 +27426,8 @@
       },
       "CONJ|ADJ": {
         "PUNCT": 7,
-        "NOUN": 46,
-        "ADJ": 5,
+        "NOUN": 47,
+        "ADJ": 6,
         "CONJ": 3,
         "VERB": 6,
         "PREP": 1
@@ -27411,7 +27527,8 @@
         "DET": 1,
         "PUNCT": 7,
         "PROPN": 4,
-        "PREP": 1
+        "PREP": 1,
+        "CONJ": 1
       },
       "PROPN|DET": {
         "NOUN": 1,
@@ -27429,8 +27546,8 @@
       "PREP|ADJ": {
         "CONJ": 3,
         "PROPN": 5,
-        "ADJ": 13,
-        "NOUN": 93,
+        "ADJ": 14,
+        "NOUN": 96,
         "PUNCT": 6,
         "AUX": 1,
         "VERB": 4,
@@ -27476,7 +27593,7 @@
       "PREP|PROPN": {
         "PUNCT": 21,
         "AUX": 1,
-        "PROPN": 13,
+        "PROPN": 14,
         "NOUN": 15,
         "PREP": 5,
         "VERB": 2,
@@ -27485,7 +27602,7 @@
         "ADJ": 1
       },
       "PROPN|PUNCT": {
-        "</S>": 27,
+        "</S>": 28,
         "DET": 7,
         "PROPN": 18,
         "CONJ": 12,
@@ -27518,7 +27635,7 @@
         "VERB": 1
       },
       "ADJ|ADJ": {
-        "NOUN": 35,
+        "NOUN": 38,
         "ADJ": 6,
         "PUNCT": 7,
         "AUX": 4,
@@ -27567,7 +27684,7 @@
       },
       "NOUN|PROPN": {
         "PART": 1,
-        "NOUN": 20,
+        "NOUN": 21,
         "AUX": 5,
         "PROPN": 3,
         "PREP": 3,
@@ -27580,7 +27697,7 @@
         "VERB": 1
       },
       "PART|NOUN": {
-        "NOUN": 6,
+        "NOUN": 7,
         "PUNCT": 7,
         "PREP": 3,
         "DET": 3,
@@ -27621,7 +27738,7 @@
         "NUM": 1
       },
       "PROPN|NOUN": {
-        "CONJ": 3,
+        "CONJ": 4,
         "AUX": 13,
         "PUNCT": 31,
         "NOUN": 19,
@@ -27651,7 +27768,7 @@
         "PART": 1
       },
       "MODAL|AUX": {
-        "VERB": 17,
+        "VERB": 18,
         "DET": 3,
         "ADJ": 6,
         "ADV": 2,
@@ -27787,7 +27904,7 @@
         "PUNCT": 31,
         "NOUN": 8,
         "PROPN": 9,
-        "PREP": 2,
+        "PREP": 3,
         "CONJ": 3,
         "VERB": 4,
         "AUX": 1,
@@ -27845,7 +27962,7 @@
         "PROPN": 9,
         "NOUN": 8,
         "CONJ": 2,
-        "PUNCT": 5,
+        "PUNCT": 6,
         "VERB": 2,
         "PREP": 2,
         "ADJ": 1,
@@ -27865,7 +27982,8 @@
         "PROPN": 3,
         "DET": 5,
         "ADJ": 2,
-        "MODAL": 1
+        "MODAL": 1,
+        "PUNCT": 1
       },
       "CONJ|MODAL": {
         "VERB": 2,
@@ -27892,7 +28010,7 @@
         "NOUN": 2
       },
       "PROPN|CONJ": {
-        "PROPN": 9,
+        "PROPN": 10,
         "ADJ": 1,
         "NOUN": 1,
         "VERB": 2,
@@ -27920,7 +28038,7 @@
         "NOUN": 1
       },
       "DET|DET": {
-        "NOUN": 18,
+        "NOUN": 20,
         "PROPN": 2,
         "PUNCT": 1,
         "ADJ": 5,
@@ -28167,7 +28285,8 @@
         "maximize": 1,
         "order": 1,
         "or": 1,
-        "convey": 1
+        "convey": 1,
+        "further": 1
       },
       "talk": {
         "with": 1,
@@ -28308,7 +28427,8 @@
         "therefore": 2,
         "concerned": 1,
         "one": 1,
-        "your": 1
+        "your": 1,
+        "both": 1
       },
       "a": {
         "conjunction": 8,
@@ -28320,7 +28440,10 @@
         "preposition": 3,
         "neural": 3,
         "thermodynamic": 3,
-        "good": 2
+        "good": 2,
+        "cognitive": 1,
+        "theory": 2,
+        "computational": 1
       },
       "tool": {
         "for": 1
@@ -28341,7 +28464,8 @@
         "empathy": 1,
         "listening": 1,
         "its": 1,
-        "organizations": 1
+        "organizations": 1,
+        "useful": 1
       },
       "sharing": {
         "ideas": 1
@@ -28350,7 +28474,7 @@
         "blackboard": 9,
         "development": 6,
         "order": 6,
-        "structure": 4,
+        "structure": 5,
         "lesson": 4,
         "film": 4,
         "variable": 3,
@@ -28360,7 +28484,11 @@
         "books": 1,
         "shelf": 1,
         "sentence": 1,
-        "syntactic": 1
+        "syntactic": 1,
+        "human": 1,
+        "fields": 1,
+        "frameworks": 1,
+        "research": 1
       },
       "brain": {
         "is": 1,
@@ -28451,7 +28579,7 @@
         "you": 2,
         "change": 2,
         "operate": 2,
-        "be": 16,
+        "be": 17,
         "vary": 1,
         "sometimes": 1,
         "use": 2,
@@ -28475,7 +28603,7 @@
         "matchines": 1,
         "my": 1,
         "unimportant": 1,
-        "the": 1,
+        "the": 2,
         "these": 1,
         "dysfunction": 1,
         "by": 2
@@ -28692,22 +28820,15 @@
         "the": 12,
         "gerund": 7,
         "other": 4,
+        "past": 4,
         "functions": 2,
         "human": 2,
         "practice": 2,
         "writing": 2,
         "creative": 2,
         "enthusiasm": 2,
-        "past": 4,
-        "mental": 1,
-        "all": 1,
-        "did": 1,
-        "efficient": 1,
-        "representation": 1,
-        "revolves": 1,
-        "\"": 1,
-        "optimal": 1,
-        "unsupervised": 1
+        "serve": 1,
+        "soar": 1
       },
       "meanings": {
         "have": 1,
@@ -28866,7 +28987,7 @@
         "in": 1
       },
       "in": {
-        "the": 44,
+        "the": 45,
         "a": 23,
         "english": 10,
         "many": 5,
@@ -28900,7 +29021,8 @@
         "limited": 1,
         "somewhat": 1,
         "founded": 1,
-        "originally": 2
+        "originally": 2,
+        "initiated": 1
       },
       "quiet": {
         "evening": 1
@@ -28997,7 +29119,7 @@
         "detail": 1
       },
       "of": {
-        "the": 48,
+        "the": 49,
         "a": 15,
         "speech": 6,
         "or": 5,
@@ -29011,7 +29133,11 @@
         "interest": 2,
         "order": 1,
         "constituents": 1,
-        "constituent": 1
+        "constituent": 1,
+        "such": 1,
+        "artificial": 1,
+        "cognition": 1,
+        "cognitive": 1
       },
       "reading": {
         "is": 1,
@@ -29140,7 +29266,8 @@
         "all": 1
       },
       "mind": {
-        "works": 1
+        "works": 1,
+        "and": 1
       },
       "does": {
         "the": 1,
@@ -29481,7 +29608,8 @@
         "how": 1,
         "what": 1,
         "it": 1,
-        "utilizing": 1
+        "utilizing": 1,
+        "cognitive": 1
       },
       "situation": {
         "in": 1,
@@ -29616,11 +29744,12 @@
         "to": 2
       },
       "architecture": {
-        "of": 1
+        "of": 1,
+        "is": 1
       },
       "artificial": {
         "neural": 5,
-        "intelligence": 6,
+        "intelligence": 8,
         "superintelligence": 1,
         "general": 3,
         "neurons": 1
@@ -29745,7 +29874,8 @@
         "adding": 1,
         "linguists": 1,
         "dissolving": 1,
-        "\"": 1
+        "\"": 1,
+        "allen": 1
       },
       "thermodynamic": {
         "efficiency": 2,
@@ -29851,16 +29981,18 @@
         "the": 2,
         "in": 1,
         "members": 1,
-        "healthcare": 1
+        "healthcare": 1,
+        "a": 1
       },
       "intelligence": {
         "process": 1,
         "company": 2,
-        "(": 1,
+        "(": 2,
         "explosion": 1,
         "system": 1,
         "requires": 3,
-        "expert": 1
+        "expert": 1,
+        "programs": 1
       },
       "information": {
         "in": 2,
@@ -30038,7 +30170,8 @@
         "being": 1,
         "examples": 1,
         "practices": 1,
-        "two": 1
+        "two": 1,
+        "formalized": 1
       },
       "principles": {
         "requires": 1,
@@ -30117,8 +30250,8 @@
         "for": 1
       },
       "used": {
-        "in": 7,
-        "to": 8,
+        "in": 8,
+        "to": 9,
         "for": 5,
         "syringes": 1,
         "car": 1,
@@ -30215,14 +30348,15 @@
         "and": 1,
         "with": 1,
         "dl": 1,
-        "rl": 1
+        "rl": 1,
+        "ai": 1
       },
       "nn": {
         ")": 1
       },
       ")": {
         "is": 10,
-        "and": 5,
+        "and": 6,
         "grammatical": 3,
         "are": 2,
         "with": 2,
@@ -30239,7 +30373,9 @@
         "model": 2,
         "cost": 1,
         "problems": 1,
-        "limits": 1
+        "limits": 1,
+        "instantiation": 1,
+        "cognitive": 1
       },
       "model": {
         "inspired": 2,
@@ -30258,7 +30394,7 @@
         "grammars": 1,
         "that": 1,
         "out": 1,
-        "of": 3,
+        "of": 4,
         "my": 1
       },
       "functions": {
@@ -30456,7 +30592,8 @@
         "desired": 1,
         "under": 1,
         "supervised": 1,
-        "liquid": 1
+        "liquid": 1,
+        "used": 1
       },
       "defined": {
         "for": 4,
@@ -30634,7 +30771,7 @@
       },
       "as": {
         "a": 15,
-        "the": 7,
+        "the": 8,
         "in": 4,
         "not": 2,
         "casual": 2,
@@ -30649,7 +30786,8 @@
         "me": 1,
         "president": 1,
         "classification": 1,
-        "an": 1
+        "an": 1,
+        "software": 1
       },
       "itself": {
         "was": 2
@@ -30729,7 +30867,7 @@
         "as": 19,
         "constructs": 1,
         "adaptability": 1,
-        "a": 1,
+        "a": 2,
         "nouns": 1,
         "dishes": 1
       },
@@ -31091,7 +31229,8 @@
         "intervention": 2,
         "dignity": 1,
         "resource": 1,
-        ")": 1
+        ")": 1,
+        "mind": 1
       },
       "specific": {
         "focus": 1,
@@ -31365,7 +31504,7 @@
       },
       "ai": {
         "is": 2,
-        ")": 1,
+        ")": 2,
         "companies": 1,
         "for": 1
       },
@@ -31391,7 +31530,8 @@
         "running": 2,
         "leverage": 2,
         "depend": 1,
-        "designed": 1
+        "designed": 1,
+        "can": 1
       },
       "running": {
         "directly": 2,
@@ -31611,11 +31751,16 @@
         "and": 1
       },
       "cognitive": {
-        "architectures": 1,
-        "deficits": 1
+        "architectures": 3,
+        "deficits": 1,
+        "architecture": 1,
+        "science": 1,
+        "theories": 1
       },
       "architectures": {
-        "utilize": 1
+        "utilize": 1,
+        "include": 1,
+        "as": 1
       },
       "utilize": {
         "decentralized": 1,
@@ -32550,7 +32695,8 @@
       },
       "software": {
         "ecosystems": 1,
-        "design": 1
+        "design": 1,
+        "instantiation": 1
       },
       "rust": {
         "advances": 1
@@ -32563,7 +32709,8 @@
         "administration": 1
       },
       "further": {
-        "through": 1
+        "through": 1,
+        "refine": 1
       },
       "borrowing": {
         "rules": 1
@@ -33151,7 +33298,8 @@
         "the": 1,
         "dyirbal": 1,
         "trial": 1,
-        "noises": 1
+        "noises": 1,
+        "act-r": 1
       },
       "branches": {
         "of": 1
@@ -33288,7 +33436,8 @@
         "list": 1
       },
       "comprehensive": {
-        "grammar": 1
+        "grammar": 1,
+        "theories": 1
       },
       "eight": {
         "criteria": 1
@@ -33631,7 +33780,9 @@
         "of": 1
       },
       "theory": {
-        "of": 1
+        "of": 1,
+        "about": 1,
+        "used": 1
       },
       "been": {
         "criticised": 1,
@@ -34089,7 +34240,8 @@
       },
       "research": {
         "concerning": 1,
-        "has": 1
+        "has": 1,
+        "on": 1
       },
       "concerning": {
         "the": 1,
@@ -36004,7 +36156,7 @@
         "and": 1
       },
       "serve": {
-        "as": 1
+        "as": 2
       },
       "backdrop": {
         "for": 1
@@ -36841,6 +36993,46 @@
       },
       "grandpa": {
         "any": 1
+      },
+      "instantiation": {
+        "of": 2
+      },
+      "fields": {
+        "of": 1
+      },
+      "formalized": {
+        "models": 1
+      },
+      "refine": {
+        "comprehensive": 1
+      },
+      "theories": {
+        "of": 1,
+        "was": 1
+      },
+      "cognition": {
+        "and": 1
+      },
+      "frameworks": {
+        "for": 1
+      },
+      "useful": {
+        "artificial": 1
+      },
+      "successful": {
+        "cognitive": 1
+      },
+      "act-r": {
+        "and": 1
+      },
+      "initiated": {
+        "by": 1
+      },
+      "allen": {
+        "newell": 1
+      },
+      "newell": {
+        "in": 1
       }
     },
     "starters": {
@@ -36848,7 +37040,7 @@
       "how": 3,
       "what": 6,
       "<NOUN>": 123,
-      "the": 102,
+      "the": 103,
       "she": 4,
       "we": 10,
       "it": 22,
@@ -36859,12 +37051,12 @@
       "they": 3,
       "he": 11,
       "where": 1,
-      "<ADJ>": 59,
+      "<ADJ>": 60,
       "please": 1,
       "that": 8,
       "if": 5,
       "although": 1,
-      "a": 39,
+      "a": 40,
       "does": 1,
       "who": 1,
       "when": 8,
@@ -36881,7 +37073,7 @@
       "of": 6,
       "her": 1,
       "this": 15,
-      "these": 6,
+      "these": 7,
       "as": 1,
       "each": 4,
       "without": 3,
@@ -36916,14 +37108,14 @@
     "connectors": {
       "because": 8,
       "or": 134,
-      "and": 262,
+      "and": 266,
       "but": 25,
       "so": 6,
       "while": 3,
       "than": 15,
       "therefore": 7,
       "if": 4,
-      "as": 76,
+      "as": 78,
       "however": 2,
       "whether": 2,
       "that": 6,
@@ -36945,16 +37137,16 @@
       },
       "NOUN>DET": {
         "or": 11,
-        "and": 17,
+        "and": 18,
         "but": 8,
         "if": 3,
         "though": 2,
-        "as": 10,
+        "as": 11,
         "than": 2,
         "while": 1
       },
       "NOUN>NOUN": {
-        "and": 102,
+        "and": 103,
         "or": 54,
         "as": 4,
         "yet": 1,
@@ -36998,11 +37190,11 @@
         "and": 7
       },
       "NOUN>ADJ": {
-        "and": 25,
+        "and": 26,
         "than": 1,
         "or": 9,
         "whether": 1,
-        "as": 2,
+        "as": 3,
         "since": 1,
         "but": 1
       },
@@ -37059,7 +37251,7 @@
         "yet": 1
       },
       "PROPN>PROPN": {
-        "and": 11,
+        "and": 12,
         "while": 1,
         "as": 1
       },
@@ -37924,7 +38116,9 @@
       "PRON AUX DET NOUN PREP ADJ NOUN | but | NOUN": 1,
       "VERB NOUN ADJ NOUN | and | NOUN PREP NOUN": 1,
       "PREP DET NUM NOUN VERB DET NOUN DET NOUN AUX CONJ VERB ADJ NOUN | and | NOUN PREP VERB": 1,
-      "NOUN VERB AUX NUM PREP DET NUM ADJ NOUN VERB NOUN VERB | and | VERB": 1
+      "NOUN VERB AUX NUM PREP DET NUM ADJ NOUN VERB NOUN VERB | and | VERB": 1,
+      "PRON VERB NOUN MODAL AUX VERB PART NOUN ADJ NOUN PREP NOUN | and | NOUN CONJ DET NOUN PREP ADJ NOUN": 1,
+      "ADJ NOUN VERB PROPN | and | PROPN": 1
     },
     "sentence_bank": {
       "happy": [
@@ -38473,7 +38667,8 @@
         "Liquid AI is an American artificial intelligence company, an MIT spin-off, that develops liquid foundation models running directly on devices without a cloud connection."
       ],
       "models": [
-        "These models leverage timing of discrete spikes as the main information carrier."
+        "These models leverage timing of discrete spikes as the main information carrier.",
+        "These formalized models can be used to further refine comprehensive theories of cognition and serve as the frameworks for useful artificial intelligence programs."
       ],
       "leverage": [
         "These models leverage timing of discrete spikes as the main information carrier."
@@ -39748,6 +39943,15 @@
       ],
       "connect": [
         "Of, related to or connected with syntax ."
+      ],
+      "formaliz": [
+        "These formalized models can be used to further refine comprehensive theories of cognition and serve as the frameworks for useful artificial intelligence programs."
+      ],
+      "successful": [
+        "Successful cognitive architectures include ACT-R and SOAR."
+      ],
+      "cognitive": [
+        "Successful cognitive architectures include ACT-R and SOAR."
       ]
     }
   },
@@ -40055,7 +40259,10 @@
       "basic",
       "contains",
       "correlations",
-      "interest"
+      "interest",
+      "fields",
+      "further",
+      "serve"
     ],
     "names": [],
     "lessons": 24,
@@ -40063,7 +40270,6 @@
     "taught": 0,
     "last_lesson": "2026-10-24 10:12:22",
     "pending_concepts": [
-      "cognitive architecture",
       "self-supervised learning",
       "evolutionary algorithm",
       "cognitive modeling",
