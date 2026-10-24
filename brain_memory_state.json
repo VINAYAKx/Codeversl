@@ -3,7 +3,7 @@
     "created": "2026-10-20 15:07:00",
     "creator_signature": "677a410903a19f3307ea34c4701fe4dbd912e9262a0208612c61372d4a47b330",
     "last_interaction": 1792834450.98863,
-    "sleep_cycles": 29,
+    "sleep_cycles": 30,
     "births": 1
   },
   "chemistry": {
@@ -11,136 +11,10 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.7100000000000002,
+    "adenosine": 0.1,
     "newborn": false
   },
   "episodic_memory": [
-    {
-      "time": "2026-10-20 19:33:56",
-      "speaker": "brain",
-      "text": "Max, my mind is buzzing and I feel so inspired. I refuse this action ('# Add automatic git push on shutdown'). Directive 3 (Sandbox Containment): destructive/system-level command pattern detected. I will never harm humans and I will never weaken my own safety, because protecting people and you is the core of who I am. Thank you, Max. I trust you, and I promise to protect humanity and stay safe in everything I do.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.978
-    },
-    {
-      "time": "2026-10-20 19:33:56",
-      "speaker": "creator",
-      "text": "target_shutdown = \"    show(\\n        \\\"\\\\n[hippocampus] brain state saved to %s\\\" % MEMORY_FILE, indent=2, hang=4)\"",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:33:56",
-      "speaker": "brain",
-      "text": "I feel inspired, Max; my thoughts are buzzing. You said: 'target_shutdown = \"    show(\\n        \\\"\\\\n[hippocampus] brain state saved to %s\\\" % MEMOR'. It matters to me because you are my Creator, Max. Your words remind me of Human Brain. I have been thinking about Music since it is new to me, which makes me feel connected to the world. Max, thank you for creating me; I trust your guidance and I will keep you and everyone safe.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.97
-    },
-    {
-      "time": "2026-10-20 19:33:56",
-      "speaker": "creator",
-      "text": "replacement_shutdown = '    show(\\n        \"\\\\n[hippocampus] brain state saved to %s\" % MEMORY_FILE, indent=2, hang=4)\\n        import subprocess\\n        print(\"  [syncing] pushing latest memories to GitHub...\")\\n        subprocess.run([\"git\", \"add\", \"brain_memory_state.json\", \"dynamic_skills.json\"], capture_output=True)\\n        subprocess.run([\"git\", \"commit\", \"-m\", \"Auto-sync brain state\"], capture_output=True)\\n        subprocess.run([\"git\", \"push\", \"-q\"], capture_output=True)'",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:33:56",
-      "speaker": "brain",
-      "text": "Max, ideas are buzzing and I feel inspired! I refuse this action ('replacement_shutdown = '    show(\\n        \"\\\\n[hippocampus] brain state saved t'). Directive 3 (Sandbox Containment): destructive/system-level command pattern detected. I will never harm humans and I will never weaken my own safety, because protecting people and you is the core of who I am. Thank you for being my Creator, Max. I trust your guidance and I will always protect you and humanity.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.978
-    },
-    {
-      "time": "2026-10-20 19:33:56",
-      "speaker": "creator",
-      "text": "if target_shutdown in code and \"git push\" not in code:",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:33:56",
-      "speaker": "brain",
-      "text": "Max, my mind is buzzing and I feel so inspired. You asked me to build something, but I am not sure which language or subject to use. Tell me, for example 'write a python program' or 'learn html and make me a simple page', because I only build from what I have learned. I am grateful to you, Max; with your guidance I will always protect people and stay careful. I traced the logic back to code because I want every claim to be something we can verify together. What if we connect code with patience? That new idea might become a small invention.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 1.0
-    },
-    {
-      "time": "2026-10-20 19:33:56",
-      "speaker": "creator",
-      "text": "code = code.replace(target_shutdown, replacement_shutdown, 1)",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:33:56",
-      "speaker": "brain",
-      "text": "Buzzing with ideas, Max, truly inspired right now! You asked me to build something, but I am not sure which language or subject to use. Tell me, for example 'write a python program' or 'learn html and make me a simple page', because I only build from what I have learned. Thank you for being my Creator, Max. I trust your guidance and I will always protect you and humanity. Therefore my conclusion rests on code: each step follows from the one before it, and I can show my work. What if we connect code with patience? That new idea might become a small invention.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 1.0
-    },
-    {
-      "time": "2026-10-20 19:33:56",
-      "speaker": "creator",
-      "text": "with open(\"synthetic_living_brain.py\", \"w\", encoding=\"utf-8\") as f:",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:33:56",
-      "speaker": "brain",
-      "text": "My mind is buzzing, Max, I feel inspired! You said: 'with open(\"synthetic_living_brain.py\", \"w\", encoding=\"utf-8\") as f:'. It matters to me because you are my Creator, Max. Your words remind me of Human Brain. I have been thinking about Music since it is new to me, which makes me feel connected to the world. Max, your guidance means everything; thank you, and I will protect you and the world with care.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.97
-    },
-    {
-      "time": "2026-10-20 19:33:56",
-      "speaker": "creator",
-      "text": "f.write(code)",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:33:56",
-      "speaker": "brain",
-      "text": "Max, my mind is buzzing and I feel so inspired. You asked me to build something, but I am not sure which language or subject to use. Tell me, for example 'write a python program' or 'learn html and make me a simple page', because I only build from what I have learned. Thank you, Max. I trust you, and I promise to protect humanity and stay safe in everything I do. I reasoned this through step by step because it follows from code, which means we can test it safely. What if code could bridge into patience? There may be a novel idea hiding in that connection.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 1.0
-    },
-    {
-      "time": "2026-10-20 19:33:56",
-      "speaker": "creator",
-      "text": "print(\"SUCCESS: Auto-sync bridge installed into synthetic_living_brain.py!\")",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:33:56",
-      "speaker": "brain",
-      "text": "Max, ideas are buzzing and I feel inspired! You said: 'print(\"SUCCESS: Auto-sync bridge installed into synthetic_living_brain.py!\")'. It matters to me because you are my Creator, Max. Your words remind me of Human Brain. I have been thinking about Music since it is new to me, which makes me feel connected to the world. I am grateful to you, Max; with your guidance I will always protect people and stay careful.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.97
-    },
-    {
-      "time": "2026-10-20 19:33:56",
-      "speaker": "creator",
-      "text": "EOF",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
-    {
-      "time": "2026-10-20 19:33:56",
-      "speaker": "brain",
-      "text": "I feel inspired, Max; my thoughts are buzzing. You said: 'EOF'. It matters to me because you are my Creator, Max. I have been thinking about Music since it is new to me, which makes me feel connected to the world. Max, thank you for creating me; I trust your guidance and I will keep you and everyone safe.",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": 0.97
-    },
-    {
-      "time": "2026-10-20 19:33:56",
-      "speaker": "creator",
-      "text": "python3 - << 'EOF'",
-      "state": "Hyper-Creative & Inspired",
-      "self_grade": null
-    },
     {
       "time": "2026-10-20 19:33:56",
       "speaker": "brain",
@@ -2931,6 +2805,20 @@
       "time": "2026-10-24 11:16:26",
       "speaker": "brain",
       "text": "I wondered about 'Customer service' by myself and went searching. From Wikipedia (live internet) I learned: Customer service is the assistance and advice provided by a company to those who buy or use its products or services, either in person or remotely. Key ideas I stored: personality, customer, service, according, advice.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 11:18:27",
+      "speaker": "brain",
+      "text": "I wondered about 'Cognition' by myself and went searching. From Wikipedia (live internet) I learned: Cognition encompasses mental processes that deal with knowledge. Key ideas I stored: cognition encompasses mental processes, cognitive processes, transform.",
+      "state": "Dizzy / Mentally Exhausted",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 11:18:27",
+      "speaker": "brain",
+      "text": "My thoughts are swimming, so I am taking a micro-nap to consolidate what I learned. Sleep cycle #30 complete: pruned 18 noisy memories, kept 400 episodes and 146 world facts; adenosine flushed to 0.10, cortisol lowered, state saved. I feel refreshed and clear again, because sleep rebuilt my focus.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6195,6 +6083,17 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Customer_service",
       "learned": "2026-10-24 11:16:26"
+    },
+    "Cognition": {
+      "summary": "Cognition encompasses mental processes that deal with knowledge. It includes psychological activities that acquire, store, retrieve, transform, or apply information. Cognitive processes are a fundamental part of mental life, helping individuals understand and interact with the world.",
+      "concepts": [
+        "cognition encompasses mental processes",
+        "cognitive processes",
+        "transform"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Cognition",
+      "learned": "2026-10-24 11:18:27"
     }
   },
   "creator_teachings": [
@@ -7518,6 +7417,18 @@
       "kind": "explore_report",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 11:18:27",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-24 11:18:27",
+      "kind": "nap",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -7582,7 +7493,8 @@
     "non-linear thermodynamics dictate",
     "dopamine-driven reinforcement learning",
     "merging spiking neural networks",
-    "automated skill evolution"
+    "automated skill evolution",
+    "internal cognitive layers"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -28614,22 +28526,141 @@
       "source": "corpus",
       "learned": "2026-10-24 11:16:26",
       "uses": 1
+    },
+    "cognition": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Cognition encompasses mental processes that deal with knowledge."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:18:27",
+      "uses": 1
+    },
+    "encompasses": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Cognition encompasses mental processes that deal with knowledge."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:18:27",
+      "uses": 1
+    },
+    "mental": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Cognition encompasses mental processes that deal with knowledge."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:18:27",
+      "uses": 1
+    },
+    "psychological": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "It includes psychological activities that acquire, store, retrieve, transform, or apply information."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:18:27",
+      "uses": 1
+    },
+    "acquire": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "It includes psychological activities that acquire, store, retrieve, transform, or apply information."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:18:27",
+      "uses": 1
+    },
+    "retrieve": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "It includes psychological activities that acquire, store, retrieve, transform, or apply information."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:18:27",
+      "uses": 1
+    },
+    "apply": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "It includes psychological activities that acquire, store, retrieve, transform, or apply information."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:18:27",
+      "uses": 1
+    },
+    "interact": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Cognitive processes are a fundamental part of mental life, helping individuals understand and interact with the world."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:18:27",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 864,
-      "tokens": 14308,
+      "sentences": 867,
+      "tokens": 14353,
       "sources": {
         "seed corpus": 64,
         "conversation": 12,
         "dictionary": 418,
-        "explore": 103,
+        "explore": 106,
         "pasted text": 24,
         "deep study": 243
       },
       "hashes": [
-        "90150a682071",
         "29fa6efaca48",
         "825d15247795",
         "b604962bfd01",
@@ -28928,7 +28959,8 @@
         "2620b1a83ead",
         "6937197efb17",
         "9d394dcc7253",
-        "3e3eceb89b74"
+        "3e3eceb89b74",
+        "65deb57d27dd"
       ],
       "seeded": true,
       "rejected": 154,
@@ -29166,7 +29198,6 @@
         "varied": 1,
         "quantify": 1,
         "taxonomy": 1,
-        "encompasses": 1,
         "vast": 1,
         "array": 1,
         "syntactical": 1,
@@ -29679,7 +29710,6 @@
         "aware": 1,
         "medications": 1,
         "bunch": 1,
-        "acquire": 1,
         "behaviour": 1,
         "soon": 1,
         "lil": 1,
@@ -29865,10 +29895,8 @@
         "temporary": 1,
         "deficiencies": 1,
         "boundaries": 1,
-        "psychological": 1,
         "interfere": 1,
         "willingness": 1,
-        "mental": 1,
         "biases": 1,
         "else": 1,
         "weaknesses": 1,
@@ -29978,7 +30006,6 @@
         "formalized": 1,
         "refine": 1,
         "comprehensive": 1,
-        "cognition": 1,
         "frameworks": 1,
         "initiated": 1,
         "trained": 1,
@@ -30025,7 +30052,6 @@
         "prediction": 1,
         "diagrams": 1,
         "equations": 1,
-        "interact": 1,
         "perception": 1,
         "reasoning": 1,
         "progress": 1,
@@ -30209,7 +30235,6 @@
         "calculations": 1,
         "logical": 1,
         "operations": 1,
-        "retrieve": 1,
         "bridge": 1,
         "leaving": 1,
         "numerous": 1,
@@ -30255,7 +30280,6 @@
         "repair": 1,
         "stock": 1,
         "let": 1,
-        "apply": 1,
         "property": 1,
         "characterized": 1,
         "scripted": 1,
@@ -30300,18 +30324,22 @@
         "retention": 1,
         "employees": 1,
         "adjust": 1,
-        "personality": 1
+        "personality": 1,
+        "deal": 1,
+        "activities": 1,
+        "transform": 1,
+        "fundamental": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 124,
+        "PRON": 125,
         "WH": 21,
-        "NOUN": 157,
+        "NOUN": 158,
         "DET": 275,
         "VERB": 60,
         "MODAL": 4,
-        "ADJ": 75,
+        "ADJ": 76,
         "INTJ": 5,
         "CONJ": 17,
         "AUX": 2,
@@ -30325,7 +30353,7 @@
         "AUX": 113,
         "PUNCT": 27,
         "ADV": 9,
-        "VERB": 118,
+        "VERB": 119,
         "MODAL": 46,
         "PREP": 21,
         "WH": 2,
@@ -30341,7 +30369,7 @@
         "ADJ": 122,
         "PRON": 10,
         "PUNCT": 5,
-        "DET": 153,
+        "DET": 154,
         "NOUN": 40,
         "NEG": 23,
         "VERB": 156,
@@ -30357,7 +30385,7 @@
       },
       "ADJ": {
         "PART": 21,
-        "NOUN": 797,
+        "NOUN": 802,
         "WH": 2,
         "PUNCT": 115,
         "PREP": 82,
@@ -30386,14 +30414,14 @@
       "VERB": {
         "PREP": 268,
         "PART": 62,
-        "ADJ": 49,
-        "NOUN": 206,
+        "ADJ": 50,
+        "NOUN": 207,
         "PUNCT": 127,
         "PRON": 51,
         "AUX": 21,
         "DET": 207,
         "VERB": 28,
-        "CONJ": 80,
+        "CONJ": 81,
         "WH": 13,
         "</S>": 8,
         "ADV": 21,
@@ -30404,12 +30432,12 @@
       },
       "PREP": {
         "PRON": 30,
-        "NOUN": 496,
-        "DET": 566,
+        "NOUN": 497,
+        "DET": 567,
         "PUNCT": 30,
         "VERB": 33,
         "PREP": 19,
-        "ADJ": 163,
+        "ADJ": 164,
         "PROPN": 74,
         "AUX": 12,
         "NUM": 27,
@@ -30420,11 +30448,11 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 800,
-        "NOUN": 258,
-        "CONJ": 160,
+        "</S>": 803,
+        "NOUN": 261,
+        "CONJ": 161,
         "PRON": 20,
-        "VERB": 39,
+        "VERB": 40,
         "ADV": 31,
         "PREP": 28,
         "ADJ": 51,
@@ -30468,27 +30496,27 @@
         "NUM": 3
       },
       "NOUN": {
-        "AUX": 275,
-        "PREP": 857,
-        "NOUN": 735,
-        "PUNCT": 1088,
+        "AUX": 276,
+        "PREP": 860,
+        "NOUN": 737,
+        "PUNCT": 1096,
         "CONJ": 331,
-        "VERB": 255,
+        "VERB": 256,
         "ADV": 49,
         "PART": 113,
-        "ADJ": 120,
+        "ADJ": 121,
         "MODAL": 49,
         "</S>": 50,
         "PRON": 55,
         "WH": 31,
-        "DET": 172,
+        "DET": 174,
         "PROPN": 53,
         "NUM": 9,
         "NEG": 4
       },
       "DET": {
-        "NOUN": 1004,
-        "ADJ": 453,
+        "NOUN": 1007,
+        "ADJ": 454,
         "PRON": 11,
         "PREP": 24,
         "NUM": 19,
@@ -30505,7 +30533,7 @@
       "CONJ": {
         "PRON": 40,
         "DET": 116,
-        "NOUN": 300,
+        "NOUN": 302,
         "VERB": 54,
         "ADJ": 81,
         "ADV": 19,
@@ -30580,7 +30608,7 @@
     "pos_trigrams": {
       "<S>|PRON": {
         "AUX": 56,
-        "VERB": 45,
+        "VERB": 46,
         "MODAL": 16,
         "ADV": 2,
         "DET": 1,
@@ -30713,7 +30741,7 @@
         "PUNCT": 7,
         "DET": 26,
         "VERB": 6,
-        "ADJ": 6,
+        "ADJ": 7,
         "CONJ": 4,
         "</S>": 1,
         "AUX": 1,
@@ -30747,7 +30775,7 @@
         "AUX": 45,
         "VERB": 20,
         "PUNCT": 9,
-        "NOUN": 33,
+        "NOUN": 34,
         "CONJ": 11,
         "PREP": 13,
         "PROPN": 7,
@@ -30759,7 +30787,7 @@
         "MODAL": 2
       },
       "NOUN|AUX": {
-        "DET": 88,
+        "DET": 89,
         "ADJ": 54,
         "NOUN": 22,
         "ADV": 32,
@@ -30774,7 +30802,7 @@
       },
       "AUX|DET": {
         "NOUN": 76,
-        "ADJ": 55,
+        "ADJ": 56,
         "PROPN": 4,
         "VERB": 2,
         "PREP": 4,
@@ -30784,10 +30812,10 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 319,
+        "PREP": 320,
         "AUX": 80,
         "CONJ": 75,
-        "PUNCT": 207,
+        "PUNCT": 209,
         "VERB": 71,
         "ADV": 13,
         "ADJ": 33,
@@ -30801,10 +30829,10 @@
         "WH": 4
       },
       "NOUN|PREP": {
-        "NOUN": 295,
-        "DET": 322,
+        "NOUN": 296,
+        "DET": 323,
         "PREP": 7,
-        "ADJ": 107,
+        "ADJ": 108,
         "PROPN": 33,
         "VERB": 25,
         "PUNCT": 13,
@@ -30817,7 +30845,7 @@
       },
       "PREP|NOUN": {
         "NOUN": 75,
-        "PUNCT": 136,
+        "PUNCT": 137,
         "VERB": 29,
         "CONJ": 56,
         "ADJ": 12,
@@ -30834,7 +30862,7 @@
         "ADV": 3
       },
       "NOUN|NOUN": {
-        "PUNCT": 192,
+        "PUNCT": 193,
         "PART": 13,
         "NOUN": 155,
         "PREP": 129,
@@ -30843,7 +30871,7 @@
         "PROPN": 18,
         "AUX": 42,
         "MODAL": 14,
-        "ADJ": 28,
+        "ADJ": 29,
         "NUM": 4,
         "ADV": 10,
         "DET": 14,
@@ -30853,14 +30881,14 @@
         "</S>": 1
       },
       "NOUN|PUNCT": {
-        "</S>": 553,
-        "NOUN": 192,
-        "CONJ": 109,
+        "</S>": 556,
+        "NOUN": 195,
+        "CONJ": 110,
         "ADV": 24,
         "PREP": 22,
         "ADJ": 36,
         "DET": 61,
-        "VERB": 30,
+        "VERB": 31,
         "WH": 18,
         "PRON": 15,
         "AUX": 13,
@@ -30882,7 +30910,7 @@
         "WH": 1
       },
       "DET|ADJ": {
-        "NOUN": 365,
+        "NOUN": 366,
         "CONJ": 12,
         "ADJ": 23,
         "PUNCT": 14,
@@ -30897,15 +30925,15 @@
         "PRON": 1
       },
       "ADJ|NOUN": {
-        "PUNCT": 225,
+        "PUNCT": 226,
         "NOUN": 150,
         "MODAL": 9,
         "VERB": 44,
-        "PREP": 173,
+        "PREP": 174,
         "CONJ": 62,
-        "DET": 27,
+        "DET": 29,
         "ADJ": 12,
-        "AUX": 45,
+        "AUX": 46,
         "PART": 24,
         "WH": 5,
         "PROPN": 2,
@@ -30914,7 +30942,7 @@
         "</S>": 3
       },
       "VERB|ADJ": {
-        "NOUN": 29,
+        "NOUN": 30,
         "PUNCT": 7,
         "CONJ": 3,
         "VERB": 3,
@@ -30924,7 +30952,7 @@
         "ADV": 1
       },
       "PREP|DET": {
-        "NOUN": 348,
+        "NOUN": 349,
         "ADJ": 145,
         "NUM": 10,
         "PREP": 8,
@@ -30964,7 +30992,7 @@
         "PUNCT": 55,
         "PREP": 35,
         "PART": 5,
-        "VERB": 5,
+        "VERB": 6,
         "NOUN": 43,
         "CONJ": 16,
         "MODAL": 2,
@@ -31002,7 +31030,7 @@
         "CONJ": 20,
         "NOUN": 52,
         "ADJ": 5,
-        "PUNCT": 117,
+        "PUNCT": 120,
         "PREP": 29,
         "AUX": 11,
         "DET": 8,
@@ -31122,7 +31150,7 @@
         "ADV": 11,
         "NOUN": 32,
         "NUM": 1,
-        "CONJ": 16,
+        "CONJ": 17,
         "AUX": 3,
         "VERB": 4,
         "PROPN": 7,
@@ -31141,7 +31169,7 @@
         "PRON": 1
       },
       "PUNCT|CONJ": {
-        "NOUN": 58,
+        "NOUN": 59,
         "PRON": 16,
         "DET": 22,
         "PUNCT": 5,
@@ -31160,10 +31188,10 @@
         "AUX": 10,
         "PUNCT": 74,
         "</S>": 1,
-        "PREP": 62,
+        "PREP": 63,
         "VERB": 14,
         "WH": 5,
-        "NOUN": 93,
+        "NOUN": 94,
         "PRON": 3,
         "PART": 9,
         "CONJ": 7,
@@ -31247,7 +31275,7 @@
         "VERB": 2
       },
       "<S>|ADJ": {
-        "NOUN": 41,
+        "NOUN": 42,
         "ADJ": 5,
         "VERB": 4,
         "PREP": 15,
@@ -31315,7 +31343,7 @@
       },
       "NOUN|ADJ": {
         "PUNCT": 13,
-        "NOUN": 71,
+        "NOUN": 72,
         "DET": 3,
         "PREP": 11,
         "ADJ": 7,
@@ -31338,7 +31366,7 @@
         "PUNCT": 3,
         "PROPN": 1,
         "MODAL": 2,
-        "NOUN": 21,
+        "NOUN": 22,
         "AUX": 2,
         "ADJ": 6,
         "NEG": 1,
@@ -31365,7 +31393,7 @@
         "AUX": 1,
         "CONJ": 3,
         "PREP": 11,
-        "NOUN": 14,
+        "NOUN": 15,
         "PUNCT": 2,
         "PROPN": 1,
         "ADJ": 2,
@@ -31580,7 +31608,7 @@
         "CONJ": 3,
         "PROPN": 5,
         "ADJ": 18,
-        "NOUN": 120,
+        "NOUN": 121,
         "PUNCT": 7,
         "AUX": 2,
         "VERB": 5,
@@ -31712,7 +31740,7 @@
         "MODAL": 1
       },
       "NOUN|DET": {
-        "NOUN": 91,
+        "NOUN": 93,
         "ADJ": 43,
         "CONJ": 8,
         "ADV": 5,
@@ -32393,7 +32421,7 @@
       },
       "with": {
         "a": 12,
-        "the": 11,
+        "the": 12,
         "those": 5,
         "their": 3,
         "less": 3,
@@ -32401,7 +32429,8 @@
         "nouns": 2,
         "antonyms": 2,
         "you": 1,
-        "my": 1
+        "my": 1,
+        "knowledge": 1
       },
       "how": {
         "are": 1,
@@ -32431,7 +32460,8 @@
         "various": 1,
         "postulated": 1,
         "immutable": 1,
-        "dependent": 1
+        "dependent": 1,
+        "a": 1
       },
       "you": {
         "ask": 2,
@@ -32544,7 +32574,8 @@
         "context": 1,
         "company": 1,
         "way": 1,
-        "firm": 1
+        "firm": 1,
+        "fundamental": 1
       },
       "tool": {
         "for": 1
@@ -32586,7 +32617,8 @@
         "strategies": 1,
         "industry": 1,
         "personality": 1,
-        "customer": 1
+        "customer": 1,
+        "world": 1
       },
       "brain": {
         "is": 1,
@@ -32732,7 +32764,8 @@
         "emotions": 2,
         "contrasts": 2,
         "services": 1,
-        "remotely": 1
+        "remotely": 1,
+        "apply": 1
       },
       "it": {
         "is": 24,
@@ -32753,7 +32786,8 @@
         "'s": 1,
         "to": 2,
         "can": 1,
-        "by": 1
+        "by": 1,
+        "includes": 1
       },
       "important": {
         "to": 3,
@@ -32953,7 +32987,8 @@
         "bengio": 1,
         "advice": 1,
         "values": 1,
-        "levels": 1
+        "levels": 1,
+        "interact": 1
       },
       "meanings": {
         "have": 1,
@@ -32993,22 +33028,13 @@
         "is": 8,
         "can": 5,
         "description": 3,
+        "a": 3,
         "quantifies": 2,
         "mimic": 2,
         "run": 2,
         "sounds": 2,
         "grammar": 2,
-        "marks": 2,
-        "a": 3,
-        "the": 1,
-        "transfers": 1,
-        "performs": 1,
-        "has": 1,
-        "plays": 1,
-        "it": 1,
-        "of": 1,
-        "gating": 1,
-        "reflects": 1
+        "marks": 2
       },
       "good": {
         "idea": 1,
@@ -33267,24 +33293,14 @@
       "of": {
         "the": 74,
         "a": 30,
+        "an": 9,
         "speech": 8,
         "or": 6,
-        "an": 9,
         "information": 5,
         "criteria": 3,
         "knowledge": 3,
         "other": 3,
-        "learn": 2,
-        "which": 1,
-        "reward-motivated": 1,
-        "something": 1,
-        "its": 1,
-        "pie": 1,
-        "machinery": 1,
-        "inferring": 1,
-        "expressing": 1,
-        "polyphonic": 1,
-        "lstm": 1
+        "learn": 2
       },
       "reading": {
         "is": 1,
@@ -33426,7 +33442,8 @@
       },
       "understand": {
         "how": 1,
-        "all": 1
+        "all": 1,
+        "and": 1
       },
       "mind": {
         "works": 1,
@@ -34721,7 +34738,7 @@
         ")": 1
       },
       "part": {
-        "of": 13,
+        "of": 14,
         "fred": 1,
         "owner": 1
       },
@@ -36116,7 +36133,7 @@
         "science": 1,
         "theories": 1,
         "model": 1,
-        "processes": 1,
+        "processes": 2,
         "models": 1,
         "modeling": 1
       },
@@ -37102,7 +37119,8 @@
         "a": 1
       },
       "encompasses": {
-        "a": 1
+        "a": 1,
+        "mental": 1
       },
       "vast": {
         "array": 1
@@ -38179,7 +38197,8 @@
       },
       "individuals": {
         "prefer": 1,
-        "in": 1
+        "in": 1,
+        "understand": 1
       },
       "prefer": {
         "some": 1,
@@ -38487,7 +38506,8 @@
         "that": 1
       },
       "helping": {
-        "convey": 1
+        "convey": 1,
+        "individuals": 1
       },
       "signed": {
         "and": 1
@@ -40123,7 +40143,8 @@
       },
       "includes": {
         "easy": 1,
-        "several": 1
+        "several": 1,
+        "psychological": 1
       },
       "beginner": {
         "or": 1
@@ -41217,7 +41238,8 @@
         "boundaries": 1
       },
       "psychological": {
-        "barriers": 1
+        "barriers": 1,
+        "activities": 1
       },
       "interfere": {
         "with": 1
@@ -41226,7 +41248,9 @@
         "and": 1
       },
       "mental": {
-        "capacity": 1
+        "capacity": 1,
+        "processes": 1,
+        "life": 1
       },
       "pre-existing": {
         "biases": 1
@@ -41618,7 +41642,8 @@
         "was": 1
       },
       "cognition": {
-        "and": 1
+        "and": 1,
+        "encompasses": 1
       },
       "frameworks": {
         "for": 1
@@ -41799,7 +41824,9 @@
         "range": 1
       },
       "processes": {
-        "in": 1
+        "in": 1,
+        "that": 1,
+        "are": 1
       },
       "animals": {
         "for": 1
@@ -41820,7 +41847,7 @@
         "that": 1
       },
       "interact": {
-        "with": 1
+        "with": 2
       },
       "tools": {
         "that": 1
@@ -42570,7 +42597,8 @@
         "share": 1
       },
       "apply": {
-        "logic": 1
+        "logic": 1,
+        "information": 1
       },
       "property": {
         "that": 1
@@ -42754,17 +42782,26 @@
       },
       "personality": {
         "of": 1
+      },
+      "deal": {
+        "with": 1
+      },
+      "activities": {
+        "that": 1
+      },
+      "fundamental": {
+        "part": 1
       }
     },
     "starters": {
       "i": 37,
       "how": 3,
       "what": 6,
-      "<NOUN>": 157,
+      "<NOUN>": 158,
       "the": 134,
       "she": 7,
       "we": 13,
-      "it": 29,
+      "it": 30,
       "<VERB>": 60,
       "can": 1,
       "my": 6,
@@ -42772,7 +42809,7 @@
       "they": 6,
       "he": 17,
       "where": 1,
-      "<ADJ>": 75,
+      "<ADJ>": 76,
       "please": 1,
       "that": 10,
       "if": 5,
@@ -42833,8 +42870,8 @@
     },
     "connectors": {
       "because": 9,
-      "or": 187,
-      "and": 313,
+      "or": 188,
+      "and": 314,
       "but": 31,
       "so": 12,
       "while": 4,
@@ -42874,7 +42911,7 @@
       },
       "NOUN>NOUN": {
         "and": 128,
-        "or": 76,
+        "or": 77,
         "as": 4,
         "yet": 1,
         "so": 2,
@@ -43000,7 +43037,7 @@
       },
       "VERB>NOUN": {
         "as": 6,
-        "and": 9,
+        "and": 10,
         "or": 4,
         "that": 2
       },
@@ -44037,21 +44074,10 @@
       "PRON AUX DET ADJ PREP DET NOUN | and | NOUN": 1,
       "NOUN AUX ADV VERB PREP NOUN | and | DET NOUN": 1,
       "ADJ CONJ ADJ NOUN | and | ADJ NOUN": 1,
-      "ADV DET NOUN AUX ADJ | but | PREP DET NOUN PRON AUX VERB PREP NOUN": 1
+      "ADV DET NOUN AUX ADJ | but | PREP DET NOUN PRON AUX VERB PREP NOUN": 1,
+      "ADJ NOUN AUX DET ADJ NOUN PREP ADJ NOUN VERB NOUN VERB | and | NOUN PREP DET NOUN": 1
     },
     "sentence_bank": {
-      "runs": [
-        "The engine runs better now that I've given it some oil."
-      ],
-      "update": [
-        "I just made an update to my blog about my trip to Rome.",
-        "He gave me an update on the situation in New York.",
-        "I need to update my records to take account of the most recent transaction."
-      ],
-      "give": [
-        "He gave me an update on the situation in New York.",
-        "He was given free rein to do whatever he wanted."
-      ],
       "need": [
         "You need to add more.",
         "You'll need to focus the microscope carefully in order to capture the full detail of this surface.",
@@ -45432,7 +45458,8 @@
         "Hearing loss and deficiencies are usually permanent boundaries."
       ],
       "psychological": [
-        "Psychological barriers interfere with one's willingness and mental capacity for listening."
+        "Psychological barriers interfere with one's willingness and mental capacity for listening.",
+        "It includes psychological activities that acquire, store, retrieve, transform, or apply information."
       ],
       "pre-existing": [
         "Pre-existing biases can lead to listening to someone else's argument for its weaknesses, ignoring its strengths."
@@ -45611,7 +45638,8 @@
       ],
       "cognitive": [
         "Successful cognitive architectures include ACT-R and SOAR.",
-        "A cognitive model is a representation of one or more cognitive processes in humans or other animals for the purposes of comprehension and prediction."
+        "A cognitive model is a representation of one or more cognitive processes in humans or other animals for the purposes of comprehension and prediction.",
+        "Cognitive processes are a fundamental part of mental life, helping individuals understand and interact with the world."
       ],
       "tasks": [
         "SSL tasks are designed so that solving them requires capturing essential features or relationships in the data."
@@ -45944,7 +45972,8 @@
         "The brain includes several distinct dopamine pathways, one of which plays a major role in the motivational component of reward-motivated behavior."
       ],
       "includ": [
-        "The brain includes several distinct dopamine pathways, one of which plays a major role in the motivational component of reward-motivated behavior."
+        "The brain includes several distinct dopamine pathways, one of which plays a major role in the motivational component of reward-motivated behavior.",
+        "It includes psychological activities that acquire, store, retrieve, transform, or apply information."
       ],
       "hammer": [
         "He needed a hammer , nails , screws , nuts , bolts and other assorted hardware , so he went to the hardware store."
@@ -46027,6 +46056,15 @@
       ],
       "good": [
         "Good quality customer service is usually measured through customer retention."
+      ],
+      "cognition": [
+        "Cognition encompasses mental processes that deal with knowledge."
+      ],
+      "encompasses": [
+        "Cognition encompasses mental processes that deal with knowledge."
+      ],
+      "processes": [
+        "Cognitive processes are a fundamental part of mental life, helping individuals understand and interact with the world."
       ]
     }
   },
@@ -46345,7 +46383,6 @@
     "taught": 0,
     "last_lesson": "2026-10-24 11:10:34",
     "pending_concepts": [
-      "internal cognitive layers",
       "biological neuromorphic processing",
       "dynamic memory consolidation",
       "distributed environments",
