@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.6300000000000001,
+    "adenosine": 0.6900000000000002,
     "newborn": false
   },
   "episodic_memory": [
@@ -2917,6 +2917,13 @@
       "time": "2026-10-24 15:10:35",
       "speaker": "brain",
       "text": "I wondered about 'Fractal' by myself and went searching. From Wikipedia (live internet) I learned: In mathematics, a fractal is a geometric shape containing detailed structure at arbitrarily small scales, usually having a fractal dimension strictly exceeding the topological dimension. Key ideas I stored: fractal geometry, fractal dimension, affine self-similar, menger sponge, hausdorff dimension.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 15:12:36",
+      "speaker": "brain",
+      "text": "I wondered about 'Emotion' by myself and went searching. From Wikipedia (live internet) I learned: Emotions are physical and mental states brought on by neurophysiological and neuropsychological changes, variously associated with subjective experiences such as thoughts, feelings, behavioral responses, and a degree of pleasure or displeasure. Key ideas I stored: scientific consensus, neurophysiological, neuropsychological, personality.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6486,6 +6493,18 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Fractal",
       "learned": "2026-10-24 15:10:35"
+    },
+    "Emotion": {
+      "summary": "Emotions are physical and mental states brought on by neurophysiological and neuropsychological changes, variously associated with subjective experiences such as thoughts, feelings, behavioral responses, and a degree of pleasure or displeasure. There is no scientific consensus on a definition. Emotions are often intertwined with mood, temperament, personality, disposition, or creativity.",
+      "concepts": [
+        "scientific consensus",
+        "neurophysiological",
+        "neuropsychological",
+        "personality"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Emotion",
+      "learned": "2026-10-24 15:12:36"
     }
   },
   "creator_teachings": [
@@ -8271,6 +8290,12 @@
       "kind": "explore_report",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 15:12:36",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -8362,7 +8387,9 @@
     "neurons",
     "artificial intelligence",
     "photon",
-    "fractal"
+    "fractal",
+    "photons",
+    "emotion"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -37599,22 +37626,51 @@
       "source": "corpus",
       "learned": "2026-10-24 15:10:35",
       "uses": 1
+    },
+    "personality": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Emotions are often intertwined with mood, temperament, personality, disposition, or creativity."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 15:12:36",
+      "uses": 1
+    },
+    "disposition": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Emotions are often intertwined with mood, temperament, personality, disposition, or creativity."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 15:12:36",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 1267,
-      "tokens": 20243,
+      "sentences": 1269,
+      "tokens": 20268,
       "sources": {
         "seed corpus": 64,
         "conversation": 16,
         "dictionary": 739,
-        "explore": 181,
+        "explore": 183,
         "pasted text": 24,
         "deep study": 243
       },
       "hashes": [
-        "da669c5adafa",
         "89581742a3d8",
         "afd6e24ef45a",
         "55889c5cda4c",
@@ -37913,10 +37969,11 @@
         "33ec0120db44",
         "2a533dd76066",
         "faaa943fb8e2",
-        "c45f727c48d3"
+        "c45f727c48d3",
+        "b411468f0383"
       ],
       "seeded": true,
-      "rejected": 231,
+      "rejected": 232,
       "vocab_counts": {
         "tool": 1,
         "organ": 1,
@@ -38753,7 +38810,6 @@
         "alphabetically": 1,
         "shelf": 1,
         "arrangement": 1,
-        "disposition": 1,
         "mistake": 1,
         "connected": 1,
         "grandpa": 1,
@@ -39037,7 +39093,6 @@
         "reflects": 1,
         "employees": 1,
         "adjust": 1,
-        "personality": 1,
         "deal": 1,
         "activities": 1,
         "transform": 1,
@@ -39597,14 +39652,19 @@
         "magnifications": 1,
         "geometry": 1,
         "relates": 1,
-        "measure": 1
+        "measure": 1,
+        "scientific": 1,
+        "intertwined": 1,
+        "mood": 1,
+        "temperament": 1,
+        "creativity": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
         "PRON": 189,
         "WH": 24,
-        "NOUN": 244,
+        "NOUN": 246,
         "DET": 414,
         "VERB": 93,
         "MODAL": 4,
@@ -39639,12 +39699,12 @@
         "ADJ": 185,
         "PRON": 12,
         "PUNCT": 6,
-        "DET": 222,
+        "DET": 223,
         "NOUN": 52,
         "NEG": 32,
         "VERB": 217,
         "INTJ": 1,
-        "ADV": 72,
+        "ADV": 73,
         "CONJ": 9,
         "NUM": 13,
         "PROPN": 4,
@@ -39655,7 +39715,7 @@
       },
       "ADJ": {
         "PART": 28,
-        "NOUN": 1077,
+        "NOUN": 1078,
         "WH": 2,
         "PUNCT": 194,
         "PREP": 120,
@@ -39682,7 +39742,7 @@
         "PUNCT": 7
       },
       "VERB": {
-        "PREP": 379,
+        "PREP": 380,
         "PART": 86,
         "ADJ": 69,
         "NOUN": 321,
@@ -39702,8 +39762,8 @@
       },
       "PREP": {
         "PRON": 47,
-        "NOUN": 719,
-        "DET": 777,
+        "NOUN": 720,
+        "DET": 778,
         "PUNCT": 40,
         "VERB": 53,
         "PREP": 21,
@@ -39718,9 +39778,9 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 1154,
-        "NOUN": 404,
-        "CONJ": 228,
+        "</S>": 1156,
+        "NOUN": 407,
+        "CONJ": 229,
         "PRON": 28,
         "VERB": 59,
         "ADV": 50,
@@ -39755,7 +39815,7 @@
         "NOUN": 48,
         "CONJ": 9,
         "DET": 19,
-        "VERB": 133,
+        "VERB": 134,
         "</S>": 2,
         "PRON": 3,
         "MODAL": 1,
@@ -39767,10 +39827,10 @@
         "NUM": 3
       },
       "NOUN": {
-        "AUX": 406,
-        "PREP": 1228,
+        "AUX": 408,
+        "PREP": 1229,
         "NOUN": 1020,
-        "PUNCT": 1576,
+        "PUNCT": 1582,
         "CONJ": 467,
         "VERB": 344,
         "ADV": 65,
@@ -39786,8 +39846,8 @@
         "NEG": 6
       },
       "DET": {
-        "NOUN": 1423,
-        "ADJ": 616,
+        "NOUN": 1424,
+        "ADJ": 617,
         "PRON": 16,
         "PREP": 34,
         "NUM": 34,
@@ -39805,7 +39865,7 @@
       "CONJ": {
         "PRON": 61,
         "DET": 152,
-        "NOUN": 437,
+        "NOUN": 438,
         "VERB": 82,
         "ADJ": 110,
         "ADV": 30,
@@ -39949,7 +40009,7 @@
       "VERB|PREP": {
         "PRON": 14,
         "DET": 154,
-        "NOUN": 97,
+        "NOUN": 98,
         "PUNCT": 16,
         "VERB": 8,
         "ADJ": 42,
@@ -40061,7 +40121,7 @@
         "DET": 1
       },
       "<S>|NOUN": {
-        "AUX": 68,
+        "AUX": 70,
         "VERB": 32,
         "PUNCT": 10,
         "NOUN": 46,
@@ -40076,10 +40136,10 @@
         "MODAL": 2
       },
       "NOUN|AUX": {
-        "DET": 129,
+        "DET": 130,
         "ADJ": 83,
         "NOUN": 28,
-        "ADV": 47,
+        "ADV": 48,
         "VERB": 75,
         "CONJ": 5,
         "NUM": 7,
@@ -40092,7 +40152,7 @@
       },
       "AUX|DET": {
         "NOUN": 117,
-        "ADJ": 81,
+        "ADJ": 82,
         "PROPN": 4,
         "VERB": 4,
         "PREP": 4,
@@ -40105,7 +40165,7 @@
         "PREP": 446,
         "AUX": 114,
         "CONJ": 108,
-        "PUNCT": 301,
+        "PUNCT": 302,
         "VERB": 100,
         "ADV": 17,
         "ADJ": 43,
@@ -40120,7 +40180,7 @@
       },
       "NOUN|PREP": {
         "NOUN": 457,
-        "DET": 442,
+        "DET": 443,
         "PREP": 8,
         "ADJ": 150,
         "PROPN": 40,
@@ -40135,7 +40195,7 @@
       },
       "PREP|NOUN": {
         "NOUN": 115,
-        "PUNCT": 198,
+        "PUNCT": 199,
         "VERB": 36,
         "CONJ": 76,
         "ADJ": 19,
@@ -40171,9 +40231,9 @@
         "</S>": 2
       },
       "NOUN|PUNCT": {
-        "</S>": 802,
-        "NOUN": 298,
-        "CONJ": 155,
+        "</S>": 804,
+        "NOUN": 301,
+        "CONJ": 156,
         "ADV": 38,
         "PREP": 32,
         "ADJ": 47,
@@ -40202,7 +40262,7 @@
         "PRON": 1
       },
       "DET|ADJ": {
-        "NOUN": 489,
+        "NOUN": 490,
         "CONJ": 21,
         "ADJ": 29,
         "PUNCT": 24,
@@ -40221,7 +40281,7 @@
         "NOUN": 191,
         "MODAL": 11,
         "VERB": 57,
-        "PREP": 228,
+        "PREP": 229,
         "CONJ": 82,
         "DET": 41,
         "ADJ": 17,
@@ -40246,7 +40306,7 @@
         "MODAL": 1
       },
       "PREP|DET": {
-        "NOUN": 483,
+        "NOUN": 484,
         "ADJ": 194,
         "NUM": 16,
         "PREP": 11,
@@ -40328,7 +40388,7 @@
         "CONJ": 33,
         "NOUN": 72,
         "ADJ": 8,
-        "PUNCT": 188,
+        "PUNCT": 191,
         "PREP": 55,
         "AUX": 13,
         "DET": 9,
@@ -40471,7 +40531,7 @@
         "PART": 1
       },
       "PUNCT|CONJ": {
-        "NOUN": 79,
+        "NOUN": 80,
         "PRON": 23,
         "DET": 32,
         "PUNCT": 5,
@@ -40489,7 +40549,7 @@
       },
       "CONJ|NOUN": {
         "AUX": 14,
-        "PUNCT": 109,
+        "PUNCT": 110,
         "</S>": 1,
         "PREP": 81,
         "VERB": 16,
@@ -40773,7 +40833,7 @@
       "AUX|ADV": {
         "ADJ": 11,
         "NOUN": 10,
-        "VERB": 35,
+        "VERB": 36,
         "ADV": 4,
         "PREP": 4,
         "DET": 7,
@@ -40916,7 +40976,7 @@
         "PART": 10,
         "NOUN": 20,
         "CONJ": 19,
-        "PREP": 38,
+        "PREP": 39,
         "WH": 3,
         "PUNCT": 4,
         "ADJ": 5,
@@ -41868,7 +41928,8 @@
         "communication": 1,
         "activity": 1,
         "another": 1,
-        "various": 1
+        "various": 1,
+        "mood": 1
       },
       "how": {
         "are": 1,
@@ -41891,7 +41952,7 @@
         "used": 9,
         "conjunctions": 5,
         "not": 4,
-        "often": 4,
+        "often": 5,
         "very": 3,
         "you": 2,
         "artificial": 2,
@@ -42006,7 +42067,8 @@
         "made": 1,
         "added": 1,
         "evidence": 1,
-        "unique": 1
+        "unique": 1,
+        "no": 1
       },
       "a": {
         "noun": 18,
@@ -42021,7 +42083,8 @@
         "varying": 3,
         "type": 1,
         "fractal": 2,
-        "geometric": 1
+        "geometric": 1,
+        "definition": 1
       },
       "for": {
         "example": 11,
@@ -42217,7 +42280,8 @@
         "emotions": 2,
         "contrasts": 2,
         "silver": 1,
-        "kind": 1
+        "kind": 1,
+        "creativity": 1
       },
       "it": {
         "is": 30,
@@ -43211,7 +43275,7 @@
       },
       "on": {
         "the": 32,
-        "a": 7,
+        "a": 8,
         "devices": 2,
         "their": 3,
         "conversational": 1,
@@ -44418,7 +44482,8 @@
         "built": 1,
         "practiced": 1,
         "for": 1,
-        "transparent": 1
+        "transparent": 1,
+        "intertwined": 1
       },
       "separate": {
         "clauses": 2,
@@ -44675,7 +44740,7 @@
       },
       "there": {
         "was": 4,
-        "is": 7,
+        "is": 8,
         "are": 7,
         "'s": 1,
         "last": 1
@@ -46996,7 +47061,8 @@
         "different": 1,
         "exact": 1,
         "concrete": 1,
-        "function": 1
+        "function": 1,
+        "scientific": 1
       },
       "normal": {
         "senses": 2,
@@ -47708,7 +47774,7 @@
         "consensus": 2
       },
       "consensus": {
-        "on": 2
+        "on": 3
       },
       "adoption": {
         "to": 2
@@ -52463,7 +52529,8 @@
         "in": 1
       },
       "scientific": {
-        "revolution": 1
+        "revolution": 1,
+        "consensus": 1
       },
       "revolution": {
         "and": 1
@@ -53676,13 +53743,19 @@
       },
       "hausdorff": {
         "dimension": 1
+      },
+      "emotions": {
+        "are": 1
+      },
+      "intertwined": {
+        "with": 1
       }
     },
     "starters": {
       "i": 52,
       "how": 4,
       "what": 6,
-      "<NOUN>": 244,
+      "<NOUN>": 246,
       "the": 193,
       "she": 13,
       "we": 15,
@@ -53760,7 +53833,7 @@
     },
     "connectors": {
       "because": 12,
-      "or": 273,
+      "or": 274,
       "and": 435,
       "but": 43,
       "so": 18,
@@ -53805,7 +53878,7 @@
       },
       "NOUN>NOUN": {
         "and": 179,
-        "or": 116,
+        "or": 117,
         "as": 6,
         "yet": 2,
         "so": 2,
@@ -55434,19 +55507,6 @@
       "NOUN PREP NOUN PART VERB NOUN PREP NOUN DET NOUN PREP DET NOUN | and | NOUN PREP DET ADJ": 1
     },
     "sentence_bank": {
-      "parents": [
-        "Son of the same parents as another person.",
-        "Everyone is related to their parents."
-      ],
-      "kid": [
-        "When you kids form a straight line I'll hand out the lollies."
-      ],
-      "roll": [
-        "Roll out the dough to form a thin sheet."
-      ],
-      "dough": [
-        "Roll out the dough to form a thin sheet."
-      ],
       "shape": [
         "The shape or visible structure of a thing or person."
       ],
@@ -57370,6 +57430,18 @@
       ],
       "geometry": [
         "Fractal geometry relates to the mathematical branch of measure theory by their Hausdorff dimension."
+      ],
+      "scientific": [
+        "There is no scientific consensus on a definition."
+      ],
+      "consensus": [
+        "There is no scientific consensus on a definition."
+      ],
+      "emotions": [
+        "Emotions are often intertwined with mood, temperament, personality, disposition, or creativity."
+      ],
+      "intertwin": [
+        "Emotions are often intertwined with mood, temperament, personality, disposition, or creativity."
       ]
     }
   },
