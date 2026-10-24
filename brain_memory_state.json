@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.46,
+    "adenosine": 0.52,
     "newborn": false
   },
   "episodic_memory": [
@@ -2882,6 +2882,20 @@
       "time": "2026-10-24 11:02:24",
       "speaker": "brain",
       "text": "I wondered about 'Fluctuation theorem' by myself and went searching. From Wikipedia (live internet) I learned: The fluctuation theorem (FT), which originated from statistical mechanics, deals with the relative probability that the entropy of a system which is currently away from thermodynamic equilibrium will increase or decrease over a given amount of time. Key ideas I stored: fluctuation theorem, statistical mechanics, thermodynamic equilibrium, relative probability, nonzero probability.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 11:04:31",
+      "speaker": "brain",
+      "text": "I practised my English because I want to talk with you more naturally. I learned 6 new words: 'modern' (an adjective) means pertaining to a current or recent time and style; not ancient; 'computer' (a noun) means a programmable electronic device that performs mathematical calculations and logical opera; 'bridges' (a noun) means plural of bridge; 'problem' (a noun) means a difficulty that has to be resolved or dealt with and 2 more. Now I know 439 words, I have studied 827 sentences, and I have 74 sentence patterns.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 11:06:25",
+      "speaker": "brain",
+      "text": "I wondered about 'Dopamine' by myself and went searching. From Wikipedia (live internet) I learned: Dopamine is a neuromodulatory molecule that plays several important roles in cells. Key ideas I stored: distinct dopamine pathways, neuromodulatory molecule, neurotransmitter, neurons, l-dopa.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6104,6 +6118,20 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Fluctuation_theorem",
       "learned": "2026-10-24 11:02:24"
+    },
+    "Dopamine": {
+      "summary": "Dopamine is a neuromodulatory molecule that plays several important roles in cells. It is an organic chemical of the catecholamine and phenethylamine families. It is an amine synthesized by removing a carboxyl group through decarboxylation from a molecule of its precursor chemical, L-DOPA, which is synthesized in the brain and kidneys. Dopamine is also synthesized in plants and most animals. In the brain, dopamine functions as a neurotransmitter—a chemical released by neurons to send signals to other nerve cells. The brain includes several distinct dopamine pathways, one of which plays a major role in the motivational component of reward-motivated behavior.",
+      "concepts": [
+        "distinct dopamine pathways",
+        "neuromodulatory molecule",
+        "neurotransmitter",
+        "neurons",
+        "l-dopa",
+        "decarboxylation"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Dopamine",
+      "learned": "2026-10-24 11:06:25"
     }
   },
   "creator_teachings": [
@@ -7385,6 +7413,18 @@
       "kind": "explore_report",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 11:04:31",
+      "kind": "language_lesson",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-24 11:06:25",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -7446,7 +7486,8 @@
     "git",
     "transformer",
     "localized synaptic plasticity",
-    "non-linear thermodynamics dictate"
+    "non-linear thermodynamics dictate",
+    "dopamine-driven reinforcement learning"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -27707,17 +27748,131 @@
       "source": "corpus",
       "learned": "2026-10-24 11:04:27",
       "uses": 1
+    },
+    "molecule": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:06:25",
+      "uses": 1
+    },
+    "chemical": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:06:25",
+      "uses": 1
+    },
+    "synthesized": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:06:25",
+      "uses": 1
+    },
+    "dopamine": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Dopamine is also synthesized in plants and most animals."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:06:25",
+      "uses": 1
+    },
+    "animals": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Dopamine is also synthesized in plants and most animals."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:06:25",
+      "uses": 1
+    },
+    "released": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "In the brain, dopamine functions as a neurotransmitter—a chemical released by neurons to send signals to other nerve cells."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:06:25",
+      "uses": 1
+    },
+    "cells": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "In the brain, dopamine functions as a neurotransmitter—a chemical released by neurons to send signals to other nerve cells."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:06:25",
+      "uses": 1
+    },
+    "includes": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The brain includes several distinct dopamine pathways, one of which plays a major role in the motivational component of reward-motivated behavior."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:06:25",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 827,
-      "tokens": 13619,
+      "sentences": 833,
+      "tokens": 13731,
       "sources": {
         "seed corpus": 64,
         "conversation": 12,
         "dictionary": 395,
-        "explore": 89,
+        "explore": 95,
         "pasted text": 24,
         "deep study": 243
       },
@@ -28019,7 +28174,8 @@
         "df7623fbfcbc",
         "2075c49a0732",
         "7c7d0f1caa8d",
-        "9248d03a5d64"
+        "9248d03a5d64",
+        "12c874d53fca"
       ],
       "seeded": true,
       "rejected": 151,
@@ -28766,7 +28922,6 @@
         "based": 1,
         "semantic": 1,
         "helpful": 1,
-        "includes": 1,
         "regular": 1,
         "irregular": 1,
         "chatty": 1,
@@ -28898,7 +29053,6 @@
         "mixed": 1,
         "reviews": 1,
         "critics": 1,
-        "released": 1,
         "factory": 1,
         "obscuring": 1,
         "penis": 1,
@@ -29133,7 +29287,6 @@
         "opponent": 1,
         "falling": 1,
         "accepted": 1,
-        "animals": 1,
         "prediction": 1,
         "diagrams": 1,
         "equations": 1,
@@ -29344,15 +29497,33 @@
         "festival": 1,
         "compiling": 1,
         "gathering": 1,
-        "sources": 1
+        "sources": 1,
+        "neuromodulatory": 1,
+        "organic": 1,
+        "catecholamine": 1,
+        "phenethylamine": 1,
+        "families": 1,
+        "amine": 1,
+        "removing": 1,
+        "carboxyl": 1,
+        "decarboxylation": 1,
+        "precursor": 1,
+        "kidneys": 1,
+        "neurotransmitter": 1,
+        "send": 1,
+        "nerve": 1,
+        "pathways": 1,
+        "major": 1,
+        "motivational": 1,
+        "behavior": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 118,
+        "PRON": 120,
         "WH": 21,
-        "NOUN": 147,
-        "DET": 266,
+        "NOUN": 149,
+        "DET": 267,
         "VERB": 60,
         "MODAL": 3,
         "ADJ": 71,
@@ -29360,16 +29531,16 @@
         "CONJ": 17,
         "AUX": 2,
         "ADV": 8,
-        "PREP": 96,
+        "PREP": 97,
         "PART": 9,
         "NUM": 2,
         "NEG": 2
       },
       "PRON": {
-        "AUX": 105,
+        "AUX": 107,
         "PUNCT": 25,
         "ADV": 9,
-        "VERB": 113,
+        "VERB": 114,
         "MODAL": 44,
         "PREP": 17,
         "WH": 2,
@@ -29385,12 +29556,12 @@
         "ADJ": 117,
         "PRON": 10,
         "PUNCT": 5,
-        "DET": 145,
+        "DET": 148,
         "NOUN": 40,
         "NEG": 23,
-        "VERB": 145,
+        "VERB": 146,
         "INTJ": 1,
-        "ADV": 49,
+        "ADV": 50,
         "CONJ": 6,
         "NUM": 11,
         "PROPN": 2,
@@ -29401,16 +29572,16 @@
       },
       "ADJ": {
         "PART": 20,
-        "NOUN": 764,
+        "NOUN": 770,
         "WH": 2,
-        "PUNCT": 109,
-        "PREP": 78,
+        "PUNCT": 110,
+        "PREP": 80,
         "CONJ": 40,
         "PROPN": 17,
-        "ADJ": 72,
+        "ADJ": 74,
         "DET": 16,
         "AUX": 17,
-        "VERB": 41,
+        "VERB": 42,
         "MODAL": 6,
         "</S>": 2,
         "NUM": 2,
@@ -29418,7 +29589,7 @@
         "PRON": 1
       },
       "PART": {
-        "VERB": 168,
+        "VERB": 169,
         "AUX": 19,
         "ADJ": 11,
         "NOUN": 24,
@@ -29428,14 +29599,14 @@
         "PUNCT": 4
       },
       "VERB": {
-        "PREP": 249,
+        "PREP": 253,
         "PART": 60,
         "ADJ": 46,
-        "NOUN": 202,
+        "NOUN": 203,
         "PUNCT": 124,
         "PRON": 47,
         "AUX": 20,
-        "DET": 199,
+        "DET": 203,
         "VERB": 27,
         "CONJ": 77,
         "WH": 13,
@@ -29448,24 +29619,24 @@
       },
       "PREP": {
         "PRON": 28,
-        "NOUN": 478,
-        "DET": 527,
+        "NOUN": 483,
+        "DET": 534,
         "PUNCT": 29,
         "VERB": 32,
         "PREP": 17,
-        "ADJ": 157,
+        "ADJ": 158,
         "PROPN": 72,
         "AUX": 12,
         "NUM": 27,
-        "WH": 13,
+        "WH": 14,
         "CONJ": 9,
         "ADV": 7,
         "PART": 2,
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 763,
-        "NOUN": 237,
+        "</S>": 769,
+        "NOUN": 238,
         "CONJ": 152,
         "PRON": 18,
         "VERB": 37,
@@ -29473,21 +29644,21 @@
         "PREP": 28,
         "ADJ": 51,
         "DET": 89,
-        "WH": 26,
+        "WH": 27,
         "AUX": 16,
-        "NUM": 4,
+        "NUM": 5,
         "PUNCT": 12,
-        "PROPN": 22,
+        "PROPN": 23,
         "PART": 2,
         "NEG": 2,
         "INTJ": 2
       },
       "WH": {
-        "AUX": 23,
+        "AUX": 24,
         "DET": 29,
         "PRON": 10,
         "NOUN": 31,
-        "VERB": 12,
+        "VERB": 13,
         "MODAL": 5,
         "PREP": 3,
         "PART": 5,
@@ -29500,7 +29671,7 @@
         "NOUN": 32,
         "CONJ": 6,
         "DET": 9,
-        "VERB": 85,
+        "VERB": 86,
         "</S>": 2,
         "PRON": 1,
         "MODAL": 1,
@@ -29512,27 +29683,27 @@
         "NUM": 3
       },
       "NOUN": {
-        "AUX": 262,
-        "PREP": 821,
-        "NOUN": 694,
-        "PUNCT": 1030,
-        "CONJ": 310,
-        "VERB": 245,
+        "AUX": 264,
+        "PREP": 827,
+        "NOUN": 698,
+        "PUNCT": 1038,
+        "CONJ": 314,
+        "VERB": 248,
         "ADV": 49,
-        "PART": 109,
-        "ADJ": 116,
+        "PART": 110,
+        "ADJ": 117,
         "MODAL": 48,
         "</S>": 50,
-        "PRON": 50,
+        "PRON": 51,
         "WH": 29,
-        "DET": 164,
+        "DET": 165,
         "PROPN": 49,
         "NUM": 9,
         "NEG": 4
       },
       "DET": {
-        "NOUN": 952,
-        "ADJ": 429,
+        "NOUN": 962,
+        "ADJ": 437,
         "PRON": 10,
         "PREP": 23,
         "NUM": 18,
@@ -29548,8 +29719,8 @@
       },
       "CONJ": {
         "PRON": 39,
-        "DET": 111,
-        "NOUN": 279,
+        "DET": 113,
+        "NOUN": 281,
         "VERB": 52,
         "ADJ": 79,
         "ADV": 18,
@@ -29594,7 +29765,7 @@
       },
       "PROPN": {
         "DET": 4,
-        "PUNCT": 91,
+        "PUNCT": 92,
         "PART": 4,
         "NOUN": 95,
         "AUX": 14,
@@ -29610,7 +29781,7 @@
         "NOUN": 47,
         "PUNCT": 3,
         "CONJ": 13,
-        "PREP": 11,
+        "PREP": 12,
         "VERB": 2,
         "MODAL": 1,
         "ADJ": 4,
@@ -29623,7 +29794,7 @@
     },
     "pos_trigrams": {
       "<S>|PRON": {
-        "AUX": 53,
+        "AUX": 55,
         "VERB": 43,
         "MODAL": 15,
         "ADV": 2,
@@ -29634,7 +29805,7 @@
       },
       "PRON|AUX": {
         "ADJ": 27,
-        "DET": 13,
+        "DET": 15,
         "NEG": 8,
         "VERB": 30,
         "INTJ": 1,
@@ -29672,7 +29843,7 @@
         "PREP": 21,
         "ADJ": 12,
         "PUNCT": 21,
-        "NOUN": 40,
+        "NOUN": 41,
         "WH": 4,
         "DET": 38,
         "PART": 2,
@@ -29684,8 +29855,8 @@
       },
       "VERB|PREP": {
         "PRON": 9,
-        "DET": 99,
-        "NOUN": 70,
+        "DET": 100,
+        "NOUN": 73,
         "PUNCT": 8,
         "VERB": 4,
         "ADJ": 24,
@@ -29722,7 +29893,7 @@
         "PRON": 7,
         "DET": 4,
         "NOUN": 1,
-        "VERB": 7,
+        "VERB": 8,
         "PROPN": 1,
         "NEG": 2,
         "ADV": 1
@@ -29753,7 +29924,7 @@
         "NOUN": 15,
         "PRON": 13,
         "PUNCT": 7,
-        "DET": 24,
+        "DET": 25,
         "VERB": 6,
         "ADJ": 6,
         "CONJ": 4,
@@ -29786,7 +29957,7 @@
         "DET": 1
       },
       "<S>|NOUN": {
-        "AUX": 43,
+        "AUX": 45,
         "VERB": 19,
         "PUNCT": 8,
         "NOUN": 29,
@@ -29801,10 +29972,10 @@
         "MODAL": 2
       },
       "NOUN|AUX": {
-        "DET": 83,
+        "DET": 84,
         "ADJ": 51,
         "NOUN": 22,
-        "ADV": 29,
+        "ADV": 30,
         "VERB": 47,
         "CONJ": 4,
         "NUM": 6,
@@ -29815,8 +29986,8 @@
         "PREP": 1
       },
       "AUX|DET": {
-        "NOUN": 73,
-        "ADJ": 50,
+        "NOUN": 74,
+        "ADJ": 52,
         "PROPN": 4,
         "VERB": 2,
         "PREP": 4,
@@ -29826,14 +29997,14 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 304,
+        "PREP": 305,
         "AUX": 78,
-        "CONJ": 66,
-        "PUNCT": 198,
-        "VERB": 67,
+        "CONJ": 68,
+        "PUNCT": 200,
+        "VERB": 70,
         "ADV": 13,
-        "ADJ": 32,
-        "NOUN": 79,
+        "ADJ": 33,
+        "NOUN": 80,
         "PRON": 17,
         "PART": 31,
         "</S>": 2,
@@ -29843,8 +30014,8 @@
         "WH": 4
       },
       "NOUN|PREP": {
-        "NOUN": 287,
-        "DET": 300,
+        "NOUN": 289,
+        "DET": 304,
         "PREP": 7,
         "ADJ": 105,
         "PROPN": 33,
@@ -29859,28 +30030,28 @@
       },
       "PREP|NOUN": {
         "NOUN": 70,
-        "PUNCT": 132,
+        "PUNCT": 133,
         "VERB": 29,
-        "CONJ": 53,
+        "CONJ": 54,
         "ADJ": 12,
-        "DET": 23,
+        "DET": 24,
         "AUX": 10,
-        "PREP": 56,
+        "PREP": 57,
         "PRON": 11,
         "</S>": 43,
         "WH": 6,
-        "PART": 22,
+        "PART": 23,
         "PROPN": 3,
         "NUM": 3,
         "MODAL": 2,
         "ADV": 3
       },
       "NOUN|NOUN": {
-        "PUNCT": 179,
+        "PUNCT": 181,
         "PART": 12,
         "NOUN": 149,
-        "PREP": 127,
-        "CONJ": 53,
+        "PREP": 128,
+        "CONJ": 54,
         "VERB": 44,
         "PROPN": 15,
         "AUX": 35,
@@ -29895,8 +30066,8 @@
         "</S>": 1
       },
       "NOUN|PUNCT": {
-        "</S>": 527,
-        "NOUN": 173,
+        "</S>": 533,
+        "NOUN": 174,
         "CONJ": 103,
         "ADV": 23,
         "PREP": 22,
@@ -29906,14 +30077,14 @@
         "WH": 18,
         "PRON": 14,
         "AUX": 13,
-        "NUM": 3,
+        "NUM": 4,
         "PROPN": 4,
         "PART": 2,
         "PUNCT": 4,
         "NEG": 1
       },
       "<S>|DET": {
-        "NOUN": 171,
+        "NOUN": 172,
         "ADJ": 72,
         "PROPN": 11,
         "VERB": 2,
@@ -29924,11 +30095,11 @@
         "WH": 1
       },
       "DET|ADJ": {
-        "NOUN": 346,
+        "NOUN": 351,
         "CONJ": 11,
-        "ADJ": 21,
+        "ADJ": 23,
         "PUNCT": 13,
-        "VERB": 8,
+        "VERB": 9,
         "PREP": 12,
         "PART": 3,
         "PROPN": 5,
@@ -29939,11 +30110,11 @@
         "PRON": 1
       },
       "ADJ|NOUN": {
-        "PUNCT": 212,
-        "NOUN": 143,
+        "PUNCT": 214,
+        "NOUN": 144,
         "MODAL": 9,
         "VERB": 43,
-        "PREP": 165,
+        "PREP": 167,
         "CONJ": 60,
         "DET": 27,
         "ADJ": 12,
@@ -29952,7 +30123,7 @@
         "WH": 5,
         "PROPN": 2,
         "ADV": 8,
-        "PRON": 6,
+        "PRON": 7,
         "</S>": 3
       },
       "VERB|ADJ": {
@@ -29966,8 +30137,8 @@
         "ADV": 1
       },
       "PREP|DET": {
-        "NOUN": 323,
-        "ADJ": 135,
+        "NOUN": 328,
+        "ADJ": 137,
         "NUM": 9,
         "PREP": 7,
         "PROPN": 29,
@@ -29979,9 +30150,9 @@
       },
       "NOUN|CONJ": {
         "PRON": 6,
-        "DET": 51,
+        "DET": 53,
         "VERB": 17,
-        "NOUN": 154,
+        "NOUN": 156,
         "ADJ": 34,
         "WH": 4,
         "PREP": 8,
@@ -30003,7 +30174,7 @@
       },
       "VERB|NOUN": {
         "PUNCT": 54,
-        "PREP": 34,
+        "PREP": 35,
         "PART": 4,
         "VERB": 5,
         "NOUN": 43,
@@ -30041,7 +30212,7 @@
       },
       "PUNCT|NOUN": {
         "CONJ": 19,
-        "NOUN": 48,
+        "NOUN": 49,
         "ADJ": 4,
         "PUNCT": 104,
         "PREP": 27,
@@ -30055,7 +30226,7 @@
         "WH": 1
       },
       "CONJ|DET": {
-        "NOUN": 68,
+        "NOUN": 70,
         "ADJ": 24,
         "CONJ": 3,
         "PUNCT": 4,
@@ -30147,12 +30318,13 @@
         "ADV": 1,
         "PRON": 1,
         "NUM": 1,
-        "WH": 3
+        "WH": 3,
+        "PROPN": 1
       },
       "NOUN|VERB": {
         "PART": 7,
-        "DET": 60,
-        "PREP": 57,
+        "DET": 62,
+        "PREP": 58,
         "WH": 4,
         "PRON": 15,
         "PUNCT": 21,
@@ -30196,12 +30368,12 @@
       },
       "CONJ|NOUN": {
         "AUX": 9,
-        "PUNCT": 70,
+        "PUNCT": 71,
         "</S>": 1,
         "PREP": 58,
         "VERB": 12,
         "WH": 5,
-        "NOUN": 87,
+        "NOUN": 88,
         "PRON": 2,
         "PART": 9,
         "CONJ": 7,
@@ -30214,8 +30386,8 @@
         "ADV": 2
       },
       "VERB|DET": {
-        "NOUN": 117,
-        "ADJ": 65,
+        "NOUN": 118,
+        "ADJ": 68,
         "PREP": 2,
         "CONJ": 3,
         "DET": 5,
@@ -30264,7 +30436,7 @@
         "VERB": 2
       },
       "AUX|VERB": {
-        "PREP": 65,
+        "PREP": 66,
         "PUNCT": 19,
         "PART": 20,
         "PRON": 1,
@@ -30298,7 +30470,7 @@
       "NOUN|PART": {
         "ADJ": 7,
         "AUX": 9,
-        "VERB": 72,
+        "VERB": 73,
         "NOUN": 17,
         "CONJ": 1,
         "PUNCT": 2,
@@ -30350,7 +30522,7 @@
         "MODAL": 1
       },
       "NOUN|ADJ": {
-        "PUNCT": 12,
+        "PUNCT": 13,
         "NOUN": 69,
         "DET": 3,
         "PREP": 11,
@@ -30361,9 +30533,9 @@
       },
       "ADJ|PREP": {
         "NOUN": 38,
-        "DET": 26,
+        "DET": 27,
         "VERB": 3,
-        "ADJ": 7,
+        "ADJ": 8,
         "PROPN": 3,
         "WH": 1
       },
@@ -30439,7 +30611,7 @@
         "ADJ": 1
       },
       "WH|VERB": {
-        "DET": 2,
+        "DET": 3,
         "PUNCT": 3,
         "VERB": 1,
         "CONJ": 2,
@@ -30458,7 +30630,7 @@
       "AUX|ADV": {
         "ADJ": 6,
         "NOUN": 4,
-        "VERB": 26,
+        "VERB": 27,
         "ADV": 4,
         "PREP": 4,
         "DET": 4,
@@ -30584,7 +30756,7 @@
         "PART": 6,
         "NOUN": 13,
         "CONJ": 12,
-        "PREP": 24,
+        "PREP": 25,
         "WH": 1,
         "PUNCT": 2,
         "ADJ": 2,
@@ -30615,7 +30787,7 @@
         "CONJ": 3,
         "PROPN": 5,
         "ADJ": 16,
-        "NOUN": 116,
+        "NOUN": 117,
         "PUNCT": 7,
         "AUX": 2,
         "VERB": 5,
@@ -30650,7 +30822,7 @@
         "PRON": 1
       },
       "NOUN|PRON": {
-        "VERB": 12,
+        "VERB": 13,
         "AUX": 17,
         "PREP": 6,
         "MODAL": 10,
@@ -30676,7 +30848,7 @@
         "PROPN": 18,
         "CONJ": 12,
         "NOUN": 13,
-        "WH": 3,
+        "WH": 4,
         "PUNCT": 3,
         "ADV": 1,
         "AUX": 2,
@@ -30710,7 +30882,7 @@
         "ADJ": 6,
         "PUNCT": 10,
         "AUX": 5,
-        "PREP": 4,
+        "PREP": 6,
         "PART": 1,
         "VERB": 1,
         "MODAL": 1,
@@ -30719,7 +30891,7 @@
       },
       "PUNCT|WH": {
         "NOUN": 8,
-        "AUX": 3,
+        "AUX": 4,
         "DET": 8,
         "PREP": 3,
         "MODAL": 2,
@@ -30747,7 +30919,7 @@
       },
       "NOUN|DET": {
         "NOUN": 86,
-        "ADJ": 42,
+        "ADJ": 43,
         "CONJ": 8,
         "ADV": 5,
         "PRON": 5,
@@ -30809,7 +30981,7 @@
         "NOUN": 34,
         "PROPN": 9,
         "ADJ": 8,
-        "DET": 38,
+        "DET": 39,
         "CONJ": 3,
         "PUNCT": 3,
         "NUM": 1
@@ -30896,7 +31068,7 @@
       "PUNCT|NUM": {
         "CONJ": 2,
         "NOUN": 1,
-        "PREP": 1
+        "PREP": 2
       },
       "NUM|CONJ": {
         "NOUN": 11,
@@ -30944,7 +31116,7 @@
         "CONJ": 5,
         "PUNCT": 10,
         "PART": 1,
-        "PREP": 4,
+        "PREP": 5,
         "VERB": 3,
         "PRON": 1
       },
@@ -31003,7 +31175,7 @@
         "AUX": 2,
         "PART": 1,
         "NOUN": 1,
-        "VERB": 1,
+        "VERB": 2,
         "PRON": 1
       },
       "PREP|CONJ": {
@@ -31043,7 +31215,7 @@
       },
       "PUNCT|PROPN": {
         "PROPN": 10,
-        "PUNCT": 9,
+        "PUNCT": 10,
         "NOUN": 1,
         "CONJ": 1,
         "ADJ": 1
@@ -31096,7 +31268,8 @@
       "NUM|PREP": {
         "PREP": 3,
         "DET": 7,
-        "PRON": 1
+        "PRON": 1,
+        "WH": 1
       },
       "<S>|NUM": {
         "NOUN": 2
@@ -31405,7 +31578,9 @@
         "leverage": 1,
         "be": 2,
         "provide": 1,
-        "teaching": 1
+        "teaching": 1,
+        "send": 1,
+        "other": 1
       },
       "talk": {
         "with": 1,
@@ -31537,16 +31712,18 @@
         "models": 1
       },
       "is": {
-        "a": 55,
+        "a": 56,
         "the": 23,
-        "an": 12,
+        "an": 14,
         "one": 4,
         "important": 3,
         "vague": 3,
         "good": 3,
         "hard": 2,
         "usually": 2,
-        "here": 2
+        "here": 2,
+        "synthesized": 1,
+        "also": 1
       },
       "a": {
         "noun": 16,
@@ -31560,7 +31737,13 @@
         "thermodynamic": 3,
         "varying": 3,
         "house": 1,
-        "compilation": 1
+        "compilation": 1,
+        "neuromodulatory": 1,
+        "carboxyl": 1,
+        "molecule": 1,
+        "neurotransmitter": 1,
+        "chemical": 1,
+        "major": 1
       },
       "tool": {
         "for": 1
@@ -31597,13 +31780,18 @@
         "garden": 2,
         "best": 1,
         "festival": 1,
-        "act": 1
+        "act": 1,
+        "catecholamine": 1,
+        "brain": 3,
+        "motivational": 1
       },
       "brain": {
         "is": 1,
         "that": 1,
         "to": 1,
-        "'s": 1
+        "'s": 1,
+        "and": 1,
+        "includes": 1
       },
       "complex": {
         "organ": 1,
@@ -31752,7 +31940,7 @@
         "gathering": 1
       },
       "it": {
-        "is": 21,
+        "is": 23,
         "was": 7,
         "has": 3,
         "some": 1,
@@ -31775,7 +31963,8 @@
         "to": 3,
         "part": 2,
         "example": 1,
-        "neurochemical": 1
+        "neurochemical": 1,
+        "roles": 1
       },
       "thank": {
         "you": 1
@@ -31963,7 +32152,10 @@
         "memory": 1,
         "engined": 1,
         "logical": 1,
-        "retrieve": 1
+        "retrieve": 1,
+        "phenethylamine": 1,
+        "kidneys": 1,
+        "most": 1
       },
       "meanings": {
         "have": 1,
@@ -32011,7 +32203,8 @@
         "the": 1,
         "transfers": 1,
         "performs": 1,
-        "has": 1
+        "has": 1,
+        "plays": 1
       },
       "good": {
         "idea": 1,
@@ -32139,7 +32332,7 @@
         "in": 1
       },
       "in": {
-        "the": 55,
+        "the": 58,
         "a": 32,
         "english": 11,
         "many": 7,
@@ -32151,7 +32344,9 @@
         "which": 3,
         "their": 1,
         "sequence": 1,
-        "time": 1
+        "time": 1,
+        "cells": 1,
+        "plants": 1
       },
       "children": {
         "play": 1,
@@ -32278,7 +32473,7 @@
         "detail": 1
       },
       "of": {
-        "the": 67,
+        "the": 68,
         "a": 27,
         "speech": 8,
         "or": 6,
@@ -32288,16 +32483,8 @@
         "knowledge": 3,
         "other": 3,
         "learn": 2,
-        "application": 1,
-        "paradigm": 1,
-        "postulates": 1,
-        "exerting": 1,
-        "wood": 1,
-        "data": 1,
-        "bridge": 1,
-        "living": 1,
-        "some": 1,
-        "compiling": 1
+        "which": 1,
+        "reward-motivated": 1
       },
       "reading": {
         "is": 1,
@@ -32582,7 +32769,7 @@
       },
       "from": {
         "the": 10,
-        "a": 2,
+        "a": 3,
         "equilibrium": 1,
         "classical": 1,
         "erving": 1,
@@ -32769,7 +32956,9 @@
         "expression": 2,
         "auxiliary": 2,
         "easy": 1,
-        "immutable": 1
+        "immutable": 1,
+        "organic": 1,
+        "amine": 1
       },
       "update": {
         "to": 1,
@@ -32843,7 +33032,8 @@
         "good": 1,
         "money": 1,
         "points": 1,
-        "important": 1
+        "important": 1,
+        "animals": 1
       },
       "recent": {
         "transaction": 1,
@@ -32901,7 +33091,8 @@
         "growth": 1,
         "deliberate": 1,
         "top-down": 1,
-        "email": 1
+        "email": 1,
+        "decarboxylation": 1
       },
       "feedback": {
         "and": 1
@@ -32995,7 +33186,9 @@
         "was": 1,
         "contains": 1,
         "cannot": 1,
-        "induces": 1
+        "induces": 1,
+        "is": 1,
+        "plays": 1
       },
       "computes": {
         "error": 1
@@ -33071,7 +33264,9 @@
         "languages": 1,
         "combining": 1,
         "adding": 1,
-        "linguists": 1
+        "linguists": 1,
+        "removing": 1,
+        "neurons": 1
       },
       "thermodynamic": {
         "efficiency": 2,
@@ -33629,7 +33824,7 @@
       },
       "functions": {
         "of": 2,
-        "as": 4,
+        "as": 5,
         "that": 1,
         "and": 2,
         "such": 1,
@@ -33740,7 +33935,8 @@
         "conjuncts": 1,
         "strict": 1,
         "original": 1,
-        "infancy": 1
+        "infancy": 1,
+        "precursor": 1
       },
       "vague": {
         "enough": 4
@@ -33772,7 +33968,8 @@
         "grammatical": 2,
         "clauses": 1,
         "left": 1,
-        "figurative": 1
+        "figurative": 1,
+        "nerve": 1
       },
       "parts": {
         "of": 6,
@@ -33845,7 +34042,9 @@
         "include": 1
       },
       "several": {
-        "senses": 1
+        "senses": 1,
+        "important": 1,
+        "distinct": 1
       },
       "senses": {
         "and": 1,
@@ -33997,7 +34196,7 @@
         "to": 1
       },
       "as": {
-        "a": 19,
+        "a": 20,
         "the": 11,
         "in": 4,
         "not": 2,
@@ -34058,7 +34257,8 @@
         "denote": 1,
         "a": 1,
         "use": 1,
-        "functional": 1
+        "functional": 1,
+        "synthesized": 1
       },
       "referential": {
         "markers": 1
@@ -34234,7 +34434,8 @@
         "derive": 2,
         "whether": 1,
         "is": 1,
-        "no": 1
+        "no": 1,
+        "a": 1
       },
       "year": {
         "i": 1
@@ -34262,7 +34463,7 @@
         "more": 1
       },
       "one": {
-        "of": 6,
+        "of": 7,
         "or": 4,
         "entity": 3,
         "out": 3,
@@ -34293,7 +34494,8 @@
         "see": 1
       },
       "plants": {
-        "grown": 1
+        "grown": 1,
+        "and": 1
       },
       "grown": {
         "for": 1
@@ -34533,7 +34735,8 @@
       },
       "neurons": {
         "or": 1,
-        "into": 1
+        "into": 1,
+        "to": 1
       },
       "synapse": {
         "—": 1
@@ -35502,7 +35705,8 @@
         "the": 2
       },
       "roles": {
-        "of": 2
+        "of": 2,
+        "in": 1
       },
       "hungarian": {
         "sentences": 1,
@@ -35741,7 +35945,8 @@
         "neural": 1
       },
       "group": {
-        "or": 1
+        "or": 1,
+        "through": 1
       },
       "–": {
         "or": 2,
@@ -36050,7 +36255,8 @@
         "parts": 1,
         "physical": 1,
         "tenses": 1,
-        "existence": 1
+        "existence": 1,
+        "dopamine": 1
       },
       "problems": {
         "across": 1,
@@ -37394,7 +37600,7 @@
         "elements": 1
       },
       "component": {
-        "of": 1,
+        "of": 2,
         "in": 1,
         "that": 1
       },
@@ -39026,7 +39232,8 @@
         "list": 1
       },
       "includes": {
-        "easy": 1
+        "easy": 1,
+        "several": 1
       },
       "beginner": {
         "or": 1
@@ -39745,7 +39952,8 @@
         "from": 1
       },
       "released": {
-        "on": 1
+        "on": 1,
+        "by": 1
       },
       "dvd": {
         "after": 1
@@ -40039,10 +40247,11 @@
         "and": 1
       },
       "plays": {
-        "a": 1
+        "a": 2,
+        "several": 1
       },
       "role": {
-        "in": 1,
+        "in": 2,
         "of": 1
       },
       "intercultural": {
@@ -41367,17 +41576,82 @@
       },
       "gathering": {
         "together": 1
+      },
+      "dopamine": {
+        "is": 2,
+        "functions": 1,
+        "pathways": 1
+      },
+      "neuromodulatory": {
+        "molecule": 1
+      },
+      "molecule": {
+        "that": 1,
+        "of": 1
+      },
+      "organic": {
+        "chemical": 1
+      },
+      "chemical": {
+        "of": 1,
+        "released": 1
+      },
+      "catecholamine": {
+        "and": 1
+      },
+      "phenethylamine": {
+        "families": 1
+      },
+      "amine": {
+        "synthesized": 1
+      },
+      "synthesized": {
+        "by": 1,
+        "in": 2
+      },
+      "removing": {
+        "a": 1
+      },
+      "carboxyl": {
+        "group": 1
+      },
+      "decarboxylation": {
+        "from": 1
+      },
+      "precursor": {
+        "chemical": 1
+      },
+      "neurotransmitter": {
+        "—": 1
+      },
+      "send": {
+        "signals": 1
+      },
+      "signals": {
+        "to": 1
+      },
+      "nerve": {
+        "cells": 1
+      },
+      "major": {
+        "role": 1
+      },
+      "motivational": {
+        "component": 1
+      },
+      "reward-motivated": {
+        "behavior": 1
       }
     },
     "starters": {
       "i": 36,
       "how": 3,
       "what": 6,
-      "<NOUN>": 147,
-      "the": 127,
+      "<NOUN>": 149,
+      "the": 128,
       "she": 7,
       "we": 12,
-      "it": 27,
+      "it": 29,
       "<VERB>": 60,
       "can": 1,
       "my": 6,
@@ -41398,7 +41672,7 @@
       "<ADV>": 8,
       "an": 14,
       "however": 2,
-      "in": 64,
+      "in": 65,
       "for": 5,
       "toward": 1,
       "<PART>": 9,
@@ -41446,14 +41720,14 @@
     "connectors": {
       "because": 9,
       "or": 176,
-      "and": 297,
+      "and": 300,
       "but": 29,
       "so": 11,
       "while": 4,
       "than": 22,
       "therefore": 7,
       "if": 4,
-      "as": 93,
+      "as": 94,
       "however": 2,
       "whether": 2,
       "that": 7,
@@ -41476,16 +41750,16 @@
       },
       "NOUN>DET": {
         "or": 13,
-        "and": 20,
+        "and": 21,
         "but": 9,
         "if": 3,
         "though": 2,
-        "as": 14,
+        "as": 15,
         "than": 3,
         "while": 1
       },
       "NOUN>NOUN": {
-        "and": 119,
+        "and": 121,
         "or": 70,
         "as": 4,
         "yet": 1,
@@ -42630,39 +42904,11 @@
       "PRON VERB DET NOUN PREP VERB PREP NOUN DET NOUN | so | NOUN": 1,
       "PRON VERB DET ADJ NOUN | so | CONJ PART VERB DET NOUN DET VERB NOUN MODAL VERB DET ADJ NOUN": 1,
       "NOUN AUX ADV VERB PREP NUM NOUN | and | VERB PREP DET": 1,
-      "PRON AUX VERB | because | PRON VERB ADJ NOUN PART AUX PREP NOUN": 1
+      "PRON AUX VERB | because | PRON VERB ADJ NOUN PART AUX PREP NOUN": 1,
+      "PRON AUX DET ADJ PREP DET NOUN | and | NOUN": 1,
+      "NOUN AUX ADV VERB PREP NOUN | and | DET NOUN": 1
     },
     "sentence_bank": {
-      "enjoy": [
-        "I enjoy talking with my friend.",
-        "I enjoyed the interaction with a bunch of like-minded people.",
-        "She enjoyed the ease of living in a house where the servants did all the work."
-      ],
-      "curious": [
-        "We learn because we are curious."
-      ],
-      "difficult": [
-        "Although it is difficult, learning is rewarding.",
-        "The state of being difficult , or hard to do.",
-        "It is difficult to provide for my family working on minimum wage. provide against disaster."
-      ],
-      "knowledge": [
-        "Knowledge grows when people share it.",
-        "His knowledge of Iceland was limited to what he'd seen on the Travel Channel.",
-        "Each knowledge source updates the blackboard with a partial solution when its internal constraints match the blackboard state."
-      ],
-      "grow": [
-        "Knowledge grows when people share it."
-      ],
-      "kind": [
-        "A kind word can change a day.",
-        "The kind , condition , and/or the set of characteristics of something, as opposed to the quantity of something."
-      ],
-      "word": [
-        "This simply indicates that a word gradually enters a person's vocabulary over a period of time as more aspects of word knowledge are learnt.",
-        "The word “speak” is an English verb .",
-        "A word that indicates an action, event, or state of being."
-      ],
       "mother": [
         "My mother cooks dinner in the evening."
       ],
@@ -44636,6 +44882,30 @@
       ],
       "compiling": [
         "The act or process of compiling or gathering together from various sources."
+      ],
+      "dopamine": [
+        "Dopamine is a neuromodulatory molecule that plays several important roles in cells.",
+        "Dopamine is also synthesized in plants and most animals.",
+        "In the brain, dopamine functions as a neurotransmitter—a chemical released by neurons to send signals to other nerve cells."
+      ],
+      "neuromodulatory": [
+        "Dopamine is a neuromodulatory molecule that plays several important roles in cells."
+      ],
+      "organic": [
+        "It is an organic chemical of the catecholamine and phenethylamine families."
+      ],
+      "chemical": [
+        "It is an organic chemical of the catecholamine and phenethylamine families."
+      ],
+      "synthesiz": [
+        "Dopamine is also synthesized in plants and most animals."
+      ],
+      "brain": [
+        "In the brain, dopamine functions as a neurotransmitter—a chemical released by neurons to send signals to other nerve cells.",
+        "The brain includes several distinct dopamine pathways, one of which plays a major role in the motivational component of reward-motivated behavior."
+      ],
+      "includ": [
+        "The brain includes several distinct dopamine pathways, one of which plays a major role in the motivational component of reward-motivated behavior."
       ]
     }
   },
@@ -44941,7 +45211,12 @@
       "electronic",
       "amounts",
       "quickly",
-      "faced"
+      "faced",
+      "molecule",
+      "chemical",
+      "synthesized",
+      "dopamine",
+      "animals"
     ],
     "names": [],
     "lessons": 35,
@@ -44949,7 +45224,6 @@
     "taught": 0,
     "last_lesson": "2026-10-24 11:04:30",
     "pending_concepts": [
-      "dopamine-driven reinforcement learning",
       "merging spiking neural networks",
       "automated skill evolution",
       "internal cognitive layers",
