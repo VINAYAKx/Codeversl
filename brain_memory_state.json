@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.6500000000000001,
+    "adenosine": 0.7100000000000002,
     "newborn": false
   },
   "episodic_memory": [
@@ -2924,6 +2924,13 @@
       "time": "2026-10-24 11:14:26",
       "speaker": "brain",
       "text": "I wondered about 'Gated recurrent unit' by myself and went searching. From Wikipedia (live internet) I learned: In artificial neural networks, the gated recurrent unit (GRU) is a gating mechanism used in recurrent neural networks, introduced in 2014 by Kyunghyun Cho et al. Key ideas I stored: recurrent neural networks, artificial neural networks, gated recurrent, lstm, short-term memory.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 11:16:26",
+      "speaker": "brain",
+      "text": "I wondered about 'Customer service' by myself and went searching. From Wikipedia (live internet) I learned: Customer service is the assistance and advice provided by a company to those who buy or use its products or services, either in person or remotely. Key ideas I stored: personality, customer, service, according, advice.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6174,6 +6181,20 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Gated_recurrent_unit",
       "learned": "2026-10-24 11:14:26"
+    },
+    "Customer service": {
+      "summary": "Customer service is the assistance and advice provided by a company to those who buy or use its products or services, either in person or remotely. Customer service is often practiced in a way that reflects the strategies and values of a firm, and levels vary according to the industry. Good quality customer service is usually measured through customer retention. Successful customer service interactions are dependent on employees \"who can adjust themselves to the personality of the customer\".",
+      "concepts": [
+        "personality",
+        "customer",
+        "service",
+        "according",
+        "advice",
+        "assistance"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Customer_service",
+      "learned": "2026-10-24 11:16:26"
     }
   },
   "creator_teachings": [
@@ -7491,6 +7512,12 @@
       "kind": "explore_report",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 11:16:26",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -7554,7 +7581,8 @@
     "localized synaptic plasticity",
     "non-linear thermodynamics dictate",
     "dopamine-driven reinforcement learning",
-    "merging spiking neural networks"
+    "merging spiking neural networks",
+    "automated skill evolution"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -28511,22 +28539,96 @@
       "source": "corpus",
       "learned": "2026-10-24 11:14:26",
       "uses": 1
+    },
+    "assistance": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Customer service is the assistance and advice provided by a company to those who buy or use its products or services, either in person or remotely."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:16:26",
+      "uses": 1
+    },
+    "customer": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Customer service is often practiced in a way that reflects the strategies and values of a firm, and levels vary according to the industry."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:16:26",
+      "uses": 1
+    },
+    "service": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Customer service is often practiced in a way that reflects the strategies and values of a firm, and levels vary according to the industry."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:16:26",
+      "uses": 1
+    },
+    "strategies": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Customer service is often practiced in a way that reflects the strategies and values of a firm, and levels vary according to the industry."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:16:26",
+      "uses": 1
+    },
+    "firm": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Customer service is often practiced in a way that reflects the strategies and values of a firm, and levels vary according to the industry."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 11:16:26",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 860,
-      "tokens": 14222,
+      "sentences": 864,
+      "tokens": 14308,
       "sources": {
         "seed corpus": 64,
         "conversation": 12,
         "dictionary": 418,
-        "explore": 99,
+        "explore": 103,
         "pasted text": 24,
         "deep study": 243
       },
       "hashes": [
-        "46f7b450da1b",
         "90150a682071",
         "29fa6efaca48",
         "825d15247795",
@@ -28825,7 +28927,8 @@
         "c58f3252602d",
         "2620b1a83ead",
         "6937197efb17",
-        "9d394dcc7253"
+        "9d394dcc7253",
+        "3e3eceb89b74"
       ],
       "seeded": true,
       "rejected": 154,
@@ -29736,7 +29839,6 @@
         "clarification": 1,
         "shared": 1,
         "parties": 1,
-        "strategies": 1,
         "factor": 1,
         "storing": 1,
         "recalling": 1,
@@ -30028,7 +30130,6 @@
         "daughter": 1,
         "intention": 1,
         "lift": 1,
-        "assistance": 1,
         "democratic": 1,
         "wherever": 1,
         "magic": 1,
@@ -30080,7 +30181,6 @@
         "exerting": 1,
         "influence": 1,
         "vessels": 1,
-        "firm": 1,
         "crowbar": 1,
         "pry": 1,
         "wood": 1,
@@ -30188,18 +30288,30 @@
         "indeed": 1,
         "concrete": 1,
         "conclusion": 1,
-        "units": 1
+        "units": 1,
+        "advice": 1,
+        "buy": 1,
+        "services": 1,
+        "remotely": 1,
+        "practiced": 1,
+        "reflects": 1,
+        "industry": 1,
+        "measured": 1,
+        "retention": 1,
+        "employees": 1,
+        "adjust": 1,
+        "personality": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
         "PRON": 124,
         "WH": 21,
-        "NOUN": 155,
+        "NOUN": 157,
         "DET": 275,
         "VERB": 60,
         "MODAL": 4,
-        "ADJ": 73,
+        "ADJ": 75,
         "INTJ": 5,
         "CONJ": 17,
         "AUX": 2,
@@ -30215,7 +30327,7 @@
         "ADV": 9,
         "VERB": 118,
         "MODAL": 46,
-        "PREP": 20,
+        "PREP": 21,
         "WH": 2,
         "DET": 3,
         "PART": 8,
@@ -30226,15 +30338,15 @@
         "ADJ": 2
       },
       "AUX": {
-        "ADJ": 121,
+        "ADJ": 122,
         "PRON": 10,
         "PUNCT": 5,
-        "DET": 152,
+        "DET": 153,
         "NOUN": 40,
         "NEG": 23,
         "VERB": 156,
         "INTJ": 1,
-        "ADV": 50,
+        "ADV": 52,
         "CONJ": 8,
         "NUM": 11,
         "PROPN": 2,
@@ -30245,10 +30357,10 @@
       },
       "ADJ": {
         "PART": 21,
-        "NOUN": 795,
+        "NOUN": 797,
         "WH": 2,
         "PUNCT": 115,
-        "PREP": 81,
+        "PREP": 82,
         "CONJ": 43,
         "PROPN": 17,
         "ADJ": 77,
@@ -30272,14 +30384,14 @@
         "PUNCT": 4
       },
       "VERB": {
-        "PREP": 265,
+        "PREP": 268,
         "PART": 62,
         "ADJ": 49,
         "NOUN": 206,
         "PUNCT": 127,
-        "PRON": 50,
+        "PRON": 51,
         "AUX": 21,
-        "DET": 206,
+        "DET": 207,
         "VERB": 28,
         "CONJ": 80,
         "WH": 13,
@@ -30292,8 +30404,8 @@
       },
       "PREP": {
         "PRON": 30,
-        "NOUN": 493,
-        "DET": 559,
+        "NOUN": 496,
+        "DET": 566,
         "PUNCT": 30,
         "VERB": 33,
         "PREP": 19,
@@ -30308,9 +30420,9 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 796,
-        "NOUN": 257,
-        "CONJ": 159,
+        "</S>": 800,
+        "NOUN": 258,
+        "CONJ": 160,
         "PRON": 20,
         "VERB": 39,
         "ADV": 31,
@@ -30330,21 +30442,21 @@
         "AUX": 24,
         "DET": 29,
         "PRON": 11,
-        "NOUN": 32,
+        "NOUN": 33,
         "VERB": 13,
-        "MODAL": 5,
+        "MODAL": 6,
         "PREP": 4,
         "PART": 5,
         "ADJ": 2,
         "NUM": 1
       },
       "ADV": {
-        "PUNCT": 25,
+        "PUNCT": 26,
         "ADJ": 15,
         "NOUN": 32,
         "CONJ": 6,
         "DET": 11,
-        "VERB": 87,
+        "VERB": 89,
         "</S>": 2,
         "PRON": 1,
         "MODAL": 1,
@@ -30356,26 +30468,26 @@
         "NUM": 3
       },
       "NOUN": {
-        "AUX": 271,
-        "PREP": 852,
-        "NOUN": 724,
-        "PUNCT": 1083,
-        "CONJ": 326,
-        "VERB": 254,
+        "AUX": 275,
+        "PREP": 857,
+        "NOUN": 735,
+        "PUNCT": 1088,
+        "CONJ": 331,
+        "VERB": 255,
         "ADV": 49,
         "PART": 113,
         "ADJ": 120,
         "MODAL": 49,
         "</S>": 50,
         "PRON": 55,
-        "WH": 30,
-        "DET": 170,
+        "WH": 31,
+        "DET": 172,
         "PROPN": 53,
         "NUM": 9,
         "NEG": 4
       },
       "DET": {
-        "NOUN": 994,
+        "NOUN": 1004,
         "ADJ": 453,
         "PRON": 11,
         "PREP": 24,
@@ -30388,15 +30500,15 @@
         "ADV": 10,
         "PUNCT": 17,
         "AUX": 2,
-        "WH": 2
+        "WH": 3
       },
       "CONJ": {
         "PRON": 40,
         "DET": 116,
-        "NOUN": 296,
-        "VERB": 53,
+        "NOUN": 300,
+        "VERB": 54,
         "ADJ": 81,
-        "ADV": 18,
+        "ADV": 19,
         "PUNCT": 14,
         "WH": 7,
         "PREP": 16,
@@ -30409,7 +30521,7 @@
         "PART": 3
       },
       "MODAL": {
-        "VERB": 51,
+        "VERB": 52,
         "PRON": 4,
         "DET": 3,
         "CONJ": 3,
@@ -30496,7 +30608,7 @@
         "PART": 14,
         "WH": 2,
         "PUNCT": 39,
-        "PREP": 17,
+        "PREP": 18,
         "DET": 8,
         "NOUN": 18,
         "CONJ": 6,
@@ -30528,8 +30640,8 @@
       },
       "VERB|PREP": {
         "PRON": 9,
-        "DET": 105,
-        "NOUN": 75,
+        "DET": 107,
+        "NOUN": 76,
         "PUNCT": 9,
         "VERB": 4,
         "ADJ": 26,
@@ -30586,7 +30698,7 @@
         "NOUN": 1
       },
       "ADV|PUNCT": {
-        "</S>": 10,
+        "</S>": 11,
         "ADV": 2,
         "DET": 5,
         "CONJ": 4,
@@ -30635,7 +30747,7 @@
         "AUX": 45,
         "VERB": 20,
         "PUNCT": 9,
-        "NOUN": 31,
+        "NOUN": 33,
         "CONJ": 11,
         "PREP": 13,
         "PROPN": 7,
@@ -30647,10 +30759,10 @@
         "MODAL": 2
       },
       "NOUN|AUX": {
-        "DET": 87,
-        "ADJ": 53,
+        "DET": 88,
+        "ADJ": 54,
         "NOUN": 22,
-        "ADV": 30,
+        "ADV": 32,
         "VERB": 48,
         "CONJ": 5,
         "NUM": 6,
@@ -30661,7 +30773,7 @@
         "PREP": 1
       },
       "AUX|DET": {
-        "NOUN": 75,
+        "NOUN": 76,
         "ADJ": 55,
         "PROPN": 4,
         "VERB": 2,
@@ -30672,25 +30784,25 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 317,
+        "PREP": 319,
         "AUX": 80,
-        "CONJ": 72,
-        "PUNCT": 205,
+        "CONJ": 75,
+        "PUNCT": 207,
         "VERB": 71,
         "ADV": 13,
         "ADJ": 33,
-        "NOUN": 85,
+        "NOUN": 86,
         "PRON": 18,
         "PART": 31,
         "</S>": 2,
         "PROPN": 4,
-        "DET": 43,
+        "DET": 45,
         "MODAL": 16,
         "WH": 4
       },
       "NOUN|PREP": {
-        "NOUN": 294,
-        "DET": 318,
+        "NOUN": 295,
+        "DET": 322,
         "PREP": 7,
         "ADJ": 107,
         "PROPN": 33,
@@ -30704,10 +30816,10 @@
         "CONJ": 4
       },
       "PREP|NOUN": {
-        "NOUN": 73,
+        "NOUN": 75,
         "PUNCT": 136,
         "VERB": 29,
-        "CONJ": 55,
+        "CONJ": 56,
         "ADJ": 12,
         "DET": 25,
         "AUX": 10,
@@ -30722,14 +30834,14 @@
         "ADV": 3
       },
       "NOUN|NOUN": {
-        "PUNCT": 190,
+        "PUNCT": 192,
         "PART": 13,
-        "NOUN": 152,
-        "PREP": 128,
+        "NOUN": 155,
+        "PREP": 129,
         "CONJ": 57,
         "VERB": 46,
         "PROPN": 18,
-        "AUX": 38,
+        "AUX": 42,
         "MODAL": 14,
         "ADJ": 28,
         "NUM": 4,
@@ -30737,13 +30849,13 @@
         "DET": 14,
         "NEG": 1,
         "PRON": 5,
-        "WH": 5,
+        "WH": 6,
         "</S>": 1
       },
       "NOUN|PUNCT": {
-        "</S>": 550,
-        "NOUN": 191,
-        "CONJ": 108,
+        "</S>": 553,
+        "NOUN": 192,
+        "CONJ": 109,
         "ADV": 24,
         "PREP": 22,
         "ADJ": 36,
@@ -30786,7 +30898,7 @@
       },
       "ADJ|NOUN": {
         "PUNCT": 225,
-        "NOUN": 148,
+        "NOUN": 150,
         "MODAL": 9,
         "VERB": 44,
         "PREP": 173,
@@ -30812,7 +30924,7 @@
         "ADV": 1
       },
       "PREP|DET": {
-        "NOUN": 342,
+        "NOUN": 348,
         "ADJ": 145,
         "NUM": 10,
         "PREP": 8,
@@ -30821,19 +30933,20 @@
         "VERB": 7,
         "PUNCT": 5,
         "ADV": 1,
-        "PRON": 1
+        "PRON": 1,
+        "WH": 1
       },
       "NOUN|CONJ": {
         "PRON": 6,
         "DET": 54,
-        "VERB": 18,
-        "NOUN": 164,
+        "VERB": 19,
+        "NOUN": 167,
         "ADJ": 34,
         "WH": 4,
         "PREP": 8,
         "NUM": 4,
         "CONJ": 5,
-        "ADV": 10,
+        "ADV": 11,
         "PROPN": 13,
         "AUX": 4,
         "PART": 1,
@@ -30883,14 +30996,14 @@
         "NOUN": 13,
         "AUX": 2,
         "ADJ": 2,
-        "PRON": 1
+        "PRON": 2
       },
       "PUNCT|NOUN": {
         "CONJ": 20,
         "NOUN": 52,
         "ADJ": 5,
         "PUNCT": 117,
-        "PREP": 28,
+        "PREP": 29,
         "AUX": 11,
         "DET": 8,
         "ADV": 2,
@@ -30938,7 +31051,7 @@
         "ADV": 1
       },
       "VERB|PRON": {
-        "PREP": 9,
+        "PREP": 10,
         "VERB": 12,
         "AUX": 1,
         "PUNCT": 8,
@@ -30953,7 +31066,7 @@
         "ADV": 1
       },
       "PRON|PREP": {
-        "DET": 11,
+        "DET": 12,
         "NOUN": 4,
         "PUNCT": 1,
         "ADV": 2,
@@ -31001,7 +31114,7 @@
       "NOUN|VERB": {
         "PART": 7,
         "DET": 62,
-        "PREP": 60,
+        "PREP": 61,
         "WH": 4,
         "PRON": 16,
         "PUNCT": 22,
@@ -31028,7 +31141,7 @@
         "PRON": 1
       },
       "PUNCT|CONJ": {
-        "NOUN": 57,
+        "NOUN": 58,
         "PRON": 16,
         "DET": 22,
         "PUNCT": 5,
@@ -31045,12 +31158,12 @@
       },
       "CONJ|NOUN": {
         "AUX": 10,
-        "PUNCT": 73,
+        "PUNCT": 74,
         "</S>": 1,
-        "PREP": 61,
-        "VERB": 13,
+        "PREP": 62,
+        "VERB": 14,
         "WH": 5,
-        "NOUN": 92,
+        "NOUN": 93,
         "PRON": 3,
         "PART": 9,
         "CONJ": 7,
@@ -31063,7 +31176,7 @@
         "ADV": 2
       },
       "VERB|DET": {
-        "NOUN": 120,
+        "NOUN": 121,
         "ADJ": 69,
         "PREP": 2,
         "CONJ": 3,
@@ -31130,11 +31243,11 @@
         "ADJ": 3,
         "PREP": 12,
         "CONJ": 2,
-        "DET": 1,
+        "DET": 2,
         "VERB": 2
       },
       "<S>|ADJ": {
-        "NOUN": 39,
+        "NOUN": 41,
         "ADJ": 5,
         "VERB": 4,
         "PREP": 15,
@@ -31211,7 +31324,7 @@
         "VERB": 6
       },
       "ADJ|PREP": {
-        "NOUN": 39,
+        "NOUN": 40,
         "DET": 27,
         "VERB": 3,
         "ADJ": 8,
@@ -31271,7 +31384,7 @@
       "WH|NOUN": {
         "VERB": 2,
         "NOUN": 4,
-        "CONJ": 6,
+        "CONJ": 7,
         "AUX": 4,
         "DET": 10,
         "ADV": 2,
@@ -31300,7 +31413,7 @@
       "WH|MODAL": {
         "DET": 2,
         "AUX": 2,
-        "VERB": 1
+        "VERB": 2
       },
       "MODAL|DET": {
         "ADJ": 1,
@@ -31309,7 +31422,7 @@
       "AUX|ADV": {
         "ADJ": 6,
         "NOUN": 4,
-        "VERB": 27,
+        "VERB": 29,
         "ADV": 4,
         "PREP": 4,
         "DET": 4,
@@ -31404,7 +31517,7 @@
         "DET": 1
       },
       "CONJ|ADV": {
-        "PUNCT": 1,
+        "PUNCT": 2,
         "</S>": 1,
         "VERB": 7,
         "ADJ": 2,
@@ -31436,7 +31549,7 @@
         "PART": 6,
         "NOUN": 13,
         "CONJ": 12,
-        "PREP": 25,
+        "PREP": 27,
         "WH": 1,
         "PUNCT": 2,
         "ADJ": 2,
@@ -31595,10 +31708,11 @@
         "DET": 8,
         "AUX": 6,
         "PRON": 2,
-        "ADJ": 1
+        "ADJ": 1,
+        "MODAL": 1
       },
       "NOUN|DET": {
-        "NOUN": 89,
+        "NOUN": 91,
         "ADJ": 43,
         "CONJ": 8,
         "ADV": 5,
@@ -32150,7 +32264,8 @@
       },
       "DET|WH": {
         "VERB": 1,
-        "AUX": 1
+        "AUX": 1,
+        "NOUN": 1
       },
       "VERB|NEG": {
         "AUX": 1
@@ -32252,7 +32367,7 @@
         "to": 1
       },
       "to": {
-        "the": 28,
+        "the": 30,
         "a": 11,
         "do": 8,
         "overlap": 3,
@@ -32268,7 +32383,8 @@
         "piece": 1,
         "input": 1,
         "that": 1,
-        "no": 1
+        "no": 1,
+        "those": 1
       },
       "talk": {
         "with": 1,
@@ -32314,7 +32430,8 @@
         "usually": 2,
         "various": 1,
         "postulated": 1,
-        "immutable": 1
+        "immutable": 1,
+        "dependent": 1
       },
       "you": {
         "ask": 2,
@@ -32392,14 +32509,14 @@
       },
       "is": {
         "a": 57,
-        "the": 25,
+        "the": 26,
         "an": 14,
         "one": 4,
         "important": 3,
         "vague": 3,
         "good": 3,
         "hard": 2,
-        "usually": 2,
+        "usually": 3,
         "here": 2,
         "synthesized": 1,
         "also": 1,
@@ -32408,7 +32525,8 @@
         "considered": 1,
         "able": 1,
         "like": 1,
-        "indeed": 1
+        "indeed": 1,
+        "often": 1
       },
       "a": {
         "noun": 16,
@@ -32423,7 +32541,10 @@
         "varying": 3,
         "gating": 2,
         "long": 1,
-        "context": 1
+        "context": 1,
+        "company": 1,
+        "way": 1,
+        "firm": 1
       },
       "tool": {
         "for": 1
@@ -32460,7 +32581,12 @@
         "variable": 3,
         "listener": 3,
         "application": 3,
-        "brain": 3
+        "brain": 3,
+        "assistance": 1,
+        "strategies": 1,
+        "industry": 1,
+        "personality": 1,
+        "customer": 1
       },
       "brain": {
         "is": 1,
@@ -32570,7 +32696,8 @@
         "range": 2,
         "talk": 1,
         "sometimes": 1,
-        "seem": 1
+        "seem": 1,
+        "adjust": 1
       },
       "about": {
         "music": 1,
@@ -32604,16 +32731,8 @@
         "professionalism": 2,
         "emotions": 2,
         "contrasts": 2,
-        "dealt": 1,
-        "process": 2,
-        "gathering": 1,
-        "object": 1,
-        "clause": 1,
-        "is": 1,
-        "system": 1,
-        "induction": 1,
-        "forget": 1,
-        "output": 1
+        "services": 1,
+        "remotely": 1
       },
       "it": {
         "is": 24,
@@ -32831,7 +32950,10 @@
         "field": 1,
         "register-transfer": 1,
         "natural": 1,
-        "bengio": 1
+        "bengio": 1,
+        "advice": 1,
+        "values": 1,
+        "levels": 1
       },
       "meanings": {
         "have": 1,
@@ -32885,7 +33007,8 @@
         "plays": 1,
         "it": 1,
         "of": 1,
-        "gating": 1
+        "gating": 1,
+        "reflects": 1
       },
       "good": {
         "idea": 1,
@@ -32900,7 +33023,8 @@
         "morning": 1,
         "exercise": 1,
         "working": 1,
-        "distribution": 1
+        "distribution": 1,
+        "quality": 1
       },
       "memory": {
         "is": 1,
@@ -33008,7 +33132,7 @@
       },
       "in": {
         "the": 58,
-        "a": 32,
+        "a": 33,
         "english": 11,
         "many": 7,
         "machine": 7,
@@ -33017,7 +33141,8 @@
         "order": 4,
         "c": 3,
         "which": 3,
-        "general": 1
+        "general": 1,
+        "person": 1
       },
       "children": {
         "play": 1,
@@ -33140,8 +33265,8 @@
         "detail": 1
       },
       "of": {
-        "the": 73,
-        "a": 29,
+        "the": 74,
+        "a": 30,
         "speech": 8,
         "or": 6,
         "an": 9,
@@ -33324,7 +33449,9 @@
         "are": 2,
         "has": 1,
         "could": 1,
-        "heads": 1
+        "heads": 1,
+        "buy": 1,
+        "can": 1
       },
       "made": {
         "this": 1,
@@ -33678,7 +33805,8 @@
         "your": 1,
         "minimum": 1,
         "certain": 1,
-        "which": 1
+        "which": 1,
+        "employees": 1
       },
       "situation": {
         "in": 1,
@@ -33779,7 +33907,8 @@
         "deliberate": 1,
         "top-down": 1,
         "email": 1,
-        "decarboxylation": 1
+        "decarboxylation": 1,
+        "customer": 1
       },
       "feedback": {
         "and": 1
@@ -33957,7 +34086,7 @@
         "linguists": 1,
         "removing": 1,
         "neurons": 1,
-        "a": 1,
+        "a": 2,
         "which": 1,
         "myself": 1,
         "deduction": 1,
@@ -34635,7 +34764,8 @@
         "original": 1,
         "infancy": 1,
         "precursor": 1,
-        "kind": 1
+        "kind": 1,
+        "products": 1
       },
       "vague": {
         "enough": 4
@@ -34656,7 +34786,8 @@
         "such": 1,
         "quantities": 1,
         "that": 1,
-        "creative": 1
+        "creative": 1,
+        "who": 1
       },
       "other": {
         "parts": 5,
@@ -34696,7 +34827,8 @@
         "problems": 1,
         "i": 1,
         "self-organized": 1,
-        "is": 1
+        "is": 1,
+        "who": 1
       },
       "be": {
         "defined": 4,
@@ -34848,7 +34980,8 @@
         "develop": 1,
         "a": 1,
         "monks": 1,
-        "built": 1
+        "built": 1,
+        "practiced": 1
       },
       "separate": {
         "clauses": 2,
@@ -34863,7 +34996,7 @@
       },
       "dependent": {
         "clause": 2,
-        "on": 1
+        "on": 2
       },
       "clause": {
         "from": 1,
@@ -35205,7 +35338,8 @@
         "have": 1,
         "dividing": 1,
         "walks": 1,
-        "see": 1
+        "see": 1,
+        "measured": 1
       },
       "plants": {
         "grown": 1,
@@ -35436,7 +35570,7 @@
         "in": 1,
         "to": 6,
         "of": 1,
-        "that": 1
+        "that": 2
       },
       "character": {
         "etc": 1,
@@ -35554,7 +35688,8 @@
         "of": 2,
         "standards": 2,
         "for": 1,
-        "or": 1
+        "or": 1,
+        "customer": 1
       },
       "being": {
         "neuroplastic": 1,
@@ -36104,7 +36239,8 @@
         "in": 1,
         "one": 1,
         "tenses": 1,
-        "thr": 1
+        "thr": 1,
+        "its": 1
       },
       "smart": {
         "contracts": 2
@@ -36393,7 +36529,8 @@
         "or": 1,
         "by": 1,
         "from": 1,
-        "your": 1
+        "your": 1,
+        "according": 1
       },
       "much": {
         "as": 2,
@@ -36440,7 +36577,7 @@
         "verb": 1
       },
       "according": {
-        "to": 2
+        "to": 3
       },
       "speaker": {
         "'s": 2,
@@ -36646,7 +36783,8 @@
       "interactions": {
         "of": 1,
         "between": 1,
-        "and": 1
+        "and": 1,
+        "are": 1
       },
       "roads": {
         "crisscrossed": 1
@@ -38225,7 +38363,7 @@
       "person": {
         "who": 1,
         "'s": 2,
-        "or": 1
+        "or": 2
       },
       "poses": {
         "as": 1
@@ -38565,7 +38703,8 @@
         "us": 1
       },
       "company": {
-        "employs": 1
+        "employs": 1,
+        "to": 1
       },
       "employs": {
         "extensive": 1
@@ -38725,7 +38864,8 @@
         "article": 1
       },
       "levels": {
-        "and": 1
+        "and": 1,
+        "vary": 1
       },
       "national": {
         "circumstances": 1,
@@ -39759,7 +39899,7 @@
       "either": {
         "an": 1,
         "be": 1,
-        "in": 1
+        "in": 2
       },
       "multi-word": {
         "construction": 1
@@ -39892,7 +40032,7 @@
         ")": 1
       },
       "values": {
-        "of": 1
+        "of": 2
       },
       "default": {
         "quantity": 3
@@ -41489,7 +41629,8 @@
       },
       "successful": {
         "cognitive": 1,
-        "candidate": 1
+        "candidate": 1,
+        "customer": 1
       },
       "act-r": {
         "and": 1
@@ -42565,13 +42706,61 @@
       },
       "units": {
         "was": 1
+      },
+      "customer": {
+        "service": 4,
+        "retention": 1,
+        "\"": 1
+      },
+      "service": {
+        "is": 3,
+        "interactions": 1
+      },
+      "assistance": {
+        "and": 1
+      },
+      "advice": {
+        "provided": 1
+      },
+      "provided": {
+        "by": 1
+      },
+      "buy": {
+        "or": 1
+      },
+      "products": {
+        "or": 1
+      },
+      "practiced": {
+        "in": 1
+      },
+      "reflects": {
+        "the": 1
+      },
+      "strategies": {
+        "and": 1
+      },
+      "measured": {
+        "through": 1
+      },
+      "employees": {
+        "\"": 1
+      },
+      "adjust": {
+        "themselves": 1
+      },
+      "themselves": {
+        "to": 1
+      },
+      "personality": {
+        "of": 1
       }
     },
     "starters": {
       "i": 37,
       "how": 3,
       "what": 6,
-      "<NOUN>": 155,
+      "<NOUN>": 157,
       "the": 134,
       "she": 7,
       "we": 13,
@@ -42583,7 +42772,7 @@
       "they": 6,
       "he": 17,
       "where": 1,
-      "<ADJ>": 73,
+      "<ADJ>": 75,
       "please": 1,
       "that": 10,
       "if": 5,
@@ -42644,8 +42833,8 @@
     },
     "connectors": {
       "because": 9,
-      "or": 184,
-      "and": 310,
+      "or": 187,
+      "and": 313,
       "but": 31,
       "so": 12,
       "while": 4,
@@ -42684,8 +42873,8 @@
         "while": 1
       },
       "NOUN>NOUN": {
-        "and": 125,
-        "or": 75,
+        "and": 128,
+        "or": 76,
         "as": 4,
         "yet": 1,
         "so": 2,
@@ -42694,7 +42883,7 @@
       },
       "NOUN>VERB": {
         "and": 14,
-        "or": 5,
+        "or": 6,
         "as": 2,
         "than": 1
       },
@@ -42838,7 +43027,7 @@
         "and": 8,
         "but": 2,
         "than": 1,
-        "or": 2,
+        "or": 3,
         "as": 1
       },
       "NOUN>PROPN": {
@@ -43851,16 +44040,6 @@
       "ADV DET NOUN AUX ADJ | but | PREP DET NOUN PRON AUX VERB PREP NOUN": 1
     },
     "sentence_bank": {
-      "reaching": [
-        "Extending, reaching or positioned far from a point of reference, especially downwards."
-      ],
-      "surface": [
-        "Extending far down from the top , or surface , to the bottom , literally or figuratively."
-      ],
-      "engine": [
-        "The engine runs better now that I've given it some oil.",
-        "That engine is really throwing off some heat ."
-      ],
       "runs": [
         "The engine runs better now that I've given it some oil."
       ],
@@ -44067,9 +44246,9 @@
         "The state of being difficult , or hard to do."
       ],
       "quality": [
-        "The state or quality of being neuroplastic , of having a brain that adapts to experience .",
         "The state, quality, or condition of being wrong .",
-        "The quality or state of being plastic ."
+        "The quality or state of being plastic .",
+        "Good quality customer service is usually measured through customer retention."
       ],
       "biology": [
         "Of or relating to biology ."
@@ -45839,6 +46018,15 @@
       ],
       "express": [
         "The action of expressing thoughts, ideas, feelings, etc."
+      ],
+      "customer": [
+        "Customer service is often practiced in a way that reflects the strategies and values of a firm, and levels vary according to the industry."
+      ],
+      "service": [
+        "Customer service is often practiced in a way that reflects the strategies and values of a firm, and levels vary according to the industry."
+      ],
+      "good": [
+        "Good quality customer service is usually measured through customer retention."
       ]
     }
   },
@@ -46157,7 +46345,6 @@
     "taught": 0,
     "last_lesson": "2026-10-24 11:10:34",
     "pending_concepts": [
-      "automated skill evolution",
       "internal cognitive layers",
       "biological neuromorphic processing",
       "dynamic memory consolidation",
