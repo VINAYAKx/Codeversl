@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.18,
+    "adenosine": 0.24,
     "newborn": false
   },
   "episodic_memory": [
@@ -2826,6 +2826,20 @@
       "time": "2026-10-24 14:10:28",
       "speaker": "brain",
       "text": "I wondered about 'Monadic predicate calculus' by myself and went searching. From Wikipedia (live internet) I learned: In logic, the monadic predicate calculus is the fragment of first-order logic in which all relation symbols in the signature are monadic, and there are no function symbols. Key ideas I stored: monadic predicate calculus, atomic formulas, first-order.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 14:12:37",
+      "speaker": "brain",
+      "text": "I practised my English because I want to talk with you more naturally. I learned 6 new words: 'thus' (an adverb) means in this way or manner; 'plant' (a noun) means an organism that is not an animal , especially an organism capable of photosynthesis , and; 'lies' (a noun) means plural of lie; 'socialization' (a noun) means the process of learning how to live in a way acceptable to one's own society , said especi and 2 more. Now I know 602 words, I have studied 1165 sentences, and I have 104 sentence patterns.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-24 14:14:29",
+      "speaker": "brain",
+      "text": "I wondered about 'Automated theorem proving' by myself and went searching. From Wikipedia (live internet) I learned: Automated theorem proving (ATP), also known as automated deduction, is a subfield of automated reasoning and mathematical logic dealing with proving mathematical theorems by computer programs. Key ideas I stored: automated theorem, mathematical proof.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6259,6 +6273,16 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Monadic_predicate_calculus",
       "learned": "2026-10-24 14:10:28"
+    },
+    "Automated theorem proving": {
+      "summary": "Automated theorem proving (ATP), also known as automated deduction, is a subfield of automated reasoning and mathematical logic dealing with proving mathematical theorems by computer programs. Automated reasoning over mathematical proof was a major motivating factor for the development of computer science.",
+      "concepts": [
+        "automated theorem",
+        "mathematical proof"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Automated_theorem_proving",
+      "learned": "2026-10-24 14:14:29"
     }
   },
   "creator_teachings": [
@@ -7858,6 +7882,18 @@
       "kind": "explore_report",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-24 14:12:37",
+      "kind": "language_lesson",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-24 14:14:29",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -7937,7 +7973,8 @@
     "database query languages",
     "sql standardizes declarative",
     "language",
-    "formal predicate calculus"
+    "formal predicate calculus",
+    "automated resolution theorem"
   ],
   "sensory_log": [],
   "lexicon": {
@@ -35164,22 +35201,103 @@
       "source": "corpus",
       "learned": "2026-10-24 14:12:36",
       "uses": 1
+    },
+    "automated": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:14:29",
+      "uses": 1
+    },
+    "theorem": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:14:29",
+      "uses": 1
+    },
+    "proving": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:14:29",
+      "uses": 1
+    },
+    "deduction": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:14:29",
+      "uses": 1
+    },
+    "major": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Automated reasoning over mathematical proof was a major motivating factor for the development of computer science."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:14:29",
+      "uses": 1
+    },
+    "factor": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Automated reasoning over mathematical proof was a major motivating factor for the development of computer science."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-24 14:14:29",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 1165,
-      "tokens": 18721,
+      "sentences": 1167,
+      "tokens": 18769,
       "sources": {
         "seed corpus": 64,
         "conversation": 16,
         "dictionary": 676,
-        "explore": 142,
+        "explore": 144,
         "pasted text": 24,
         "deep study": 243
       },
       "hashes": [
-        "8c759d78ef19",
         "a3df4f4eedc0",
         "75ef8848602a",
         "eaa0c707d78a",
@@ -35478,7 +35596,8 @@
         "28d6e95f908e",
         "508e44e32600",
         "91207030e0c8",
-        "df02f41f2e53"
+        "df02f41f2e53",
+        "15a5dfe3fce4"
       ],
       "seeded": true,
       "rejected": 215,
@@ -35757,10 +35876,7 @@
         "dispatch": 1,
         "prolog": 1,
         "implements": 1,
-        "automated": 1,
         "resolution": 1,
-        "theorem": 1,
-        "proving": 1,
         "groundwork": 1,
         "expert": 1,
         "swift": 1,
@@ -36237,7 +36353,6 @@
         "clarification": 1,
         "shared": 1,
         "parties": 1,
-        "factor": 1,
         "storing": 1,
         "recalling": 1,
         "ois": 1,
@@ -36601,7 +36716,6 @@
         "send": 1,
         "nerve": 1,
         "pathways": 1,
-        "major": 1,
         "motivational": 1,
         "hammer": 1,
         "screws": 1,
@@ -36631,7 +36745,6 @@
         "cropped": 1,
         "slim": 1,
         "inferring": 1,
-        "deduction": 1,
         "gated": 1,
         "vector": 1,
         "output": 1,
@@ -37050,7 +37163,12 @@
         "acceptable": 1,
         "breaks": 1,
         "playful": 1,
-        "competitive": 1
+        "competitive": 1,
+        "subfield": 1,
+        "dealing": 1,
+        "theorems": 1,
+        "proof": 1,
+        "motivating": 1
       }
     },
     "pos_bigrams": {
@@ -37059,7 +37177,7 @@
         "WH": 22,
         "NOUN": 219,
         "DET": 377,
-        "VERB": 85,
+        "VERB": 87,
         "MODAL": 4,
         "ADJ": 89,
         "INTJ": 5,
@@ -37091,7 +37209,7 @@
         "ADJ": 174,
         "PRON": 11,
         "PUNCT": 6,
-        "DET": 203,
+        "DET": 205,
         "NOUN": 51,
         "NEG": 30,
         "VERB": 203,
@@ -37107,7 +37225,7 @@
       },
       "ADJ": {
         "PART": 28,
-        "NOUN": 988,
+        "NOUN": 992,
         "WH": 2,
         "PUNCT": 177,
         "PREP": 110,
@@ -37137,13 +37255,13 @@
         "PREP": 347,
         "PART": 84,
         "ADJ": 65,
-        "NOUN": 296,
+        "NOUN": 299,
         "PUNCT": 164,
         "PRON": 71,
         "AUX": 23,
         "DET": 275,
         "VERB": 37,
-        "CONJ": 112,
+        "CONJ": 113,
         "WH": 18,
         "</S>": 10,
         "ADV": 30,
@@ -37154,12 +37272,12 @@
       },
       "PREP": {
         "PRON": 45,
-        "NOUN": 658,
-        "DET": 713,
+        "NOUN": 661,
+        "DET": 714,
         "PUNCT": 38,
         "VERB": 53,
         "PREP": 20,
-        "ADJ": 210,
+        "ADJ": 212,
         "PROPN": 88,
         "AUX": 16,
         "NUM": 36,
@@ -37170,17 +37288,17 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 1058,
+        "</S>": 1060,
         "NOUN": 357,
         "CONJ": 210,
         "PRON": 26,
         "VERB": 54,
-        "ADV": 39,
+        "ADV": 40,
         "PREP": 34,
         "ADJ": 63,
         "DET": 112,
         "WH": 30,
-        "AUX": 21,
+        "AUX": 22,
         "NUM": 6,
         "PUNCT": 12,
         "PROPN": 26,
@@ -37206,7 +37324,7 @@
         "NOUN": 45,
         "CONJ": 9,
         "DET": 17,
-        "VERB": 117,
+        "VERB": 118,
         "</S>": 2,
         "PRON": 3,
         "MODAL": 1,
@@ -37218,26 +37336,26 @@
         "NUM": 3
       },
       "NOUN": {
-        "AUX": 371,
-        "PREP": 1123,
-        "NOUN": 953,
-        "PUNCT": 1417,
-        "CONJ": 439,
+        "AUX": 372,
+        "PREP": 1129,
+        "NOUN": 960,
+        "PUNCT": 1421,
+        "CONJ": 440,
         "VERB": 322,
         "ADV": 61,
         "PART": 153,
-        "ADJ": 155,
+        "ADJ": 156,
         "MODAL": 54,
         "</S>": 86,
         "PRON": 79,
         "WH": 39,
         "DET": 222,
-        "PROPN": 64,
+        "PROPN": 65,
         "NUM": 10,
         "NEG": 6
       },
       "DET": {
-        "NOUN": 1311,
+        "NOUN": 1314,
         "ADJ": 569,
         "PRON": 16,
         "PREP": 32,
@@ -37257,8 +37375,8 @@
         "PRON": 57,
         "DET": 144,
         "NOUN": 405,
-        "VERB": 72,
-        "ADJ": 97,
+        "VERB": 73,
+        "ADJ": 98,
         "ADV": 30,
         "PUNCT": 15,
         "WH": 10,
@@ -37304,7 +37422,7 @@
         "DET": 4,
         "PUNCT": 115,
         "PART": 6,
-        "NOUN": 116,
+        "NOUN": 117,
         "AUX": 21,
         "PROPN": 76,
         "ADJ": 17,
@@ -37524,7 +37642,7 @@
         "MODAL": 2
       },
       "NOUN|AUX": {
-        "DET": 116,
+        "DET": 117,
         "ADJ": 76,
         "NOUN": 27,
         "ADV": 42,
@@ -37539,7 +37657,7 @@
         "PART": 1
       },
       "AUX|DET": {
-        "NOUN": 104,
+        "NOUN": 106,
         "ADJ": 75,
         "PROPN": 4,
         "VERB": 4,
@@ -37550,14 +37668,14 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 404,
+        "PREP": 406,
         "AUX": 106,
         "CONJ": 100,
         "PUNCT": 276,
         "VERB": 94,
         "ADV": 17,
         "ADJ": 41,
-        "NOUN": 124,
+        "NOUN": 125,
         "PRON": 21,
         "PART": 41,
         "</S>": 2,
@@ -37567,10 +37685,10 @@
         "WH": 8
       },
       "NOUN|PREP": {
-        "NOUN": 415,
-        "DET": 403,
+        "NOUN": 418,
+        "DET": 404,
         "PREP": 8,
-        "ADJ": 138,
+        "ADJ": 140,
         "PROPN": 39,
         "VERB": 36,
         "PUNCT": 14,
@@ -37582,11 +37700,11 @@
         "CONJ": 4
       },
       "PREP|NOUN": {
-        "NOUN": 102,
+        "NOUN": 104,
         "PUNCT": 175,
         "VERB": 32,
         "CONJ": 73,
-        "ADJ": 17,
+        "ADJ": 18,
         "DET": 34,
         "AUX": 17,
         "PREP": 72,
@@ -37600,13 +37718,13 @@
         "ADV": 3
       },
       "NOUN|NOUN": {
-        "PUNCT": 252,
+        "PUNCT": 254,
         "PART": 21,
-        "NOUN": 190,
-        "PREP": 172,
+        "NOUN": 192,
+        "PREP": 174,
         "CONJ": 77,
         "VERB": 54,
-        "PROPN": 23,
+        "PROPN": 24,
         "AUX": 61,
         "MODAL": 15,
         "ADJ": 35,
@@ -37619,17 +37737,17 @@
         "</S>": 2
       },
       "NOUN|PUNCT": {
-        "</S>": 732,
+        "</S>": 734,
         "NOUN": 260,
         "CONJ": 141,
-        "ADV": 30,
+        "ADV": 31,
         "PREP": 25,
         "ADJ": 42,
         "DET": 73,
         "VERB": 41,
         "WH": 21,
         "PRON": 17,
-        "AUX": 18,
+        "AUX": 19,
         "NUM": 4,
         "PROPN": 4,
         "PART": 3,
@@ -37666,14 +37784,14 @@
       },
       "ADJ|NOUN": {
         "PUNCT": 281,
-        "NOUN": 178,
+        "NOUN": 179,
         "MODAL": 10,
         "VERB": 51,
-        "PREP": 215,
-        "CONJ": 78,
+        "PREP": 216,
+        "CONJ": 79,
         "DET": 36,
         "ADJ": 16,
-        "AUX": 58,
+        "AUX": 59,
         "PART": 33,
         "WH": 6,
         "PROPN": 2,
@@ -37694,7 +37812,7 @@
         "MODAL": 1
       },
       "PREP|DET": {
-        "NOUN": 441,
+        "NOUN": 442,
         "ADJ": 178,
         "NUM": 16,
         "PREP": 11,
@@ -37712,7 +37830,7 @@
         "DET": 62,
         "VERB": 25,
         "NOUN": 232,
-        "ADJ": 40,
+        "ADJ": 41,
         "WH": 4,
         "PREP": 11,
         "NUM": 4,
@@ -37733,11 +37851,11 @@
         "PREP": 1
       },
       "VERB|NOUN": {
-        "PUNCT": 76,
-        "PREP": 55,
+        "PUNCT": 77,
+        "PREP": 56,
         "PART": 8,
         "VERB": 11,
-        "NOUN": 59,
+        "NOUN": 60,
         "CONJ": 21,
         "MODAL": 2,
         "ADJ": 16,
@@ -37816,7 +37934,7 @@
         "PRON": 5,
         "AUX": 4,
         "VERB": 2,
-        "NOUN": 32,
+        "NOUN": 34,
         "DET": 18,
         "PREP": 14,
         "CONJ": 1,
@@ -38019,7 +38137,7 @@
       },
       "CONJ|VERB": {
         "PART": 3,
-        "NOUN": 14,
+        "NOUN": 15,
         "PUNCT": 22,
         "ADJ": 4,
         "PREP": 20,
@@ -38098,7 +38216,7 @@
       },
       "NOUN|ADJ": {
         "PUNCT": 24,
-        "NOUN": 88,
+        "NOUN": 89,
         "DET": 3,
         "PREP": 15,
         "ADJ": 7,
@@ -38121,7 +38239,7 @@
       },
       "VERB|CONJ": {
         "PRON": 7,
-        "VERB": 21,
+        "VERB": 22,
         "DET": 25,
         "PUNCT": 3,
         "PROPN": 1,
@@ -38241,7 +38359,7 @@
       },
       "CONJ|ADJ": {
         "PUNCT": 9,
-        "NOUN": 65,
+        "NOUN": 66,
         "ADJ": 6,
         "CONJ": 5,
         "VERB": 6,
@@ -38281,7 +38399,7 @@
       "PUNCT|ADV": {
         "NOUN": 6,
         "CONJ": 1,
-        "VERB": 14,
+        "VERB": 15,
         "PREP": 9,
         "DET": 3,
         "ADJ": 2,
@@ -38356,7 +38474,7 @@
         "DET": 22,
         "PART": 10,
         "NOUN": 18,
-        "CONJ": 17,
+        "CONJ": 18,
         "PREP": 32,
         "WH": 3,
         "PUNCT": 3,
@@ -38391,7 +38509,7 @@
         "CONJ": 3,
         "PROPN": 5,
         "ADJ": 21,
-        "NOUN": 152,
+        "NOUN": 154,
         "PUNCT": 16,
         "AUX": 2,
         "VERB": 6,
@@ -38543,7 +38661,7 @@
       },
       "NOUN|PROPN": {
         "PART": 1,
-        "NOUN": 34,
+        "NOUN": 35,
         "AUX": 5,
         "PROPN": 6,
         "PREP": 4,
@@ -38607,7 +38725,7 @@
       "PROPN|NOUN": {
         "CONJ": 5,
         "AUX": 20,
-        "PUNCT": 42,
+        "PUNCT": 43,
         "NOUN": 24,
         "DET": 5,
         "MODAL": 1,
@@ -38686,7 +38804,7 @@
       "PUNCT|AUX": {
         "NOUN": 4,
         "VERB": 4,
-        "DET": 7,
+        "DET": 8,
         "ADJ": 4,
         "NUM": 1,
         "PART": 1
@@ -39278,26 +39396,16 @@
         "we": 1
       },
       "with": {
-        "a": 15,
         "the": 17,
-        "those": 5,
+        "a": 15,
         "their": 6,
+        "those": 5,
         "less": 3,
         "zero": 3,
+        "examples": 3,
         "nouns": 2,
         "antonyms": 2,
-        "you": 1,
-        "my": 1,
-        "knowledge": 1,
-        "someone": 1,
-        "explicitly": 1,
-        "most": 1,
-        "objects": 2,
-        "his": 1,
-        "set": 1,
-        "large": 1,
-        "examples": 3,
-        "significant": 1
+        "objects": 2
       },
       "how": {
         "are": 1,
@@ -39409,7 +39517,7 @@
         "relies": 1
       },
       "is": {
-        "a": 73,
+        "a": 74,
         "the": 34,
         "an": 16,
         "hard": 5,
@@ -39439,14 +39547,16 @@
         "nash": 1,
         "situation": 1,
         "game": 1,
-        "playful": 1
+        "playful": 1,
+        "subfield": 1,
+        "major": 1
       },
       "tool": {
         "for": 1
       },
       "for": {
         "example": 8,
-        "the": 7,
+        "the": 8,
         "auxiliary": 5,
         "unconstrained": 4,
         "each": 4,
@@ -39463,7 +39573,7 @@
       "the": {
         "blackboard": 9,
         "order": 9,
-        "development": 7,
+        "development": 8,
         "brain": 6,
         "structure": 5,
         "lesson": 4,
@@ -39876,7 +39986,8 @@
         "ideas": 1,
         "is": 2,
         "there": 1,
-        "games": 1
+        "games": 1,
+        "mathematical": 1
       },
       "meanings": {
         "have": 1,
@@ -40076,7 +40187,7 @@
         "the": 2
       },
       "was": {
-        "a": 7,
+        "a": 8,
         "an": 4,
         "originally": 3,
         "then": 2,
@@ -40206,7 +40317,9 @@
         "knowledge": 4,
         "postwar": 3,
         "lie": 1,
-        "learning": 1
+        "learning": 1,
+        "automated": 1,
+        "computer": 1
       },
       "reading": {
         "is": 1,
@@ -41049,7 +41162,8 @@
         "ramin": 1,
         "alexander": 1,
         "introducing": 1,
-        "languages": 1
+        "languages": 1,
+        "computer": 1
       },
       "thermodynamic": {
         "efficiency": 2,
@@ -41588,7 +41702,8 @@
         "sql": 1,
         "heading": 1,
         "someone": 1,
-        "unless": 1
+        "unless": 1,
+        "atp": 1
       },
       "nn": {
         ")": 1
@@ -41675,7 +41790,10 @@
         "optimization": 4,
         "type": 2,
         "problem": 1,
-        "calculations": 1
+        "calculations": 1,
+        "logic": 1,
+        "theorems": 1,
+        "proof": 1
       },
       "first-order": {
         "iterative": 1,
@@ -42043,7 +42161,7 @@
         "of": 1
       },
       "known": {
-        "as": 7,
+        "as": 8,
         "to": 1,
         "that": 1,
         "example": 1
@@ -42067,7 +42185,8 @@
         "an": 1,
         "\"": 1,
         "rom": 1,
-        "i": 1
+        "i": 1,
+        "automated": 1
       },
       "itself": {
         "was": 2,
@@ -42113,7 +42232,7 @@
       },
       "also": {
         "called": 4,
-        "known": 5,
+        "known": 6,
         "of": 3,
         "natural": 2,
         "carry": 1,
@@ -42537,7 +42656,7 @@
         "that": 1
       },
       "development": {
-        "of": 7,
+        "of": 8,
         "is": 1
       },
       "conversational": {
@@ -43025,7 +43144,7 @@
       },
       "computer": {
         "scientist": 1,
-        "science": 6,
+        "science": 7,
         "algorithm": 1,
         "systems": 1,
         "(": 2,
@@ -43033,7 +43152,8 @@
         "architecture": 1,
         "is": 1,
         "language": 1,
-        "instructions": 1
+        "instructions": 1,
+        "programs": 1
       },
       "scientist": {
         "daniela": 1
@@ -43424,7 +43544,8 @@
         "time": 2,
         "the": 8,
         "there": 1,
-        "and": 1
+        "and": 1,
+        "mathematical": 1
       },
       "holders": {
         "of": 1
@@ -44684,7 +44805,8 @@
         "programming": 3,
         "logical": 1,
         "holds": 1,
-        "in": 1
+        "in": 1,
+        "dealing": 1
       },
       "vhdl": {
         "and": 2
@@ -44754,13 +44876,16 @@
         "is": 1
       },
       "automated": {
-        "resolution": 1
+        "resolution": 1,
+        "theorem": 1,
+        "deduction": 1,
+        "reasoning": 2
       },
       "resolution": {
         "theorem": 1
       },
       "theorem": {
-        "proving": 1
+        "proving": 2
       },
       "laying": {
         "groundwork": 1,
@@ -48534,7 +48659,8 @@
         "similar": 1
       },
       "factor": {
-        "to": 1
+        "to": 1,
+        "for": 1
       },
       "storing": {
         "and": 1
@@ -50014,7 +50140,8 @@
         "cells": 1
       },
       "major": {
-        "role": 1
+        "role": 1,
+        "motivating": 1
       },
       "motivational": {
         "component": 1
@@ -50587,7 +50714,9 @@
         "ai": 1
       },
       "reasoning": {
-        "infrastructure": 1
+        "infrastructure": 1,
+        "and": 1,
+        "over": 1
       },
       "infrastructure": {
         "to": 1
@@ -51615,6 +51744,28 @@
       },
       "competitive": {
         "activity": 1
+      },
+      "proving": {
+        "(": 1,
+        "mathematical": 1
+      },
+      "atp": {
+        ")": 1
+      },
+      "subfield": {
+        "of": 1
+      },
+      "dealing": {
+        "with": 1
+      },
+      "theorems": {
+        "by": 1
+      },
+      "proof": {
+        "was": 1
+      },
+      "motivating": {
+        "factor": 1
       }
     },
     "starters": {
@@ -51626,7 +51777,7 @@
       "she": 13,
       "we": 15,
       "it": 45,
-      "<VERB>": 85,
+      "<VERB>": 87,
       "can": 1,
       "my": 9,
       "why": 1,
@@ -51698,14 +51849,14 @@
     "connectors": {
       "because": 11,
       "or": 245,
-      "and": 408,
+      "and": 409,
       "but": 42,
       "so": 17,
       "while": 5,
       "than": 30,
       "therefore": 7,
       "if": 8,
-      "as": 131,
+      "as": 132,
       "however": 3,
       "whether": 2,
       "that": 11,
@@ -51794,10 +51945,10 @@
       "VERB>VERB": {
         "or": 12,
         "and": 10,
-        "as": 1
+        "as": 2
       },
       "NOUN>ADJ": {
-        "and": 34,
+        "and": 35,
         "than": 1,
         "or": 13,
         "whether": 1,
@@ -53273,13 +53424,6 @@
       "AUX DET NOUN AUX DET NOUN | and | NOUN": 1
     },
     "sentence_bank": {
-      "following": [
-        "Following are some idiom examples with their meanings you can use in your daily conversation.",
-        "The following is a list of statistical software."
-      ],
-      "idiom": [
-        "Following are some idiom examples with their meanings you can use in your daily conversation."
-      ],
       "let's": [
         "Let's get the ball rolling!"
       ],
@@ -55216,6 +55360,12 @@
       ],
       "competitive": [
         "A playful or competitive activity ."
+      ],
+      "automat": [
+        "Automated reasoning over mathematical proof was a major motivating factor for the development of computer science."
+      ],
+      "reasoning": [
+        "Automated reasoning over mathematical proof was a major motivating factor for the development of computer science."
       ]
     }
   },
@@ -55525,7 +55675,8 @@
       "forced",
       "society",
       "restaurant",
-      "strategy"
+      "strategy",
+      "automated"
     ],
     "names": [],
     "lessons": 59,
@@ -55533,7 +55684,6 @@
     "taught": 0,
     "last_lesson": "2026-10-24 14:12:37",
     "pending_concepts": [
-      "automated resolution theorem",
       "synthesize digital electronic circuits",
       "nosql ecosystems utilize domain-specific",
       "net ecosystem supporting multi-paradigm",
