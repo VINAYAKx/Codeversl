@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.1,
+    "adenosine": 0.22,
     "newborn": false
   },
   "episodic_memory": [
@@ -2819,6 +2819,20 @@
       "time": "2026-10-25 05:35:32",
       "speaker": "brain",
       "text": "My thoughts are swimming, so I am taking a micro-nap to consolidate what I learned. Sleep cycle #43 complete: pruned 20 noisy memories, kept 400 episodes and 219 world facts; adenosine flushed to 0.10, cortisol lowered, state saved. I feel refreshed and clear again, because sleep rebuilt my focus.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-25 08:42:52",
+      "speaker": "brain",
+      "text": "I wondered about 'Capability Brown' by myself and went searching. From Wikipedia (live internet) I learned: Lancelot \"Capability\" Brown was an English gardener and landscape architect, a notable figure in the history of the English landscape garden style. Key ideas I stored: capability, brown.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-25 08:42:52",
+      "speaker": "brain",
+      "text": "I wondered about 'Metaethics' by myself and went searching. From Wikipedia (live internet) I learned: In philosophy, metaethics (meta-ethics) is the study of the nature, scope, ground, and meaning of moral judgment, ethical belief, or values. Key ideas I stored: normative ethics, meta-ethics, metaethics.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -7028,6 +7042,27 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Technology",
       "learned": "2026-10-25 05:35:32"
+    },
+    "Capability Brown": {
+      "summary": "Lancelot \"Capability\" Brown was an English gardener and landscape architect, a notable figure in the history of the English landscape garden style.",
+      "concepts": [
+        "capability",
+        "brown"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Capability_Brown",
+      "learned": "2026-10-25 08:42:52"
+    },
+    "Metaethics": {
+      "summary": "In philosophy, metaethics (meta-ethics) is the study of the nature, scope, ground, and meaning of moral judgment, ethical belief, or values. It is one of the three branches of ethics generally studied by philosophers, the others being normative ethics and applied ethics.",
+      "concepts": [
+        "normative ethics",
+        "meta-ethics",
+        "metaethics"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Metaethics",
+      "learned": "2026-10-25 08:42:52"
     }
   },
   "creator_teachings": [
@@ -8549,6 +8584,18 @@
       "kind": "nap",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-25 08:42:52",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-25 08:42:52",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -8695,7 +8742,9 @@
     "algorithms",
     "blockchain",
     "ai systems",
-    "technology"
+    "technology",
+    "capability",
+    "metaethics"
   ],
   "sensory_log": [
     {
@@ -49658,24 +49707,127 @@
       "source": "corpus",
       "learned": "2026-10-25 05:35:32",
       "uses": 1
+    },
+    "architect": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Lancelot \"Capability\" Brown was an English gardener and landscape architect, a notable figure in the history of the English landscape garden style."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-25 08:42:52",
+      "uses": 1
+    },
+    "figure": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Lancelot \"Capability\" Brown was an English gardener and landscape architect, a notable figure in the history of the English landscape garden style."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-25 08:42:52",
+      "uses": 1
+    },
+    "landscape": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Lancelot \"Capability\" Brown was an English gardener and landscape architect, a notable figure in the history of the English landscape garden style."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-25 08:42:52",
+      "uses": 1
+    },
+    "metaethics": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "In philosophy, metaethics (meta-ethics) is the study of the nature, scope, ground, and meaning of moral judgment, ethical belief, or values."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-25 08:42:52",
+      "uses": 1
+    },
+    "scope": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "In philosophy, metaethics (meta-ethics) is the study of the nature, scope, ground, and meaning of moral judgment, ethical belief, or values."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-25 08:42:52",
+      "uses": 1
+    },
+    "ground": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "In philosophy, metaethics (meta-ethics) is the study of the nature, scope, ground, and meaning of moral judgment, ethical belief, or values."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-25 08:42:52",
+      "uses": 1
+    },
+    "judgment": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "In philosophy, metaethics (meta-ethics) is the study of the nature, scope, ground, and meaning of moral judgment, ethical belief, or values."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-25 08:42:52",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 2257,
-      "tokens": 30523,
+      "sentences": 2260,
+      "tokens": 30602,
       "sources": {
         "seed corpus": 64,
         "conversation": 36,
         "dictionary": 1134,
-        "explore": 334,
+        "explore": 337,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "dcf3e0147e8a",
-        "e9b96e27966d",
         "a4c5dd5b6456",
         "1c32f2fb5b8f",
         "c4655add32a9",
@@ -49973,7 +50125,9 @@
         "916968086719",
         "811f07f4b657",
         "7f292a417911",
-        "87fb941a3112"
+        "87fb941a3112",
+        "8f15c4e51874",
+        "8573f65697a3"
       ],
       "seeded": true,
       "rejected": 523,
@@ -50328,7 +50482,6 @@
         "soldiers": 1,
         "hardships": 1,
         "danger": 1,
-        "ground": 1,
         "littered": 1,
         "syringes": 1,
         "drug": 1,
@@ -51046,7 +51199,6 @@
         "theologian": 1,
         "historian": 1,
         "inventor": 1,
-        "figure": 1,
         "achieved": 1,
         "unification": 1,
         "established": 1,
@@ -51246,7 +51398,6 @@
         "philosophical": 1,
         "ought": 1,
         "morally": 1,
-        "metaethics": 1,
         "hypothesis": 1,
         "quantization": 1,
         "magnitude": 1,
@@ -51390,7 +51541,6 @@
         "appreciate": 1,
         "appropriate": 1,
         "approve": 1,
-        "architect": 1,
         "arrange": 1,
         "arrest": 1,
         "arrival": 1,
@@ -51946,7 +52096,6 @@
         "protocol": 1,
         "suite": 1,
         "comprises": 1,
-        "scope": 1,
         "wireless": 1,
         "optical": 1,
         "technologies": 1,
@@ -52201,7 +52350,6 @@
         "operator": 1,
         "intern": 1,
         "filing": 1,
-        "judgment": 1,
         "subjective": 1,
         "blocks": 1,
         "securely": 1,
@@ -52215,14 +52363,17 @@
         "chatbots": 1,
         "conceptual": 1,
         "reproducible": 1,
-        "tangible": 1
+        "tangible": 1,
+        "lancelot": 1,
+        "notable": 1,
+        "ethical": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 298,
+        "PRON": 299,
         "WH": 30,
-        "NOUN": 665,
+        "NOUN": 666,
         "DET": 590,
         "VERB": 260,
         "MODAL": 5,
@@ -52231,13 +52382,13 @@
         "CONJ": 26,
         "AUX": 14,
         "ADV": 34,
-        "PREP": 165,
+        "PREP": 166,
         "PART": 25,
         "NUM": 8,
         "NEG": 3
       },
       "PRON": {
-        "AUX": 253,
+        "AUX": 254,
         "PUNCT": 65,
         "ADV": 17,
         "VERB": 288,
@@ -52255,17 +52406,17 @@
         "NEG": 1
       },
       "AUX": {
-        "ADJ": 241,
+        "ADJ": 242,
         "PRON": 20,
         "PUNCT": 7,
-        "DET": 334,
+        "DET": 336,
         "NOUN": 73,
         "NEG": 48,
         "VERB": 313,
         "INTJ": 1,
         "ADV": 109,
         "CONJ": 12,
-        "NUM": 20,
+        "NUM": 21,
         "PROPN": 4,
         "WH": 4,
         "AUX": 22,
@@ -52274,13 +52425,13 @@
       },
       "ADJ": {
         "PART": 38,
-        "NOUN": 1505,
+        "NOUN": 1510,
         "WH": 4,
         "PUNCT": 247,
         "PREP": 161,
-        "CONJ": 88,
+        "CONJ": 89,
         "PROPN": 34,
-        "ADJ": 104,
+        "ADJ": 105,
         "DET": 37,
         "AUX": 29,
         "VERB": 76,
@@ -52302,10 +52453,10 @@
         "PROPN": 1
       },
       "VERB": {
-        "PREP": 547,
+        "PREP": 548,
         "PART": 118,
         "ADJ": 88,
-        "NOUN": 568,
+        "NOUN": 569,
         "PUNCT": 255,
         "PRON": 104,
         "AUX": 33,
@@ -52322,12 +52473,12 @@
       },
       "PREP": {
         "PRON": 71,
-        "NOUN": 1049,
-        "DET": 1119,
+        "NOUN": 1052,
+        "DET": 1123,
         "PUNCT": 55,
         "VERB": 90,
         "PREP": 29,
-        "ADJ": 298,
+        "ADJ": 299,
         "PROPN": 123,
         "AUX": 22,
         "NUM": 49,
@@ -52338,15 +52489,15 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 2083,
-        "NOUN": 625,
-        "CONJ": 315,
+        "</S>": 2086,
+        "NOUN": 628,
+        "CONJ": 317,
         "PRON": 48,
         "VERB": 75,
         "ADV": 79,
         "PREP": 65,
-        "ADJ": 101,
-        "DET": 177,
+        "ADJ": 102,
+        "DET": 179,
         "WH": 37,
         "AUX": 33,
         "NUM": 7,
@@ -52375,7 +52526,7 @@
         "NOUN": 92,
         "CONJ": 15,
         "DET": 26,
-        "VERB": 176,
+        "VERB": 177,
         "</S>": 3,
         "PRON": 3,
         "MODAL": 1,
@@ -52388,13 +52539,13 @@
         "INTJ": 1
       },
       "NOUN": {
-        "AUX": 579,
-        "PREP": 1755,
-        "NOUN": 1894,
-        "PUNCT": 2772,
-        "CONJ": 666,
+        "AUX": 582,
+        "PREP": 1760,
+        "NOUN": 1902,
+        "PUNCT": 2783,
+        "CONJ": 667,
         "VERB": 492,
-        "ADV": 89,
+        "ADV": 90,
         "PART": 229,
         "ADJ": 256,
         "MODAL": 80,
@@ -52402,17 +52553,17 @@
         "PRON": 134,
         "WH": 57,
         "DET": 324,
-        "PROPN": 99,
+        "PROPN": 100,
         "NUM": 13,
         "NEG": 6,
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 2067,
-        "ADJ": 883,
+        "NOUN": 2071,
+        "ADJ": 886,
         "PRON": 24,
         "PREP": 49,
-        "NUM": 48,
+        "NUM": 49,
         "PART": 6,
         "VERB": 44,
         "CONJ": 47,
@@ -52427,8 +52578,8 @@
       "CONJ": {
         "PRON": 91,
         "DET": 223,
-        "NOUN": 638,
-        "VERB": 113,
+        "NOUN": 641,
+        "VERB": 114,
         "ADJ": 138,
         "ADV": 46,
         "PUNCT": 18,
@@ -52479,7 +52630,7 @@
         "DET": 10,
         "PUNCT": 149,
         "PART": 12,
-        "NOUN": 172,
+        "NOUN": 173,
         "AUX": 30,
         "PROPN": 110,
         "ADJ": 17,
@@ -52491,10 +52642,10 @@
         "PRON": 4
       },
       "NUM": {
-        "NOUN": 89,
+        "NOUN": 90,
         "PUNCT": 11,
         "CONJ": 16,
-        "PREP": 20,
+        "PREP": 21,
         "VERB": 13,
         "MODAL": 3,
         "ADJ": 8,
@@ -52509,7 +52660,7 @@
     },
     "pos_trigrams": {
       "<S>|PRON": {
-        "AUX": 123,
+        "AUX": 124,
         "VERB": 119,
         "MODAL": 36,
         "ADV": 4,
@@ -52530,7 +52681,7 @@
         "INTJ": 1,
         "ADV": 28,
         "PUNCT": 2,
-        "NUM": 5,
+        "NUM": 6,
         "NOUN": 7,
         "PRON": 2,
         "PREP": 5,
@@ -52544,7 +52695,7 @@
         "PUNCT": 72,
         "PREP": 46,
         "DET": 12,
-        "NOUN": 40,
+        "NOUN": 41,
         "CONJ": 14,
         "ADJ": 9,
         "VERB": 13,
@@ -52578,7 +52729,7 @@
       "VERB|PREP": {
         "PRON": 16,
         "DET": 211,
-        "NOUN": 162,
+        "NOUN": 163,
         "PUNCT": 17,
         "VERB": 15,
         "ADJ": 57,
@@ -52708,7 +52859,7 @@
         "AUX": 110,
         "VERB": 72,
         "PUNCT": 18,
-        "NOUN": 272,
+        "NOUN": 273,
         "CONJ": 21,
         "PREP": 60,
         "PROPN": 15,
@@ -52721,8 +52872,8 @@
         "INTJ": 2
       },
       "NOUN|AUX": {
-        "DET": 188,
-        "ADJ": 111,
+        "DET": 190,
+        "ADJ": 112,
         "NOUN": 39,
         "ADV": 68,
         "VERB": 115,
@@ -52737,8 +52888,8 @@
         "PRON": 2
       },
       "AUX|DET": {
-        "NOUN": 168,
-        "ADJ": 127,
+        "NOUN": 169,
+        "ADJ": 128,
         "PROPN": 6,
         "VERB": 6,
         "PREP": 4,
@@ -52748,10 +52899,10 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 644,
-        "AUX": 181,
+        "PREP": 646,
+        "AUX": 182,
         "CONJ": 147,
-        "PUNCT": 461,
+        "PUNCT": 462,
         "VERB": 136,
         "ADV": 23,
         "ADJ": 57,
@@ -52766,10 +52917,10 @@
         "NUM": 3
       },
       "NOUN|PREP": {
-        "NOUN": 667,
-        "DET": 642,
+        "NOUN": 668,
+        "DET": 645,
         "PREP": 9,
-        "ADJ": 188,
+        "ADJ": 189,
         "PROPN": 56,
         "VERB": 55,
         "PUNCT": 19,
@@ -52782,7 +52933,7 @@
       },
       "PREP|NOUN": {
         "NOUN": 156,
-        "PUNCT": 323,
+        "PUNCT": 325,
         "VERB": 42,
         "CONJ": 113,
         "ADJ": 23,
@@ -52796,17 +52947,17 @@
         "PROPN": 4,
         "NUM": 4,
         "MODAL": 4,
-        "ADV": 5
+        "ADV": 6
       },
       "NOUN|NOUN": {
-        "PUNCT": 674,
+        "PUNCT": 676,
         "PART": 30,
-        "NOUN": 481,
+        "NOUN": 484,
         "PREP": 264,
         "CONJ": 109,
         "VERB": 72,
-        "PROPN": 42,
-        "AUX": 76,
+        "PROPN": 43,
+        "AUX": 78,
         "MODAL": 18,
         "ADJ": 44,
         "NUM": 4,
@@ -52818,13 +52969,13 @@
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 1603,
-        "NOUN": 410,
-        "CONJ": 222,
+        "</S>": 1606,
+        "NOUN": 413,
+        "CONJ": 224,
         "ADV": 56,
         "PREP": 47,
-        "ADJ": 68,
-        "DET": 119,
+        "ADJ": 69,
+        "DET": 121,
         "VERB": 55,
         "WH": 27,
         "PRON": 31,
@@ -52849,9 +53000,9 @@
         "PRON": 3
       },
       "DET|ADJ": {
-        "NOUN": 709,
+        "NOUN": 711,
         "CONJ": 27,
-        "ADJ": 34,
+        "ADJ": 35,
         "PUNCT": 34,
         "VERB": 19,
         "PREP": 21,
@@ -52865,12 +53016,12 @@
         "NUM": 3
       },
       "ADJ|NOUN": {
-        "PUNCT": 486,
-        "NOUN": 234,
+        "PUNCT": 488,
+        "NOUN": 235,
         "MODAL": 13,
         "VERB": 79,
-        "PREP": 313,
-        "CONJ": 120,
+        "PREP": 314,
+        "CONJ": 121,
         "DET": 51,
         "ADJ": 20,
         "AUX": 82,
@@ -52895,9 +53046,9 @@
         "DET": 1
       },
       "PREP|DET": {
-        "NOUN": 703,
-        "ADJ": 282,
-        "NUM": 19,
+        "NOUN": 705,
+        "ADJ": 283,
+        "NUM": 20,
         "PREP": 15,
         "PROPN": 45,
         "DET": 22,
@@ -52911,7 +53062,7 @@
       "NOUN|CONJ": {
         "PRON": 22,
         "DET": 95,
-        "VERB": 35,
+        "VERB": 36,
         "NOUN": 362,
         "ADJ": 56,
         "WH": 6,
@@ -52935,7 +53086,7 @@
         "NOUN": 1
       },
       "VERB|NOUN": {
-        "PUNCT": 144,
+        "PUNCT": 145,
         "PREP": 85,
         "PART": 14,
         "VERB": 20,
@@ -52978,9 +53129,9 @@
       },
       "PUNCT|NOUN": {
         "CONJ": 45,
-        "NOUN": 99,
+        "NOUN": 100,
         "ADJ": 8,
-        "PUNCT": 328,
+        "PUNCT": 330,
         "PREP": 71,
         "AUX": 20,
         "DET": 14,
@@ -53136,7 +53287,7 @@
         "WH": 1
       },
       "PUNCT|CONJ": {
-        "NOUN": 118,
+        "NOUN": 120,
         "PRON": 29,
         "DET": 41,
         "PUNCT": 6,
@@ -53154,12 +53305,12 @@
       },
       "CONJ|NOUN": {
         "AUX": 20,
-        "PUNCT": 169,
+        "PUNCT": 170,
         "</S>": 1,
-        "PREP": 129,
+        "PREP": 130,
         "VERB": 21,
         "WH": 7,
-        "NOUN": 185,
+        "NOUN": 186,
         "PRON": 12,
         "PART": 16,
         "CONJ": 25,
@@ -53185,7 +53336,7 @@
       },
       "NOUN|ADV": {
         "PUNCT": 25,
-        "VERB": 29,
+        "VERB": 30,
         "PREP": 15,
         "NOUN": 7,
         "ADJ": 1,
@@ -53245,7 +53396,7 @@
       },
       "CONJ|VERB": {
         "PART": 5,
-        "NOUN": 28,
+        "NOUN": 29,
         "PUNCT": 34,
         "ADJ": 6,
         "PREP": 24,
@@ -53489,7 +53640,7 @@
       },
       "ADJ|CONJ": {
         "ADJ": 30,
-        "NOUN": 25,
+        "NOUN": 26,
         "ADV": 2,
         "AUX": 3,
         "DET": 17,
@@ -53625,7 +53776,7 @@
         "PART": 11,
         "NOUN": 22,
         "CONJ": 26,
-        "PREP": 51,
+        "PREP": 52,
         "WH": 4,
         "PUNCT": 10,
         "ADJ": 6,
@@ -53652,7 +53803,7 @@
         "PRON": 1
       },
       "PUNCT|ADJ": {
-        "NOUN": 45,
+        "NOUN": 46,
         "PUNCT": 28,
         "PROPN": 5,
         "PREP": 13,
@@ -53665,7 +53816,7 @@
         "CONJ": 7,
         "PROPN": 7,
         "ADJ": 24,
-        "NOUN": 218,
+        "NOUN": 219,
         "PUNCT": 18,
         "AUX": 3,
         "VERB": 9,
@@ -53756,8 +53907,8 @@
         "VERB": 1
       },
       "PUNCT|DET": {
-        "NOUN": 97,
-        "ADJ": 35,
+        "NOUN": 98,
+        "ADJ": 36,
         "VERB": 4,
         "PROPN": 12,
         "PREP": 6,
@@ -53779,7 +53930,7 @@
         "PART": 1,
         "VERB": 1,
         "MODAL": 1,
-        "CONJ": 5,
+        "CONJ": 6,
         "DET": 2
       },
       "PUNCT|WH": {
@@ -53831,7 +53982,7 @@
       },
       "NOUN|PROPN": {
         "PART": 1,
-        "NOUN": 46,
+        "NOUN": 47,
         "AUX": 8,
         "PROPN": 14,
         "PREP": 7,
@@ -53856,7 +54007,7 @@
         "CONJ": 2
       },
       "DET|NUM": {
-        "NOUN": 36,
+        "NOUN": 37,
         "PART": 2,
         "PROPN": 1,
         "ADJ": 3,
@@ -53866,7 +54017,7 @@
         "CONJ": 1
       },
       "NUM|NOUN": {
-        "PREP": 26,
+        "PREP": 27,
         "VERB": 5,
         "PUNCT": 16,
         "AUX": 9,
@@ -53891,7 +54042,7 @@
         "ADV": 1
       },
       "<S>|PREP": {
-        "NOUN": 57,
+        "NOUN": 58,
         "PROPN": 11,
         "ADJ": 12,
         "DET": 69,
@@ -53904,7 +54055,7 @@
         "CONJ": 7,
         "AUX": 27,
         "PUNCT": 60,
-        "NOUN": 40,
+        "NOUN": 41,
         "DET": 7,
         "MODAL": 1,
         "PROPN": 10,
@@ -54229,7 +54380,7 @@
         "NOUN": 2
       },
       "AUX|NUM": {
-        "PREP": 7,
+        "PREP": 8,
         "NOUN": 5,
         "AUX": 1,
         "WH": 1,
@@ -54240,7 +54391,7 @@
       },
       "NUM|PREP": {
         "PREP": 3,
-        "DET": 12,
+        "DET": 13,
         "PRON": 2,
         "WH": 1,
         "NUM": 1,
@@ -54832,11 +54983,11 @@
       },
       "is": {
         "a": 113,
-        "the": 70,
+        "the": 71,
         "an": 22,
         "usually": 6,
         "hard": 5,
-        "one": 5,
+        "one": 6,
         "important": 3,
         "vague": 3,
         "good": 3,
@@ -54867,7 +55018,8 @@
         "timestamp": 1,
         "chain": 1,
         "reproducible": 1,
-        "critical": 1
+        "critical": 1,
+        "notable": 1
       },
       "for": {
         "the": 24,
@@ -54903,7 +55055,13 @@
         "film": 5,
         "lesson": 4,
         "variable": 3,
-        "listener": 3
+        "listener": 3,
+        "history": 1,
+        "english": 1,
+        "study": 1,
+        "nature": 1,
+        "three": 1,
+        "others": 1
       },
       "brain": {
         "is": 1,
@@ -55049,10 +55207,11 @@
         "subjective": 1,
         "thing": 1,
         "with": 1,
-        "machines": 1
+        "machines": 1,
+        "values": 1
       },
       "it": {
-        "is": 44,
+        "is": 45,
         "was": 12,
         "'s": 9,
         "has": 5,
@@ -55275,15 +55434,7 @@
         "functions": 2,
         "writing": 2,
         "creative": 2,
-        "understand": 1,
-        "art": 1,
-        "on": 1,
-        "possibly": 1,
-        "transportation": 1,
-        "transaction": 1,
-        "take": 1,
-        "intangible": 1,
-        "everyday": 1
+        "applied": 1
       },
       "meanings": {
         "have": 1,
@@ -55466,7 +55617,7 @@
         "effectively": 1
       },
       "in": {
-        "the": 110,
+        "the": 111,
         "a": 58,
         "english": 17,
         "machine": 8,
@@ -55478,7 +55629,8 @@
         "\"": 4,
         "front": 1,
         "storage": 1,
-        "science": 1
+        "science": 1,
+        "philosophy": 1
       },
       "children": {
         "play": 1,
@@ -55492,7 +55644,7 @@
       },
       "was": {
         "a": 12,
-        "an": 6,
+        "an": 7,
         "originally": 3,
         "the": 3,
         "then": 2,
@@ -55604,7 +55756,7 @@
         "at": 1
       },
       "of": {
-        "the": 149,
+        "the": 152,
         "a": 67,
         "an": 17,
         "or": 11,
@@ -55613,7 +55765,9 @@
         "information": 6,
         "other": 5,
         "knowledge": 5,
-        "postwar": 3
+        "postwar": 3,
+        "moral": 1,
+        "ethics": 1
       },
       "reading": {
         "is": 1,
@@ -56022,7 +56176,7 @@
         "i": 2,
         "matchine": 2,
         "or": 2,
-        "of": 15,
+        "of": 16,
         "brilliant": 1,
         "in": 2,
         "whole": 1,
@@ -56170,7 +56324,8 @@
         "hour": 1,
         "area": 1,
         "item": 1,
-        "ai": 1
+        "ai": 1,
+        "english": 1
       },
       "update": {
         "to": 1,
@@ -56480,7 +56635,8 @@
         "interscope": 1,
         "abrams": 1,
         "stressful": 1,
-        "being": 1
+        "being": 1,
+        "philosophers": 1
       },
       "thermodynamic": {
         "efficiency": 2,
@@ -57058,10 +57214,11 @@
         "or": 1,
         "cosmologia": 1,
         "sixty": 1,
-        "blocks": 1
+        "blocks": 1,
+        "meta-ethics": 1
       },
       ")": {
-        "is": 16,
+        "is": 17,
         "and": 7,
         "grammatical": 4,
         "with": 3,
@@ -57300,25 +57457,16 @@
         "an": 1
       },
       "\"": {
-        "the": 5,
         "a": 6,
+        "the": 5,
         "conjunction": 4,
         "must": 4,
         "he": 4,
         "(": 4,
+        "is": 4,
         "but": 2,
         "time": 2,
-        "is": 4,
-        "hiccough": 1,
-        "christianity": 1,
-        "trait": 1,
-        "units": 1,
-        "best": 1,
-        "based": 1,
-        "theoretical": 1,
-        "compiler": 1,
-        "open": 1,
-        "directed": 1
+        "hiccough": 1
       },
       "be": {
         "a": 8,
@@ -57752,7 +57900,8 @@
         "the": 3,
         "be": 3,
         "known": 1,
-        "accepted": 1
+        "accepted": 1,
+        "studied": 1
       },
       "agreed": {
         "that": 3,
@@ -57833,7 +57982,7 @@
         "detailed": 1
       },
       "one": {
-        "of": 11,
+        "of": 12,
         "or": 4,
         "'s": 5,
         "(": 4,
@@ -58248,7 +58397,8 @@
         "moved": 1,
         "combined": 1,
         "organized": 1,
-        "inside": 1
+        "inside": 1,
+        "normative": 1
       },
       "having": {
         "a": 7,
@@ -59637,26 +59787,17 @@
         "collaborated": 1
       },
       "english": {
-        "by": 1,
-        "offers": 4,
-        "language": 1,
-        "speakers": 4,
-        "can": 1,
         "is": 5,
-        ")": 1,
-        "the": 1,
-        "\"": 1,
+        "offers": 4,
+        "speakers": 4,
         "grammar": 4,
-        "noun": 1,
         "tenses": 2,
-        "word": 1,
-        "has": 1,
-        "nouns": 1,
-        "verb": 1,
-        "polymath": 1,
-        "standard": 1,
         "proficiency": 2,
-        "in": 1
+        "by": 1,
+        "language": 1,
+        "can": 1,
+        ")": 1,
+        "landscape": 1
       },
       "infinitive": {
         "of": 3,
@@ -60226,7 +60367,7 @@
         "inventions": 1
       },
       "branches": {
-        "of": 2,
+        "of": 3,
         "include": 1,
         "are": 1
       },
@@ -60598,7 +60739,8 @@
         "of": 1,
         "like": 1,
         "surrendered": 1,
-        "have": 1
+        "have": 1,
+        "being": 1
       },
       "put": {
         "them": 3,
@@ -60642,7 +60784,8 @@
       },
       "brown": {
         "and": 2,
-        "adj": 1
+        "adj": 1,
+        "was": 1
       },
       "levinson": {
         "identified": 1,
@@ -60865,7 +61008,7 @@
         "that": 1,
         "one": 1,
         "between": 1,
-        "of": 2,
+        "of": 3,
         "—": 1
       },
       "name": {
@@ -61699,7 +61842,8 @@
         "objects": 1,
         "years": 1,
         "basic": 2,
-        "dollars": 1
+        "dollars": 1,
+        "branches": 1
       },
       "heading": {
         ")": 2
@@ -64187,77 +64331,23 @@
         "peculiar": 1,
         "on": 1
       },
-      "modifiable": {
-        "(": 1
-      },
-      "unless": {
-        "stored": 1
-      },
-      "unalterable": {
-        "memory": 1
-      },
-      "rom": {
-        ")": 1
-      },
       "park": {
         "was": 1,
         "for": 1,
         "the": 1,
         "that": 1
       },
-      "rejected": {
-        "for": 1
-      },
       "comments": {
         "design": 1,
-        "to": 1
-      },
-      "ed": {
         "to": 1
       },
       "chip": {
         "away": 1,
         "\"": 1
       },
-      "self-esteem": {
-        "the": 1
-      },
-      "king": {
-        "designed": 1
-      },
-      "mount": {
-        "an": 1
-      },
-      "expedition": {
-        "to": 1
-      },
-      "specification": {
-        "of": 1
-      },
-      "requirements": {
-        "to": 1
-      },
-      "satisfied": {
-        "and": 1
-      },
       "watch": {
         "the": 1,
         "for": 1
-      },
-      "husband": {
-        "and": 1
-      },
-      "permits": {
-        "is": 1
-      },
-      "first-served": {
-        "basis": 1
-      },
-      "farmer": {
-        "received": 1
-      },
-      "allocating": {
-        "things": 1
       },
       "accused": {
         "is": 1,
@@ -64266,15 +64356,6 @@
       "aim": {
         "of": 1,
         "v": 1
-      },
-      "winning": {
-        "the": 1
-      },
-      "seeming": {
-        "a": 1
-      },
-      "eyes": {
-        "seem": 1
       },
       "seemed": {
         "to": 2
@@ -64285,57 +64366,18 @@
         "to": 1,
         "correct": 1
       },
-      "consecutive": {
-        "numbers": 1
-      },
-      "prone": {
-        "to": 1
-      },
       "roman": {
         "empire": 1,
         "catholic": 1
-      },
-      "empire": {
-        "never": 1
-      },
-      "recovered": {
-        "from": 1
-      },
-      "sack": {
-        "of": 1
-      },
-      "thoroughgoing": {
-        "pragmatist": 1
-      },
-      "pragmatist": {
-        "to": 1
-      },
-      "fullest": {
-        "extent": 1
-      },
-      "walked": {
-        "home": 1
       },
       "home": {
         "alone": 1,
         "of": 2
       },
-      "job": {
-        "was": 1
-      },
-      "smith": {
-        "announced": 1
-      },
-      "announced": {
-        "he": 1
-      },
       "seeks": {
         "to": 1,
         "neither": 1,
         "widespread": 1
-      },
-      "elected": {
-        "or": 1
       },
       "appointed": {
         "to": 2
@@ -64343,12 +64385,6 @@
       "contract": {
         "requires": 1,
         "in": 1
-      },
-      "queer": {
-        "party": 1
-      },
-      "partied": {
-        "until": 1
       },
       "until": {
         "the": 1,
@@ -64360,16 +64396,10 @@
         "the": 1,
         "a": 1
       },
-      "dvr": {
-        "to": 1
-      },
       "record": {
         "his": 1,
         "music": 1,
         "that": 1
-      },
-      "goals": {
-        "than": 1
       },
       "totally": {
         "agreed": 1,
@@ -64379,80 +64409,26 @@
         "terms": 1,
         "movement": 1
       },
-      "coordinates": {
-        "and": 1
-      },
-      "rescue": {
-        "you": 1
-      },
       "legs": {
         "after": 1,
         "or": 1
       },
-      "primary": {
-        "means": 1
-      },
-      "variations": {
-        "observed": 1
-      },
       "observed": {
         "between": 1,
         "that": 1
-      },
-      "cultures": {
-        "and": 1
-      },
-      "productivity": {
-        "and": 1
-      },
-      "enable": {
-        "the": 1
       },
       "infinite": {
         "number": 1,
         "sequences": 1,
         "series": 1
       },
-      "convention": {
-        "and": 1
-      },
-      "acquired": {
-        "through": 1
-      },
-      "monadic": {
-        "predicate": 1
-      },
-      "fragment": {
-        "of": 1
-      },
-      "symbols": {
-        "in": 1
-      },
-      "signature": {
-        "are": 1
-      },
       "atomic": {
         "formulas": 1,
         "bombs": 1
       },
-      "formulas": {
-        "are": 1
-      },
-      "throw": {
-        "the": 1
-      },
       "showing": {
         "you": 1,
         "a": 1
-      },
-      "luck": {
-        "hitting": 1
-      },
-      "hitting": {
-        "the": 1
-      },
-      "kebab": {
-        "was": 1
       },
       "socialization": {
         "skills": 1,
@@ -64471,12 +64447,6 @@
         "to": 1,
         "adj": 1
       },
-      "breaks": {
-        "so": 1
-      },
-      "playful": {
-        "or": 1
-      },
       "competitive": {
         "activity": 1,
         "adj": 1
@@ -64485,43 +64455,19 @@
         "(": 1,
         "mathematical": 1
       },
-      "atp": {
-        ")": 1
-      },
       "subfield": {
         "of": 1,
         "within": 1
-      },
-      "dealing": {
-        "with": 1
-      },
-      "theorems": {
-        "by": 1
       },
       "proof": {
         "was": 1,
         "system": 1,
         "of": 1
       },
-      "motivating": {
-        "factor": 1
-      },
       "instruments": {
         "to": 1,
         "vary": 1,
         "that": 1
-      },
-      "effects": {
-        "units": 1
-      },
-      "audio": {
-        "equipment": 1
-      },
-      "editing": {
-        "of": 1
-      },
-      "professions": {
-        "in": 1
       },
       "optics": {
         "is": 2,
@@ -64534,25 +64480,13 @@
         "force": 1,
         "phenomenon": 1
       },
-      "detect": {
-        "it": 1
-      },
       "behaviour": {
         "of": 1,
         "n": 1
       },
-      "infrared": {
-        "light": 1
-      },
-      "extends": {
-        "to": 1
-      },
       "applied": {
         "to": 1,
-        "ethics": 1
-      },
-      "beams": {
-        "of": 1
+        "ethics": 2
       },
       "elementary": {
         "charged": 1,
@@ -64562,9 +64496,6 @@
       "charged": {
         "particles": 1,
         "with": 1
-      },
-      "deductively": {
-        "valid": 1
       },
       "valid": {
         "inferences": 1,
@@ -64583,48 +64514,6 @@
         "to": 1,
         "known": 1
       },
-      "topic": {
-        "and": 1
-      },
-      "argumentation": {
-        "theory": 1
-      },
-      "expressed": {
-        "in": 1
-      },
-      "countable": {
-        "noun": 1
-      },
-      "articulates": {
-        "a": 1
-      },
-      "jugs": {
-        "were": 1
-      },
-      "treatment": {
-        "to": 1
-      },
-      "maximum": {
-        "possible": 1
-      },
-      "fit": {
-        "in": 1
-      },
-      "crew": {
-        "surfaced": 1
-      },
-      "surfaced": {
-        "the": 1
-      },
-      "relief": {
-        "when": 1
-      },
-      "missing": {
-        "diver": 1
-      },
-      "diver": {
-        "finally": 1
-      },
       "finally": {
         "surfaced": 1,
         "arrived": 1
@@ -64633,72 +64522,28 @@
         "of": 1,
         "line": 1
       },
-      "whished": {
-        "along": 1
-      },
-      "boat": {
-        "as": 1
-      },
-      "rowed": {
-        "upstream": 1
-      },
-      "sang": {
-        "along": 1
-      },
       "electric": {
         "and": 1,
         "power": 1,
         "signals": 1,
         "charge": 1
       },
-      "forces": {
-        "are": 1
-      },
       "closely": {
         "related": 2,
         "adv": 1
-      },
-      "standing": {
-        "in": 1
-      },
-      "locomotive": {
-        "at": 1
-      },
-      "pulling": {
-        "and": 1
       },
       "accept": {
         "either": 1,
         "v": 1
       },
-      "modifies": {
-        "a": 1
-      },
-      "ethics": {
-        "is": 1
-      },
-      "philosophical": {
-        "study": 1
-      },
       "moral": {
         "phenomena": 1,
-        "philosophy": 1
-      },
-      "investigates": {
-        "normative": 1
+        "philosophy": 1,
+        "judgment": 1
       },
       "normative": {
         "questions": 1,
-        "ethics": 1
-      },
-      "ought": {
-        "to": 1
-      },
-      "behavior": {
-        "is": 1
-      },
-      "morally": {
-        "right": 1
+        "ethics": 2
       },
       "quantum": {
         "is": 1,
@@ -64711,21 +64556,6 @@
       "quantized": {
         "\"": 1,
         "and": 1
-      },
-      "hypothesis": {
-        "of": 1
-      },
-      "quantization": {
-        "\"": 1
-      },
-      "magnitude": {
-        "of": 1
-      },
-      "integer": {
-        "multiples": 1
-      },
-      "multiples": {
-        "of": 1
       },
       "photon": {
         "is": 2,
@@ -64743,12 +64573,6 @@
       "atoms": {
         "and": 2
       },
-      "electrons": {
-        "can": 1
-      },
-      "firing": {
-        "electric": 1
-      },
       "central": {
         "nervous": 1,
         "adj": 1
@@ -64758,57 +64582,22 @@
         "v": 1,
         "relative": 1
       },
-      "faculty": {
-        "of": 1
-      },
-      "retrieved": {
-        "when": 1
-      },
-      "retention": {
-        "of": 1
-      },
-      "purpose": {
-        "of": 1
-      },
-      "influencing": {
-        "future": 1
-      },
-      "identity": {
-        "to": 1
-      },
       "described": {
         "as": 2
       },
-      "forgetfulness": {
-        "or": 1
-      },
-      "disorder": {
-        "such": 1
-      },
       "capability": {
-        "of": 1
+        "of": 1,
+        "\"": 1
       },
       "spring": {
         "up": 1,
         "and": 1
-      },
-      "admiration": {
-        "for": 1
       },
       "gave": {
         "way": 1,
         "a": 1,
         "explicit": 1,
         "you": 2
-      },
-      "disgust": {
-        "about": 1
-      },
-      "letter": {
-        "of": 1
-      },
-      "names": {
-        "is": 1
       },
       "capital": {
         "letter": 1,
@@ -64828,107 +64617,17 @@
         "lines": 1,
         "or": 1
       },
-      "notebook": {
-        "paper": 1
-      },
-      "railway": {
-        "lines": 1
-      },
-      "runs": {
-        "parallel": 1
-      },
-      "equally": {
-        "distant": 1
-      },
       "distant": {
         "from": 1,
         "past": 1
-      },
-      "participants": {
-        "must": 1
-      },
-      "adhere": {
-        "to": 1
-      },
-      "july": {
-        "is": 1
-      },
-      "favourite": {
-        "month": 1
-      },
-      "year": {
-        "is": 1
-      },
-      "historically": {
-        "based": 1
-      },
-      "phases": {
-        "of": 1
-      },
-      "pit": {
-        "row": 1
-      },
-      "row": {
-        "was": 1
-      },
-      "abuzz": {
-        "with": 1
-      },
-      "morning": {
-        "was": 1
-      },
-      "walk": {
-        "to": 1
-      },
-      "armored": {
-        "personnel": 1
-      },
-      "personnel": {
-        "carrier": 1
       },
       "carrier": {
         "a": 1,
         "for": 1
       },
-      "carries": {
-        "someone": 1
-      },
-      "robbers": {
-        "took": 1
-      },
-      "shelter": {
-        "with": 1
-      },
-      "allotted": {
-        "to": 1
-      },
-      "transitional": {
-        "deacons": 1
-      },
-      "deacons": {
-        "are": 1
-      },
-      "obliged": {
-        "to": 1
-      },
-      "recite": {
-        "the": 1
-      },
-      "divine": {
-        "office": 1
-      },
       "ceremonial": {
         "duty": 1,
         "worship": 1
-      },
-      "duty": {
-        "or": 1
-      },
-      "authorized": {
-        "form": 1
-      },
-      "worship": {
-        "of": 1
       },
       "dead": {
         "or": 1,
@@ -64938,132 +64637,24 @@
         "or": 1,
         "means": 1
       },
-      "tabletop": {
-        "is": 1
-      },
-      "amorphous": {
-        "solid": 1
-      },
-      "transparent": {
-        "substance": 1
-      },
-      "melting": {
-        "silica": 1
-      },
-      "silica": {
-        "sand": 1
-      },
-      "sand": {
-        "with": 1
-      },
-      "additives": {
-        "(": 1
-      },
-      "mixture": {
-        "of": 1
-      },
-      "potash": {
-        "and": 1
-      },
-      "lime": {
-        "is": 1
-      },
-      "photons": {
-        "are": 1
-      },
-      "massless": {
-        "particles": 1
-      },
       "particles": {
         "that": 1,
         "or": 1,
         "like": 3,
         "can": 1
       },
-      "speed": {
-        "of": 1
-      },
-      "boson": {
-        "particles": 1
-      },
-      "sun": {
-        "rises": 1
-      },
       "becomes": {
         "visible": 1,
         "clear": 1
       },
-      "massing": {
-        "on": 1
-      },
       "evidence": {
         "of": 1,
-        "to": 1
-      },
-      "extinctions": {
-        "in": 1
-      },
-      "cohering": {
-        "so": 1
-      },
-      "aggregation": {
-        "of": 1
-      },
-      "collectively": {
-        "make": 1
-      },
-      "considerable": {
-        "size": 1
-      },
-      "precious": {
-        "metal": 1
-      },
-      "gold": {
-        "or": 1
-      },
-      "male": {
-        "species": 1
-      },
-      "bushes": {
-        "to": 1
-      },
-      "pea": {
-        "vines": 1
-      },
-      "vines": {
-        "to": 1
-      },
-      "peas": {
-        "on": 1
-      },
-      "chicks": {
-        "scramble": 1
-      },
-      "scramble": {
         "to": 1
       },
       "fractal": {
         "is": 1,
         "dimension": 1,
         "geometry": 1
-      },
-      "geometric": {
-        "shape": 1
-      },
-      "dimension": {
-        "strictly": 1
-      },
-      "strictly": {
-        "exceeding": 1
-      },
-      "exceeding": {
-        "the": 1
-      },
-      "topological": {
-        "dimension": 1
-      },
-      "fractals": {
-        "appear": 1
       },
       "appear": {
         "similar": 1,
@@ -65073,30 +64664,6 @@
       "successive": {
         "magnifications": 1,
         "generations": 1
-      },
-      "magnifications": {
-        "of": 1
-      },
-      "mandelbrot": {
-        "set": 1
-      },
-      "geometry": {
-        "relates": 1
-      },
-      "relates": {
-        "to": 1
-      },
-      "measure": {
-        "theory": 1
-      },
-      "hausdorff": {
-        "dimension": 1
-      },
-      "emotions": {
-        "are": 1
-      },
-      "intertwined": {
-        "with": 1
       },
       "university": {
         "press": 7
@@ -65152,15 +64719,6 @@
         "confuse": 1,
         "connect": 1
       },
-      "inde": {
-        "nite": 1
-      },
-      "nite": {
-        "article": 1
-      },
-      "abandon": {
-        "v": 1
-      },
       "a2": {
         "all": 2,
         "able": 1,
@@ -65177,15 +64735,6 @@
         "con": 1,
         "connected": 1,
         "connection": 1
-      },
-      "abroad": {
-        "adv": 1
-      },
-      "absolute": {
-        "adj": 1
-      },
-      "absolutely": {
-        "adv": 1
       },
       "b1": {
         "academic": 1,
@@ -65213,117 +64762,18 @@
         "n": 1,
         "intermediate": 2
       },
-      "accident": {
-        "n": 1
-      },
-      "accommodation": {
-        "n": 1
-      },
-      "accompany": {
-        "v": 1
-      },
       "account": {
         "n": 1,
         "of": 2
-      },
-      "accurate": {
-        "adj": 1
-      },
-      "accuse": {
-        "v": 1
-      },
-      "achievement": {
-        "n": 1
-      },
-      "acknowledge": {
-        "v": 1
-      },
-      "acquire": {
-        "v": 1
-      },
-      "actress": {
-        "n": 1
-      },
-      "actual": {
-        "adj": 1
       },
       "addition": {
         "n": 1,
         "and": 1,
         "to": 1
       },
-      "admire": {
-        "v": 1
-      },
-      "advantage": {
-        "n": 1
-      },
-      "adventure": {
-        "n": 1
-      },
-      "advertise": {
-        "v": 1
-      },
-      "advertisement": {
-        "n": 1
-      },
-      "advertising": {
-        "n": 1
-      },
-      "advise": {
-        "v": 1
-      },
-      "afraid": {
-        "a1": 1
-      },
-      "afternoon": {
-        "n": 1
-      },
-      "afterwards": {
-        "adv": 1
-      },
-      "again": {
-        "adv": 1
-      },
-      "aged": {
-        "adj": 1
-      },
       "agency": {
         "n": 1,
         "to": 1
-      },
-      "agenda": {
-        "n": 1
-      },
-      "aggressive": {
-        "adj": 1
-      },
-      "ah": {
-        "exclam": 1
-      },
-      "ahead": {
-        "adv": 1
-      },
-      "aid": {
-        "n": 1
-      },
-      "aircraft": {
-        "n": 1
-      },
-      "airline": {
-        "n": 1
-      },
-      "airport": {
-        "n": 1
-      },
-      "alcohol": {
-        "n": 1
-      },
-      "alcoholic": {
-        "adj": 1
-      },
-      "alive": {
-        "adj": 1
       },
       "almost": {
         "adv": 1,
@@ -65336,160 +64786,13 @@
         "spelling": 1,
         "name": 1
       },
-      "amazed": {
-        "adj": 1
-      },
-      "amazing": {
-        "adj": 1
-      },
-      "ambition": {
-        "n": 1
-      },
-      "analyse": {
-        "v": 1
-      },
-      "ancient": {
-        "adj": 1
-      },
-      "angry": {
-        "adj": 1
-      },
-      "anniversary": {
-        "n": 1
-      },
-      "announce": {
-        "v": 1
-      },
-      "announcement": {
-        "n": 1
-      },
-      "annoyed": {
-        "adj": 1
-      },
-      "annoying": {
-        "adj": 1
-      },
-      "annual": {
-        "adj": 1
-      },
-      "answer": {
-        "n": 1
-      },
-      "anybody": {
-        "pron": 1
-      },
-      "anyway": {
-        "adv": 1
-      },
-      "anywhere": {
-        "adv": 1
-      },
-      "apart": {
-        "adv": 1
-      },
-      "apartment": {
-        "n": 1
-      },
-      "apologize": {
-        "v": 1
-      },
-      "apparent": {
-        "adj": 1
-      },
-      "apparently": {
-        "adv": 1
-      },
-      "appeal": {
-        "n": 1
-      },
-      "appearance": {
-        "n": 1
-      },
-      "appointment": {
-        "n": 1
-      },
-      "appreciate": {
-        "v": 1
-      },
-      "appropriate": {
-        "adj": 1
-      },
-      "approve": {
-        "v": 1
-      },
-      "approximately": {
-        "adv": 1
-      },
-      "architect": {
-        "n": 1
-      },
       "armed": {
         "adj": 1,
         "conflict": 1
       },
-      "arrange": {
-        "v": 1
-      },
-      "arrangement": {
-        "n": 1
-      },
-      "arrest": {
-        "v": 1
-      },
-      "arrival": {
-        "n": 1
-      },
-      "arti": {
-        "cial": 1
-      },
-      "cial": {
-        "adj": 1
-      },
-      "artist": {
-        "n": 1
-      },
-      "artistic": {
-        "adj": 1
-      },
-      "ashamed": {
-        "adj": 1
-      },
-      "asleep": {
-        "adj": 1
-      },
-      "aspect": {
-        "n": 1
-      },
-      "assess": {
-        "v": 1
-      },
-      "assessment": {
-        "n": 1
-      },
       "assignment": {
         "n": 1,
         "on": 1
-      },
-      "assist": {
-        "v": 1
-      },
-      "assistant": {
-        "n": 1
-      },
-      "association": {
-        "n": 1
-      },
-      "assume": {
-        "v": 1
-      },
-      "athlete": {
-        "n": 1
-      },
-      "atmosphere": {
-        "n": 1
-      },
-      "attach": {
-        "v": 1
       },
       "attempt": {
         "n": 1,
@@ -65498,30 +64801,6 @@
       "attend": {
         "v": 1,
         "the": 1
-      },
-      "attitude": {
-        "n": 1
-      },
-      "attract": {
-        "v": 1
-      },
-      "attraction": {
-        "n": 1
-      },
-      "attractive": {
-        "adj": 1
-      },
-      "august": {
-        "n": 1
-      },
-      "author": {
-        "n": 1
-      },
-      "authority": {
-        "n": 1
-      },
-      "autumn": {
-        "n": 1
       },
       "available": {
         "adj": 1,
@@ -65532,30 +64811,12 @@
         "adj": 1,
         "standard": 1
       },
-      "awful": {
-        "adj": 1
-      },
-      "backwards": {
-        "adv": 1
-      },
       "bacteria": {
         "n": 1,
         "are": 1,
         "were": 1,
         "inhabit": 1,
         "play": 1
-      },
-      "badly": {
-        "adv": 1
-      },
-      "balance": {
-        "n": 1
-      },
-      "ban": {
-        "v": 1
-      },
-      "banana": {
-        "n": 1
       },
       "bank": {
         "(": 2
@@ -65565,148 +64826,28 @@
         "are": 1,
         "is": 1
       },
-      "barrier": {
-        "n": 1
-      },
-      "baseball": {
-        "n": 1
-      },
-      "basically": {
-        "adv": 1
-      },
-      "basketball": {
-        "n": 1
-      },
-      "bathroom": {
-        "n": 1
-      },
-      "battery": {
-        "n": 1
-      },
       "bear": {
         "(": 2
-      },
-      "beauty": {
-        "n": 1
-      },
-      "bedroom": {
-        "n": 1
-      },
-      "behave": {
-        "v": 1
-      },
-      "belief": {
-        "n": 1
-      },
-      "believe": {
-        "v": 1
-      },
-      "belong": {
-        "v": 1
-      },
-      "below": {
-        "adv": 1
-      },
-      "bend": {
-        "v": 1
-      },
-      "bene": {
-        "t": 1
-      },
-      "t": {
-        "n": 1
       },
       "bent": {
         "adj": 1,
         "such": 1
       },
-      "bicycle": {
-        "n": 1
-      },
       "billion": {
         "number": 1,
         "baptized": 1
-      },
-      "bin": {
-        "n": 1
       },
       "biology": {
         "n": 1,
         "because": 1
       },
-      "birthday": {
-        "n": 1
-      },
-      "biscuit": {
-        "n": 1
-      },
-      "bite": {
-        "v": 1
-      },
-      "bitter": {
-        "adj": 1
-      },
       "black": {
         "adj": 1,
         "cloud": 1
       },
-      "blame": {
-        "v": 1
-      },
-      "blank": {
-        "adj": 1
-      },
-      "blind": {
-        "adj": 1
-      },
-      "blonde": {
-        "adj": 1
-      },
-      "bomb": {
-        "n": 1
-      },
       "border": {
         "n": 1,
         "in": 1
-      },
-      "bored": {
-        "adj": 1
-      },
-      "boring": {
-        "adj": 1
-      },
-      "bother": {
-        "v": 1
-      },
-      "bottle": {
-        "n": 1
-      },
-      "bottom": {
-        "n": 1
-      },
-      "boyfriend": {
-        "n": 1
-      },
-      "brand": {
-        "n": 1
-      },
-      "brave": {
-        "adj": 1
-      },
-      "break": {
-        "v": 1
-      },
-      "breakfast": {
-        "n": 1
-      },
-      "breast": {
-        "n": 1
-      },
-      "breath": {
-        "n": 1
-      },
-      "breathing": {
-        "n": 1
       },
       "bridge": {
         "n": 1,
@@ -65714,241 +64855,31 @@
         "this": 1,
         "their": 1
       },
-      "brief": {
-        "adj": 1
-      },
-      "bright": {
-        "adj": 1
-      },
-      "brilliant": {
-        "adj": 1
-      },
-      "broad": {
-        "adj": 1
-      },
-      "broadcast": {
-        "v": 1
-      },
-      "brush": {
-        "v": 1
-      },
-      "bubble": {
-        "n": 1
-      },
-      "budget": {
-        "n": 1
-      },
-      "bullet": {
-        "n": 1
-      },
-      "businessman": {
-        "n": 1
-      },
-      "busy": {
-        "adj": 1
-      },
-      "butter": {
-        "n": 1
-      },
-      "button": {
-        "n": 1
-      },
-      "bye": {
-        "exclam": 1
-      },
-      "calculate": {
-        "v": 1
-      },
-      "call": {
-        "v": 1
-      },
-      "calm": {
-        "adj": 1
-      },
-      "camera": {
-        "n": 1
-      },
-      "camp": {
-        "n": 1
-      },
-      "campaign": {
-        "n": 1
-      },
-      "camping": {
-        "n": 1
-      },
-      "campus": {
-        "n": 1
-      },
-      "modal": {
-        "v": 1
-      },
-      "cancel": {
-        "v": 1
-      },
-      "cancer": {
-        "n": 1
-      },
-      "captain": {
-        "n": 1
-      },
-      "care": {
-        "n": 1
-      },
-      "career": {
-        "n": 1
-      },
-      "careful": {
-        "adj": 1
-      },
-      "careless": {
-        "adj": 1
-      },
-      "carpet": {
-        "n": 1
-      },
-      "carrot": {
-        "n": 1
-      },
-      "cartoon": {
-        "n": 1
-      },
       "cast": {
         "n": 1,
         "lots": 1
-      },
-      "castle": {
-        "n": 1
-      },
-      "ceiling": {
-        "n": 1
-      },
-      "celebrate": {
-        "v": 1
-      },
-      "celebration": {
-        "n": 1
-      },
-      "celebrity": {
-        "n": 1
-      },
-      "centre": {
-        "n": 1
       },
       "ceremony": {
         "n": 1,
         "in": 1
       },
-      "certainly": {
-        "adv": 1
-      },
-      "chairman": {
-        "n": 1
-      },
-      "challenge": {
-        "n": 1
-      },
-      "champion": {
-        "n": 1
-      },
-      "chance": {
-        "n": 1
-      },
-      "channel": {
-        "n": 1
-      },
       "chapter": {
         "n": 1,
         "completes": 1
       },
-      "characteristic": {
-        "n": 1
-      },
       "charge": {
         "n": 1,
         "is": 1
-      },
-      "charity": {
-        "n": 1
-      },
-      "chat": {
-        "v": 1
-      },
-      "cheap": {
-        "adj": 1
-      },
-      "cheat": {
-        "v": 1
-      },
-      "cheerful": {
-        "adj": 1
-      },
-      "cheese": {
-        "n": 1
-      },
-      "chemistry": {
-        "n": 1
-      },
-      "chicken": {
-        "n": 1
-      },
-      "chief": {
-        "adj": 1
-      },
-      "childhood": {
-        "n": 1
-      },
-      "chocolate": {
-        "n": 1
-      },
-      "choose": {
-        "v": 1
       },
       "church": {
         "n": 1,
         "and": 1,
         "has": 1
       },
-      "cigarette": {
-        "n": 1
-      },
-      "cinema": {
-        "n": 1
-      },
-      "circle": {
-        "n": 1
-      },
-      "circumstance": {
-        "n": 1
-      },
-      "citizen": {
-        "n": 1
-      },
-      "civil": {
-        "adj": 1
-      },
-      "claim": {
-        "v": 1
-      },
-      "classic": {
-        "adj": 1
-      },
-      "classroom": {
-        "n": 1
-      },
       "clean": {
         "adj": 1,
         "the": 2,
         "your": 1
-      },
-      "clever": {
-        "adj": 1
-      },
-      "click": {
-        "v": 1
-      },
-      "client": {
-        "n": 1
       },
       "climate": {
         "n": 1,
@@ -65956,143 +64887,23 @@
         "system": 1,
         "of": 1
       },
-      "close": {
-        "adj": 1
-      },
-      "closed": {
-        "adj": 1
-      },
-      "clothing": {
-        "n": 1
-      },
-      "cold": {
-        "adj": 1
-      },
-      "collapse": {
-        "v": 1
-      },
-      "colleague": {
-        "n": 1
-      },
-      "colour": {
-        "n": 1
-      },
-      "coloured": {
-        "adj": 1
-      },
-      "column": {
-        "n": 1
-      },
-      "comedy": {
-        "n": 1
-      },
-      "comfort": {
-        "n": 1
-      },
       "comfortable": {
         "adj": 1,
         "chair": 1
-      },
-      "command": {
-        "n": 1
       },
       "comment": {
         "n": 1,
         "to": 1
       },
-      "commercial": {
-        "adj": 1
-      },
       "commission": {
         "n": 1,
         "of": 1
-      },
-      "commit": {
-        "v": 1
-      },
-      "commitment": {
-        "n": 1
-      },
-      "community": {
-        "n": 1
-      },
-      "compare": {
-        "v": 1
-      },
-      "comparison": {
-        "n": 1
-      },
-      "compete": {
-        "v": 1
-      },
-      "competition": {
-        "n": 1
-      },
-      "competitor": {
-        "n": 1
-      },
-      "complain": {
-        "v": 1
-      },
-      "complaint": {
-        "n": 1
-      },
-      "completely": {
-        "adv": 1
-      },
-      "complicated": {
-        "adj": 1
-      },
-      "concentrate": {
-        "v": 1
-      },
-      "concentration": {
-        "n": 1
-      },
-      "concern": {
-        "n": 1
-      },
-      "concert": {
-        "n": 1
-      },
-      "conclude": {
-        "v": 1
-      },
-      "conference": {
-        "n": 1
       },
       "con": {
         "dence": 1,
         "dent": 1,
         "rm": 1,
         "ict": 1
-      },
-      "dence": {
-        "n": 1
-      },
-      "dent": {
-        "adj": 1
-      },
-      "rm": {
-        "v": 1
-      },
-      "ict": {
-        "n": 1
-      },
-      "confuse": {
-        "v": 1
-      },
-      "confusing": {
-        "adj": 1
-      },
-      "connect": {
-        "v": 1
-      },
-      "conscious": {
-        "adj": 1
-      },
-      "lesrn": {
-        "everything": 1
       },
       "everything": {
         "from": 1,
@@ -66110,15 +64921,6 @@
         "was": 1,
         "your": 1,
         "the": 1
-      },
-      "shiny": {
-        "and": 1
-      },
-      "homework": {
-        "before": 1
-      },
-      "teak": {
-        "veneer": 1
       },
       "deeper": {
         "in": 2
@@ -66144,9 +64946,6 @@
       "undergraduate": {
         "textbooks": 2
       },
-      "foe": {
-        "the": 1
-      },
       "u": {
         "ask": 1,
         "have": 1
@@ -66163,18 +64962,9 @@
         "meal": 1,
         "day": 1
       },
-      "balloons": {
-        "for": 1
-      },
       "fish": {
         "whole": 1,
         "a": 1
-      },
-      "entertaining": {
-        "from": 1
-      },
-      "sayou": {
-        "asked": 1
       },
       "els": {
         "you": 1
@@ -67352,7 +66142,8 @@
       },
       "studied": {
         "\"": 1,
-        "in": 1
+        "in": 1,
+        "by": 1
       },
       "trait": {
         "inheritance": 1
@@ -69182,17 +67973,52 @@
       },
       "tools": {
         "or": 1
+      },
+      "lancelot": {
+        "\"": 1
+      },
+      "gardener": {
+        "and": 1
+      },
+      "landscape": {
+        "architect": 1,
+        "garden": 1
+      },
+      "notable": {
+        "figure": 1
+      },
+      "figure": {
+        "in": 1
+      },
+      "history": {
+        "of": 1
+      },
+      "garden": {
+        "style": 1
+      },
+      "metaethics": {
+        "(": 1
+      },
+      "meta-ethics": {
+        ")": 1
+      },
+      "ethical": {
+        "belief": 1
+      },
+      "ethics": {
+        "generally": 1,
+        "and": 1
       }
     },
     "starters": {
       "i": 75,
       "how": 5,
       "what": 6,
-      "<NOUN>": 665,
+      "<NOUN>": 666,
       "the": 285,
       "she": 18,
       "we": 29,
-      "it": 72,
+      "it": 73,
       "<VERB>": 260,
       "can": 2,
       "my": 10,
@@ -69213,7 +68039,7 @@
       "<ADV>": 34,
       "an": 30,
       "however": 2,
-      "in": 110,
+      "in": 111,
       "for": 6,
       "toward": 1,
       "<PART>": 25,
@@ -69279,8 +68105,8 @@
     },
     "connectors": {
       "because": 15,
-      "or": 393,
-      "and": 616,
+      "or": 394,
+      "and": 619,
       "but": 60,
       "so": 22,
       "while": 7,
@@ -69327,8 +68153,8 @@
         "because": 1
       },
       "NOUN>NOUN": {
-        "and": 274,
-        "or": 161,
+        "and": 275,
+        "or": 162,
         "as": 9,
         "yet": 2,
         "so": 2,
@@ -69339,7 +68165,7 @@
         "whether": 1
       },
       "NOUN>VERB": {
-        "and": 27,
+        "and": 28,
         "or": 16,
         "as": 4,
         "than": 1,
@@ -69373,7 +68199,7 @@
         "nor": 1
       },
       "ADJ>NOUN": {
-        "and": 17,
+        "and": 18,
         "or": 12,
         "while": 1,
         "as": 1,
@@ -71698,7 +70524,8 @@
       "NOUN AUX VERB NOUN PREP NOUN | and | ADV PREP VERB PREP NOUN": 1,
       "NOUN AUX VERB PREP NOUN VERB | and | NOUN PREP NOUN": 1,
       "DET NOUN VERB DET ADJ NOUN PREP DET ADJ NOUN DET NOUN | and | NOUN": 1,
-      "NOUN VERB DET ADJ NOUN PREP NOUN | and | NOUN": 1
+      "NOUN VERB DET ADJ NOUN PREP NOUN | and | NOUN": 1,
+      "PRON AUX NUM PREP DET NUM NOUN PREP NOUN ADV VERB PREP NOUN DET NOUN AUX ADJ NOUN | and | VERB NOUN": 1
     },
     "sentence_bank": {
       "frequent": [
@@ -71843,7 +70670,8 @@
         "A word that modifies a noun or noun phrase or describes a noun’s referent."
       ],
       "ethics": [
-        "Ethics is the philosophical study of moral phenomena."
+        "Ethics is the philosophical study of moral phenomena.",
+        "It is one of the three branches of ethics generally studied by philosophers, the others being normative ethics and applied ethics."
       ],
       "philosophical": [
         "Ethics is the philosophical study of moral phenomena."
@@ -71857,7 +70685,8 @@
       ],
       "branches": [
         "Its main branches include normative ethics, applied ethics, and metaethics.",
-        "These two branches are related to each other by the fundamental theorem of calculus."
+        "These two branches are related to each other by the fundamental theorem of calculus.",
+        "It is one of the three branches of ethics generally studied by philosophers, the others being normative ethics and applied ethics."
       ],
       "physics": [
         "In physics, a quantum is the minimum amount of any physical entity involved in an interaction.",
@@ -73954,7 +72783,8 @@
       "programmers",
       "agentic",
       "efforts",
-      "everyday"
+      "everyday",
+      "architect"
     ],
     "names": [],
     "lessons": 100,
