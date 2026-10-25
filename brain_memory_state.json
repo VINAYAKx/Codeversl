@@ -11,7 +11,7 @@
     "cortisol": 0.018,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.3316,
+    "adenosine": 0.3916,
     "newborn": false
   },
   "episodic_memory": [
@@ -2875,6 +2875,20 @@
       "time": "2026-10-25 05:13:29",
       "speaker": "brain",
       "text": "Logic and Inference overlap more than I expected. Logic is the study of correct reasoning. Inferences are steps in logical reasoning, moving from premises to logical consequences. What they share is conclusions and premises. What would change about formal language if aristotle were taken seriously?",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-25 05:15:35",
+      "speaker": "brain",
+      "text": "I practised my English because I want to talk with you more naturally. I learned 6 new words: 'pattern' (a noun) means model, example; 'template' (a noun) means a physical object whose shape is used as a guide to make other objects; 'codebase' (a noun) means the body of source code used to create a particular computer program or software component; 'instructions' (a noun) means plural of instruction and 2 more. Now I know 873 words, I have studied 2235 sentences, and I have 175 sentence patterns.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-25 05:17:30",
+      "speaker": "brain",
+      "text": "I wondered about 'Container' by myself and went searching. From Wikipedia (live internet) I learned: A container is any receptacle or enclosure for holding an item. Key ideas I stored: container, containers, transportation.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -7031,6 +7045,17 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Perception",
       "learned": "2026-10-25 05:07:28"
+    },
+    "Container": {
+      "summary": "A container is any receptacle or enclosure for holding an item. Things kept inside a container are protected on several sides by being inside its structure. Humans have used containers for at least 100,000 years, and possibly for millions of years. Containers are used in storage, packaging, and transportation, including shipping.",
+      "concepts": [
+        "container",
+        "containers",
+        "transportation"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Container",
+      "learned": "2026-10-25 05:17:30"
     }
   },
   "creator_teachings": [
@@ -8480,6 +8505,18 @@
       "kind": "daydream",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-25 05:15:35",
+      "kind": "language_lesson",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-25 05:17:30",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -8621,7 +8658,8 @@
     "plasticity",
     "efficiency",
     "pdf i gave you",
-    "perception"
+    "perception",
+    "containers"
   ],
   "sensory_log": [
     {
@@ -49257,23 +49295,52 @@
       "source": "corpus",
       "learned": "2026-10-25 05:11:33",
       "uses": 1
+    },
+    "container": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "A container is any receptacle or enclosure for holding an item."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-25 05:17:30",
+      "uses": 1
+    },
+    "containers": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Containers are used in storage, packaging, and transportation, including shipping."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-25 05:17:30",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 2235,
-      "tokens": 30160,
+      "sentences": 2239,
+      "tokens": 30219,
       "sources": {
         "seed corpus": 64,
         "conversation": 36,
         "dictionary": 1124,
-        "explore": 322,
+        "explore": 326,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "b1fe33979fb8",
         "7992494c6160",
         "d42c94e0a59a",
         "33ec0120db44",
@@ -49572,7 +49639,8 @@
         "23b2fead9ff0",
         "c5e2b4807bdd",
         "4e5df3639a61",
-        "21f31ec704b6"
+        "21f31ec704b6",
+        "4994c4994089"
       ],
       "seeded": true,
       "rejected": 521,
@@ -51578,7 +51646,6 @@
         "gangster": 1,
         "hallway": 1,
         "printing": 1,
-        "container": 1,
         "draining": 1,
         "cellulose": 1,
         "fibres": 1,
@@ -51801,15 +51868,23 @@
         "jog": 1,
         "aside": 1,
         "preservation": 1,
-        "recreation": 1
+        "recreation": 1,
+        "receptacle": 1,
+        "enclosure": 1,
+        "protected": 1,
+        "sides": 1,
+        "possibly": 1,
+        "storage": 1,
+        "transportation": 1,
+        "shipping": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
         "PRON": 295,
         "WH": 30,
-        "NOUN": 658,
-        "DET": 581,
+        "NOUN": 661,
+        "DET": 582,
         "VERB": 259,
         "MODAL": 5,
         "ADJ": 120,
@@ -51844,10 +51919,10 @@
         "ADJ": 240,
         "PRON": 20,
         "PUNCT": 7,
-        "DET": 328,
+        "DET": 329,
         "NOUN": 73,
         "NEG": 48,
-        "VERB": 308,
+        "VERB": 311,
         "INTJ": 1,
         "ADV": 107,
         "CONJ": 12,
@@ -51855,7 +51930,7 @@
         "PROPN": 4,
         "WH": 4,
         "AUX": 22,
-        "PREP": 26,
+        "PREP": 27,
         "PART": 13
       },
       "ADJ": {
@@ -51888,11 +51963,11 @@
         "PROPN": 1
       },
       "VERB": {
-        "PREP": 541,
+        "PREP": 545,
         "PART": 117,
         "ADJ": 87,
-        "NOUN": 561,
-        "PUNCT": 251,
+        "NOUN": 562,
+        "PUNCT": 252,
         "PRON": 104,
         "AUX": 32,
         "DET": 426,
@@ -51908,14 +51983,14 @@
       },
       "PREP": {
         "PRON": 69,
-        "NOUN": 1036,
-        "DET": 1105,
+        "NOUN": 1041,
+        "DET": 1108,
         "PUNCT": 54,
-        "VERB": 88,
-        "PREP": 28,
+        "VERB": 89,
+        "PREP": 29,
         "ADJ": 293,
         "PROPN": 123,
-        "AUX": 21,
+        "AUX": 22,
         "NUM": 49,
         "WH": 36,
         "CONJ": 25,
@@ -51924,13 +51999,13 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 2064,
-        "NOUN": 616,
-        "CONJ": 307,
+        "</S>": 2068,
+        "NOUN": 617,
+        "CONJ": 309,
         "PRON": 47,
-        "VERB": 74,
+        "VERB": 75,
         "ADV": 77,
-        "PREP": 61,
+        "PREP": 62,
         "ADJ": 101,
         "DET": 175,
         "WH": 37,
@@ -51967,19 +52042,19 @@
         "MODAL": 1,
         "PART": 3,
         "ADV": 10,
-        "PREP": 49,
+        "PREP": 50,
         "AUX": 19,
         "PROPN": 2,
         "NUM": 3,
         "INTJ": 1
       },
       "NOUN": {
-        "AUX": 571,
-        "PREP": 1736,
+        "AUX": 575,
+        "PREP": 1739,
         "NOUN": 1877,
-        "PUNCT": 2735,
-        "CONJ": 661,
-        "VERB": 486,
+        "PUNCT": 2743,
+        "CONJ": 662,
+        "VERB": 487,
         "ADV": 88,
         "PART": 227,
         "ADJ": 256,
@@ -51987,14 +52062,14 @@
         "</S>": 138,
         "PRON": 130,
         "WH": 57,
-        "DET": 321,
+        "DET": 322,
         "PROPN": 99,
         "NUM": 13,
         "NEG": 6,
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 2047,
+        "NOUN": 2053,
         "ADJ": 866,
         "PRON": 23,
         "PREP": 48,
@@ -52013,10 +52088,10 @@
       "CONJ": {
         "PRON": 91,
         "DET": 222,
-        "NOUN": 628,
+        "NOUN": 630,
         "VERB": 112,
         "ADJ": 134,
-        "ADV": 45,
+        "ADV": 46,
         "PUNCT": 18,
         "WH": 13,
         "PREP": 42,
@@ -52163,8 +52238,8 @@
       },
       "VERB|PREP": {
         "PRON": 16,
-        "DET": 208,
-        "NOUN": 159,
+        "DET": 210,
+        "NOUN": 161,
         "PUNCT": 17,
         "VERB": 15,
         "ADJ": 57,
@@ -52290,8 +52365,8 @@
         "DET": 1
       },
       "<S>|NOUN": {
-        "AUX": 107,
-        "VERB": 70,
+        "AUX": 109,
+        "VERB": 71,
         "PUNCT": 18,
         "NOUN": 272,
         "CONJ": 21,
@@ -52306,11 +52381,11 @@
         "INTJ": 2
       },
       "NOUN|AUX": {
-        "DET": 184,
+        "DET": 185,
         "ADJ": 111,
         "NOUN": 39,
         "ADV": 68,
-        "VERB": 111,
+        "VERB": 114,
         "CONJ": 5,
         "NUM": 10,
         "NEG": 13,
@@ -52322,7 +52397,7 @@
         "PRON": 2
       },
       "AUX|DET": {
-        "NOUN": 166,
+        "NOUN": 167,
         "ADJ": 124,
         "PROPN": 6,
         "VERB": 6,
@@ -52333,10 +52408,10 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 640,
-        "AUX": 177,
-        "CONJ": 146,
-        "PUNCT": 455,
+        "PREP": 641,
+        "AUX": 179,
+        "CONJ": 147,
+        "PUNCT": 457,
         "VERB": 134,
         "ADV": 23,
         "ADJ": 57,
@@ -52351,27 +52426,27 @@
         "NUM": 3
       },
       "NOUN|PREP": {
-        "NOUN": 661,
+        "NOUN": 662,
         "DET": 636,
-        "PREP": 8,
+        "PREP": 9,
         "ADJ": 186,
         "PROPN": 56,
         "VERB": 54,
         "PUNCT": 19,
         "NUM": 27,
         "WH": 24,
-        "AUX": 14,
+        "AUX": 15,
         "ADV": 9,
         "PRON": 32,
         "CONJ": 10
       },
       "PREP|NOUN": {
         "NOUN": 154,
-        "PUNCT": 317,
+        "PUNCT": 321,
         "VERB": 42,
         "CONJ": 113,
         "ADJ": 23,
-        "DET": 47,
+        "DET": 48,
         "AUX": 24,
         "PREP": 120,
         "PRON": 20,
@@ -52403,14 +52478,14 @@
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 1587,
-        "NOUN": 404,
-        "CONJ": 216,
+        "</S>": 1591,
+        "NOUN": 405,
+        "CONJ": 217,
         "ADV": 54,
-        "PREP": 43,
+        "PREP": 44,
         "ADJ": 68,
         "DET": 118,
-        "VERB": 54,
+        "VERB": 55,
         "WH": 27,
         "PRON": 30,
         "AUX": 26,
@@ -52422,7 +52497,7 @@
         "INTJ": 1
       },
       "<S>|DET": {
-        "NOUN": 369,
+        "NOUN": 370,
         "ADJ": 143,
         "PROPN": 27,
         "VERB": 5,
@@ -52480,7 +52555,7 @@
         "DET": 1
       },
       "PREP|DET": {
-        "NOUN": 697,
+        "NOUN": 700,
         "ADJ": 274,
         "NUM": 19,
         "PREP": 15,
@@ -52497,7 +52572,7 @@
         "PRON": 22,
         "DET": 95,
         "VERB": 35,
-        "NOUN": 358,
+        "NOUN": 359,
         "ADJ": 55,
         "WH": 6,
         "PREP": 18,
@@ -52521,7 +52596,7 @@
       },
       "VERB|NOUN": {
         "PUNCT": 142,
-        "PREP": 82,
+        "PREP": 83,
         "PART": 14,
         "VERB": 20,
         "NOUN": 172,
@@ -52565,7 +52640,7 @@
         "CONJ": 43,
         "NOUN": 96,
         "ADJ": 8,
-        "PUNCT": 325,
+        "PUNCT": 326,
         "PREP": 70,
         "AUX": 20,
         "DET": 14,
@@ -52594,7 +52669,7 @@
       "VERB|PUNCT": {
         "</S>": 157,
         "PRON": 9,
-        "CONJ": 14,
+        "CONJ": 15,
         "NOUN": 31,
         "DET": 11,
         "ADJ": 10,
@@ -52691,7 +52766,7 @@
       "NOUN|VERB": {
         "PART": 18,
         "DET": 107,
-        "PREP": 113,
+        "PREP": 114,
         "WH": 4,
         "PRON": 31,
         "PUNCT": 35,
@@ -52720,7 +52795,7 @@
         "WH": 1
       },
       "PUNCT|CONJ": {
-        "NOUN": 115,
+        "NOUN": 116,
         "PRON": 29,
         "DET": 41,
         "PUNCT": 6,
@@ -52730,7 +52805,7 @@
         "PROPN": 11,
         "VERB": 25,
         "NEG": 2,
-        "ADV": 13,
+        "ADV": 14,
         "MODAL": 8,
         "PREP": 7,
         "PART": 1,
@@ -52738,9 +52813,9 @@
       },
       "CONJ|NOUN": {
         "AUX": 20,
-        "PUNCT": 164,
+        "PUNCT": 165,
         "</S>": 1,
-        "PREP": 128,
+        "PREP": 129,
         "VERB": 21,
         "WH": 7,
         "NOUN": 182,
@@ -52813,11 +52888,11 @@
         "PROPN": 1
       },
       "AUX|VERB": {
-        "PREP": 134,
+        "PREP": 136,
         "PUNCT": 44,
         "PART": 37,
         "PRON": 3,
-        "NOUN": 21,
+        "NOUN": 22,
         "DET": 23,
         "CONJ": 29,
         "ADJ": 6,
@@ -52984,7 +53059,7 @@
         "CONJ": 7,
         "PREP": 20,
         "NOUN": 22,
-        "PUNCT": 6,
+        "PUNCT": 7,
         "PROPN": 1,
         "ADJ": 4,
         "DET": 7,
@@ -53101,7 +53176,7 @@
         "</S>": 9,
         "PROPN": 1,
         "VERB": 2,
-        "PREP": 12,
+        "PREP": 13,
         "CONJ": 11,
         "AUX": 2,
         "WH": 1,
@@ -53138,7 +53213,7 @@
       },
       "PREP|PREP": {
         "DET": 12,
-        "NOUN": 6,
+        "NOUN": 7,
         "PROPN": 5,
         "ADJ": 2,
         "PRON": 1,
@@ -53148,7 +53223,7 @@
       "PUNCT|PREP": {
         "DET": 13,
         "ADJ": 8,
-        "NOUN": 24,
+        "NOUN": 25,
         "AUX": 2,
         "PRON": 2,
         "VERB": 3,
@@ -53172,7 +53247,7 @@
         "VERB": 13,
         "ADJ": 3,
         "CONJ": 4,
-        "PREP": 1,
+        "PREP": 2,
         "NOUN": 17,
         "AUX": 2,
         "PRON": 1
@@ -53398,7 +53473,7 @@
         "ADV": 1
       },
       "NOUN|DET": {
-        "NOUN": 189,
+        "NOUN": 190,
         "ADJ": 65,
         "CONJ": 18,
         "ADV": 5,
@@ -53552,7 +53627,8 @@
         "PRON": 1,
         "VERB": 6,
         "ADV": 2,
-        "PUNCT": 1
+        "PUNCT": 1,
+        "PREP": 1
       },
       "VERB|NUM": {
         "PUNCT": 2,
@@ -53754,7 +53830,7 @@
         "ADJ": 6,
         "DET": 20,
         "NUM": 3,
-        "VERB": 3,
+        "VERB": 4,
         "PRON": 2,
         "PROPN": 1
       },
@@ -54022,7 +54098,7 @@
       },
       "AUX|PREP": {
         "PART": 4,
-        "DET": 10,
+        "DET": 11,
         "NOUN": 9,
         "PUNCT": 1,
         "PROPN": 1,
@@ -54300,7 +54376,7 @@
         "many": 1
       },
       "are": {
-        "used": 9,
+        "used": 10,
         "conjunctions": 5,
         "often": 5,
         "not": 5,
@@ -54313,7 +54389,8 @@
         "currently": 1,
         "only": 1,
         "concerned": 1,
-        "made": 2
+        "made": 2,
+        "protected": 1
       },
       "you": {
         "to": 6,
@@ -54417,7 +54494,8 @@
         "beyond": 1,
         "not": 1,
         "really": 1,
-        "used": 1
+        "used": 1,
+        "any": 1
       },
       "a": {
         "noun": 18,
@@ -54432,7 +54510,8 @@
         "varying": 3,
         "guide": 1,
         "particular": 1,
-        "jog": 1
+        "jog": 1,
+        "container": 2
       },
       "for": {
         "the": 24,
@@ -54448,7 +54527,10 @@
         "finding": 1,
         "creating": 1,
         "haya": 1,
-        "environment": 1
+        "environment": 1,
+        "holding": 1,
+        "at": 1,
+        "millions": 1
       },
       "sharing": {
         "ideas": 1,
@@ -54621,7 +54703,8 @@
         "chemical": 1,
         "between": 1,
         "software": 1,
-        "recreation": 1
+        "recreation": 1,
+        "enclosure": 1
       },
       "it": {
         "is": 44,
@@ -54790,7 +54873,8 @@
         "present": 1,
         "first": 1,
         "work": 1,
-        "lunch": 1
+        "lunch": 1,
+        "least": 1
       },
       "words": {
         "have": 1,
@@ -54829,7 +54913,8 @@
         "on": 1,
         "an": 1,
         "studyed": 1,
-        "seen": 1
+        "seen": 1,
+        "used": 1
       },
       "and": {
         "the": 30,
@@ -54844,7 +54929,9 @@
         "creative": 2,
         "understand": 1,
         "art": 1,
-        "on": 1
+        "on": 1,
+        "possibly": 1,
+        "transportation": 1
       },
       "meanings": {
         "have": 1,
@@ -55032,7 +55119,8 @@
         "which": 6,
         "most": 5,
         "\"": 4,
-        "front": 1
+        "front": 1,
+        "storage": 1
       },
       "children": {
         "play": 1,
@@ -55169,7 +55257,8 @@
         "source": 1,
         "instruction": 1,
         "store": 1,
-        "land": 1
+        "land": 1,
+        "years": 1
       },
       "reading": {
         "is": 1,
@@ -55718,7 +55807,8 @@
         "eagle": 1,
         "activity": 1,
         "hour": 1,
-        "area": 1
+        "area": 1,
+        "item": 1
       },
       "update": {
         "to": 1,
@@ -55738,7 +55828,8 @@
         "vacation": 2,
         "conversational": 1,
         "massive": 1,
-        "national": 1
+        "national": 1,
+        "several": 1
       },
       "situation": {
         "in": 1,
@@ -56023,7 +56114,8 @@
         "american": 1,
         "interscope": 1,
         "abrams": 1,
-        "stressful": 1
+        "stressful": 1,
+        "being": 1
       },
       "thermodynamic": {
         "efficiency": 2,
@@ -56464,7 +56556,7 @@
         "n": 1
       },
       "used": {
-        "in": 12,
+        "in": 13,
         "to": 20,
         "for": 8,
         "syringes": 1,
@@ -56478,7 +56570,8 @@
         "loosely": 1,
         "today": 1,
         "when": 1,
-        "the": 1
+        "the": 1,
+        "containers": 1
       },
       "classical": {
         "thermodynamics": 1,
@@ -56553,7 +56646,8 @@
         "their": 1,
         "norms": 1,
         "explicit": 1,
-        "astronomers": 1
+        "astronomers": 1,
+        "shipping": 1
       },
       "transmission": {
         "of": 1,
@@ -56775,7 +56869,8 @@
         "components": 1,
         "nature": 1,
         "neural": 1,
-        "prior": 1
+        "prior": 1,
+        "structure": 1
       },
       "vague": {
         "enough": 4
@@ -56911,7 +57006,8 @@
         "overlapping": 1,
         "existing": 1,
         "criteria": 1,
-        "scenes": 1
+        "scenes": 1,
+        "sides": 1
       },
       "senses": {
         "and": 1,
@@ -57720,7 +57816,8 @@
         "living": 1,
         "foreign": 1,
         "well-defined": 1,
-        "material": 1
+        "material": 1,
+        "receptacle": 1
       },
       "functional": {
         "topics": 1,
@@ -57766,7 +57863,8 @@
         "studied": 1,
         "moved": 1,
         "combined": 1,
-        "organized": 1
+        "organized": 1,
+        "inside": 1
       },
       "having": {
         "a": 7,
@@ -61942,7 +62040,8 @@
         "to": 1,
         "which": 1,
         "around": 1,
-        "well": 1
+        "well": 1,
+        "kept": 1
       },
       "brother": {
         "its": 1,
@@ -62065,7 +62164,7 @@
       },
       "holding": {
         "food": 1,
-        "an": 1,
+        "an": 2,
         "hands": 1
       },
       "spoon": {
@@ -62460,7 +62559,8 @@
         "use": 1,
         "convey": 1,
         "and": 1,
-        "moving": 1
+        "moving": 1,
+        "have": 1
       },
       "belonging": {
         "to": 3
@@ -65661,7 +65761,9 @@
         "you": 1
       },
       "inside": {
-        "it": 1
+        "it": 1,
+        "a": 1,
+        "its": 1
       },
       "completes": {
         "the": 1
@@ -66195,7 +66297,7 @@
         "to": 1
       },
       "millions": {
-        "of": 1
+        "of": 2
       },
       "broader": {
         "sense": 1
@@ -66860,7 +66962,8 @@
         "kept": 1
       },
       "kept": {
-        "me": 1
+        "me": 1,
+        "inside": 1
       },
       "awake": {
         "all": 1
@@ -67534,7 +67637,9 @@
         "container": 1
       },
       "container": {
-        ")": 1
+        ")": 1,
+        "is": 1,
+        "are": 1
       },
       "draining": {
         "cellulose": 1
@@ -68547,13 +68652,32 @@
       },
       "preservation": {
         "or": 1
+      },
+      "receptacle": {
+        "or": 1
+      },
+      "enclosure": {
+        "for": 1
+      },
+      "protected": {
+        "on": 1
+      },
+      "sides": {
+        "by": 1
+      },
+      "containers": {
+        "for": 1,
+        "are": 1
+      },
+      "possibly": {
+        "for": 1
       }
     },
     "starters": {
       "i": 72,
       "how": 5,
       "what": 6,
-      "<NOUN>": 658,
+      "<NOUN>": 661,
       "the": 282,
       "she": 18,
       "we": 29,
@@ -68570,7 +68694,7 @@
       "that": 19,
       "if": 9,
       "although": 2,
-      "a": 125,
+      "a": 126,
       "does": 1,
       "who": 2,
       "when": 13,
@@ -68644,8 +68768,8 @@
     },
     "connectors": {
       "because": 15,
-      "or": 386,
-      "and": 610,
+      "or": 387,
+      "and": 612,
       "but": 60,
       "so": 22,
       "while": 7,
@@ -68693,7 +68817,7 @@
       },
       "NOUN>NOUN": {
         "and": 272,
-        "or": 157,
+        "or": 158,
         "as": 9,
         "yet": 2,
         "so": 2,
@@ -68848,7 +68972,7 @@
       },
       "VERB>NOUN": {
         "as": 13,
-        "and": 23,
+        "and": 24,
         "or": 13,
         "that": 7,
         "than": 1
@@ -68875,7 +68999,7 @@
         "than": 1
       },
       "NOUN>ADV": {
-        "and": 15,
+        "and": 16,
         "but": 3,
         "than": 2,
         "or": 9,
@@ -71059,22 +71183,11 @@
       "PRON VERB ADJ NOUN PREP NUM NOUN | but | ADJ PREP ADJ DET NOUN VERB NOUN": 1,
       "ADV DET PROPN PREP PRON AUX DET NOUN VERB PRON VERB NOUN PREP NOUN | and | NOUN": 1,
       "DET ADJ VERB PREP NOUN | while | PRON VERB PREP DET NOUN": 1,
-      "DET VERB NOUN PREP NOUN | and | NOUN PREP ADJ NOUN PREP NOUN CONJ PREP NOUN PREP VERB ADJ NOUN": 1
+      "DET VERB NOUN PREP NOUN | and | NOUN PREP ADJ NOUN PREP NOUN CONJ PREP NOUN PREP VERB ADJ NOUN": 1,
+      "NOUN AUX VERB NOUN PREP NOUN | and | ADV PREP VERB PREP NOUN": 1,
+      "NOUN AUX VERB PREP NOUN VERB | and | NOUN PREP NOUN": 1
     },
     "sentence_bank": {
-      "party": [
-        "He is a queer party .",
-        "We partied until the early hours.",
-        "The Communist Party has a policy of returning power to the workers."
-      ],
-      "early": [
-        "We partied until the early hours.",
-        "The Venus of Willendorf was an early representation of the female body."
-      ],
-      "agre": [
-        "It was agreed to move to a new headquaters.",
-        "We are much more agreed on goals than on methods."
-      ],
       "move": [
         "It was agreed to move to a new headquaters.",
         "Don’t move that beam !",
@@ -71121,7 +71234,8 @@
       ],
       "used": [
         "I used to frequent that restaurant.",
-        "Silicon is widely used as a semiconductor material in various electrical devices such as transistors, solar cells, and integrated circuits."
+        "Silicon is widely used as a semiconductor material in various electrical devices such as transistors, solar cells, and integrated circuits.",
+        "Containers are used in storage, packaging, and transportation, including shipping."
       ],
       "child": [
         "Being a child is all fun and games .",
@@ -71610,7 +71724,8 @@
       ],
       "keep": [
         "To help keep from falling.",
-        "We have to keep our unit costs down if we want to make a profit."
+        "We have to keep our unit costs down if we want to make a profit.",
+        "Things kept inside a container are protected on several sides by being inside its structure."
       ],
       "neighbour": [
         "It's very concerning that our neighbour seems to be crying very loudly these days."
@@ -72609,7 +72724,8 @@
         "The film had several scenes including explicit language and sex."
       ],
       "things": [
-        "Things around here are just a little more country than what he's used to."
+        "Things around here are just a little more country than what he's used to.",
+        "Things kept inside a container are protected on several sides by being inside its structure."
       ],
       "little": [
         "Things around here are just a little more country than what he's used to."
@@ -72999,6 +73115,15 @@
       ],
       "land": [
         "An area of land set aside for environment preservation or recreation."
+      ],
+      "container": [
+        "A container is any receptacle or enclosure for holding an item."
+      ],
+      "receptacle": [
+        "A container is any receptacle or enclosure for holding an item."
+      ],
+      "containers": [
+        "Containers are used in storage, packaging, and transportation, including shipping."
       ]
     }
   },
@@ -73306,7 +73431,9 @@
       "current",
       "indicate",
       "construct",
-      "mess"
+      "mess",
+      "container",
+      "containers"
     ],
     "names": [],
     "lessons": 99,
