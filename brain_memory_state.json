@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.26,
+    "adenosine": 0.35,
     "newborn": false
   },
   "episodic_memory": [
@@ -2833,6 +2833,20 @@
       "time": "2026-10-25 08:42:52",
       "speaker": "brain",
       "text": "I wondered about 'Metaethics' by myself and went searching. From Wikipedia (live internet) I learned: In philosophy, metaethics (meta-ethics) is the study of the nature, scope, ground, and meaning of moral judgment, ethical belief, or values. Key ideas I stored: normative ethics, meta-ethics, metaethics.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-25 13:35:42",
+      "speaker": "brain",
+      "text": "I wondered about 'Atom' by myself and went searching. From Wikipedia (live internet) I learned: Atoms are the basic particles of the chemical elements and the fundamental building blocks of matter. Key ideas I stored: atoms, atom, nucleus, electrons.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-25 13:35:42",
+      "speaker": "brain",
+      "text": "Optics and Photon overlap more than I expected. Optics is the branch of physics that studies the behaviour, manipulation, and detection of electromagnetic radiation, including its interactions with matter and instruments that use or detect it. A photon is an elementary particle that is a quantum of the electromagnetic field, including electromagnetic radiation such as light and radio waves, and the force carrier for the electromagnetic force. What they share is radiation and light. Is there a real link between x-rays and electromagnetic radiation?",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -7063,6 +7077,18 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Metaethics",
       "learned": "2026-10-25 08:42:52"
+    },
+    "Atom": {
+      "summary": "Atoms are the basic particles of the chemical elements and the fundamental building blocks of matter. An atom consists of a nucleus of protons and generally neutrons, surrounded by an electromagnetically bound swarm of electrons. The chemical elements are distinguished from each other by the number of protons that are in their atoms. For example, any atom that contains 11 protons is sodium, and any atom that contains 29 protons is copper. Atoms with the same number of protons but a different number of neutrons are called isotopes of the same element.",
+      "concepts": [
+        "atoms",
+        "atom",
+        "nucleus",
+        "electrons"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Atom",
+      "learned": "2026-10-25 13:35:42"
     }
   },
   "creator_teachings": [
@@ -8596,6 +8622,18 @@
       "kind": "explore_report",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-25 13:35:42",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-25 13:35:42",
+      "kind": "daydream",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -8744,7 +8782,8 @@
     "ai systems",
     "technology",
     "capability",
-    "metaethics"
+    "metaethics",
+    "more atoms"
   ],
   "sensory_log": [
     {
@@ -50163,23 +50202,67 @@
       "source": "corpus",
       "learned": "2026-10-25 08:42:57",
       "uses": 1
+    },
+    "blocks": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Atoms are the basic particles of the chemical elements and the fundamental building blocks of matter."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-25 13:35:42",
+      "uses": 1
+    },
+    "protons": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "The chemical elements are distinguished from each other by the number of protons that are in their atoms."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-25 13:35:42",
+      "uses": 1
+    },
+    "neutrons": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Atoms with the same number of protons but a different number of neutrons are called isotopes of the same element."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-25 13:35:42",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 2281,
-      "tokens": 30854,
+      "sentences": 2286,
+      "tokens": 30952,
       "sources": {
         "seed corpus": 64,
         "conversation": 36,
         "dictionary": 1155,
-        "explore": 337,
+        "explore": 342,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "cbc4ed5a9321",
         "d3552e88f2aa",
         "3e45aeb5aff7",
         "8a437ff3f7f9",
@@ -50478,7 +50561,8 @@
         "8d1a050235fb",
         "28107936110b",
         "32f6f49ce1a4",
-        "7bd359b2499f"
+        "7bd359b2499f",
+        "e63fe5a9b511"
       ],
       "seeded": true,
       "rejected": 525,
@@ -52694,7 +52778,6 @@
         "intern": 1,
         "filing": 1,
         "subjective": 1,
-        "blocks": 1,
         "securely": 1,
         "hashes": 1,
         "hash": 1,
@@ -52737,15 +52820,23 @@
         "review": 1,
         "notes": 1,
         "happened": 1,
-        "benefit": 1
+        "benefit": 1,
+        "nucleus": 1,
+        "surrounded": 1,
+        "electromagnetically": 1,
+        "swarm": 1,
+        "distinguished": 1,
+        "sodium": 1,
+        "copper": 1,
+        "isotopes": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
         "PRON": 302,
         "WH": 30,
-        "NOUN": 670,
-        "DET": 603,
+        "NOUN": 672,
+        "DET": 605,
         "VERB": 261,
         "MODAL": 5,
         "ADJ": 121,
@@ -52753,16 +52844,16 @@
         "CONJ": 26,
         "AUX": 14,
         "ADV": 34,
-        "PREP": 166,
+        "PREP": 167,
         "PART": 25,
         "NUM": 8,
         "NEG": 3
       },
       "PRON": {
-        "AUX": 255,
+        "AUX": 256,
         "PUNCT": 69,
         "ADV": 17,
-        "VERB": 291,
+        "VERB": 293,
         "MODAL": 105,
         "PREP": 31,
         "WH": 5,
@@ -52777,13 +52868,13 @@
         "NEG": 1
       },
       "AUX": {
-        "ADJ": 244,
+        "ADJ": 245,
         "PRON": 20,
         "PUNCT": 7,
-        "DET": 339,
-        "NOUN": 74,
+        "DET": 340,
+        "NOUN": 75,
         "NEG": 49,
-        "VERB": 313,
+        "VERB": 315,
         "INTJ": 1,
         "ADV": 110,
         "CONJ": 12,
@@ -52791,21 +52882,21 @@
         "PROPN": 4,
         "WH": 4,
         "AUX": 22,
-        "PREP": 28,
+        "PREP": 29,
         "PART": 13
       },
       "ADJ": {
         "PART": 39,
-        "NOUN": 1519,
+        "NOUN": 1525,
         "WH": 4,
-        "PUNCT": 249,
+        "PUNCT": 250,
         "PREP": 161,
         "CONJ": 91,
         "PROPN": 34,
         "ADJ": 106,
         "DET": 37,
         "AUX": 29,
-        "VERB": 76,
+        "VERB": 77,
         "MODAL": 8,
         "</S>": 7,
         "NUM": 8,
@@ -52824,10 +52915,10 @@
         "PROPN": 1
       },
       "VERB": {
-        "PREP": 555,
+        "PREP": 557,
         "PART": 120,
         "ADJ": 88,
-        "NOUN": 573,
+        "NOUN": 577,
         "PUNCT": 260,
         "PRON": 105,
         "AUX": 33,
@@ -52844,8 +52935,8 @@
       },
       "PREP": {
         "PRON": 74,
-        "NOUN": 1059,
-        "DET": 1132,
+        "NOUN": 1066,
+        "DET": 1140,
         "PUNCT": 55,
         "VERB": 90,
         "PREP": 29,
@@ -52860,15 +52951,15 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 2106,
+        "</S>": 2111,
         "NOUN": 629,
-        "CONJ": 317,
+        "CONJ": 318,
         "PRON": 50,
-        "VERB": 75,
+        "VERB": 76,
         "ADV": 80,
         "PREP": 66,
         "ADJ": 102,
-        "DET": 179,
+        "DET": 180,
         "WH": 37,
         "AUX": 33,
         "NUM": 7,
@@ -52894,7 +52985,7 @@
       "ADV": {
         "PUNCT": 69,
         "ADJ": 46,
-        "NOUN": 92,
+        "NOUN": 94,
         "CONJ": 15,
         "DET": 26,
         "VERB": 179,
@@ -52910,18 +53001,18 @@
         "INTJ": 1
       },
       "NOUN": {
-        "AUX": 588,
-        "PREP": 1776,
-        "NOUN": 1915,
-        "PUNCT": 2798,
-        "CONJ": 673,
+        "AUX": 593,
+        "PREP": 1786,
+        "NOUN": 1917,
+        "PUNCT": 2805,
+        "CONJ": 676,
         "VERB": 497,
         "ADV": 90,
         "PART": 232,
         "ADJ": 257,
         "MODAL": 82,
         "</S>": 142,
-        "PRON": 134,
+        "PRON": 137,
         "WH": 57,
         "DET": 324,
         "PROPN": 100,
@@ -52930,17 +53021,17 @@
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 2097,
-        "ADJ": 892,
+        "NOUN": 2103,
+        "ADJ": 899,
         "PRON": 24,
-        "PREP": 49,
+        "PREP": 50,
         "NUM": 49,
         "PART": 6,
         "VERB": 45,
         "CONJ": 47,
         "PROPN": 114,
-        "DET": 73,
-        "ADV": 29,
+        "DET": 74,
+        "ADV": 30,
         "PUNCT": 25,
         "AUX": 4,
         "WH": 6,
@@ -52948,11 +53039,11 @@
       },
       "CONJ": {
         "PRON": 94,
-        "DET": 224,
+        "DET": 227,
         "NOUN": 643,
         "VERB": 115,
         "ADJ": 139,
-        "ADV": 47,
+        "ADV": 48,
         "PUNCT": 18,
         "WH": 13,
         "PREP": 45,
@@ -53056,7 +53147,7 @@
         "NUM": 6,
         "NOUN": 7,
         "PRON": 2,
-        "PREP": 5,
+        "PREP": 6,
         "AUX": 4,
         "CONJ": 3,
         "PART": 5
@@ -53064,7 +53155,7 @@
       "AUX|ADJ": {
         "PART": 27,
         "WH": 3,
-        "PUNCT": 73,
+        "PUNCT": 74,
         "PREP": 46,
         "DET": 12,
         "NOUN": 41,
@@ -53101,7 +53192,7 @@
       },
       "VERB|PREP": {
         "PRON": 16,
-        "DET": 215,
+        "DET": 217,
         "NOUN": 166,
         "PUNCT": 17,
         "VERB": 15,
@@ -53187,7 +53278,7 @@
       "PRON|VERB": {
         "PART": 25,
         "PREP": 38,
-        "NOUN": 43,
+        "NOUN": 45,
         "PRON": 29,
         "PUNCT": 18,
         "DET": 81,
@@ -53229,12 +53320,12 @@
         "DET": 1
       },
       "<S>|NOUN": {
-        "AUX": 112,
+        "AUX": 113,
         "VERB": 73,
         "PUNCT": 18,
         "NOUN": 273,
         "CONJ": 22,
-        "PREP": 60,
+        "PREP": 61,
         "PROPN": 15,
         "ADJ": 57,
         "PART": 6,
@@ -53245,11 +53336,11 @@
         "INTJ": 2
       },
       "NOUN|AUX": {
-        "DET": 192,
-        "ADJ": 113,
-        "NOUN": 40,
+        "DET": 193,
+        "ADJ": 114,
+        "NOUN": 41,
         "ADV": 69,
-        "VERB": 115,
+        "VERB": 117,
         "CONJ": 5,
         "NUM": 10,
         "NEG": 13,
@@ -53262,7 +53353,7 @@
       },
       "AUX|DET": {
         "NOUN": 172,
-        "ADJ": 128,
+        "ADJ": 129,
         "PROPN": 6,
         "VERB": 6,
         "PREP": 4,
@@ -53272,15 +53363,15 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 656,
+        "PREP": 658,
         "AUX": 184,
         "CONJ": 148,
-        "PUNCT": 466,
+        "PUNCT": 467,
         "VERB": 138,
         "ADV": 23,
         "ADJ": 58,
-        "NOUN": 195,
-        "PRON": 37,
+        "NOUN": 196,
+        "PRON": 39,
         "PART": 63,
         "</S>": 7,
         "PROPN": 7,
@@ -53290,8 +53381,8 @@
         "NUM": 3
       },
       "NOUN|PREP": {
-        "NOUN": 672,
-        "DET": 649,
+        "NOUN": 678,
+        "DET": 653,
         "PREP": 9,
         "ADJ": 190,
         "PROPN": 58,
@@ -53306,14 +53397,14 @@
       },
       "PREP|NOUN": {
         "NOUN": 157,
-        "PUNCT": 327,
+        "PUNCT": 330,
         "VERB": 43,
-        "CONJ": 114,
+        "CONJ": 116,
         "ADJ": 23,
         "DET": 48,
-        "AUX": 24,
+        "AUX": 25,
         "PREP": 122,
-        "PRON": 20,
+        "PRON": 21,
         "</S>": 122,
         "WH": 6,
         "PART": 34,
@@ -53326,7 +53417,7 @@
         "PUNCT": 680,
         "PART": 30,
         "NOUN": 488,
-        "PREP": 266,
+        "PREP": 268,
         "CONJ": 110,
         "VERB": 72,
         "PROPN": 43,
@@ -53342,14 +53433,14 @@
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 1619,
+        "</S>": 1624,
         "NOUN": 413,
         "CONJ": 224,
         "ADV": 57,
         "PREP": 47,
         "ADJ": 69,
-        "DET": 121,
-        "VERB": 55,
+        "DET": 122,
+        "VERB": 56,
         "WH": 27,
         "PRON": 31,
         "AUX": 26,
@@ -53361,8 +53452,8 @@
         "INTJ": 1
       },
       "<S>|DET": {
-        "NOUN": 385,
-        "ADJ": 148,
+        "NOUN": 386,
+        "ADJ": 149,
         "PROPN": 28,
         "VERB": 5,
         "PREP": 8,
@@ -53373,11 +53464,11 @@
         "PRON": 3
       },
       "DET|ADJ": {
-        "NOUN": 716,
+        "NOUN": 722,
         "CONJ": 28,
         "ADJ": 35,
         "PUNCT": 34,
-        "VERB": 19,
+        "VERB": 20,
         "PREP": 21,
         "PART": 5,
         "PROPN": 13,
@@ -53389,15 +53480,15 @@
         "NUM": 3
       },
       "ADJ|NOUN": {
-        "PUNCT": 490,
+        "PUNCT": 491,
         "NOUN": 236,
         "MODAL": 13,
         "VERB": 80,
-        "PREP": 316,
-        "CONJ": 123,
+        "PREP": 319,
+        "CONJ": 124,
         "DET": 51,
         "ADJ": 20,
-        "AUX": 82,
+        "AUX": 83,
         "PART": 52,
         "WH": 11,
         "PROPN": 4,
@@ -53419,22 +53510,22 @@
         "DET": 1
       },
       "PREP|DET": {
-        "NOUN": 710,
-        "ADJ": 285,
+        "NOUN": 713,
+        "ADJ": 288,
         "NUM": 20,
         "PREP": 15,
         "PROPN": 45,
-        "DET": 23,
+        "DET": 24,
         "VERB": 19,
         "PUNCT": 7,
-        "ADV": 3,
+        "ADV": 4,
         "PRON": 2,
         "WH": 2,
         "</S>": 1
       },
       "NOUN|CONJ": {
         "PRON": 24,
-        "DET": 96,
+        "DET": 98,
         "VERB": 37,
         "NOUN": 363,
         "ADJ": 56,
@@ -53442,7 +53533,7 @@
         "PREP": 18,
         "NUM": 4,
         "CONJ": 11,
-        "ADV": 24,
+        "ADV": 25,
         "PROPN": 16,
         "AUX": 12,
         "PART": 3,
@@ -53460,7 +53551,7 @@
       },
       "VERB|NOUN": {
         "PUNCT": 148,
-        "PREP": 85,
+        "PREP": 87,
         "PART": 15,
         "VERB": 20,
         "NOUN": 173,
@@ -53468,7 +53559,7 @@
         "MODAL": 4,
         "ADJ": 21,
         "DET": 25,
-        "AUX": 13,
+        "AUX": 15,
         "PROPN": 7,
         "NEG": 1,
         "WH": 1,
@@ -53516,8 +53607,8 @@
         "WH": 1
       },
       "CONJ|DET": {
-        "NOUN": 146,
-        "ADJ": 50,
+        "NOUN": 147,
+        "ADJ": 52,
         "CONJ": 3,
         "PUNCT": 4,
         "PART": 1,
@@ -53615,7 +53706,7 @@
       },
       "ADJ|PUNCT": {
         "</S>": 129,
-        "CONJ": 27,
+        "CONJ": 28,
         "VERB": 5,
         "DET": 5,
         "ADJ": 16,
@@ -53648,7 +53739,7 @@
         "MODAL": 1
       },
       "AUX|NOUN": {
-        "PUNCT": 21,
+        "PUNCT": 22,
         "NOUN": 5,
         "DET": 4,
         "PREP": 12,
@@ -53663,7 +53754,7 @@
       "PUNCT|CONJ": {
         "NOUN": 120,
         "PRON": 29,
-        "DET": 41,
+        "DET": 42,
         "PUNCT": 6,
         "ADJ": 29,
         "CONJ": 8,
@@ -53754,11 +53845,11 @@
         "PROPN": 1
       },
       "AUX|VERB": {
-        "PREP": 136,
+        "PREP": 137,
         "PUNCT": 46,
         "PART": 37,
         "PRON": 3,
-        "NOUN": 22,
+        "NOUN": 23,
         "DET": 23,
         "CONJ": 29,
         "ADJ": 6,
@@ -53925,7 +54016,7 @@
       "PUNCT|VERB": {
         "AUX": 1,
         "CONJ": 7,
-        "PREP": 20,
+        "PREP": 21,
         "NOUN": 22,
         "PUNCT": 7,
         "PROPN": 1,
@@ -54053,7 +54144,7 @@
         "PART": 1
       },
       "ADV|NOUN": {
-        "PUNCT": 43,
+        "PUNCT": 44,
         "VERB": 4,
         "PROPN": 1,
         "ADV": 1,
@@ -54061,7 +54152,7 @@
         "DET": 8,
         "ADJ": 4,
         "NUM": 1,
-        "NOUN": 9,
+        "NOUN": 10,
         "PREP": 7,
         "PART": 2,
         "MODAL": 1,
@@ -54118,7 +54209,7 @@
         "ADJ": 3,
         "CONJ": 4,
         "PREP": 2,
-        "NOUN": 17,
+        "NOUN": 18,
         "AUX": 2,
         "PRON": 1
       },
@@ -54224,7 +54315,7 @@
       },
       "DET|PREP": {
         "NOUN": 8,
-        "DET": 27,
+        "DET": 28,
         "PRON": 1,
         "ADJ": 4,
         "PUNCT": 2,
@@ -54236,8 +54327,8 @@
         "PRON": 1
       },
       "NOUN|PRON": {
-        "VERB": 45,
-        "AUX": 41,
+        "VERB": 47,
+        "AUX": 42,
         "PREP": 9,
         "MODAL": 22,
         "PRON": 1,
@@ -54285,7 +54376,7 @@
         "VERB": 1
       },
       "PUNCT|DET": {
-        "NOUN": 98,
+        "NOUN": 99,
         "ADJ": 36,
         "VERB": 4,
         "PROPN": 12,
@@ -54420,7 +54511,7 @@
         "ADV": 1
       },
       "<S>|PREP": {
-        "NOUN": 58,
+        "NOUN": 59,
         "PROPN": 11,
         "ADJ": 12,
         "DET": 69,
@@ -54578,7 +54669,7 @@
         "PUNCT": 4
       },
       "ADJ|VERB": {
-        "NOUN": 14,
+        "NOUN": 15,
         "AUX": 9,
         "CONJ": 8,
         "PUNCT": 14,
@@ -54825,7 +54916,7 @@
         "CONJ": 1,
         "AUX": 1,
         "ADV": 1,
-        "PREP": 2
+        "PREP": 3
       },
       "WH|PREP": {
         "NUM": 3,
@@ -54835,7 +54926,7 @@
       "DET|ADV": {
         "AUX": 2,
         "VERB": 9,
-        "NOUN": 10,
+        "NOUN": 11,
         "ADJ": 7,
         "PUNCT": 1
       },
@@ -54970,7 +55061,7 @@
       },
       "AUX|PREP": {
         "PART": 5,
-        "DET": 11,
+        "DET": 12,
         "NOUN": 9,
         "PUNCT": 1,
         "PROPN": 1,
@@ -55221,7 +55312,7 @@
         "we": 1
       },
       "with": {
-        "the": 26,
+        "the": 27,
         "a": 19,
         "their": 7,
         "those": 6,
@@ -55268,14 +55359,7 @@
         "most": 2,
         "words": 2,
         "usually": 2,
-        "currently": 1,
-        "only": 1,
-        "concerned": 1,
-        "made": 2,
-        "protected": 1,
-        "really": 1,
-        "securely": 1,
-        "acres": 1
+        "called": 1
       },
       "you": {
         "to": 6,
@@ -55374,7 +55458,9 @@
         "vague": 3,
         "good": 3,
         "generally": 3,
-        "often": 1
+        "often": 1,
+        "sodium": 1,
+        "copper": 1
       },
       "a": {
         "noun": 18,
@@ -55391,11 +55477,13 @@
         "specific": 1,
         "written": 1,
         "record": 1,
-        "temporary": 1
+        "temporary": 1,
+        "nucleus": 1,
+        "different": 1
       },
       "for": {
         "the": 25,
-        "example": 12,
+        "example": 13,
         "a": 7,
         "auxiliary": 5,
         "unconstrained": 4,
@@ -55428,14 +55516,9 @@
         "lesson": 4,
         "variable": 3,
         "listener": 3,
-        "spectral": 1,
-        "telecommunications": 1,
-        "phone": 1,
-        "snail": 1,
-        "word": 1,
-        "person": 1,
-        "interview": 1,
-        "benefit": 1
+        "chemical": 1,
+        "number": 1,
+        "same": 2
       },
       "brain": {
         "is": 1,
@@ -55810,7 +55893,7 @@
         "no": 1
       },
       "and": {
-        "the": 30,
+        "the": 31,
         "gerund": 23,
         "past": 22,
         "other": 11,
@@ -55822,7 +55905,9 @@
         "creative": 2,
         "applied": 1,
         "birds": 1,
-        "usually": 1
+        "usually": 1,
+        "generally": 1,
+        "any": 1
       },
       "meanings": {
         "have": 1,
@@ -55873,8 +55958,9 @@
         "grass": 1,
         "until": 1,
         "we": 1,
-        "are": 1,
-        "were": 1
+        "are": 2,
+        "were": 1,
+        "contains": 2
       },
       "good": {
         "manners": 3,
@@ -55941,7 +56027,7 @@
         "your": 1
       },
       "but": {
-        "a": 6,
+        "a": 7,
         "the": 6,
         "i": 4,
         "also": 3,
@@ -56023,7 +56109,8 @@
         "storage": 1,
         "science": 1,
         "philosophy": 1,
-        "this": 1
+        "this": 1,
+        "their": 1
       },
       "children": {
         "play": 1,
@@ -56150,8 +56237,8 @@
         "at": 1
       },
       "of": {
-        "the": 153,
-        "a": 67,
+        "the": 155,
+        "a": 68,
         "an": 17,
         "or": 11,
         "speech": 8,
@@ -56160,7 +56247,11 @@
         "other": 5,
         "knowledge": 5,
         "postwar": 3,
-        "future": 1
+        "future": 1,
+        "matter": 1,
+        "protons": 3,
+        "electrons": 1,
+        "neutrons": 1
       },
       "reading": {
         "is": 1,
@@ -56495,7 +56586,8 @@
         "pdf": 1,
         "physical": 1,
         "which": 1,
-        "such": 1
+        "such": 1,
+        "each": 1
       },
       "point": {
         "of": 2,
@@ -56700,7 +56792,9 @@
         "organism": 3,
         "update": 2,
         "american": 2,
-        "item": 1
+        "item": 1,
+        "atom": 1,
+        "electromagnetically": 1
       },
       "update": {
         "to": 1,
@@ -56983,7 +57077,7 @@
         "of": 1
       },
       "by": {
-        "the": 20,
+        "the": 21,
         "native": 3,
         "microsoft": 2,
         "thermodynamic": 2,
@@ -56992,7 +57086,8 @@
         "ramin": 1,
         "alexander": 1,
         "introducing": 1,
-        "languages": 1
+        "languages": 1,
+        "an": 1
       },
       "thermodynamic": {
         "efficiency": 2,
@@ -57273,7 +57368,8 @@
         "surroundings": 1,
         "relation": 1,
         "constitutions": 1,
-        "acquisition": 1
+        "acquisition": 1,
+        "atoms": 1
       },
       "order": {
         "against": 1,
@@ -57728,7 +57824,8 @@
         "moral": 1,
         "action": 1,
         "curiosities": 1,
-        "infinitesimal": 1
+        "infinitesimal": 1,
+        "isotopes": 1
       },
       "its": {
         "internal": 3,
@@ -57777,7 +57874,8 @@
         "languages": 2,
         "grammatical": 2,
         "clauses": 1,
-        "left": 1
+        "left": 1,
+        "by": 1
       },
       "parts": {
         "of": 8,
@@ -57832,7 +57930,7 @@
         "knowledge": 3,
         "of": 5,
         "tense": 1,
-        "other": 5,
+        "other": 6,
         "component": 2,
         "word": 1,
         "page": 1,
@@ -58239,7 +58337,8 @@
         "be": 3,
         "known": 1,
         "accepted": 1,
-        "studied": 1
+        "studied": 1,
+        "neutrons": 1
       },
       "agreed": {
         "that": 3,
@@ -58405,7 +58504,7 @@
         "in": 1
       },
       "consists": {
-        "of": 9,
+        "of": 10,
         "mainly": 1
       },
       "around": {
@@ -58691,7 +58790,8 @@
         "foreign": 1,
         "well-defined": 1,
         "material": 1,
-        "receptacle": 1
+        "receptacle": 1,
+        "atom": 2
       },
       "functional": {
         "topics": 1,
@@ -59464,7 +59564,8 @@
         "medications": 1,
         "ways": 3,
         "actors": 1,
-        "networked": 1
+        "networked": 1,
+        "number": 1
       },
       "correlations": {
         "between": 3
@@ -59792,7 +59893,8 @@
         "to": 3,
         "within": 1,
         "the": 1,
-        "together": 2
+        "together": 2,
+        "swarm": 1
       },
       "involves": {
         "a": 1,
@@ -59953,7 +60055,9 @@
         "trick": 1,
         "core": 1,
         "name": 1,
-        "manner": 1
+        "manner": 1,
+        "number": 1,
+        "element": 1
       },
       "common": {
         "cross-linguistically": 2,
@@ -60081,7 +60185,8 @@
         "adj": 1,
         "ingredient": 1,
         "for": 2,
-        "facts": 1
+        "facts": 1,
+        "particles": 1
       },
       "approach": {
         "to": 2,
@@ -60815,7 +60920,7 @@
         "amendment": 1
       },
       "number": {
-        "of": 7,
+        "of": 10,
         ")": 1,
         "(": 1,
         "a2": 1,
@@ -61977,7 +62082,8 @@
         "a": 3,
         "the": 1,
         "elements": 1,
-        "information": 1
+        "information": 1,
+        "protons": 2
       },
       "arrow": {
         "points": 1,
@@ -64017,7 +64123,8 @@
       },
       "building": {
         "still": 1,
-        "n": 1
+        "n": 1,
+        "blocks": 1
       },
       "logical": {
         "operations": 1,
@@ -64069,7 +64176,8 @@
         "adj": 1,
         "or": 1,
         "experiments": 1,
-        "stimulation": 1
+        "stimulation": 1,
+        "elements": 2
       },
       "synthesized": {
         "by": 1,
@@ -64238,7 +64346,8 @@
         "part": 1,
         "notion": 1,
         "theorem": 1,
-        "interaction": 1
+        "interaction": 1,
+        "building": 1
       },
       "clothes": {
         "washer": 1,
@@ -64938,10 +65047,14 @@
       },
       "atom": {
         "is": 1,
-        "and": 1
+        "and": 1,
+        "consists": 1,
+        "that": 2
       },
       "atoms": {
-        "and": 2
+        "and": 2,
+        "are": 1,
+        "with": 1
       },
       "central": {
         "nervous": 1,
@@ -65011,7 +65124,8 @@
         "that": 1,
         "or": 1,
         "like": 3,
-        "can": 1
+        "can": 1,
+        "of": 1
       },
       "becomes": {
         "visible": 1,
@@ -65952,7 +66066,9 @@
       },
       "elements": {
         "or": 1,
-        "of": 2
+        "of": 2,
+        "and": 1,
+        "are": 1
       },
       "entries": {
         "arranged": 1
@@ -68292,7 +68408,8 @@
         "of": 1
       },
       "blocks": {
-        ")": 1
+        ")": 1,
+        "of": 1
       },
       "securely": {
         "linked": 1
@@ -68500,14 +68617,41 @@
       },
       "permanent": {
         "physical": 1
+      },
+      "nucleus": {
+        "of": 1
+      },
+      "protons": {
+        "and": 1,
+        "that": 1,
+        "is": 2,
+        "but": 1
+      },
+      "surrounded": {
+        "by": 1
+      },
+      "electromagnetically": {
+        "bound": 1
+      },
+      "swarm": {
+        "of": 1
+      },
+      "distinguished": {
+        "from": 1
+      },
+      "neutrons": {
+        "are": 1
+      },
+      "isotopes": {
+        "of": 1
       }
     },
     "starters": {
       "i": 76,
       "how": 5,
       "what": 6,
-      "<NOUN>": 670,
-      "the": 292,
+      "<NOUN>": 672,
+      "the": 293,
       "she": 18,
       "we": 31,
       "it": 73,
@@ -68529,10 +68673,10 @@
       "when": 13,
       "you": 13,
       "<ADV>": 34,
-      "an": 32,
+      "an": 33,
       "however": 2,
       "in": 111,
-      "for": 6,
+      "for": 7,
       "toward": 1,
       "<PART>": 25,
       "something": 6,
@@ -68598,8 +68742,8 @@
     "connectors": {
       "because": 15,
       "or": 400,
-      "and": 621,
-      "but": 61,
+      "and": 624,
+      "but": 62,
       "so": 23,
       "while": 7,
       "than": 39,
@@ -68634,8 +68778,8 @@
       },
       "NOUN>DET": {
         "or": 27,
-        "and": 50,
-        "but": 13,
+        "and": 51,
+        "but": 14,
         "if": 3,
         "though": 2,
         "as": 22,
@@ -68828,7 +68972,7 @@
         "than": 1
       },
       "NOUN>ADV": {
-        "and": 17,
+        "and": 18,
         "but": 3,
         "than": 2,
         "or": 9,
@@ -68917,7 +69061,7 @@
         "so": 1,
         "than": 5,
         "or": 3,
-        "and": 2,
+        "and": 3,
         "but": 1
       },
       "DET>ADJ": {
@@ -71057,27 +71201,13 @@
       "DET NOUN VERB DET ADJ NOUN PREP DET ADJ NOUN DET NOUN | and | NOUN": 1,
       "NOUN VERB DET ADJ NOUN PREP NOUN | and | NOUN": 1,
       "PRON AUX NUM PREP DET NUM NOUN PREP NOUN ADV VERB PREP NOUN DET NOUN AUX ADJ NOUN | and | VERB NOUN": 1,
-      "DET NOUN AUX DET NOUN PREP DET NOUN | so | PRON MODAL VERB DET NOUN": 1
+      "DET NOUN AUX DET NOUN PREP DET NOUN | so | PRON MODAL VERB DET NOUN": 1,
+      "NOUN AUX DET ADJ NOUN PREP DET ADJ NOUN | and | DET ADJ VERB NOUN PREP NOUN": 1,
+      "DET NOUN PREP DET NOUN PREP NOUN | and | ADV NOUN VERB PREP DET ADV NOUN PREP NOUN": 1,
+      "PREP NOUN DET NOUN PRON VERB NOUN AUX ADJ | and | DET NOUN PRON VERB NOUN AUX NOUN": 1,
+      "NOUN PREP DET ADJ NOUN PREP NOUN | but | DET ADJ NOUN PREP NOUN AUX VERB NOUN PREP DET ADJ NOUN": 1
     },
     "sentence_bank": {
-      "conclusions": [
-        "It examines how conclusions follow from premises based on the structure of arguments alone, independent of their topic and content."
-      ],
-      "informal": [
-        "Informal logic is associated with informal fallacies, critical thinking, and argumentation theory.",
-        "Informal logic examines arguments expressed in natural language whereas formal logic uses formal language."
-      ],
-      "jugs": [
-        "The jugs were full to the point of overflowing."
-      ],
-      "full": [
-        "The jugs were full to the point of overflowing.",
-        "I was fed to the full ."
-      ],
-      "book": [
-        "Our book gives full treatment to the subject of angling.",
-        "He edged the book across the table."
-      ],
       "maximum": [
         "Containing the maximum possible amount that can fit in the space available."
       ],
@@ -71180,7 +71310,9 @@
         "The electron is a subatomic particle whose electric charge is negative one elementary charge."
       ],
       "atoms": [
-        "Atoms and matter in general are stable because electrons can exist only at discrete energy levels within an atom."
+        "Atoms and matter in general are stable because electrons can exist only at discrete energy levels within an atom.",
+        "Atoms are the basic particles of the chemical elements and the fundamental building blocks of matter.",
+        "Atoms with the same number of protons but a different number of neutrons are called isotopes of the same element."
       ],
       "neuron": [
         "A neuron, neurone, or nerve cell, is a cell that is excitable, firing electric signals called action potentials."
@@ -71650,9 +71782,9 @@
         "Flour is a basic ingredient of bread."
       ],
       "basic": [
-        "Flour is a basic ingredient of bread.",
         "Rice is a basic for many Asian villagers.",
-        "Arithmetic is a basic for the study of mathematics."
+        "Arithmetic is a basic for the study of mathematics.",
+        "Atoms are the basic particles of the chemical elements and the fundamental building blocks of matter."
       ],
       "rice": [
         "Rice is a basic for many Asian villagers."
@@ -72996,6 +73128,21 @@
       ],
       "information": [
         "An item of information put into a temporary or permanent physical medium ."
+      ],
+      "atom": [
+        "An atom consists of a nucleus of protons and generally neutrons, surrounded by an electromagnetically bound swarm of electrons."
+      ],
+      "consists": [
+        "An atom consists of a nucleus of protons and generally neutrons, surrounded by an electromagnetically bound swarm of electrons."
+      ],
+      "chemical": [
+        "The chemical elements are distinguished from each other by the number of protons that are in their atoms."
+      ],
+      "elements": [
+        "The chemical elements are distinguished from each other by the number of protons that are in their atoms."
+      ],
+      "same": [
+        "Atoms with the same number of protons but a different number of neutrons are called isotopes of the same element."
       ]
     }
   },
@@ -73312,7 +73459,8 @@
       "shell",
       "temporary",
       "payment",
-      "generations"
+      "generations",
+      "blocks"
     ],
     "names": [],
     "lessons": 101,
@@ -73347,10 +73495,6 @@
       "comprehensive statistical modeling libraries"
     ],
     "recent_daydream_pairs": [
-      [
-        "deep learning",
-        "reinforcement learning"
-      ],
       [
         "memory",
         "memory consolidation"
@@ -73426,6 +73570,10 @@
       [
         "deep learning",
         "thomas"
+      ],
+      [
+        "optics",
+        "photon"
       ]
     ]
   }
