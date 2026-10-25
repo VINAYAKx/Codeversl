@@ -11,7 +11,7 @@
     "cortisol": 0.018,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.6516000000000002,
+    "adenosine": 0.7116000000000002,
     "newborn": false
   },
   "episodic_memory": [
@@ -2938,6 +2938,13 @@
       "time": "2026-10-25 05:31:32",
       "speaker": "brain",
       "text": "I wondered about 'Blockchain' by myself and went searching. From Wikipedia (live internet) I learned: A blockchain is a distributed ledger with growing lists of records (blocks) that are securely linked together via cryptographic hashes. Key ideas I stored: cryptographic hash, blockchain transactions, distributed ledger, cryptographic hashes, network consensus.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-25 05:33:33",
+      "speaker": "brain",
+      "text": "I wondered about 'AI agent' by myself and went searching. From Wikipedia (live internet) I learned: An AI agent, also known as agentic AI, is an artificial intelligence program that can make decisions, pursue goals, and take actions independently of human programmers. Key ideas I stored: agentic ai contrasts, artificial intelligence, machine learning, tool-like ai, ai agent.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -7119,6 +7126,20 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Blockchain",
       "learned": "2026-10-25 05:31:32"
+    },
+    "AI agent": {
+      "summary": "An AI agent, also known as agentic AI, is an artificial intelligence program that can make decisions, pursue goals, and take actions independently of human programmers. Agentic AI contrasts with tool-like AI use for narrow, specific tasks such as answering questions, as with chatbots in the non-agentic forms that were common in 2023, or with traditional machine learning algorithms.",
+      "concepts": [
+        "agentic ai contrasts",
+        "artificial intelligence",
+        "machine learning",
+        "tool-like ai",
+        "ai agent",
+        "non-agentic"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/AI_agent",
+      "learned": "2026-10-25 05:33:33"
     }
   },
   "creator_teachings": [
@@ -8622,6 +8643,12 @@
       "kind": "explore_report",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-25 05:33:33",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -8766,7 +8793,8 @@
     "perception",
     "containers",
     "algorithms",
-    "blockchain"
+    "blockchain",
+    "ai systems"
   ],
   "sensory_log": [
     {
@@ -49675,23 +49703,48 @@
       "source": "corpus",
       "learned": "2026-10-25 05:31:32",
       "uses": 1
+    },
+    "programmers": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-25 05:33:33",
+      "uses": 1
+    },
+    "agentic": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-25 05:33:33",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 2252,
-      "tokens": 30394,
+      "sentences": 2254,
+      "tokens": 30461,
       "sources": {
         "seed corpus": 64,
         "conversation": 36,
         "dictionary": 1134,
-        "explore": 329,
+        "explore": 331,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "4563106075ac",
         "5cfad6bf7772",
         "dcf3e0147e8a",
         "e9b96e27966d",
@@ -49990,7 +50043,8 @@
         "a2ea80e9f431",
         "d779453ed5f9",
         "916968086719",
-        "811f07f4b657"
+        "811f07f4b657",
+        "7f292a417911"
       ],
       "seeded": true,
       "rejected": 523,
@@ -50772,7 +50826,6 @@
         "coordination": 1,
         "git": 1,
         "versions": 1,
-        "programmers": 1,
         "developing": 1,
         "collaboratively": 1,
         "kernel": 1,
@@ -52228,7 +52281,11 @@
         "hashes": 1,
         "hash": 1,
         "timestamp": 1,
-        "linking": 1
+        "linking": 1,
+        "decisions": 1,
+        "pursue": 1,
+        "narrow": 1,
+        "chatbots": 1
       }
     },
     "pos_bigrams": {
@@ -52236,10 +52293,10 @@
         "PRON": 298,
         "WH": 30,
         "NOUN": 663,
-        "DET": 588,
+        "DET": 589,
         "VERB": 260,
         "MODAL": 5,
-        "ADJ": 120,
+        "ADJ": 121,
         "INTJ": 13,
         "CONJ": 26,
         "AUX": 14,
@@ -52250,11 +52307,11 @@
         "NEG": 3
       },
       "PRON": {
-        "AUX": 252,
+        "AUX": 253,
         "PUNCT": 65,
         "ADV": 17,
         "VERB": 288,
-        "MODAL": 102,
+        "MODAL": 103,
         "PREP": 31,
         "WH": 5,
         "DET": 11,
@@ -52268,10 +52325,10 @@
         "NEG": 1
       },
       "AUX": {
-        "ADJ": 240,
+        "ADJ": 241,
         "PRON": 20,
         "PUNCT": 7,
-        "DET": 332,
+        "DET": 333,
         "NOUN": 73,
         "NEG": 48,
         "VERB": 313,
@@ -52287,12 +52344,12 @@
       },
       "ADJ": {
         "PART": 38,
-        "NOUN": 1497,
+        "NOUN": 1500,
         "WH": 4,
         "PUNCT": 247,
-        "PREP": 160,
+        "PREP": 161,
         "CONJ": 88,
-        "PROPN": 31,
+        "PROPN": 34,
         "ADJ": 104,
         "DET": 37,
         "AUX": 29,
@@ -52315,16 +52372,16 @@
         "PROPN": 1
       },
       "VERB": {
-        "PREP": 546,
+        "PREP": 547,
         "PART": 118,
         "ADJ": 87,
-        "NOUN": 565,
+        "NOUN": 568,
         "PUNCT": 255,
         "PRON": 104,
         "AUX": 33,
         "DET": 430,
         "VERB": 50,
-        "CONJ": 173,
+        "CONJ": 174,
         "WH": 25,
         "</S>": 15,
         "ADV": 59,
@@ -52335,12 +52392,12 @@
       },
       "PREP": {
         "PRON": 71,
-        "NOUN": 1045,
-        "DET": 1115,
-        "PUNCT": 54,
+        "NOUN": 1048,
+        "DET": 1116,
+        "PUNCT": 55,
         "VERB": 90,
         "PREP": 29,
-        "ADJ": 295,
+        "ADJ": 297,
         "PROPN": 123,
         "AUX": 22,
         "NUM": 49,
@@ -52351,17 +52408,17 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 2078,
-        "NOUN": 622,
-        "CONJ": 310,
+        "</S>": 2080,
+        "NOUN": 624,
+        "CONJ": 313,
         "PRON": 48,
         "VERB": 75,
-        "ADV": 77,
+        "ADV": 78,
         "PREP": 64,
         "ADJ": 101,
         "DET": 177,
         "WH": 37,
-        "AUX": 32,
+        "AUX": 33,
         "NUM": 7,
         "PUNCT": 96,
         "PROPN": 27,
@@ -52388,13 +52445,13 @@
         "NOUN": 92,
         "CONJ": 15,
         "DET": 26,
-        "VERB": 174,
+        "VERB": 175,
         "</S>": 3,
         "PRON": 3,
         "MODAL": 1,
         "PART": 3,
         "ADV": 10,
-        "PREP": 51,
+        "PREP": 52,
         "AUX": 19,
         "PROPN": 2,
         "NUM": 3,
@@ -52402,19 +52459,19 @@
       },
       "NOUN": {
         "AUX": 578,
-        "PREP": 1750,
-        "NOUN": 1886,
-        "PUNCT": 2757,
+        "PREP": 1752,
+        "NOUN": 1891,
+        "PUNCT": 2764,
         "CONJ": 665,
-        "VERB": 490,
-        "ADV": 88,
+        "VERB": 491,
+        "ADV": 89,
         "PART": 228,
         "ADJ": 256,
         "MODAL": 79,
         "</S>": 141,
-        "PRON": 132,
+        "PRON": 134,
         "WH": 57,
-        "DET": 322,
+        "DET": 323,
         "PROPN": 99,
         "NUM": 13,
         "NEG": 6,
@@ -52422,14 +52479,14 @@
       },
       "DET": {
         "NOUN": 2063,
-        "ADJ": 878,
+        "ADJ": 880,
         "PRON": 24,
         "PREP": 49,
         "NUM": 48,
         "PART": 6,
         "VERB": 44,
-        "CONJ": 44,
-        "PROPN": 113,
+        "CONJ": 45,
+        "PROPN": 114,
         "DET": 72,
         "ADV": 29,
         "PUNCT": 25,
@@ -52440,13 +52497,13 @@
       "CONJ": {
         "PRON": 91,
         "DET": 223,
-        "NOUN": 633,
-        "VERB": 112,
-        "ADJ": 136,
+        "NOUN": 634,
+        "VERB": 113,
+        "ADJ": 137,
         "ADV": 46,
         "PUNCT": 18,
         "WH": 13,
-        "PREP": 42,
+        "PREP": 44,
         "CONJ": 19,
         "NUM": 7,
         "AUX": 32,
@@ -52456,7 +52513,7 @@
         "PART": 6
       },
       "MODAL": {
-        "VERB": 92,
+        "VERB": 93,
         "PRON": 6,
         "DET": 3,
         "CONJ": 3,
@@ -52490,15 +52547,15 @@
       },
       "PROPN": {
         "DET": 10,
-        "PUNCT": 148,
+        "PUNCT": 149,
         "PART": 12,
-        "NOUN": 170,
+        "NOUN": 172,
         "AUX": 30,
         "PROPN": 110,
         "ADJ": 17,
         "PREP": 27,
         "CONJ": 29,
-        "VERB": 14,
+        "VERB": 15,
         "NUM": 1,
         "ADV": 3,
         "PRON": 4
@@ -52536,7 +52593,7 @@
         "WH": 1
       },
       "PRON|AUX": {
-        "ADJ": 51,
+        "ADJ": 52,
         "DET": 57,
         "NEG": 22,
         "VERB": 60,
@@ -52555,7 +52612,7 @@
         "PART": 26,
         "WH": 3,
         "PUNCT": 72,
-        "PREP": 45,
+        "PREP": 46,
         "DET": 12,
         "NOUN": 40,
         "CONJ": 14,
@@ -52591,7 +52648,7 @@
       "VERB|PREP": {
         "PRON": 16,
         "DET": 211,
-        "NOUN": 161,
+        "NOUN": 162,
         "PUNCT": 17,
         "VERB": 15,
         "ADJ": 57,
@@ -52751,7 +52808,7 @@
       },
       "AUX|DET": {
         "NOUN": 167,
-        "ADJ": 126,
+        "ADJ": 127,
         "PROPN": 6,
         "VERB": 6,
         "PREP": 4,
@@ -52780,9 +52837,9 @@
       },
       "NOUN|PREP": {
         "NOUN": 666,
-        "DET": 640,
+        "DET": 641,
         "PREP": 9,
-        "ADJ": 186,
+        "ADJ": 187,
         "PROPN": 56,
         "VERB": 55,
         "PUNCT": 19,
@@ -52794,14 +52851,14 @@
         "CONJ": 10
       },
       "PREP|NOUN": {
-        "NOUN": 155,
-        "PUNCT": 321,
+        "NOUN": 156,
+        "PUNCT": 322,
         "VERB": 42,
         "CONJ": 113,
         "ADJ": 23,
         "DET": 48,
         "AUX": 24,
-        "PREP": 120,
+        "PREP": 121,
         "PRON": 20,
         "</S>": 122,
         "WH": 6,
@@ -52812,7 +52869,7 @@
         "ADV": 5
       },
       "NOUN|NOUN": {
-        "PUNCT": 670,
+        "PUNCT": 673,
         "PART": 30,
         "NOUN": 481,
         "PREP": 263,
@@ -52824,17 +52881,17 @@
         "ADJ": 44,
         "NUM": 4,
         "ADV": 21,
-        "DET": 27,
+        "DET": 28,
         "NEG": 3,
-        "PRON": 14,
+        "PRON": 15,
         "WH": 9,
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 1598,
-        "NOUN": 407,
-        "CONJ": 218,
-        "ADV": 54,
+        "</S>": 1600,
+        "NOUN": 409,
+        "CONJ": 220,
+        "ADV": 55,
         "PREP": 46,
         "ADJ": 68,
         "DET": 119,
@@ -52852,7 +52909,7 @@
       "<S>|DET": {
         "NOUN": 373,
         "ADJ": 146,
-        "PROPN": 27,
+        "PROPN": 28,
         "VERB": 5,
         "PREP": 8,
         "ADV": 7,
@@ -52862,7 +52919,7 @@
         "PRON": 3
       },
       "DET|ADJ": {
-        "NOUN": 704,
+        "NOUN": 706,
         "CONJ": 27,
         "ADJ": 34,
         "PUNCT": 34,
@@ -52879,9 +52936,9 @@
       },
       "ADJ|NOUN": {
         "PUNCT": 484,
-        "NOUN": 233,
+        "NOUN": 234,
         "MODAL": 13,
-        "VERB": 78,
+        "VERB": 79,
         "PREP": 312,
         "CONJ": 120,
         "DET": 50,
@@ -52891,7 +52948,7 @@
         "WH": 11,
         "PROPN": 4,
         "ADV": 10,
-        "PRON": 23,
+        "PRON": 24,
         "</S>": 6
       },
       "VERB|ADJ": {
@@ -52909,7 +52966,7 @@
       },
       "PREP|DET": {
         "NOUN": 702,
-        "ADJ": 279,
+        "ADJ": 280,
         "NUM": 19,
         "PREP": 15,
         "PROPN": 45,
@@ -52948,7 +53005,7 @@
         "NOUN": 1
       },
       "VERB|NOUN": {
-        "PUNCT": 142,
+        "PUNCT": 144,
         "PREP": 85,
         "PART": 14,
         "VERB": 20,
@@ -52962,11 +53019,11 @@
         "NEG": 1,
         "WH": 1,
         "PRON": 9,
-        "ADV": 7,
+        "ADV": 8,
         "</S>": 1
       },
       "PRON|MODAL": {
-        "VERB": 51,
+        "VERB": 52,
         "CONJ": 3,
         "NOUN": 5,
         "AUX": 23,
@@ -52983,7 +53040,7 @@
         "DET": 17,
         "ADV": 2,
         "CONJ": 5,
-        "NOUN": 24,
+        "NOUN": 25,
         "AUX": 4,
         "ADJ": 3,
         "PRON": 3,
@@ -52991,7 +53048,7 @@
       },
       "PUNCT|NOUN": {
         "CONJ": 45,
-        "NOUN": 97,
+        "NOUN": 99,
         "ADJ": 8,
         "PUNCT": 327,
         "PREP": 71,
@@ -53126,7 +53183,7 @@
         "PUNCT": 36,
         "</S>": 3,
         "ADV": 14,
-        "NOUN": 104,
+        "NOUN": 105,
         "NUM": 2,
         "CONJ": 26,
         "AUX": 6,
@@ -53157,11 +53214,11 @@
         "CONJ": 8,
         "AUX": 12,
         "PROPN": 11,
-        "VERB": 25,
+        "VERB": 26,
         "NEG": 2,
         "ADV": 14,
         "MODAL": 8,
-        "PREP": 7,
+        "PREP": 9,
         "PART": 1,
         "WH": 1
       },
@@ -53172,7 +53229,7 @@
         "PREP": 129,
         "VERB": 21,
         "WH": 7,
-        "NOUN": 183,
+        "NOUN": 184,
         "PRON": 12,
         "PART": 16,
         "CONJ": 24,
@@ -53199,7 +53256,7 @@
       "NOUN|ADV": {
         "PUNCT": 25,
         "VERB": 29,
-        "PREP": 14,
+        "PREP": 15,
         "NOUN": 7,
         "ADJ": 1,
         "AUX": 5,
@@ -53233,7 +53290,7 @@
       "PREP|PUNCT": {
         "</S>": 23,
         "PUNCT": 3,
-        "CONJ": 8,
+        "CONJ": 9,
         "ADJ": 1,
         "NOUN": 10,
         "DET": 4,
@@ -53258,7 +53315,7 @@
       },
       "CONJ|VERB": {
         "PART": 5,
-        "NOUN": 27,
+        "NOUN": 28,
         "PUNCT": 34,
         "ADJ": 6,
         "PREP": 24,
@@ -53273,7 +53330,7 @@
         "ADJ": 8,
         "VERB": 4,
         "PREP": 20,
-        "PROPN": 3,
+        "PROPN": 4,
         "MODAL": 2,
         "CONJ": 3,
         "AUX": 3,
@@ -53373,7 +53430,7 @@
         "WH": 1,
         "PRON": 4,
         "AUX": 3,
-        "PUNCT": 1,
+        "PUNCT": 2,
         "NUM": 2,
         "PREP": 1
       },
@@ -53386,7 +53443,7 @@
         "MODAL": 3,
         "NOUN": 56,
         "AUX": 2,
-        "ADJ": 11,
+        "ADJ": 12,
         "NEG": 2,
         "WH": 4,
         "ADV": 3,
@@ -53520,7 +53577,8 @@
         "MODAL": 1,
         "PART": 1,
         "DET": 2,
-        "NUM": 1
+        "NUM": 1,
+        "PROPN": 1
       },
       "PREP|VERB": {
         "PUNCT": 18,
@@ -53555,7 +53613,7 @@
       "PUNCT|ADV": {
         "NOUN": 11,
         "CONJ": 2,
-        "VERB": 26,
+        "VERB": 27,
         "PREP": 15,
         "DET": 6,
         "ADJ": 5,
@@ -53636,7 +53694,7 @@
         "DET": 30,
         "PART": 11,
         "NOUN": 22,
-        "CONJ": 25,
+        "CONJ": 26,
         "PREP": 51,
         "WH": 4,
         "PUNCT": 10,
@@ -53675,9 +53733,9 @@
       },
       "PREP|ADJ": {
         "CONJ": 7,
-        "PROPN": 6,
+        "PROPN": 7,
         "ADJ": 24,
-        "NOUN": 216,
+        "NOUN": 217,
         "PUNCT": 18,
         "AUX": 3,
         "VERB": 9,
@@ -53721,9 +53779,9 @@
       },
       "NOUN|PRON": {
         "VERB": 45,
-        "AUX": 40,
+        "AUX": 41,
         "PREP": 9,
-        "MODAL": 21,
+        "MODAL": 22,
         "PRON": 1,
         "CONJ": 3,
         "PART": 3,
@@ -53753,18 +53811,19 @@
         "WH": 5,
         "PUNCT": 4,
         "ADV": 2,
-        "AUX": 3,
+        "AUX": 4,
         "VERB": 6,
         "PREP": 2,
         "NUM": 1
       },
       "ADJ|PROPN": {
-        "PUNCT": 7,
-        "NOUN": 14,
+        "PUNCT": 8,
+        "NOUN": 15,
         "CONJ": 1,
         "PROPN": 6,
         "AUX": 2,
-        "PREP": 1
+        "PREP": 1,
+        "VERB": 1
       },
       "PUNCT|DET": {
         "NOUN": 97,
@@ -53829,7 +53888,7 @@
       "NOUN|DET": {
         "NOUN": 190,
         "ADJ": 65,
-        "CONJ": 18,
+        "CONJ": 19,
         "ADV": 5,
         "PRON": 12,
         "PROPN": 3,
@@ -53914,13 +53973,13 @@
       "PROPN|NOUN": {
         "CONJ": 7,
         "AUX": 27,
-        "PUNCT": 59,
+        "PUNCT": 60,
         "NOUN": 40,
         "DET": 7,
         "MODAL": 1,
         "PROPN": 10,
         "ADJ": 2,
-        "PREP": 9,
+        "PREP": 10,
         "VERB": 8
       },
       "ADJ|AUX": {
@@ -53968,9 +54027,9 @@
       "CONJ|PREP": {
         "DET": 12,
         "PUNCT": 5,
-        "NOUN": 13,
+        "NOUN": 14,
         "PRON": 4,
-        "ADJ": 3,
+        "ADJ": 4,
         "PROPN": 3,
         "VERB": 1,
         "WH": 1
@@ -54002,7 +54061,7 @@
       "PUNCT|AUX": {
         "NOUN": 4,
         "VERB": 4,
-        "DET": 16,
+        "DET": 17,
         "ADJ": 4,
         "NUM": 1,
         "PART": 1,
@@ -54021,7 +54080,7 @@
         "DET": 1
       },
       "DET|CONJ": {
-        "NOUN": 24,
+        "NOUN": 25,
         "PROPN": 3,
         "DET": 7,
         "ADJ": 5,
@@ -54106,7 +54165,7 @@
       },
       "DET|PROPN": {
         "PROPN": 16,
-        "NOUN": 53,
+        "NOUN": 54,
         "ADJ": 12,
         "AUX": 12,
         "PUNCT": 6,
@@ -54180,7 +54239,7 @@
         "PUNCT": 1
       },
       "ADV|PREP": {
-        "NOUN": 14,
+        "NOUN": 15,
         "ADJ": 7,
         "DET": 20,
         "NUM": 3,
@@ -54341,7 +54400,7 @@
       },
       "PROPN|VERB": {
         "DET": 8,
-        "PREP": 1,
+        "PREP": 2,
         "NUM": 1,
         "PRON": 1,
         "NOUN": 1,
@@ -54714,7 +54773,10 @@
         "either": 1,
         "him": 1,
         "growing": 1,
-        "each": 1
+        "each": 1,
+        "tool-like": 1,
+        "chatbots": 1,
+        "traditional": 1
       },
       "how": {
         "are": 1,
@@ -54840,7 +54902,7 @@
       "is": {
         "a": 113,
         "the": 69,
-        "an": 21,
+        "an": 22,
         "usually": 6,
         "hard": 5,
         "one": 5,
@@ -54891,7 +54953,8 @@
         "environment": 1,
         "holding": 1,
         "at": 1,
-        "millions": 1
+        "millions": 1,
+        "narrow": 1
       },
       "sharing": {
         "ideas": 1,
@@ -54914,7 +54977,8 @@
         "men": 1,
         "ways": 1,
         "previous": 2,
-        "ones": 1
+        "ones": 1,
+        "non-agentic": 1
       },
       "brain": {
         "is": 1,
@@ -55022,7 +55086,8 @@
         "change": 2,
         "operate": 2,
         "vary": 2,
-        "help": 1
+        "help": 1,
+        "make": 1
       },
       "about": {
         "the": 8,
@@ -55056,7 +55121,8 @@
         "emotions": 2,
         "contrasts": 2,
         "subjective": 1,
-        "thing": 1
+        "thing": 1,
+        "with": 1
       },
       "it": {
         "is": 44,
@@ -55154,7 +55220,8 @@
         "as": 4,
         "for": 3,
         "how": 1,
-        "reinforcement": 1
+        "reinforcement": 1,
+        "algorithms": 1
       },
       "fun": {
         "when": 1,
@@ -55286,7 +55353,8 @@
         "on": 1,
         "possibly": 1,
         "transportation": 1,
-        "transaction": 1
+        "transaction": 1,
+        "take": 1
       },
       "meanings": {
         "have": 1,
@@ -55324,7 +55392,7 @@
         "of": 1
       },
       "that": {
-        "can": 14,
+        "can": 15,
         "is": 14,
         "the": 6,
         "a": 6,
@@ -55337,7 +55405,8 @@
         "grass": 1,
         "until": 1,
         "we": 1,
-        "are": 1
+        "are": 1,
+        "were": 1
       },
       "good": {
         "manners": 3,
@@ -55468,7 +55537,7 @@
         "effectively": 1
       },
       "in": {
-        "the": 109,
+        "the": 110,
         "a": 57,
         "english": 17,
         "machine": 8,
@@ -55623,7 +55692,8 @@
         "operator": 1,
         "competitor": 1,
         "lot": 1,
-        "records": 1
+        "records": 1,
+        "human": 1
       },
       "reading": {
         "is": 1,
@@ -56163,7 +56233,7 @@
         "article": 8,
         "individual": 8,
         "expression": 4,
-        "artificial": 3,
+        "artificial": 4,
         "example": 3,
         "auxiliary": 3,
         "application": 3,
@@ -56177,7 +56247,8 @@
         "activity": 1,
         "hour": 1,
         "area": 1,
-        "item": 1
+        "item": 1,
+        "ai": 1
       },
       "update": {
         "to": 1,
@@ -56222,7 +56293,7 @@
         "account": 1,
         "place": 1,
         "plural": 1,
-        "actions": 1,
+        "actions": 2,
         "ownership": 1,
         "it": 1,
         "the": 1,
@@ -56364,7 +56435,7 @@
       },
       "artificial": {
         "neural": 6,
-        "intelligence": 9,
+        "intelligence": 10,
         "superintelligence": 1,
         "general": 3,
         "neurons": 3
@@ -56522,7 +56593,8 @@
         "an": 2,
         "–": 1,
         "a": 1,
-        "to": 1
+        "to": 1,
+        "that": 1
       },
       "neuroplasticity": {
         "and": 1,
@@ -56631,7 +56703,8 @@
         "requires": 3,
         "expert": 1,
         "programs": 1,
-        "may": 1
+        "may": 1,
+        "program": 1
       },
       "information": {
         "in": 2,
@@ -57030,7 +57103,7 @@
         "or": 1
       },
       "machine": {
-        "learning": 14,
+        "learning": 15,
         "to": 2,
         "that": 1,
         "language": 1
@@ -57538,7 +57611,7 @@
         "century": 7
       },
       "known": {
-        "as": 13,
+        "as": 14,
         "to": 2,
         "that": 1,
         "example": 1,
@@ -57560,7 +57633,10 @@
         "vocabulary": 2,
         "deriving": 1,
         "super": 1,
-        "for": 1
+        "for": 1,
+        "agentic": 1,
+        "answering": 1,
+        "with": 1
       },
       "itself": {
         "was": 2,
@@ -57611,7 +57687,7 @@
         "conjunction": 4
       },
       "also": {
-        "known": 10,
+        "known": 11,
         "called": 6,
         "of": 4,
         "natural": 2,
@@ -57658,7 +57734,7 @@
         "or": 1
       },
       "such": {
-        "as": 37,
+        "as": 38,
         "constructs": 2,
         "adaptability": 2,
         "a": 6,
@@ -57710,7 +57786,8 @@
         "or": 3
       },
       "contrasts": {
-        "correlated": 3
+        "correlated": 3,
+        "with": 1
       },
       "correlated": {
         "actions": 3
@@ -58057,7 +58134,8 @@
         "intelligence": 1,
         "society": 1,
         "social": 1,
-        "conduct": 1
+        "conduct": 1,
+        "programmers": 1
       },
       "specific": {
         "focus": 1,
@@ -58073,7 +58151,8 @@
         "frequency": 1,
         "course": 1,
         "manner": 1,
-        "act": 1
+        "act": 1,
+        "tasks": 1
       },
       "limited": {
         "to": 5,
@@ -58262,7 +58341,8 @@
         "n't": 1,
         "on": 1,
         "advised": 1,
-        "able": 1
+        "able": 1,
+        "common": 1
       },
       "her": {
         "manner": 1,
@@ -58409,7 +58489,10 @@
         "companies": 1,
         "for": 1,
         "systems": 1,
-        "provides": 3
+        "provides": 3,
+        "agent": 1,
+        "contrasts": 1,
+        "use": 1
       },
       "american": {
         "artificial": 2,
@@ -58818,7 +58901,8 @@
         "its": 1,
         "or": 1,
         "and": 1,
-        "by": 1
+        "by": 1,
+        "for": 1
       },
       "smart": {
         "contracts": 2
@@ -59460,7 +59544,8 @@
         "sense": 1,
         "adj": 1,
         "over": 1,
-        "is": 1
+        "is": 1,
+        "in": 1
       },
       "frequently": {
         "occurring": 2
@@ -59831,7 +59916,8 @@
         "he": 1,
         "is": 2,
         "(": 1,
-        "or": 1
+        "or": 1,
+        "that": 1
       },
       "object-oriented": {
         "styles": 1,
@@ -60684,7 +60770,8 @@
         "a": 2,
         "you": 1,
         "one": 2,
-        "other": 1
+        "other": 1,
+        "decisions": 1
       },
       "show": {
         "politeness": 1,
@@ -63057,7 +63144,7 @@
         "or": 1
       },
       "tasks": {
-        "such": 2,
+        "such": 3,
         "are": 1,
         "of": 1,
         "typically": 1
@@ -63792,7 +63879,8 @@
       },
       "traditional": {
         "manner": 1,
-        "computers": 1
+        "computers": 1,
+        "machine": 1
       },
       "consolidation": {
         "is": 5
@@ -69120,6 +69208,30 @@
       },
       "linking": {
         "to": 1
+      },
+      "agentic": {
+        "ai": 2
+      },
+      "pursue": {
+        "goals": 1
+      },
+      "actions": {
+        "independently": 1
+      },
+      "independently": {
+        "of": 1
+      },
+      "tool-like": {
+        "ai": 1
+      },
+      "answering": {
+        "questions": 1
+      },
+      "chatbots": {
+        "in": 1
+      },
+      "non-agentic": {
+        "forms": 1
       }
     },
     "starters": {
@@ -69138,7 +69250,7 @@
       "they": 13,
       "he": 47,
       "where": 1,
-      "<ADJ>": 120,
+      "<ADJ>": 121,
       "please": 4,
       "that": 19,
       "if": 9,
@@ -69149,7 +69261,7 @@
       "when": 13,
       "you": 13,
       "<ADV>": 34,
-      "an": 29,
+      "an": 30,
       "however": 2,
       "in": 110,
       "for": 6,
@@ -69217,15 +69329,15 @@
     },
     "connectors": {
       "because": 15,
-      "or": 391,
-      "and": 613,
+      "or": 392,
+      "and": 614,
       "but": 60,
       "so": 22,
       "while": 7,
       "than": 39,
       "therefore": 7,
       "if": 12,
-      "as": 196,
+      "as": 199,
       "however": 3,
       "whether": 5,
       "that": 20,
@@ -69277,7 +69389,7 @@
         "whether": 1
       },
       "NOUN>VERB": {
-        "and": 26,
+        "and": 27,
         "or": 16,
         "as": 4,
         "than": 1,
@@ -69353,7 +69465,7 @@
       "NOUN>PREP": {
         "and": 8,
         "since": 1,
-        "as": 6,
+        "as": 7,
         "or": 5,
         "whereas": 1,
         "than": 1
@@ -69375,7 +69487,7 @@
         "or": 12
       },
       "DET>NOUN": {
-        "as": 23,
+        "as": 24,
         "than": 1
       },
       "VERB>PUNCT": {
@@ -69484,7 +69596,7 @@
       },
       "VERB>ADJ": {
         "and": 3,
-        "as": 5,
+        "as": 6,
         "or": 3,
         "that": 1
       },
@@ -69671,7 +69783,7 @@
         "or": 1
       },
       "PREP>PREP": {
-        "or": 4
+        "or": 5
       },
       "PREP>PROPN": {
         "and": 1
@@ -73886,7 +73998,9 @@
       "cast",
       "cryptographic",
       "transaction",
-      "chain"
+      "chain",
+      "programmers",
+      "agentic"
     ],
     "names": [],
     "lessons": 100,
