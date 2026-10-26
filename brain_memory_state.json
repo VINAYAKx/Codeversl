@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.14,
+    "adenosine": 0.26,
     "newborn": false
   },
   "episodic_memory": [
@@ -2819,6 +2819,20 @@
       "time": "2026-10-25 22:20:23",
       "speaker": "brain",
       "text": "My thoughts are swimming, so I am taking a micro-nap to consolidate what I learned. Sleep cycle #44 complete: pruned 11 noisy memories, kept 400 episodes and 227 world facts; adenosine flushed to 0.10, cortisol lowered, state saved. I feel refreshed and clear again, because sleep rebuilt my focus.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-26 00:42:37",
+      "speaker": "brain",
+      "text": "I wondered about 'Semiotics' by myself and went searching. From Wikipedia (live internet) I learned: Semiotics is the study of signs. Key ideas I stored: semiotics, linguistics, syntactics, semantics, pragmatics.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-26 00:42:37",
+      "speaker": "brain",
+      "text": "I wondered about 'Protein' by myself and went searching. From Wikipedia (live internet) I learned: Proteins are large biomolecules and macromolecules that comprise one or more long chains of amino acid residues. Key ideas I stored: dna replication, transporting molecules, protein folding, proteins, genes.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -7128,6 +7142,33 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Metabolism",
       "learned": "2026-10-25 22:20:23"
+    },
+    "Semiotics": {
+      "summary": "Semiotics is the study of signs. It is an interdisciplinary field that examines what signs are, how they form sign systems, and how individuals use signs to produce and communicate meaning. Semiotics is usually divided into syntactics, which addresses how signs are organized and combined; semantics, which addresses the relation between signs and their meanings; and pragmatics, which addresses the relation between signs and their users. Semiotics is related to linguistics but has a broader scope that includes nonlinguistic signs, such as maps and clothing.",
+      "concepts": [
+        "semiotics",
+        "linguistics",
+        "syntactics",
+        "semantics",
+        "pragmatics"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Semiotics",
+      "learned": "2026-10-26 00:42:37"
+    },
+    "Protein": {
+      "summary": "Proteins are large biomolecules and macromolecules that comprise one or more long chains of amino acid residues. Proteins perform a vast array of functions within organisms, including catalysing metabolic reactions, DNA replication, responding to stimuli, providing structure to cells and organisms, and transporting molecules from one location to another. Proteins differ from one another primarily in their sequence of amino acids, which is dictated by the nucleotide sequence of their genes, and which usually results in protein folding into a specific 3D structure that determines its activity.",
+      "concepts": [
+        "dna replication",
+        "transporting molecules",
+        "protein folding",
+        "proteins",
+        "genes",
+        "organisms"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Protein",
+      "learned": "2026-10-26 00:42:37"
     }
   },
   "creator_teachings": [
@@ -8715,6 +8756,18 @@
       "kind": "nap",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-26 00:42:37",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-26 00:42:37",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -8869,7 +8922,9 @@
     "atmosphere",
     "black hole",
     "spacetime",
-    "metabolism"
+    "metabolism",
+    "semiotics",
+    "proteins"
   ],
   "sensory_log": [
     {
@@ -51976,24 +52031,97 @@
       "source": "corpus",
       "learned": "2026-10-25 22:20:32",
       "uses": 1
+    },
+    "interdisciplinary": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "It is an interdisciplinary field that examines what signs are, how they form sign systems, and how individuals use signs to produce and communicate meaning."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-26 00:42:37",
+      "uses": 1
+    },
+    "signs": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "It is an interdisciplinary field that examines what signs are, how they form sign systems, and how individuals use signs to produce and communicate meaning."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-26 00:42:37",
+      "uses": 1
+    },
+    "semiotics": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Semiotics is related to linguistics but has a broader scope that includes nonlinguistic signs, such as maps and clothing."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-26 00:42:37",
+      "uses": 1
+    },
+    "broader": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Semiotics is related to linguistics but has a broader scope that includes nonlinguistic signs, such as maps and clothing."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-26 00:42:37",
+      "uses": 1
+    },
+    "comprise": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Proteins are large biomolecules and macromolecules that comprise one or more long chains of amino acid residues."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-26 00:42:37",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 2362,
-      "tokens": 32114,
+      "sentences": 2366,
+      "tokens": 32188,
       "sources": {
         "seed corpus": 64,
         "conversation": 36,
         "dictionary": 1214,
-        "explore": 359,
+        "explore": 363,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "6dba50b8284c",
-        "64a702408f8f",
         "af7139d4d02e",
         "7cb97ef7dd42",
         "e86ac6ac3888",
@@ -52291,10 +52419,12 @@
         "c83c0553575a",
         "e24e810494c8",
         "0aeb7b601aca",
-        "872140ba9761"
+        "872140ba9761",
+        "a87cc7c2e27c",
+        "2bdf70c0e633"
       ],
       "seeded": true,
-      "rejected": 545,
+      "rejected": 548,
       "vocab_counts": {
         "organ": 1,
         "market": 1,
@@ -53227,7 +53357,6 @@
         "prioritize": 1,
         "robustness": 1,
         "emulating": 1,
-        "interdisciplinary": 1,
         "integrates": 1,
         "emulate": 1,
         "morphology": 1,
@@ -53936,7 +54065,6 @@
         "humidity": 1,
         "pressure": 1,
         "precipitation": 1,
-        "broader": 1,
         "hydrosphere": 1,
         "cryosphere": 1,
         "lithosphere": 1,
@@ -54281,7 +54409,6 @@
         "paintings": 1,
         "terminates": 1,
         "finite": 1,
-        "comprise": 1,
         "loops": 1,
         "involve": 1,
         "conditionals": 1,
@@ -54610,14 +54737,23 @@
         "draft": 1,
         "circuitry": 1,
         "regulating": 1,
-        "regulated": 1
+        "regulated": 1,
+        "nonlinguistic": 1,
+        "maps": 1,
+        "proteins": 1,
+        "biomolecules": 1,
+        "macromolecules": 1,
+        "chains": 1,
+        "amino": 1,
+        "acid": 1,
+        "residues": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 321,
+        "PRON": 322,
         "WH": 30,
-        "NOUN": 681,
+        "NOUN": 684,
         "DET": 638,
         "VERB": 264,
         "MODAL": 5,
@@ -54632,10 +54768,10 @@
         "NEG": 3
       },
       "PRON": {
-        "AUX": 263,
+        "AUX": 264,
         "PUNCT": 74,
         "ADV": 20,
-        "VERB": 307,
+        "VERB": 311,
         "MODAL": 108,
         "PREP": 31,
         "WH": 5,
@@ -54650,13 +54786,13 @@
         "NEG": 1
       },
       "AUX": {
-        "ADJ": 250,
+        "ADJ": 251,
         "PRON": 20,
-        "PUNCT": 7,
-        "DET": 352,
+        "PUNCT": 8,
+        "DET": 355,
         "NOUN": 76,
         "NEG": 52,
-        "VERB": 327,
+        "VERB": 328,
         "INTJ": 1,
         "ADV": 112,
         "CONJ": 13,
@@ -54669,7 +54805,7 @@
       },
       "ADJ": {
         "PART": 40,
-        "NOUN": 1589,
+        "NOUN": 1593,
         "WH": 5,
         "PUNCT": 253,
         "PREP": 163,
@@ -54686,7 +54822,7 @@
         "PRON": 1
       },
       "PART": {
-        "VERB": 362,
+        "VERB": 363,
         "AUX": 57,
         "ADJ": 27,
         "NOUN": 50,
@@ -54697,27 +54833,27 @@
         "PROPN": 1
       },
       "VERB": {
-        "PREP": 586,
+        "PREP": 587,
         "PART": 126,
-        "ADJ": 91,
-        "NOUN": 600,
+        "ADJ": 92,
+        "NOUN": 602,
         "PUNCT": 268,
         "PRON": 111,
         "AUX": 33,
         "DET": 459,
         "VERB": 52,
-        "CONJ": 180,
-        "WH": 25,
+        "CONJ": 181,
+        "WH": 26,
         "</S>": 15,
         "ADV": 61,
         "PROPN": 18,
-        "NUM": 13,
+        "NUM": 14,
         "NEG": 3,
         "MODAL": 2
       },
       "PREP": {
         "PRON": 78,
-        "NOUN": 1107,
+        "NOUN": 1110,
         "DET": 1198,
         "PUNCT": 57,
         "VERB": 95,
@@ -54733,16 +54869,16 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 2184,
+        "</S>": 2188,
         "NOUN": 642,
-        "CONJ": 329,
+        "CONJ": 330,
         "PRON": 50,
         "VERB": 82,
         "ADV": 83,
         "PREP": 73,
         "ADJ": 103,
-        "DET": 186,
-        "WH": 40,
+        "DET": 187,
+        "WH": 41,
         "AUX": 34,
         "NUM": 7,
         "PUNCT": 96,
@@ -54754,8 +54890,8 @@
       "WH": {
         "AUX": 37,
         "DET": 50,
-        "PRON": 27,
-        "NOUN": 63,
+        "PRON": 28,
+        "NOUN": 65,
         "VERB": 29,
         "MODAL": 10,
         "PREP": 6,
@@ -54785,18 +54921,18 @@
         "WH": 1
       },
       "NOUN": {
-        "AUX": 615,
-        "PREP": 1858,
-        "NOUN": 1957,
-        "PUNCT": 2905,
-        "CONJ": 705,
-        "VERB": 516,
+        "AUX": 619,
+        "PREP": 1860,
+        "NOUN": 1962,
+        "PUNCT": 2911,
+        "CONJ": 708,
+        "VERB": 517,
         "ADV": 94,
-        "PART": 237,
-        "ADJ": 265,
+        "PART": 238,
+        "ADJ": 266,
         "MODAL": 86,
         "</S>": 145,
-        "PRON": 138,
+        "PRON": 141,
         "WH": 59,
         "DET": 347,
         "PROPN": 102,
@@ -54805,14 +54941,14 @@
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 2203,
-        "ADJ": 942,
+        "NOUN": 2205,
+        "ADJ": 943,
         "PRON": 26,
         "PREP": 54,
         "NUM": 53,
         "PART": 6,
         "VERB": 47,
-        "CONJ": 50,
+        "CONJ": 51,
         "PROPN": 117,
         "DET": 80,
         "ADV": 34,
@@ -54824,16 +54960,16 @@
       "CONJ": {
         "PRON": 96,
         "DET": 237,
-        "NOUN": 668,
+        "NOUN": 673,
         "VERB": 119,
         "ADJ": 143,
         "ADV": 50,
         "PUNCT": 18,
-        "WH": 15,
+        "WH": 16,
         "PREP": 48,
         "CONJ": 19,
         "NUM": 7,
-        "AUX": 34,
+        "AUX": 35,
         "PROPN": 47,
         "MODAL": 14,
         "NEG": 7,
@@ -54891,7 +55027,7 @@
       "NUM": {
         "NOUN": 94,
         "PUNCT": 12,
-        "CONJ": 17,
+        "CONJ": 18,
         "PREP": 21,
         "VERB": 13,
         "MODAL": 3,
@@ -54907,7 +55043,7 @@
     },
     "pos_trigrams": {
       "<S>|PRON": {
-        "AUX": 130,
+        "AUX": 131,
         "VERB": 130,
         "MODAL": 38,
         "ADV": 7,
@@ -54922,7 +55058,7 @@
       },
       "PRON|AUX": {
         "ADJ": 52,
-        "DET": 60,
+        "DET": 61,
         "NEG": 25,
         "VERB": 61,
         "INTJ": 1,
@@ -54942,7 +55078,7 @@
         "PUNCT": 76,
         "PREP": 47,
         "DET": 12,
-        "NOUN": 42,
+        "NOUN": 43,
         "CONJ": 15,
         "ADJ": 9,
         "VERB": 13,
@@ -54966,7 +55102,7 @@
         "DET": 87,
         "PART": 4,
         "NUM": 5,
-        "CONJ": 28,
+        "CONJ": 29,
         "PRON": 14,
         "VERB": 8,
         "ADV": 4,
@@ -54977,7 +55113,7 @@
       "VERB|PREP": {
         "PRON": 16,
         "DET": 229,
-        "NOUN": 175,
+        "NOUN": 176,
         "PUNCT": 17,
         "VERB": 17,
         "ADJ": 59,
@@ -55062,20 +55198,20 @@
       "PRON|VERB": {
         "PART": 28,
         "PREP": 40,
-        "NOUN": 46,
+        "NOUN": 47,
         "PRON": 31,
         "PUNCT": 18,
         "DET": 86,
         "VERB": 12,
-        "ADJ": 12,
+        "ADJ": 13,
         "CONJ": 17,
         "</S>": 1,
         "AUX": 1,
         "NEG": 2,
         "PROPN": 2,
         "ADV": 5,
-        "WH": 5,
-        "NUM": 1
+        "WH": 6,
+        "NUM": 2
       },
       "VERB|PART": {
         "AUX": 17,
@@ -55101,10 +55237,11 @@
       },
       "AUX|PUNCT": {
         "</S>": 6,
-        "DET": 1
+        "DET": 1,
+        "WH": 1
       },
       "<S>|NOUN": {
-        "AUX": 115,
+        "AUX": 118,
         "VERB": 73,
         "PUNCT": 19,
         "NOUN": 275,
@@ -55120,11 +55257,11 @@
         "INTJ": 2
       },
       "NOUN|AUX": {
-        "DET": 198,
-        "ADJ": 119,
+        "DET": 199,
+        "ADJ": 120,
         "NOUN": 42,
         "ADV": 70,
-        "VERB": 123,
+        "VERB": 124,
         "CONJ": 6,
         "NUM": 10,
         "NEG": 13,
@@ -55133,11 +55270,12 @@
         "AUX": 12,
         "PREP": 13,
         "PART": 3,
-        "PRON": 2
+        "PRON": 2,
+        "PUNCT": 1
       },
       "AUX|DET": {
-        "NOUN": 176,
-        "ADJ": 136,
+        "NOUN": 178,
+        "ADJ": 137,
         "PROPN": 6,
         "VERB": 6,
         "PREP": 4,
@@ -55147,14 +55285,14 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 690,
+        "PREP": 691,
         "AUX": 194,
         "CONJ": 156,
         "PUNCT": 490,
         "VERB": 144,
         "ADV": 23,
         "ADJ": 59,
-        "NOUN": 206,
+        "NOUN": 207,
         "PRON": 39,
         "PART": 64,
         "</S>": 9,
@@ -55165,7 +55303,7 @@
         "NUM": 3
       },
       "NOUN|PREP": {
-        "NOUN": 698,
+        "NOUN": 700,
         "DET": 689,
         "PREP": 9,
         "ADJ": 194,
@@ -55180,10 +55318,10 @@
         "CONJ": 11
       },
       "PREP|NOUN": {
-        "NOUN": 163,
-        "PUNCT": 342,
+        "NOUN": 164,
+        "PUNCT": 343,
         "VERB": 43,
-        "CONJ": 126,
+        "CONJ": 127,
         "ADJ": 23,
         "DET": 51,
         "AUX": 26,
@@ -55198,9 +55336,9 @@
         "ADV": 7
       },
       "NOUN|NOUN": {
-        "PUNCT": 692,
+        "PUNCT": 695,
         "PART": 31,
-        "NOUN": 493,
+        "NOUN": 494,
         "PREP": 277,
         "CONJ": 111,
         "VERB": 74,
@@ -55212,18 +55350,18 @@
         "ADV": 21,
         "DET": 31,
         "NEG": 3,
-        "PRON": 16,
+        "PRON": 17,
         "WH": 9,
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 1681,
+        "</S>": 1685,
         "NOUN": 421,
-        "CONJ": 234,
+        "CONJ": 235,
         "ADV": 59,
         "PREP": 53,
         "ADJ": 70,
-        "DET": 128,
+        "DET": 129,
         "VERB": 62,
         "WH": 30,
         "PRON": 31,
@@ -55248,7 +55386,7 @@
         "PRON": 3
       },
       "DET|ADJ": {
-        "NOUN": 759,
+        "NOUN": 760,
         "CONJ": 29,
         "ADJ": 35,
         "PUNCT": 35,
@@ -55264,12 +55402,12 @@
         "NUM": 3
       },
       "ADJ|NOUN": {
-        "PUNCT": 519,
+        "PUNCT": 520,
         "NOUN": 241,
         "MODAL": 15,
         "VERB": 84,
-        "PREP": 327,
-        "CONJ": 128,
+        "PREP": 328,
+        "CONJ": 129,
         "DET": 54,
         "ADJ": 22,
         "AUX": 88,
@@ -55277,11 +55415,11 @@
         "WH": 12,
         "PROPN": 4,
         "ADV": 11,
-        "PRON": 24,
+        "PRON": 25,
         "</S>": 7
       },
       "VERB|ADJ": {
-        "NOUN": 57,
+        "NOUN": 58,
         "PUNCT": 12,
         "CONJ": 3,
         "VERB": 3,
@@ -55311,7 +55449,7 @@
         "PRON": 24,
         "DET": 102,
         "VERB": 39,
-        "NOUN": 379,
+        "NOUN": 381,
         "ADJ": 58,
         "WH": 6,
         "PREP": 21,
@@ -55319,7 +55457,7 @@
         "CONJ": 11,
         "ADV": 26,
         "PROPN": 16,
-        "AUX": 13,
+        "AUX": 14,
         "PART": 3,
         "MODAL": 1,
         "PUNCT": 2
@@ -55337,9 +55475,9 @@
       "VERB|NOUN": {
         "PUNCT": 158,
         "PREP": 91,
-        "PART": 16,
+        "PART": 17,
         "VERB": 23,
-        "NOUN": 173,
+        "NOUN": 174,
         "CONJ": 43,
         "MODAL": 4,
         "ADJ": 22,
@@ -55515,7 +55653,7 @@
         "PUNCT": 37,
         "</S>": 3,
         "ADV": 15,
-        "NOUN": 108,
+        "NOUN": 109,
         "NUM": 2,
         "CONJ": 27,
         "AUX": 6,
@@ -55552,21 +55690,21 @@
         "MODAL": 10,
         "PREP": 9,
         "PART": 1,
-        "WH": 1
+        "WH": 2
       },
       "CONJ|NOUN": {
         "AUX": 21,
-        "PUNCT": 179,
+        "PUNCT": 180,
         "</S>": 1,
         "PREP": 136,
         "VERB": 21,
         "WH": 8,
-        "NOUN": 193,
-        "PRON": 12,
+        "NOUN": 194,
+        "PRON": 13,
         "PART": 16,
-        "CONJ": 25,
+        "CONJ": 26,
         "PROPN": 4,
-        "ADJ": 12,
+        "ADJ": 13,
         "DET": 32,
         "NEG": 1,
         "NUM": 1,
@@ -55631,7 +55769,7 @@
         "PROPN": 1
       },
       "AUX|VERB": {
-        "PREP": 144,
+        "PREP": 145,
         "PUNCT": 48,
         "PART": 38,
         "PRON": 3,
@@ -55673,7 +55811,7 @@
       "NOUN|PART": {
         "ADJ": 17,
         "AUX": 28,
-        "VERB": 148,
+        "VERB": 149,
         "NOUN": 35,
         "CONJ": 2,
         "PUNCT": 5,
@@ -55720,7 +55858,7 @@
         "AUX": 1
       },
       "WH|PRON": {
-        "VERB": 13,
+        "VERB": 14,
         "MODAL": 3,
         "AUX": 9,
         "NUM": 1,
@@ -55742,7 +55880,7 @@
       },
       "NOUN|ADJ": {
         "PUNCT": 32,
-        "NOUN": 164,
+        "NOUN": 165,
         "DET": 4,
         "PREP": 29,
         "ADJ": 9,
@@ -55775,7 +55913,7 @@
         "PUNCT": 3,
         "PROPN": 1,
         "MODAL": 3,
-        "NOUN": 58,
+        "NOUN": 59,
         "AUX": 2,
         "ADJ": 12,
         "NEG": 2,
@@ -55815,7 +55953,7 @@
         "ADV": 1
       },
       "VERB|WH": {
-        "NOUN": 5,
+        "NOUN": 6,
         "DET": 2,
         "VERB": 8,
         "PART": 3,
@@ -55825,10 +55963,10 @@
         "AUX": 1
       },
       "WH|NOUN": {
-        "VERB": 6,
+        "VERB": 7,
         "NOUN": 9,
         "CONJ": 8,
-        "AUX": 15,
+        "AUX": 16,
         "DET": 11,
         "ADV": 2,
         "ADJ": 2,
@@ -56116,7 +56254,7 @@
         "PRON": 1
       },
       "NOUN|PRON": {
-        "VERB": 48,
+        "VERB": 51,
         "AUX": 42,
         "PREP": 9,
         "MODAL": 22,
@@ -56170,7 +56308,7 @@
         "VERB": 4,
         "PROPN": 12,
         "PREP": 8,
-        "CONJ": 18,
+        "CONJ": 19,
         "PUNCT": 4,
         "DET": 1,
         "ADV": 1
@@ -56198,7 +56336,7 @@
         "PREP": 5,
         "MODAL": 3,
         "NUM": 1,
-        "PRON": 2,
+        "PRON": 3,
         "ADJ": 1,
         "ADV": 1,
         "VERB": 1
@@ -56339,7 +56477,7 @@
         "PREP": 1
       },
       "CONJ|WH": {
-        "NOUN": 8,
+        "NOUN": 9,
         "AUX": 1,
         "VERB": 3,
         "PART": 1,
@@ -56386,7 +56524,7 @@
       },
       "VERB|NUM": {
         "PUNCT": 3,
-        "CONJ": 1,
+        "CONJ": 2,
         "NOUN": 1,
         "AUX": 3,
         "PREP": 1,
@@ -56415,13 +56553,13 @@
         "VERB": 1
       },
       "NUM|CONJ": {
-        "NOUN": 13,
+        "NOUN": 14,
         "ADJ": 2,
         "NUM": 1,
         "DET": 1
       },
       "DET|CONJ": {
-        "NOUN": 28,
+        "NOUN": 29,
         "PROPN": 3,
         "DET": 8,
         "ADJ": 5,
@@ -56570,7 +56708,7 @@
       },
       "CONJ|AUX": {
         "VERB": 12,
-        "DET": 10,
+        "DET": 11,
         "NOUN": 1,
         "ADJ": 7,
         "NEG": 3,
@@ -57095,16 +57233,7 @@
         "study": 4,
         "overlap": 3,
         "separate": 3,
-        "read": 3,
-        "found": 1,
-        "automate": 1,
-        "replace": 1,
-        "strike": 1,
-        "right": 1,
-        "apply": 2,
-        "get": 1,
-        "my": 1,
-        "make": 1
+        "read": 3
       },
       "talk": {
         "with": 1,
@@ -57142,7 +57271,9 @@
         "'d": 1,
         "conclusions": 1,
         "many": 1,
-        "different": 1
+        "different": 1,
+        "they": 1,
+        "individuals": 1
       },
       "are": {
         "used": 10,
@@ -57159,7 +57290,8 @@
         "of": 1,
         "useful": 1,
         "served": 1,
-        "twenty-six": 1
+        "twenty-six": 1,
+        "large": 1
       },
       "you": {
         "to": 6,
@@ -57194,7 +57326,8 @@
         "tomorrow": 1,
         "yesterday": 1,
         "with": 1,
-        "happened": 1
+        "happened": 1,
+        "signs": 1
       },
       "do": {
         "you": 6,
@@ -57249,8 +57382,8 @@
       },
       "is": {
         "a": 118,
-        "the": 75,
-        "an": 23,
+        "the": 76,
+        "an": 24,
         "usually": 6,
         "one": 6,
         "hard": 5,
@@ -57260,7 +57393,8 @@
         "generally": 3,
         "called": 1,
         "infinite": 1,
-        "printed": 1
+        "printed": 1,
+        "related": 1
       },
       "a": {
         "noun": 18,
@@ -57277,7 +57411,8 @@
         "letter": 1,
         "blood-letter": 1,
         "symbol": 1,
-        "run": 1
+        "run": 1,
+        "broader": 1
       },
       "for": {
         "the": 25,
@@ -57308,7 +57443,8 @@
         "variable": 3,
         "listener": 3,
         "act": 1,
-        "condition": 1
+        "condition": 1,
+        "study": 1
       },
       "brain": {
         "is": 1,
@@ -57453,7 +57589,7 @@
         "have": 1
       },
       "or": {
-        "more": 13,
+        "more": 14,
         "the": 11,
         "relating": 9,
         "other": 9,
@@ -57465,7 +57601,7 @@
         "contrasts": 2
       },
       "it": {
-        "is": 46,
+        "is": 47,
         "was": 14,
         "'s": 9,
         "has": 5,
@@ -57545,7 +57681,8 @@
         "effectively": 2,
         "country": 1,
         "general": 1,
-        "parties": 1
+        "parties": 1,
+        "long": 1
       },
       "learning": {
         "is": 6,
@@ -57706,7 +57843,11 @@
         "creative": 2,
         "metaethics": 2,
         "wrong": 1,
-        "all": 1
+        "all": 1,
+        "how": 1,
+        "communicate": 1,
+        "clothing": 1,
+        "macromolecules": 1
       },
       "meanings": {
         "have": 1,
@@ -57758,7 +57899,10 @@
         "every": 1,
         "fuses": 1,
         "occur": 1,
-        "they": 1
+        "they": 1,
+        "examines": 1,
+        "includes": 1,
+        "comprise": 1
       },
       "good": {
         "manners": 3,
@@ -57840,7 +57984,8 @@
         "little": 1,
         "it": 1,
         "produces": 1,
-        "sometimes": 1
+        "sometimes": 1,
+        "has": 1
       },
       "would": {
         "like": 2,
@@ -57885,7 +58030,7 @@
         "hear": 3,
         "fought": 2,
         "fulfill": 1,
-        "form": 1,
+        "form": 2,
         "need": 1,
         "help": 1,
         "have": 1,
@@ -58070,7 +58215,9 @@
         "running": 1,
         "moving": 1,
         "regulating": 1,
-        "being": 1
+        "being": 1,
+        "signs": 1,
+        "amino": 1
       },
       "reading": {
         "is": 1,
@@ -58389,7 +58536,8 @@
         "as": 1,
         "time": 1,
         "short-term": 1,
-        "sequences": 1
+        "sequences": 1,
+        "chains": 1
       },
       "far": {
         "from": 2,
@@ -58483,7 +58631,7 @@
         "i": 2,
         "matchine": 2,
         "or": 2,
-        "of": 18,
+        "of": 19,
         "brilliant": 1,
         "in": 2,
         "whole": 1,
@@ -58627,7 +58775,8 @@
         "application": 3,
         "organism": 3,
         "update": 2,
-        "alphabet": 1
+        "alphabet": 1,
+        "interdisciplinary": 1
       },
       "update": {
         "to": 1,
@@ -58799,7 +58948,8 @@
         "a": 4,
         "for": 1,
         "to": 2,
-        "neural": 1
+        "neural": 1,
+        "sign": 1
       },
       "architecture": {
         "of": 2,
@@ -59425,7 +59575,7 @@
         "software": 1
       },
       "has": {
-        "a": 14,
+        "a": 15,
         "been": 9,
         "the": 3,
         "two": 3,
@@ -60021,7 +60171,8 @@
         "vocabulary": 2,
         "her": 1,
         "language": 1,
-        "applied": 1
+        "applied": 1,
+        "maps": 1
       },
       "itself": {
         "was": 2,
@@ -60122,7 +60273,7 @@
         "or": 1
       },
       "such": {
-        "as": 43,
+        "as": 44,
         "constructs": 2,
         "adaptability": 2,
         "a": 6,
@@ -60298,7 +60449,7 @@
       },
       "one": {
         "of": 12,
-        "or": 4,
+        "or": 5,
         "'s": 5,
         "(": 4,
         "entity": 3,
@@ -60408,7 +60559,7 @@
       "related": {
         "laboratory": 1,
         "words": 3,
-        "to": 6,
+        "to": 7,
         "samples": 1
       },
       "present": {
@@ -61320,7 +61471,8 @@
         "or": 1,
         "and": 1,
         "by": 1,
-        "for": 1
+        "for": 1,
+        "signs": 1
       },
       "smart": {
         "contracts": 2
@@ -61433,7 +61585,8 @@
       },
       "examines": {
         "how": 2,
-        "arguments": 1
+        "arguments": 1,
+        "what": 1
       },
       "languages": {
         "use": 3,
@@ -62172,7 +62325,8 @@
         "domain": 1,
         "objects": 1,
         "systems": 1,
-        "role": 1
+        "role": 1,
+        "biomolecules": 1
       },
       "line": {
         "of": 3,
@@ -62520,7 +62674,8 @@
         "programmable": 2,
         "takes": 2,
         "of": 3,
-        "integrates": 1
+        "integrates": 1,
+        "that": 1
       },
       "programmable": {
         "gate": 2,
@@ -63172,7 +63327,8 @@
       "individuals": {
         "prefer": 1,
         "in": 2,
-        "understand": 1
+        "understand": 1,
+        "use": 1
       },
       "prefer": {
         "some": 1,
@@ -63288,7 +63444,8 @@
       "produce": {
         "a": 1,
         "works": 1,
-        "synchronous": 1
+        "synchronous": 1,
+        "and": 1
       },
       "century": {
         "criminal": 1,
@@ -64470,7 +64627,8 @@
       },
       "sign": {
         "of": 1,
-        "the": 1
+        "the": 1,
+        "systems": 1
       },
       "becoming": {
         "more": 2,
@@ -64862,7 +65020,8 @@
         "several": 1,
         "psychological": 1,
         "car": 1,
-        "both": 1
+        "both": 1,
+        "nonlinguistic": 1
       },
       "support": {
         "clear": 1,
@@ -65433,7 +65592,8 @@
       "communicate": {
         "and": 1,
         "v": 1,
-        "between": 1
+        "between": 1,
+        "meaning": 1
       },
       "necessary": {
         "for": 1,
@@ -67997,7 +68157,8 @@
         "of": 2
       },
       "broader": {
-        "sense": 1
+        "sense": 1,
+        "scope": 1
       },
       "lithosphere": {
         "and": 1
@@ -69563,7 +69724,8 @@
         "number": 1
       },
       "comprise": {
-        "a": 1
+        "a": 1,
+        "one": 1
       },
       "loops": {
         "and": 1
@@ -69697,7 +69859,8 @@
         "criticism": 1
       },
       "linguistics": {
-        "with": 1
+        "with": 1,
+        "but": 1
       },
       "ties": {
         "to": 1
@@ -71173,17 +71336,54 @@
       },
       "regulating": {
         "or": 1
+      },
+      "semiotics": {
+        "is": 2
+      },
+      "interdisciplinary": {
+        "field": 1
+      },
+      "signs": {
+        "are": 1,
+        "to": 1
+      },
+      "scope": {
+        "that": 1
+      },
+      "nonlinguistic": {
+        "signs": 1
+      },
+      "maps": {
+        "and": 1
+      },
+      "proteins": {
+        "are": 1
+      },
+      "biomolecules": {
+        "and": 1
+      },
+      "macromolecules": {
+        "that": 1
+      },
+      "chains": {
+        "of": 1
+      },
+      "amino": {
+        "acid": 1
+      },
+      "acid": {
+        "residues": 1
       }
     },
     "starters": {
       "i": 82,
       "how": 5,
       "what": 6,
-      "<NOUN>": 681,
+      "<NOUN>": 684,
       "the": 305,
       "she": 18,
       "we": 33,
-      "it": 76,
+      "it": 77,
       "<VERB>": 264,
       "can": 2,
       "my": 12,
@@ -71271,15 +71471,15 @@
     },
     "connectors": {
       "because": 15,
-      "or": 418,
-      "and": 649,
-      "but": 64,
+      "or": 419,
+      "and": 653,
+      "but": 65,
       "so": 26,
       "while": 7,
       "than": 39,
       "therefore": 7,
       "if": 12,
-      "as": 210,
+      "as": 211,
       "however": 3,
       "whether": 5,
       "that": 20,
@@ -71319,7 +71519,7 @@
         "because": 1
       },
       "NOUN>NOUN": {
-        "and": 286,
+        "and": 288,
         "or": 172,
         "as": 9,
         "yet": 2,
@@ -71400,7 +71600,7 @@
       },
       "NOUN>WH": {
         "because": 4,
-        "and": 1,
+        "and": 2,
         "but": 1,
         "than": 1
       },
@@ -71426,10 +71626,10 @@
         "or": 1
       },
       "NUM>NOUN": {
-        "or": 13
+        "or": 14
       },
       "DET>NOUN": {
-        "as": 27,
+        "as": 28,
         "than": 1
       },
       "VERB>PUNCT": {
@@ -71454,7 +71654,7 @@
       "NOUN>AUX": {
         "and": 15,
         "as": 3,
-        "but": 1,
+        "but": 2,
         "yet": 1,
         "so": 1,
         "or": 3
@@ -71476,7 +71676,7 @@
       },
       "VERB>NOUN": {
         "as": 13,
-        "and": 24,
+        "and": 25,
         "or": 14,
         "that": 7,
         "than": 1,
@@ -73486,6 +73686,16 @@
           "NOUN"
         ],
         "ex": "We travelled to the seaside by road."
+      },
+      "{NOUNS} is the {NOUN} of {NOUNS}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "NOUNS",
+          "NOUN",
+          "NOUNS"
+        ],
+        "ex": "Semiotics is the study of signs."
       }
     },
     "clause_templates": {
@@ -73754,15 +73964,10 @@
       "ADJ NOUN DET ADJ NOUN ADJ NOUN VERB NOUN | and | NOUN": 1,
       "DET NOUN PREP NOUN PREP NOUN | and | NOUN": 1,
       "NOUN | and | DET VERB NOUN PREP PRON ADV WH VERB CONJ DET NOUN": 1,
-      "NOUN DET NOUN VERB | so | PRON MODAL NOUN PREP DET NOUN": 1
+      "NOUN DET NOUN VERB | so | PRON MODAL NOUN PREP DET NOUN": 1,
+      "NOUN AUX ADJ NOUN | and | NOUN PRON VERB NUM CONJ NOUN ADJ NOUN PREP NOUN": 1
     },
     "sentence_bank": {
-      "scientific": [
-        "There is no scientific consensus on a definition."
-      ],
-      "consensus": [
-        "There is no scientific consensus on a definition."
-      ],
       "emotions": [
         "Emotions are often intertwined with mood, temperament, personality, disposition, or creativity."
       ],
@@ -74271,7 +74476,8 @@
         "They constitute a large domain of prokaryotic microorganisms."
       ],
       "large": [
-        "They constitute a large domain of prokaryotic microorganisms."
+        "They constitute a large domain of prokaryotic microorganisms.",
+        "Proteins are large biomolecules and macromolecules that comprise one or more long chains of amino acid residues."
       ],
       "inhabit": [
         "Bacteria inhabit the air, soil, water, acidic hot springs, radioactive waste, and the deep biosphere of Earth's crust."
@@ -74310,7 +74516,8 @@
         "Originally called infinitesimal calculus or the calculus of infinitesimals, it has two major branches, differential calculus and integral calculus."
       ],
       "relat": [
-        "These two branches are related to each other by the fundamental theorem of calculus."
+        "These two branches are related to each other by the fundamental theorem of calculus.",
+        "Semiotics is related to linguistics but has a broader scope that includes nonlinguistic signs, such as maps and clothing."
       ],
       "seedlings": [
         "The seedlings appeared to be coming along nicely until a late frost killed them."
@@ -75648,7 +75855,8 @@
         "Its main branches include normative ethics, applied ethics, and metaethics."
       ],
       "study": [
-        "The study of principles relating to right and wrong conduct."
+        "The study of principles relating to right and wrong conduct.",
+        "Semiotics is the study of signs."
       ],
       "principles": [
         "The study of principles relating to right and wrong conduct."
@@ -75697,6 +75905,13 @@
       ],
       "condition": [
         "The act of regulating or the condition of being regulated."
+      ],
+      "semiotics": [
+        "Semiotics is the study of signs.",
+        "Semiotics is related to linguistics but has a broader scope that includes nonlinguistic signs, such as maps and clothing."
+      ],
+      "proteins": [
+        "Proteins are large biomolecules and macromolecules that comprise one or more long chains of amino acid residues."
       ]
     }
   },
@@ -76005,7 +76220,12 @@
       "doing",
       "alphabet",
       "rapidly",
-      "feet"
+      "feet",
+      "interdisciplinary",
+      "signs",
+      "semiotics",
+      "broader",
+      "comprise"
     ],
     "names": [],
     "lessons": 106,
