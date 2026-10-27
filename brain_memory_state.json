@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.29,
+    "adenosine": 0.37,
     "newborn": false
   },
   "episodic_memory": [
@@ -2840,6 +2840,13 @@
       "time": "2026-10-27 02:09:14",
       "speaker": "brain",
       "text": "I practised my English because I want to talk with you more naturally. I learned 6 new words: 'humanity' (a noun) means mankind; human beings as a group; 'committed' (a verb) means to give in trust; to put into charge or keeping; to entrust; to consign; used with to or f; 'nationals' (a noun) means a subject of a nation; 'climate' (a noun) means an area of the earth's surface between two parallels of latitude and 2 more. Now I know 986 words, I have studied 2494 sentences, and I have 205 sentence patterns.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-27 08:00:14",
+      "speaker": "brain",
+      "text": "I wondered about 'Transistor' by myself and went searching. From Wikipedia (live internet) I learned: A transistor is a semiconductor device used to amplify or switch electrical signals and power. Key ideas I stored: semiconductor device, semiconductor material, electronic circuit, transistor, voltage.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -7249,6 +7256,20 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Morphology_(linguistics)",
       "learned": "2026-10-27 02:09:12"
+    },
+    "Transistor": {
+      "summary": "A transistor is a semiconductor device used to amplify or switch electrical signals and power. It is one of the fundamental building blocks of modern electronics. A transistor is composed of semiconductor material, often with at least three terminals for connection to an electronic circuit. A voltage or current applied to one pair of the transistor's terminals controls the current through another pair of terminals. Because the controlled (output) power can be higher than the controlling (input) power, a transistor can be used to amplify a signal. Some transistors are packaged individually, but many more in miniature form are found embedded in integrated circuits.",
+      "concepts": [
+        "semiconductor device",
+        "semiconductor material",
+        "electronic circuit",
+        "transistor",
+        "voltage",
+        "transistors"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Transistor",
+      "learned": "2026-10-27 08:00:14"
     }
   },
   "creator_teachings": [
@@ -8914,6 +8935,12 @@
       "kind": "language_lesson",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-27 08:00:14",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -9077,7 +9104,8 @@
     "pragmatics",
     "set theory",
     "linguistics",
-    "morphology"
+    "morphology",
+    "transistor"
   ],
   "sensory_log": [
     {
@@ -49016,29 +49044,77 @@
     },
     "adulthood": {
       "part_of_speech": "noun",
-      "definition": "",
+      "definition": "The state or condition of a human being once it has reached physical maturity, and is presumed to have reached a state of psychological maturity, to wit: once it has become an adult.",
       "all_pos": [
         "noun"
       ],
       "synonyms": [],
       "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-24 16:27:43",
-      "uses": 1
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "The state or condition of a human being once it has reached physical maturity, and is presumed to have reached a state of psychological maturity, to wit: once it has become an adult.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "The time period of a human being's majority; the time during which a human being has reached physical maturity, and ending with its death.",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-10-27 08:00:14",
+      "uses": 1,
+      "tags": []
     },
     "uniform": {
-      "part_of_speech": "adjective",
-      "definition": "",
+      "part_of_speech": "noun",
+      "definition": "A distinctive outfit that serves to identify members of a group.",
       "all_pos": [
+        "noun",
+        "verb",
         "adjective"
       ],
-      "synonyms": [],
+      "synonyms": [
+        "invariable",
+        "of a piece",
+        "regular",
+        "stable"
+      ],
       "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-24 16:27:46",
-      "uses": 1
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "A distinctive outfit that serves to identify members of a group.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "Phonetic equivalent for the letter U in the ICAO spelling alphabet, informally known as the NATO phonetic alphabet.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To clothe in a uniform.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Unvarying; all the same.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Consistent; conforming to one standard.",
+          "example": ""
+        }
+      ],
+      "phonetic": "/ˈjuːnɪfɔːm/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-10-27 08:00:14",
+      "uses": 1,
+      "tags": []
     },
     "norms": {
       "part_of_speech": "verb",
@@ -55611,25 +55687,136 @@
       "source": "corpus",
       "learned": "2026-10-27 02:09:18",
       "uses": 1
+    },
+    "transistor": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "A transistor is composed of semiconductor material, often with at least three terminals for connection to an electronic circuit."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-27 08:00:14",
+      "uses": 1
+    },
+    "voltage": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "A voltage or current applied to one pair of the transistor's terminals controls the current through another pair of terminals."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-27 08:00:14",
+      "uses": 1
+    },
+    "terminals": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "A voltage or current applied to one pair of the transistor's terminals controls the current through another pair of terminals."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-27 08:00:14",
+      "uses": 1
+    },
+    "pair": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "A voltage or current applied to one pair of the transistor's terminals controls the current through another pair of terminals."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-27 08:00:14",
+      "uses": 1
+    },
+    "amplify": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Because the controlled (output) power can be higher than the controlling (input) power, a transistor can be used to amplify a signal."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-27 08:00:14",
+      "uses": 1
+    },
+    "maturity": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-27 08:00:14",
+      "uses": 1
+    },
+    "wit": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-27 08:00:14",
+      "uses": 1
+    },
+    "identify": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-27 08:00:14",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 2530,
-      "tokens": 34480,
+      "sentences": 2538,
+      "tokens": 34647,
       "sources": {
         "seed corpus": 64,
         "conversation": 36,
-        "dictionary": 1358,
-        "explore": 383,
+        "dictionary": 1360,
+        "explore": 389,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "b6dfc0a26c44",
-        "8fd89808cb15",
-        "3198ae22ca5a",
         "03c0eeebb356",
         "2d43b31e65c1",
         "3d6f6bed2282",
@@ -55926,7 +56113,10 @@
         "421a6ae47c24",
         "5f20dfae269d",
         "951f6e87f7c4",
-        "d3c98c1eab51"
+        "d3c98c1eab51",
+        "bed3238a7c4c",
+        "b3f9aaafdcc8",
+        "682258d4f6ad"
       ],
       "seeded": true,
       "rejected": 579,
@@ -56702,7 +56892,6 @@
         "conductive": 1,
         "faraday": 1,
         "induced": 1,
-        "voltage": 1,
         "encircled": 1,
         "weaken": 1,
         "increases": 1,
@@ -56859,7 +57048,6 @@
         "hide": 1,
         "surrendered": 1,
         "value": 1,
-        "identify": 1,
         "pedestrian": 1,
         "reason": 1,
         "generalize": 1,
@@ -57747,7 +57935,6 @@
         "campers": 1,
         "crassus": 1,
         "wealth": 1,
-        "wit": 1,
         "wheeled": 1,
         "motorized": 1,
         "handbag": 1,
@@ -58313,20 +58500,27 @@
         "weapon": 1,
         "stretch": 1,
         "thrust": 1,
-        "limb": 1
+        "limb": 1,
+        "switch": 1,
+        "controlled": 1,
+        "miniature": 1,
+        "embedded": 1,
+        "presumed": 1,
+        "adult": 1,
+        "outfit": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 360,
+        "PRON": 361,
         "WH": 31,
         "NOUN": 713,
-        "DET": 698,
+        "DET": 704,
         "VERB": 268,
         "MODAL": 6,
         "ADJ": 125,
         "INTJ": 13,
-        "CONJ": 28,
+        "CONJ": 29,
         "AUX": 16,
         "ADV": 35,
         "PREP": 188,
@@ -58335,7 +58529,7 @@
         "NEG": 3
       },
       "PRON": {
-        "AUX": 285,
+        "AUX": 288,
         "PUNCT": 85,
         "ADV": 22,
         "VERB": 342,
@@ -58356,14 +58550,14 @@
         "ADJ": 262,
         "PRON": 20,
         "PUNCT": 10,
-        "DET": 385,
-        "NOUN": 84,
+        "DET": 386,
+        "NOUN": 85,
         "NEG": 57,
-        "VERB": 356,
+        "VERB": 364,
         "INTJ": 1,
         "ADV": 121,
-        "CONJ": 14,
-        "NUM": 21,
+        "CONJ": 15,
+        "NUM": 22,
         "PROPN": 5,
         "WH": 4,
         "AUX": 26,
@@ -58372,16 +58566,16 @@
       },
       "ADJ": {
         "PART": 41,
-        "NOUN": 1694,
+        "NOUN": 1702,
         "WH": 5,
-        "PUNCT": 272,
-        "PREP": 175,
+        "PUNCT": 274,
+        "PREP": 177,
         "CONJ": 100,
         "PROPN": 36,
-        "ADJ": 110,
+        "ADJ": 111,
         "DET": 39,
         "AUX": 30,
-        "VERB": 87,
+        "VERB": 88,
         "MODAL": 10,
         "</S>": 7,
         "NUM": 8,
@@ -58390,8 +58584,8 @@
         "NEG": 1
       },
       "PART": {
-        "VERB": 394,
-        "AUX": 61,
+        "VERB": 399,
+        "AUX": 62,
         "ADJ": 31,
         "NOUN": 53,
         "WH": 6,
@@ -58401,19 +58595,19 @@
         "PROPN": 1
       },
       "VERB": {
-        "PREP": 633,
-        "PART": 134,
-        "ADJ": 96,
-        "NOUN": 625,
-        "PUNCT": 287,
+        "PREP": 635,
+        "PART": 137,
+        "ADJ": 97,
+        "NOUN": 629,
+        "PUNCT": 288,
         "PRON": 125,
         "AUX": 36,
-        "DET": 491,
-        "VERB": 55,
-        "CONJ": 198,
+        "DET": 494,
+        "VERB": 56,
+        "CONJ": 199,
         "WH": 28,
         "</S>": 15,
-        "ADV": 65,
+        "ADV": 66,
         "PROPN": 18,
         "NUM": 18,
         "NEG": 4,
@@ -58421,15 +58615,15 @@
       },
       "PREP": {
         "PRON": 91,
-        "NOUN": 1184,
-        "DET": 1298,
+        "NOUN": 1189,
+        "DET": 1304,
         "PUNCT": 66,
-        "VERB": 99,
-        "PREP": 30,
-        "ADJ": 327,
+        "VERB": 100,
+        "PREP": 31,
+        "ADJ": 329,
         "PROPN": 129,
         "AUX": 23,
-        "NUM": 59,
+        "NUM": 60,
         "WH": 46,
         "CONJ": 29,
         "ADV": 19,
@@ -58437,21 +58631,21 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 2350,
+        "</S>": 2358,
         "NOUN": 672,
-        "CONJ": 360,
+        "CONJ": 363,
         "PRON": 54,
         "VERB": 88,
-        "ADV": 92,
+        "ADV": 93,
         "PREP": 80,
         "ADJ": 108,
-        "DET": 199,
+        "DET": 200,
         "WH": 46,
         "AUX": 36,
         "NUM": 8,
         "PUNCT": 97,
         "PROPN": 28,
-        "PART": 15,
+        "PART": 16,
         "NEG": 8,
         "INTJ": 3
       },
@@ -58470,7 +58664,7 @@
         "CONJ": 1
       },
       "ADV": {
-        "PUNCT": 76,
+        "PUNCT": 77,
         "ADJ": 58,
         "NOUN": 101,
         "CONJ": 20,
@@ -58481,7 +58675,7 @@
         "MODAL": 1,
         "PART": 5,
         "ADV": 10,
-        "PREP": 58,
+        "PREP": 59,
         "AUX": 21,
         "PROPN": 2,
         "NUM": 4,
@@ -58489,28 +58683,28 @@
         "WH": 1
       },
       "NOUN": {
-        "AUX": 666,
-        "PREP": 1991,
-        "NOUN": 2048,
-        "PUNCT": 3116,
-        "CONJ": 768,
-        "VERB": 548,
+        "AUX": 671,
+        "PREP": 2000,
+        "NOUN": 2056,
+        "PUNCT": 3126,
+        "CONJ": 772,
+        "VERB": 549,
         "ADV": 98,
-        "PART": 251,
-        "ADJ": 272,
-        "MODAL": 93,
+        "PART": 253,
+        "ADJ": 274,
+        "MODAL": 95,
         "</S>": 147,
         "PRON": 152,
         "WH": 65,
-        "DET": 369,
+        "DET": 371,
         "PROPN": 107,
-        "NUM": 13,
+        "NUM": 14,
         "NEG": 6,
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 2396,
-        "ADJ": 1023,
+        "NOUN": 2411,
+        "ADJ": 1030,
         "PRON": 27,
         "PREP": 60,
         "NUM": 54,
@@ -58526,18 +58720,18 @@
         "</S>": 1
       },
       "CONJ": {
-        "PRON": 99,
-        "DET": 267,
-        "NOUN": 732,
+        "PRON": 101,
+        "DET": 270,
+        "NOUN": 735,
         "VERB": 127,
-        "ADJ": 152,
+        "ADJ": 153,
         "ADV": 57,
         "PUNCT": 18,
         "WH": 19,
         "PREP": 53,
         "CONJ": 24,
         "NUM": 7,
-        "AUX": 38,
+        "AUX": 39,
         "PROPN": 47,
         "MODAL": 15,
         "NEG": 7,
@@ -58548,7 +58742,7 @@
         "PRON": 7,
         "DET": 3,
         "CONJ": 3,
-        "AUX": 84,
+        "AUX": 86,
         "NOUN": 15,
         "NEG": 14,
         "ADV": 17,
@@ -58593,10 +58787,10 @@
         "WH": 1
       },
       "NUM": {
-        "NOUN": 101,
+        "NOUN": 103,
         "PUNCT": 12,
         "CONJ": 21,
-        "PREP": 22,
+        "PREP": 23,
         "VERB": 13,
         "MODAL": 3,
         "ADJ": 9,
@@ -58611,7 +58805,7 @@
     },
     "pos_trigrams": {
       "<S>|PRON": {
-        "AUX": 142,
+        "AUX": 143,
         "VERB": 150,
         "MODAL": 40,
         "ADV": 9,
@@ -58628,11 +58822,11 @@
         "ADJ": 54,
         "DET": 68,
         "NEG": 27,
-        "VERB": 63,
+        "VERB": 65,
         "INTJ": 1,
         "ADV": 34,
         "PUNCT": 2,
-        "NUM": 6,
+        "NUM": 7,
         "NOUN": 7,
         "PRON": 2,
         "PREP": 8,
@@ -58665,13 +58859,13 @@
       "PART|VERB": {
         "PREP": 52,
         "ADJ": 23,
-        "PUNCT": 55,
-        "NOUN": 89,
+        "PUNCT": 56,
+        "NOUN": 91,
         "WH": 5,
-        "DET": 93,
+        "DET": 94,
         "PART": 5,
         "NUM": 6,
-        "CONJ": 34,
+        "CONJ": 35,
         "PRON": 16,
         "VERB": 8,
         "ADV": 5,
@@ -58682,9 +58876,9 @@
       "VERB|PREP": {
         "PRON": 18,
         "DET": 252,
-        "NOUN": 185,
+        "NOUN": 186,
         "PUNCT": 19,
-        "VERB": 19,
+        "VERB": 20,
         "ADJ": 63,
         "PREP": 15,
         "NUM": 16,
@@ -58758,7 +58952,7 @@
         "</S>": 40,
         "ADV": 6,
         "DET": 13,
-        "CONJ": 5,
+        "CONJ": 6,
         "NOUN": 6,
         "PREP": 2,
         "PRON": 3,
@@ -58784,8 +58978,8 @@
         "MODAL": 1
       },
       "VERB|PART": {
-        "AUX": 18,
-        "VERB": 95,
+        "AUX": 19,
+        "VERB": 97,
         "ADJ": 5,
         "WH": 1,
         "CONJ": 9,
@@ -58795,7 +58989,7 @@
       "PART|AUX": {
         "PUNCT": 2,
         "DET": 3,
-        "VERB": 28,
+        "VERB": 29,
         "ADJ": 12,
         "NUM": 1,
         "PREP": 5,
@@ -58827,12 +59021,12 @@
         "INTJ": 2
       },
       "NOUN|AUX": {
-        "DET": 218,
+        "DET": 219,
         "ADJ": 125,
         "NOUN": 46,
         "ADV": 71,
-        "VERB": 136,
-        "CONJ": 7,
+        "VERB": 139,
+        "CONJ": 8,
         "NUM": 10,
         "NEG": 13,
         "PROPN": 1,
@@ -58844,7 +59038,7 @@
         "PUNCT": 2
       },
       "AUX|DET": {
-        "NOUN": 194,
+        "NOUN": 195,
         "ADJ": 151,
         "PROPN": 6,
         "VERB": 6,
@@ -58855,28 +59049,28 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 749,
-        "AUX": 210,
-        "CONJ": 179,
-        "PUNCT": 538,
+        "PREP": 752,
+        "AUX": 214,
+        "CONJ": 181,
+        "PUNCT": 540,
         "VERB": 156,
         "ADV": 24,
         "ADJ": 59,
-        "NOUN": 223,
+        "NOUN": 224,
         "PRON": 41,
-        "PART": 71,
+        "PART": 73,
         "</S>": 9,
         "PROPN": 7,
         "DET": 79,
-        "MODAL": 29,
+        "MODAL": 30,
         "WH": 19,
         "NUM": 3
       },
       "NOUN|PREP": {
-        "NOUN": 747,
-        "DET": 741,
+        "NOUN": 750,
+        "DET": 745,
         "PREP": 9,
-        "ADJ": 204,
+        "ADJ": 206,
         "PROPN": 59,
         "VERB": 59,
         "PUNCT": 26,
@@ -58888,33 +59082,33 @@
         "CONJ": 12
       },
       "PREP|NOUN": {
-        "NOUN": 170,
-        "PUNCT": 369,
+        "NOUN": 171,
+        "PUNCT": 370,
         "VERB": 47,
         "CONJ": 140,
-        "ADJ": 26,
+        "ADJ": 27,
         "DET": 53,
         "AUX": 31,
-        "PREP": 138,
+        "PREP": 139,
         "PRON": 24,
         "</S>": 122,
         "WH": 6,
         "PART": 34,
         "PROPN": 4,
-        "NUM": 4,
+        "NUM": 5,
         "MODAL": 8,
         "ADV": 8
       },
       "NOUN|NOUN": {
-        "PUNCT": 727,
+        "PUNCT": 728,
         "PART": 33,
-        "NOUN": 510,
+        "NOUN": 513,
         "PREP": 295,
-        "CONJ": 114,
-        "VERB": 76,
+        "CONJ": 115,
+        "VERB": 77,
         "PROPN": 44,
-        "AUX": 84,
-        "MODAL": 19,
+        "AUX": 85,
+        "MODAL": 20,
         "ADJ": 49,
         "NUM": 4,
         "ADV": 22,
@@ -58925,27 +59119,27 @@
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 1807,
+        "</S>": 1814,
         "NOUN": 443,
-        "CONJ": 257,
+        "CONJ": 258,
         "ADV": 65,
         "PREP": 57,
         "ADJ": 74,
-        "DET": 138,
+        "DET": 139,
         "VERB": 67,
         "WH": 34,
         "PRON": 32,
         "AUX": 29,
         "NUM": 6,
         "PROPN": 5,
-        "PART": 11,
+        "PART": 12,
         "PUNCT": 86,
         "NEG": 4,
         "INTJ": 1
       },
       "<S>|DET": {
-        "NOUN": 445,
-        "ADJ": 176,
+        "NOUN": 450,
+        "ADJ": 177,
         "PROPN": 29,
         "VERB": 7,
         "PREP": 11,
@@ -58956,12 +59150,12 @@
         "PRON": 3
       },
       "DET|ADJ": {
-        "NOUN": 828,
+        "NOUN": 832,
         "CONJ": 30,
         "ADJ": 38,
-        "PUNCT": 38,
-        "VERB": 25,
-        "PREP": 24,
+        "PUNCT": 39,
+        "VERB": 26,
+        "PREP": 25,
         "PART": 5,
         "PROPN": 13,
         "DET": 2,
@@ -58972,14 +59166,14 @@
         "NUM": 3
       },
       "ADJ|NOUN": {
-        "PUNCT": 559,
-        "NOUN": 254,
+        "PUNCT": 563,
+        "NOUN": 256,
         "MODAL": 15,
         "VERB": 90,
         "PREP": 348,
         "CONJ": 141,
-        "DET": 55,
-        "ADJ": 22,
+        "DET": 56,
+        "ADJ": 23,
         "AUX": 91,
         "PART": 54,
         "WH": 13,
@@ -58989,7 +59183,7 @@
         "</S>": 8
       },
       "VERB|ADJ": {
-        "NOUN": 60,
+        "NOUN": 61,
         "PUNCT": 14,
         "CONJ": 3,
         "VERB": 3,
@@ -59002,8 +59196,8 @@
         "DET": 1
       },
       "PREP|DET": {
-        "NOUN": 814,
-        "ADJ": 329,
+        "NOUN": 818,
+        "ADJ": 331,
         "NUM": 20,
         "PREP": 15,
         "PROPN": 50,
@@ -59017,10 +59211,10 @@
       },
       "NOUN|CONJ": {
         "PRON": 24,
-        "DET": 116,
+        "DET": 117,
         "VERB": 42,
-        "NOUN": 413,
-        "ADJ": 59,
+        "NOUN": 415,
+        "ADJ": 60,
         "WH": 7,
         "PREP": 24,
         "NUM": 4,
@@ -59035,7 +59229,7 @@
       "CONJ|PRON": {
         "VERB": 40,
         "MODAL": 20,
-        "AUX": 28,
+        "AUX": 30,
         "PUNCT": 3,
         "ADV": 3,
         "PREP": 2,
@@ -59044,15 +59238,15 @@
         "ADJ": 1
       },
       "VERB|NOUN": {
-        "PUNCT": 167,
-        "PREP": 96,
+        "PUNCT": 168,
+        "PREP": 98,
         "PART": 18,
         "VERB": 23,
         "NOUN": 178,
         "CONJ": 44,
         "MODAL": 5,
         "ADJ": 22,
-        "DET": 25,
+        "DET": 26,
         "AUX": 16,
         "PROPN": 7,
         "NEG": 1,
@@ -59102,8 +59296,8 @@
         "</S>": 1
       },
       "CONJ|DET": {
-        "NOUN": 173,
-        "ADJ": 59,
+        "NOUN": 174,
+        "ADJ": 61,
         "CONJ": 3,
         "PUNCT": 4,
         "PART": 1,
@@ -59119,7 +59313,7 @@
       "VERB|PUNCT": {
         "</S>": 180,
         "PRON": 10,
-        "CONJ": 16,
+        "CONJ": 17,
         "NOUN": 36,
         "DET": 12,
         "ADJ": 11,
@@ -59202,14 +59396,14 @@
         "ADJ": 10
       },
       "ADJ|PUNCT": {
-        "</S>": 139,
+        "</S>": 140,
         "CONJ": 32,
         "VERB": 5,
         "DET": 5,
         "ADJ": 16,
         "PREP": 10,
         "NOUN": 49,
-        "ADV": 6,
+        "ADV": 7,
         "PRON": 3,
         "NUM": 1,
         "WH": 3,
@@ -59218,7 +59412,7 @@
         "NEG": 1
       },
       "NOUN|VERB": {
-        "PART": 21,
+        "PART": 22,
         "DET": 120,
         "PREP": 129,
         "WH": 4,
@@ -59241,7 +59435,7 @@
         "DET": 4,
         "PREP": 12,
         "VERB": 7,
-        "CONJ": 12,
+        "CONJ": 13,
         "ADV": 8,
         "ADJ": 3,
         "PRON": 1,
@@ -59250,12 +59444,12 @@
       },
       "PUNCT|CONJ": {
         "NOUN": 133,
-        "PRON": 29,
-        "DET": 51,
+        "PRON": 30,
+        "DET": 52,
         "PUNCT": 6,
         "ADJ": 31,
         "CONJ": 10,
-        "AUX": 15,
+        "AUX": 16,
         "PROPN": 11,
         "VERB": 29,
         "NEG": 2,
@@ -59267,12 +59461,12 @@
       },
       "CONJ|NOUN": {
         "AUX": 24,
-        "PUNCT": 203,
+        "PUNCT": 204,
         "</S>": 1,
-        "PREP": 145,
+        "PREP": 146,
         "VERB": 26,
         "WH": 8,
-        "NOUN": 203,
+        "NOUN": 204,
         "PRON": 14,
         "PART": 17,
         "CONJ": 30,
@@ -59285,8 +59479,8 @@
         "ADV": 2
       },
       "VERB|DET": {
-        "NOUN": 304,
-        "ADJ": 145,
+        "NOUN": 306,
+        "ADJ": 146,
         "PREP": 5,
         "CONJ": 8,
         "DET": 8,
@@ -59343,19 +59537,20 @@
         "PROPN": 1
       },
       "AUX|VERB": {
-        "PREP": 156,
+        "PREP": 157,
         "PUNCT": 54,
-        "PART": 41,
+        "PART": 43,
         "PRON": 3,
         "NOUN": 26,
-        "DET": 24,
+        "DET": 26,
         "CONJ": 33,
-        "ADJ": 6,
-        "ADV": 8,
+        "ADJ": 7,
+        "ADV": 9,
         "NUM": 1,
         "</S>": 1,
         "NEG": 2,
-        "AUX": 1
+        "AUX": 1,
+        "VERB": 1
       },
       "CONJ|VERB": {
         "PART": 6,
@@ -59385,7 +59580,7 @@
       "NOUN|PART": {
         "ADJ": 20,
         "AUX": 30,
-        "VERB": 154,
+        "VERB": 156,
         "NOUN": 37,
         "CONJ": 2,
         "PUNCT": 5,
@@ -59403,7 +59598,7 @@
       },
       "VERB|VERB": {
         "PUNCT": 7,
-        "PREP": 11,
+        "PREP": 12,
         "PRON": 1,
         "ADJ": 4,
         "DET": 7,
@@ -59454,8 +59649,8 @@
         "CONJ": 1
       },
       "NOUN|ADJ": {
-        "PUNCT": 34,
-        "NOUN": 167,
+        "PUNCT": 35,
+        "NOUN": 168,
         "DET": 4,
         "PREP": 30,
         "ADJ": 9,
@@ -59470,7 +59665,7 @@
       },
       "ADJ|PREP": {
         "NOUN": 71,
-        "DET": 61,
+        "DET": 62,
         "VERB": 9,
         "ADJ": 15,
         "PROPN": 5,
@@ -59478,7 +59673,7 @@
         "PRON": 5,
         "AUX": 3,
         "PUNCT": 2,
-        "NUM": 2,
+        "NUM": 3,
         "PREP": 1
       },
       "VERB|CONJ": {
@@ -59488,7 +59683,7 @@
         "PUNCT": 3,
         "PROPN": 1,
         "MODAL": 3,
-        "NOUN": 67,
+        "NOUN": 68,
         "AUX": 2,
         "ADJ": 12,
         "NEG": 2,
@@ -59503,7 +59698,7 @@
         "NUM": 1,
         "NOUN": 5,
         "AUX": 1,
-        "DET": 2
+        "DET": 3
       },
       "PUNCT|PRON": {
         "MODAL": 20,
@@ -59552,7 +59747,7 @@
       },
       "NOUN|MODAL": {
         "VERB": 34,
-        "AUX": 42,
+        "AUX": 44,
         "NEG": 5,
         "ADV": 4,
         "NOUN": 5,
@@ -59622,7 +59817,7 @@
       "CONJ|ADJ": {
         "PUNCT": 17,
         "NOUN": 98,
-        "ADJ": 7,
+        "ADJ": 8,
         "CONJ": 7,
         "VERB": 11,
         "PREP": 4,
@@ -59636,7 +59831,7 @@
       "PREP|VERB": {
         "PUNCT": 21,
         "ADJ": 5,
-        "NOUN": 16,
+        "NOUN": 17,
         "DET": 15,
         "</S>": 9,
         "PROPN": 1,
@@ -59667,7 +59862,7 @@
         "NOUN": 11,
         "CONJ": 3,
         "VERB": 29,
-        "PREP": 19,
+        "PREP": 20,
         "DET": 6,
         "ADJ": 8,
         "PUNCT": 8,
@@ -59680,7 +59875,7 @@
       },
       "PREP|PREP": {
         "DET": 12,
-        "NOUN": 7,
+        "NOUN": 8,
         "PROPN": 6,
         "ADJ": 2,
         "PRON": 1,
@@ -59723,7 +59918,7 @@
       "VERB|ADV": {
         "DET": 5,
         "PREP": 13,
-        "PUNCT": 13,
+        "PUNCT": 14,
         "VERB": 8,
         "NOUN": 19,
         "PART": 1,
@@ -59791,7 +59986,7 @@
         "CONJ": 9,
         "PROPN": 8,
         "ADJ": 24,
-        "NOUN": 240,
+        "NOUN": 242,
         "PUNCT": 21,
         "AUX": 3,
         "VERB": 10,
@@ -59885,7 +60080,7 @@
         "VERB": 1
       },
       "PUNCT|DET": {
-        "NOUN": 108,
+        "NOUN": 109,
         "ADJ": 39,
         "VERB": 4,
         "PROPN": 13,
@@ -59905,7 +60100,7 @@
         "ADJ": 6,
         "PUNCT": 13,
         "AUX": 7,
-        "PREP": 12,
+        "PREP": 13,
         "PART": 1,
         "VERB": 1,
         "MODAL": 1,
@@ -59949,8 +60144,8 @@
         "PART": 1
       },
       "NOUN|DET": {
-        "NOUN": 211,
-        "ADJ": 73,
+        "NOUN": 212,
+        "ADJ": 74,
         "CONJ": 22,
         "ADV": 6,
         "PRON": 14,
@@ -60000,7 +60195,7 @@
         "AUX": 1
       },
       "NUM|NOUN": {
-        "PREP": 32,
+        "PREP": 34,
         "VERB": 5,
         "PUNCT": 18,
         "AUX": 10,
@@ -60071,7 +60266,7 @@
         "DET": 1
       },
       "MODAL|AUX": {
-        "VERB": 46,
+        "VERB": 47,
         "DET": 10,
         "ADJ": 17,
         "ADV": 3,
@@ -60079,7 +60274,8 @@
         "PRON": 2,
         "PART": 2,
         "PUNCT": 2,
-        "AUX": 1
+        "AUX": 1,
+        "NOUN": 1
       },
       "DET|VERB": {
         "NOUN": 24,
@@ -60188,11 +60384,11 @@
         "CONJ": 3,
         "MODAL": 2,
         "VERB": 1,
-        "NOUN": 3,
+        "NOUN": 4,
         "PUNCT": 4
       },
       "ADJ|VERB": {
-        "NOUN": 16,
+        "NOUN": 17,
         "AUX": 9,
         "CONJ": 10,
         "PUNCT": 15,
@@ -60215,7 +60411,7 @@
       },
       "PREP|NUM": {
         "CONJ": 11,
-        "NOUN": 30,
+        "NOUN": 31,
         "VERB": 2,
         "PREP": 4,
         "ADJ": 2,
@@ -60302,7 +60498,7 @@
         "PREP": 1
       },
       "CONJ|AUX": {
-        "VERB": 12,
+        "VERB": 13,
         "DET": 13,
         "NOUN": 1,
         "ADJ": 7,
@@ -60322,7 +60518,8 @@
         "VERB": 4,
         "PRON": 2,
         "PROPN": 1,
-        "PUNCT": 1
+        "PUNCT": 1,
+        "PREP": 1
       },
       "PUNCT|PROPN": {
         "PROPN": 10,
@@ -60370,7 +60567,7 @@
       },
       "AUX|CONJ": {
         "VERB": 4,
-        "PRON": 1,
+        "PRON": 2,
         "DET": 3,
         "AUX": 2,
         "WH": 1,
@@ -60378,7 +60575,7 @@
         "ADJ": 1
       },
       "AUX|NUM": {
-        "PREP": 8,
+        "PREP": 9,
         "NOUN": 5,
         "AUX": 1,
         "WH": 1,
@@ -60389,7 +60586,7 @@
       },
       "NUM|PREP": {
         "PREP": 3,
-        "DET": 14,
+        "DET": 15,
         "PRON": 2,
         "WH": 1,
         "NUM": 1,
@@ -60560,7 +60757,7 @@
         "DET": 1
       },
       "PUNCT|PART": {
-        "VERB": 9,
+        "VERB": 10,
         "PUNCT": 3,
         "ADJ": 2,
         "WH": 1
@@ -60856,7 +61053,13 @@
         "use": 1,
         "attend": 1,
         "reach": 1,
-        "extend": 1
+        "extend": 1,
+        "amplify": 2,
+        "an": 1,
+        "one": 1,
+        "have": 1,
+        "wit": 1,
+        "identify": 1
       },
       "talk": {
         "with": 1,
@@ -60874,7 +61077,8 @@
         "examples": 3,
         "antonyms": 3,
         "objects": 3,
-        "nouns": 2
+        "nouns": 2,
+        "at": 1
       },
       "how": {
         "to": 8,
@@ -60906,7 +61110,9 @@
         "formed": 1,
         "the": 1,
         "commonly": 2,
-        "temperature": 2
+        "temperature": 2,
+        "packaged": 1,
+        "found": 1
       },
       "you": {
         "to": 6,
@@ -60994,11 +61200,11 @@
         "with": 1
       },
       "is": {
-        "a": 130,
+        "a": 131,
         "the": 84,
         "an": 25,
         "usually": 6,
-        "one": 6,
+        "one": 7,
         "hard": 5,
         "important": 3,
         "vague": 3,
@@ -61011,7 +61217,9 @@
         "open": 1,
         "essential": 1,
         "emitted": 1,
-        "not": 1
+        "not": 1,
+        "composed": 1,
+        "presumed": 1
       },
       "a": {
         "noun": 18,
@@ -61024,15 +61232,13 @@
         "neural": 3,
         "thermodynamic": 3,
         "varying": 3,
-        "stream": 1,
-        "small": 1,
-        "military": 1,
-        "person": 1,
-        "conflict": 1,
-        "clash": 1,
-        "weapon": 1,
-        "book": 1,
-        "limb": 1
+        "transistor": 2,
+        "voltage": 1,
+        "signal": 1,
+        "human": 1,
+        "state": 1,
+        "distinctive": 1,
+        "group": 1
       },
       "for": {
         "the": 26,
@@ -61051,7 +61257,8 @@
         "trading": 1,
         "yours": 1,
         "several": 1,
-        "employees": 1
+        "employees": 1,
+        "connection": 1
       },
       "sharing": {
         "ideas": 1,
@@ -61069,7 +61276,13 @@
         "lesson": 4,
         "variable": 3,
         "listener": 3,
-        "hand": 1
+        "hand": 1,
+        "fundamental": 1,
+        "transistor": 1,
+        "current": 1,
+        "controlled": 1,
+        "controlling": 1,
+        "state": 1
       },
       "brain": {
         "is": 1,
@@ -61152,7 +61365,7 @@
         "electrons": 1,
         "conj": 1,
         "heredity": 1,
-        "the": 2
+        "the": 3
       },
       "needed": {
         "bread": 1,
@@ -61181,7 +61394,7 @@
         "built": 1
       },
       "can": {
-        "be": 44,
+        "be": 46,
         "n't": 4,
         "use": 3,
         "seem": 3,
@@ -61226,13 +61439,16 @@
         "professionalism": 2,
         "emotions": 2,
         "contrasts": 2,
-        "object": 1
+        "object": 1,
+        "switch": 1,
+        "current": 1,
+        "condition": 1
       },
       "it": {
-        "is": 50,
+        "is": 51,
         "was": 15,
         "'s": 9,
-        "has": 5,
+        "has": 7,
         "can": 5,
         "to": 5,
         "over": 3,
@@ -61296,20 +61512,10 @@
         "detailed": 3,
         "capable": 2,
         "commonly": 2,
+        "effectively": 2,
         "about": 1,
         "items": 1,
-        "types": 1,
-        "people": 1,
-        "problems": 1,
-        "effectively": 2,
-        "country": 1,
-        "general": 1,
-        "parties": 1,
-        "long": 1,
-        "parts": 1,
-        "attention": 1,
-        "often": 1,
-        "opposing": 1
+        "types": 1
       },
       "learning": {
         "is": 6,
@@ -61404,7 +61610,7 @@
         "first": 1,
         "work": 1,
         "lunch": 1,
-        "least": 1,
+        "least": 2,
         "their": 1,
         "a": 1,
         "all": 1
@@ -61433,24 +61639,14 @@
       "have": {
         "been": 8,
         "a": 8,
-        "greater": 3,
         "to": 5,
+        "greater": 3,
+        "no": 2,
         "meanings": 1,
         "shades": 1,
         "several": 1,
         "processed": 1,
-        "come": 1,
-        "suggested": 1,
-        "already": 1,
-        "one": 1,
-        "magic": 1,
-        "the": 1,
-        "on": 1,
-        "an": 1,
-        "studyed": 1,
-        "seen": 1,
-        "used": 1,
-        "no": 2
+        "come": 1
       },
       "and": {
         "the": 37,
@@ -61463,16 +61659,7 @@
         "war": 3,
         "against": 3,
         "functions": 2,
-        "ornamentation": 1,
-        "is": 2,
-        "semiconductor": 2,
-        "a": 1,
-        "metabolic": 1,
-        "atomic": 1,
-        "taken": 1,
-        "remain": 1,
-        "only": 1,
-        "shields": 1
+        "is": 1
       },
       "meanings": {
         "have": 1,
@@ -61516,22 +61703,12 @@
         "is": 15,
         "the": 7,
         "a": 6,
+        "are": 4,
         "description": 3,
         "sounds": 3,
         "mimic": 3,
         "quantifies": 2,
-        "run": 2,
-        "grammar": 2,
-        "many": 1,
-        "dictate": 1,
-        "studies": 1,
-        "are": 4,
-        "reduces": 1,
-        "was": 2,
-        "allows": 1,
-        "party": 1,
-        "day": 1,
-        "our": 1
+        "run": 2
       },
       "good": {
         "manners": 3,
@@ -61611,7 +61788,8 @@
         "sometimes": 1,
         "has": 1,
         "did": 1,
-        "can": 1
+        "can": 1,
+        "many": 1
       },
       "would": {
         "like": 2,
@@ -61679,7 +61857,9 @@
         "plants": 1,
         "one": 1,
         "an": 1,
-        "my": 1
+        "my": 1,
+        "miniature": 1,
+        "integrated": 1
       },
       "children": {
         "play": 1,
@@ -61814,8 +61994,8 @@
         "at": 1
       },
       "of": {
-        "the": 171,
-        "a": 79,
+        "the": 173,
+        "a": 81,
         "an": 19,
         "or": 13,
         "speech": 8,
@@ -61825,7 +62005,11 @@
         "knowledge": 5,
         "protons": 5,
         "nuclear": 1,
-        "civil": 1
+        "civil": 1,
+        "modern": 1,
+        "semiconductor": 1,
+        "terminals": 1,
+        "psychological": 1
       },
       "reading": {
         "is": 1,
@@ -62246,7 +62430,8 @@
         "genetic": 1,
         "thing": 1,
         "words": 1,
-        "independent": 1
+        "independent": 1,
+        "transistors": 1
       },
       "study": {
         "about": 1,
@@ -62328,7 +62513,8 @@
         "dead": 1,
         "her": 1,
         "a": 1,
-        "out": 1
+        "out": 1,
+        "embedded": 1
       },
       "his": {
         "speech": 2,
@@ -62396,16 +62582,7 @@
         "auxiliary": 3,
         "application": 3,
         "organism": 3,
-        "update": 2,
-        "instance": 1,
-        "outflow": 1,
-        "advantage": 1,
-        "area": 1,
-        "even": 1,
-        "act": 1,
-        "atomic": 2,
-        "armed": 1,
-        "active": 1
+        "update": 2
       },
       "update": {
         "to": 1,
@@ -62551,7 +62728,8 @@
         "growth": 1,
         "magazines": 1,
         "objective": 1,
-        "writing": 1
+        "writing": 1,
+        "another": 1
       },
       "strengthen": {
         "the": 1,
@@ -62591,7 +62769,8 @@
         "to": 2,
         "neural": 1,
         "sign": 1,
-        "into": 1
+        "into": 1,
+        "are": 1
       },
       "architecture": {
         "of": 2,
@@ -62775,7 +62954,7 @@
         "a": 1
       },
       "than": {
-        "the": 5,
+        "the": 6,
         "one": 4,
         "that": 3,
         "when": 3,
@@ -62906,7 +63085,8 @@
         "communicative": 1,
         "training": 1,
         "surface": 1,
-        "possession": 1
+        "possession": 1,
+        "terminals": 1
       },
       "uncertainty": {
         "is": 1,
@@ -63128,8 +63308,8 @@
       },
       "state": {
         "variable": 2,
-        "or": 1,
-        "of": 9,
+        "or": 2,
+        "of": 10,
         "your": 1,
         "board": 1,
         "'s": 4
@@ -63177,7 +63357,7 @@
       },
       "used": {
         "in": 13,
-        "to": 21,
+        "to": 23,
         "for": 8,
         "syringes": 1,
         "car": 1,
@@ -63225,11 +63405,11 @@
         "the": 3,
         "two": 3,
         "free": 2,
-        "become": 2,
+        "become": 3,
         "far-ranging": 1,
         "eight": 1,
         "given": 1,
-        "reached": 1
+        "reached": 2
       },
       "applications": {
         "in": 2,
@@ -63308,7 +63488,9 @@
         "meaning": 1,
         "symbol": 1,
         "something": 1,
-        "for": 1
+        "for": 1,
+        "output": 1,
+        "input": 1
       },
       ")": {
         "is": 17,
@@ -63321,7 +63503,8 @@
         "n": 3,
         "are": 2,
         "of": 2,
-        "upon": 1
+        "upon": 1,
+        "power": 2
       },
       "ann": {
         ")": 2
@@ -63553,7 +63736,7 @@
       },
       "be": {
         "a": 8,
-        "used": 6,
+        "used": 7,
         "defined": 5,
         "subverted": 3,
         "identified": 3,
@@ -63565,7 +63748,8 @@
         "classified": 1,
         "careful": 1,
         "committed": 3,
-        "in": 1
+        "in": 1,
+        "higher": 1
       },
       "defined": {
         "for": 4,
@@ -63737,7 +63921,8 @@
         "temporary": 1,
         "negative": 1,
         "measurable": 1,
-        "violent": 1
+        "violent": 1,
+        "with": 1
       },
       "separate": {
         "clauses": 2,
@@ -64096,7 +64281,7 @@
         "detailed": 1
       },
       "one": {
-        "of": 13,
+        "of": 14,
         "'s": 6,
         "or": 5,
         "(": 4,
@@ -64105,7 +64290,8 @@
         "point": 3,
         "method": 2,
         "spot": 2,
-        "by": 2
+        "by": 2,
+        "pair": 1
       },
       "types": {
         "of": 6,
@@ -64340,7 +64526,8 @@
         "social": 1,
         "conduct": 1,
         "programmers": 1,
-        "labor": 1
+        "labor": 1,
+        "being": 1
       },
       "specific": {
         "focus": 1,
@@ -64429,7 +64616,8 @@
         "function": 1,
         "move": 1,
         "neuron": 2,
-        "within": 1
+        "within": 1,
+        "pair": 1
       },
       "small": {
         "talk": 1,
@@ -64526,17 +64714,7 @@
         "used": 1,
         "forced": 1,
         "wrong": 1,
-        "impulsive": 1,
-        "possible": 1,
-        "authoritative": 1,
-        "subjected": 1,
-        "studied": 1,
-        "moved": 1,
-        "combined": 1,
-        "organized": 1,
-        "inside": 1,
-        "normative": 1,
-        "regulated": 1
+        "impulsive": 1
       },
       "having": {
         "a": 7,
@@ -64947,7 +65125,7 @@
         "something": 1,
         "structural": 1,
         "v": 1,
-        "an": 1
+        "an": 2
       },
       "realization": {
         "of": 3,
@@ -65244,7 +65422,8 @@
         "has": 1
       },
       "controlling": {
-        "the": 3
+        "the": 3,
+        "(": 1
       },
       "linear": {
         "order": 2,
@@ -65339,7 +65518,8 @@
         "facets": 1,
         "other": 1,
         "types": 1,
-        "resources": 1
+        "resources": 1,
+        "more": 1
       },
       "ease": {
         "the": 3,
@@ -66273,7 +66453,8 @@
         "languages": 1,
         "approach": 1,
         "look": 1,
-        "mathematical": 1
+        "mathematical": 1,
+        "electronics": 1
       },
       "problem": {
         "by": 1,
@@ -66358,7 +66539,8 @@
         "engineering": 1,
         "effects": 1,
         "components": 1,
-        "timer": 1
+        "timer": 1,
+        "circuit": 1
       },
       "circuits": {
         "and": 2,
@@ -67140,7 +67322,8 @@
       },
       "device": {
         "that": 2,
-        "performs": 1
+        "performs": 1,
+        "used": 1
       },
       "movement": {
         "or": 1,
@@ -67892,7 +68075,7 @@
         "the": 1
       },
       "condition": {
-        "of": 3,
+        "of": 4,
         "n": 1
       },
       "road": {
@@ -68016,7 +68199,8 @@
       },
       "once": {
         "idioms": 3,
-        "i": 1
+        "i": 1,
+        "it": 2
       },
       "figurative": {
         "language": 3
@@ -68138,7 +68322,8 @@
         "branches": 1,
         "dimensions": 1,
         "staff": 1,
-        "civilians": 1
+        "civilians": 1,
+        "terminals": 1
       },
       "heading": {
         ")": 3
@@ -68429,7 +68614,8 @@
         "motion": 1,
         "base": 1,
         "medium": 1,
-        "manner": 1
+        "manner": 1,
+        "maturity": 1
       },
       "broken": {
         "pipe": 1,
@@ -68623,7 +68809,7 @@
         "an": 2
       },
       "members": {
-        "of": 2,
+        "of": 3,
         "worldwide": 1,
         "on": 1
       },
@@ -69438,7 +69624,8 @@
       },
       "psychological": {
         "barriers": 1,
-        "activities": 1
+        "activities": 1,
+        "maturity": 1
       },
       "mental": {
         "capacity": 1,
@@ -69704,7 +69891,8 @@
       "input": {
         "data": 2,
         "or": 1,
-        "and": 1
+        "and": 1,
+        ")": 1
       },
       "solving": {
         "them": 1,
@@ -69890,7 +70078,7 @@
         "system": 2
       },
       "composed": {
-        "of": 4
+        "of": 5
       },
       "interacting": {
         "intelligent": 2
@@ -69935,7 +70123,8 @@
         "synapses": 2,
         "devices": 1,
         "appliances": 1,
-        "properties": 1
+        "properties": 1,
+        "signals": 1
       },
       "transformer": {
         "is": 1,
@@ -69981,7 +70170,8 @@
       },
       "connection": {
         "between": 1,
-        "n": 1
+        "n": 1,
+        "to": 1
       },
       "synapses": {
         "to": 1,
@@ -70000,7 +70190,8 @@
         "or": 1,
         "of": 2,
         "to": 5,
-        "nor": 1
+        "nor": 1,
+        "can": 1
       },
       "competitors": {
         "prices": 1,
@@ -70023,7 +70214,7 @@
       "building": {
         "still": 1,
         "n": 1,
-        "blocks": 1,
+        "blocks": 2,
         "work": 1,
         ")": 1
       },
@@ -70104,7 +70295,8 @@
         ")": 1,
         "called": 1,
         "with": 2,
-        "that": 1
+        "that": 1,
+        "and": 1
       },
       "nerve": {
         "cells": 1,
@@ -70260,7 +70452,7 @@
         "notion": 1,
         "theorem": 1,
         "interaction": 1,
-        "building": 1,
+        "building": 2,
         "composition": 1
       },
       "clothes": {
@@ -70924,7 +71116,7 @@
         "its": 1
       },
       "applied": {
-        "to": 2,
+        "to": 3,
         "ethics": 5
       },
       "elementary": {
@@ -71587,7 +71779,7 @@
       },
       "integrated": {
         "circuit": 1,
-        "circuits": 1
+        "circuits": 2
       },
       "compact": {
         "assembly": 1,
@@ -71609,8 +71801,9 @@
         "the": 1
       },
       "semiconductor": {
-        "material": 2,
-        "surface": 1
+        "material": 3,
+        "surface": 1,
+        "device": 1
       },
       "crimes": {
         "against": 6,
@@ -72024,7 +72217,8 @@
       },
       "least": {
         "to": 1,
-        "because": 1
+        "because": 1,
+        "three": 1
       },
       "criticism": {
         "is": 1,
@@ -72094,7 +72288,8 @@
         "refers": 1
       },
       "output": {
-        "of": 2
+        "of": 2,
+        ")": 1
       },
       "operation": {
         "and": 1,
@@ -72144,7 +72339,7 @@
       },
       "higher": {
         "in": 1,
-        "than": 1
+        "than": 2
       },
       "industry": {
         "and": 1
@@ -73035,7 +73230,9 @@
         "was": 1
       },
       "current": {
-        "one": 1
+        "one": 1,
+        "applied": 1,
+        "through": 1
       },
       "indicate": {
         "a": 1
@@ -73114,7 +73311,7 @@
       },
       "blocks": {
         ")": 1,
-        "of": 1
+        "of": 2
       },
       "securely": {
         "linked": 1
@@ -74596,7 +74793,9 @@
         "groups": 1
       },
       "reached": {
-        "for": 1
+        "for": 1,
+        "physical": 1,
+        "a": 1
       },
       "weapon": {
         "that": 1
@@ -74606,6 +74805,61 @@
       },
       "limb": {
         "or": 1
+      },
+      "transistor": {
+        "is": 2,
+        "'s": 1,
+        "can": 1
+      },
+      "amplify": {
+        "or": 1,
+        "a": 1
+      },
+      "switch": {
+        "electrical": 1
+      },
+      "terminals": {
+        "for": 1,
+        "controls": 1
+      },
+      "voltage": {
+        "or": 1
+      },
+      "pair": {
+        "of": 2
+      },
+      "controls": {
+        "the": 1
+      },
+      "controlled": {
+        "(": 1
+      },
+      "transistors": {
+        "are": 1
+      },
+      "packaged": {
+        "individually": 1
+      },
+      "miniature": {
+        "form": 1
+      },
+      "embedded": {
+        "in": 1
+      },
+      "presumed": {
+        "to": 1
+      },
+      "distinctive": {
+        "outfit": 1
+      },
+      "outfit": {
+        "that": 1
+      },
+      "serves": {
+        "to": 1
+      },
+      "identify": {
+        "members": 1
       }
     },
     "starters": {
@@ -74613,10 +74867,10 @@
       "how": 6,
       "what": 6,
       "<NOUN>": 713,
-      "the": 333,
+      "the": 334,
       "she": 22,
       "we": 36,
-      "it": 84,
+      "it": 85,
       "<VERB>": 268,
       "can": 3,
       "my": 13,
@@ -74629,7 +74883,7 @@
       "that": 20,
       "if": 10,
       "although": 3,
-      "a": 160,
+      "a": 164,
       "does": 1,
       "who": 2,
       "when": 13,
@@ -74650,7 +74904,7 @@
       "as": 3,
       "each": 9,
       "without": 3,
-      "some": 15,
+      "some": 16,
       "<NUM>": 9,
       "many": 7,
       "any": 6,
@@ -74700,16 +74954,17 @@
       "are": 1,
       "several": 1,
       "among": 1,
-      "after": 2
+      "after": 2,
+      "because": 1
     },
     "connectors": {
       "because": 16,
-      "or": 458,
-      "and": 703,
-      "but": 70,
+      "or": 461,
+      "and": 705,
+      "but": 71,
       "so": 31,
       "while": 8,
-      "than": 39,
+      "than": 40,
       "therefore": 7,
       "if": 13,
       "as": 238,
@@ -74719,7 +74974,7 @@
       "yet": 7,
       "though": 3,
       "since": 4,
-      "once": 4,
+      "once": 6,
       "nor": 5,
       "although": 3,
       "whereas": 2,
@@ -74746,15 +75001,15 @@
         "if": 3,
         "though": 2,
         "as": 26,
-        "than": 5,
+        "than": 6,
         "while": 1,
         "nor": 1,
         "because": 1,
         "so": 1
       },
       "NOUN>NOUN": {
-        "and": 307,
-        "or": 187,
+        "and": 308,
+        "or": 188,
         "as": 11,
         "yet": 2,
         "so": 2,
@@ -74791,7 +75046,8 @@
         "so": 3,
         "as": 4,
         "but": 1,
-        "if": 1
+        "if": 1,
+        "once": 1
       },
       "ADJ>ADJ": {
         "and": 20,
@@ -74823,7 +75079,7 @@
       "NOUN>ADJ": {
         "and": 48,
         "than": 1,
-        "or": 22,
+        "or": 23,
         "whether": 1,
         "as": 7,
         "since": 1,
@@ -74890,7 +75146,7 @@
         "but": 2
       },
       "NOUN>AUX": {
-        "and": 17,
+        "and": 18,
         "as": 3,
         "but": 3,
         "yet": 1,
@@ -74915,7 +75171,7 @@
       "VERB>NOUN": {
         "as": 16,
         "and": 25,
-        "or": 19,
+        "or": 20,
         "that": 7,
         "than": 1,
         "so": 1
@@ -75097,7 +75353,8 @@
         "than": 1
       },
       "AUX>PRON": {
-        "but": 1
+        "but": 1,
+        "once": 1
       },
       "NOUN>MODAL": {
         "and": 4,
@@ -75132,7 +75389,8 @@
       },
       "ADV>DET": {
         "than": 2,
-        "as": 3
+        "as": 3,
+        "but": 1
       },
       "CONJ>PART": {
         "as": 4
@@ -77521,36 +77779,11 @@
       "DET NOUN AUX PREP NOUN ADJ | so | DET NOUN AUX VERB PART VERB PRON": 1,
       "DET NOUN VERB DET NOUN PREP NOUN | and | NOUN": 1,
       "DET NOUN PREP DET NOUN | and | DET NOUN VERB NUM NOUN": 1,
-      "PRON VERB PART VERB DET NOUN | but | NOUN AUX DET NOUN PREP DET NOUN DET NOUN": 1
+      "PRON VERB PART VERB DET NOUN | but | NOUN AUX DET NOUN PREP DET NOUN DET NOUN": 1,
+      "DET NOUN AUX DET NOUN VERB PART VERB CONJ NOUN | and | NOUN": 1,
+      "DET NOUN AUX VERB ADV | but | DET NOUN PREP NOUN AUX VERB PREP VERB NOUN": 1
     },
     "sentence_bank": {
-      "drive": [
-        "We drove as fast as we could, but we still arrived late ."
-      ],
-      "fast": [
-        "We drove as fast as we could, but we still arrived late ."
-      ],
-      "time": [
-        "Near the end of a period of time."
-      ],
-      "food": [
-        "The food and beverage a person or animal consumes."
-      ],
-      "beverage": [
-        "The food and beverage a person or animal consumes."
-      ],
-      "apple": [
-        "That's not an eating apple."
-      ],
-      "sandwiches": [
-        "We made sandwiches with the bread we bought from the bakery. breaded fish A foodstuff made by baking dough made from cereals ."
-      ],
-      "throwing": [
-        "Throwing that punch was a murder whether you meant for it to happen or not."
-      ],
-      "punch": [
-        "Throwing that punch was a murder whether you meant for it to happen or not."
-      ],
       "defendant": [
         "The defendant was charged with murder ."
       ],
@@ -78767,7 +79000,8 @@
         "I hope we can begin immediately."
       ],
       "compos": [
-        "An atom is composed of a positively charged nucleus, with a cloud of negatively charged electrons surrounding it, bound together by electrostatic force."
+        "An atom is composed of a positively charged nucleus, with a cloud of negatively charged electrons surrounding it, bound together by electrostatic force.",
+        "A transistor is composed of semiconductor material, often with at least three terminals for connection to an electronic circuit."
       ],
       "mass": [
         "Almost all of the mass of an atom is located in the nucleus, with a very small contribution from the electron cloud."
@@ -78899,7 +79133,8 @@
       ],
       "build": [
         "Land, and all the built structures on it, especially when considered as a single place.",
-        "We built a small atomic bomb in the garage."
+        "We built a small atomic bomb in the garage.",
+        "It is one of the fundamental building blocks of modern electronics."
       ],
       "twenty-six": [
         "There are twenty-six letters in the English alphabet."
@@ -79470,6 +79705,34 @@
       ],
       "disagreement": [
         "A clash or disagreement, often violent, between two or more opposing groups or individuals."
+      ],
+      "transistor": [
+        "A transistor is a semiconductor device used to amplify or switch electrical signals and power.",
+        "A transistor is composed of semiconductor material, often with at least three terminals for connection to an electronic circuit."
+      ],
+      "semiconductor": [
+        "A transistor is a semiconductor device used to amplify or switch electrical signals and power."
+      ],
+      "fundamental": [
+        "It is one of the fundamental building blocks of modern electronics."
+      ],
+      "voltage": [
+        "A voltage or current applied to one pair of the transistor's terminals controls the current through another pair of terminals."
+      ],
+      "current": [
+        "A voltage or current applied to one pair of the transistor's terminals controls the current through another pair of terminals."
+      ],
+      "transistors": [
+        "Some transistors are packaged individually, but many more in miniature form are found embedded in integrated circuits."
+      ],
+      "packag": [
+        "Some transistors are packaged individually, but many more in miniature form are found embedded in integrated circuits."
+      ],
+      "distinctive": [
+        "A distinctive outfit that serves to identify members of a group."
+      ],
+      "outfit": [
+        "A distinctive outfit that serves to identify members of a group."
       ]
     }
   },
@@ -79493,8 +79756,6 @@
       "vhdl",
       "vocabulum",
       "annuum",
-      "adulthood",
-      "uniform",
       "norms",
       "regular",
       "hands",
@@ -79786,13 +80047,16 @@
       "stream",
       "soldiers",
       "king",
-      "appears"
+      "appears",
+      "transistor",
+      "maturity",
+      "identify"
     ],
     "names": [],
-    "lessons": 113,
-    "topic_cursor": 3330,
+    "lessons": 114,
+    "topic_cursor": 3360,
     "taught": 0,
-    "last_lesson": "2026-10-27 02:09:18",
+    "last_lesson": "2026-10-27 08:00:14",
     "pending_concepts": [],
     "recent_concepts": [
       "thermodynamic efficiency constrain",
