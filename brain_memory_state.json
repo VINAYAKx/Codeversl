@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.39,
+    "adenosine": 0.51,
     "newborn": false
   },
   "episodic_memory": [
@@ -2854,6 +2854,20 @@
       "time": "2026-10-27 08:00:15",
       "speaker": "brain",
       "text": "I practised my English because I want to talk with you more naturally. I learned 2 new words: 'adulthood' (a noun) means the state or condition of a human being once it has reached physical maturity, and is pres; 'uniform' (a noun) means a distinctive outfit that serves to identify members of a group. I practised with the sentences I already hold instead. Now I know 1002 words, I have studied 2538 sentences, and I have 213 sentence patterns.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-27 14:38:35",
+      "speaker": "brain",
+      "text": "I wondered about 'Statistics' by myself and went searching. From Wikipedia (live internet) I learned: Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data. Key ideas I stored: statistical model, atom composing, statistics, interpretation, presentation.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-27 14:38:35",
+      "speaker": "brain",
+      "text": "I wondered about 'Phonetics' by myself and went searching. From Wikipedia (live internet) I learned: Phonetics is a branch of linguistics that mainly concerns the articulation, sound wave properties, and perception of speech sounds. Key ideas I stored: three sub-disciplines, articulatory phonetics, acoustic phonetics, auditory phonetics, language-specific categorizations.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -7277,6 +7291,34 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Transistor",
       "learned": "2026-10-27 08:00:14"
+    },
+    "Statistics": {
+      "summary": "Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data. In applying statistics to a scientific, industrial, or social problem, it is conventional to begin with a statistical population or a statistical model to be studied. Populations can be diverse groups of people or objects such as \"all people living in a country\" or \"every atom composing a crystal\". Statistics deals with every aspect of data, including the planning of data collection in terms of the design of surveys and experiments. Statistics is deeply related to subjects like physics, chemistry, geography, geopolitics, and especially mathematics.",
+      "concepts": [
+        "statistical model",
+        "atom composing",
+        "statistics",
+        "interpretation",
+        "presentation",
+        "geopolitics"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Statistics",
+      "learned": "2026-10-27 14:38:35"
+    },
+    "Phonetics": {
+      "summary": "Phonetics is a branch of linguistics that mainly concerns the articulation, sound wave properties, and perception of speech sounds. The field of phonetics is traditionally divided into three sub-disciplines: articulatory phonetics, acoustic phonetics, and auditory phonetics. Linguists who specialize in studying these physical properties of vocalization are phoneticians. Traditionally, the minimal linguistic unit of phonetics is the phone, an individual speech sound. This differs from the minimal linguistic unit of phonology, the phoneme. Phonemes are abstract, language-specific categorizations of phones and are defined as the smallest units that affect meaning.",
+      "concepts": [
+        "three sub-disciplines",
+        "articulatory phonetics",
+        "acoustic phonetics",
+        "auditory phonetics",
+        "language-specific categorizations",
+        "perception"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Phonetics",
+      "learned": "2026-10-27 14:38:35"
     }
   },
   "creator_teachings": [
@@ -8954,6 +8996,18 @@
       "kind": "language_lesson",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-27 14:38:35",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-27 14:38:35",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -9118,7 +9172,9 @@
     "set theory",
     "linguistics",
     "morphology",
-    "transistor"
+    "transistor",
+    "statistics",
+    "phonetics"
   ],
   "sensory_log": [
     {
@@ -55814,24 +55870,202 @@
       "source": "corpus",
       "learned": "2026-10-27 08:00:14",
       "uses": 1
+    },
+    "statistics": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-27 14:38:35",
+      "uses": 1
+    },
+    "interpretation": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-27 14:38:35",
+      "uses": 1
+    },
+    "presentation": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-27 14:38:35",
+      "uses": 1
+    },
+    "populations": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Populations can be diverse groups of people or objects such as \"all people living in a country\" or \"every atom composing a crystal\"."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-27 14:38:35",
+      "uses": 1
+    },
+    "diverse": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Populations can be diverse groups of people or objects such as \"all people living in a country\" or \"every atom composing a crystal\"."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-27 14:38:35",
+      "uses": 1
+    },
+    "deals": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Statistics deals with every aspect of data, including the planning of data collection in terms of the design of surveys and experiments."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-27 14:38:35",
+      "uses": 1
+    },
+    "phonetics": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Phonetics is a branch of linguistics that mainly concerns the articulation, sound wave properties, and perception of speech sounds."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-27 14:38:35",
+      "uses": 1
+    },
+    "concerns": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Phonetics is a branch of linguistics that mainly concerns the articulation, sound wave properties, and perception of speech sounds."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-27 14:38:35",
+      "uses": 1
+    },
+    "wave": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Phonetics is a branch of linguistics that mainly concerns the articulation, sound wave properties, and perception of speech sounds."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-27 14:38:35",
+      "uses": 1
+    },
+    "specialize": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Linguists who specialize in studying these physical properties of vocalization are phoneticians."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-27 14:38:35",
+      "uses": 1
+    },
+    "minimal": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Traditionally, the minimal linguistic unit of phonetics is the phone, an individual speech sound."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-27 14:38:35",
+      "uses": 1
+    },
+    "phonology": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "This differs from the minimal linguistic unit of phonology, the phoneme."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-27 14:38:35",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 2538,
-      "tokens": 34647,
+      "sentences": 2549,
+      "tokens": 34873,
       "sources": {
         "seed corpus": 64,
         "conversation": 36,
         "dictionary": 1360,
-        "explore": 389,
+        "explore": 400,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "03c0eeebb356",
-        "2d43b31e65c1",
         "3d6f6bed2282",
         "f5f7d2d03606",
         "cac4f71d71e2",
@@ -56129,7 +56363,9 @@
         "d3c98c1eab51",
         "bed3238a7c4c",
         "b3f9aaafdcc8",
-        "682258d4f6ad"
+        "682258d4f6ad",
+        "cbba921db740",
+        "04c09133f526"
       ],
       "seeded": true,
       "rejected": 579,
@@ -56178,7 +56414,6 @@
         "maintaining": 1,
         "constrain": 1,
         "processing": 1,
-        "diverse": 1,
         "economics": 1,
         "iterative": 1,
         "minimizing": 1,
@@ -56239,7 +56474,6 @@
         "homeostatic": 1,
         "localized": 1,
         "adaptation": 1,
-        "minimal": 1,
         "overhead": 1,
         "specialists": 1,
         "holders": 1,
@@ -56513,7 +56747,6 @@
         "voter": 1,
         "affiliated": 1,
         "freethinker": 1,
-        "presentation": 1,
         "rushed": 1,
         "wine": 1,
         "baby": 1,
@@ -57939,7 +58172,6 @@
         "translate": 1,
         "executable": 1,
         "heritable": 1,
-        "populations": 1,
         "surviving": 1,
         "introduces": 1,
         "drift": 1,
@@ -58050,7 +58282,6 @@
         "chef": 1,
         "experimented": 1,
         "flavor": 1,
-        "statistics": 1,
         "amendment": 1,
         "constitution": 1,
         "protection": 1,
@@ -58095,7 +58326,6 @@
         "philosopher": 1,
         "cosmologia": 1,
         "metaphysics": 1,
-        "deals": 1,
         "astronomers": 1,
         "physicists": 1,
         "metaphysicians": 1,
@@ -58169,7 +58399,6 @@
         "magazines": 1,
         "waited": 1,
         "identification": 1,
-        "interpretation": 1,
         "stimulation": 1,
         "sixty": 1,
         "minutes": 1,
@@ -58368,7 +58597,6 @@
         "waved": 1,
         "gentle": 1,
         "breeze": 1,
-        "wave": 1,
         "traveled": 1,
         "shore": 1,
         "drivers": 1,
@@ -58405,7 +58633,6 @@
         "evaluates": 1,
         "interpreter": 1,
         "interpreted": 1,
-        "specialize": 1,
         "pragmaticians": 1,
         "informally": 1,
         "collected": 1,
@@ -58439,8 +58666,6 @@
         "symptom": 1,
         "modify": 1,
         "areas": 1,
-        "phonetics": 1,
-        "phonology": 1,
         "subdisciplines": 1,
         "biolinguistics": 1,
         "psycholinguistics": 1,
@@ -58520,29 +58745,48 @@
         "embedded": 1,
         "presumed": 1,
         "adult": 1,
-        "outfit": 1
+        "outfit": 1,
+        "discipline": 1,
+        "industrial": 1,
+        "conventional": 1,
+        "composing": 1,
+        "crystal": 1,
+        "surveys": 1,
+        "geography": 1,
+        "geopolitics": 1,
+        "articulation": 1,
+        "articulatory": 1,
+        "acoustic": 1,
+        "auditory": 1,
+        "vocalization": 1,
+        "phoneticians": 1,
+        "phoneme": 1,
+        "phonemes": 1,
+        "categorizations": 1,
+        "phones": 1,
+        "affect": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
         "PRON": 361,
         "WH": 31,
-        "NOUN": 713,
-        "DET": 704,
+        "NOUN": 720,
+        "DET": 706,
         "VERB": 268,
         "MODAL": 6,
         "ADJ": 125,
         "INTJ": 13,
         "CONJ": 29,
         "AUX": 16,
-        "ADV": 35,
-        "PREP": 188,
+        "ADV": 36,
+        "PREP": 189,
         "PART": 37,
         "NUM": 9,
         "NEG": 3
       },
       "PRON": {
-        "AUX": 288,
+        "AUX": 289,
         "PUNCT": 85,
         "ADV": 22,
         "VERB": 342,
@@ -58560,15 +58804,15 @@
         "NEG": 1
       },
       "AUX": {
-        "ADJ": 262,
+        "ADJ": 265,
         "PRON": 20,
         "PUNCT": 10,
-        "DET": 386,
-        "NOUN": 85,
+        "DET": 389,
+        "NOUN": 86,
         "NEG": 57,
-        "VERB": 364,
+        "VERB": 366,
         "INTJ": 1,
-        "ADV": 121,
+        "ADV": 123,
         "CONJ": 15,
         "NUM": 22,
         "PROPN": 5,
@@ -58578,14 +58822,14 @@
         "PART": 16
       },
       "ADJ": {
-        "PART": 41,
-        "NOUN": 1702,
+        "PART": 43,
+        "NOUN": 1715,
         "WH": 5,
-        "PUNCT": 274,
+        "PUNCT": 278,
         "PREP": 177,
         "CONJ": 100,
         "PROPN": 36,
-        "ADJ": 111,
+        "ADJ": 113,
         "DET": 39,
         "AUX": 30,
         "VERB": 88,
@@ -58597,8 +58841,8 @@
         "NEG": 1
       },
       "PART": {
-        "VERB": 399,
-        "AUX": 62,
+        "VERB": 401,
+        "AUX": 63,
         "ADJ": 31,
         "NOUN": 53,
         "WH": 6,
@@ -58608,16 +58852,16 @@
         "PROPN": 1
       },
       "VERB": {
-        "PREP": 635,
+        "PREP": 639,
         "PART": 137,
         "ADJ": 97,
-        "NOUN": 629,
-        "PUNCT": 288,
+        "NOUN": 630,
+        "PUNCT": 289,
         "PRON": 125,
         "AUX": 36,
-        "DET": 494,
-        "VERB": 56,
-        "CONJ": 199,
+        "DET": 497,
+        "VERB": 57,
+        "CONJ": 200,
         "WH": 28,
         "</S>": 15,
         "ADV": 66,
@@ -58628,15 +58872,15 @@
       },
       "PREP": {
         "PRON": 91,
-        "NOUN": 1189,
-        "DET": 1304,
+        "NOUN": 1203,
+        "DET": 1311,
         "PUNCT": 66,
-        "VERB": 100,
+        "VERB": 101,
         "PREP": 31,
         "ADJ": 329,
         "PROPN": 129,
         "AUX": 23,
-        "NUM": 60,
+        "NUM": 61,
         "WH": 46,
         "CONJ": 29,
         "ADV": 19,
@@ -58644,15 +58888,15 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 2358,
-        "NOUN": 672,
-        "CONJ": 363,
-        "PRON": 54,
+        "</S>": 2369,
+        "NOUN": 680,
+        "CONJ": 368,
+        "PRON": 55,
         "VERB": 88,
         "ADV": 93,
-        "PREP": 80,
-        "ADJ": 108,
-        "DET": 200,
+        "PREP": 81,
+        "ADJ": 111,
+        "DET": 203,
         "WH": 46,
         "AUX": 36,
         "NUM": 8,
@@ -58667,7 +58911,7 @@
         "DET": 53,
         "PRON": 29,
         "NOUN": 75,
-        "VERB": 34,
+        "VERB": 35,
         "MODAL": 11,
         "PREP": 6,
         "PART": 8,
@@ -58677,12 +58921,12 @@
         "CONJ": 1
       },
       "ADV": {
-        "PUNCT": 77,
-        "ADJ": 58,
-        "NOUN": 101,
+        "PUNCT": 78,
+        "ADJ": 59,
+        "NOUN": 102,
         "CONJ": 20,
         "DET": 28,
-        "VERB": 200,
+        "VERB": 202,
         "</S>": 3,
         "PRON": 4,
         "MODAL": 1,
@@ -58696,37 +58940,37 @@
         "WH": 1
       },
       "NOUN": {
-        "AUX": 671,
-        "PREP": 2000,
-        "NOUN": 2056,
-        "PUNCT": 3126,
-        "CONJ": 772,
-        "VERB": 549,
+        "AUX": 678,
+        "PREP": 2017,
+        "NOUN": 2066,
+        "PUNCT": 3152,
+        "CONJ": 777,
+        "VERB": 551,
         "ADV": 98,
-        "PART": 253,
+        "PART": 254,
         "ADJ": 274,
-        "MODAL": 95,
+        "MODAL": 96,
         "</S>": 147,
         "PRON": 152,
-        "WH": 65,
-        "DET": 371,
+        "WH": 66,
+        "DET": 378,
         "PROPN": 107,
         "NUM": 14,
         "NEG": 6,
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 2411,
-        "ADJ": 1030,
+        "NOUN": 2424,
+        "ADJ": 1042,
         "PRON": 27,
         "PREP": 60,
         "NUM": 54,
         "PART": 7,
         "VERB": 50,
-        "CONJ": 53,
+        "CONJ": 54,
         "PROPN": 122,
         "DET": 88,
-        "ADV": 37,
+        "ADV": 38,
         "PUNCT": 30,
         "AUX": 4,
         "WH": 6,
@@ -58734,17 +58978,17 @@
       },
       "CONJ": {
         "PRON": 101,
-        "DET": 270,
-        "NOUN": 735,
+        "DET": 272,
+        "NOUN": 743,
         "VERB": 127,
         "ADJ": 153,
-        "ADV": 57,
+        "ADV": 58,
         "PUNCT": 18,
         "WH": 19,
         "PREP": 53,
         "CONJ": 24,
         "NUM": 7,
-        "AUX": 39,
+        "AUX": 40,
         "PROPN": 47,
         "MODAL": 15,
         "NEG": 7,
@@ -58755,7 +58999,7 @@
         "PRON": 7,
         "DET": 3,
         "CONJ": 3,
-        "AUX": 86,
+        "AUX": 87,
         "NOUN": 15,
         "NEG": 14,
         "ADV": 17,
@@ -58800,7 +59044,7 @@
         "WH": 1
       },
       "NUM": {
-        "NOUN": 103,
+        "NOUN": 104,
         "PUNCT": 12,
         "CONJ": 21,
         "PREP": 23,
@@ -58832,7 +59076,7 @@
         "WH": 1
       },
       "PRON|AUX": {
-        "ADJ": 54,
+        "ADJ": 55,
         "DET": 68,
         "NEG": 27,
         "VERB": 65,
@@ -58848,12 +59092,12 @@
         "PART": 5
       },
       "AUX|ADJ": {
-        "PART": 27,
+        "PART": 28,
         "WH": 3,
-        "PUNCT": 79,
+        "PUNCT": 80,
         "PREP": 51,
         "DET": 12,
-        "NOUN": 45,
+        "NOUN": 46,
         "CONJ": 15,
         "ADJ": 10,
         "VERB": 13,
@@ -58863,14 +59107,14 @@
         "NEG": 1
       },
       "ADJ|PART": {
-        "VERB": 30,
+        "VERB": 32,
         "WH": 1,
         "NOUN": 5,
         "AUX": 4,
         "ADJ": 1
       },
       "PART|VERB": {
-        "PREP": 52,
+        "PREP": 53,
         "ADJ": 23,
         "PUNCT": 56,
         "NOUN": 91,
@@ -58880,7 +59124,7 @@
         "NUM": 6,
         "CONJ": 35,
         "PRON": 16,
-        "VERB": 8,
+        "VERB": 9,
         "ADV": 5,
         "PROPN": 1,
         "AUX": 1,
@@ -58888,13 +59132,13 @@
       },
       "VERB|PREP": {
         "PRON": 18,
-        "DET": 252,
+        "DET": 254,
         "NOUN": 186,
         "PUNCT": 19,
-        "VERB": 20,
+        "VERB": 21,
         "ADJ": 63,
         "PREP": 15,
-        "NUM": 16,
+        "NUM": 17,
         "PROPN": 28,
         "CONJ": 5,
         "AUX": 2,
@@ -58964,7 +59208,7 @@
       "ADV|PUNCT": {
         "</S>": 40,
         "ADV": 6,
-        "DET": 13,
+        "DET": 14,
         "CONJ": 6,
         "NOUN": 6,
         "PREP": 2,
@@ -59002,7 +59246,7 @@
       "PART|AUX": {
         "PUNCT": 2,
         "DET": 3,
-        "VERB": 29,
+        "VERB": 30,
         "ADJ": 12,
         "NUM": 1,
         "PREP": 5,
@@ -59018,26 +59262,26 @@
         "WH": 2
       },
       "<S>|NOUN": {
-        "AUX": 128,
+        "AUX": 132,
         "VERB": 73,
         "PUNCT": 20,
-        "NOUN": 285,
+        "NOUN": 286,
         "CONJ": 24,
         "PREP": 63,
         "PROPN": 17,
         "ADJ": 57,
         "PART": 6,
-        "WH": 4,
+        "WH": 5,
         "ADV": 6,
         "DET": 18,
-        "MODAL": 10,
+        "MODAL": 11,
         "INTJ": 2
       },
       "NOUN|AUX": {
-        "DET": 219,
-        "ADJ": 125,
-        "NOUN": 46,
-        "ADV": 71,
+        "DET": 222,
+        "ADJ": 126,
+        "NOUN": 47,
+        "ADV": 73,
         "VERB": 139,
         "CONJ": 8,
         "NUM": 10,
@@ -59051,8 +59295,8 @@
         "PUNCT": 2
       },
       "AUX|DET": {
-        "NOUN": 195,
-        "ADJ": 151,
+        "NOUN": 197,
+        "ADJ": 152,
         "PROPN": 6,
         "VERB": 6,
         "PREP": 4,
@@ -59062,11 +59306,11 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 752,
+        "PREP": 758,
         "AUX": 214,
         "CONJ": 181,
-        "PUNCT": 540,
-        "VERB": 156,
+        "PUNCT": 543,
+        "VERB": 158,
         "ADV": 24,
         "ADJ": 59,
         "NOUN": 224,
@@ -59074,14 +59318,14 @@
         "PART": 73,
         "</S>": 9,
         "PROPN": 7,
-        "DET": 79,
+        "DET": 81,
         "MODAL": 30,
         "WH": 19,
         "NUM": 3
       },
       "NOUN|PREP": {
-        "NOUN": 750,
-        "DET": 745,
+        "NOUN": 763,
+        "DET": 749,
         "PREP": 9,
         "ADJ": 206,
         "PROPN": 59,
@@ -59095,14 +59339,14 @@
         "CONJ": 12
       },
       "PREP|NOUN": {
-        "NOUN": 171,
-        "PUNCT": 370,
+        "NOUN": 174,
+        "PUNCT": 373,
         "VERB": 47,
-        "CONJ": 140,
+        "CONJ": 143,
         "ADJ": 27,
-        "DET": 53,
-        "AUX": 31,
-        "PREP": 139,
+        "DET": 54,
+        "AUX": 34,
+        "PREP": 140,
         "PRON": 24,
         "</S>": 122,
         "WH": 6,
@@ -59113,10 +59357,10 @@
         "ADV": 8
       },
       "NOUN|NOUN": {
-        "PUNCT": 728,
+        "PUNCT": 734,
         "PART": 33,
-        "NOUN": 513,
-        "PREP": 295,
+        "NOUN": 514,
+        "PREP": 298,
         "CONJ": 115,
         "VERB": 77,
         "PROPN": 44,
@@ -59132,16 +59376,16 @@
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 1814,
-        "NOUN": 443,
-        "CONJ": 258,
+        "</S>": 1824,
+        "NOUN": 451,
+        "CONJ": 262,
         "ADV": 65,
-        "PREP": 57,
-        "ADJ": 74,
-        "DET": 139,
+        "PREP": 58,
+        "ADJ": 75,
+        "DET": 140,
         "VERB": 67,
         "WH": 34,
-        "PRON": 32,
+        "PRON": 33,
         "AUX": 29,
         "NUM": 6,
         "PROPN": 5,
@@ -59151,7 +59395,7 @@
         "INTJ": 1
       },
       "<S>|DET": {
-        "NOUN": 450,
+        "NOUN": 452,
         "ADJ": 177,
         "PROPN": 29,
         "VERB": 7,
@@ -59163,10 +59407,10 @@
         "PRON": 3
       },
       "DET|ADJ": {
-        "NOUN": 832,
+        "NOUN": 840,
         "CONJ": 30,
-        "ADJ": 38,
-        "PUNCT": 39,
+        "ADJ": 40,
+        "PUNCT": 41,
         "VERB": 26,
         "PREP": 25,
         "PART": 5,
@@ -59179,16 +59423,16 @@
         "NUM": 3
       },
       "ADJ|NOUN": {
-        "PUNCT": 563,
-        "NOUN": 256,
+        "PUNCT": 566,
+        "NOUN": 257,
         "MODAL": 15,
         "VERB": 90,
-        "PREP": 348,
-        "CONJ": 141,
-        "DET": 56,
+        "PREP": 353,
+        "CONJ": 143,
+        "DET": 57,
         "ADJ": 23,
         "AUX": 91,
-        "PART": 54,
+        "PART": 55,
         "WH": 13,
         "PROPN": 4,
         "ADV": 11,
@@ -59209,8 +59453,8 @@
         "DET": 1
       },
       "PREP|DET": {
-        "NOUN": 818,
-        "ADJ": 331,
+        "NOUN": 821,
+        "ADJ": 335,
         "NUM": 20,
         "PREP": 15,
         "PROPN": 50,
@@ -59224,9 +59468,9 @@
       },
       "NOUN|CONJ": {
         "PRON": 24,
-        "DET": 117,
+        "DET": 118,
         "VERB": 42,
-        "NOUN": 415,
+        "NOUN": 418,
         "ADJ": 60,
         "WH": 7,
         "PREP": 24,
@@ -59234,7 +59478,7 @@
         "CONJ": 13,
         "ADV": 29,
         "PROPN": 16,
-        "AUX": 15,
+        "AUX": 16,
         "PART": 3,
         "MODAL": 1,
         "PUNCT": 2
@@ -59251,7 +59495,7 @@
         "ADJ": 1
       },
       "VERB|NOUN": {
-        "PUNCT": 168,
+        "PUNCT": 169,
         "PREP": 98,
         "PART": 18,
         "VERB": 23,
@@ -59294,9 +59538,9 @@
       },
       "PUNCT|NOUN": {
         "CONJ": 48,
-        "NOUN": 106,
+        "NOUN": 108,
         "ADJ": 8,
-        "PUNCT": 348,
+        "PUNCT": 354,
         "PREP": 76,
         "AUX": 22,
         "DET": 20,
@@ -59310,7 +59554,7 @@
       },
       "CONJ|DET": {
         "NOUN": 174,
-        "ADJ": 61,
+        "ADJ": 63,
         "CONJ": 3,
         "PUNCT": 4,
         "PART": 1,
@@ -59324,7 +59568,7 @@
         "NUM": 2
       },
       "VERB|PUNCT": {
-        "</S>": 180,
+        "</S>": 181,
         "PRON": 10,
         "CONJ": 17,
         "NOUN": 36,
@@ -59410,10 +59654,10 @@
       },
       "ADJ|PUNCT": {
         "</S>": 140,
-        "CONJ": 32,
+        "CONJ": 33,
         "VERB": 5,
-        "DET": 5,
-        "ADJ": 16,
+        "DET": 6,
+        "ADJ": 18,
         "PREP": 10,
         "NOUN": 49,
         "ADV": 7,
@@ -59426,8 +59670,8 @@
       },
       "NOUN|VERB": {
         "PART": 22,
-        "DET": 120,
-        "PREP": 129,
+        "DET": 121,
+        "PREP": 130,
         "WH": 4,
         "PRON": 38,
         "PUNCT": 40,
@@ -59443,7 +59687,7 @@
         "MODAL": 1
       },
       "AUX|NOUN": {
-        "PUNCT": 28,
+        "PUNCT": 29,
         "NOUN": 6,
         "DET": 4,
         "PREP": 12,
@@ -59456,7 +59700,7 @@
         "WH": 1
       },
       "PUNCT|CONJ": {
-        "NOUN": 133,
+        "NOUN": 137,
         "PRON": 30,
         "DET": 52,
         "PUNCT": 6,
@@ -59466,7 +59710,7 @@
         "PROPN": 11,
         "VERB": 29,
         "NEG": 2,
-        "ADV": 17,
+        "ADV": 18,
         "MODAL": 11,
         "PREP": 10,
         "PART": 1,
@@ -59474,26 +59718,26 @@
       },
       "CONJ|NOUN": {
         "AUX": 24,
-        "PUNCT": 204,
+        "PUNCT": 205,
         "</S>": 1,
-        "PREP": 146,
+        "PREP": 148,
         "VERB": 26,
         "WH": 8,
-        "NOUN": 204,
+        "NOUN": 206,
         "PRON": 14,
         "PART": 17,
         "CONJ": 30,
         "PROPN": 5,
         "ADJ": 14,
-        "DET": 34,
+        "DET": 37,
         "NEG": 1,
         "NUM": 1,
         "MODAL": 4,
         "ADV": 2
       },
       "VERB|DET": {
-        "NOUN": 306,
-        "ADJ": 146,
+        "NOUN": 307,
+        "ADJ": 148,
         "PREP": 5,
         "CONJ": 8,
         "DET": 8,
@@ -59551,12 +59795,12 @@
       },
       "AUX|VERB": {
         "PREP": 157,
-        "PUNCT": 54,
+        "PUNCT": 55,
         "PART": 43,
         "PRON": 3,
         "NOUN": 26,
         "DET": 26,
-        "CONJ": 33,
+        "CONJ": 34,
         "ADJ": 7,
         "ADV": 9,
         "NUM": 1,
@@ -59592,7 +59836,7 @@
       },
       "NOUN|PART": {
         "ADJ": 20,
-        "AUX": 30,
+        "AUX": 31,
         "VERB": 156,
         "NOUN": 37,
         "CONJ": 2,
@@ -59615,7 +59859,7 @@
         "PRON": 1,
         "ADJ": 4,
         "DET": 7,
-        "NOUN": 16,
+        "NOUN": 17,
         "CONJ": 4,
         "PART": 2,
         "</S>": 1,
@@ -59692,7 +59936,7 @@
       "VERB|CONJ": {
         "PRON": 15,
         "VERB": 35,
-        "DET": 47,
+        "DET": 48,
         "PUNCT": 3,
         "PROPN": 1,
         "MODAL": 3,
@@ -59716,7 +59960,7 @@
       "PUNCT|PRON": {
         "MODAL": 20,
         "VERB": 6,
-        "AUX": 22,
+        "AUX": 23,
         "ADJ": 1,
         "ADV": 2,
         "PUNCT": 1,
@@ -59760,7 +60004,7 @@
       },
       "NOUN|MODAL": {
         "VERB": 34,
-        "AUX": 44,
+        "AUX": 45,
         "NEG": 5,
         "ADV": 4,
         "NOUN": 5,
@@ -59780,7 +60024,7 @@
         "VERB": 1,
         "CONJ": 7,
         "ADJ": 3,
-        "PREP": 4,
+        "PREP": 5,
         "NOUN": 4,
         "WH": 1
       },
@@ -59797,9 +60041,9 @@
         "NOUN": 2
       },
       "AUX|ADV": {
-        "ADJ": 23,
+        "ADJ": 24,
         "NOUN": 15,
-        "VERB": 62,
+        "VERB": 63,
         "ADV": 6,
         "PREP": 4,
         "DET": 9,
@@ -59814,7 +60058,8 @@
         "ADV": 1,
         "DET": 1,
         "ADJ": 1,
-        "VERB": 2
+        "VERB": 2,
+        "PART": 1
       },
       "ADJ|CONJ": {
         "ADJ": 33,
@@ -59845,7 +60090,7 @@
         "PUNCT": 21,
         "ADJ": 5,
         "NOUN": 17,
-        "DET": 15,
+        "DET": 16,
         "</S>": 9,
         "PROPN": 1,
         "VERB": 2,
@@ -59856,7 +60101,7 @@
         "PART": 1
       },
       "ADV|NOUN": {
-        "PUNCT": 45,
+        "PUNCT": 46,
         "VERB": 4,
         "PROPN": 1,
         "ADV": 1,
@@ -59896,7 +60141,7 @@
         "CONJ": 1
       },
       "PUNCT|PREP": {
-        "DET": 19,
+        "DET": 20,
         "ADJ": 9,
         "NOUN": 32,
         "AUX": 2,
@@ -59924,7 +60169,7 @@
         "ADJ": 5,
         "CONJ": 8,
         "PREP": 2,
-        "NOUN": 21,
+        "NOUN": 22,
         "AUX": 2,
         "PRON": 1
       },
@@ -59955,11 +60200,11 @@
       },
       "ADV|VERB": {
         "PROPN": 3,
-        "DET": 35,
+        "DET": 36,
         "PART": 12,
         "NOUN": 25,
         "CONJ": 27,
-        "PREP": 59,
+        "PREP": 60,
         "WH": 4,
         "PUNCT": 11,
         "ADJ": 8,
@@ -59986,8 +60231,8 @@
         "PRON": 1
       },
       "PUNCT|ADJ": {
-        "NOUN": 50,
-        "PUNCT": 30,
+        "NOUN": 52,
+        "PUNCT": 31,
         "PROPN": 5,
         "PREP": 13,
         "ADJ": 2,
@@ -60012,7 +60257,7 @@
         "PRON": 2,
         "MODAL": 1,
         "PART": 1,
-        "PUNCT": 10,
+        "PUNCT": 11,
         "ADJ": 3,
         "DET": 6,
         "VERB": 7,
@@ -60093,8 +60338,8 @@
         "VERB": 1
       },
       "PUNCT|DET": {
-        "NOUN": 109,
-        "ADJ": 39,
+        "NOUN": 110,
+        "ADJ": 41,
         "VERB": 4,
         "PROPN": 13,
         "PREP": 9,
@@ -60109,7 +60354,7 @@
         "NOUN": 1
       },
       "ADJ|ADJ": {
-        "NOUN": 58,
+        "NOUN": 60,
         "ADJ": 6,
         "PUNCT": 13,
         "AUX": 7,
@@ -60147,7 +60392,7 @@
       },
       "NOUN|WH": {
         "NOUN": 20,
-        "VERB": 10,
+        "VERB": 11,
         "DET": 14,
         "AUX": 10,
         "PRON": 6,
@@ -60157,10 +60402,10 @@
         "PART": 1
       },
       "NOUN|DET": {
-        "NOUN": 212,
-        "ADJ": 74,
-        "CONJ": 22,
-        "ADV": 6,
+        "NOUN": 216,
+        "ADJ": 75,
+        "CONJ": 23,
+        "ADV": 7,
         "PRON": 14,
         "PROPN": 4,
         "PREP": 5,
@@ -60210,7 +60455,7 @@
       "NUM|NOUN": {
         "PREP": 34,
         "VERB": 5,
-        "PUNCT": 18,
+        "PUNCT": 19,
         "AUX": 10,
         "ADJ": 1,
         "MODAL": 1,
@@ -60233,7 +60478,7 @@
         "ADV": 1
       },
       "<S>|PREP": {
-        "NOUN": 68,
+        "NOUN": 69,
         "PROPN": 11,
         "ADJ": 14,
         "DET": 76,
@@ -60281,7 +60526,7 @@
       "MODAL|AUX": {
         "VERB": 47,
         "DET": 10,
-        "ADJ": 17,
+        "ADJ": 18,
         "ADV": 3,
         "PREP": 1,
         "PRON": 2,
@@ -60359,7 +60604,7 @@
         "DET": 1
       },
       "DET|CONJ": {
-        "NOUN": 31,
+        "NOUN": 32,
         "PROPN": 3,
         "DET": 8,
         "ADJ": 5,
@@ -60424,7 +60669,7 @@
       },
       "PREP|NUM": {
         "CONJ": 11,
-        "NOUN": 31,
+        "NOUN": 32,
         "VERB": 2,
         "PREP": 4,
         "ADJ": 2,
@@ -60511,7 +60756,7 @@
         "PREP": 1
       },
       "CONJ|AUX": {
-        "VERB": 13,
+        "VERB": 14,
         "DET": 13,
         "NOUN": 1,
         "ADJ": 7,
@@ -60666,7 +60911,7 @@
       },
       "DET|ADV": {
         "AUX": 3,
-        "VERB": 10,
+        "VERB": 11,
         "NOUN": 12,
         "ADJ": 11,
         "PUNCT": 1
@@ -61054,8 +61299,8 @@
       },
       "to": {
         "the": 72,
-        "be": 35,
-        "a": 31,
+        "be": 36,
+        "a": 32,
         "do": 13,
         "learn": 7,
         "write": 4,
@@ -61063,16 +61308,7 @@
         "overlap": 3,
         "separate": 3,
         "read": 3,
-        "use": 1,
-        "attend": 1,
-        "reach": 1,
-        "extend": 1,
-        "amplify": 2,
-        "an": 1,
-        "one": 1,
-        "have": 1,
-        "wit": 1,
-        "identify": 1
+        "subjects": 1
       },
       "talk": {
         "with": 1,
@@ -61082,7 +61318,7 @@
       },
       "with": {
         "the": 28,
-        "a": 26,
+        "a": 27,
         "their": 7,
         "those": 6,
         "less": 4,
@@ -61091,7 +61327,8 @@
         "antonyms": 3,
         "objects": 3,
         "nouns": 2,
-        "at": 1
+        "at": 1,
+        "every": 1
       },
       "how": {
         "to": 8,
@@ -61125,7 +61362,10 @@
         "commonly": 2,
         "temperature": 2,
         "packaged": 1,
-        "found": 1
+        "found": 1,
+        "phoneticians": 1,
+        "abstract": 1,
+        "defined": 1
       },
       "you": {
         "to": 6,
@@ -61189,7 +61429,8 @@
         "bash": 1,
         "game": 1,
         "this": 1,
-        "english": 1
+        "english": 1,
+        "physics": 1
       },
       "language": {
         "is": 8,
@@ -61213,26 +61454,18 @@
         "with": 1
       },
       "is": {
-        "a": 131,
-        "the": 84,
+        "a": 132,
+        "the": 86,
         "an": 25,
-        "usually": 6,
         "one": 7,
+        "usually": 6,
         "hard": 5,
         "important": 3,
         "vague": 3,
         "good": 3,
         "generally": 3,
-        "mostly": 1,
-        "executing": 1,
-        "full": 1,
-        "fiction": 1,
-        "open": 1,
-        "essential": 1,
-        "emitted": 1,
-        "not": 1,
-        "composed": 1,
-        "presumed": 1
+        "deeply": 1,
+        "traditionally": 1
       },
       "a": {
         "noun": 18,
@@ -61245,13 +61478,7 @@
         "neural": 3,
         "thermodynamic": 3,
         "varying": 3,
-        "transistor": 2,
-        "voltage": 1,
-        "signal": 1,
-        "human": 1,
-        "state": 1,
-        "distinctive": 1,
-        "group": 1
+        "branch": 1
       },
       "for": {
         "the": 26,
@@ -61289,13 +61516,12 @@
         "lesson": 4,
         "variable": 3,
         "listener": 3,
-        "hand": 1,
-        "fundamental": 1,
-        "transistor": 1,
-        "current": 1,
-        "controlled": 1,
-        "controlling": 1,
-        "state": 1
+        "articulation": 1,
+        "field": 1,
+        "minimal": 2,
+        "phone": 1,
+        "phoneme": 1,
+        "smallest": 1
       },
       "brain": {
         "is": 1,
@@ -61407,7 +61633,7 @@
         "built": 1
       },
       "can": {
-        "be": 46,
+        "be": 47,
         "n't": 4,
         "use": 3,
         "seem": 3,
@@ -61455,10 +61681,14 @@
         "object": 1,
         "switch": 1,
         "current": 1,
-        "condition": 1
+        "condition": 1,
+        "social": 1,
+        "a": 1,
+        "objects": 1,
+        "\"": 1
       },
       "it": {
-        "is": 51,
+        "is": 52,
         "was": 15,
         "'s": 9,
         "has": 7,
@@ -61672,7 +61902,13 @@
         "war": 3,
         "against": 3,
         "functions": 2,
-        "is": 1
+        "is": 1,
+        "presentation": 1,
+        "experiments": 1,
+        "especially": 1,
+        "perception": 1,
+        "auditory": 1,
+        "are": 1
       },
       "meanings": {
         "have": 1,
@@ -61721,7 +61957,10 @@
         "sounds": 3,
         "mimic": 3,
         "quantifies": 2,
-        "run": 2
+        "run": 2,
+        "concerns": 1,
+        "mainly": 1,
+        "affect": 1
       },
       "good": {
         "manners": 3,
@@ -61837,7 +62076,8 @@
         "beautiful": 1,
         "issue": 1,
         "complicated": 1,
-        "cup": 1
+        "cup": 1,
+        "differs": 1
       },
       "they": {
         "may": 4,
@@ -61855,7 +62095,7 @@
       },
       "in": {
         "the": 123,
-        "a": 64,
+        "a": 65,
         "english": 17,
         "machine": 8,
         "many": 8,
@@ -61863,16 +62103,7 @@
         "which": 7,
         "c": 6,
         "most": 5,
-        "\"": 4,
-        "terms": 1,
-        "all": 1,
-        "his": 1,
-        "plants": 1,
-        "one": 1,
-        "an": 1,
-        "my": 1,
-        "miniature": 1,
-        "integrated": 1
+        "\"": 4
       },
       "children": {
         "play": 1,
@@ -62007,22 +62238,20 @@
         "at": 1
       },
       "of": {
-        "the": 173,
+        "the": 174,
         "a": 81,
         "an": 19,
         "or": 13,
-        "speech": 8,
+        "speech": 9,
         "information": 7,
         "criteria": 6,
         "other": 5,
         "knowledge": 5,
         "protons": 5,
-        "nuclear": 1,
-        "civil": 1,
-        "modern": 1,
-        "semiconductor": 1,
-        "terminals": 1,
-        "psychological": 1
+        "vocalization": 1,
+        "phonetics": 1,
+        "phonology": 1,
+        "phones": 1
       },
       "reading": {
         "is": 1,
@@ -62117,11 +62346,12 @@
         "turning": 2,
         "are": 1,
         "to": 1,
-        "or": 1,
+        "or": 2,
         "ought": 1,
         "concerned": 1,
         "sharing": 1,
-        "use": 1
+        "use": 1,
+        "living": 1
       },
       "share": {
         "it": 1,
@@ -62227,7 +62457,7 @@
         "exerts": 1,
         "pursues": 1,
         "enjoys": 1,
-        "specialize": 1,
+        "specialize": 2,
         "is": 1
       },
       "made": {
@@ -62364,7 +62594,7 @@
         "off": 1
       },
       "from": {
-        "the": 27,
+        "the": 28,
         "a": 11,
         "one": 4,
         "oxford": 2,
@@ -62413,7 +62643,8 @@
         "british": 1,
         "criminal": 1,
         "when": 1,
-        "to": 1
+        "to": 1,
+        "mathematics": 1
       },
       "down": {
         "from": 2,
@@ -62587,7 +62818,7 @@
       },
       "an": {
         "article": 8,
-        "individual": 8,
+        "individual": 9,
         "expression": 6,
         "artificial": 4,
         "atom": 4,
@@ -63166,7 +63397,8 @@
         "\"": 1,
         "practical": 1,
         "one": 1,
-        "mulch": 1
+        "mulch": 1,
+        "three": 1
       },
       "dissipative": {
         "structures": 1,
@@ -63259,7 +63491,8 @@
         "enzyme-catalyzed": 1,
         "keys": 1,
         "divisions": 1,
-        "types": 1
+        "types": 1,
+        "physical": 1
       },
       "principles": {
         "requires": 1,
@@ -63410,7 +63643,9 @@
       "statistical": {
         "physics": 1,
         "patterns": 1,
-        "software": 1
+        "software": 1,
+        "population": 1,
+        "model": 1
       },
       "has": {
         "a": 17,
@@ -63438,7 +63673,7 @@
         "or": 1
       },
       "including": {
-        "the": 2,
+        "the": 3,
         "japanese": 1,
         "english": 1,
         "your": 1,
@@ -63543,7 +63778,8 @@
         "is": 3,
         "you": 1,
         "of": 1,
-        "that": 1
+        "that": 1,
+        "to": 1
       },
       "inspired": {
         "by": 4,
@@ -63645,7 +63881,9 @@
         "and": 2,
         "was": 1,
         "in": 1,
-        "signal": 1
+        "signal": 1,
+        "sounds": 1,
+        "sound": 1
       },
       "called": {
         "its": 1,
@@ -63745,7 +63983,10 @@
         "cannot": 1,
         "can": 1,
         "happy": 1,
-        "on": 1
+        "on": 1,
+        "all": 1,
+        "or": 1,
+        "every": 1
       },
       "be": {
         "a": 8,
@@ -63762,13 +64003,15 @@
         "careful": 1,
         "committed": 3,
         "in": 1,
-        "higher": 1
+        "higher": 1,
+        "studied": 1,
+        "diverse": 1
       },
       "defined": {
         "for": 4,
         "phenomenon": 1,
         "sense": 1,
-        "as": 5,
+        "as": 6,
         "role": 1,
         "rules": 1,
         "across": 1
@@ -63997,7 +64240,7 @@
       },
       "as": {
         "a": 51,
-        "the": 16,
+        "the": 17,
         "in": 7,
         "not": 4,
         "it": 3,
@@ -64011,7 +64254,8 @@
         "words": 1,
         "affixes": 1,
         "well": 3,
-        "foreign": 3
+        "foreign": 3,
+        "\"": 1
       },
       "itself": {
         "was": 2,
@@ -64117,7 +64361,7 @@
         "or": 1
       },
       "such": {
-        "as": 46,
+        "as": 47,
         "constructs": 2,
         "adaptability": 2,
         "a": 6,
@@ -64228,7 +64472,7 @@
         "or": 1
       },
       "begin": {
-        "with": 3,
+        "with": 4,
         "the": 1,
         "immediately": 1
       },
@@ -64403,7 +64647,7 @@
       "related": {
         "laboratory": 1,
         "words": 3,
-        "to": 8,
+        "to": 9,
         "samples": 1
       },
       "present": {
@@ -64508,7 +64752,7 @@
         "are": 1
       },
       "branch": {
-        "of": 9,
+        "of": 10,
         "n": 1,
         "in": 1
       },
@@ -64600,7 +64844,8 @@
         "when": 1,
         ")": 1,
         "and": 1,
-        "of": 2
+        "of": 2,
+        "wave": 1
       },
       "relating": {
         "to": 13
@@ -64830,7 +65075,8 @@
         "(": 1,
         "or": 1,
         "into": 1,
-        "by": 1
+        "by": 1,
+        "collection": 1
       },
       "using": {
         "our": 1,
@@ -65617,7 +65863,8 @@
         "my": 1,
         "atomic": 1,
         "time": 1,
-        "in": 1
+        "in": 1,
+        "people": 1
       },
       "possible": {
         "permutations": 1,
@@ -65923,7 +66170,7 @@
       },
       "properties": {
         "and": 1,
-        "of": 3,
+        "of": 4,
         "or": 1,
         "intermediate": 1
       },
@@ -66028,7 +66275,8 @@
       },
       "subjects": {
         "and": 1,
-        "at": 1
+        "at": 1,
+        "like": 1
       },
       "predicative": {
         "expressions": 1,
@@ -66564,7 +66812,7 @@
       "field": {
         "programmable": 2,
         "takes": 2,
-        "of": 4,
+        "of": 5,
         "integrates": 1,
         "that": 1,
         "has": 1
@@ -66953,7 +67201,7 @@
         "theories": 1
       },
       "linguists": {
-        "who": 2,
+        "who": 3,
         "working": 1
       },
       "clear": {
@@ -67073,7 +67321,7 @@
       "traditionally": {
         "understood": 2,
         "on": 1,
-        "divided": 1
+        "divided": 2
       },
       "adding": {
         "(": 2,
@@ -67310,7 +67558,8 @@
         "systems": 1,
         "structure": 1,
         "norms": 1,
-        "interactions": 1
+        "interactions": 1,
+        "problem": 1
       },
       "theory": {
         "of": 2,
@@ -67522,7 +67771,8 @@
         "personal": 1,
         "digits": 1,
         "interaction": 1,
-        "is": 1
+        "is": 1,
+        "speech": 1
       },
       "context": {
         "of": 3,
@@ -67555,7 +67805,8 @@
       },
       "differs": {
         "depending": 3,
-        "in": 1
+        "in": 1,
+        "from": 1
       },
       "definition": {
         "used": 3,
@@ -67678,11 +67929,12 @@
         "within": 1,
         "towards": 1,
         "of": 1,
-        "that": 1
+        "that": 1,
+        "such": 1
       },
       "terms": {
         "and": 1,
-        "of": 2,
+        "of": 3,
         "give": 1
       },
       "experience": {
@@ -67757,7 +68009,7 @@
         "and": 1,
         "pattern": 2,
         "projects": 1,
-        "of": 2,
+        "of": 3,
         "ed": 1,
         "proposal": 1
       },
@@ -67996,7 +68248,8 @@
       "groups": {
         "in": 3,
         "were": 1,
-        "or": 1
+        "or": 1,
+        "of": 1
       },
       "fewer": {
         "political": 3,
@@ -68336,7 +68589,8 @@
         "dimensions": 1,
         "staff": 1,
         "civilians": 1,
-        "terminals": 1
+        "terminals": 1,
+        "sub-disciplines": 1
       },
       "heading": {
         ")": 3
@@ -68628,7 +68882,8 @@
         "base": 1,
         "medium": 1,
         "manner": 1,
-        "maturity": 1
+        "maturity": 1,
+        "properties": 1
       },
       "broken": {
         "pipe": 1,
@@ -69942,7 +70197,8 @@
       "mainly": {
         "imitates": 1,
         "in": 1,
-        "of": 2
+        "of": 2,
+        "concerns": 1
       },
       "fix": {
         "it": 2
@@ -70078,7 +70334,7 @@
         "she": 1
       },
       "divided": {
-        "into": 2
+        "into": 3
       },
       "multi-agent": {
         "system": 2,
@@ -70388,7 +70644,7 @@
       "unit": {
         "(": 1,
         "costs": 1,
-        "of": 1
+        "of": 3
       },
       "gru": {
         ")": 1,
@@ -70426,7 +70682,8 @@
       "units": {
         "was": 1,
         "of": 2,
-        "in": 1
+        "in": 1,
+        "that": 1
       },
       "customer": {
         "service": 4,
@@ -70684,7 +70941,8 @@
       "collection": {
         "of": 4,
         "n": 1,
-        "called": 1
+        "called": 1,
+        "in": 1
       },
       "air": {
         "conveys": 1,
@@ -70732,7 +70990,8 @@
       "studying": {
         "towards": 1,
         "the": 1,
-        "numbers": 1
+        "numbers": 1,
+        "these": 1
       },
       "towards": {
         "a": 1,
@@ -71220,7 +71479,8 @@
         "is": 3,
         "and": 1,
         "consists": 1,
-        "that": 2
+        "that": 2,
+        "composing": 1
       },
       "atoms": {
         "and": 2,
@@ -72334,7 +72594,8 @@
       "living": {
         "thing": 1,
         "higher": 1,
-        "organisms": 1
+        "organisms": 1,
+        "in": 1
       },
       "hotel": {
         "to": 1,
@@ -72366,7 +72627,9 @@
         "syllable": 1,
         "detail": 1,
         "black": 1,
-        "saturday": 1
+        "saturday": 1,
+        "atom": 1,
+        "aspect": 1
       },
       "newspaper": {
         "this": 1
@@ -72581,7 +72844,8 @@
         "with": 1,
         "but": 1,
         "and": 1,
-        "is": 1
+        "is": 1,
+        "that": 1
       },
       "ties": {
         "to": 1
@@ -72627,7 +72891,8 @@
       },
       "country": {
         "than": 1,
-        "pop": 1
+        "pop": 1,
+        "\"": 1
       },
       "coating": {
         "is": 1
@@ -72724,7 +72989,7 @@
         "that": 1
       },
       "deals": {
-        "with": 1
+        "with": 2
       },
       "investigated": {
         "by": 1
@@ -72839,7 +73104,8 @@
         "manner": 1
       },
       "applying": {
-        "to": 1
+        "to": 1,
+        "statistics": 1
       },
       "naming": {
         "a": 1
@@ -73186,7 +73452,8 @@
       },
       "perception": {
         "is": 1,
-        "involves": 1
+        "involves": 1,
+        "of": 1
       },
       "interpretation": {
         "and": 1
@@ -73954,7 +74221,8 @@
         "planning": 1
       },
       "planning": {
-        "and": 1
+        "and": 1,
+        "of": 1
       },
       "offices": {
         "still": 1
@@ -74176,7 +74444,8 @@
         "breeze": 1
       },
       "wave": {
-        "traveled": 1
+        "traveled": 1,
+        "properties": 1
       },
       "traveled": {
         "from": 1
@@ -74264,7 +74533,7 @@
         "manner": 1
       },
       "aspect": {
-        "of": 1
+        "of": 2
       },
       "absolute": {
         "or": 1
@@ -74283,7 +74552,8 @@
       },
       "linguistic": {
         "meaning": 1,
-        "description": 1
+        "description": 1,
+        "unit": 2
       },
       "concepts": {
         "associated": 1
@@ -74342,7 +74612,7 @@
         "and": 1
       },
       "specialize": {
-        "in": 1
+        "in": 2
       },
       "international": {
         "pragmatics": 1
@@ -74649,7 +74919,7 @@
         "to": 1
       },
       "smallest": {
-        "units": 1
+        "units": 2
       },
       "morphemes": {
         "include": 1
@@ -74873,14 +75143,85 @@
       },
       "identify": {
         "members": 1
+      },
+      "statistics": {
+        "is": 2,
+        "to": 1,
+        "deals": 1
+      },
+      "discipline": {
+        "that": 1
+      },
+      "concerns": {
+        "the": 2
+      },
+      "presentation": {
+        "of": 1
+      },
+      "conventional": {
+        "to": 1
+      },
+      "population": {
+        "or": 1
+      },
+      "populations": {
+        "can": 1
+      },
+      "diverse": {
+        "groups": 1
+      },
+      "composing": {
+        "a": 1
+      },
+      "crystal": {
+        "\"": 1
+      },
+      "surveys": {
+        "and": 1
+      },
+      "deeply": {
+        "related": 1
+      },
+      "phonetics": {
+        "is": 3
+      },
+      "articulatory": {
+        "phonetics": 1
+      },
+      "acoustic": {
+        "phonetics": 1
+      },
+      "auditory": {
+        "phonetics": 1
+      },
+      "vocalization": {
+        "are": 1
+      },
+      "minimal": {
+        "linguistic": 2
+      },
+      "phonemes": {
+        "are": 1
+      },
+      "language-specific": {
+        "categorizations": 1
+      },
+      "categorizations": {
+        "of": 1
+      },
+      "phones": {
+        "and": 1
+      },
+      "affect": {
+        "meaning": 1
       }
     },
     "starters": {
       "i": 92,
       "how": 6,
       "what": 6,
-      "<NOUN>": 713,
-      "the": 334,
+      "<NOUN>": 720,
+      "the": 335,
       "she": 22,
       "we": 36,
       "it": 85,
@@ -74901,10 +75242,10 @@
       "who": 2,
       "when": 13,
       "you": 14,
-      "<ADV>": 35,
+      "<ADV>": 36,
       "an": 43,
       "however": 2,
-      "in": 121,
+      "in": 122,
       "for": 8,
       "toward": 1,
       "<PART>": 37,
@@ -74912,7 +75253,7 @@
       "his": 10,
       "of": 16,
       "her": 7,
-      "this": 50,
+      "this": 51,
       "these": 17,
       "as": 3,
       "each": 9,
@@ -74972,15 +75313,15 @@
     },
     "connectors": {
       "because": 16,
-      "or": 461,
-      "and": 705,
+      "or": 465,
+      "and": 711,
       "but": 71,
       "so": 31,
       "while": 8,
       "than": 40,
       "therefore": 7,
       "if": 13,
-      "as": 238,
+      "as": 240,
       "however": 3,
       "whether": 5,
       "that": 22,
@@ -75008,7 +75349,7 @@
         "while": 1
       },
       "NOUN>DET": {
-        "or": 34,
+        "or": 35,
         "and": 64,
         "but": 15,
         "if": 3,
@@ -75021,8 +75362,8 @@
         "so": 1
       },
       "NOUN>NOUN": {
-        "and": 308,
-        "or": 188,
+        "and": 312,
+        "or": 190,
         "as": 11,
         "yet": 2,
         "so": 2,
@@ -75070,7 +75411,7 @@
       },
       "ADJ>NOUN": {
         "and": 23,
-        "or": 13,
+        "or": 14,
         "while": 1,
         "as": 1,
         "because": 1,
@@ -75118,7 +75459,7 @@
         "than": 1
       },
       "VERB>DET": {
-        "as": 32,
+        "as": 33,
         "that": 10,
         "and": 3,
         "if": 1,
@@ -75135,7 +75476,7 @@
         "or": 16
       },
       "DET>NOUN": {
-        "as": 30,
+        "as": 31,
         "than": 1
       },
       "VERB>PUNCT": {
@@ -75159,7 +75500,7 @@
         "but": 2
       },
       "NOUN>AUX": {
-        "and": 18,
+        "and": 19,
         "as": 3,
         "but": 3,
         "yet": 1,
@@ -75211,7 +75552,7 @@
         "than": 1
       },
       "NOUN>ADV": {
-        "and": 18,
+        "and": 19,
         "but": 4,
         "than": 2,
         "or": 10,
@@ -77794,44 +78135,15 @@
       "DET NOUN PREP DET NOUN | and | DET NOUN VERB NUM NOUN": 1,
       "PRON VERB PART VERB DET NOUN | but | NOUN AUX DET NOUN PREP DET NOUN DET NOUN": 1,
       "DET NOUN AUX DET NOUN VERB PART VERB CONJ NOUN | and | NOUN": 1,
-      "DET NOUN AUX VERB ADV | but | DET NOUN PREP NOUN AUX VERB PREP VERB NOUN": 1
+      "DET NOUN AUX VERB ADV | but | DET NOUN PREP NOUN AUX VERB PREP VERB NOUN": 1,
+      "NOUN AUX DET NOUN DET NOUN DET NOUN | and | NOUN PREP NOUN": 1,
+      "NOUN PREP DET NOUN PREP NOUN PREP DET NOUN PREP NOUN PREP NOUN PREP DET NOUN PREP NOUN | and | NOUN": 1,
+      "NOUN AUX ADV ADJ PART VERB NOUN | and | ADV NOUN": 1,
+      "NOUN AUX DET NOUN PREP NOUN DET ADV VERB DET NOUN | and | NOUN PREP NOUN": 1,
+      "DET NOUN PREP NOUN AUX ADV VERB PREP NUM NOUN ADJ NOUN | and | NOUN": 1,
+      "NOUN AUX ADJ NOUN PREP NOUN | and | AUX VERB CONJ DET ADJ NOUN DET ADJ NOUN": 1
     },
     "sentence_bank": {
-      "defendant": [
-        "The defendant was charged with murder ."
-      ],
-      "charg": [
-        "The defendant was charged with murder ."
-      ],
-      "woman": [
-        "The woman found dead in her kitchen was murdered by her husband."
-      ],
-      "find": [
-        "I found her latest book to be a very engaging read.",
-        "It was then that they decided to found a society of didgeridoo-playing unicyclists.",
-        "She was surprised to find that her fiancé was a distant relative of hers."
-      ],
-      "killing": [
-        "An act of killing a person unlawfully, especially with predetermination ."
-      ],
-      "policy": [
-        "The Communist Party has a policy of returning power to the workers.",
-        "Your insurance policy covers fire and theft only."
-      ],
-      "print": [
-        "This software can print compact disc inserts if you have the right size of paper.",
-        "Print the draft double-spaced so we can mark changes between the lines.",
-        "The circuitry is printed onto the semiconductor surface."
-      ],
-      "extra": [
-        "Please print extra copies of this policy and post them where it will be easy for everyone to see."
-      ],
-      "insurance": [
-        "Your insurance policy covers fire and theft only."
-      ],
-      "remain": [
-        "He remained passive during the protest."
-      ],
       "passive": [
         "He remained passive during the protest."
       ],
@@ -78337,7 +78649,9 @@
         "Of or pertaining to meteorology."
       ],
       "statistics": [
-        "Of or pertaining to statistics ."
+        "Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data.",
+        "Statistics deals with every aspect of data, including the planning of data collection in terms of the design of surveys and experiments.",
+        "Statistics is deeply related to subjects like physics, chemistry, geography, geopolitics, and especially mathematics."
       ],
       "fifth": [
         "The fifth amendment to the United States constitution provides explicitly for the protection of private property."
@@ -79307,13 +79621,16 @@
         "In linguistics and the philosophy of language, pragmatics is the study of how context contributes to meaning."
       ],
       "field": [
-        "This field of study evaluates how human language is utilized in social interactions, as well as the relationship between the interpreter and the interpreted."
+        "This field of study evaluates how human language is utilized in social interactions, as well as the relationship between the interpreter and the interpreted.",
+        "The field of phonetics is traditionally divided into three sub-disciplines: articulatory phonetics, acoustic phonetics, and auditory phonetics."
       ],
       "linguists": [
-        "Linguists who specialize in pragmatics are called pragmaticians."
+        "Linguists who specialize in pragmatics are called pragmaticians.",
+        "Linguists who specialize in studying these physical properties of vocalization are phoneticians."
       ],
       "specialize": [
-        "Linguists who specialize in pragmatics are called pragmaticians."
+        "Linguists who specialize in pragmatics are called pragmaticians.",
+        "Linguists who specialize in studying these physical properties of vocalization are phoneticians."
       ],
       "theory": [
         "Set theory is the branch of mathematical logic that studies sets, which can be informally described as collections of unique objects."
@@ -79746,6 +80063,38 @@
       ],
       "outfit": [
         "A distinctive outfit that serves to identify members of a group."
+      ],
+      "discipline": [
+        "Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data."
+      ],
+      "deals": [
+        "Statistics deals with every aspect of data, including the planning of data collection in terms of the design of surveys and experiments."
+      ],
+      "related": [
+        "Statistics is deeply related to subjects like physics, chemistry, geography, geopolitics, and especially mathematics."
+      ],
+      "phonetics": [
+        "Phonetics is a branch of linguistics that mainly concerns the articulation, sound wave properties, and perception of speech sounds.",
+        "The field of phonetics is traditionally divided into three sub-disciplines: articulatory phonetics, acoustic phonetics, and auditory phonetics."
+      ],
+      "branch": [
+        "Phonetics is a branch of linguistics that mainly concerns the articulation, sound wave properties, and perception of speech sounds."
+      ],
+      "minimal": [
+        "Traditionally, the minimal linguistic unit of phonetics is the phone, an individual speech sound.",
+        "This differs from the minimal linguistic unit of phonology, the phoneme."
+      ],
+      "linguistic": [
+        "Traditionally, the minimal linguistic unit of phonetics is the phone, an individual speech sound."
+      ],
+      "differs": [
+        "This differs from the minimal linguistic unit of phonology, the phoneme."
+      ],
+      "phonemes": [
+        "Phonemes are abstract, language-specific categorizations of phones and are defined as the smallest units that affect meaning."
+      ],
+      "abstract": [
+        "Phonemes are abstract, language-specific categorizations of phones and are defined as the smallest units that affect meaning."
       ]
     }
   },
