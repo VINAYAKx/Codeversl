@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.53,
+    "adenosine": 0.5900000000000001,
     "newborn": false
   },
   "episodic_memory": [
@@ -2875,6 +2875,20 @@
       "time": "2026-10-28 21:11:50",
       "speaker": "brain",
       "text": "I wondered about 'Geopolitics' by myself and went searching. From Wikipedia (live internet) I learned: Geopolitics is the study of the effects of Earth's geography on politics and international relations. Key ideas I stored: sub-national geopolitical entities, quasi-federal system, geopolitics, confederation, geography.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-28 21:13:53",
+      "speaker": "brain",
+      "text": "I practised my English because I want to talk with you more naturally. I learned 2 new words: 'track' (a noun) means a mark left by something that has passed along; 'going' (a verb) means to move:. I practised with the sentences I already hold instead. Now I know 1081 words, I have studied 2713 sentences, and I have 234 sentence patterns.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-28 21:15:50",
+      "speaker": "brain",
+      "text": "I wondered about 'Dark matter' by myself and went searching. From Wikipedia (live internet) I learned: In astronomy and cosmology, dark matter is an invisible and hypothetical form of matter that does not interact with electromagnetic radiation, including light. Key ideas I stored: cosmic microwave background anisotropies, dark matter, electromagnetic radiation, gravitational lensing, galaxy clusters.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -7426,6 +7440,20 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Geopolitics",
       "learned": "2026-10-28 21:11:50"
+    },
+    "Dark matter": {
+      "summary": "In astronomy and cosmology, dark matter is an invisible and hypothetical form of matter that does not interact with electromagnetic radiation, including light. Dark matter is implied by gravitational effects that cannot be explained by general relativity unless more matter is present than can be observed. Such effects occur in the context of formation and evolution of galaxies, gravitational lensing, the observable universe's current structure, mass position in galactic collisions, the motion of galaxies within galaxy clusters, and cosmic microwave background anisotropies. Dark matter is thought to serve as gravitational scaffolding for cosmic structures.",
+      "concepts": [
+        "cosmic microwave background anisotropies",
+        "dark matter",
+        "electromagnetic radiation",
+        "gravitational lensing",
+        "galaxy clusters",
+        "gravitational scaffolding"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "learned": "2026-10-28 21:15:50"
     }
   },
   "creator_teachings": [
@@ -8659,6 +8687,18 @@
       "kind": "explore_report",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-28 21:13:53",
+      "kind": "language_lesson",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-28 21:15:50",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -8840,7 +8880,8 @@
     "word cosmos",
     "meta-ethics",
     "interpreter",
-    "geopolitics"
+    "geopolitics",
+    "dark matter"
   ],
   "sensory_log": [
     {
@@ -59389,23 +59430,37 @@
       "source": "corpus",
       "learned": "2026-10-28 21:13:52",
       "uses": 1
+    },
+    "gravitational": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Dark matter is implied by gravitational effects that cannot be explained by general relativity unless more matter is present than can be observed."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-28 21:15:50",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 2713,
-      "tokens": 37286,
+      "sentences": 2716,
+      "tokens": 37349,
       "sources": {
         "seed corpus": 64,
         "conversation": 36,
         "dictionary": 1498,
-        "explore": 426,
+        "explore": 429,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "95b11799b20e",
         "69e3ae6618bc",
         "0b27c1025bba",
         "84faa5adaf33",
@@ -59704,10 +59759,11 @@
         "2015f1179186",
         "9453ebeb5fa6",
         "a990fe82afad",
-        "8b0e62dee0c0"
+        "8b0e62dee0c0",
+        "d2c8a4df8e6d"
       ],
       "seeded": true,
-      "rejected": 608,
+      "rejected": 609,
       "vocab_counts": {
         "organ": 1,
         "thank": 1,
@@ -61403,7 +61459,6 @@
         "trillion": 1,
         "orbiting": 1,
         "nebulae": 1,
-        "gravitational": 1,
         "draws": 1,
         "consequences": 1,
         "dates": 1,
@@ -62168,14 +62223,20 @@
         "anymore": 1,
         "thee": 1,
         "goes": 1,
-        "ice": 1
+        "ice": 1,
+        "astronomy": 1,
+        "invisible": 1,
+        "hypothetical": 1,
+        "implied": 1,
+        "scaffolding": 1,
+        "cosmic": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
         "PRON": 398,
         "WH": 32,
-        "NOUN": 745,
+        "NOUN": 747,
         "DET": 770,
         "VERB": 282,
         "MODAL": 7,
@@ -62184,13 +62245,13 @@
         "CONJ": 32,
         "AUX": 18,
         "ADV": 38,
-        "PREP": 196,
+        "PREP": 197,
         "PART": 43,
         "NUM": 10,
         "NEG": 4
       },
       "PRON": {
-        "AUX": 317,
+        "AUX": 318,
         "PUNCT": 90,
         "ADV": 23,
         "VERB": 380,
@@ -62208,13 +62269,13 @@
         "NEG": 1
       },
       "AUX": {
-        "ADJ": 280,
+        "ADJ": 281,
         "PRON": 22,
         "PUNCT": 12,
-        "DET": 423,
+        "DET": 424,
         "NOUN": 94,
-        "NEG": 64,
-        "VERB": 384,
+        "NEG": 65,
+        "VERB": 388,
         "INTJ": 1,
         "ADV": 135,
         "CONJ": 17,
@@ -62227,11 +62288,11 @@
       },
       "ADJ": {
         "PART": 47,
-        "NOUN": 1801,
+        "NOUN": 1807,
         "WH": 5,
         "PUNCT": 289,
         "PREP": 188,
-        "CONJ": 112,
+        "CONJ": 114,
         "PROPN": 37,
         "ADJ": 118,
         "DET": 40,
@@ -62245,7 +62306,7 @@
         "NEG": 1
       },
       "PART": {
-        "VERB": 427,
+        "VERB": 428,
         "AUX": 68,
         "ADJ": 35,
         "NOUN": 56,
@@ -62257,16 +62318,16 @@
         "DET": 1
       },
       "VERB": {
-        "PREP": 688,
-        "PART": 144,
+        "PREP": 690,
+        "PART": 145,
         "ADJ": 104,
         "NOUN": 672,
-        "PUNCT": 305,
+        "PUNCT": 306,
         "PRON": 140,
         "AUX": 36,
         "DET": 535,
         "VERB": 61,
-        "CONJ": 220,
+        "CONJ": 221,
         "WH": 29,
         "</S>": 15,
         "ADV": 73,
@@ -62277,12 +62338,12 @@
       },
       "PREP": {
         "PRON": 97,
-        "NOUN": 1283,
+        "NOUN": 1286,
         "DET": 1413,
         "PUNCT": 71,
         "VERB": 111,
         "PREP": 35,
-        "ADJ": 343,
+        "ADJ": 347,
         "PROPN": 133,
         "AUX": 23,
         "NUM": 66,
@@ -62293,13 +62354,13 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 2530,
-        "NOUN": 713,
+        "</S>": 2533,
+        "NOUN": 714,
         "CONJ": 392,
         "PRON": 59,
         "VERB": 94,
         "ADV": 103,
-        "PREP": 88,
+        "PREP": 89,
         "ADJ": 117,
         "DET": 213,
         "WH": 48,
@@ -62346,28 +62407,28 @@
         "WH": 3
       },
       "NOUN": {
-        "AUX": 730,
-        "PREP": 2159,
-        "NOUN": 2180,
-        "PUNCT": 3370,
-        "CONJ": 837,
+        "AUX": 735,
+        "PREP": 2162,
+        "NOUN": 2184,
+        "PUNCT": 3374,
+        "CONJ": 839,
         "VERB": 590,
         "ADV": 103,
         "PART": 272,
         "ADJ": 281,
         "MODAL": 100,
         "</S>": 149,
-        "PRON": 170,
+        "PRON": 171,
         "WH": 72,
-        "DET": 405,
+        "DET": 406,
         "PROPN": 110,
         "NUM": 14,
         "NEG": 7,
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 2646,
-        "ADJ": 1107,
+        "NOUN": 2647,
+        "ADJ": 1108,
         "PRON": 28,
         "PREP": 62,
         "NUM": 57,
@@ -62385,9 +62446,9 @@
       "CONJ": {
         "PRON": 114,
         "DET": 301,
-        "NOUN": 805,
+        "NOUN": 807,
         "VERB": 140,
-        "ADJ": 161,
+        "ADJ": 163,
         "ADV": 61,
         "PUNCT": 18,
         "WH": 19,
@@ -62396,7 +62457,7 @@
         "NUM": 7,
         "AUX": 43,
         "PROPN": 49,
-        "MODAL": 16,
+        "MODAL": 17,
         "NEG": 7,
         "PART": 8
       },
@@ -62405,7 +62466,7 @@
         "PRON": 8,
         "DET": 3,
         "CONJ": 3,
-        "AUX": 91,
+        "AUX": 92,
         "NOUN": 17,
         "NEG": 16,
         "ADV": 17,
@@ -62414,7 +62475,7 @@
       },
       "NEG": {
         "VERB": 54,
-        "NOUN": 8,
+        "NOUN": 9,
         "DET": 9,
         "AUX": 9,
         "PREP": 7,
@@ -62484,7 +62545,7 @@
       "PRON|AUX": {
         "ADJ": 58,
         "DET": 76,
-        "NEG": 31,
+        "NEG": 32,
         "VERB": 71,
         "INTJ": 1,
         "ADV": 36,
@@ -62504,7 +62565,7 @@
         "PREP": 52,
         "DET": 13,
         "NOUN": 47,
-        "CONJ": 18,
+        "CONJ": 19,
         "ADJ": 12,
         "VERB": 13,
         "NUM": 4,
@@ -62528,7 +62589,7 @@
         "DET": 99,
         "PART": 5,
         "NUM": 6,
-        "CONJ": 42,
+        "CONJ": 43,
         "PRON": 19,
         "VERB": 10,
         "ADV": 6,
@@ -62542,7 +62603,7 @@
         "NOUN": 198,
         "PUNCT": 23,
         "VERB": 23,
-        "ADJ": 63,
+        "ADJ": 65,
         "PREP": 17,
         "NUM": 18,
         "PROPN": 29,
@@ -62644,7 +62705,7 @@
       },
       "VERB|PART": {
         "AUX": 21,
-        "VERB": 100,
+        "VERB": 101,
         "ADJ": 5,
         "WH": 1,
         "CONJ": 9,
@@ -62674,7 +62735,7 @@
         "AUX": 143,
         "VERB": 74,
         "PUNCT": 23,
-        "NOUN": 292,
+        "NOUN": 294,
         "CONJ": 26,
         "PREP": 63,
         "PROPN": 17,
@@ -62687,11 +62748,11 @@
         "INTJ": 2
       },
       "NOUN|AUX": {
-        "DET": 240,
-        "ADJ": 131,
+        "DET": 241,
+        "ADJ": 132,
         "NOUN": 52,
         "ADV": 83,
-        "VERB": 148,
+        "VERB": 151,
         "CONJ": 9,
         "NUM": 10,
         "NEG": 15,
@@ -62705,7 +62766,7 @@
       },
       "AUX|DET": {
         "NOUN": 213,
-        "ADJ": 168,
+        "ADJ": 169,
         "PROPN": 8,
         "VERB": 6,
         "PREP": 4,
@@ -62716,7 +62777,7 @@
       },
       "DET|NOUN": {
         "PREP": 825,
-        "AUX": 232,
+        "AUX": 233,
         "CONJ": 202,
         "PUNCT": 607,
         "VERB": 174,
@@ -62733,10 +62794,10 @@
         "NUM": 3
       },
       "NOUN|PREP": {
-        "NOUN": 820,
+        "NOUN": 821,
         "DET": 805,
         "PREP": 11,
-        "ADJ": 214,
+        "ADJ": 216,
         "PROPN": 61,
         "VERB": 66,
         "PUNCT": 26,
@@ -62749,14 +62810,14 @@
       },
       "PREP|NOUN": {
         "NOUN": 195,
-        "PUNCT": 392,
+        "PUNCT": 393,
         "VERB": 54,
-        "CONJ": 152,
+        "CONJ": 153,
         "ADJ": 29,
         "DET": 55,
         "AUX": 36,
         "PREP": 149,
-        "PRON": 31,
+        "PRON": 32,
         "</S>": 122,
         "WH": 6,
         "PART": 37,
@@ -62773,7 +62834,7 @@
         "CONJ": 122,
         "VERB": 85,
         "PROPN": 46,
-        "AUX": 92,
+        "AUX": 96,
         "MODAL": 20,
         "ADJ": 49,
         "NUM": 4,
@@ -62785,11 +62846,11 @@
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 1953,
-        "NOUN": 476,
+        "</S>": 1955,
+        "NOUN": 477,
         "CONJ": 283,
         "ADV": 74,
-        "PREP": 63,
+        "PREP": 64,
         "ADJ": 81,
         "DET": 147,
         "VERB": 71,
@@ -62817,7 +62878,7 @@
       },
       "DET|ADJ": {
         "NOUN": 891,
-        "CONJ": 32,
+        "CONJ": 33,
         "ADJ": 43,
         "PUNCT": 44,
         "VERB": 29,
@@ -62832,13 +62893,13 @@
         "NUM": 5
       },
       "ADJ|NOUN": {
-        "PUNCT": 595,
+        "PUNCT": 597,
         "NOUN": 264,
         "MODAL": 15,
         "VERB": 90,
-        "PREP": 374,
-        "CONJ": 153,
-        "DET": 63,
+        "PREP": 376,
+        "CONJ": 154,
+        "DET": 64,
         "ADJ": 23,
         "AUX": 95,
         "PART": 59,
@@ -62879,7 +62940,7 @@
         "PRON": 25,
         "DET": 134,
         "VERB": 46,
-        "NOUN": 448,
+        "NOUN": 450,
         "ADJ": 64,
         "WH": 7,
         "PREP": 26,
@@ -62948,7 +63009,7 @@
       },
       "PUNCT|NOUN": {
         "CONJ": 52,
-        "NOUN": 115,
+        "NOUN": 116,
         "ADJ": 8,
         "PUNCT": 372,
         "PREP": 77,
@@ -62979,7 +63040,7 @@
         "NUM": 3
       },
       "VERB|PUNCT": {
-        "</S>": 192,
+        "</S>": 193,
         "PRON": 10,
         "CONJ": 19,
         "NOUN": 39,
@@ -63130,12 +63191,12 @@
       },
       "CONJ|NOUN": {
         "AUX": 27,
-        "PUNCT": 221,
+        "PUNCT": 222,
         "</S>": 3,
         "PREP": 160,
         "VERB": 29,
         "WH": 10,
-        "NOUN": 219,
+        "NOUN": 220,
         "PRON": 17,
         "PART": 18,
         "CONJ": 33,
@@ -63175,7 +63236,7 @@
       },
       "AUX|NEG": {
         "VERB": 34,
-        "NOUN": 3,
+        "NOUN": 4,
         "AUX": 3,
         "PREP": 3,
         "ADV": 8,
@@ -63208,9 +63269,9 @@
         "PROPN": 1
       },
       "AUX|VERB": {
-        "PREP": 167,
-        "PUNCT": 56,
-        "PART": 44,
+        "PREP": 169,
+        "PUNCT": 57,
+        "PART": 45,
         "PRON": 4,
         "NOUN": 28,
         "DET": 27,
@@ -63357,7 +63418,7 @@
         "MODAL": 3,
         "NOUN": 75,
         "AUX": 2,
-        "ADJ": 13,
+        "ADJ": 14,
         "NEG": 2,
         "WH": 4,
         "ADV": 3,
@@ -63478,7 +63539,7 @@
         "PART": 1
       },
       "ADJ|CONJ": {
-        "ADJ": 36,
+        "ADJ": 37,
         "NOUN": 34,
         "ADV": 4,
         "AUX": 3,
@@ -63486,11 +63547,12 @@
         "PRON": 6,
         "PROPN": 2,
         "VERB": 6,
-        "PREP": 1
+        "PREP": 1,
+        "MODAL": 1
       },
       "CONJ|ADJ": {
         "PUNCT": 17,
-        "NOUN": 105,
+        "NOUN": 107,
         "ADJ": 8,
         "CONJ": 7,
         "VERB": 11,
@@ -63561,7 +63623,7 @@
       "PUNCT|PREP": {
         "DET": 22,
         "ADJ": 10,
-        "NOUN": 35,
+        "NOUN": 36,
         "AUX": 2,
         "PRON": 3,
         "VERB": 3,
@@ -63664,7 +63726,7 @@
         "CONJ": 11,
         "PROPN": 8,
         "ADJ": 24,
-        "NOUN": 252,
+        "NOUN": 256,
         "PUNCT": 22,
         "AUX": 4,
         "VERB": 10,
@@ -63712,7 +63774,7 @@
       },
       "NOUN|PRON": {
         "VERB": 62,
-        "AUX": 52,
+        "AUX": 53,
         "PREP": 10,
         "MODAL": 24,
         "PRON": 1,
@@ -63824,7 +63886,7 @@
         "PART": 1
       },
       "NOUN|DET": {
-        "NOUN": 236,
+        "NOUN": 237,
         "ADJ": 77,
         "CONJ": 24,
         "ADV": 7,
@@ -63900,7 +63962,7 @@
         "ADV": 1
       },
       "<S>|PREP": {
-        "NOUN": 71,
+        "NOUN": 72,
         "PROPN": 11,
         "ADJ": 15,
         "DET": 79,
@@ -63946,7 +64008,7 @@
         "DET": 1
       },
       "MODAL|AUX": {
-        "VERB": 47,
+        "VERB": 48,
         "DET": 11,
         "ADJ": 19,
         "ADV": 3,
@@ -64165,7 +64227,7 @@
       "NEG|NOUN": {
         "DET": 1,
         "PRON": 2,
-        "PREP": 1,
+        "PREP": 2,
         "PUNCT": 2,
         "CONJ": 1,
         "VERB": 1
@@ -64242,7 +64304,7 @@
       },
       "CONJ|MODAL": {
         "VERB": 4,
-        "AUX": 2,
+        "AUX": 3,
         "ADV": 7,
         "NEG": 1,
         "NOUN": 1,
@@ -64751,7 +64813,8 @@
         "implement": 1,
         "ensure": 1,
         "lunch": 1,
-        "facilitate": 1
+        "facilitate": 1,
+        "serve": 1
       },
       "talk": {
         "with": 1,
@@ -64770,7 +64833,8 @@
         "antonyms": 3,
         "objects": 3,
         "nouns": 2,
-        "thee": 1
+        "thee": 1,
+        "electromagnetic": 1
       },
       "how": {
         "to": 8,
@@ -64893,7 +64957,7 @@
       "is": {
         "a": 142,
         "the": 100,
-        "an": 25,
+        "an": 26,
         "one": 7,
         "usually": 7,
         "hard": 5,
@@ -64906,7 +64970,10 @@
         "reflected": 1,
         "translation": 1,
         "distinguished": 1,
-        "not": 1
+        "not": 1,
+        "implied": 1,
+        "present": 1,
+        "thought": 1
       },
       "a": {
         "noun": 18,
@@ -64946,7 +65013,8 @@
         "one": 1,
         "solving": 1,
         "defensive": 1,
-        "working": 1
+        "working": 1,
+        "cosmic": 1
       },
       "sharing": {
         "ideas": 1,
@@ -65089,7 +65157,7 @@
         "bought": 1
       },
       "can": {
-        "be": 48,
+        "be": 49,
         "n't": 4,
         "use": 3,
         "seem": 3,
@@ -65240,7 +65308,8 @@
         "pieces": 1,
         "players": 1,
         "fundamental": 1,
-        "deliberative": 1
+        "deliberative": 1,
+        "matter": 1
       },
       "learning": {
         "is": 6,
@@ -65383,7 +65452,9 @@
         "services": 1,
         "make": 1,
         "tools": 1,
-        "international": 1
+        "international": 1,
+        "cosmology": 1,
+        "hypothetical": 1
       },
       "meanings": {
         "have": 1,
@@ -65407,7 +65478,8 @@
       "explained": {
         "the": 1,
         "collection": 1,
-        "to": 1
+        "to": 1,
+        "by": 1
       },
       "lesson": {
         "slowly": 1,
@@ -65428,21 +65500,12 @@
         "the": 7,
         "a": 6,
         "are": 4,
+        "studies": 4,
         "description": 3,
         "sounds": 3,
         "mimic": 3,
-        "studies": 4,
         "quantifies": 2,
-        "bind": 1,
-        "translates": 1,
-        "models": 1,
-        "each": 1,
-        "functions": 1,
-        "human": 1,
-        "examines": 1,
-        "it": 1,
-        "i": 1,
-        "has": 1
+        "cannot": 1
       },
       "good": {
         "manners": 3,
@@ -65502,7 +65565,8 @@
         "only": 1,
         "proceed": 1,
         "as": 1,
-        "lonely": 1
+        "lonely": 1,
+        "interact": 1
       },
       "know": {
         "the": 1,
@@ -65609,7 +65673,8 @@
         "traits": 1,
         "quantum": 1,
         "italian": 1,
-        "real": 1
+        "real": 1,
+        "astronomy": 1
       },
       "children": {
         "play": 1,
@@ -65764,7 +65829,8 @@
         "gardening": 1,
         "light": 1,
         "external": 1,
-        "earth": 1
+        "earth": 1,
+        "matter": 1
       },
       "reading": {
         "is": 1,
@@ -65956,7 +66022,7 @@
       },
       "does": {
         "the": 1,
-        "not": 4,
+        "not": 5,
         "more": 1,
         "n't": 1,
         "or": 1,
@@ -66091,7 +66157,7 @@
         "long": 1,
         "them": 1,
         "wherever": 1,
-        "to": 1,
+        "to": 2,
         "or": 1,
         "he": 1
       },
@@ -66339,7 +66405,8 @@
         "application": 3,
         "organism": 3,
         "update": 2,
-        "alarm": 1
+        "alarm": 1,
+        "invisible": 1
       },
       "update": {
         "to": 1,
@@ -66510,7 +66577,7 @@
         "of": 4
       },
       "form": {
-        "of": 14,
+        "of": 15,
         "questions": 3,
         "the": 2,
         "noun": 1,
@@ -66655,7 +66722,9 @@
         "alexander": 1,
         "introducing": 1,
         "an": 1,
-        "something": 1
+        "something": 1,
+        "gravitational": 1,
+        "general": 1
       },
       "thermodynamic": {
         "efficiency": 2,
@@ -66722,7 +66791,8 @@
         "global": 1,
         "merely": 1,
         "fly": 1,
-        "other": 1
+        "other": 1,
+        "can": 1
       },
       "global": {
         "gradient": 2,
@@ -66895,10 +66965,11 @@
         "made": 1,
         "in": 1,
         "cohering": 1,
-        "that": 1,
+        "that": 2,
         "ranges": 1,
         "bound": 1,
-        "or": 1
+        "or": 1,
+        "is": 4
       },
       "into": {
         "a": 14,
@@ -67199,7 +67270,7 @@
         "astronomers": 1,
         "shipping": 1,
         "both": 1,
-        "light": 1,
+        "light": 2,
         "matter": 1,
         "aristotle": 1
       },
@@ -67515,7 +67586,9 @@
         "the": 2,
         "there": 1,
         "patient": 1,
-        "more": 1
+        "more": 1,
+        "explained": 1,
+        "observed": 1
       },
       "defined": {
         "for": 4,
@@ -67778,7 +67851,8 @@
         "different": 1,
         "\"": 1,
         "an": 1,
-        "main": 1
+        "main": 1,
+        "gravitational": 1
       },
       "itself": {
         "was": 2,
@@ -68172,7 +68246,8 @@
         "(": 1,
         "in": 6,
         "day": 2,
-        "worldwide": 1
+        "worldwide": 1,
+        "than": 1
       },
       "participle": {
         "and": 24,
@@ -68912,7 +68987,7 @@
         "intelligence": 3,
         "eisenhower": 1,
         "are": 1,
-        "relativity": 5,
+        "relativity": 6,
         "nature": 1,
         "sense": 1,
         "form": 1
@@ -72081,7 +72156,7 @@
         "thus": 1
       },
       "cannot": {
-        "be": 2,
+        "be": 3,
         "ordinarily": 1,
         "v": 1,
         "always": 1,
@@ -73238,7 +73313,7 @@
         "n": 1
       },
       "serve": {
-        "as": 2,
+        "as": 3,
         "is": 1
       },
       "focused": {
@@ -73835,7 +73910,7 @@
         "such": 1
       },
       "interact": {
-        "with": 4,
+        "with": 5,
         "in": 1
       },
       "modeling": {
@@ -75047,7 +75122,7 @@
         "extends": 2
       },
       "electromagnetic": {
-        "radiation": 5,
+        "radiation": 6,
         "field": 1,
         "force": 1,
         "phenomenon": 2,
@@ -76175,7 +76250,7 @@
         "'s": 1
       },
       "dark": {
-        "matter": 2
+        "matter": 5
       },
       "center": {
         "of": 3
@@ -77834,7 +77909,8 @@
       "relativity": {
         "also": 1,
         "generalizes": 1,
-        "and": 1
+        "and": 1,
+        "unless": 1
       },
       "spacetime": {
         "is": 2,
@@ -79842,7 +79918,8 @@
         "is": 1
       },
       "effects": {
-        "of": 1
+        "of": 1,
+        "that": 1
       },
       "geography": {
         "on": 1
@@ -79881,13 +79958,38 @@
       },
       "husband": {
         "the": 1
+      },
+      "astronomy": {
+        "and": 1
+      },
+      "invisible": {
+        "and": 1
+      },
+      "hypothetical": {
+        "form": 1
+      },
+      "implied": {
+        "by": 1
+      },
+      "gravitational": {
+        "effects": 1,
+        "scaffolding": 1
+      },
+      "unless": {
+        "more": 1
+      },
+      "scaffolding": {
+        "for": 1
+      },
+      "cosmic": {
+        "structures": 1
       }
     },
     "starters": {
       "i": 103,
       "how": 6,
       "what": 6,
-      "<NOUN>": 745,
+      "<NOUN>": 747,
       "the": 361,
       "she": 23,
       "we": 39,
@@ -79912,7 +80014,7 @@
       "<ADV>": 38,
       "an": 47,
       "however": 2,
-      "in": 126,
+      "in": 127,
       "for": 8,
       "toward": 1,
       "<PART>": 43,
@@ -79981,14 +80083,14 @@
     "connectors": {
       "because": 16,
       "or": 507,
-      "and": 760,
+      "and": 762,
       "but": 80,
       "so": 35,
       "while": 8,
-      "than": 48,
+      "than": 49,
       "therefore": 7,
       "if": 14,
-      "as": 258,
+      "as": 259,
       "however": 3,
       "whether": 5,
       "that": 25,
@@ -79999,7 +80101,7 @@
       "nor": 5,
       "although": 3,
       "whereas": 2,
-      "unless": 1
+      "unless": 2
     },
     "connector_pairs": {
       "NOUN>PRON": {
@@ -80031,7 +80133,7 @@
         "once": 1
       },
       "NOUN>NOUN": {
-        "and": 334,
+        "and": 335,
         "or": 205,
         "as": 12,
         "yet": 2,
@@ -80041,7 +80143,8 @@
         "although": 1,
         "because": 2,
         "whether": 1,
-        "while": 1
+        "while": 1,
+        "unless": 1
       },
       "NOUN>VERB": {
         "and": 38,
@@ -80074,7 +80177,7 @@
         "once": 1
       },
       "ADJ>ADJ": {
-        "and": 20,
+        "and": 21,
         "or": 19,
         "as": 1,
         "nor": 1
@@ -80261,7 +80364,7 @@
       },
       "VERB>ADJ": {
         "and": 3,
-        "as": 6,
+        "as": 7,
         "or": 4,
         "that": 1
       },
@@ -80358,7 +80461,8 @@
       },
       "ADJ>MODAL": {
         "and": 1,
-        "or": 1
+        "or": 1,
+        "than": 1
       },
       "ADV>ADJ": {
         "as": 4
@@ -83008,17 +83112,6 @@
       "NOUN AUX DET NOUN PREP DET NOUN PREP NOUN PART VERB PREP NOUN | and | ADJ NOUN": 1
     },
     "sentence_bank": {
-      "nearby": [
-        "From or in a nearby location ."
-      ],
-      "stop": [
-        "We'll stop at the knife store and look at the sharp pretties ."
-      ],
-      "need": [
-        "We need to tend to the garden, which has become a mess.",
-        "We need a minimum of three staff members on duty at all time.",
-        "I need to make a run to the store."
-      ],
       "weather": [
         "All I need to weather a snowstorm is hot coffee, a warm fire, a good book and a comfortable chair ."
       ],
@@ -83026,7 +83119,8 @@
         "Bob will chair tomorrow's meeting."
       ],
       "cosmology": [
-        "Cosmology is the study of the nature of the universe, the cosmos."
+        "Cosmology is the study of the nature of the universe, the cosmos.",
+        "In astronomy and cosmology, dark matter is an invisible and hypothetical form of matter that does not interact with electromagnetic radiation, including light."
       ],
       "mouth": [
         "The mouth of the river is a good place to go birdwatching in spring and autumn.",
@@ -84962,6 +85056,17 @@
       ],
       "lonely": [
         "Thy going is not lonely, with thee goes thy Husband The going was very difficult over the ice."
+      ],
+      "astronomy": [
+        "In astronomy and cosmology, dark matter is an invisible and hypothetical form of matter that does not interact with electromagnetic radiation, including light."
+      ],
+      "dark": [
+        "Dark matter is implied by gravitational effects that cannot be explained by general relativity unless more matter is present than can be observed.",
+        "Dark matter is thought to serve as gravitational scaffolding for cosmic structures."
+      ],
+      "matter": [
+        "Dark matter is implied by gravitational effects that cannot be explained by general relativity unless more matter is present than can be observed.",
+        "Dark matter is thought to serve as gravitational scaffolding for cosmic structures."
       ]
     }
   },
@@ -85278,7 +85383,8 @@
       "receives",
       "perceived",
       "absence",
-      "snow"
+      "snow",
+      "gravitational"
     ],
     "names": [],
     "lessons": 127,
