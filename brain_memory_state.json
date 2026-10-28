@@ -2,7 +2,7 @@
   "meta": {
     "created": "2026-10-20 15:07:00",
     "creator_signature": "677a410903a19f3307ea34c4701fe4dbd912e9262a0208612c61372d4a47b330",
-    "last_interaction": 1793154201.953247,
+    "last_interaction": 1793177892.2468948,
     "sleep_cycles": 46,
     "births": 1
   },
@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.38,
+    "adenosine": 0.42,
     "newborn": false
   },
   "episodic_memory": [
@@ -52622,29 +52622,88 @@
     },
     "private": {
       "part_of_speech": "noun",
-      "definition": "",
+      "definition": "A soldier of the lowest rank in the army.",
       "all_pos": [
-        "noun"
+        "noun",
+        "adjective"
       ],
-      "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-24 18:05:54",
-      "uses": 1
+      "synonyms": [
+        "bit",
+        "private parts",
+        "secret",
+        "personal",
+        "secluded"
+      ],
+      "example_sentences": [
+        "Her address is private; you can't have it.",
+        "private property"
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "A soldier of the lowest rank in the army.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "A doctor working in privately rather than publicly funded health care.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Belonging to, concerning, or accessible only to an individual person or a specific group.",
+          "example": "Her address is private; you can't have it."
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Not accessible by the public.",
+          "example": "private property"
+        }
+      ],
+      "phonetic": "/ˈpɹaɪvət/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-10-28 08:58:11",
+      "uses": 1,
+      "tags": []
     },
     "public": {
-      "part_of_speech": "adjective",
-      "definition": "",
+      "part_of_speech": "noun",
+      "definition": "The people in general, regardless of membership of any particular group.",
       "all_pos": [
+        "noun",
         "adjective"
       ],
       "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-24 18:05:54",
-      "uses": 1
+      "example_sentences": [
+        "Members of the public may not proceed beyond this point."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "The people in general, regardless of membership of any particular group.",
+          "example": "Members of the public may not proceed beyond this point."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "A public house; an inn.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Able to be seen or known by everyone; open to general view, happening without concealment.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Pertaining to the people as a whole (as opposed to a private group); concerning the whole country, community etc.",
+          "example": ""
+        }
+      ],
+      "phonetic": "/ˈpʌblɪk/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-10-28 08:58:11",
+      "uses": 1,
+      "tags": []
     },
     "ecosystem": {
       "part_of_speech": "noun",
@@ -58757,20 +58816,18 @@
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 2667,
-      "tokens": 36579,
+      "sentences": 2669,
+      "tokens": 36603,
       "sources": {
         "seed corpus": 64,
         "conversation": 36,
-        "dictionary": 1463,
+        "dictionary": 1465,
         "explore": 415,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "5d0bc7d454a6",
-        "3e3bb4602c60",
         "245694e182e8",
         "2cd982318497",
         "11ee59c104aa",
@@ -59068,10 +59125,12 @@
         "f9e54cc01e48",
         "e9ac3d6239cb",
         "8761ba3bbd24",
-        "538764b5ae9d"
+        "538764b5ae9d",
+        "562ea7c593ed",
+        "706ecfa472e1"
       ],
       "seeded": true,
-      "rejected": 603,
+      "rejected": 604,
       "vocab_counts": {
         "organ": 1,
         "thank": 1,
@@ -61514,7 +61573,9 @@
         "predicting": 1,
         "evaluating": 1,
         "choices": 1,
-        "maximising": 1
+        "maximising": 1,
+        "regardless": 1,
+        "membership": 1
       }
     },
     "pos_bigrams": {
@@ -61522,8 +61583,8 @@
         "PRON": 388,
         "WH": 32,
         "NOUN": 739,
-        "DET": 748,
-        "VERB": 277,
+        "DET": 749,
+        "VERB": 278,
         "MODAL": 6,
         "ADJ": 125,
         "INTJ": 13,
@@ -61573,10 +61634,10 @@
       },
       "ADJ": {
         "PART": 46,
-        "NOUN": 1774,
+        "NOUN": 1775,
         "WH": 5,
         "PUNCT": 286,
-        "PREP": 184,
+        "PREP": 185,
         "CONJ": 108,
         "PROPN": 37,
         "ADJ": 117,
@@ -61603,7 +61664,7 @@
         "DET": 1
       },
       "VERB": {
-        "PREP": 669,
+        "PREP": 671,
         "PART": 143,
         "ADJ": 102,
         "NOUN": 661,
@@ -61623,8 +61684,8 @@
       },
       "PREP": {
         "PRON": 96,
-        "NOUN": 1264,
-        "DET": 1378,
+        "NOUN": 1266,
+        "DET": 1381,
         "PUNCT": 69,
         "VERB": 106,
         "PREP": 33,
@@ -61639,14 +61700,14 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 2484,
+        "</S>": 2486,
         "NOUN": 707,
         "CONJ": 384,
         "PRON": 59,
         "VERB": 93,
         "ADV": 99,
         "PREP": 86,
-        "ADJ": 116,
+        "ADJ": 117,
         "DET": 211,
         "WH": 46,
         "AUX": 38,
@@ -61692,15 +61753,15 @@
       },
       "NOUN": {
         "AUX": 710,
-        "PREP": 2119,
+        "PREP": 2121,
         "NOUN": 2152,
-        "PUNCT": 3314,
+        "PUNCT": 3317,
         "CONJ": 819,
         "VERB": 578,
         "ADV": 101,
         "PART": 266,
         "ADJ": 278,
-        "MODAL": 98,
+        "MODAL": 99,
         "</S>": 149,
         "PRON": 166,
         "WH": 70,
@@ -61711,8 +61772,8 @@
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 2575,
-        "ADJ": 1086,
+        "NOUN": 2578,
+        "ADJ": 1087,
         "PRON": 28,
         "PREP": 61,
         "NUM": 56,
@@ -61752,13 +61813,13 @@
         "CONJ": 3,
         "AUX": 88,
         "NOUN": 17,
-        "NEG": 14,
+        "NEG": 15,
         "ADV": 17,
         "PUNCT": 2,
         "ADJ": 11
       },
       "NEG": {
-        "VERB": 51,
+        "VERB": 52,
         "NOUN": 8,
         "DET": 9,
         "AUX": 9,
@@ -61883,7 +61944,7 @@
       },
       "VERB|PREP": {
         "PRON": 18,
-        "DET": 268,
+        "DET": 270,
         "NOUN": 195,
         "PUNCT": 21,
         "VERB": 23,
@@ -62059,10 +62120,10 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 806,
+        "PREP": 807,
         "AUX": 228,
         "CONJ": 192,
-        "PUNCT": 587,
+        "PUNCT": 588,
         "VERB": 168,
         "ADV": 25,
         "ADJ": 60,
@@ -62072,13 +62133,13 @@
         "</S>": 9,
         "PROPN": 7,
         "DET": 84,
-        "MODAL": 30,
+        "MODAL": 31,
         "WH": 19,
         "NUM": 3
       },
       "NOUN|PREP": {
-        "NOUN": 809,
-        "DET": 784,
+        "NOUN": 810,
+        "DET": 785,
         "PREP": 11,
         "ADJ": 212,
         "PROPN": 61,
@@ -62093,13 +62154,13 @@
       },
       "PREP|NOUN": {
         "NOUN": 191,
-        "PUNCT": 385,
+        "PUNCT": 386,
         "VERB": 53,
         "CONJ": 149,
         "ADJ": 29,
         "DET": 55,
         "AUX": 35,
-        "PREP": 148,
+        "PREP": 149,
         "PRON": 30,
         "</S>": 122,
         "WH": 6,
@@ -62129,12 +62190,12 @@
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 1918,
+        "</S>": 1920,
         "NOUN": 471,
         "CONJ": 278,
         "ADV": 70,
         "PREP": 62,
-        "ADJ": 80,
+        "ADJ": 81,
         "DET": 146,
         "VERB": 70,
         "WH": 34,
@@ -62148,7 +62209,7 @@
         "INTJ": 1
       },
       "<S>|DET": {
-        "NOUN": 481,
+        "NOUN": 482,
         "ADJ": 186,
         "PROPN": 30,
         "VERB": 7,
@@ -62160,7 +62221,7 @@
         "PRON": 3
       },
       "DET|ADJ": {
-        "NOUN": 873,
+        "NOUN": 874,
         "CONJ": 31,
         "ADJ": 43,
         "PUNCT": 44,
@@ -62176,7 +62237,7 @@
         "NUM": 5
       },
       "ADJ|NOUN": {
-        "PUNCT": 587,
+        "PUNCT": 588,
         "NOUN": 263,
         "MODAL": 15,
         "VERB": 90,
@@ -62206,8 +62267,8 @@
         "DET": 1
       },
       "PREP|DET": {
-        "NOUN": 872,
-        "ADJ": 343,
+        "NOUN": 874,
+        "ADJ": 344,
         "NUM": 22,
         "PREP": 15,
         "PROPN": 53,
@@ -62343,7 +62404,7 @@
         "VERB": 2,
         "NOUN": 154,
         "DET": 35,
-        "PREP": 38,
+        "PREP": 39,
         "CONJ": 2,
         "ADJ": 4,
         "WH": 2,
@@ -62529,7 +62590,7 @@
       },
       "NEG|VERB": {
         "DET": 10,
-        "PREP": 13,
+        "PREP": 14,
         "ADV": 3,
         "PUNCT": 5,
         "NOUN": 6,
@@ -62679,7 +62740,7 @@
         "PROPN": 1
       },
       "ADJ|PREP": {
-        "NOUN": 73,
+        "NOUN": 74,
         "DET": 64,
         "VERB": 9,
         "ADJ": 17,
@@ -62764,7 +62825,7 @@
       "NOUN|MODAL": {
         "VERB": 35,
         "AUX": 46,
-        "NEG": 5,
+        "NEG": 6,
         "ADV": 4,
         "NOUN": 5,
         "ADJ": 3
@@ -62995,7 +63056,7 @@
         "NOUN": 54,
         "PUNCT": 31,
         "PROPN": 6,
-        "PREP": 14,
+        "PREP": 15,
         "ADJ": 2,
         "CONJ": 2,
         "VERB": 6,
@@ -63815,7 +63876,7 @@
         "VERB": 1
       },
       "MODAL|NEG": {
-        "VERB": 10,
+        "VERB": 11,
         "AUX": 3,
         "PUNCT": 1
       },
@@ -64299,7 +64360,9 @@
         "variable": 3,
         "listener": 3,
         "view": 1,
-        "ability": 1
+        "ability": 1,
+        "public": 1,
+        "people": 1
       },
       "brain": {
         "is": 1,
@@ -64812,7 +64875,8 @@
         "eating": 1,
         "a": 1,
         "very": 1,
-        "only": 1
+        "only": 1,
+        "proceed": 1
       },
       "know": {
         "the": 1,
@@ -64876,7 +64940,8 @@
         "traitor": 1,
         "reaction": 1,
         "morning": 1,
-        "combination": 1
+        "combination": 1,
+        "point": 1
       },
       "they": {
         "may": 4,
@@ -64903,7 +64968,8 @@
         "which": 7,
         "c": 6,
         "most": 5,
-        "\"": 4
+        "\"": 4,
+        "general": 1
       },
       "children": {
         "play": 1,
@@ -65037,7 +65103,7 @@
         "at": 1
       },
       "of": {
-        "the": 183,
+        "the": 184,
         "a": 83,
         "an": 19,
         "or": 14,
@@ -65046,7 +65112,9 @@
         "criteria": 6,
         "knowledge": 6,
         "other": 5,
-        "protons": 5
+        "protons": 5,
+        "membership": 1,
+        "any": 1
       },
       "reading": {
         "is": 1,
@@ -65152,7 +65220,8 @@
         "living": 1,
         "each": 1,
         "not": 1,
-        ")": 1
+        ")": 1,
+        "in": 1
       },
       "share": {
         "it": 1,
@@ -66841,7 +66910,8 @@
         "include": 2,
         "neither": 1,
         "utilize": 1,
-        "crack": 1
+        "crack": 1,
+        "not": 1
       },
       "several": {
         "senses": 1,
@@ -67719,7 +67789,8 @@
         "large": 1,
         "foreign": 1,
         "positive": 1,
-        "substance": 1
+        "substance": 1,
+        "particular": 1
       },
       "functional": {
         "topics": 1,
@@ -68205,7 +68276,8 @@
         "prep": 1,
         "others": 1,
         "my": 1,
-        "the": 1
+        "the": 1,
+        "this": 1
       },
       "static": {
         "parameter": 3,
@@ -69802,7 +69874,8 @@
         "word": 1,
         "thing": 1,
         "computer": 1,
-        "way": 1
+        "way": 1,
+        "group": 1
       },
       "sometimes": {
         "called": 2,
@@ -71919,7 +71992,7 @@
         "an": 2
       },
       "members": {
-        "of": 4,
+        "of": 5,
         "worldwide": 1,
         "on": 1
       },
@@ -78783,6 +78856,18 @@
       },
       "reason": {
         "and": 1
+      },
+      "public": {
+        "may": 1
+      },
+      "proceed": {
+        "beyond": 1
+      },
+      "regardless": {
+        "of": 1
+      },
+      "membership": {
+        "of": 1
       }
     },
     "starters": {
@@ -78790,11 +78875,11 @@
       "how": 6,
       "what": 6,
       "<NOUN>": 739,
-      "the": 352,
+      "the": 353,
       "she": 23,
       "we": 39,
       "it": 90,
-      "<VERB>": 277,
+      "<VERB>": 278,
       "can": 3,
       "my": 14,
       "why": 1,
@@ -81830,15 +81915,6 @@
       "PRON VERB NOUN | and | NOUN PREP DET NOUN PART VERB NOUN PRON VERB PREP NOUN": 1
     },
     "sentence_bank": {
-      "condens": [
-        "Condensed water falling from a cloud ."
-      ],
-      "water": [
-        "Condensed water falling from a cloud ."
-      ],
-      "track": [
-        "If you don’t get your life on track today, you’re going to be very sorry tomorrow ."
-      ],
       "live": [
         "Live for what tomorrow has to offer, not for what yesterday has taken away.",
         "Most insects live on land ."
@@ -82208,9 +82284,9 @@
         "It involves more than just basic facts like education, work, relationships, and death."
       ],
       "general": [
-        "In a more general sense, it is the ability to do things well, successfully, and without waste.",
         "In general relativity, crossing a black hole's event horizon traps an object inside but produces no locally detectable change.",
-        "General relativity also predicts that every black hole should have a central singularity, where the curvature of spacetime is infinite."
+        "General relativity also predicts that every black hole should have a central singularity, where the curvature of spacetime is infinite.",
+        "The people in general, regardless of membership of any particular group."
       ],
       "hand": [
         "Hand me the level so I can tell if this is correctly installed.",
@@ -83782,6 +83858,15 @@
       ],
       "different": [
         "To recognize someone or something as different from others based on its characteristics."
+      ],
+      "member": [
+        "Members of the public may not proceed beyond this point."
+      ],
+      "public": [
+        "Members of the public may not proceed beyond this point."
+      ],
+      "people": [
+        "The people in general, regardless of membership of any particular group."
       ]
     }
   },
@@ -83805,8 +83890,6 @@
       "vhdl",
       "vocabulum",
       "annuum",
-      "private",
-      "public",
       "ecosystem",
       "watch",
       "check",
@@ -84102,10 +84185,10 @@
       "generalize"
     ],
     "names": [],
-    "lessons": 121,
-    "topic_cursor": 3690,
+    "lessons": 122,
+    "topic_cursor": 3750,
     "taught": 0,
-    "last_lesson": "2026-10-28 02:23:21",
+    "last_lesson": "2026-10-28 08:58:12",
     "pending_concepts": [],
     "recent_concepts": [
       "thermodynamic efficiency constrain",
