@@ -2,7 +2,7 @@
   "meta": {
     "created": "2026-10-20 15:07:00",
     "creator_signature": "677a410903a19f3307ea34c4701fe4dbd912e9262a0208612c61372d4a47b330",
-    "last_interaction": 1793202875.0667732,
+    "last_interaction": 1793220533.518752,
     "sleep_cycles": 46,
     "births": 1
   },
@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.6100000000000001,
+    "adenosine": 0.6500000000000001,
     "newborn": false
   },
   "episodic_memory": [
@@ -53135,19 +53135,43 @@
       "tags": []
     },
     "organic": {
-      "part_of_speech": "adjective",
-      "definition": "",
+      "part_of_speech": "noun",
+      "definition": "An organic compound.",
       "all_pos": [
+        "noun",
         "adjective"
       ],
       "synonyms": [],
       "example_sentences": [
         "In quantum physics, organic chemistry, and biochemistry, the distinction from ions is dropped and molecule is often used when referring to polyatomic ions."
       ],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-24 18:15:55",
-      "uses": 1
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "An organic compound.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "An organic food.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Pertaining to or derived from living organisms.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Pertaining to an organ of the body of a living organism.",
+          "example": ""
+        }
+      ],
+      "phonetic": "/ɔːˈɡænɪk/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-10-28 20:48:52",
+      "uses": 1,
+      "tags": []
     },
     "ions": {
       "part_of_speech": "noun",
@@ -59288,23 +59312,61 @@
       "source": "corpus",
       "learned": "2026-10-28 20:48:50",
       "uses": 1
+    },
+    "biochemistry": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-28 20:48:52",
+      "uses": 1
+    },
+    "dropped": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-28 20:48:52",
+      "uses": 1
+    },
+    "polyatomic": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-28 20:48:52",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 2686,
-      "tokens": 36847,
+      "sentences": 2688,
+      "tokens": 36878,
       "sources": {
         "seed corpus": 64,
         "conversation": 36,
-        "dictionary": 1478,
+        "dictionary": 1480,
         "explore": 419,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "57d8fbf22076",
         "cdb51748f304",
         "2984189e06a6",
         "f35133af57d9",
@@ -59603,7 +59665,8 @@
         "12228346d087",
         "fadc10c0a137",
         "91b461483fcb",
-        "4c1d4b4aae88"
+        "4c1d4b4aae88",
+        "aad4bd861fbe"
       ],
       "seeded": true,
       "rejected": 605,
@@ -61386,9 +61449,6 @@
         "cellulose": 1,
         "fibres": 1,
         "suspension": 1,
-        "biochemistry": 1,
-        "dropped": 1,
-        "polyatomic": 1,
         "raises": 1,
         "define": 1,
         "exclude": 1,
@@ -62057,7 +62117,8 @@
         "rampart": 1,
         "stones": 1,
         "defensive": 1,
-        "males": 1
+        "males": 1,
+        "compound": 1
       }
     },
     "pos_bigrams": {
@@ -62065,7 +62126,7 @@
         "PRON": 391,
         "WH": 32,
         "NOUN": 740,
-        "DET": 758,
+        "DET": 759,
         "VERB": 282,
         "MODAL": 6,
         "ADJ": 125,
@@ -62073,7 +62134,7 @@
         "CONJ": 32,
         "AUX": 17,
         "ADV": 38,
-        "PREP": 195,
+        "PREP": 196,
         "PART": 43,
         "NUM": 10,
         "NEG": 4
@@ -62103,9 +62164,9 @@
         "DET": 418,
         "NOUN": 89,
         "NEG": 63,
-        "VERB": 379,
+        "VERB": 380,
         "INTJ": 1,
-        "ADV": 130,
+        "ADV": 131,
         "CONJ": 17,
         "NUM": 23,
         "PROPN": 5,
@@ -62116,7 +62177,7 @@
       },
       "ADJ": {
         "PART": 47,
-        "NOUN": 1787,
+        "NOUN": 1789,
         "WH": 5,
         "PUNCT": 287,
         "PREP": 186,
@@ -62136,7 +62197,7 @@
       "PART": {
         "VERB": 421,
         "AUX": 68,
-        "ADJ": 34,
+        "ADJ": 35,
         "NOUN": 56,
         "WH": 6,
         "PREP": 2,
@@ -62155,8 +62216,8 @@
         "AUX": 36,
         "DET": 527,
         "VERB": 59,
-        "CONJ": 215,
-        "WH": 28,
+        "CONJ": 216,
+        "WH": 29,
         "</S>": 15,
         "ADV": 72,
         "PROPN": 20,
@@ -62166,7 +62227,7 @@
       },
       "PREP": {
         "PRON": 96,
-        "NOUN": 1269,
+        "NOUN": 1271,
         "DET": 1393,
         "PUNCT": 69,
         "VERB": 108,
@@ -62182,15 +62243,15 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 2503,
-        "NOUN": 709,
-        "CONJ": 386,
+        "</S>": 2505,
+        "NOUN": 710,
+        "CONJ": 387,
         "PRON": 59,
         "VERB": 94,
         "ADV": 101,
         "PREP": 86,
         "ADJ": 117,
-        "DET": 211,
+        "DET": 212,
         "WH": 46,
         "AUX": 39,
         "NUM": 8,
@@ -62204,7 +62265,7 @@
         "AUX": 43,
         "DET": 55,
         "PRON": 30,
-        "NOUN": 81,
+        "NOUN": 82,
         "VERB": 36,
         "MODAL": 12,
         "PREP": 6,
@@ -62220,7 +62281,7 @@
         "NOUN": 108,
         "CONJ": 21,
         "DET": 29,
-        "VERB": 216,
+        "VERB": 217,
         "</S>": 3,
         "PRON": 5,
         "MODAL": 1,
@@ -62234,14 +62295,14 @@
         "WH": 1
       },
       "NOUN": {
-        "AUX": 715,
-        "PREP": 2134,
-        "NOUN": 2165,
-        "PUNCT": 3337,
+        "AUX": 717,
+        "PREP": 2135,
+        "NOUN": 2167,
+        "PUNCT": 3342,
         "CONJ": 827,
         "VERB": 582,
         "ADV": 102,
-        "PART": 266,
+        "PART": 267,
         "ADJ": 279,
         "MODAL": 99,
         "</S>": 149,
@@ -62254,8 +62315,8 @@
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 2604,
-        "ADJ": 1096,
+        "NOUN": 2605,
+        "ADJ": 1097,
         "PRON": 28,
         "PREP": 62,
         "NUM": 56,
@@ -62273,7 +62334,7 @@
       "CONJ": {
         "PRON": 110,
         "DET": 294,
-        "NOUN": 794,
+        "NOUN": 796,
         "VERB": 138,
         "ADJ": 160,
         "ADV": 60,
@@ -62577,8 +62638,8 @@
         "DET": 237,
         "ADJ": 130,
         "NOUN": 49,
-        "ADV": 79,
-        "VERB": 145,
+        "ADV": 80,
+        "VERB": 146,
         "CONJ": 9,
         "NUM": 10,
         "NEG": 14,
@@ -62602,7 +62663,7 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 813,
+        "PREP": 814,
         "AUX": 230,
         "CONJ": 197,
         "PUNCT": 593,
@@ -62620,7 +62681,7 @@
         "NUM": 3
       },
       "NOUN|PREP": {
-        "NOUN": 813,
+        "NOUN": 814,
         "DET": 792,
         "PREP": 11,
         "ADJ": 212,
@@ -62635,13 +62696,13 @@
         "CONJ": 12
       },
       "PREP|NOUN": {
-        "NOUN": 191,
+        "NOUN": 192,
         "PUNCT": 388,
         "VERB": 53,
         "CONJ": 150,
         "ADJ": 29,
         "DET": 55,
-        "AUX": 35,
+        "AUX": 36,
         "PREP": 149,
         "PRON": 30,
         "</S>": 122,
@@ -62653,7 +62714,7 @@
         "ADV": 8
       },
       "NOUN|NOUN": {
-        "PUNCT": 767,
+        "PUNCT": 769,
         "PART": 36,
         "NOUN": 534,
         "PREP": 314,
@@ -62672,13 +62733,13 @@
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 1933,
-        "NOUN": 473,
-        "CONJ": 279,
+        "</S>": 1935,
+        "NOUN": 474,
+        "CONJ": 280,
         "ADV": 72,
         "PREP": 62,
         "ADJ": 81,
-        "DET": 146,
+        "DET": 147,
         "VERB": 71,
         "WH": 34,
         "PRON": 37,
@@ -62692,7 +62753,7 @@
       },
       "<S>|DET": {
         "NOUN": 489,
-        "ADJ": 188,
+        "ADJ": 189,
         "PROPN": 30,
         "VERB": 7,
         "PREP": 11,
@@ -62703,7 +62764,7 @@
         "PRON": 3
       },
       "DET|ADJ": {
-        "NOUN": 881,
+        "NOUN": 882,
         "CONJ": 32,
         "ADJ": 43,
         "PUNCT": 44,
@@ -62719,7 +62780,7 @@
         "NUM": 5
       },
       "ADJ|NOUN": {
-        "PUNCT": 591,
+        "PUNCT": 593,
         "NOUN": 264,
         "MODAL": 15,
         "VERB": 90,
@@ -62835,7 +62896,7 @@
       },
       "PUNCT|NOUN": {
         "CONJ": 52,
-        "NOUN": 113,
+        "NOUN": 114,
         "ADJ": 8,
         "PUNCT": 371,
         "PREP": 77,
@@ -62999,7 +63060,7 @@
         "WH": 1
       },
       "PUNCT|CONJ": {
-        "NOUN": 146,
+        "NOUN": 147,
         "PRON": 31,
         "DET": 54,
         "PUNCT": 6,
@@ -63016,8 +63077,8 @@
         "WH": 4
       },
       "CONJ|NOUN": {
-        "AUX": 25,
-        "PUNCT": 218,
+        "AUX": 26,
+        "PUNCT": 219,
         "</S>": 3,
         "PREP": 157,
         "VERB": 28,
@@ -63100,7 +63161,7 @@
         "PRON": 4,
         "NOUN": 28,
         "DET": 27,
-        "CONJ": 34,
+        "CONJ": 35,
         "ADJ": 8,
         "ADV": 9,
         "NUM": 1,
@@ -63135,7 +63196,7 @@
         "DET": 1
       },
       "NOUN|PART": {
-        "ADJ": 23,
+        "ADJ": 24,
         "AUX": 33,
         "VERB": 163,
         "NOUN": 37,
@@ -63144,7 +63205,7 @@
         "WH": 3
       },
       "PART|ADJ": {
-        "NOUN": 19,
+        "NOUN": 20,
         "DET": 4,
         "PREP": 2,
         "ADJ": 1,
@@ -63241,7 +63302,7 @@
         "PUNCT": 3,
         "PROPN": 1,
         "MODAL": 3,
-        "NOUN": 74,
+        "NOUN": 75,
         "AUX": 2,
         "ADJ": 13,
         "NEG": 2,
@@ -63282,7 +63343,7 @@
         "ADV": 2
       },
       "VERB|WH": {
-        "NOUN": 8,
+        "NOUN": 9,
         "DET": 2,
         "VERB": 8,
         "PART": 3,
@@ -63300,7 +63361,7 @@
         "ADV": 2,
         "ADJ": 2,
         "PREP": 5,
-        "PART": 2,
+        "PART": 3,
         "PRON": 3,
         "PUNCT": 2
       },
@@ -63345,7 +63406,7 @@
       "AUX|ADV": {
         "ADJ": 26,
         "NOUN": 15,
-        "VERB": 67,
+        "VERB": 68,
         "ADV": 6,
         "PREP": 4,
         "DET": 9,
@@ -63509,7 +63570,7 @@
         "NOUN": 30,
         "CONJ": 30,
         "PREP": 61,
-        "WH": 4,
+        "WH": 5,
         "PUNCT": 12,
         "ADJ": 8,
         "AUX": 4,
@@ -63643,7 +63704,7 @@
         "VERB": 1
       },
       "PUNCT|DET": {
-        "NOUN": 114,
+        "NOUN": 115,
         "ADJ": 43,
         "VERB": 4,
         "PROPN": 14,
@@ -63783,7 +63844,7 @@
         "ADV": 1
       },
       "<S>|PREP": {
-        "NOUN": 70,
+        "NOUN": 71,
         "PROPN": 11,
         "ADJ": 15,
         "DET": 79,
@@ -64619,17 +64680,7 @@
         "write": 4,
         "overlap": 3,
         "separate": 3,
-        "read": 3,
-        "my": 1,
-        "cause": 1,
-        "calculate": 1,
-        "christianity": 1,
-        "cross": 1,
-        "recognize": 1,
-        "give": 1,
-        "better": 1,
-        "state-of-the-art": 1,
-        "biological": 1
+        "read": 3
       },
       "talk": {
         "with": 1,
@@ -64784,7 +64835,9 @@
         "camera": 1,
         "software": 1,
         "essential": 1,
-        "directly": 1
+        "directly": 1,
+        "dropped": 1,
+        "often": 1
       },
       "a": {
         "noun": 18,
@@ -64839,7 +64892,8 @@
         "listener": 3,
         "variability": 1,
         "greater": 1,
-        "hypothesis": 1
+        "hypothesis": 1,
+        "distinction": 1
       },
       "brain": {
         "is": 1,
@@ -65139,7 +65193,7 @@
         "we": 1,
         "i": 1,
         "individuals": 1,
-        "referring": 1,
+        "referring": 2,
         "followed": 1,
         "they": 1,
         "events": 1,
@@ -65245,16 +65299,7 @@
         "practice": 3,
         "war": 3,
         "against": 3,
-        "functions": 2,
-        "so": 1,
-        "selecting": 1,
-        "knowledge": 1,
-        "generalize": 1,
-        "is": 1,
-        "repair": 1,
-        "its": 1,
-        "watch": 1,
-        "white": 1
+        "functions": 2
       },
       "meanings": {
         "have": 1,
@@ -65467,7 +65512,8 @@
         "their": 1,
         "some": 1,
         "your": 1,
-        "traits": 1
+        "traits": 1,
+        "quantum": 1
       },
       "children": {
         "play": 1,
@@ -65989,7 +66035,8 @@
         "them": 1,
         "dates": 1,
         "imperfect": 1,
-        "others": 1
+        "others": 1,
+        "ions": 1
       },
       "point": {
         "of": 2,
@@ -66202,7 +66249,8 @@
         "instance": 1,
         "ecological": 1,
         "opposing": 1,
-        "executive": 1
+        "executive": 1,
+        "organic": 1
       },
       "update": {
         "to": 1,
@@ -66976,7 +67024,7 @@
         "or": 1,
         "loosely": 1,
         "today": 1,
-        "when": 1,
+        "when": 2,
         "the": 1,
         "containers": 1,
         "against": 1
@@ -67528,7 +67576,7 @@
         "are": 2
       },
       "often": {
-        "used": 5,
+        "used": 6,
         "relying": 3,
         "use": 2,
         "referred": 2,
@@ -71232,7 +71280,7 @@
         "of": 1,
         "that": 1,
         "needs": 1,
-        "from": 2,
+        "from": 3,
         "between": 1
       },
       "lies": {
@@ -73439,7 +73487,7 @@
       },
       "referring": {
         "back": 1,
-        "to": 2
+        "to": 3
       },
       "back": {
         "to": 1,
@@ -73991,7 +74039,7 @@
       "molecule": {
         "that": 1,
         "of": 1,
-        "is": 1
+        "is": 2
       },
       "chemical": {
         "of": 1,
@@ -74952,7 +75000,7 @@
       "quantum": {
         "is": 2,
         "of": 3,
-        "physics": 1
+        "physics": 2
       },
       "involved": {
         "in": 3
@@ -79514,6 +79562,19 @@
       },
       "females": {
         "do": 1
+      },
+      "organic": {
+        "chemistry": 1,
+        "compound": 1
+      },
+      "ions": {
+        "is": 1
+      },
+      "dropped": {
+        "and": 1
+      },
+      "polyatomic": {
+        "ions": 1
       }
     },
     "starters": {
@@ -79543,9 +79604,9 @@
       "when": 14,
       "you": 15,
       "<ADV>": 38,
-      "an": 46,
+      "an": 47,
       "however": 2,
-      "in": 125,
+      "in": 126,
       "for": 8,
       "toward": 1,
       "<PART>": 43,
@@ -79614,7 +79675,7 @@
     "connectors": {
       "because": 16,
       "or": 499,
-      "and": 753,
+      "and": 755,
       "but": 76,
       "so": 35,
       "while": 8,
@@ -79664,7 +79725,7 @@
         "once": 1
       },
       "NOUN>NOUN": {
-        "and": 330,
+        "and": 331,
         "or": 201,
         "as": 12,
         "yet": 2,
@@ -79828,7 +79889,7 @@
       },
       "VERB>NOUN": {
         "as": 18,
-        "and": 26,
+        "and": 27,
         "or": 23,
         "that": 7,
         "than": 1,
@@ -83444,10 +83505,12 @@
         "We need a minimum of three staff members on duty at all time."
       ],
       "physics": [
-        "In physics, a quantum is the minimum amount of any physical entity involved in an interaction."
+        "In physics, a quantum is the minimum amount of any physical entity involved in an interaction.",
+        "In quantum physics, organic chemistry, and biochemistry, the distinction from ions is dropped and molecule is often used when referring to polyatomic ions."
       ],
       "quantum": [
-        "In physics, a quantum is the minimum amount of any physical entity involved in an interaction."
+        "In physics, a quantum is the minimum amount of any physical entity involved in an interaction.",
+        "In quantum physics, organic chemistry, and biochemistry, the distinction from ions is dropped and molecule is often used when referring to polyatomic ions."
       ],
       "build": [
         "We built a small atomic bomb in the garage.",
@@ -84562,7 +84625,6 @@
       "vhdl",
       "vocabulum",
       "annuum",
-      "organic",
       "treatment",
       "implement",
       "ensure",
@@ -84856,13 +84918,14 @@
       "chief",
       "decisions",
       "surrounded",
-      "variability"
+      "variability",
+      "biochemistry"
     ],
     "names": [],
-    "lessons": 124,
-    "topic_cursor": 3810,
+    "lessons": 125,
+    "topic_cursor": 3870,
     "taught": 0,
-    "last_lesson": "2026-10-28 15:54:34",
+    "last_lesson": "2026-10-28 20:48:53",
     "pending_concepts": [],
     "recent_concepts": [
       "thermodynamic efficiency constrain",
