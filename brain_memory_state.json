@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.1,
+    "adenosine": 0.16,
     "newborn": false
   },
   "episodic_memory": [
@@ -2819,6 +2819,13 @@
       "time": "2026-10-28 20:55:49",
       "speaker": "brain",
       "text": "My thoughts are swimming, so I am taking a micro-nap to consolidate what I learned. Sleep cycle #47 complete: pruned 12 noisy memories, kept 400 episodes and 243 world facts; adenosine flushed to 0.10, cortisol lowered, state saved. I feel refreshed and clear again, because sleep rebuilt my focus.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-28 20:57:49",
+      "speaker": "brain",
+      "text": "I wondered about 'Metaphysics' by myself and went searching. From Wikipedia (live internet) I learned: Metaphysics is the branch of philosophy that examines the basic nature or most fundamental structure of reality. Key ideas I stored: designate metaphysics, aristotle, mind-independent.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -7325,6 +7332,17 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Variability_hypothesis",
       "learned": "2026-10-28 20:48:50"
+    },
+    "Metaphysics": {
+      "summary": "Metaphysics is the branch of philosophy that examines the basic nature or most fundamental structure of reality. It is traditionally seen as the study of mind-independent features of the world, but some theorists view it as an inquiry into the conceptual framework of human understanding. Some philosophers, including Aristotle, designate metaphysics as the first philosophy to suggest that it is more fundamental than other forms of philosophical inquiry.",
+      "concepts": [
+        "designate metaphysics",
+        "aristotle",
+        "mind-independent"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Metaphysics",
+      "learned": "2026-10-28 20:57:49"
     }
   },
   "creator_teachings": [
@@ -9116,6 +9134,12 @@
       "kind": "nap",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-28 20:57:49",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -9291,7 +9315,8 @@
     "symbolic ai",
     "replication",
     "variability",
-    "transistors"
+    "transistors",
+    "metaphysics"
   ],
   "sensory_log": [
     {
@@ -59320,23 +59345,63 @@
       "source": "corpus",
       "learned": "2026-10-28 20:48:52",
       "uses": 1
+    },
+    "metaphysics": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Metaphysics is the branch of philosophy that examines the basic nature or most fundamental structure of reality."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-28 20:57:49",
+      "uses": 1
+    },
+    "inquiry": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-28 20:57:49",
+      "uses": 1
+    },
+    "conceptual": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-28 20:57:49",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 2688,
-      "tokens": 36878,
+      "sentences": 2691,
+      "tokens": 36952,
       "sources": {
         "seed corpus": 64,
         "conversation": 36,
         "dictionary": 1480,
-        "explore": 419,
+        "explore": 422,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "cdb51748f304",
         "2984189e06a6",
         "f35133af57d9",
         "e63da76aa3b3",
@@ -59635,7 +59700,8 @@
         "fadc10c0a137",
         "91b461483fcb",
         "4c1d4b4aae88",
-        "aad4bd861fbe"
+        "aad4bd861fbe",
+        "d24681992ad6"
       ],
       "seeded": true,
       "rejected": 605,
@@ -60591,7 +60657,6 @@
         "stimulating": 1,
         "houses": 1,
         "diligent": 1,
-        "inquiry": 1,
         "examination": 1,
         "seek": 1,
         "revise": 1,
@@ -61520,7 +61585,6 @@
         "rests": 1,
         "philosopher": 1,
         "cosmologia": 1,
-        "metaphysics": 1,
         "astronomers": 1,
         "physicists": 1,
         "metaphysicians": 1,
@@ -61629,7 +61693,6 @@
         "pursue": 1,
         "narrow": 1,
         "chatbots": 1,
-        "conceptual": 1,
         "reproducible": 1,
         "tangible": 1,
         "lancelot": 1,
@@ -62087,15 +62150,20 @@
         "stones": 1,
         "defensive": 1,
         "males": 1,
-        "compound": 1
+        "compound": 1,
+        "reality": 1,
+        "theorists": 1,
+        "framework": 1,
+        "designate": 1,
+        "suggest": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 391,
+        "PRON": 392,
         "WH": 32,
-        "NOUN": 740,
-        "DET": 759,
+        "NOUN": 741,
+        "DET": 760,
         "VERB": 282,
         "MODAL": 6,
         "ADJ": 125,
@@ -62109,10 +62177,10 @@
         "NEG": 4
       },
       "PRON": {
-        "AUX": 312,
+        "AUX": 314,
         "PUNCT": 89,
         "ADV": 23,
-        "VERB": 372,
+        "VERB": 373,
         "MODAL": 122,
         "PREP": 40,
         "WH": 6,
@@ -62120,7 +62188,7 @@
         "PART": 24,
         "</S>": 8,
         "NOUN": 19,
-        "CONJ": 14,
+        "CONJ": 15,
         "PRON": 6,
         "ADJ": 15,
         "NUM": 3,
@@ -62130,12 +62198,12 @@
         "ADJ": 278,
         "PRON": 22,
         "PUNCT": 12,
-        "DET": 418,
-        "NOUN": 89,
+        "DET": 419,
+        "NOUN": 90,
         "NEG": 63,
         "VERB": 380,
         "INTJ": 1,
-        "ADV": 131,
+        "ADV": 132,
         "CONJ": 17,
         "NUM": 23,
         "PROPN": 5,
@@ -62146,11 +62214,11 @@
       },
       "ADJ": {
         "PART": 47,
-        "NOUN": 1789,
+        "NOUN": 1794,
         "WH": 5,
         "PUNCT": 287,
         "PREP": 186,
-        "CONJ": 110,
+        "CONJ": 111,
         "PROPN": 37,
         "ADJ": 117,
         "DET": 40,
@@ -62164,7 +62232,7 @@
         "NEG": 1
       },
       "PART": {
-        "VERB": 421,
+        "VERB": 422,
         "AUX": 68,
         "ADJ": 35,
         "NOUN": 56,
@@ -62180,12 +62248,12 @@
         "PART": 143,
         "ADJ": 104,
         "NOUN": 666,
-        "PUNCT": 299,
+        "PUNCT": 300,
         "PRON": 139,
         "AUX": 36,
-        "DET": 527,
+        "DET": 528,
         "VERB": 59,
-        "CONJ": 216,
+        "CONJ": 218,
         "WH": 29,
         "</S>": 15,
         "ADV": 72,
@@ -62196,13 +62264,13 @@
       },
       "PREP": {
         "PRON": 96,
-        "NOUN": 1271,
-        "DET": 1393,
+        "NOUN": 1274,
+        "DET": 1395,
         "PUNCT": 69,
         "VERB": 108,
         "PREP": 34,
-        "ADJ": 341,
-        "PROPN": 131,
+        "ADJ": 343,
+        "PROPN": 132,
         "AUX": 23,
         "NUM": 66,
         "WH": 48,
@@ -62212,13 +62280,13 @@
         "MODAL": 1
       },
       "PUNCT": {
-        "</S>": 2505,
-        "NOUN": 710,
-        "CONJ": 387,
+        "</S>": 2508,
+        "NOUN": 711,
+        "CONJ": 388,
         "PRON": 59,
         "VERB": 94,
         "ADV": 101,
-        "PREP": 86,
+        "PREP": 87,
         "ADJ": 117,
         "DET": 212,
         "WH": 46,
@@ -62250,7 +62318,7 @@
         "NOUN": 108,
         "CONJ": 21,
         "DET": 29,
-        "VERB": 217,
+        "VERB": 218,
         "</S>": 3,
         "PRON": 5,
         "MODAL": 1,
@@ -62264,18 +62332,18 @@
         "WH": 1
       },
       "NOUN": {
-        "AUX": 717,
-        "PREP": 2135,
-        "NOUN": 2167,
-        "PUNCT": 3342,
-        "CONJ": 827,
-        "VERB": 582,
+        "AUX": 718,
+        "PREP": 2142,
+        "NOUN": 2169,
+        "PUNCT": 3346,
+        "CONJ": 829,
+        "VERB": 583,
         "ADV": 102,
-        "PART": 267,
-        "ADJ": 279,
+        "PART": 268,
+        "ADJ": 280,
         "MODAL": 99,
         "</S>": 149,
-        "PRON": 166,
+        "PRON": 168,
         "WH": 71,
         "DET": 404,
         "PROPN": 110,
@@ -62284,11 +62352,11 @@
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 2605,
-        "ADJ": 1097,
+        "NOUN": 2612,
+        "ADJ": 1100,
         "PRON": 28,
         "PREP": 62,
-        "NUM": 56,
+        "NUM": 57,
         "PART": 7,
         "VERB": 51,
         "CONJ": 56,
@@ -62301,8 +62369,8 @@
         "</S>": 1
       },
       "CONJ": {
-        "PRON": 110,
-        "DET": 294,
+        "PRON": 111,
+        "DET": 300,
         "NOUN": 796,
         "VERB": 138,
         "ADJ": 160,
@@ -62353,7 +62421,7 @@
       },
       "PROPN": {
         "DET": 11,
-        "PUNCT": 156,
+        "PUNCT": 157,
         "PART": 14,
         "NOUN": 199,
         "AUX": 31,
@@ -62368,7 +62436,7 @@
         "WH": 1
       },
       "NUM": {
-        "NOUN": 112,
+        "NOUN": 113,
         "PUNCT": 12,
         "CONJ": 23,
         "PREP": 27,
@@ -62386,7 +62454,7 @@
     },
     "pos_trigrams": {
       "<S>|PRON": {
-        "AUX": 156,
+        "AUX": 157,
         "VERB": 165,
         "MODAL": 41,
         "ADV": 9,
@@ -62405,10 +62473,10 @@
         "NEG": 31,
         "VERB": 69,
         "INTJ": 1,
-        "ADV": 35,
+        "ADV": 36,
         "PUNCT": 2,
         "NUM": 8,
-        "NOUN": 7,
+        "NOUN": 8,
         "PRON": 2,
         "PREP": 8,
         "AUX": 7,
@@ -62446,7 +62514,7 @@
         "DET": 99,
         "PART": 5,
         "NUM": 6,
-        "CONJ": 40,
+        "CONJ": 41,
         "PRON": 19,
         "VERB": 9,
         "ADV": 6,
@@ -62546,7 +62614,7 @@
         "NOUN": 57,
         "PRON": 40,
         "PUNCT": 19,
-        "DET": 101,
+        "DET": 102,
         "VERB": 15,
         "ADJ": 15,
         "CONJ": 19,
@@ -62588,7 +62656,7 @@
         "WH": 2
       },
       "<S>|NOUN": {
-        "AUX": 139,
+        "AUX": 140,
         "VERB": 74,
         "PUNCT": 23,
         "NOUN": 291,
@@ -62604,7 +62672,7 @@
         "INTJ": 2
       },
       "NOUN|AUX": {
-        "DET": 237,
+        "DET": 238,
         "ADJ": 130,
         "NOUN": 49,
         "ADV": 80,
@@ -62621,7 +62689,7 @@
         "PUNCT": 4
       },
       "AUX|DET": {
-        "NOUN": 211,
+        "NOUN": 212,
         "ADJ": 165,
         "PROPN": 8,
         "VERB": 6,
@@ -62632,14 +62700,14 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 814,
+        "PREP": 818,
         "AUX": 230,
         "CONJ": 197,
-        "PUNCT": 593,
+        "PUNCT": 595,
         "VERB": 170,
         "ADV": 25,
         "ADJ": 60,
-        "NOUN": 241,
+        "NOUN": 242,
         "PRON": 43,
         "PART": 77,
         "</S>": 9,
@@ -62650,10 +62718,10 @@
         "NUM": 3
       },
       "NOUN|PREP": {
-        "NOUN": 814,
-        "DET": 792,
+        "NOUN": 817,
+        "DET": 794,
         "PREP": 11,
-        "ADJ": 212,
+        "ADJ": 214,
         "PROPN": 61,
         "VERB": 63,
         "PUNCT": 26,
@@ -62666,14 +62734,14 @@
       },
       "PREP|NOUN": {
         "NOUN": 192,
-        "PUNCT": 388,
-        "VERB": 53,
+        "PUNCT": 389,
+        "VERB": 54,
         "CONJ": 150,
         "ADJ": 29,
         "DET": 55,
         "AUX": 36,
         "PREP": 149,
-        "PRON": 30,
+        "PRON": 31,
         "</S>": 122,
         "WH": 6,
         "PART": 36,
@@ -62687,7 +62755,7 @@
         "PART": 36,
         "NOUN": 534,
         "PREP": 314,
-        "CONJ": 120,
+        "CONJ": 121,
         "VERB": 84,
         "PROPN": 46,
         "AUX": 91,
@@ -62697,16 +62765,16 @@
         "ADV": 23,
         "DET": 39,
         "NEG": 4,
-        "PRON": 19,
+        "PRON": 20,
         "WH": 11,
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 1935,
+        "</S>": 1937,
         "NOUN": 474,
-        "CONJ": 280,
+        "CONJ": 281,
         "ADV": 72,
-        "PREP": 62,
+        "PREP": 63,
         "ADJ": 81,
         "DET": 147,
         "VERB": 71,
@@ -62721,7 +62789,7 @@
         "INTJ": 1
       },
       "<S>|DET": {
-        "NOUN": 489,
+        "NOUN": 490,
         "ADJ": 189,
         "PROPN": 30,
         "VERB": 7,
@@ -62733,7 +62801,7 @@
         "PRON": 3
       },
       "DET|ADJ": {
-        "NOUN": 882,
+        "NOUN": 885,
         "CONJ": 32,
         "ADJ": 43,
         "PUNCT": 44,
@@ -62749,12 +62817,12 @@
         "NUM": 5
       },
       "ADJ|NOUN": {
-        "PUNCT": 593,
+        "PUNCT": 594,
         "NOUN": 264,
         "MODAL": 15,
         "VERB": 90,
-        "PREP": 371,
-        "CONJ": 152,
+        "PREP": 374,
+        "CONJ": 153,
         "DET": 63,
         "ADJ": 23,
         "AUX": 92,
@@ -62779,8 +62847,8 @@
         "DET": 1
       },
       "PREP|DET": {
-        "NOUN": 881,
-        "ADJ": 346,
+        "NOUN": 882,
+        "ADJ": 347,
         "NUM": 22,
         "PREP": 15,
         "PROPN": 55,
@@ -62794,7 +62862,7 @@
       },
       "NOUN|CONJ": {
         "PRON": 25,
-        "DET": 131,
+        "DET": 133,
         "VERB": 46,
         "NOUN": 442,
         "ADJ": 63,
@@ -62812,7 +62880,7 @@
       "CONJ|PRON": {
         "VERB": 42,
         "MODAL": 22,
-        "AUX": 32,
+        "AUX": 33,
         "PUNCT": 5,
         "ADV": 3,
         "PREP": 2,
@@ -62865,7 +62933,7 @@
       },
       "PUNCT|NOUN": {
         "CONJ": 52,
-        "NOUN": 114,
+        "NOUN": 115,
         "ADJ": 8,
         "PUNCT": 371,
         "PREP": 77,
@@ -62881,8 +62949,8 @@
         "MODAL": 1
       },
       "CONJ|DET": {
-        "NOUN": 189,
-        "ADJ": 69,
+        "NOUN": 193,
+        "ADJ": 70,
         "CONJ": 3,
         "PUNCT": 4,
         "PART": 1,
@@ -62893,10 +62961,10 @@
         "WH": 1,
         "ADV": 2,
         "VERB": 2,
-        "NUM": 2
+        "NUM": 3
       },
       "VERB|PUNCT": {
-        "</S>": 188,
+        "</S>": 189,
         "PRON": 10,
         "CONJ": 17,
         "NOUN": 39,
@@ -63003,7 +63071,7 @@
         "PREP": 140,
         "WH": 4,
         "PRON": 39,
-        "PUNCT": 43,
+        "PUNCT": 44,
         "</S>": 3,
         "ADV": 18,
         "NOUN": 117,
@@ -63023,7 +63091,7 @@
         "VERB": 7,
         "CONJ": 13,
         "ADV": 8,
-        "ADJ": 4,
+        "ADJ": 5,
         "PRON": 1,
         "PART": 2,
         "WH": 1
@@ -63031,7 +63099,7 @@
       "PUNCT|CONJ": {
         "NOUN": 147,
         "PRON": 31,
-        "DET": 54,
+        "DET": 55,
         "PUNCT": 6,
         "ADJ": 31,
         "CONJ": 11,
@@ -63066,7 +63134,7 @@
       },
       "VERB|DET": {
         "NOUN": 328,
-        "ADJ": 156,
+        "ADJ": 157,
         "PREP": 5,
         "CONJ": 8,
         "DET": 9,
@@ -63167,7 +63235,7 @@
       "NOUN|PART": {
         "ADJ": 24,
         "AUX": 33,
-        "VERB": 163,
+        "VERB": 164,
         "NOUN": 37,
         "CONJ": 2,
         "PUNCT": 5,
@@ -63243,7 +63311,7 @@
         "PREP": 31,
         "ADJ": 9,
         "AUX": 4,
-        "CONJ": 11,
+        "CONJ": 12,
         "VERB": 7,
         "</S>": 1,
         "PART": 2,
@@ -63265,9 +63333,9 @@
         "PREP": 1
       },
       "VERB|CONJ": {
-        "PRON": 17,
+        "PRON": 18,
         "VERB": 38,
-        "DET": 51,
+        "DET": 52,
         "PUNCT": 3,
         "PROPN": 1,
         "MODAL": 3,
@@ -63375,7 +63443,7 @@
       "AUX|ADV": {
         "ADJ": 26,
         "NOUN": 15,
-        "VERB": 68,
+        "VERB": 69,
         "ADV": 6,
         "PREP": 4,
         "DET": 9,
@@ -63398,7 +63466,7 @@
         "NOUN": 34,
         "ADV": 4,
         "AUX": 3,
-        "DET": 19,
+        "DET": 20,
         "PRON": 6,
         "PROPN": 2,
         "VERB": 5,
@@ -63481,7 +63549,7 @@
         "PRON": 3,
         "VERB": 3,
         "ADV": 1,
-        "PROPN": 4,
+        "PROPN": 5,
         "WH": 3,
         "PREP": 2,
         "CONJ": 1,
@@ -63537,7 +63605,7 @@
         "DET": 38,
         "PART": 13,
         "NOUN": 30,
-        "CONJ": 30,
+        "CONJ": 31,
         "PREP": 61,
         "WH": 5,
         "PUNCT": 12,
@@ -63578,7 +63646,7 @@
         "CONJ": 11,
         "PROPN": 8,
         "ADJ": 24,
-        "NOUN": 250,
+        "NOUN": 252,
         "PUNCT": 22,
         "AUX": 4,
         "VERB": 10,
@@ -63624,19 +63692,19 @@
         "PRON": 1
       },
       "NOUN|PRON": {
-        "VERB": 59,
+        "VERB": 60,
         "AUX": 52,
         "PREP": 10,
         "MODAL": 24,
         "PRON": 1,
-        "CONJ": 5,
+        "CONJ": 6,
         "PART": 3,
         "PUNCT": 9,
         "WH": 1,
         "ADJ": 2
       },
       "PREP|PROPN": {
-        "PUNCT": 45,
+        "PUNCT": 46,
         "AUX": 3,
         "PROPN": 27,
         "NOUN": 25,
@@ -63654,7 +63722,7 @@
         "DET": 13,
         "PROPN": 20,
         "CONJ": 19,
-        "NOUN": 20,
+        "NOUN": 21,
         "WH": 5,
         "PUNCT": 4,
         "ADV": 2,
@@ -63777,7 +63845,7 @@
         "CONJ": 2
       },
       "DET|NUM": {
-        "NOUN": 41,
+        "NOUN": 42,
         "PART": 2,
         "PROPN": 1,
         "ADJ": 4,
@@ -63799,7 +63867,7 @@
         "PROPN": 1,
         "DET": 3,
         "PRON": 2,
-        "PART": 1
+        "PART": 2
       },
       "ADJ|DET": {
         "NOUN": 15,
@@ -64383,7 +64451,7 @@
         "ADJ": 1,
         "NOUN": 2,
         "PRON": 8,
-        "DET": 1,
+        "DET": 2,
         "AUX": 1,
         "VERB": 1
       },
@@ -64649,7 +64717,8 @@
         "write": 4,
         "overlap": 3,
         "separate": 3,
-        "read": 3
+        "read": 3,
+        "suggest": 1
       },
       "talk": {
         "with": 1,
@@ -64788,7 +64857,7 @@
       },
       "is": {
         "a": 141,
-        "the": 98,
+        "the": 99,
         "an": 25,
         "one": 7,
         "usually": 6,
@@ -64797,16 +64866,7 @@
         "vague": 3,
         "good": 3,
         "generally": 3,
-        "fire": 1,
-        "more": 1,
-        "so": 1,
-        "widely": 1,
-        "camera": 1,
-        "software": 1,
-        "essential": 1,
-        "directly": 1,
-        "dropped": 1,
-        "often": 1
+        "more": 1
       },
       "a": {
         "noun": 18,
@@ -64862,7 +64922,13 @@
         "variability": 1,
         "greater": 1,
         "hypothesis": 1,
-        "distinction": 1
+        "distinction": 1,
+        "branch": 1,
+        "basic": 1,
+        "study": 1,
+        "world": 1,
+        "conceptual": 1,
+        "first": 1
       },
       "brain": {
         "is": 1,
@@ -65031,10 +65097,11 @@
         "contrasts": 2,
         "something": 1,
         "wearable": 1,
-        "administrator": 1
+        "administrator": 1,
+        "most": 1
       },
       "it": {
-        "is": 54,
+        "is": 56,
         "was": 15,
         "'s": 11,
         "has": 8,
@@ -65052,7 +65119,8 @@
         "proved": 1,
         "uses": 1,
         "involves": 1,
-        "might": 1
+        "might": 1,
+        "as": 1
       },
       "important": {
         "to": 3,
@@ -65122,7 +65190,8 @@
         "people": 2,
         "effective": 2,
         "pieces": 1,
-        "players": 1
+        "players": 1,
+        "fundamental": 1
       },
       "learning": {
         "is": 6,
@@ -65323,7 +65392,9 @@
         "models": 1,
         "each": 1,
         "functions": 1,
-        "human": 1
+        "human": 1,
+        "examines": 1,
+        "it": 1
       },
       "good": {
         "manners": 3,
@@ -65405,7 +65476,8 @@
         "she": 1,
         "are": 1,
         "as": 1,
-        "it": 1
+        "it": 1,
+        "some": 1
       },
       "would": {
         "like": 2,
@@ -65618,7 +65690,7 @@
         "at": 1
       },
       "of": {
-        "the": 185,
+        "the": 186,
         "a": 83,
         "an": 19,
         "or": 14,
@@ -65628,13 +65700,7 @@
         "knowledge": 6,
         "other": 5,
         "protons": 5,
-        "membership": 1,
-        "any": 1,
-        "its": 1,
-        "damaged": 1,
-        "each": 1,
-        "watching": 1,
-        "earth": 1
+        "philosophical": 1
       },
       "reading": {
         "is": 1,
@@ -66049,7 +66115,9 @@
         "more": 1,
         "human": 1,
         "importance": 1,
-        "vinegar": 1
+        "vinegar": 1,
+        "theorists": 1,
+        "philosophers": 1
       },
       "study": {
         "about": 1,
@@ -66057,7 +66125,7 @@
         "i": 2,
         "matchine": 2,
         "or": 2,
-        "of": 25,
+        "of": 26,
         "brilliant": 1,
         "in": 2,
         "whole": 1,
@@ -66219,7 +66287,8 @@
         "ecological": 1,
         "opposing": 1,
         "executive": 1,
-        "organic": 1
+        "organic": 1,
+        "inquiry": 1
       },
       "update": {
         "to": 1,
@@ -66291,7 +66360,8 @@
         "common": 3,
         "recent": 1,
         "influential": 1,
-        "approaches": 1
+        "approaches": 1,
+        "fundamental": 1
       },
       "recent": {
         "transaction": 1,
@@ -66562,7 +66632,7 @@
         "disk": 1
       },
       "forms": {
-        "of": 7,
+        "of": 8,
         "an": 2,
         "–": 1,
         "a": 1,
@@ -66596,7 +66666,8 @@
         "it": 2,
         "global": 1,
         "merely": 1,
-        "fly": 1
+        "fly": 1,
+        "other": 1
       },
       "global": {
         "gradient": 2,
@@ -66775,7 +66846,7 @@
       },
       "into": {
         "a": 14,
-        "the": 6,
+        "the": 7,
         "stable": 4,
         "adulthood": 2,
         "layers": 2,
@@ -67016,7 +67087,7 @@
         "and": 1,
         "of": 5,
         "never": 1,
-        "or": 1
+        "or": 2
       },
       "statistical": {
         "physics": 1,
@@ -67070,7 +67141,8 @@
         "shipping": 1,
         "both": 1,
         "light": 1,
-        "matter": 1
+        "matter": 1,
+        "aristotle": 1
       },
       "transmission": {
         "of": 1,
@@ -67173,7 +67245,7 @@
         "grammars": 3,
         "that": 5,
         "out": 1,
-        "of": 6,
+        "of": 7,
         "my": 1,
         "or": 1,
         "at": 1,
@@ -67340,7 +67412,7 @@
       "other": {
         "parts": 5,
         "than": 4,
-        "forms": 4,
+        "forms": 5,
         "figurative": 3,
         "distributed": 2,
         "sentence": 2,
@@ -67627,7 +67699,7 @@
       },
       "as": {
         "a": 53,
-        "the": 18,
+        "the": 20,
         "in": 7,
         "not": 4,
         "it": 3,
@@ -67641,7 +67713,8 @@
         "individuals": 1,
         "members": 1,
         "different": 1,
-        "\"": 1
+        "\"": 1,
+        "an": 1
       },
       "itself": {
         "was": 2,
@@ -68129,7 +68202,7 @@
         "are": 1
       },
       "branch": {
-        "of": 12,
+        "of": 13,
         "n": 1,
         "in": 1
       },
@@ -68154,7 +68227,8 @@
         "perception": 1,
         "social": 1,
         "males": 1,
-        "females": 1
+        "females": 1,
+        "understanding": 1
       },
       "specific": {
         "focus": 1,
@@ -69080,7 +69154,8 @@
       "examines": {
         "how": 2,
         "arguments": 1,
-        "what": 2
+        "what": 2,
+        "the": 1
       },
       "languages": {
         "use": 3,
@@ -69765,7 +69840,8 @@
         "ingredient": 1,
         "for": 2,
         "facts": 2,
-        "particles": 1
+        "particles": 1,
+        "nature": 1
       },
       "approach": {
         "to": 2,
@@ -69816,7 +69892,8 @@
         "used": 1,
         "glance": 1,
         "collaborated": 1,
-        "point": 1
+        "point": 1,
+        "philosophy": 1
       },
       "english": {
         "is": 6,
@@ -70723,7 +70800,8 @@
       "traditionally": {
         "understood": 2,
         "on": 1,
-        "divided": 2
+        "divided": 2,
+        "seen": 1
       },
       "adding": {
         "(": 2,
@@ -73063,7 +73141,8 @@
       "features": {
         "original": 1,
         "a": 1,
-        "or": 1
+        "or": 1,
+        "of": 1
       },
       "compiled": {
         "on": 1,
@@ -74208,7 +74287,9 @@
         "theorem": 1,
         "interaction": 1,
         "building": 2,
-        "composition": 1
+        "composition": 1,
+        "structure": 1,
+        "than": 1
       },
       "clothes": {
         "washer": 1,
@@ -76524,7 +76605,9 @@
         ")": 1
       },
       "metaphysics": {
-        "that": 1
+        "that": 1,
+        "is": 1,
+        "as": 1
       },
       "deals": {
         "with": 2
@@ -76992,7 +77075,8 @@
         "you": 1
       },
       "seen": {
-        "that": 1
+        "that": 1,
+        "as": 1
       },
       "perception": {
         "is": 1,
@@ -77182,7 +77266,8 @@
         "forms": 1
       },
       "conceptual": {
-        "knowledge": 1
+        "knowledge": 1,
+        "framework": 1
       },
       "reproducible": {
         "way": 1
@@ -77829,7 +77914,8 @@
         "strings": 1
       },
       "philosophical": {
-        "study": 1
+        "study": 1,
+        "inquiry": 1
       },
       "norm": {
         "or": 1,
@@ -78156,7 +78242,9 @@
         "is": 1
       },
       "philosophy": {
-        "of": 1
+        "of": 1,
+        "that": 1,
+        "to": 1
       },
       "pragmatics": {
         "is": 1,
@@ -79400,7 +79488,8 @@
         "choices": 1
       },
       "view": {
-        "of": 1
+        "of": 1,
+        "it": 1
       },
       "maximising": {
         "utility": 1
@@ -79544,17 +79633,35 @@
       },
       "polyatomic": {
         "ions": 1
+      },
+      "mind-independent": {
+        "features": 1
+      },
+      "theorists": {
+        "view": 1
+      },
+      "inquiry": {
+        "into": 1
+      },
+      "framework": {
+        "of": 1
+      },
+      "designate": {
+        "metaphysics": 1
+      },
+      "suggest": {
+        "that": 1
       }
     },
     "starters": {
       "i": 101,
       "how": 6,
       "what": 6,
-      "<NOUN>": 740,
+      "<NOUN>": 741,
       "the": 356,
       "she": 23,
       "we": 39,
-      "it": 90,
+      "it": 91,
       "<VERB>": 282,
       "can": 3,
       "my": 14,
@@ -79588,7 +79695,7 @@
       "as": 3,
       "each": 9,
       "without": 3,
-      "some": 16,
+      "some": 17,
       "<NUM>": 10,
       "many": 7,
       "any": 7,
@@ -79643,18 +79750,18 @@
     },
     "connectors": {
       "because": 16,
-      "or": 499,
+      "or": 500,
       "and": 755,
-      "but": 76,
+      "but": 77,
       "so": 35,
       "while": 8,
-      "than": 47,
+      "than": 48,
       "therefore": 7,
       "if": 14,
-      "as": 254,
+      "as": 257,
       "however": 3,
       "whether": 5,
-      "that": 23,
+      "that": 24,
       "yet": 7,
       "though": 3,
       "since": 5,
@@ -79680,12 +79787,12 @@
         "since": 1
       },
       "NOUN>DET": {
-        "or": 39,
+        "or": 40,
         "and": 73,
-        "but": 15,
+        "but": 16,
         "if": 3,
         "though": 2,
-        "as": 27,
+        "as": 28,
         "than": 6,
         "while": 1,
         "nor": 1,
@@ -79729,7 +79836,7 @@
         "because": 3,
         "and": 1,
         "while": 1,
-        "that": 4,
+        "that": 5,
         "so": 4,
         "as": 4,
         "but": 1,
@@ -79792,7 +79899,7 @@
         "than": 2
       },
       "VERB>DET": {
-        "as": 35,
+        "as": 36,
         "that": 11,
         "and": 3,
         "if": 1,
@@ -79974,7 +80081,7 @@
       "ADJ>DET": {
         "as": 7,
         "so": 2,
-        "than": 6,
+        "than": 7,
         "or": 3,
         "and": 3,
         "but": 1,
@@ -80157,7 +80264,7 @@
         "so": 1
       },
       "PRON>DET": {
-        "as": 1
+        "as": 2
       },
       "PREP>ADJ": {
         "and": 1
@@ -82615,15 +82722,6 @@
       "DET NOUN AUX ADJ | and | NOUN": 1
     },
     "sentence_bank": {
-      "syllable": [
-        "He enunciated every syllable clearly ."
-      ],
-      "judge": [
-        "Clearly , the judge erred in his opinion."
-      ],
-      "er": [
-        "Clearly , the judge erred in his opinion."
-      ],
       "mov": [
         "Capable of being moved , especially on wheels ."
       ],
@@ -84121,7 +84219,8 @@
       ],
       "branch": [
         "Phonetics is a branch of linguistics that mainly concerns the articulation, sound wave properties, and perception of speech sounds.",
-        "Calculus is the branch of mathematics that studies continuous change, and is the principal precursor of modern mathematical analysis."
+        "Calculus is the branch of mathematics that studies continuous change, and is the principal precursor of modern mathematical analysis.",
+        "Metaphysics is the branch of philosophy that examines the basic nature or most fundamental structure of reality."
       ],
       "minimal": [
         "Traditionally, the minimal linguistic unit of phonetics is the phone, an individual speech sound.",
@@ -84571,6 +84670,15 @@
       ],
       "rampart": [
         "A rampart of earth, stones etc. built up for defensive purposes."
+      ],
+      "metaphysics": [
+        "Metaphysics is the branch of philosophy that examines the basic nature or most fundamental structure of reality."
+      ],
+      "philosophers": [
+        "Some philosophers, including Aristotle, designate metaphysics as the first philosophy to suggest that it is more fundamental than other forms of philosophical inquiry."
+      ],
+      "designate": [
+        "Some philosophers, including Aristotle, designate metaphysics as the first philosophy to suggest that it is more fundamental than other forms of philosophical inquiry."
       ]
     }
   },
