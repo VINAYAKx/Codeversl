@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.6000000000000001,
+    "adenosine": 0.6900000000000002,
     "newborn": false
   },
   "episodic_memory": [
@@ -2875,6 +2875,20 @@
       "time": "2026-10-29 19:26:14",
       "speaker": "brain",
       "text": "I practised my English because I want to talk with you more naturally. I could not reach a dictionary, so I could not fetch new words this time. I practised with the sentences I already hold instead. Now I know 1126 words, I have studied 2806 sentences, and I have 249 sentence patterns.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-29 23:34:07",
+      "speaker": "brain",
+      "text": "I wondered about 'Mathematical optimization' by myself and went searching. From Wikipedia (live internet) I learned: Mathematical optimization or mathematical programming is the selection of a best element, with regard to some criteria, from some set of available alternatives. Key ideas I stored: mathematical optimization, discrete optimization, continuous optimization, economics, mathematics.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-29 23:34:07",
+      "speaker": "brain",
+      "text": "Etymology and Fourier transform overlap more than I expected. Etymology is the study of the origin and evolution of words—including their constituent units of sound and meaning—across time. In mathematics, the Fourier transform is an integral transform that takes a function as input and outputs another function that describes the extent to. What they share is constituent and sound. Could historical linguistics and integral transform be two views of the same underlying pattern?",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -7523,6 +7537,19 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/List_of_artificial_intelligence_companies",
       "learned": "2026-10-29 19:26:13"
+    },
+    "Mathematical optimization": {
+      "summary": "Mathematical optimization or mathematical programming is the selection of a best element, with regard to some criteria, from some set of available alternatives. It is generally divided into two subfields: discrete optimization and continuous optimization. Optimization problems arise in all quantitative disciplines from computer science and engineering to operations research and economics, and the development of solution methods has been of interest in mathematics for centuries.",
+      "concepts": [
+        "mathematical optimization",
+        "discrete optimization",
+        "continuous optimization",
+        "economics",
+        "mathematics"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Mathematical_optimization",
+      "learned": "2026-10-29 23:34:07"
     }
   },
   "creator_teachings": [
@@ -8852,6 +8879,18 @@
       "kind": "language_lesson",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-29 23:34:07",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-29 23:34:07",
+      "kind": "daydream",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -9041,7 +9080,8 @@
     "translation",
     "cybernetics",
     "transactions",
-    "ai companies"
+    "ai companies",
+    "optimization"
   ],
   "sensory_log": [
     {
@@ -61469,23 +61509,61 @@
       "source": "corpus",
       "learned": "2026-10-29 19:26:13",
       "uses": 1
+    },
+    "regard": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-29 23:34:07",
+      "uses": 1
+    },
+    "quantitative": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-29 23:34:07",
+      "uses": 1
+    },
+    "disciplines": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-29 23:34:07",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 2806,
-      "tokens": 38658,
+      "sentences": 2809,
+      "tokens": 38731,
       "sources": {
         "seed corpus": 64,
         "conversation": 36,
         "dictionary": 1576,
-        "explore": 441,
+        "explore": 444,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "e15743819cc1",
         "e4a7e3aa12f0",
         "861f8a045b61",
         "4c19b65d9982",
@@ -61784,7 +61862,8 @@
         "c619a87e14ca",
         "56f505064e37",
         "7d087d865f76",
-        "549deb4b9714"
+        "549deb4b9714",
+        "17a20e522351"
       ],
       "seeded": true,
       "rejected": 635,
@@ -63315,7 +63394,6 @@
         "legal": 1,
         "majority": 1,
         "representational": 1,
-        "quantitative": 1,
         "digits": 1,
         "polish": 1,
         "strongish": 1,
@@ -63757,7 +63835,6 @@
         "swarm": 1,
         "copper": 1,
         "isotopes": 1,
-        "regard": 1,
         "slight": 1,
         "tiller": 1,
         "naturalized": 1,
@@ -64236,7 +64313,6 @@
         "inhabitants": 1,
         "planet": 1,
         "complexities": 1,
-        "disciplines": 1,
         "incurred": 1,
         "participating": 1,
         "milk": 1,
@@ -64314,18 +64390,19 @@
         "explorers": 1,
         "wracked": 1,
         "hypothermia": 1,
-        "hospital": 1
+        "hospital": 1,
+        "subfields": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 418,
+        "PRON": 419,
         "WH": 35,
-        "NOUN": 761,
+        "NOUN": 762,
         "DET": 795,
         "VERB": 291,
         "MODAL": 7,
-        "ADJ": 126,
+        "ADJ": 127,
         "INTJ": 14,
         "CONJ": 34,
         "AUX": 18,
@@ -64336,7 +64413,7 @@
         "NEG": 4
       },
       "PRON": {
-        "AUX": 339,
+        "AUX": 340,
         "PUNCT": 93,
         "ADV": 25,
         "VERB": 394,
@@ -64357,23 +64434,23 @@
         "ADJ": 286,
         "PRON": 23,
         "PUNCT": 16,
-        "DET": 438,
+        "DET": 439,
         "NOUN": 98,
         "NEG": 70,
         "VERB": 400,
         "INTJ": 1,
-        "ADV": 138,
+        "ADV": 139,
         "CONJ": 19,
         "NUM": 23,
         "PROPN": 6,
         "WH": 4,
-        "AUX": 30,
-        "PREP": 35,
+        "AUX": 31,
+        "PREP": 36,
         "PART": 18
       },
       "ADJ": {
         "PART": 47,
-        "NOUN": 1849,
+        "NOUN": 1856,
         "WH": 6,
         "PUNCT": 299,
         "PREP": 192,
@@ -64394,7 +64471,7 @@
         "VERB": 447,
         "AUX": 71,
         "ADJ": 36,
-        "NOUN": 59,
+        "NOUN": 60,
         "WH": 6,
         "PREP": 3,
         "CONJ": 11,
@@ -64403,7 +64480,7 @@
         "DET": 1
       },
       "VERB": {
-        "PREP": 715,
+        "PREP": 717,
         "PART": 152,
         "ADJ": 105,
         "NOUN": 691,
@@ -64423,15 +64500,15 @@
       },
       "PREP": {
         "PRON": 101,
-        "NOUN": 1327,
-        "DET": 1469,
+        "NOUN": 1333,
+        "DET": 1473,
         "PUNCT": 76,
         "VERB": 113,
         "PREP": 36,
-        "ADJ": 356,
+        "ADJ": 357,
         "PROPN": 135,
         "AUX": 24,
-        "NUM": 69,
+        "NUM": 70,
         "WH": 49,
         "CONJ": 31,
         "ADV": 23,
@@ -64440,14 +64517,14 @@
         "</S>": 1
       },
       "PUNCT": {
-        "</S>": 2619,
+        "</S>": 2622,
         "NOUN": 744,
-        "CONJ": 402,
+        "CONJ": 403,
         "PRON": 63,
         "VERB": 98,
         "ADV": 106,
-        "PREP": 92,
-        "ADJ": 117,
+        "PREP": 94,
+        "ADJ": 118,
         "DET": 221,
         "WH": 50,
         "AUX": 40,
@@ -64479,7 +64556,7 @@
         "NOUN": 110,
         "CONJ": 21,
         "DET": 32,
-        "VERB": 229,
+        "VERB": 230,
         "</S>": 3,
         "PRON": 5,
         "MODAL": 2,
@@ -64493,14 +64570,14 @@
         "WH": 5
       },
       "NOUN": {
-        "AUX": 750,
-        "PREP": 2237,
-        "NOUN": 2228,
-        "PUNCT": 3485,
-        "CONJ": 875,
-        "VERB": 610,
+        "AUX": 752,
+        "PREP": 2244,
+        "NOUN": 2232,
+        "PUNCT": 3492,
+        "CONJ": 879,
+        "VERB": 611,
         "ADV": 107,
-        "PART": 279,
+        "PART": 280,
         "ADJ": 285,
         "MODAL": 106,
         "</S>": 152,
@@ -64513,8 +64590,8 @@
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 2761,
-        "ADJ": 1153,
+        "NOUN": 2765,
+        "ADJ": 1155,
         "PRON": 30,
         "PREP": 62,
         "NUM": 57,
@@ -64531,10 +64608,10 @@
       },
       "CONJ": {
         "PRON": 118,
-        "DET": 315,
-        "NOUN": 837,
+        "DET": 316,
+        "NOUN": 839,
         "VERB": 145,
-        "ADJ": 167,
+        "ADJ": 169,
         "ADV": 64,
         "PUNCT": 18,
         "WH": 19,
@@ -64598,7 +64675,7 @@
         "WH": 1
       },
       "NUM": {
-        "NOUN": 117,
+        "NOUN": 118,
         "PUNCT": 12,
         "CONJ": 23,
         "PREP": 28,
@@ -64616,7 +64693,7 @@
     },
     "pos_trigrams": {
       "<S>|PRON": {
-        "AUX": 169,
+        "AUX": 170,
         "VERB": 176,
         "MODAL": 43,
         "ADV": 9,
@@ -64635,7 +64712,7 @@
         "NEG": 36,
         "VERB": 76,
         "INTJ": 1,
-        "ADV": 37,
+        "ADV": 38,
         "PUNCT": 2,
         "NUM": 8,
         "NOUN": 8,
@@ -64686,13 +64763,13 @@
       },
       "VERB|PREP": {
         "PRON": 21,
-        "DET": 288,
+        "DET": 289,
         "NOUN": 204,
         "PUNCT": 25,
         "VERB": 23,
         "ADJ": 66,
         "PREP": 17,
-        "NUM": 19,
+        "NUM": 20,
         "PROPN": 31,
         "CONJ": 5,
         "AUX": 2,
@@ -64823,7 +64900,7 @@
         "AUX": 148,
         "VERB": 74,
         "PUNCT": 25,
-        "NOUN": 295,
+        "NOUN": 296,
         "CONJ": 27,
         "PREP": 64,
         "PROPN": 18,
@@ -64836,7 +64913,7 @@
         "INTJ": 2
       },
       "NOUN|AUX": {
-        "DET": 247,
+        "DET": 248,
         "ADJ": 132,
         "NOUN": 53,
         "ADV": 85,
@@ -64846,14 +64923,14 @@
         "NEG": 16,
         "PROPN": 2,
         "WH": 3,
-        "AUX": 13,
+        "AUX": 14,
         "PREP": 14,
         "PART": 5,
         "PRON": 2,
         "PUNCT": 5
       },
       "AUX|DET": {
-        "NOUN": 222,
+        "NOUN": 223,
         "ADJ": 173,
         "PROPN": 8,
         "VERB": 7,
@@ -64864,10 +64941,10 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 864,
+        "PREP": 867,
         "AUX": 237,
         "CONJ": 215,
-        "PUNCT": 631,
+        "PUNCT": 632,
         "VERB": 183,
         "ADV": 27,
         "ADJ": 62,
@@ -64882,10 +64959,10 @@
         "NUM": 3
       },
       "NOUN|PREP": {
-        "NOUN": 846,
-        "DET": 840,
+        "NOUN": 850,
+        "DET": 842,
         "PREP": 12,
-        "ADJ": 222,
+        "ADJ": 223,
         "PROPN": 61,
         "VERB": 68,
         "PUNCT": 27,
@@ -64898,14 +64975,14 @@
         "</S>": 1
       },
       "PREP|NOUN": {
-        "NOUN": 203,
-        "PUNCT": 408,
+        "NOUN": 205,
+        "PUNCT": 409,
         "VERB": 55,
         "CONJ": 159,
         "ADJ": 30,
         "DET": 57,
         "AUX": 36,
-        "PREP": 154,
+        "PREP": 157,
         "PRON": 34,
         "</S>": 122,
         "WH": 6,
@@ -64920,10 +64997,10 @@
         "PART": 37,
         "NOUN": 541,
         "PREP": 324,
-        "CONJ": 128,
-        "VERB": 88,
+        "CONJ": 130,
+        "VERB": 89,
         "PROPN": 47,
-        "AUX": 97,
+        "AUX": 98,
         "MODAL": 21,
         "ADJ": 49,
         "NUM": 4,
@@ -64935,12 +65012,12 @@
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 2012,
+        "</S>": 2015,
         "NOUN": 504,
-        "CONJ": 290,
+        "CONJ": 291,
         "ADV": 76,
-        "PREP": 65,
-        "ADJ": 81,
+        "PREP": 67,
+        "ADJ": 82,
         "DET": 154,
         "VERB": 72,
         "WH": 38,
@@ -64966,7 +65043,7 @@
         "PRON": 3
       },
       "DET|ADJ": {
-        "NOUN": 919,
+        "NOUN": 921,
         "CONJ": 34,
         "ADJ": 44,
         "PUNCT": 48,
@@ -64982,15 +65059,15 @@
         "NUM": 5
       },
       "ADJ|NOUN": {
-        "PUNCT": 609,
+        "PUNCT": 612,
         "NOUN": 268,
         "MODAL": 16,
         "VERB": 93,
-        "PREP": 384,
-        "CONJ": 156,
+        "PREP": 385,
+        "CONJ": 158,
         "DET": 67,
         "ADJ": 23,
-        "AUX": 98,
+        "AUX": 99,
         "PART": 59,
         "WH": 16,
         "PROPN": 5,
@@ -65014,8 +65091,8 @@
         "WH": 1
       },
       "PREP|DET": {
-        "NOUN": 934,
-        "ADJ": 363,
+        "NOUN": 936,
+        "ADJ": 365,
         "NUM": 22,
         "PREP": 15,
         "PROPN": 57,
@@ -65031,8 +65108,8 @@
         "PRON": 25,
         "DET": 142,
         "VERB": 48,
-        "NOUN": 472,
-        "ADJ": 66,
+        "NOUN": 474,
+        "ADJ": 68,
         "WH": 7,
         "PREP": 27,
         "NUM": 4,
@@ -65117,7 +65194,7 @@
         "MODAL": 1
       },
       "CONJ|DET": {
-        "NOUN": 200,
+        "NOUN": 201,
         "ADJ": 77,
         "CONJ": 3,
         "PUNCT": 4,
@@ -65236,7 +65313,7 @@
       "NOUN|VERB": {
         "PART": 24,
         "DET": 137,
-        "PREP": 145,
+        "PREP": 146,
         "WH": 5,
         "PRON": 41,
         "PUNCT": 46,
@@ -65267,7 +65344,7 @@
       "PUNCT|CONJ": {
         "NOUN": 150,
         "PRON": 34,
-        "DET": 57,
+        "DET": 58,
         "PUNCT": 6,
         "ADJ": 31,
         "CONJ": 12,
@@ -65283,14 +65360,14 @@
       },
       "CONJ|NOUN": {
         "AUX": 27,
-        "PUNCT": 232,
+        "PUNCT": 233,
         "</S>": 4,
         "PREP": 167,
         "VERB": 30,
         "WH": 10,
         "NOUN": 224,
         "PRON": 17,
-        "PART": 18,
+        "PART": 19,
         "CONJ": 35,
         "PROPN": 5,
         "ADJ": 14,
@@ -65391,7 +65468,7 @@
         "AUX": 1
       },
       "<S>|ADJ": {
-        "NOUN": 74,
+        "NOUN": 75,
         "ADJ": 8,
         "VERB": 4,
         "PREP": 20,
@@ -65407,7 +65484,7 @@
         "ADJ": 24,
         "AUX": 33,
         "VERB": 173,
-        "NOUN": 38,
+        "NOUN": 39,
         "CONJ": 2,
         "PUNCT": 5,
         "WH": 3,
@@ -65616,7 +65693,7 @@
       "AUX|ADV": {
         "ADJ": 28,
         "NOUN": 15,
-        "VERB": 72,
+        "VERB": 73,
         "ADV": 6,
         "PREP": 4,
         "DET": 10,
@@ -65648,7 +65725,7 @@
       },
       "CONJ|ADJ": {
         "PUNCT": 19,
-        "NOUN": 108,
+        "NOUN": 110,
         "ADJ": 8,
         "CONJ": 7,
         "VERB": 11,
@@ -65718,9 +65795,9 @@
         "CONJ": 1
       },
       "PUNCT|PREP": {
-        "DET": 23,
+        "DET": 24,
         "ADJ": 10,
-        "NOUN": 37,
+        "NOUN": 38,
         "AUX": 2,
         "PRON": 3,
         "VERB": 3,
@@ -65785,7 +65862,7 @@
         "PART": 13,
         "NOUN": 32,
         "CONJ": 31,
-        "PREP": 65,
+        "PREP": 66,
         "WH": 5,
         "PUNCT": 14,
         "ADJ": 8,
@@ -65812,7 +65889,7 @@
         "PRON": 1
       },
       "PUNCT|ADJ": {
-        "NOUN": 54,
+        "NOUN": 55,
         "PUNCT": 31,
         "PROPN": 6,
         "PREP": 15,
@@ -65825,7 +65902,7 @@
         "CONJ": 11,
         "PROPN": 10,
         "ADJ": 24,
-        "NOUN": 263,
+        "NOUN": 264,
         "PUNCT": 22,
         "AUX": 4,
         "VERB": 10,
@@ -66018,7 +66095,7 @@
         "PROPN": 2
       },
       "PART|NOUN": {
-        "NOUN": 14,
+        "NOUN": 15,
         "PUNCT": 23,
         "PREP": 9,
         "DET": 7,
@@ -66040,7 +66117,7 @@
       "NUM|NOUN": {
         "PREP": 35,
         "VERB": 5,
-        "PUNCT": 24,
+        "PUNCT": 25,
         "AUX": 10,
         "ADJ": 1,
         "MODAL": 1,
@@ -66259,7 +66336,7 @@
       },
       "PREP|NUM": {
         "CONJ": 13,
-        "NOUN": 37,
+        "NOUN": 38,
         "VERB": 2,
         "PREP": 4,
         "ADJ": 2,
@@ -66610,7 +66687,7 @@
         "PART": 1,
         "NOUN": 1,
         "DET": 1,
-        "PREP": 1
+        "PREP": 2
       },
       "PUNCT|PART": {
         "VERB": 14,
@@ -66656,7 +66733,7 @@
       "AUX|PREP": {
         "PART": 5,
         "DET": 16,
-        "NOUN": 10,
+        "NOUN": 11,
         "PUNCT": 1,
         "PROPN": 1,
         "PRON": 1,
@@ -66928,7 +67005,9 @@
         "read": 3,
         "replace": 1,
         "happen": 1,
-        "hospital": 1
+        "hospital": 1,
+        "some": 1,
+        "operations": 1
       },
       "talk": {
         "with": 1,
@@ -66951,7 +67030,8 @@
         "electromagnetic": 1,
         "her": 1,
         "one": 1,
-        "severe": 1
+        "severe": 1,
+        "regard": 1
       },
       "how": {
         "to": 8,
@@ -67072,7 +67152,7 @@
       },
       "is": {
         "a": 145,
-        "the": 105,
+        "the": 106,
         "an": 28,
         "one": 7,
         "usually": 7,
@@ -67080,7 +67160,7 @@
         "important": 3,
         "vague": 3,
         "good": 3,
-        "generally": 3,
+        "generally": 4,
         "much": 1
       },
       "a": {
@@ -67101,7 +67181,8 @@
         "wide": 1,
         "list": 2,
         "different": 2,
-        "device": 1
+        "device": 1,
+        "best": 1
       },
       "for": {
         "the": 27,
@@ -67118,7 +67199,8 @@
         "construction": 1,
         "support": 1,
         "her": 1,
-        "subsequent": 1
+        "subsequent": 1,
+        "centuries": 1
       },
       "sharing": {
         "ideas": 1,
@@ -67129,7 +67211,7 @@
         "brain": 11,
         "order": 10,
         "blackboard": 9,
-        "development": 9,
+        "development": 10,
         "structure": 8,
         "pdf": 6,
         "film": 6,
@@ -67143,7 +67225,8 @@
         "wires": 1,
         "liftoff": 1,
         "opportunity": 1,
-        "explorers": 1
+        "explorers": 1,
+        "selection": 1
       },
       "brain": {
         "is": 1,
@@ -67305,10 +67388,11 @@
         "artificial": 2,
         "professionalism": 2,
         "emotions": 2,
-        "contrasts": 2
+        "contrasts": 2,
+        "mathematical": 1
       },
       "it": {
-        "is": 57,
+        "is": 58,
         "was": 17,
         "'s": 12,
         "has": 8,
@@ -67523,7 +67607,7 @@
         "taken": 1
       },
       "and": {
-        "the": 45,
+        "the": 46,
         "gerund": 23,
         "past": 22,
         "other": 13,
@@ -67533,7 +67617,10 @@
         "war": 3,
         "against": 3,
         "functions": 2,
-        "diverse": 1
+        "diverse": 1,
+        "continuous": 1,
+        "engineering": 1,
+        "economics": 1
       },
       "meanings": {
         "have": 1,
@@ -67750,7 +67837,9 @@
         "general": 1,
         "air": 1,
         "reference": 1,
-        "exactly": 1
+        "exactly": 1,
+        "all": 1,
+        "mathematics": 1
       },
       "children": {
         "play": 1,
@@ -67890,7 +67979,7 @@
       },
       "of": {
         "the": 195,
-        "a": 91,
+        "a": 92,
         "an": 22,
         "or": 14,
         "speech": 9,
@@ -67900,7 +67989,10 @@
         "knowledge": 6,
         "protons": 5,
         "notable": 1,
-        "ai": 1
+        "ai": 1,
+        "available": 1,
+        "solution": 1,
+        "interest": 1
       },
       "reading": {
         "is": 1,
@@ -68270,7 +68362,9 @@
         "ions": 1,
         "his": 1,
         "higher": 1,
-        "side": 1
+        "side": 1,
+        "some": 1,
+        "computer": 1
       },
       "point": {
         "of": 2,
@@ -68318,7 +68412,9 @@
         "vinegar": 1,
         "theorists": 1,
         "philosophers": 1,
-        "groceries": 1
+        "groceries": 1,
+        "criteria": 1,
+        "set": 1
       },
       "study": {
         "about": 1,
@@ -68714,7 +68810,8 @@
       "continuous": {
         "adjustment": 1,
         "adaptation": 1,
-        "change": 2
+        "change": 2,
+        "optimization": 1
       },
       "synaptic": {
         "weights": 1,
@@ -69074,7 +69171,7 @@
         "layers": 2,
         "dissipative": 1,
         "other": 1,
-        "two": 3,
+        "two": 4,
         "five": 2,
         "or": 1,
         "\"": 1,
@@ -69323,7 +69420,7 @@
       },
       "has": {
         "a": 19,
-        "been": 14,
+        "been": 15,
         "the": 3,
         "two": 4,
         "free": 2,
@@ -69513,7 +69610,7 @@
         "mathematical": 4
       },
       "mathematical": {
-        "optimization": 4,
+        "optimization": 5,
         "type": 2,
         "problem": 1,
         "calculations": 1,
@@ -69526,7 +69623,8 @@
         "limit": 1,
         "operation": 1,
         "model": 1,
-        "statement": 1
+        "statement": 1,
+        "programming": 1
       },
       "first-order": {
         "iterative": 1,
@@ -70030,7 +70128,8 @@
         "distinct": 1,
         "tenses": 1,
         "objects": 1,
-        "areas": 1
+        "areas": 1,
+        "subfields": 1
       },
       "items": {
         "(": 1,
@@ -70136,7 +70235,8 @@
         "accepted": 1,
         "studied": 1,
         "neutrons": 1,
-        "display": 1
+        "display": 1,
+        "divided": 1
       },
       "agreed": {
         "that": 3,
@@ -70391,7 +70491,7 @@
         "n": 1
       },
       "development": {
-        "of": 9,
+        "of": 10,
         "is": 1
       },
       "conversational": {
@@ -70928,7 +71028,7 @@
       },
       "computer": {
         "scientist": 1,
-        "science": 9,
+        "science": 10,
         "algorithm": 1,
         "systems": 2,
         "(": 2,
@@ -70984,7 +71084,8 @@
         "values": 2,
         "energy": 1,
         "\"": 1,
-        "particle": 1
+        "particle": 1,
+        "optimization": 1
       },
       "spikes": {
         "as": 2
@@ -71192,7 +71293,7 @@
         "when": 3,
         "is": 3,
         "concept": 1,
-        "methods": 1,
+        "methods": 2,
         "to": 2
       },
       "internal": {
@@ -71563,25 +71664,15 @@
       },
       "all": {
         "the": 7,
-        "possible": 1,
         "of": 2,
+        "possible": 1,
         "these": 1,
         "potential": 1,
         "languages": 1,
         "tenses": 1,
         "their": 1,
         "motion": 1,
-        "activity": 1,
-        "directions": 1,
-        "words": 1,
-        "perception": 1,
-        "my": 1,
-        "atomic": 1,
-        "time": 1,
-        "in": 1,
-        "people": 1,
-        "organisms": 1,
-        "day": 1
+        "activity": 1
       },
       "possible": {
         "permutations": 1,
@@ -71884,7 +71975,7 @@
         "of": 2,
         "concerned": 1,
         "education": 1,
-        "and": 5,
+        "and": 6,
         "laboratory": 1,
         "than": 1,
         "that": 3,
@@ -72246,7 +72337,8 @@
         "contexts": 2,
         "idiom": 1,
         "to": 1,
-        "a": 1
+        "a": 1,
+        "is": 1
       },
       "encompasses": {
         "a": 1,
@@ -72275,7 +72367,8 @@
         "to": 1,
         "more": 4,
         "than": 1,
-        "in": 1
+        "in": 1,
+        "arise": 1
       },
       "hardware": {
         "and": 1,
@@ -72845,7 +72938,7 @@
         "is": 2
       },
       "set": {
-        "of": 21,
+        "of": 22,
         "and": 1,
         "in": 1,
         "known": 1,
@@ -73048,7 +73141,8 @@
         "songs": 1,
         "in": 1,
         "adj": 1,
-        "explanation": 1
+        "explanation": 1,
+        "element": 1
       },
       "arrive": {
         "early": 2,
@@ -73341,7 +73435,8 @@
         "in": 1,
         "proven": 1,
         "made": 1,
-        "called": 1
+        "called": 1,
+        "of": 1
       },
       "device": {
         "that": 2,
@@ -73816,7 +73911,8 @@
         "concerning": 1,
         "has": 1,
         "on": 1,
-        "station": 1
+        "station": 1,
+        "and": 1
       },
       "concerning": {
         "the": 2,
@@ -74646,7 +74742,8 @@
         "languages": 3
       },
       "arise": {
-        "from": 2
+        "from": 2,
+        "in": 1
       },
       "demonstratives": {
         "meaning": 1,
@@ -75908,7 +76005,8 @@
       "methods": {
         "used": 1,
         "are": 1,
-        "of": 2
+        "of": 2,
+        "has": 1
       },
       "activity": {
         "of": 1,
@@ -76202,7 +76300,7 @@
         "combined": 1
       },
       "divided": {
-        "into": 4,
+        "into": 5,
         "daughter": 1
       },
       "multi-agent": {
@@ -76668,7 +76766,7 @@
         "between": 1
       },
       "engineering": {
-        "to": 1,
+        "to": 2,
         "for": 1,
         "manually": 1
       },
@@ -77669,7 +77767,8 @@
       "available": {
         "adj": 1,
         "candidate": 1,
-        "products": 1
+        "products": 1,
+        "alternatives": 1
       },
       "average": {
         "adj": 1,
@@ -78270,7 +78369,8 @@
         "that": 3,
         "and": 2,
         "as": 1,
-        "is": 2
+        "is": 2,
+        "for": 1
       },
       "integral": {
         "calculus": 2,
@@ -81377,17 +81477,40 @@
       },
       "primary": {
         "focus": 1
+      },
+      "optimization": {
+        "or": 1,
+        "and": 1,
+        "problems": 1
+      },
+      "selection": {
+        "of": 1
+      },
+      "regard": {
+        "to": 1
+      },
+      "quantitative": {
+        "disciplines": 1
+      },
+      "disciplines": {
+        "from": 1
+      },
+      "operations": {
+        "research": 1
+      },
+      "interest": {
+        "in": 1
       }
     },
     "starters": {
       "i": 111,
       "how": 6,
       "what": 8,
-      "<NOUN>": 761,
+      "<NOUN>": 762,
       "the": 377,
       "she": 25,
       "we": 41,
-      "it": 94,
+      "it": 95,
       "<VERB>": 291,
       "can": 4,
       "my": 15,
@@ -81395,7 +81518,7 @@
       "they": 20,
       "he": 69,
       "where": 1,
-      "<ADJ>": 126,
+      "<ADJ>": 127,
       "please": 4,
       "that": 23,
       "if": 14,
@@ -81478,8 +81601,8 @@
     },
     "connectors": {
       "because": 16,
-      "or": 532,
-      "and": 781,
+      "or": 533,
+      "and": 785,
       "but": 86,
       "so": 38,
       "while": 8,
@@ -81516,7 +81639,7 @@
       },
       "NOUN>DET": {
         "or": 44,
-        "and": 77,
+        "and": 78,
         "but": 17,
         "if": 3,
         "though": 2,
@@ -81529,7 +81652,7 @@
         "once": 1
       },
       "NOUN>NOUN": {
-        "and": 345,
+        "and": 347,
         "or": 217,
         "as": 13,
         "yet": 2,
@@ -81600,9 +81723,9 @@
         "as": 2
       },
       "NOUN>ADJ": {
-        "and": 53,
+        "and": 54,
         "than": 1,
-        "or": 24,
+        "or": 25,
         "whether": 1,
         "as": 7,
         "since": 1,
@@ -84672,16 +84795,10 @@
       "NOUN ADJ NOUN VERB CONJ PRON VERB PREP DET NOUN PREP DET NOUN PREP DET ADJ NOUN | and | ADJ NOUN": 1,
       "PRON AUX DET NOUN PREP NOUN PRON AUX VERB NOUN PREP DET PROPN NOUN | and | DET ADJ PROPN NOUN": 1,
       "PRON MODAL VERB | if | DET NOUN": 1,
-      "NOUN DET ADV VERB PREP PROPN | but | AUX DET NOUN ADJ NOUN AUX NEG VERB": 1
+      "NOUN DET ADV VERB PREP PROPN | but | AUX DET NOUN ADJ NOUN AUX NEG VERB": 1,
+      "PRON AUX ADV VERB PREP NUM NOUN ADJ NOUN | and | ADJ NOUN": 1
     },
     "sentence_bank": {
-      "spend": [
-        "I spent an hour at lunch.",
-        "My uncle spent all day tracking the deer, whose hoofprints were clear in the mud."
-      ],
-      "hour": [
-        "I spent an hour at lunch."
-      ],
       "movement": [
         "I saw a movement in that grass on the hill."
       ],
@@ -86016,7 +86133,8 @@
         "If you don't get me the report on time, there will be consequences."
       ],
       "mathematical": [
-        "A mathematical statement of some importance that has been proven to be true."
+        "A mathematical statement of some importance that has been proven to be true.",
+        "Mathematical optimization or mathematical programming is the selection of a best element, with regard to some criteria, from some set of available alternatives."
       ],
       "minor": [
         "Minor theorems are often called propositions."
@@ -86444,7 +86562,8 @@
         "Having a large physical extent from side to side."
       ],
       "divid": [
-        "Philosophy is often divided into five major branches: logic, metaphysics, epistemology, ethics and aesthetics."
+        "Philosophy is often divided into five major branches: logic, metaphysics, epistemology, ethics and aesthetics.",
+        "It is generally divided into two subfields: discrete optimization and continuous optimization."
       ],
       "oral": [
         "We've got our Spanish oral tomorrow. oral hygiene an oral French exam A spoken test or examination, particularly in a language class."
@@ -86626,6 +86745,12 @@
       ],
       "explorers": [
         "They recovered three of the explorers very much alive, then another, wracked with severe hypothermia, who was taken to hospital."
+      ],
+      "optimization": [
+        "Mathematical optimization or mathematical programming is the selection of a best element, with regard to some criteria, from some set of available alternatives."
+      ],
+      "subfields": [
+        "It is generally divided into two subfields: discrete optimization and continuous optimization."
       ]
     }
   },
@@ -86941,7 +87066,9 @@
       "recovered",
       "alive",
       "severe",
-      "notable"
+      "notable",
+      "regard",
+      "quantitative"
     ],
     "names": [],
     "lessons": 137,
@@ -86976,10 +87103,6 @@
       "comprehensive statistical modeling libraries"
     ],
     "recent_daydream_pairs": [
-      [
-        "cognitive model",
-        "connectomics"
-      ],
       [
         "bacteria",
         "climate"
@@ -87055,6 +87178,10 @@
       [
         "quantum computing",
         "silicon"
+      ],
+      [
+        "etymology",
+        "fourier transform"
       ]
     ]
   }
