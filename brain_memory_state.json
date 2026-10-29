@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.5,
+    "adenosine": 0.5800000000000001,
     "newborn": false
   },
   "episodic_memory": [
@@ -2861,6 +2861,13 @@
       "time": "2026-10-29 13:41:36",
       "speaker": "brain",
       "text": "I wondered about 'List of 2026–27 NBA season transactions' by myself and went searching. From Wikipedia (live internet) I learned: This is a list of transactions that have taken place during the 2026 NBA off-season and the 2026–27 NBA season. Key ideas I stored: nba off-season, nba season, transactions.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-29 19:26:13",
+      "speaker": "brain",
+      "text": "I wondered about 'List of artificial intelligence companies' by myself and went searching. From Wikipedia (live internet) I learned: Below is a list of notable companies that primarily focus on artificial intelligence (AI). Key ideas I stored: artificial intelligence, companies, intelligence, notable, primarily.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -7495,6 +7502,20 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/List_of_2026%E2%80%9327_NBA_season_transactions",
       "learned": "2026-10-29 13:41:36"
+    },
+    "List of artificial intelligence companies": {
+      "summary": "Below is a list of notable companies that primarily focus on artificial intelligence (AI). Companies that simply make use of AI but have a different primary focus are not included.",
+      "concepts": [
+        "artificial intelligence",
+        "companies",
+        "intelligence",
+        "notable",
+        "primarily",
+        "simply"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/List_of_artificial_intelligence_companies",
+      "learned": "2026-10-29 19:26:13"
     }
   },
   "creator_teachings": [
@@ -8812,6 +8833,12 @@
       "kind": "explore_report",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-29 19:26:13",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -9000,7 +9027,8 @@
     "distribution",
     "translation",
     "cybernetics",
-    "transactions"
+    "transactions",
+    "ai companies"
   ],
   "sensory_log": [
     {
@@ -61413,23 +61441,37 @@
       "source": "corpus",
       "learned": "2026-10-29 13:41:40",
       "uses": 1
+    },
+    "notable": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Below is a list of notable companies that primarily focus on artificial intelligence (AI)."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-29 19:26:13",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 2804,
-      "tokens": 38624,
+      "sentences": 2806,
+      "tokens": 38658,
       "sources": {
         "seed corpus": 64,
         "conversation": 36,
         "dictionary": 1576,
-        "explore": 439,
+        "explore": 441,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "d5f45d2cfbae",
         "e15743819cc1",
         "e4a7e3aa12f0",
         "861f8a045b61",
@@ -61728,7 +61770,8 @@
         "e2c3983e8d2d",
         "c619a87e14ca",
         "56f505064e37",
-        "7d087d865f76"
+        "7d087d865f76",
+        "549deb4b9714"
       ],
       "seeded": true,
       "rejected": 635,
@@ -63674,7 +63717,6 @@
         "reproducible": 1,
         "tangible": 1,
         "lancelot": 1,
-        "notable": 1,
         "ethical": 1,
         "insects": 1,
         "acres": 1,
@@ -64266,7 +64308,7 @@
       "<S>": {
         "PRON": 418,
         "WH": 35,
-        "NOUN": 760,
+        "NOUN": 761,
         "DET": 795,
         "VERB": 291,
         "MODAL": 7,
@@ -64275,7 +64317,7 @@
         "CONJ": 34,
         "AUX": 18,
         "ADV": 40,
-        "PREP": 201,
+        "PREP": 202,
         "PART": 51,
         "NUM": 10,
         "NEG": 4
@@ -64302,9 +64344,9 @@
         "ADJ": 286,
         "PRON": 23,
         "PUNCT": 16,
-        "DET": 436,
+        "DET": 438,
         "NOUN": 98,
-        "NEG": 69,
+        "NEG": 70,
         "VERB": 400,
         "INTJ": 1,
         "ADV": 138,
@@ -64318,7 +64360,7 @@
       },
       "ADJ": {
         "PART": 47,
-        "NOUN": 1846,
+        "NOUN": 1849,
         "WH": 6,
         "PUNCT": 299,
         "PREP": 192,
@@ -64348,15 +64390,15 @@
         "DET": 1
       },
       "VERB": {
-        "PREP": 713,
+        "PREP": 715,
         "PART": 152,
         "ADJ": 105,
         "NOUN": 691,
-        "PUNCT": 315,
+        "PUNCT": 316,
         "PRON": 148,
         "AUX": 41,
         "DET": 563,
-        "VERB": 62,
+        "VERB": 63,
         "CONJ": 228,
         "WH": 31,
         "</S>": 15,
@@ -64373,9 +64415,9 @@
         "PUNCT": 76,
         "VERB": 113,
         "PREP": 36,
-        "ADJ": 354,
-        "PROPN": 134,
-        "AUX": 23,
+        "ADJ": 356,
+        "PROPN": 135,
+        "AUX": 24,
         "NUM": 69,
         "WH": 49,
         "CONJ": 31,
@@ -64385,7 +64427,7 @@
         "</S>": 1
       },
       "PUNCT": {
-        "</S>": 2617,
+        "</S>": 2619,
         "NOUN": 744,
         "CONJ": 402,
         "PRON": 63,
@@ -64424,7 +64466,7 @@
         "NOUN": 110,
         "CONJ": 21,
         "DET": 32,
-        "VERB": 227,
+        "VERB": 229,
         "</S>": 3,
         "PRON": 5,
         "MODAL": 2,
@@ -64438,27 +64480,27 @@
         "WH": 5
       },
       "NOUN": {
-        "AUX": 749,
-        "PREP": 2236,
-        "NOUN": 2227,
-        "PUNCT": 3484,
+        "AUX": 750,
+        "PREP": 2237,
+        "NOUN": 2228,
+        "PUNCT": 3485,
         "CONJ": 875,
         "VERB": 610,
         "ADV": 107,
         "PART": 279,
-        "ADJ": 284,
+        "ADJ": 285,
         "MODAL": 106,
         "</S>": 152,
         "PRON": 177,
         "WH": 76,
-        "DET": 425,
-        "PROPN": 112,
+        "DET": 427,
+        "PROPN": 113,
         "NUM": 15,
         "NEG": 8,
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 2759,
+        "NOUN": 2761,
         "ADJ": 1153,
         "PRON": 30,
         "PREP": 62,
@@ -64468,7 +64510,7 @@
         "CONJ": 62,
         "PROPN": 135,
         "DET": 96,
-        "ADV": 41,
+        "ADV": 43,
         "PUNCT": 33,
         "AUX": 4,
         "WH": 8,
@@ -64486,7 +64528,7 @@
         "PREP": 59,
         "CONJ": 28,
         "NUM": 7,
-        "AUX": 43,
+        "AUX": 44,
         "PROPN": 51,
         "MODAL": 18,
         "NEG": 7,
@@ -64506,7 +64548,7 @@
         "NUM": 1
       },
       "NEG": {
-        "VERB": 58,
+        "VERB": 59,
         "NOUN": 9,
         "DET": 9,
         "AUX": 9,
@@ -64530,12 +64572,12 @@
         "DET": 11,
         "PUNCT": 165,
         "PART": 15,
-        "NOUN": 205,
+        "NOUN": 206,
         "AUX": 31,
         "PROPN": 118,
         "ADJ": 17,
         "PREP": 31,
-        "CONJ": 32,
+        "CONJ": 33,
         "VERB": 20,
         "NUM": 1,
         "ADV": 4,
@@ -64635,10 +64677,10 @@
         "NOUN": 204,
         "PUNCT": 25,
         "VERB": 23,
-        "ADJ": 65,
+        "ADJ": 66,
         "PREP": 17,
         "NUM": 19,
-        "PROPN": 30,
+        "PROPN": 31,
         "CONJ": 5,
         "AUX": 2,
         "WH": 5,
@@ -64776,7 +64818,7 @@
         "PART": 6,
         "WH": 6,
         "ADV": 7,
-        "DET": 19,
+        "DET": 20,
         "MODAL": 11,
         "INTJ": 2
       },
@@ -64788,7 +64830,7 @@
         "VERB": 154,
         "CONJ": 9,
         "NUM": 10,
-        "NEG": 15,
+        "NEG": 16,
         "PROPN": 2,
         "WH": 3,
         "AUX": 13,
@@ -64798,7 +64840,7 @@
         "PUNCT": 5
       },
       "AUX|DET": {
-        "NOUN": 220,
+        "NOUN": 222,
         "ADJ": 173,
         "PROPN": 8,
         "VERB": 7,
@@ -64809,13 +64851,13 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 863,
+        "PREP": 864,
         "AUX": 237,
         "CONJ": 215,
         "PUNCT": 631,
         "VERB": 183,
         "ADV": 27,
-        "ADJ": 61,
+        "ADJ": 62,
         "NOUN": 256,
         "PRON": 45,
         "PART": 80,
@@ -64830,7 +64872,7 @@
         "NOUN": 846,
         "DET": 840,
         "PREP": 12,
-        "ADJ": 221,
+        "ADJ": 222,
         "PROPN": 61,
         "VERB": 68,
         "PUNCT": 27,
@@ -64867,7 +64909,7 @@
         "PREP": 324,
         "CONJ": 128,
         "VERB": 88,
-        "PROPN": 46,
+        "PROPN": 47,
         "AUX": 97,
         "MODAL": 21,
         "ADJ": 49,
@@ -64880,7 +64922,7 @@
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 2011,
+        "</S>": 2012,
         "NOUN": 504,
         "CONJ": 290,
         "ADV": 76,
@@ -64928,14 +64970,14 @@
       },
       "ADJ|NOUN": {
         "PUNCT": 609,
-        "NOUN": 267,
+        "NOUN": 268,
         "MODAL": 16,
         "VERB": 93,
         "PREP": 384,
         "CONJ": 156,
-        "DET": 66,
+        "DET": 67,
         "ADJ": 23,
-        "AUX": 97,
+        "AUX": 98,
         "PART": 59,
         "WH": 16,
         "PROPN": 5,
@@ -65077,7 +65119,7 @@
         "NUM": 3
       },
       "VERB|PUNCT": {
-        "</S>": 199,
+        "</S>": 200,
         "PRON": 11,
         "CONJ": 19,
         "NOUN": 39,
@@ -65273,7 +65315,7 @@
         "DET": 1
       },
       "AUX|NEG": {
-        "VERB": 38,
+        "VERB": 39,
         "NOUN": 4,
         "AUX": 3,
         "PREP": 3,
@@ -65287,7 +65329,7 @@
         "DET": 11,
         "PREP": 14,
         "ADV": 3,
-        "PUNCT": 5,
+        "PUNCT": 6,
         "NOUN": 8,
         "WH": 3,
         "CONJ": 5,
@@ -65371,7 +65413,7 @@
       },
       "VERB|VERB": {
         "PUNCT": 7,
-        "PREP": 15,
+        "PREP": 16,
         "PRON": 1,
         "ADJ": 4,
         "DET": 7,
@@ -65423,7 +65465,7 @@
       },
       "NOUN|ADJ": {
         "PUNCT": 35,
-        "NOUN": 173,
+        "NOUN": 174,
         "DET": 4,
         "PREP": 32,
         "ADJ": 9,
@@ -65730,14 +65772,14 @@
         "PART": 13,
         "NOUN": 32,
         "CONJ": 31,
-        "PREP": 64,
+        "PREP": 65,
         "WH": 5,
         "PUNCT": 14,
         "ADJ": 8,
         "AUX": 4,
         "PRON": 9,
         "NUM": 2,
-        "VERB": 1,
+        "VERB": 2,
         "ADV": 2
       },
       "VERB|PROPN": {
@@ -65770,7 +65812,7 @@
         "CONJ": 11,
         "PROPN": 10,
         "ADJ": 24,
-        "NOUN": 261,
+        "NOUN": 263,
         "PUNCT": 22,
         "AUX": 4,
         "VERB": 10,
@@ -65836,7 +65878,7 @@
         "NOUN": 27,
         "PREP": 7,
         "VERB": 4,
-        "CONJ": 9,
+        "CONJ": 10,
         "PART": 5,
         "ADJ": 1,
         "DET": 2,
@@ -65934,7 +65976,7 @@
         "NOUN": 248,
         "ADJ": 80,
         "CONJ": 27,
-        "ADV": 7,
+        "ADV": 9,
         "PRON": 16,
         "PROPN": 4,
         "PREP": 5,
@@ -65946,7 +65988,7 @@
       },
       "NOUN|PROPN": {
         "PART": 3,
-        "NOUN": 54,
+        "NOUN": 55,
         "AUX": 8,
         "PROPN": 14,
         "PREP": 7,
@@ -66015,12 +66057,13 @@
         "CONJ": 11,
         "PUNCT": 6,
         "NUM": 1,
-        "VERB": 2
+        "VERB": 2,
+        "AUX": 1
       },
       "PROPN|NOUN": {
         "CONJ": 10,
         "AUX": 29,
-        "PUNCT": 73,
+        "PUNCT": 74,
         "NOUN": 44,
         "DET": 9,
         "MODAL": 1,
@@ -66088,7 +66131,7 @@
         "WH": 1
       },
       "PREP|AUX": {
-        "DET": 4,
+        "DET": 5,
         "ADJ": 7,
         "PRON": 1,
         "VERB": 7,
@@ -66292,7 +66335,7 @@
       },
       "CONJ|AUX": {
         "VERB": 14,
-        "DET": 15,
+        "DET": 16,
         "NOUN": 1,
         "ADJ": 8,
         "NEG": 4,
@@ -66399,7 +66442,8 @@
         "VERB": 2,
         "PREP": 4,
         "DET": 7,
-        "ADV": 1
+        "ADV": 1,
+        "AUX": 1
       },
       "CONJ|NEG": {
         "DET": 1,
@@ -66447,7 +66491,7 @@
       },
       "DET|ADV": {
         "AUX": 4,
-        "VERB": 13,
+        "VERB": 15,
         "NOUN": 12,
         "ADJ": 11,
         "PUNCT": 1
@@ -66916,7 +66960,7 @@
         "used": 11,
         "conjunctions": 5,
         "often": 6,
-        "not": 6,
+        "not": 7,
         "you": 4,
         "very": 3,
         "artificial": 2,
@@ -67014,7 +67058,7 @@
         "are": 2
       },
       "is": {
-        "a": 144,
+        "a": 145,
         "the": 105,
         "an": 28,
         "one": 7,
@@ -67042,8 +67086,8 @@
         "solvent": 1,
         "number": 1,
         "wide": 1,
-        "list": 1,
-        "different": 1,
+        "list": 2,
+        "different": 2,
         "device": 1
       },
       "for": {
@@ -67450,7 +67494,7 @@
       },
       "have": {
         "been": 8,
-        "a": 9,
+        "a": 10,
         "to": 6,
         "greater": 3,
         "no": 2,
@@ -67526,7 +67570,9 @@
         "description": 3,
         "sounds": 3,
         "mimic": 3,
-        "quantifies": 2
+        "quantifies": 2,
+        "primarily": 1,
+        "simply": 1
       },
       "good": {
         "manners": 3,
@@ -67588,7 +67634,8 @@
         "as": 1,
         "lonely": 1,
         "interact": 1,
-        "merely": 1
+        "merely": 1,
+        "included": 1
       },
       "know": {
         "the": 1,
@@ -67617,7 +67664,8 @@
         "some": 1,
         "rather": 1,
         "could": 1,
-        "of": 1
+        "of": 1,
+        "have": 1
       },
       "would": {
         "like": 2,
@@ -67837,7 +67885,9 @@
         "other": 7,
         "criteria": 6,
         "knowledge": 6,
-        "protons": 5
+        "protons": 5,
+        "notable": 1,
+        "ai": 1
       },
       "reading": {
         "is": 1,
@@ -68456,7 +68506,8 @@
         "its": 1,
         "politics": 1,
         "guys": 1,
-        "this": 1
+        "this": 1,
+        "artificial": 1
       },
       "situation": {
         "in": 2,
@@ -68629,7 +68680,7 @@
       },
       "artificial": {
         "neural": 6,
-        "intelligence": 10,
+        "intelligence": 11,
         "superintelligence": 1,
         "general": 3,
         "neurons": 3
@@ -68900,7 +68951,7 @@
       "intelligence": {
         "process": 1,
         "company": 2,
-        "(": 3,
+        "(": 4,
         "explosion": 1,
         "system": 1,
         "requires": 3,
@@ -69352,7 +69403,8 @@
         "of": 1,
         "someone": 1,
         "allen": 1,
-        "plural": 1
+        "plural": 1,
+        "ai": 1
       },
       ")": {
         "is": 17,
@@ -70348,8 +70400,9 @@
       },
       "focus": {
         "of": 5,
-        "on": 1,
-        "the": 1
+        "on": 2,
+        "the": 1,
+        "are": 1
       },
       "teaching": {
         "and": 3,
@@ -70768,14 +70821,15 @@
       },
       "ai": {
         "is": 2,
-        ")": 3,
+        ")": 4,
         "companies": 1,
         "for": 1,
         "systems": 2,
         "provides": 4,
         "agent": 1,
         "contrasts": 1,
-        "use": 1
+        "use": 1,
+        "but": 1
       },
       "american": {
         "artificial": 2,
@@ -71196,7 +71250,7 @@
         "used": 1
       },
       "use": {
-        "of": 14,
+        "of": 15,
         "relatively": 3,
         "a": 3,
         "to": 3,
@@ -71366,7 +71420,8 @@
         "number": 1,
         "observers": 1,
         "from": 1,
-        "manner": 1
+        "manner": 1,
+        "primary": 1
       },
       "correlations": {
         "between": 3
@@ -72742,7 +72797,7 @@
         "statements": 3
       },
       "list": {
-        "of": 11,
+        "of": 12,
         "includes": 1,
         "shows": 1
       },
@@ -73139,7 +73194,8 @@
         "plasticity": 2,
         "chip": 1,
         "normal": 1,
-        "bio": 1
+        "bio": 1,
+        "make": 1
       },
       "cultural": {
         "context": 1,
@@ -73204,7 +73260,7 @@
         "thoughts": 1
       },
       "make": {
-        "use": 2,
+        "use": 3,
         "it": 3,
         "finer": 1,
         "learning": 1,
@@ -78435,7 +78491,8 @@
       },
       "primarily": {
         "used": 1,
-        "the": 1
+        "the": 1,
+        "focus": 1
       },
       "frequency": {
         "of": 1,
@@ -79898,7 +79955,8 @@
         "below": 1
       },
       "below": {
-        "the": 1
+        "the": 1,
+        "is": 1
       },
       "forearm": {
         "or": 1
@@ -81255,7 +81313,8 @@
         "out": 1
       },
       "companies": {
-        "merged": 1
+        "merged": 1,
+        "that": 2
       },
       "rewired": {
         "our": 1
@@ -81299,13 +81358,19 @@
       },
       "severe": {
         "hypothermia": 1
+      },
+      "notable": {
+        "companies": 1
+      },
+      "primary": {
+        "focus": 1
       }
     },
     "starters": {
       "i": 111,
       "how": 6,
       "what": 8,
-      "<NOUN>": 760,
+      "<NOUN>": 761,
       "the": 377,
       "she": 25,
       "we": 41,
@@ -81395,13 +81460,14 @@
       "among": 1,
       "after": 3,
       "because": 1,
-      "no": 1
+      "no": 1,
+      "below": 1
     },
     "connectors": {
       "because": 16,
       "or": 532,
       "and": 781,
-      "but": 85,
+      "but": 86,
       "so": 38,
       "while": 8,
       "than": 50,
@@ -81888,7 +81954,8 @@
         "yet": 1
       },
       "PROPN>AUX": {
-        "and": 1
+        "and": 1,
+        "but": 1
       },
       "MODAL>PRON": {
         "but": 1
@@ -84591,7 +84658,8 @@
       "DET ADJ NOUN VERB DET ADJ NOUN PREP NOUN VERB NOUN | and | NOUN CONJ VERB NOUN PREP NOUN": 1,
       "NOUN ADJ NOUN VERB CONJ PRON VERB PREP DET NOUN PREP DET NOUN PREP DET ADJ NOUN | and | ADJ NOUN": 1,
       "PRON AUX DET NOUN PREP NOUN PRON AUX VERB NOUN PREP DET PROPN NOUN | and | DET ADJ PROPN NOUN": 1,
-      "PRON MODAL VERB | if | DET NOUN": 1
+      "PRON MODAL VERB | if | DET NOUN": 1,
+      "NOUN DET ADV VERB PREP PROPN | but | AUX DET NOUN ADJ NOUN AUX NEG VERB": 1
     },
     "sentence_bank": {
       "spend": [
@@ -85066,9 +85134,9 @@
         "I just got back from my morning run."
       ],
       "make": [
-        "We made a nice cake from dates.",
         "These worshippers make up the Church of Christ.",
-        "A proposal that has been made."
+        "A proposal that has been made.",
+        "Companies that simply make use of AI but have a different primary focus are not included."
       ],
       "instance": [
         "Act or instance of running, of moving rapidly using the feet.",
@@ -86513,7 +86581,8 @@
         "I had to rewire the circuit where the old wires had shorted out."
       ],
       "companies": [
-        "When our companies merged, I rewired our payment processing system to handle their invoices as well."
+        "When our companies merged, I rewired our payment processing system to handle their invoices as well.",
+        "Companies that simply make use of AI but have a different primary focus are not included."
       ],
       "merg": [
         "When our companies merged, I rewired our payment processing system to handle their invoices as well."
@@ -86858,13 +86927,14 @@
       "wires",
       "recovered",
       "alive",
-      "severe"
+      "severe",
+      "notable"
     ],
     "names": [],
-    "lessons": 135,
-    "topic_cursor": 4230,
+    "lessons": 136,
+    "topic_cursor": 4260,
     "taught": 0,
-    "last_lesson": "2026-10-29 13:41:40",
+    "last_lesson": "2026-10-29 19:26:13",
     "pending_concepts": [],
     "recent_concepts": [
       "thermodynamic efficiency constrain",
