@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.33,
+    "adenosine": 0.45,
     "newborn": false
   },
   "episodic_memory": [
@@ -2840,6 +2840,20 @@
       "time": "2026-10-30 09:41:40",
       "speaker": "brain",
       "text": "Two things I read keep meeting in my head: Pragmatics and Phonetics. In linguistics and the philosophy of language, pragmatics is the study of how context contributes to meaning. Phonetics is a branch of linguistics that mainly concerns the articulation, sound wave properties, and perception of speech sounds. The shared thread seems to be linguistics and specialize. Is there a real link between interpreter and three sub-disciplines?",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-30 16:33:40",
+      "speaker": "brain",
+      "text": "I wondered about 'Neuroscience' by myself and went searching. From Wikipedia (live internet) I learned: Neuroscience is the scientific study of the nervous system, its functions, and its disorders. Key ideas I stored: molecular biology, neural circuits, neuroscience, psychology, statistics.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-30 16:33:40",
+      "speaker": "brain",
+      "text": "I wondered about 'Cognition' by myself and went searching. From Wikipedia (live internet) I learned: Cognition encompasses mental processes that deal with knowledge. Key ideas I stored: cognition encompasses mental processes, cognitive processes, transform.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -6114,7 +6128,7 @@
       ],
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Cognition",
-      "learned": "2026-10-24 11:18:27"
+      "learned": "2026-10-30 16:33:40"
     },
     "Neuromorphic computing": {
       "summary": "Neuromorphic computing is a computing approach inspired by the human brain's structure and function. It uses artificial neurons to perform computations, mimicking neural systems for tasks such as perception, motor control, and multisensory integration. These systems, implemented in analog, digital, or mixed-mode VLSI, prioritize robustness, adaptability, and learning by emulating the brain’s distributed processing across small computing elements. This interdisciplinary field integrates biology, physics, mathematics, computer science, and electronic engineering to develop systems that emulate the brain’s morphology and computational strategies.",
@@ -7536,6 +7550,20 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Proof_calculus",
       "learned": "2026-10-30 09:41:40"
+    },
+    "Neuroscience": {
+      "summary": "Neuroscience is the scientific study of the nervous system, its functions, and its disorders. It is a multidisciplinary science that combines physiology, anatomy, molecular biology, developmental biology, cytology, psychology, physics, computer science, chemistry, medicine, statistics, and mathematical modeling to understand the fundamental and emergent properties of neurons, glia, and neural circuits. The understanding of the biological basis of learning, memory, behavior, perception, and consciousness has been described by Eric Kandel as the \"epic challenge\" of the biological sciences.",
+      "concepts": [
+        "molecular biology",
+        "neural circuits",
+        "neuroscience",
+        "psychology",
+        "statistics",
+        "emergent"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Neuroscience",
+      "learned": "2026-10-30 16:33:40"
     }
   },
   "creator_teachings": [
@@ -8907,6 +8935,18 @@
       "kind": "daydream",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-30 16:33:40",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-30 16:33:40",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -9100,7 +9140,9 @@
     "optimization",
     "linux kernel",
     "recursion",
-    "proof system"
+    "proof system",
+    "neuroscience",
+    "cognitive"
   ],
   "sensory_log": [
     {
@@ -62372,24 +62414,35 @@
       "source": "corpus",
       "learned": "2026-10-30 09:41:42",
       "uses": 1
+    },
+    "challenge": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-30 16:33:40",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 2861,
-      "tokens": 39464,
+      "sentences": 2866,
+      "tokens": 39560,
       "sources": {
         "seed corpus": 64,
         "conversation": 36,
         "dictionary": 1619,
-        "explore": 453,
+        "explore": 458,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "f52c9343be4f",
-        "e098ade518b5",
         "f08a91b87fa7",
         "8d1a050235fb",
         "28107936110b",
@@ -62687,10 +62740,12 @@
         "e2cc09ebf423",
         "2ea747a6cd1d",
         "c2a452841d54",
-        "cfbfe4d9d613"
+        "cfbfe4d9d613",
+        "e9848b38adbd",
+        "65deb57d27dd"
       ],
       "seeded": true,
-      "rejected": 640,
+      "rejected": 641,
       "vocab_counts": {
         "organ": 1,
         "thank": 1,
@@ -64012,7 +64067,6 @@
         "celebrity": 1,
         "centre": 1,
         "chairman": 1,
-        "challenge": 1,
         "champion": 1,
         "channel": 1,
         "characteristic": 1,
@@ -65243,18 +65297,21 @@
         "song": 1,
         "lyrics": 1,
         "performed": 1,
-        "pertinent": 1
+        "pertinent": 1,
+        "disorders": 1,
+        "consciousness": 1,
+        "epic": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 427,
+        "PRON": 428,
         "WH": 35,
-        "NOUN": 775,
-        "DET": 813,
+        "NOUN": 777,
+        "DET": 814,
         "VERB": 293,
         "MODAL": 7,
-        "ADJ": 128,
+        "ADJ": 129,
         "INTJ": 14,
         "CONJ": 37,
         "AUX": 19,
@@ -65268,7 +65325,7 @@
         "AUX": 349,
         "PUNCT": 96,
         "ADV": 25,
-        "VERB": 405,
+        "VERB": 406,
         "MODAL": 127,
         "PREP": 44,
         "WH": 6,
@@ -65286,23 +65343,23 @@
         "ADJ": 291,
         "PRON": 25,
         "PUNCT": 16,
-        "DET": 445,
+        "DET": 447,
         "NOUN": 99,
         "NEG": 72,
-        "VERB": 413,
+        "VERB": 414,
         "INTJ": 2,
         "ADV": 141,
         "CONJ": 20,
         "NUM": 25,
         "PROPN": 7,
         "WH": 4,
-        "AUX": 32,
+        "AUX": 33,
         "PREP": 38,
         "PART": 18
       },
       "ADJ": {
         "PART": 47,
-        "NOUN": 1882,
+        "NOUN": 1891,
         "WH": 7,
         "PUNCT": 305,
         "PREP": 198,
@@ -65311,7 +65368,7 @@
         "ADJ": 120,
         "DET": 42,
         "AUX": 33,
-        "VERB": 101,
+        "VERB": 102,
         "MODAL": 11,
         "</S>": 7,
         "NUM": 11,
@@ -65332,16 +65389,16 @@
         "DET": 1
       },
       "VERB": {
-        "PREP": 734,
+        "PREP": 736,
         "PART": 158,
-        "ADJ": 106,
-        "NOUN": 701,
-        "PUNCT": 324,
+        "ADJ": 107,
+        "NOUN": 702,
+        "PUNCT": 325,
         "PRON": 150,
         "AUX": 42,
         "DET": 575,
         "VERB": 64,
-        "CONJ": 232,
+        "CONJ": 233,
         "WH": 32,
         "</S>": 15,
         "ADV": 77,
@@ -65352,13 +65409,13 @@
       },
       "PREP": {
         "PRON": 103,
-        "NOUN": 1352,
-        "DET": 1512,
+        "NOUN": 1353,
+        "DET": 1516,
         "PUNCT": 76,
-        "VERB": 114,
+        "VERB": 115,
         "PREP": 39,
-        "ADJ": 361,
-        "PROPN": 140,
+        "ADJ": 362,
+        "PROPN": 141,
         "AUX": 25,
         "NUM": 72,
         "WH": 51,
@@ -65369,15 +65426,15 @@
         "</S>": 1
       },
       "PUNCT": {
-        "</S>": 2674,
-        "NOUN": 749,
-        "CONJ": 409,
+        "</S>": 2679,
+        "NOUN": 755,
+        "CONJ": 412,
         "PRON": 66,
-        "VERB": 99,
+        "VERB": 100,
         "ADV": 107,
         "PREP": 96,
         "ADJ": 120,
-        "DET": 224,
+        "DET": 225,
         "WH": 54,
         "AUX": 40,
         "NUM": 8,
@@ -65423,28 +65480,28 @@
         "WH": 5
       },
       "NOUN": {
-        "AUX": 764,
-        "PREP": 2280,
-        "NOUN": 2254,
-        "PUNCT": 3548,
+        "AUX": 767,
+        "PREP": 2286,
+        "NOUN": 2258,
+        "PUNCT": 3563,
         "CONJ": 894,
-        "VERB": 628,
+        "VERB": 629,
         "ADV": 107,
         "PART": 289,
-        "ADJ": 289,
+        "ADJ": 290,
         "MODAL": 108,
         "</S>": 152,
         "PRON": 178,
         "WH": 79,
-        "DET": 433,
+        "DET": 435,
         "PROPN": 118,
         "NUM": 15,
         "NEG": 8,
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 2830,
-        "ADJ": 1180,
+        "NOUN": 2836,
+        "ADJ": 1186,
         "PRON": 30,
         "PREP": 66,
         "NUM": 58,
@@ -65461,8 +65518,8 @@
       },
       "CONJ": {
         "PRON": 121,
-        "DET": 328,
-        "NOUN": 852,
+        "DET": 330,
+        "NOUN": 855,
         "VERB": 147,
         "ADJ": 172,
         "ADV": 65,
@@ -65517,10 +65574,10 @@
         "PART": 15,
         "NOUN": 212,
         "AUX": 33,
-        "PROPN": 124,
+        "PROPN": 125,
         "ADJ": 17,
         "PREP": 34,
-        "CONJ": 34,
+        "CONJ": 35,
         "VERB": 22,
         "NUM": 1,
         "ADV": 4,
@@ -65547,7 +65604,7 @@
     "pos_trigrams": {
       "<S>|PRON": {
         "AUX": 174,
-        "VERB": 180,
+        "VERB": 181,
         "MODAL": 43,
         "ADV": 9,
         "DET": 3,
@@ -65616,14 +65673,14 @@
       },
       "VERB|PREP": {
         "PRON": 21,
-        "DET": 299,
+        "DET": 300,
         "NOUN": 207,
         "PUNCT": 25,
         "VERB": 23,
         "ADJ": 67,
         "PREP": 18,
         "NUM": 20,
-        "PROPN": 33,
+        "PROPN": 34,
         "CONJ": 5,
         "AUX": 2,
         "WH": 5,
@@ -65710,7 +65767,7 @@
         "PUNCT": 23,
         "DET": 113,
         "VERB": 16,
-        "ADJ": 16,
+        "ADJ": 17,
         "CONJ": 20,
         "</S>": 1,
         "AUX": 2,
@@ -65752,10 +65809,10 @@
         "CONJ": 2
       },
       "<S>|NOUN": {
-        "AUX": 152,
+        "AUX": 153,
         "VERB": 78,
         "PUNCT": 25,
-        "NOUN": 297,
+        "NOUN": 298,
         "CONJ": 28,
         "PREP": 65,
         "PROPN": 20,
@@ -65768,7 +65825,7 @@
         "INTJ": 2
       },
       "NOUN|AUX": {
-        "DET": 250,
+        "DET": 252,
         "ADJ": 133,
         "NOUN": 53,
         "ADV": 86,
@@ -65778,7 +65835,7 @@
         "NEG": 16,
         "PROPN": 3,
         "WH": 3,
-        "AUX": 14,
+        "AUX": 15,
         "PREP": 15,
         "PART": 5,
         "PRON": 2,
@@ -65786,7 +65843,7 @@
       },
       "AUX|DET": {
         "NOUN": 227,
-        "ADJ": 175,
+        "ADJ": 177,
         "PROPN": 8,
         "VERB": 7,
         "PREP": 4,
@@ -65796,10 +65853,10 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 882,
+        "PREP": 884,
         "AUX": 241,
         "CONJ": 222,
-        "PUNCT": 650,
+        "PUNCT": 654,
         "VERB": 189,
         "ADV": 27,
         "ADJ": 63,
@@ -65814,12 +65871,12 @@
         "NUM": 3
       },
       "NOUN|PREP": {
-        "NOUN": 861,
-        "DET": 860,
+        "NOUN": 862,
+        "DET": 863,
         "PREP": 13,
-        "ADJ": 223,
+        "ADJ": 224,
         "PROPN": 63,
-        "VERB": 68,
+        "VERB": 69,
         "PUNCT": 27,
         "NUM": 33,
         "WH": 34,
@@ -65831,7 +65888,7 @@
       },
       "PREP|NOUN": {
         "NOUN": 206,
-        "PUNCT": 416,
+        "PUNCT": 417,
         "VERB": 57,
         "CONJ": 162,
         "ADJ": 30,
@@ -65848,16 +65905,16 @@
         "ADV": 8
       },
       "NOUN|NOUN": {
-        "PUNCT": 794,
+        "PUNCT": 795,
         "PART": 41,
-        "NOUN": 543,
-        "PREP": 329,
+        "NOUN": 544,
+        "PREP": 330,
         "CONJ": 130,
         "VERB": 90,
         "PROPN": 48,
         "AUX": 98,
         "MODAL": 21,
-        "ADJ": 49,
+        "ADJ": 50,
         "NUM": 4,
         "ADV": 23,
         "DET": 42,
@@ -65867,14 +65924,14 @@
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 2048,
-        "NOUN": 508,
-        "CONJ": 296,
+        "</S>": 2053,
+        "NOUN": 513,
+        "CONJ": 299,
         "ADV": 77,
         "PREP": 68,
         "ADJ": 84,
-        "DET": 157,
-        "VERB": 73,
+        "DET": 158,
+        "VERB": 74,
         "WH": 40,
         "PRON": 43,
         "AUX": 33,
@@ -65887,7 +65944,7 @@
         "MODAL": 1
       },
       "<S>|DET": {
-        "NOUN": 525,
+        "NOUN": 526,
         "ADJ": 204,
         "PROPN": 32,
         "VERB": 7,
@@ -65899,11 +65956,11 @@
         "PRON": 3
       },
       "DET|ADJ": {
-        "NOUN": 938,
+        "NOUN": 943,
         "CONJ": 37,
         "ADJ": 45,
         "PUNCT": 49,
-        "VERB": 35,
+        "VERB": 36,
         "PREP": 28,
         "PART": 6,
         "PROPN": 15,
@@ -65915,15 +65972,15 @@
         "NUM": 5
       },
       "ADJ|NOUN": {
-        "PUNCT": 620,
-        "NOUN": 270,
+        "PUNCT": 623,
+        "NOUN": 271,
         "MODAL": 17,
         "VERB": 95,
-        "PREP": 392,
+        "PREP": 394,
         "CONJ": 161,
-        "DET": 68,
+        "DET": 70,
         "ADJ": 23,
-        "AUX": 100,
+        "AUX": 101,
         "PART": 59,
         "WH": 16,
         "PROPN": 6,
@@ -65933,7 +65990,7 @@
         "NUM": 1
       },
       "VERB|ADJ": {
-        "NOUN": 68,
+        "NOUN": 69,
         "PUNCT": 15,
         "CONJ": 3,
         "VERB": 3,
@@ -65947,8 +66004,8 @@
         "WH": 1
       },
       "PREP|DET": {
-        "NOUN": 962,
-        "ADJ": 370,
+        "NOUN": 963,
+        "ADJ": 373,
         "NUM": 23,
         "PREP": 16,
         "PROPN": 61,
@@ -65993,7 +66050,7 @@
         "PUNCT": 193,
         "PREP": 113,
         "PART": 21,
-        "VERB": 25,
+        "VERB": 26,
         "NOUN": 186,
         "CONJ": 50,
         "MODAL": 5,
@@ -66036,7 +66093,7 @@
         "CONJ": 54,
         "NOUN": 121,
         "ADJ": 8,
-        "PUNCT": 394,
+        "PUNCT": 400,
         "PREP": 79,
         "AUX": 23,
         "DET": 21,
@@ -66050,8 +66107,8 @@
         "MODAL": 1
       },
       "CONJ|DET": {
-        "NOUN": 208,
-        "ADJ": 80,
+        "NOUN": 209,
+        "ADJ": 81,
         "CONJ": 3,
         "PUNCT": 4,
         "PART": 1,
@@ -66068,7 +66125,7 @@
         "</S>": 208,
         "PRON": 11,
         "CONJ": 19,
-        "NOUN": 39,
+        "NOUN": 40,
         "DET": 12,
         "ADJ": 11,
         "NEG": 3,
@@ -66178,7 +66235,7 @@
         "ADV": 19,
         "NOUN": 123,
         "NUM": 4,
-        "CONJ": 33,
+        "CONJ": 34,
         "AUX": 6,
         "VERB": 6,
         "PROPN": 9,
@@ -66199,9 +66256,9 @@
         "WH": 1
       },
       "PUNCT|CONJ": {
-        "NOUN": 151,
+        "NOUN": 153,
         "PRON": 34,
-        "DET": 62,
+        "DET": 63,
         "PUNCT": 6,
         "ADJ": 31,
         "CONJ": 12,
@@ -66216,13 +66273,13 @@
         "WH": 4
       },
       "CONJ|NOUN": {
-        "AUX": 27,
+        "AUX": 28,
         "PUNCT": 237,
         "</S>": 4,
-        "PREP": 168,
+        "PREP": 169,
         "VERB": 31,
         "WH": 10,
-        "NOUN": 228,
+        "NOUN": 229,
         "PRON": 17,
         "PART": 20,
         "CONJ": 35,
@@ -66296,7 +66353,7 @@
         "PROPN": 1
       },
       "AUX|VERB": {
-        "PREP": 177,
+        "PREP": 178,
         "PUNCT": 59,
         "PART": 50,
         "PRON": 4,
@@ -66327,7 +66384,7 @@
         "AUX": 1
       },
       "<S>|ADJ": {
-        "NOUN": 76,
+        "NOUN": 77,
         "ADJ": 8,
         "VERB": 4,
         "PREP": 20,
@@ -66415,7 +66472,7 @@
       },
       "NOUN|ADJ": {
         "PUNCT": 36,
-        "NOUN": 174,
+        "NOUN": 175,
         "DET": 4,
         "PREP": 35,
         "ADJ": 9,
@@ -66448,7 +66505,7 @@
         "PUNCT": 3,
         "PROPN": 1,
         "MODAL": 3,
-        "NOUN": 76,
+        "NOUN": 77,
         "AUX": 2,
         "ADJ": 15,
         "NEG": 2,
@@ -66480,7 +66537,7 @@
         "AUX": 1,
         "CONJ": 8,
         "PREP": 33,
-        "NOUN": 25,
+        "NOUN": 26,
         "PUNCT": 9,
         "PROPN": 1,
         "ADJ": 4,
@@ -66599,7 +66656,7 @@
         "PRON": 2
       },
       "PREP|VERB": {
-        "PUNCT": 22,
+        "PUNCT": 23,
         "ADJ": 5,
         "NOUN": 23,
         "DET": 17,
@@ -66764,7 +66821,7 @@
         "CONJ": 11,
         "PROPN": 10,
         "ADJ": 24,
-        "NOUN": 268,
+        "NOUN": 269,
         "PUNCT": 22,
         "AUX": 4,
         "VERB": 10,
@@ -66827,7 +66884,7 @@
       "PREP|PROPN": {
         "PUNCT": 47,
         "AUX": 3,
-        "PROPN": 30,
+        "PROPN": 31,
         "NOUN": 28,
         "PREP": 7,
         "VERB": 4,
@@ -66862,7 +66919,7 @@
         "VERB": 3
       },
       "PUNCT|DET": {
-        "NOUN": 122,
+        "NOUN": 123,
         "ADJ": 44,
         "VERB": 4,
         "PROPN": 14,
@@ -66926,7 +66983,7 @@
         "PART": 1
       },
       "NOUN|DET": {
-        "NOUN": 252,
+        "NOUN": 254,
         "ADJ": 81,
         "CONJ": 27,
         "ADV": 9,
@@ -67182,7 +67239,7 @@
         "CONJ": 13,
         "PUNCT": 18,
         "PART": 2,
-        "PREP": 27,
+        "PREP": 28,
         "VERB": 4,
         "PRON": 2,
         "DET": 6,
@@ -67242,7 +67299,7 @@
         "NOUN": 23,
         "PROPN": 21,
         "PREP": 10,
-        "CONJ": 6,
+        "CONJ": 7,
         "VERB": 5,
         "AUX": 5,
         "ADJ": 2,
@@ -67401,7 +67458,7 @@
         "NOUN": 1,
         "VERB": 2,
         "PREP": 4,
-        "DET": 8,
+        "DET": 9,
         "ADV": 1,
         "AUX": 1
       },
@@ -67551,7 +67608,7 @@
         "AUX": 1
       },
       "AUX|AUX": {
-        "VERB": 18,
+        "VERB": 19,
         "ADJ": 7,
         "ADV": 2,
         "PART": 1,
@@ -67893,7 +67950,7 @@
         "we": 1
       },
       "with": {
-        "the": 33,
+        "the": 34,
         "a": 30,
         "their": 7,
         "those": 6,
@@ -67902,7 +67959,8 @@
         "examples": 3,
         "antonyms": 3,
         "objects": 3,
-        "nouns": 2
+        "nouns": 2,
+        "knowledge": 1
       },
       "how": {
         "to": 8,
@@ -67930,7 +67988,8 @@
         "artificial": 2,
         "most": 2,
         "words": 2,
-        "usually": 2
+        "usually": 2,
+        "a": 1
       },
       "you": {
         "to": 7,
@@ -68016,7 +68075,7 @@
       },
       "is": {
         "a": 146,
-        "the": 106,
+        "the": 107,
         "an": 29,
         "one": 8,
         "usually": 7,
@@ -68048,7 +68107,8 @@
         "varying": 3,
         "proof": 1,
         "musical": 1,
-        "ship": 1
+        "ship": 1,
+        "fundamental": 1
       },
       "for": {
         "the": 28,
@@ -68091,7 +68151,13 @@
         "process": 1,
         "investigation": 1,
         "directions": 1,
-        "basis": 1
+        "basis": 1,
+        "scientific": 1,
+        "nervous": 1,
+        "understanding": 1,
+        "biological": 2,
+        "\"": 1,
+        "world": 1
       },
       "brain": {
         "is": 1,
@@ -68262,7 +68328,8 @@
         "her": 1,
         "voices": 1,
         "official": 1,
-        "support": 2
+        "support": 2,
+        "apply": 1
       },
       "it": {
         "is": 59,
@@ -68276,7 +68343,8 @@
         "lets": 3,
         "allows": 3,
         "anyway": 1,
-        "intersects": 1
+        "intersects": 1,
+        "includes": 1
       },
       "important": {
         "to": 3,
@@ -68487,15 +68555,7 @@
         "war": 3,
         "against": 3,
         "functions": 2,
-        "diverse": 1,
-        "continuous": 1,
-        "engineering": 1,
-        "economics": 1,
-        "open-source": 1,
-        "was": 1,
-        "embedded": 1,
-        "computer": 1,
-        "took": 1
+        "interact": 1
       },
       "meanings": {
         "have": 1,
@@ -68550,7 +68610,9 @@
         "simply": 1,
         "no": 1,
         "of": 1,
-        "tool": 1
+        "tool": 1,
+        "deal": 1,
+        "acquire": 1
       },
       "good": {
         "manners": 3,
@@ -68857,7 +68919,7 @@
         "at": 1
       },
       "of": {
-        "the": 201,
+        "the": 204,
         "a": 97,
         "an": 23,
         "or": 14,
@@ -68873,7 +68935,9 @@
         "difference": 1,
         "being": 1,
         "law": 1,
-        "anything": 1
+        "anything": 1,
+        "learning": 1,
+        "mental": 1
       },
       "reading": {
         "is": 1,
@@ -69062,7 +69126,7 @@
       "understand": {
         "how": 1,
         "all": 1,
-        "and": 1,
+        "and": 2,
         "the": 1
       },
       "mind": {
@@ -69302,7 +69366,7 @@
         "i": 2,
         "matchine": 2,
         "or": 2,
-        "of": 29,
+        "of": 30,
         "brilliant": 1,
         "in": 2,
         "whole": 1,
@@ -69424,7 +69488,7 @@
       "understanding": {
         "about": 1,
         "these": 1,
-        "of": 4,
+        "of": 5,
         "tenses": 1,
         "by": 1,
         "between": 1,
@@ -69760,7 +69824,9 @@
         "change": 1,
         "cell": 1,
         "populations": 1,
-        "inheritance": 1
+        "inheritance": 1,
+        "basis": 1,
+        "sciences": 1
       },
       "operate": {
         "under": 1,
@@ -69787,25 +69853,15 @@
       },
       "by": {
         "the": 26,
-        "native": 3,
         "a": 4,
+        "native": 3,
         "which": 3,
         "microsoft": 2,
         "thermodynamic": 2,
         "adding": 2,
         "ramin": 1,
         "alexander": 1,
-        "introducing": 1,
-        "an": 1,
-        "something": 1,
-        "gravitational": 1,
-        "general": 1,
-        "drawing": 1,
-        "convection": 1,
-        "means": 1,
-        "linus": 1,
-        "physical": 1,
-        "singing": 1
+        "introducing": 1
       },
       "thermodynamic": {
         "efficiency": 2,
@@ -70183,7 +70239,7 @@
       },
       "nervous": {
         "systems": 1,
-        "system": 7
+        "system": 8
       },
       "systems": {
         "and": 4,
@@ -70317,7 +70373,7 @@
       },
       "has": {
         "a": 19,
-        "been": 16,
+        "been": 17,
         "the": 3,
         "two": 4,
         "free": 2,
@@ -70531,7 +70587,7 @@
         "as": 1
       },
       "part": {
-        "of": 33,
+        "of": 34,
         "fred": 1,
         "owner": 1,
         "or": 1,
@@ -70574,7 +70630,9 @@
         "body": 2,
         "own": 2,
         "conjuncts": 1,
-        "shape": 1
+        "shape": 1,
+        "functions": 1,
+        "disorders": 1
       },
       "vague": {
         "enough": 4
@@ -70641,7 +70699,9 @@
         "but": 3,
         "time": 2,
         "to": 2,
-        "pride": 1
+        "pride": 1,
+        "epic": 1,
+        "of": 1
       },
       "be": {
         "a": 11,
@@ -70901,7 +70961,7 @@
       },
       "as": {
         "a": 56,
-        "the": 22,
+        "the": 23,
         "in": 7,
         "not": 4,
         "it": 3,
@@ -72126,7 +72186,7 @@
         "science": 1,
         "theories": 1,
         "model": 1,
-        "processes": 2,
+        "processes": 3,
         "models": 1,
         "modeling": 1,
         "capacity": 1
@@ -73218,7 +73278,7 @@
       },
       "encompasses": {
         "a": 1,
-        "mental": 1,
+        "mental": 2,
         "the": 3
       },
       "compilation": {
@@ -74210,7 +74270,7 @@
       "individuals": {
         "prefer": 1,
         "in": 2,
-        "understand": 1,
+        "understand": 2,
         "use": 1
       },
       "prefer": {
@@ -74318,7 +74378,8 @@
         "made": 1,
         "called": 1,
         "of": 1,
-        "included": 1
+        "included": 1,
+        "described": 1
       },
       "device": {
         "that": 2,
@@ -74477,7 +74538,7 @@
       },
       "helping": {
         "convey": 2,
-        "individuals": 1
+        "individuals": 2
       },
       "signed": {
         "and": 1,
@@ -76038,7 +76099,7 @@
       "includes": {
         "easy": 1,
         "several": 1,
-        "psychological": 1,
+        "psychological": 2,
         "car": 1,
         "both": 1,
         "nonlinguistic": 1
@@ -76744,13 +76805,13 @@
       },
       "psychological": {
         "barriers": 1,
-        "activities": 1,
+        "activities": 2,
         "maturity": 1
       },
       "mental": {
         "capacity": 1,
-        "processes": 1,
-        "life": 1,
+        "processes": 2,
+        "life": 2,
         "state": 1,
         "health": 1,
         "or": 1
@@ -76995,7 +77056,7 @@
       },
       "cognition": {
         "and": 1,
-        "encompasses": 1
+        "encompasses": 2
       },
       "useful": {
         "artificial": 1,
@@ -77067,13 +77128,13 @@
       },
       "processes": {
         "in": 3,
-        "that": 2,
-        "are": 1,
+        "that": 3,
+        "are": 2,
         "involved": 1,
         "such": 2
       },
       "interact": {
-        "with": 5,
+        "with": 6,
         "in": 1
       },
       "modeling": {
@@ -77479,7 +77540,7 @@
       },
       "apply": {
         "logic": 1,
-        "information": 1,
+        "information": 2,
         "cream": 1,
         "funds": 1,
         "paint": 1
@@ -77611,11 +77672,11 @@
         "are": 3
       },
       "deal": {
-        "with": 2,
+        "with": 3,
         "of": 1
       },
       "fundamental": {
-        "part": 1,
+        "part": 2,
         "notion": 1,
         "theorem": 1,
         "interaction": 1,
@@ -78012,7 +78073,7 @@
         "revolution": 1,
         "consensus": 1,
         "models": 1,
-        "study": 3,
+        "study": 4,
         "field": 1,
         "theories": 1,
         "method": 1
@@ -78448,7 +78509,8 @@
         "of": 1
       },
       "described": {
-        "as": 3
+        "as": 3,
+        "by": 1
       },
       "capability": {
         "of": 1,
@@ -82743,17 +82805,41 @@
       },
       "pertinent": {
         "to": 1
+      },
+      "neuroscience": {
+        "is": 1
+      },
+      "basis": {
+        "of": 1
+      },
+      "consciousness": {
+        "has": 1
+      },
+      "eric": {
+        "kandel": 1
+      },
+      "kandel": {
+        "as": 1
+      },
+      "epic": {
+        "challenge": 1
+      },
+      "challenge": {
+        "\"": 1
+      },
+      "activities": {
+        "that": 1
       }
     },
     "starters": {
       "i": 113,
       "how": 6,
       "what": 8,
-      "<NOUN>": 775,
-      "the": 386,
+      "<NOUN>": 777,
+      "the": 387,
       "she": 25,
       "we": 41,
-      "it": 95,
+      "it": 96,
       "<VERB>": 293,
       "can": 4,
       "my": 15,
@@ -82761,7 +82847,7 @@
       "they": 20,
       "he": 73,
       "where": 1,
-      "<ADJ>": 128,
+      "<ADJ>": 129,
       "please": 4,
       "that": 23,
       "if": 14,
@@ -82844,15 +82930,15 @@
     },
     "connectors": {
       "because": 16,
-      "or": 553,
-      "and": 790,
+      "or": 554,
+      "and": 793,
       "but": 88,
       "so": 38,
       "while": 8,
       "than": 51,
       "therefore": 7,
       "if": 15,
-      "as": 274,
+      "as": 275,
       "however": 3,
       "whether": 5,
       "that": 26,
@@ -82882,7 +82968,7 @@
       },
       "NOUN>DET": {
         "or": 47,
-        "and": 78,
+        "and": 79,
         "but": 19,
         "if": 3,
         "though": 2,
@@ -82895,8 +82981,8 @@
         "once": 1
       },
       "NOUN>NOUN": {
-        "and": 349,
-        "or": 224,
+        "and": 350,
+        "or": 225,
         "as": 13,
         "yet": 2,
         "so": 2,
@@ -83060,7 +83146,7 @@
       },
       "VERB>NOUN": {
         "as": 18,
-        "and": 27,
+        "and": 28,
         "or": 24,
         "that": 7,
         "than": 1,
@@ -83140,7 +83226,7 @@
         "and": 8,
         "if": 1,
         "or": 3,
-        "as": 1
+        "as": 2
       },
       "PREP>DET": {
         "as": 1
@@ -85851,7 +85937,7 @@
       "NOUN AUX ADV VERB PREP NOUN | and | DET NOUN": 2,
       "ADJ CONJ ADJ NOUN | and | ADJ NOUN": 1,
       "ADV DET NOUN AUX ADJ | but | PREP DET NOUN PRON AUX VERB PREP NOUN": 1,
-      "ADJ NOUN AUX DET ADJ NOUN PREP ADJ NOUN VERB NOUN VERB | and | NOUN PREP DET NOUN": 1,
+      "ADJ NOUN AUX DET ADJ NOUN PREP ADJ NOUN VERB NOUN VERB | and | NOUN PREP DET NOUN": 2,
       "DET ADJ | and | ADV VERB PREP NOUN": 1,
       "PRON VERB NOUN | and | NOUN ADJ NOUN PREP NOUN": 2,
       "DET NOUN AUX NOUN | and | NOUN ADJ": 1,
@@ -86094,29 +86180,10 @@
       "DET PROPN NOUN AUX DET NOUN | and | NOUN PROPN NOUN PRON AUX VERB PREP DET NOUN": 1,
       "NUM DET PROPN NOUN VERB NOUN AUX PROPN WH AUX VERB PREP DET NOUN | and | VERB NOUN": 1,
       "PRON AUX INTJ NOUN | but | DET NOUN VERB DET ADJ NOUN DET NOUN": 1,
-      "PRON VERB DET NOUN PREP DET PROPN PREP DET NOUN | but | DET NOUN VERB PREP NUM NOUN": 1
+      "PRON VERB DET NOUN PREP DET PROPN PREP DET NOUN | but | DET NOUN VERB PREP NUM NOUN": 1,
+      "NOUN AUX DET ADJ VERB PREP DET ADJ NOUN DET NOUN | and | DET NOUN": 1
     },
     "sentence_bank": {
-      "self": [
-        "A person's self : general form of himself , herself , themselves or yourself ."
-      ],
-      "snail": [
-        "The snail's body contracted into its shell."
-      ],
-      "want": [
-        "I wanted to record every detail of what happened, for the benefit of future generations.",
-        "I wanted to attend the meeting but there's a conflict in my schedule that day."
-      ],
-      "item": [
-        "An item of information put into a temporary or permanent physical medium ."
-      ],
-      "information": [
-        "An item of information put into a temporary or permanent physical medium ."
-      ],
-      "atom": [
-        "An atom consists of a nucleus of protons and generally neutrons, surrounded by an electromagnetically bound swarm of electrons.",
-        "An atom is composed of a positively charged nucleus, with a cloud of negatively charged electrons surrounding it, bound together by electrostatic force."
-      ],
       "consists": [
         "An atom consists of a nucleus of protons and generally neutrons, surrounded by an electromagnetically bound swarm of electrons."
       ],
@@ -86603,7 +86670,8 @@
         "Recursion is used in a variety of disciplines ranging from linguistics to logic."
       ],
       "scientific": [
-        "Linguistics is the scientific study of language."
+        "Linguistics is the scientific study of language.",
+        "Neuroscience is the scientific study of the nervous system, its functions, and its disorders."
       ],
       "subdisciplin": [
         "Subdisciplines such as biolinguistics and psycholinguistics bridge many of these divisions."
@@ -87093,7 +87161,8 @@
         "Sire, do I have your permission to execute this traitor?"
       ],
       "encompasses": [
-        "The DBMS additionally encompasses the core facilities provided to administer the database."
+        "The DBMS additionally encompasses the core facilities provided to administer the database.",
+        "Cognition encompasses mental processes that deal with knowledge."
       ],
       "core": [
         "The DBMS additionally encompasses the core facilities provided to administer the database."
@@ -88045,6 +88114,24 @@
       ],
       "ship": [
         "A ship should be documented according to the directions of law."
+      ],
+      "neuroscience": [
+        "Neuroscience is the scientific study of the nervous system, its functions, and its disorders."
+      ],
+      "cognition": [
+        "Cognition encompasses mental processes that deal with knowledge."
+      ],
+      "includ": [
+        "It includes psychological activities that acquire, store, retrieve, transform, or apply information."
+      ],
+      "psychological": [
+        "It includes psychological activities that acquire, store, retrieve, transform, or apply information."
+      ],
+      "cognitive": [
+        "Cognitive processes are a fundamental part of mental life, helping individuals understand and interact with the world."
+      ],
+      "processes": [
+        "Cognitive processes are a fundamental part of mental life, helping individuals understand and interact with the world."
       ]
     }
   },
@@ -88353,7 +88440,8 @@
       "students",
       "abrams",
       "singing",
-      "directions"
+      "directions",
+      "challenge"
     ],
     "names": [],
     "lessons": 140,
