@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.2,
+    "adenosine": 0.29000000000000004,
     "newborn": false
   },
   "episodic_memory": [
@@ -2826,6 +2826,20 @@
       "time": "2026-10-30 02:55:18",
       "speaker": "brain",
       "text": "I wondered about 'Recursion' by myself and went searching. From Wikipedia (live internet) I learned: Recursion occurs when the definition of a concept or process depends on a simpler or previous version of itself. Key ideas I stored: recursion, linguistics, mathematics.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-30 09:41:40",
+      "speaker": "brain",
+      "text": "I wondered about 'Proof calculus' by myself and went searching. From Wikipedia (live internet) I learned: In mathematical logic, a proof calculus or a proof system is built to prove statements. Key ideas I stored: proof calculus, proof system.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-30 09:41:40",
+      "speaker": "brain",
+      "text": "Two things I read keep meeting in my head: Pragmatics and Phonetics. In linguistics and the philosophy of language, pragmatics is the study of how context contributes to meaning. Phonetics is a branch of linguistics that mainly concerns the articulation, sound wave properties, and perception of speech sounds. The shared thread seems to be linguistics and specialize. Is there a real link between interpreter and three sub-disciplines?",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -7512,6 +7526,16 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Recursion",
       "learned": "2026-10-30 02:55:18"
+    },
+    "Proof calculus": {
+      "summary": "In mathematical logic, a proof calculus or a proof system is built to prove statements.",
+      "concepts": [
+        "proof calculus",
+        "proof system"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Proof_calculus",
+      "learned": "2026-10-30 09:41:40"
     }
   },
   "creator_teachings": [
@@ -8871,6 +8895,18 @@
       "kind": "explore_report",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-30 09:41:40",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-30 09:41:40",
+      "kind": "daydream",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -9063,7 +9099,8 @@
     "ai companies",
     "optimization",
     "linux kernel",
-    "recursion"
+    "recursion",
+    "proof system"
   ],
   "sensory_log": [
     {
@@ -62259,19 +62296,18 @@
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 2854,
-      "tokens": 39338,
+      "sentences": 2855,
+      "tokens": 39355,
       "sources": {
         "seed corpus": 64,
         "conversation": 36,
         "dictionary": 1613,
-        "explore": 452,
+        "explore": 453,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "8f15c4e51874",
         "8573f65697a3",
         "014971761516",
         "f52c9343be4f",
@@ -62570,7 +62606,8 @@
         "4bab311c8a70",
         "57f9a512ddbf",
         "4bc525baad43",
-        "e2cc09ebf423"
+        "e2cc09ebf423",
+        "2ea747a6cd1d"
       ],
       "seeded": true,
       "rejected": 640,
@@ -65140,7 +65177,7 @@
         "CONJ": 37,
         "AUX": 19,
         "ADV": 40,
-        "PREP": 206,
+        "PREP": 207,
         "PART": 51,
         "NUM": 11,
         "NEG": 4
@@ -65170,7 +65207,7 @@
         "DET": 445,
         "NOUN": 99,
         "NEG": 72,
-        "VERB": 411,
+        "VERB": 412,
         "INTJ": 2,
         "ADV": 141,
         "CONJ": 20,
@@ -65183,7 +65220,7 @@
       },
       "ADJ": {
         "PART": 47,
-        "NOUN": 1875,
+        "NOUN": 1878,
         "WH": 6,
         "PUNCT": 303,
         "PREP": 197,
@@ -65201,7 +65238,7 @@
         "NEG": 1
       },
       "PART": {
-        "VERB": 454,
+        "VERB": 455,
         "AUX": 75,
         "ADJ": 36,
         "NOUN": 61,
@@ -65214,9 +65251,9 @@
       },
       "VERB": {
         "PREP": 731,
-        "PART": 157,
+        "PART": 158,
         "ADJ": 106,
-        "NOUN": 699,
+        "NOUN": 700,
         "PUNCT": 323,
         "PRON": 150,
         "AUX": 42,
@@ -65238,7 +65275,7 @@
         "PUNCT": 76,
         "VERB": 114,
         "PREP": 39,
-        "ADJ": 360,
+        "ADJ": 361,
         "PROPN": 140,
         "AUX": 25,
         "NUM": 72,
@@ -65250,7 +65287,7 @@
         "</S>": 1
       },
       "PUNCT": {
-        "</S>": 2667,
+        "</S>": 2668,
         "NOUN": 748,
         "CONJ": 407,
         "PRON": 66,
@@ -65258,7 +65295,7 @@
         "ADV": 107,
         "PREP": 95,
         "ADJ": 119,
-        "DET": 223,
+        "DET": 224,
         "WH": 53,
         "AUX": 40,
         "NUM": 8,
@@ -65304,11 +65341,11 @@
         "WH": 5
       },
       "NOUN": {
-        "AUX": 763,
+        "AUX": 764,
         "PREP": 2273,
         "NOUN": 2253,
-        "PUNCT": 3538,
-        "CONJ": 891,
+        "PUNCT": 3540,
+        "CONJ": 892,
         "VERB": 623,
         "ADV": 107,
         "PART": 289,
@@ -65325,7 +65362,7 @@
       },
       "DET": {
         "NOUN": 2821,
-        "ADJ": 1172,
+        "ADJ": 1174,
         "PRON": 30,
         "PREP": 65,
         "NUM": 58,
@@ -65342,7 +65379,7 @@
       },
       "CONJ": {
         "PRON": 120,
-        "DET": 324,
+        "DET": 325,
         "NOUN": 849,
         "VERB": 147,
         "ADJ": 171,
@@ -65482,7 +65519,7 @@
         "PREP": 58,
         "ADJ": 24,
         "PUNCT": 60,
-        "NOUN": 97,
+        "NOUN": 98,
         "WH": 6,
         "DET": 109,
         "PART": 7,
@@ -65603,7 +65640,7 @@
       },
       "VERB|PART": {
         "AUX": 25,
-        "VERB": 108,
+        "VERB": 109,
         "ADJ": 6,
         "WH": 1,
         "CONJ": 9,
@@ -65652,7 +65689,7 @@
         "ADJ": 133,
         "NOUN": 53,
         "ADV": 86,
-        "VERB": 158,
+        "VERB": 159,
         "CONJ": 9,
         "NUM": 11,
         "NEG": 16,
@@ -65747,13 +65784,13 @@
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 2043,
+        "</S>": 2044,
         "NOUN": 507,
         "CONJ": 295,
         "ADV": 77,
         "PREP": 68,
         "ADJ": 83,
-        "DET": 156,
+        "DET": 157,
         "VERB": 72,
         "WH": 40,
         "PRON": 43,
@@ -65779,7 +65816,7 @@
         "PRON": 3
       },
       "DET|ADJ": {
-        "NOUN": 933,
+        "NOUN": 935,
         "CONJ": 35,
         "ADJ": 45,
         "PUNCT": 49,
@@ -65795,15 +65832,15 @@
         "NUM": 5
       },
       "ADJ|NOUN": {
-        "PUNCT": 619,
+        "PUNCT": 620,
         "NOUN": 270,
         "MODAL": 17,
         "VERB": 94,
         "PREP": 390,
-        "CONJ": 160,
+        "CONJ": 161,
         "DET": 68,
         "ADJ": 23,
-        "AUX": 99,
+        "AUX": 100,
         "PART": 59,
         "WH": 16,
         "PROPN": 5,
@@ -65842,7 +65879,7 @@
       },
       "NOUN|CONJ": {
         "PRON": 26,
-        "DET": 142,
+        "DET": 143,
         "VERB": 50,
         "NOUN": 482,
         "ADJ": 69,
@@ -65870,7 +65907,7 @@
         "CONJ": 1
       },
       "VERB|NOUN": {
-        "PUNCT": 192,
+        "PUNCT": 193,
         "PREP": 113,
         "PART": 21,
         "VERB": 25,
@@ -65931,7 +65968,7 @@
       },
       "CONJ|DET": {
         "NOUN": 206,
-        "ADJ": 78,
+        "ADJ": 79,
         "CONJ": 3,
         "PUNCT": 4,
         "PART": 1,
@@ -66178,7 +66215,7 @@
       "AUX|VERB": {
         "PREP": 177,
         "PUNCT": 59,
-        "PART": 49,
+        "PART": 50,
         "PRON": 4,
         "NOUN": 32,
         "DET": 28,
@@ -66644,7 +66681,7 @@
         "CONJ": 11,
         "PROPN": 10,
         "ADJ": 24,
-        "NOUN": 267,
+        "NOUN": 268,
         "PUNCT": 22,
         "AUX": 4,
         "VERB": 10,
@@ -66743,7 +66780,7 @@
       },
       "PUNCT|DET": {
         "NOUN": 122,
-        "ADJ": 43,
+        "ADJ": 44,
         "VERB": 4,
         "PROPN": 14,
         "PREP": 10,
@@ -66885,7 +66922,7 @@
       "<S>|PREP": {
         "NOUN": 77,
         "PROPN": 11,
-        "ADJ": 16,
+        "ADJ": 17,
         "DET": 81,
         "CONJ": 11,
         "PUNCT": 6,
@@ -67761,7 +67798,8 @@
         "read": 3,
         "apply": 1,
         "cause": 1,
-        "change": 1
+        "change": 1,
+        "prove": 1
       },
       "talk": {
         "with": 1,
@@ -67918,7 +67956,8 @@
         "applied": 1,
         "often": 1,
         "highly": 1,
-        "guilty": 1
+        "guilty": 1,
+        "built": 1
       },
       "a": {
         "noun": 18,
@@ -67931,16 +67970,7 @@
         "neural": 3,
         "thermodynamic": 3,
         "varying": 3,
-        "mechanical": 1,
-        "task": 1,
-        "community": 1,
-        "replica": 1,
-        "sending": 1,
-        "person": 1,
-        "crime": 1,
-        "natural": 1,
-        "curve": 1,
-        "reputation": 1
+        "proof": 1
       },
       "for": {
         "the": 28,
@@ -68153,7 +68183,8 @@
         "emotions": 2,
         "contrasts": 2,
         "any": 1,
-        "photographer": 1
+        "photographer": 1,
+        "a": 1
       },
       "it": {
         "is": 59,
@@ -68603,7 +68634,8 @@
         "most": 5,
         "\"": 4,
         "mathematics": 1,
-        "such": 1
+        "such": 1,
+        "mathematical": 1
       },
       "children": {
         "play": 1,
@@ -70393,7 +70425,7 @@
         "type": 2,
         "problem": 1,
         "calculations": 1,
-        "logic": 2,
+        "logic": 3,
         "theorems": 1,
         "proof": 1,
         "branch": 1,
@@ -71887,7 +71919,7 @@
         "to": 5,
         "that": 3,
         "of": 5,
-        "is": 2,
+        "is": 3,
         "are": 1,
         "can": 1,
         "as": 1,
@@ -73464,7 +73496,7 @@
         "and": 3,
         "years": 1,
         "is": 3,
-        "or": 2,
+        "or": 3,
         "of": 2,
         "uses": 1
       },
@@ -74302,7 +74334,8 @@
         "in": 1,
         "structures": 1,
         "a": 1,
-        "or": 1
+        "or": 1,
+        "to": 1
       },
       "trying": {
         "to": 2,
@@ -78193,10 +78226,11 @@
       },
       "proof": {
         "was": 1,
-        "system": 1,
+        "system": 2,
         "of": 1,
         "are": 1,
-        "to": 1
+        "to": 1,
+        "calculus": 1
       },
       "instruments": {
         "to": 1,
@@ -81202,7 +81236,8 @@
         "from": 1
       },
       "prove": {
-        "that": 1
+        "that": 1,
+        "statements": 1
       },
       "effective": {
         "than": 1,
@@ -82620,7 +82655,7 @@
       "<ADV>": 40,
       "an": 47,
       "however": 2,
-      "in": 130,
+      "in": 131,
       "for": 8,
       "toward": 1,
       "<PART>": 51,
@@ -82690,7 +82725,7 @@
     },
     "connectors": {
       "because": 16,
-      "or": 546,
+      "or": 547,
       "and": 790,
       "but": 88,
       "so": 38,
@@ -82727,7 +82762,7 @@
         "since": 1
       },
       "NOUN>DET": {
-        "or": 45,
+        "or": 46,
         "and": 78,
         "but": 19,
         "if": 3,
@@ -85943,9 +85978,6 @@
       "PRON VERB DET NOUN PREP DET PROPN PREP DET NOUN | but | DET NOUN VERB PREP NUM NOUN": 1
     },
     "sentence_bank": {
-      "humans": [
-        "Humans and birds can perceive color."
-      ],
       "walls": [
         "We could color the walls red."
       ],
@@ -87129,7 +87161,8 @@
       ],
       "mathematical": [
         "A mathematical statement of some importance that has been proven to be true.",
-        "Mathematical optimization or mathematical programming is the selection of a best element, with regard to some criteria, from some set of available alternatives."
+        "Mathematical optimization or mathematical programming is the selection of a best element, with regard to some criteria, from some set of available alternatives.",
+        "In mathematical logic, a proof calculus or a proof system is built to prove statements."
       ],
       "minor": [
         "Minor theorems are often called propositions."
@@ -87891,6 +87924,9 @@
       ],
       "cramp": [
         "His studio was cramped when he began as an artist."
+      ],
+      "logic": [
+        "In mathematical logic, a proof calculus or a proof system is built to prove statements."
       ]
     }
   },
@@ -88234,10 +88270,6 @@
     ],
     "recent_daydream_pairs": [
       [
-        "bacteria",
-        "climate"
-      ],
-      [
         "entropy",
         "entropy (information theory)"
       ],
@@ -88312,6 +88344,10 @@
       [
         "etymology",
         "fourier transform"
+      ],
+      [
+        "phonetics",
+        "pragmatics"
       ]
     ]
   }
