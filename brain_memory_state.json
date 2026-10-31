@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.5800000000000001,
+    "adenosine": 0.7000000000000002,
     "newborn": false
   },
   "episodic_memory": [
@@ -2868,6 +2868,20 @@
       "time": "2026-10-30 21:01:54",
       "speaker": "brain",
       "text": "Thinking about Color and Optics. Color is the visual perception produced by the activation of the different types of cone cells in the eye caused by light. Optics is the branch of physics that studies the behaviour, manipulation, and detection of electromagnetic radiation, including its interactions with matter and instruments that use or detect it. Both touch on ultraviolet and visible, so here is a question to test: does visual perception constrain electromagnetic radiation, or the other way round?",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-31 00:52:12",
+      "speaker": "brain",
+      "text": "I wondered about 'Biochemistry' by myself and went searching. From Wikipedia (live internet) I learned: Biochemistry, or biological chemistry, is the study of chemical processes within and relating to living organisms. Key ideas I stored: biochemical methodology, biochemistry, metabolism, sub-discipline, organisms.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-10-31 00:52:13",
+      "speaker": "brain",
+      "text": "I wondered about 'Enzyme' by myself and went searching. From Wikipedia (live internet) I learned: An enzyme is a biological macromolecule, usually a protein, that acts as a biological catalyst, accelerating chemical reactions without being consumed in the process. Key ideas I stored: enzyme catalysis, protein, molecules, enzymes, enzyme-catalyzed.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -7578,6 +7592,33 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Neuroscience",
       "learned": "2026-10-30 16:33:40"
+    },
+    "Biochemistry": {
+      "summary": "Biochemistry, or biological chemistry, is the study of chemical processes within and relating to living organisms. A sub-discipline of both chemistry and biology, biochemistry may be divided into three fields: structural biology, enzymology, and metabolism. Over the last decades of the 20th century, biochemistry has become successful at explaining living processes through these three disciplines. Almost all areas of the life sciences are being uncovered and developed through biochemical methodology and research.",
+      "concepts": [
+        "biochemical methodology",
+        "biochemistry",
+        "metabolism",
+        "sub-discipline",
+        "organisms",
+        "enzymology"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Biochemistry",
+      "learned": "2026-10-31 00:52:12"
+    },
+    "Enzyme": {
+      "summary": "An enzyme is a biological macromolecule, usually a protein, that acts as a biological catalyst, accelerating chemical reactions without being consumed in the process. The molecules on which enzymes act are called substrates, which are converted into products. Nearly all metabolic processes within a cell depend on enzyme catalysis to occur at biologically relevant rates. A metabolic pathway is typically composed of a series of enzyme-catalyzed steps.",
+      "concepts": [
+        "enzyme catalysis",
+        "protein",
+        "molecules",
+        "enzymes",
+        "enzyme-catalyzed"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Enzyme",
+      "learned": "2026-10-31 00:52:13"
     }
   },
   "creator_teachings": [
@@ -8973,6 +9014,18 @@
       "kind": "daydream",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-10-31 00:52:12",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-10-31 00:52:13",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -9169,7 +9222,9 @@
     "proof system",
     "neuroscience",
     "cognitive",
-    "emergent"
+    "emergent",
+    "biochemistry",
+    "enzymology"
   ],
   "sensory_log": [
     {
@@ -62480,24 +62535,37 @@
       "source": "corpus",
       "learned": "2026-10-30 21:01:54",
       "uses": 1
+    },
+    "enzyme": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Nearly all metabolic processes within a cell depend on enzyme catalysis to occur at biologically relevant rates."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-10-31 00:52:13",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 2867,
-      "tokens": 39602,
+      "sentences": 2875,
+      "tokens": 39760,
       "sources": {
         "seed corpus": 64,
         "conversation": 36,
         "dictionary": 1619,
-        "explore": 459,
+        "explore": 467,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "8d1a050235fb",
-        "28107936110b",
         "32f6f49ce1a4",
         "7bd359b2499f",
         "e63fe5a9b511",
@@ -62795,7 +62863,9 @@
         "cfbfe4d9d613",
         "e9848b38adbd",
         "65deb57d27dd",
-        "3e3bb4602c60"
+        "3e3bb4602c60",
+        "b987d692cbbf",
+        "3ef9788ba245"
       ],
       "seeded": true,
       "rejected": 641,
@@ -65351,23 +65421,38 @@
         "pertinent": 1,
         "disorders": 1,
         "consciousness": 1,
-        "epic": 1
+        "epic": 1,
+        "enzymology": 1,
+        "decades": 1,
+        "uncovered": 1,
+        "biochemical": 1,
+        "methodology": 1,
+        "macromolecule": 1,
+        "protein": 1,
+        "catalyst": 1,
+        "accelerating": 1,
+        "consumed": 1,
+        "enzymes": 1,
+        "substrates": 1,
+        "converted": 1,
+        "catalysis": 1,
+        "pathway": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
         "PRON": 428,
         "WH": 35,
-        "NOUN": 777,
-        "DET": 814,
+        "NOUN": 779,
+        "DET": 818,
         "VERB": 293,
         "MODAL": 7,
         "ADJ": 129,
         "INTJ": 14,
         "CONJ": 37,
         "AUX": 19,
-        "ADV": 40,
-        "PREP": 208,
+        "ADV": 41,
+        "PREP": 209,
         "PART": 51,
         "NUM": 11,
         "NEG": 4
@@ -65394,26 +65479,26 @@
         "ADJ": 291,
         "PRON": 25,
         "PUNCT": 16,
-        "DET": 447,
+        "DET": 449,
         "NOUN": 100,
         "NEG": 73,
-        "VERB": 414,
+        "VERB": 420,
         "INTJ": 2,
-        "ADV": 141,
+        "ADV": 142,
         "CONJ": 20,
         "NUM": 25,
         "PROPN": 7,
         "WH": 4,
-        "AUX": 33,
+        "AUX": 34,
         "PREP": 39,
         "PART": 18
       },
       "ADJ": {
         "PART": 47,
-        "NOUN": 1893,
+        "NOUN": 1902,
         "WH": 8,
         "PUNCT": 306,
-        "PREP": 198,
+        "PREP": 200,
         "CONJ": 118,
         "PROPN": 41,
         "ADJ": 120,
@@ -65428,7 +65513,7 @@
         "NEG": 1
       },
       "PART": {
-        "VERB": 455,
+        "VERB": 457,
         "AUX": 75,
         "ADJ": 36,
         "NOUN": 61,
@@ -65440,16 +65525,16 @@
         "DET": 1
       },
       "VERB": {
-        "PREP": 736,
+        "PREP": 742,
         "PART": 158,
-        "ADJ": 107,
-        "NOUN": 702,
+        "ADJ": 108,
+        "NOUN": 705,
         "PUNCT": 325,
         "PRON": 150,
         "AUX": 42,
         "DET": 575,
-        "VERB": 64,
-        "CONJ": 233,
+        "VERB": 65,
+        "CONJ": 234,
         "WH": 32,
         "</S>": 15,
         "ADV": 77,
@@ -65460,34 +65545,34 @@
       },
       "PREP": {
         "PRON": 103,
-        "NOUN": 1354,
-        "DET": 1518,
+        "NOUN": 1357,
+        "DET": 1526,
         "PUNCT": 76,
-        "VERB": 115,
+        "VERB": 116,
         "PREP": 39,
-        "ADJ": 362,
+        "ADJ": 364,
         "PROPN": 141,
-        "AUX": 25,
-        "NUM": 72,
-        "WH": 51,
-        "CONJ": 32,
-        "ADV": 23,
+        "AUX": 26,
+        "NUM": 73,
+        "WH": 52,
+        "CONJ": 33,
+        "ADV": 24,
         "PART": 6,
         "MODAL": 1,
         "</S>": 1
       },
       "PUNCT": {
-        "</S>": 2680,
-        "NOUN": 758,
-        "CONJ": 414,
+        "</S>": 2688,
+        "NOUN": 763,
+        "CONJ": 416,
         "PRON": 66,
         "VERB": 100,
-        "ADV": 107,
+        "ADV": 108,
         "PREP": 96,
         "ADJ": 120,
-        "DET": 225,
-        "WH": 54,
-        "AUX": 40,
+        "DET": 226,
+        "WH": 55,
+        "AUX": 41,
         "NUM": 8,
         "PUNCT": 99,
         "PROPN": 32,
@@ -65497,10 +65582,10 @@
         "MODAL": 1
       },
       "WH": {
-        "AUX": 49,
+        "AUX": 50,
         "DET": 65,
         "PRON": 35,
-        "NOUN": 88,
+        "NOUN": 89,
         "VERB": 39,
         "MODAL": 13,
         "PREP": 6,
@@ -65513,11 +65598,11 @@
       },
       "ADV": {
         "PUNCT": 88,
-        "ADJ": 66,
+        "ADJ": 67,
         "NOUN": 111,
         "CONJ": 21,
-        "DET": 33,
-        "VERB": 233,
+        "DET": 35,
+        "VERB": 234,
         "</S>": 3,
         "PRON": 5,
         "MODAL": 2,
@@ -65531,31 +65616,31 @@
         "WH": 5
       },
       "NOUN": {
-        "AUX": 769,
-        "PREP": 2287,
-        "NOUN": 2260,
-        "PUNCT": 3568,
-        "CONJ": 895,
-        "VERB": 629,
+        "AUX": 774,
+        "PREP": 2297,
+        "NOUN": 2268,
+        "PUNCT": 3587,
+        "CONJ": 898,
+        "VERB": 630,
         "ADV": 107,
-        "PART": 289,
+        "PART": 291,
         "ADJ": 291,
-        "MODAL": 108,
+        "MODAL": 109,
         "</S>": 152,
         "PRON": 178,
         "WH": 80,
-        "DET": 436,
+        "DET": 437,
         "PROPN": 118,
         "NUM": 15,
         "NEG": 8,
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 2837,
-        "ADJ": 1189,
+        "NOUN": 2849,
+        "ADJ": 1195,
         "PRON": 30,
         "PREP": 66,
-        "NUM": 58,
+        "NUM": 59,
         "PART": 7,
         "VERB": 56,
         "CONJ": 62,
@@ -65569,10 +65654,10 @@
       },
       "CONJ": {
         "PRON": 121,
-        "DET": 330,
-        "NOUN": 858,
+        "DET": 331,
+        "NOUN": 863,
         "VERB": 147,
-        "ADJ": 172,
+        "ADJ": 173,
         "ADV": 65,
         "PUNCT": 18,
         "WH": 19,
@@ -65590,7 +65675,7 @@
         "PRON": 9,
         "DET": 3,
         "CONJ": 3,
-        "AUX": 95,
+        "AUX": 96,
         "NOUN": 19,
         "NEG": 16,
         "ADV": 17,
@@ -65636,7 +65721,7 @@
         "WH": 1
       },
       "NUM": {
-        "NOUN": 122,
+        "NOUN": 124,
         "PUNCT": 12,
         "CONJ": 23,
         "PREP": 29,
@@ -65706,10 +65791,10 @@
         "ADJ": 1
       },
       "PART|VERB": {
-        "PREP": 58,
+        "PREP": 59,
         "ADJ": 24,
         "PUNCT": 60,
-        "NOUN": 98,
+        "NOUN": 99,
         "WH": 6,
         "DET": 109,
         "PART": 7,
@@ -65724,18 +65809,18 @@
       },
       "VERB|PREP": {
         "PRON": 21,
-        "DET": 300,
-        "NOUN": 207,
+        "DET": 302,
+        "NOUN": 209,
         "PUNCT": 25,
         "VERB": 23,
         "ADJ": 67,
         "PREP": 18,
-        "NUM": 20,
+        "NUM": 21,
         "PROPN": 34,
         "CONJ": 5,
         "AUX": 2,
         "WH": 5,
-        "ADV": 8,
+        "ADV": 9,
         "PART": 1
       },
       "PREP|PRON": {
@@ -65775,7 +65860,7 @@
         "PRON": 7,
         "DET": 8,
         "NOUN": 3,
-        "VERB": 15,
+        "VERB": 16,
         "PROPN": 2,
         "NEG": 7,
         "ADV": 2,
@@ -65862,7 +65947,7 @@
       "<S>|NOUN": {
         "AUX": 153,
         "VERB": 78,
-        "PUNCT": 25,
+        "PUNCT": 26,
         "NOUN": 298,
         "CONJ": 28,
         "PREP": 65,
@@ -65871,30 +65956,30 @@
         "PART": 6,
         "WH": 6,
         "ADV": 7,
-        "DET": 20,
+        "DET": 21,
         "MODAL": 11,
         "INTJ": 2
       },
       "NOUN|AUX": {
-        "DET": 252,
+        "DET": 253,
         "ADJ": 133,
         "NOUN": 54,
-        "ADV": 86,
-        "VERB": 159,
+        "ADV": 87,
+        "VERB": 161,
         "CONJ": 9,
         "NUM": 11,
         "NEG": 17,
         "PROPN": 3,
         "WH": 3,
-        "AUX": 15,
+        "AUX": 16,
         "PREP": 15,
         "PART": 5,
         "PRON": 2,
         "PUNCT": 5
       },
       "AUX|DET": {
-        "NOUN": 227,
-        "ADJ": 177,
+        "NOUN": 228,
+        "ADJ": 178,
         "PROPN": 8,
         "VERB": 7,
         "PREP": 4,
@@ -65904,14 +65989,14 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 884,
-        "AUX": 242,
-        "CONJ": 222,
-        "PUNCT": 654,
-        "VERB": 189,
+        "PREP": 889,
+        "AUX": 243,
+        "CONJ": 224,
+        "PUNCT": 656,
+        "VERB": 190,
         "ADV": 27,
         "ADJ": 63,
-        "NOUN": 265,
+        "NOUN": 266,
         "PRON": 45,
         "PART": 82,
         "</S>": 9,
@@ -65922,24 +66007,24 @@
         "NUM": 3
       },
       "NOUN|PREP": {
-        "NOUN": 862,
-        "DET": 864,
+        "NOUN": 863,
+        "DET": 869,
         "PREP": 13,
-        "ADJ": 224,
+        "ADJ": 225,
         "PROPN": 63,
         "VERB": 69,
         "PUNCT": 27,
         "NUM": 33,
-        "WH": 34,
-        "AUX": 17,
+        "WH": 35,
+        "AUX": 18,
         "ADV": 11,
         "PRON": 56,
-        "CONJ": 13,
+        "CONJ": 14,
         "</S>": 1
       },
       "PREP|NOUN": {
-        "NOUN": 206,
-        "PUNCT": 418,
+        "NOUN": 208,
+        "PUNCT": 419,
         "VERB": 57,
         "CONJ": 162,
         "ADJ": 30,
@@ -65956,14 +66041,14 @@
         "ADV": 8
       },
       "NOUN|NOUN": {
-        "PUNCT": 796,
-        "PART": 41,
-        "NOUN": 544,
-        "PREP": 330,
+        "PUNCT": 798,
+        "PART": 42,
+        "NOUN": 545,
+        "PREP": 332,
         "CONJ": 130,
         "VERB": 90,
         "PROPN": 48,
-        "AUX": 98,
+        "AUX": 100,
         "MODAL": 21,
         "ADJ": 50,
         "NUM": 4,
@@ -65975,17 +66060,17 @@
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 2054,
-        "NOUN": 516,
-        "CONJ": 300,
-        "ADV": 77,
+        "</S>": 2062,
+        "NOUN": 521,
+        "CONJ": 302,
+        "ADV": 78,
         "PREP": 68,
         "ADJ": 84,
-        "DET": 158,
+        "DET": 159,
         "VERB": 74,
-        "WH": 40,
+        "WH": 41,
         "PRON": 43,
-        "AUX": 33,
+        "AUX": 34,
         "NUM": 6,
         "PROPN": 5,
         "PART": 16,
@@ -65995,8 +66080,8 @@
         "MODAL": 1
       },
       "<S>|DET": {
-        "NOUN": 526,
-        "ADJ": 204,
+        "NOUN": 529,
+        "ADJ": 205,
         "PROPN": 32,
         "VERB": 7,
         "PREP": 12,
@@ -66007,7 +66092,7 @@
         "PRON": 3
       },
       "DET|ADJ": {
-        "NOUN": 945,
+        "NOUN": 951,
         "CONJ": 37,
         "ADJ": 45,
         "PUNCT": 50,
@@ -66023,15 +66108,15 @@
         "NUM": 5
       },
       "ADJ|NOUN": {
-        "PUNCT": 624,
+        "PUNCT": 629,
         "NOUN": 271,
         "MODAL": 17,
         "VERB": 95,
-        "PREP": 394,
-        "CONJ": 161,
+        "PREP": 396,
+        "CONJ": 162,
         "DET": 70,
         "ADJ": 23,
-        "AUX": 102,
+        "AUX": 103,
         "PART": 59,
         "WH": 16,
         "PROPN": 6,
@@ -66047,7 +66132,7 @@
         "VERB": 3,
         "ADJ": 3,
         "AUX": 1,
-        "PREP": 6,
+        "PREP": 7,
         "ADV": 2,
         "NUM": 1,
         "MODAL": 2,
@@ -66055,9 +66140,9 @@
         "WH": 1
       },
       "PREP|DET": {
-        "NOUN": 963,
-        "ADJ": 375,
-        "NUM": 23,
+        "NOUN": 968,
+        "ADJ": 377,
+        "NUM": 24,
         "PREP": 16,
         "PROPN": 61,
         "DET": 34,
@@ -66070,9 +66155,9 @@
       },
       "NOUN|CONJ": {
         "PRON": 27,
-        "DET": 143,
+        "DET": 144,
         "VERB": 50,
-        "NOUN": 484,
+        "NOUN": 486,
         "ADJ": 69,
         "WH": 7,
         "PREP": 27,
@@ -66098,8 +66183,8 @@
         "CONJ": 1
       },
       "VERB|NOUN": {
-        "PUNCT": 193,
-        "PREP": 113,
+        "PUNCT": 195,
+        "PREP": 114,
         "PART": 21,
         "VERB": 26,
         "NOUN": 186,
@@ -66142,11 +66227,11 @@
       },
       "PUNCT|NOUN": {
         "CONJ": 54,
-        "NOUN": 123,
+        "NOUN": 125,
         "ADJ": 8,
-        "PUNCT": 401,
+        "PUNCT": 402,
         "PREP": 79,
-        "AUX": 23,
+        "AUX": 24,
         "DET": 21,
         "ADV": 4,
         "PROPN": 4,
@@ -66155,11 +66240,11 @@
         "PRON": 7,
         "WH": 1,
         "</S>": 2,
-        "MODAL": 1
+        "MODAL": 2
       },
       "CONJ|DET": {
         "NOUN": 209,
-        "ADJ": 81,
+        "ADJ": 82,
         "CONJ": 3,
         "PUNCT": 4,
         "PART": 1,
@@ -66278,7 +66363,7 @@
       "NOUN|VERB": {
         "PART": 25,
         "DET": 142,
-        "PREP": 150,
+        "PREP": 151,
         "WH": 5,
         "PRON": 42,
         "PUNCT": 48,
@@ -66307,7 +66392,7 @@
         "WH": 1
       },
       "PUNCT|CONJ": {
-        "NOUN": 155,
+        "NOUN": 157,
         "PRON": 34,
         "DET": 63,
         "PUNCT": 6,
@@ -66325,14 +66410,14 @@
       },
       "CONJ|NOUN": {
         "AUX": 28,
-        "PUNCT": 238,
+        "PUNCT": 241,
         "</S>": 4,
         "PREP": 169,
         "VERB": 31,
         "WH": 10,
-        "NOUN": 229,
+        "NOUN": 230,
         "PRON": 17,
-        "PART": 20,
+        "PART": 21,
         "CONJ": 35,
         "PROPN": 6,
         "ADJ": 16,
@@ -66404,14 +66489,14 @@
         "PROPN": 1
       },
       "AUX|VERB": {
-        "PREP": 178,
+        "PREP": 181,
         "PUNCT": 59,
         "PART": 50,
         "PRON": 4,
-        "NOUN": 32,
+        "NOUN": 33,
         "DET": 28,
-        "CONJ": 36,
-        "ADJ": 8,
+        "CONJ": 37,
+        "ADJ": 9,
         "ADV": 9,
         "NUM": 1,
         "</S>": 1,
@@ -66450,7 +66535,7 @@
       "NOUN|PART": {
         "ADJ": 24,
         "AUX": 35,
-        "VERB": 177,
+        "VERB": 179,
         "NOUN": 40,
         "CONJ": 3,
         "PUNCT": 6,
@@ -66474,7 +66559,7 @@
         "PRON": 1,
         "ADJ": 4,
         "DET": 7,
-        "NOUN": 19,
+        "NOUN": 20,
         "CONJ": 4,
         "PART": 2,
         "</S>": 1,
@@ -66539,8 +66624,8 @@
       "ADJ|PREP": {
         "NOUN": 78,
         "DET": 70,
-        "VERB": 10,
-        "ADJ": 18,
+        "VERB": 11,
+        "ADJ": 19,
         "PROPN": 5,
         "WH": 1,
         "PRON": 6,
@@ -66558,7 +66643,7 @@
         "MODAL": 3,
         "NOUN": 77,
         "AUX": 2,
-        "ADJ": 15,
+        "ADJ": 16,
         "NEG": 2,
         "WH": 4,
         "ADV": 3,
@@ -66609,7 +66694,7 @@
       },
       "WH|NOUN": {
         "VERB": 10,
-        "NOUN": 16,
+        "NOUN": 17,
         "CONJ": 8,
         "AUX": 22,
         "DET": 14,
@@ -66622,7 +66707,7 @@
       },
       "NOUN|MODAL": {
         "VERB": 41,
-        "AUX": 47,
+        "AUX": 48,
         "NEG": 6,
         "ADV": 4,
         "NOUN": 7,
@@ -66661,7 +66746,7 @@
       "AUX|ADV": {
         "ADJ": 28,
         "NOUN": 15,
-        "VERB": 75,
+        "VERB": 76,
         "ADV": 6,
         "PREP": 4,
         "DET": 10,
@@ -66670,7 +66755,7 @@
       },
       "ADV|ADJ": {
         "PUNCT": 17,
-        "NOUN": 24,
+        "NOUN": 25,
         "PREP": 11,
         "CONJ": 7,
         "ADV": 1,
@@ -66697,7 +66782,7 @@
         "ADJ": 8,
         "CONJ": 7,
         "VERB": 11,
-        "PREP": 4,
+        "PREP": 5,
         "MODAL": 1,
         "PART": 3,
         "DET": 2,
@@ -66713,7 +66798,7 @@
         "DET": 17,
         "</S>": 9,
         "PROPN": 2,
-        "VERB": 2,
+        "VERB": 3,
         "PREP": 16,
         "CONJ": 13,
         "AUX": 2,
@@ -66742,7 +66827,7 @@
         "CONJ": 3,
         "VERB": 32,
         "PREP": 24,
-        "DET": 7,
+        "DET": 8,
         "ADJ": 8,
         "PUNCT": 9,
         "PROPN": 2,
@@ -66813,9 +66898,9 @@
       },
       "ADV|DET": {
         "PRON": 4,
-        "ADJ": 11,
+        "ADJ": 12,
         "PREP": 1,
-        "NOUN": 14,
+        "NOUN": 15,
         "DET": 1,
         "PROPN": 1,
         "PUNCT": 1
@@ -66832,7 +66917,7 @@
         "PART": 13,
         "NOUN": 32,
         "CONJ": 31,
-        "PREP": 68,
+        "PREP": 69,
         "WH": 5,
         "PUNCT": 14,
         "ADJ": 8,
@@ -66872,7 +66957,7 @@
         "CONJ": 11,
         "PROPN": 10,
         "ADJ": 24,
-        "NOUN": 269,
+        "NOUN": 271,
         "PUNCT": 22,
         "AUX": 4,
         "VERB": 10,
@@ -66887,7 +66972,7 @@
         "PART": 1,
         "PUNCT": 12,
         "ADJ": 3,
-        "DET": 6,
+        "DET": 7,
         "VERB": 8,
         "CONJ": 1,
         "AUX": 3,
@@ -66970,7 +67055,7 @@
         "VERB": 3
       },
       "PUNCT|DET": {
-        "NOUN": 123,
+        "NOUN": 124,
         "ADJ": 44,
         "VERB": 4,
         "PROPN": 14,
@@ -67000,7 +67085,7 @@
       },
       "PUNCT|WH": {
         "NOUN": 11,
-        "AUX": 12,
+        "AUX": 13,
         "DET": 12,
         "PREP": 5,
         "MODAL": 5,
@@ -67034,7 +67119,7 @@
         "PART": 1
       },
       "NOUN|DET": {
-        "NOUN": 254,
+        "NOUN": 255,
         "ADJ": 81,
         "CONJ": 27,
         "ADV": 9,
@@ -67075,7 +67160,7 @@
         "PRON": 1
       },
       "DET|NUM": {
-        "NOUN": 43,
+        "NOUN": 44,
         "PART": 2,
         "PROPN": 1,
         "ADJ": 4,
@@ -67088,7 +67173,7 @@
       "NUM|NOUN": {
         "PREP": 37,
         "VERB": 5,
-        "PUNCT": 27,
+        "PUNCT": 29,
         "AUX": 10,
         "ADJ": 1,
         "MODAL": 1,
@@ -67114,7 +67199,7 @@
         "NOUN": 78,
         "PROPN": 11,
         "ADJ": 17,
-        "DET": 81,
+        "DET": 82,
         "CONJ": 11,
         "PUNCT": 6,
         "NUM": 1,
@@ -67160,7 +67245,7 @@
         "DET": 1
       },
       "MODAL|AUX": {
-        "VERB": 50,
+        "VERB": 51,
         "DET": 11,
         "ADJ": 19,
         "ADV": 3,
@@ -67196,7 +67281,7 @@
         "DET": 5,
         "ADJ": 8,
         "PRON": 1,
-        "VERB": 7,
+        "VERB": 8,
         "ADV": 2,
         "PUNCT": 1,
         "PREP": 1
@@ -67220,7 +67305,7 @@
       "PUNCT|AUX": {
         "NOUN": 4,
         "VERB": 4,
-        "DET": 22,
+        "DET": 23,
         "ADJ": 4,
         "NUM": 1,
         "PART": 1,
@@ -67308,7 +67393,7 @@
       },
       "PREP|NUM": {
         "CONJ": 13,
-        "NOUN": 40,
+        "NOUN": 41,
         "VERB": 2,
         "PREP": 4,
         "ADJ": 2,
@@ -67363,14 +67448,14 @@
         "DET": 19,
         "AUX": 7,
         "PART": 1,
-        "NOUN": 16,
+        "NOUN": 17,
         "VERB": 3,
         "PRON": 3,
         "PREP": 1,
         "ADJ": 1
       },
       "PREP|CONJ": {
-        "NOUN": 16,
+        "NOUN": 17,
         "DET": 1,
         "VERB": 5,
         "ADV": 1,
@@ -67533,7 +67618,7 @@
       },
       "PREP|ADV": {
         "VERB": 7,
-        "ADJ": 4,
+        "ADJ": 5,
         "NOUN": 5,
         "PUNCT": 3,
         "PREP": 2,
@@ -67659,7 +67744,7 @@
         "AUX": 1
       },
       "AUX|AUX": {
-        "VERB": 19,
+        "VERB": 20,
         "ADJ": 7,
         "ADV": 2,
         "PART": 1,
@@ -67992,7 +68077,9 @@
         "change": 1,
         "prove": 1,
         "his": 1,
-        "such": 1
+        "such": 1,
+        "living": 1,
+        "occur": 1
       },
       "talk": {
         "with": 1,
@@ -68040,7 +68127,10 @@
         "most": 2,
         "words": 2,
         "usually": 2,
-        "a": 1
+        "a": 1,
+        "being": 1,
+        "called": 1,
+        "converted": 1
       },
       "you": {
         "to": 7,
@@ -68125,8 +68215,8 @@
         "are": 2
       },
       "is": {
-        "a": 146,
-        "the": 107,
+        "a": 147,
+        "the": 108,
         "an": 29,
         "one": 8,
         "usually": 7,
@@ -68143,7 +68233,8 @@
         "often": 1,
         "highly": 1,
         "guilty": 1,
-        "built": 1
+        "built": 1,
+        "typically": 1
       },
       "a": {
         "noun": 18,
@@ -68156,12 +68247,7 @@
         "neural": 3,
         "thermodynamic": 3,
         "varying": 3,
-        "proof": 1,
-        "musical": 1,
-        "ship": 1,
-        "fundamental": 1,
-        "complex": 1,
-        "wider": 1
+        "series": 1
       },
       "for": {
         "the": 28,
@@ -68201,16 +68287,11 @@
         "lesson": 4,
         "variable": 3,
         "listener": 3,
+        "last": 1,
+        "th": 1,
+        "life": 1,
         "process": 1,
-        "investigation": 1,
-        "directions": 1,
-        "basis": 1,
-        "scientific": 1,
-        "nervous": 1,
-        "understanding": 1,
-        "biological": 2,
-        "\"": 1,
-        "world": 1
+        "molecules": 1
       },
       "brain": {
         "is": 1,
@@ -68383,7 +68464,8 @@
         "official": 1,
         "support": 2,
         "apply": 1,
-        "behaviors": 1
+        "behaviors": 1,
+        "biological": 1
       },
       "it": {
         "is": 59,
@@ -68558,7 +68640,9 @@
         "home": 2,
         "least": 2,
         "compile-time": 1,
-        "baker": 1
+        "baker": 1,
+        "explaining": 1,
+        "biologically": 1
       },
       "words": {
         "have": 1,
@@ -68613,7 +68697,12 @@
         "functions": 2,
         "interact": 1,
         "art": 1,
-        "emerge": 1
+        "emerge": 1,
+        "relating": 1,
+        "biology": 1,
+        "metabolism": 1,
+        "developed": 1,
+        "research": 1
       },
       "meanings": {
         "have": 1,
@@ -68671,7 +68760,8 @@
         "tool": 1,
         "deal": 1,
         "acquire": 1,
-        "its": 1
+        "its": 1,
+        "acts": 1
       },
       "good": {
         "manners": 3,
@@ -68824,7 +68914,7 @@
         "interact": 1
       },
       "in": {
-        "the": 140,
+        "the": 141,
         "a": 80,
         "english": 18,
         "many": 12,
@@ -68980,8 +69070,8 @@
         "at": 1
       },
       "of": {
-        "the": 204,
-        "a": 97,
+        "the": 206,
+        "a": 98,
         "an": 23,
         "or": 14,
         "speech": 9,
@@ -68990,15 +69080,7 @@
         "criteria": 6,
         "knowledge": 6,
         "protons": 5,
-        "excellent": 1,
-        "currency": 1,
-        "others": 1,
-        "difference": 1,
-        "being": 1,
-        "law": 1,
-        "anything": 1,
-        "learning": 1,
-        "mental": 1
+        "enzyme-catalyzed": 1
       },
       "reading": {
         "is": 1,
@@ -69427,7 +69509,7 @@
         "i": 2,
         "matchine": 2,
         "or": 2,
-        "of": 30,
+        "of": 31,
         "brilliant": 1,
         "in": 2,
         "whole": 1,
@@ -69592,7 +69674,8 @@
         "injury": 1,
         "estonian": 1,
         "artist": 3,
-        "original": 1
+        "original": 1,
+        "enzyme": 1
       },
       "update": {
         "to": 1,
@@ -69611,17 +69694,8 @@
         "both": 2,
         "vacation": 2,
         "it": 2,
-        "conversational": 1,
-        "massive": 1,
-        "occult": 1,
         "time": 2,
-        "its": 1,
-        "politics": 1,
-        "guys": 1,
-        "this": 1,
-        "artificial": 1,
-        "gambling": 1,
-        "living": 1
+        "conversational": 1
       },
       "situation": {
         "in": 2,
@@ -69745,7 +69819,9 @@
         "magazines": 1,
         "objective": 1,
         "writing": 1,
-        "another": 1
+        "another": 1,
+        "these": 1,
+        "biochemical": 1
       },
       "strengthen": {
         "the": 1,
@@ -69831,7 +69907,7 @@
       },
       "which": {
         "a": 9,
-        "are": 8,
+        "are": 9,
         "at": 3,
         "may": 3,
         "an": 4,
@@ -69848,7 +69924,8 @@
         "can": 1,
         "drains": 1,
         "case": 1,
-        "was": 2
+        "was": 2,
+        "enzymes": 1
       },
       "error": {
         "gradients": 1,
@@ -69887,7 +69964,10 @@
         "populations": 1,
         "inheritance": 1,
         "basis": 1,
-        "sciences": 1
+        "sciences": 1,
+        "chemistry": 1,
+        "macromolecule": 1,
+        "catalyst": 1
       },
       "operate": {
         "under": 1,
@@ -69941,7 +70021,8 @@
         "limits": 1,
         "overhead": 1,
         "activity": 1,
-        "processes": 2
+        "processes": 3,
+        "pathway": 1
       },
       "local": {
         "forms": 1,
@@ -70036,14 +70117,15 @@
       },
       "within": {
         "complex": 3,
-        "a": 7,
+        "a": 8,
         "host": 1,
         "the": 4,
         "an": 3,
         "very": 1,
         "linguistics": 1,
         "living": 1,
-        "its": 1
+        "its": 1,
+        "and": 1
       },
       "adaptive": {
         "systems": 3,
@@ -70062,7 +70144,8 @@
         "shirts": 1,
         "peace": 4,
         "chemicals": 1,
-        "tangible": 1
+        "tangible": 1,
+        "chemistry": 1
       },
       "intelligence": {
         "process": 1,
@@ -70188,11 +70271,12 @@
         "practical": 1,
         "one": 1,
         "mulch": 1,
-        "three": 1,
+        "three": 2,
         "wood": 1,
         "nearly": 1,
         "another": 2,
-        "his": 1
+        "his": 1,
+        "products": 1
       },
       "dissipative": {
         "structures": 1,
@@ -70275,7 +70359,8 @@
         "words": 1,
         "can": 1,
         "are": 1,
-        "two": 1
+        "two": 1,
+        "three": 1
       },
       "principles": {
         "requires": 1,
@@ -70438,7 +70523,7 @@
         "the": 3,
         "two": 4,
         "free": 2,
-        "become": 3,
+        "become": 4,
         "far-ranging": 1,
         "eight": 1,
         "given": 1,
@@ -70679,7 +70764,8 @@
         "subordinators": 1,
         "syntactic": 1,
         "generic": 1,
-        "supper": 1
+        "supper": 1,
+        "substrates": 1
       },
       "its": {
         "parts": 4,
@@ -70784,7 +70870,8 @@
         "observed": 1,
         "applied": 1,
         "quite": 1,
-        "documented": 1
+        "documented": 1,
+        "divided": 1
       },
       "defined": {
         "for": 4,
@@ -70817,7 +70904,7 @@
         "begin": 3,
         "trigger": 1,
         "become": 1,
-        "be": 9,
+        "be": 10,
         "refer": 2,
         "take": 2,
         "also": 3,
@@ -71008,7 +71095,7 @@
         "n": 1
       },
       "th": {
-        "century": 7
+        "century": 8
       },
       "known": {
         "as": 16,
@@ -71023,7 +71110,7 @@
         "truth": 1
       },
       "as": {
-        "a": 56,
+        "a": 57,
         "the": 23,
         "in": 7,
         "not": 4,
@@ -71361,7 +71448,7 @@
         "walks": 1,
         "see": 1,
         "eaten": 1,
-        "a": 1,
+        "a": 2,
         "caused": 1
       },
       "plants": {
@@ -71630,7 +71717,7 @@
         "wave": 1
       },
       "relating": {
-        "to": 13
+        "to": 14
       },
       "neurons": {
         "or": 1,
@@ -71753,7 +71840,9 @@
         "wrong": 1,
         "impulsive": 1,
         "defined": 1,
-        "different": 1
+        "different": 1,
+        "uncovered": 1,
+        "consumed": 1
       },
       "having": {
         "a": 8,
@@ -71810,7 +71899,8 @@
         "time": 1,
         "year": 1,
         "chapter": 1,
-        "week": 1
+        "week": 1,
+        "decades": 1
       },
       "month": {
         "'s": 2,
@@ -71895,7 +71985,7 @@
         "words": 1
       },
       "series": {
-        "of": 2,
+        "of": 3,
         "was": 1,
         "to": 1
       },
@@ -71998,7 +72088,8 @@
         "external": 1,
         "the": 1,
         "producing": 1,
-        "waste": 1
+        "waste": 1,
+        "being": 1
       },
       "cloud": {
         "connection": 2,
@@ -72183,7 +72274,8 @@
         "something": 1,
         "structural": 1,
         "v": 1,
-        "an": 2
+        "an": 2,
+        "successful": 1
       },
       "realization": {
         "of": 3,
@@ -72359,7 +72451,8 @@
         "averaged": 2,
         "hop": 1,
         "a": 1,
-        "used": 1
+        "used": 1,
+        "composed": 1
       },
       "use": {
         "of": 15,
@@ -72454,7 +72547,7 @@
         "holders": 1,
         "a": 5,
         "time": 5,
-        "the": 12,
+        "the": 13,
         "there": 1,
         "and": 1,
         "mathematical": 1,
@@ -72675,7 +72768,9 @@
         "tenses": 1,
         "their": 1,
         "motion": 1,
-        "activity": 1
+        "activity": 1,
+        "areas": 1,
+        "metabolic": 1
       },
       "possible": {
         "permutations": 1,
@@ -73444,7 +73539,8 @@
       "structural": {
         "typing": 1,
         "members": 1,
-        "computing": 1
+        "computing": 1,
+        "biology": 1
       },
       "advanced": {
         "algebraic": 1,
@@ -73743,7 +73839,8 @@
       "developed": {
         "by": 3,
         "as": 1,
-        "calculus": 1
+        "calculus": 1,
+        "through": 1
       },
       "microsoft": {
         "and": 2,
@@ -74178,7 +74275,8 @@
         "or": 5,
         "by": 1,
         "committed": 2,
-        "upon": 1
+        "upon": 1,
+        "are": 1
       },
       "random": {
         "variable": 2,
@@ -74961,7 +75059,8 @@
         "forms": 1,
         "events": 1,
         "story": 1,
-        "on": 1
+        "on": 1,
+        "sciences": 1
       },
       "turn": {
         "of": 1,
@@ -75506,7 +75605,9 @@
         "beef": 1,
         "centuries": 1,
         "of": 1,
-        "differences": 1
+        "differences": 1,
+        "fields": 1,
+        "disciplines": 1
       },
       "heading": {
         ")": 3
@@ -76865,7 +76966,8 @@
         "that": 1,
         "in": 2,
         "makes": 1,
-        "division": 1
+        "division": 1,
+        "depend": 1
       },
       "psychological": {
         "barriers": 1,
@@ -77130,7 +77232,8 @@
       "successful": {
         "cognitive": 1,
         "candidate": 1,
-        "customer": 1
+        "customer": 1,
+        "at": 1
       },
       "self-supervised": {
         "learning": 2
@@ -77195,7 +77298,9 @@
         "that": 3,
         "are": 2,
         "involved": 1,
-        "such": 2
+        "such": 2,
+        "within": 2,
+        "through": 1
       },
       "interact": {
         "with": 6,
@@ -77330,7 +77435,7 @@
         "combined": 1
       },
       "divided": {
-        "into": 5,
+        "into": 6,
         "daughter": 1
       },
       "multi-agent": {
@@ -77344,7 +77449,7 @@
         "system": 2
       },
       "composed": {
-        "of": 6,
+        "of": 7,
         "a": 1
       },
       "interacting": {
@@ -77550,10 +77655,11 @@
         "stimulation": 1,
         "elements": 2,
         "interaction": 1,
-        "reactions": 1,
+        "reactions": 2,
         "process": 1,
         "reaction": 1,
-        "action": 1
+        "action": 1,
+        "processes": 1
       },
       "synthesized": {
         "by": 1,
@@ -78781,7 +78887,7 @@
       },
       "almost": {
         "adv": 1,
-        "all": 2,
+        "all": 3,
         "always": 1,
         "the": 1
       },
@@ -79729,10 +79835,11 @@
       "living": {
         "thing": 1,
         "higher": 1,
-        "organisms": 1,
+        "organisms": 2,
         "in": 1,
         "proper": 1,
-        "room": 1
+        "room": 1,
+        "processes": 1
       },
       "hotel": {
         "to": 1,
@@ -79971,7 +80078,8 @@
       "occur": {
         "in": 2,
         "within": 1,
-        "or": 1
+        "or": 1,
+        "at": 1
       },
       "sensory": {
         "or": 1,
@@ -80241,7 +80349,8 @@
       },
       "reactions": {
         "that": 1,
-        "allow": 1
+        "allow": 1,
+        "without": 1
       },
       "harder": {
         "and": 1,
@@ -80480,7 +80589,8 @@
         "into": 1
       },
       "relevant": {
-        "to": 1
+        "to": 1,
+        "rates": 1
       },
       "run-time": {
         "error": 1
@@ -80566,7 +80676,8 @@
         "pain": 1
       },
       "acts": {
-        "against": 1
+        "against": 1,
+        "as": 1
       },
       "inflammation": {
         "and": 1
@@ -80590,7 +80701,7 @@
         "a": 1
       },
       "areas": {
-        "of": 1,
+        "of": 2,
         "to": 1
       },
       "subdisciplines": {
@@ -82437,7 +82548,8 @@
         ")": 1
       },
       "chemistry": {
-        "of": 1
+        "of": 1,
+        "and": 1
       },
       "surrounding": {
         "environment": 1
@@ -82902,14 +83014,76 @@
       },
       "emerge": {
         "only": 1
+      },
+      "sub-discipline": {
+        "of": 1
+      },
+      "biochemistry": {
+        "may": 1,
+        "has": 1
+      },
+      "decades": {
+        "of": 1
+      },
+      "explaining": {
+        "living": 1
+      },
+      "sciences": {
+        "are": 1
+      },
+      "uncovered": {
+        "and": 1
+      },
+      "biochemical": {
+        "methodology": 1
+      },
+      "methodology": {
+        "and": 1
+      },
+      "enzyme": {
+        "is": 1,
+        "catalysis": 1
+      },
+      "accelerating": {
+        "chemical": 1
+      },
+      "consumed": {
+        "in": 1
+      },
+      "molecules": {
+        "on": 1
+      },
+      "enzymes": {
+        "act": 1
+      },
+      "converted": {
+        "into": 1
+      },
+      "nearly": {
+        "all": 1
+      },
+      "depend": {
+        "on": 1
+      },
+      "catalysis": {
+        "to": 1
+      },
+      "biologically": {
+        "relevant": 1
+      },
+      "pathway": {
+        "is": 1
+      },
+      "enzyme-catalyzed": {
+        "steps": 1
       }
     },
     "starters": {
       "i": 113,
       "how": 6,
       "what": 8,
-      "<NOUN>": 777,
-      "the": 387,
+      "<NOUN>": 779,
+      "the": 388,
       "she": 25,
       "we": 41,
       "it": 96,
@@ -82925,13 +83099,13 @@
       "that": 23,
       "if": 14,
       "although": 3,
-      "a": 199,
+      "a": 201,
       "does": 1,
       "who": 2,
       "when": 15,
       "you": 16,
-      "<ADV>": 40,
-      "an": 48,
+      "<ADV>": 41,
+      "an": 49,
       "however": 2,
       "in": 132,
       "for": 8,
@@ -82999,19 +83173,20 @@
       "after": 3,
       "because": 1,
       "no": 1,
-      "below": 1
+      "below": 1,
+      "over": 1
     },
     "connectors": {
       "because": 16,
-      "or": 555,
-      "and": 795,
+      "or": 556,
+      "and": 800,
       "but": 88,
       "so": 38,
       "while": 8,
       "than": 51,
       "therefore": 7,
       "if": 15,
-      "as": 275,
+      "as": 276,
       "however": 3,
       "whether": 5,
       "that": 26,
@@ -83045,7 +83220,7 @@
         "but": 19,
         "if": 3,
         "though": 2,
-        "as": 29,
+        "as": 30,
         "than": 7,
         "while": 1,
         "nor": 1,
@@ -83054,8 +83229,8 @@
         "once": 1
       },
       "NOUN>NOUN": {
-        "and": 351,
-        "or": 226,
+        "and": 354,
+        "or": 227,
         "as": 13,
         "yet": 2,
         "so": 2,
@@ -83190,7 +83365,7 @@
       },
       "PREP>NOUN": {
         "or": 17,
-        "and": 3,
+        "and": 4,
         "but": 2
       },
       "NOUN>AUX": {
@@ -83284,7 +83459,7 @@
         "as": 2
       },
       "VERB>ADJ": {
-        "and": 3,
+        "and": 4,
         "as": 7,
         "or": 5,
         "that": 1
@@ -86254,45 +86429,10 @@
       "NUM DET PROPN NOUN VERB NOUN AUX PROPN WH AUX VERB PREP DET NOUN | and | VERB NOUN": 1,
       "PRON AUX INTJ NOUN | but | DET NOUN VERB DET ADJ NOUN DET NOUN": 1,
       "PRON VERB DET NOUN PREP DET PROPN PREP DET NOUN | but | DET NOUN VERB PREP NUM NOUN": 1,
-      "NOUN AUX DET ADJ VERB PREP DET ADJ NOUN DET NOUN | and | DET NOUN": 1
+      "NOUN AUX DET ADJ VERB PREP DET ADJ NOUN DET NOUN | and | DET NOUN": 1,
+      "NOUN CONJ NOUN AUX DET NOUN PREP NOUN PREP | and | NOUN PART VERB NOUN": 1
     },
     "sentence_bank": {
-      "consists": [
-        "An atom consists of a nucleus of protons and generally neutrons, surrounded by an electromagnetically bound swarm of electrons."
-      ],
-      "chemical": [
-        "The chemical elements are distinguished from each other by the number of protons that are in their atoms.",
-        "The chemical interaction of the atmosphere with a solid surface can change its fundamental composition, as can photochemical interaction with the host star."
-      ],
-      "elements": [
-        "The chemical elements are distinguished from each other by the number of protons that are in their atoms."
-      ],
-      "same": [
-        "Atoms with the same number of protons but a different number of neutrons are called isotopes of the same element."
-      ],
-      "teacher": [
-        "The teacher's favourite always went first."
-      ],
-      "occupation": [
-        "This is my second favourite occupation."
-      ],
-      "movie": [
-        "I just saw a movie with all my favourite actors in it."
-      ],
-      "thing": [
-        "A person or thing who enjoys special regard or favour."
-      ],
-      "slight": [
-        "A slight move of the tiller, and the boat will go off course."
-      ],
-      "move": [
-        "A slight move of the tiller, and the boat will go off course.",
-        "He made another move towards becoming a naturalized citizen.",
-        "To move something from one place to another, especially to take away."
-      ],
-      "lifelong": [
-        "My lifelong goal is to get into a Hollywood movie."
-      ],
       "goal": [
         "My lifelong goal is to get into a Hollywood movie."
       ],
@@ -88204,7 +88344,43 @@
         "Cognitive processes are a fundamental part of mental life, helping individuals understand and interact with the world."
       ],
       "processes": [
-        "Cognitive processes are a fundamental part of mental life, helping individuals understand and interact with the world."
+        "Cognitive processes are a fundamental part of mental life, helping individuals understand and interact with the world.",
+        "Nearly all metabolic processes within a cell depend on enzyme catalysis to occur at biologically relevant rates."
+      ],
+      "biochemistry": [
+        "Biochemistry, or biological chemistry, is the study of chemical processes within and relating to living organisms."
+      ],
+      "biological": [
+        "Biochemistry, or biological chemistry, is the study of chemical processes within and relating to living organisms.",
+        "An enzyme is a biological macromolecule, usually a protein, that acts as a biological catalyst, accelerating chemical reactions without being consumed in the process."
+      ],
+      "sub-discipline": [
+        "A sub-discipline of both chemistry and biology, biochemistry may be divided into three fields: structural biology, enzymology, and metabolism."
+      ],
+      "chemistry": [
+        "A sub-discipline of both chemistry and biology, biochemistry may be divided into three fields: structural biology, enzymology, and metabolism."
+      ],
+      "almost": [
+        "Almost all areas of the life sciences are being uncovered and developed through biochemical methodology and research."
+      ],
+      "areas": [
+        "Almost all areas of the life sciences are being uncovered and developed through biochemical methodology and research."
+      ],
+      "enzyme": [
+        "An enzyme is a biological macromolecule, usually a protein, that acts as a biological catalyst, accelerating chemical reactions without being consumed in the process."
+      ],
+      "molecules": [
+        "The molecules on which enzymes act are called substrates, which are converted into products."
+      ],
+      "enzymes": [
+        "The molecules on which enzymes act are called substrates, which are converted into products."
+      ],
+      "metabolic": [
+        "Nearly all metabolic processes within a cell depend on enzyme catalysis to occur at biologically relevant rates.",
+        "A metabolic pathway is typically composed of a series of enzyme-catalyzed steps."
+      ],
+      "pathway": [
+        "A metabolic pathway is typically composed of a series of enzyme-catalyzed steps."
       ]
     }
   },
@@ -88516,7 +88692,8 @@
       "directions",
       "challenge",
       "emergence",
-      "emerge"
+      "emerge",
+      "enzyme"
     ],
     "names": [],
     "lessons": 142,
