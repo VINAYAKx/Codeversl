@@ -2,7 +2,7 @@
   "meta": {
     "created": "2026-10-20 15:07:00",
     "creator_signature": "677a410903a19f3307ea34c4701fe4dbd912e9262a0208612c61372d4a47b330",
-    "last_interaction": 1793558769.5719633,
+    "last_interaction": 1793572581.138962,
     "sleep_cycles": 51,
     "births": 1
   },
@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.42,
+    "adenosine": 0.45999999999999996,
     "newborn": false
   },
   "episodic_memory": [
@@ -61175,107 +61175,308 @@
     },
     "drug": {
       "part_of_speech": "noun",
-      "definition": "",
+      "definition": "A substance used to treat an illness, relieve a symptom, or modify a chemical process in the body for a specific purpose.",
       "all_pos": [
-        "noun"
+        "noun",
+        "verb"
       ],
-      "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-26 18:51:28",
-      "uses": 1
+      "synonyms": [
+        "criticize",
+        "harrow"
+      ],
+      "example_sentences": [
+        "Aspirin is a drug that reduces pain, acts against inflammation and lowers body temperature.",
+        "She suddenly felt strange, and only then realized she'd been drugged.",
+        "She suddenly felt strange. She realized her drink must have been drugged.",
+        "Let's drag this load of wood over to the shed."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "A substance used to treat an illness, relieve a symptom, or modify a chemical process in the body for a specific purpose.",
+          "example": "Aspirin is a drug that reduces pain, acts against inflammation and lowers body temperature."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "A psychoactive substance, especially one which is illegal and addictive, ingested for recreational use, such as cocaine.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To administer intoxicating drugs to, generally without the recipient's knowledge or consent.",
+          "example": "She suddenly felt strange, and only then realized she'd been drugged."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To add intoxicating drugs to with the intention of drugging someone.",
+          "example": "She suddenly felt strange. She realized her drink must have been drugged."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To pull along a surface or through a medium, sometimes with difficulty.",
+          "example": "Let's drag this load of wood over to the shed."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To move onward heavily, laboriously, or slowly; to advance with weary effort; to go on lingeringly.",
+          "example": "Time seems to drag when you’re waiting for a bus."
+        }
+      ],
+      "phonetic": "/dɹʌɡ/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-01 22:36:14",
+      "uses": 1,
+      "tags": []
     },
     "reduces": {
-      "part_of_speech": "noun",
-      "definition": "",
+      "part_of_speech": "verb",
+      "definition": "To bring down the size, quantity, quality, value or intensity of something; to diminish, to lower.",
       "all_pos": [
-        "noun"
+        "verb"
       ],
-      "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-26 18:51:28",
-      "uses": 1
+      "synonyms": [
+        "inspissate",
+        "cut",
+        "decrease",
+        "lower"
+      ],
+      "example_sentences": [
+        "to reduce weight, speed, heat, expenses, price, personnel etc."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "verb",
+          "definition": "To bring down the size, quantity, quality, value or intensity of something; to diminish, to lower.",
+          "example": "to reduce weight, speed, heat, expenses, price, personnel etc."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To lose weight.",
+          "example": ""
+        }
+      ],
+      "phonetic": "/ɹɪˈdjuːsɪz/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-01 22:36:15",
+      "uses": 1,
+      "tags": []
     },
     "pain": {
       "part_of_speech": "noun",
-      "definition": "",
+      "definition": "An ache or bodily suffering, or an instance of this; an unpleasant sensation, resulting from a derangement of functions, disease, or injury by violence; hurt.",
       "all_pos": [
-        "noun"
+        "noun",
+        "verb"
       ],
-      "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-26 18:51:28",
-      "uses": 1
+      "synonyms": [
+        "pest"
+      ],
+      "example_sentences": [
+        "I had to stop running when I started getting pains in my feet.",
+        "In the final analysis, pain is a fact of life.",
+        "The wound pained him.",
+        "It pains me to say that I must let you go."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "An ache or bodily suffering, or an instance of this; an unpleasant sensation, resulting from a derangement of functions, disease, or injury by violence; hurt.",
+          "example": "I had to stop running when I started getting pains in my feet."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "The condition or fact of suffering or anguish especially mental, as opposed to pleasure; torment; distress",
+          "example": "In the final analysis, pain is a fact of life."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To hurt; to put to bodily uneasiness or anguish; to afflict with uneasy sensations of any degree of intensity; to torment; to torture.",
+          "example": "The wound pained him."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To render uneasy in mind; to disquiet; to distress; to grieve.",
+          "example": "It pains me to say that I must let you go."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "Any of various breads stuffed with a filling.",
+          "example": "gammon pain; Spanish pain"
+        }
+      ],
+      "phonetic": "/peɪn/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-01 22:36:15",
+      "uses": 1,
+      "tags": []
     },
     "acts": {
       "part_of_speech": "noun",
-      "definition": "",
+      "definition": "Something done, a deed.",
       "all_pos": [
-        "noun"
+        "noun",
+        "verb"
       ],
-      "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-26 18:51:28",
-      "uses": 1
+      "synonyms": [
+        "pretense",
+        "statute",
+        "deed"
+      ],
+      "example_sentences": [
+        "an act of goodwill",
+        "If you don't act soon, you will be in trouble."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "Something done, a deed.",
+          "example": "an act of goodwill"
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "Actuality.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To do something.",
+          "example": "If you don't act soon, you will be in trouble."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To do (something); to perform.",
+          "example": ""
+        }
+      ],
+      "phonetic": "/æks/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-01 22:36:15",
+      "uses": 1,
+      "tags": []
     },
     "realized": {
       "part_of_speech": "verb",
-      "definition": "",
+      "definition": "To make real; to convert from the imaginary or fictitious into reality; to bring into real existence",
       "all_pos": [
         "verb"
       ],
-      "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-26 18:51:28",
-      "uses": 1
+      "synonyms": [
+        "accomplish",
+        "actualize",
+        "materialize"
+      ],
+      "example_sentences": [
+        "The objectives of the project were never fully realized.",
+        "He realized that he had left his umbrella on the train."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "verb",
+          "definition": "To make real; to convert from the imaginary or fictitious into reality; to bring into real existence",
+          "example": "The objectives of the project were never fully realized."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To become aware of (a fact or situation, especially of something that has been true for a long time).",
+          "example": "He realized that he had left his umbrella on the train."
+        }
+      ],
+      "phonetic": "/ˈɹɪə.laɪzd/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-01 22:36:16",
+      "uses": 1,
+      "tags": []
     },
     "suddenly": {
       "part_of_speech": "adverb",
-      "definition": "",
+      "definition": "Happening quickly and with little or no warning; in a sudden manner.",
       "all_pos": [
         "adverb"
       ],
-      "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-26 18:51:28",
-      "uses": 1
+      "synonyms": [
+        "all of a sudden",
+        "without warning"
+      ],
+      "example_sentences": [
+        "Suddenly, the heavens opened and we all got drenched."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "adverb",
+          "definition": "Happening quickly and with little or no warning; in a sudden manner.",
+          "example": "Suddenly, the heavens opened and we all got drenched."
+        }
+      ],
+      "phonetic": "/ˈsʌdn̩li/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-01 22:36:16",
+      "uses": 1,
+      "tags": []
     },
     "drink": {
-      "part_of_speech": "noun",
-      "definition": "",
+      "part_of_speech": "verb",
+      "definition": "To consume (a liquid) through the mouth.",
       "all_pos": [
+        "verb",
         "noun"
       ],
       "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-26 18:51:28",
-      "uses": 1
+      "example_sentences": [
+        "He drank the water I gave him.",
+        "What kind of drink would you like ? We have soft drinks and hard drinks."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "verb",
+          "definition": "To consume (a liquid) through the mouth.",
+          "example": "He drank the water I gave him."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "A beverage .",
+          "example": "What kind of drink would you like ? We have soft drinks and hard drinks."
+        }
+      ],
+      "phonetic": "",
+      "source": "wiktionary",
+      "learned": "2026-11-01 22:36:17",
+      "uses": 1,
+      "tags": []
     },
     "drugged": {
       "part_of_speech": "verb",
-      "definition": "",
+      "definition": "To administer intoxicating drugs to, generally without the recipient's knowledge or consent.",
       "all_pos": [
-        "verb"
+        "verb",
+        "adjective"
       ],
       "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-26 18:51:28",
-      "uses": 1
+      "example_sentences": [
+        "She suddenly felt strange, and only then realized she'd been drugged.",
+        "She suddenly felt strange. She realized her drink must have been drugged."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "verb",
+          "definition": "To administer intoxicating drugs to, generally without the recipient's knowledge or consent.",
+          "example": "She suddenly felt strange, and only then realized she'd been drugged."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To add intoxicating drugs to with the intention of drugging someone.",
+          "example": "She suddenly felt strange. She realized her drink must have been drugged."
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Containing one or more drugs; laced with drugs.",
+          "example": ""
+        }
+      ],
+      "phonetic": "/dɹʌɡd/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-01 22:36:17",
+      "uses": 1,
+      "tags": []
     },
     "morphology": {
       "part_of_speech": "noun",
@@ -61294,55 +61495,181 @@
     },
     "influences": {
       "part_of_speech": "noun",
-      "definition": "",
+      "definition": "The power to affect, control or manipulate something or someone; the ability to change the development of fluctuating things such as conduct, thoughts or decisions.",
       "all_pos": [
-        "noun"
+        "noun",
+        "verb"
       ],
       "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-26 23:02:54",
-      "uses": 1
+      "example_sentences": [
+        "I have absolutely no influence over him.",
+        "I'm not able to exercise influence over him.",
+        "I must admit that this book influenced my outlook on life."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "The power to affect, control or manipulate something or someone; the ability to change the development of fluctuating things such as conduct, thoughts or decisions.",
+          "example": "I have absolutely no influence over him."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "An action exerted by a person or thing with such power on another to cause change.",
+          "example": "I'm not able to exercise influence over him."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To have an effect on by using gentle or subtle action; to exert an influence upon; to modify, bias, or sway; to persuade or induce.",
+          "example": "I must admit that this book influenced my outlook on life."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To exert, make use of one's influence.",
+          "example": ""
+        }
+      ],
+      "phonetic": "/ˈɪn.fl(j)u.ən.sɪz/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-01 22:36:17",
+      "uses": 1,
+      "tags": []
     },
     "town": {
       "part_of_speech": "noun",
-      "definition": "",
+      "definition": "A settlement; an area with residential districts, shops and amenities, and its own local government; especially one larger than a village and smaller than a city.",
       "all_pos": [
         "noun"
       ],
       "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-26 23:02:54",
-      "uses": 1
+      "example_sentences": [
+        "This town is really dangerous because these youngsters have Beretta handguns.",
+        "I'll be in Yonkers, then I'm driving into town to see the Knicks at the Garden tonight."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "A settlement; an area with residential districts, shops and amenities, and its own local government; especially one larger than a village and smaller than a city.",
+          "example": "This town is really dangerous because these youngsters have Beretta handguns."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "Any more urbanized center than the place of reference.",
+          "example": "I'll be in Yonkers, then I'm driving into town to see the Knicks at the Garden tonight."
+        }
+      ],
+      "phonetic": "/taʊn/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-01 22:36:18",
+      "uses": 1,
+      "tags": []
     },
     "corner": {
       "part_of_speech": "noun",
-      "definition": "",
+      "definition": "The point where two converging lines meet; an angle, either external or internal.",
       "all_pos": [
-        "noun"
+        "noun",
+        "verb"
       ],
-      "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-26 23:02:55",
-      "uses": 1
+      "synonyms": [
+        "angle",
+        "bend",
+        "cranny",
+        "hern",
+        "hideaway",
+        "hirn",
+        "nook",
+        "recess"
+      ],
+      "example_sentences": [
+        "The corners of the wire mesh were reinforced with little blobs of solder.",
+        "Shining a light in the dark corners of the mind. I took a trip out to his corner of town.",
+        "The cat had cornered a cricket between the sofa and the television stand.",
+        "The reporter cornered the politician by pointing out the hypocrisy of his position on mandatory sentencing, in light of the politician's own actions in court."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "The point where two converging lines meet; an angle, either external or internal.",
+          "example": "The corners of the wire mesh were reinforced with little blobs of solder."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "An edge or extremity; the part farthest from the center; hence, any quarter or part, or the direction in which it lies.",
+          "example": "Shining a light in the dark corners of the mind. I took a trip out to his corner of town."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To drive (someone or something) into a corner or other confined space.",
+          "example": "The cat had cornered a cricket between the sofa and the television stand."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To trap in a position of great difficulty or hopeless embarrassment.",
+          "example": "The reporter cornered the politician by pointing out the hypocrisy of his position on mandatory sentencing, in light of the politician's own actions in court."
+        }
+      ],
+      "phonetic": "/ˈkɔːnə(ɹ)/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-01 22:36:18",
+      "uses": 1,
+      "tags": []
     },
     "exact": {
-      "part_of_speech": "adjective",
-      "definition": "",
+      "part_of_speech": "verb",
+      "definition": "To demand and enforce the payment or performance of, sometimes in a forcible or imperious way.",
       "all_pos": [
-        "adjective"
+        "verb",
+        "adjective",
+        "adverb"
       ],
-      "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-26 23:02:55",
-      "uses": 1
+      "synonyms": [
+        "correct",
+        "perfect",
+        "precise",
+        "true",
+        "strict",
+        "spot on",
+        "accurately",
+        "just"
+      ],
+      "example_sentences": [
+        "to exact tribute, fees, or obedience from someone",
+        "He paid the exact debt.",
+        "In my doings I was exact.",
+        "She's wearing the exact same sweater as I am!"
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "verb",
+          "definition": "To demand and enforce the payment or performance of, sometimes in a forcible or imperious way.",
+          "example": "to exact tribute, fees, or obedience from someone"
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To make desirable or necessary.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Precisely agreeing with a standard, a fact, or the truth; perfectly conforming; neither exceeding nor falling short in any respect.",
+          "example": "He paid the exact debt."
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Habitually careful to agree with a standard, a rule, or a promise; accurate; methodical; punctual.",
+          "example": "In my doings I was exact."
+        },
+        {
+          "part_of_speech": "adverb",
+          "definition": "Exactly",
+          "example": "She's wearing the exact same sweater as I am!"
+        }
+      ],
+      "phonetic": "/ɪɡˈzækt/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-01 22:36:18",
+      "uses": 1,
+      "tags": []
     },
     "escape": {
       "part_of_speech": "verb",
@@ -61358,43 +61685,108 @@
       "uses": 1
     },
     "considerable": {
-      "part_of_speech": "adjective",
-      "definition": "",
+      "part_of_speech": "noun",
+      "definition": "A thing to be considered, consideration.",
       "all_pos": [
+        "noun",
         "adjective"
       ],
       "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-26 23:02:55",
-      "uses": 1
+      "example_sentences": [
+        "I've spent a considerable amount of time on this."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "A thing to be considered, consideration.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Significant; worth considering.",
+          "example": "I've spent a considerable amount of time on this."
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Large in amount.",
+          "example": ""
+        }
+      ],
+      "phonetic": "/kənˈsɪdəɹəbl̩/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-01 22:36:18",
+      "uses": 1,
+      "tags": []
     },
     "influence": {
       "part_of_speech": "noun",
-      "definition": "",
+      "definition": "The power to affect, control or manipulate something or someone; the ability to change the development of fluctuating things such as conduct, thoughts or decisions.",
       "all_pos": [
-        "noun"
+        "noun",
+        "verb"
       ],
       "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-26 23:02:55",
-      "uses": 1
+      "example_sentences": [
+        "I have absolutely no influence over him.",
+        "I'm not able to exercise influence over him.",
+        "I must admit that this book influenced my outlook on life."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "The power to affect, control or manipulate something or someone; the ability to change the development of fluctuating things such as conduct, thoughts or decisions.",
+          "example": "I have absolutely no influence over him."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "An action exerted by a person or thing with such power on another to cause change.",
+          "example": "I'm not able to exercise influence over him."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To have an effect on by using gentle or subtle action; to exert an influence upon; to modify, bias, or sway; to persuade or induce.",
+          "example": "I must admit that this book influenced my outlook on life."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To exert, make use of one's influence.",
+          "example": ""
+        }
+      ],
+      "phonetic": "/ˈɪn.flu.əns/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-01 22:36:19",
+      "uses": 1,
+      "tags": []
     },
     "vicinity": {
       "part_of_speech": "noun",
-      "definition": "",
+      "definition": "Proximity; the state of being near.",
       "all_pos": [
         "noun"
       ],
       "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-26 23:02:56",
-      "uses": 1
+      "example_sentences": [
+        "There was a crackling sound in the vicinity of my right ear.",
+        "There is a hurricane in the vicinity of the Bahamas."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "Proximity; the state of being near.",
+          "example": "There was a crackling sound in the vicinity of my right ear."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "Neighbourhood; nearby region; surrounding area.",
+          "example": "There is a hurricane in the vicinity of the Bahamas."
+        }
+      ],
+      "phonetic": "/vəˈsɪnəti/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-01 22:36:19",
+      "uses": 1,
+      "tags": []
     },
     "junction": {
       "part_of_speech": "noun",
@@ -61437,16 +61829,40 @@
     },
     "muscle": {
       "part_of_speech": "noun",
-      "definition": "",
+      "definition": "A contractile form of tissue which animals use to effect movement.",
       "all_pos": [
-        "noun"
+        "noun",
+        "verb"
       ],
-      "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-26 23:02:56",
-      "uses": 1
+      "synonyms": [
+        "thew"
+      ],
+      "example_sentences": [
+        "Muscle consists largely of actin and myosin filaments.",
+        "He muscled his way through the crowd."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "A contractile form of tissue which animals use to effect movement.",
+          "example": "Muscle consists largely of actin and myosin filaments."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "An organ composed of muscle tissue.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To use force to make progress, especially physical force.",
+          "example": "He muscled his way through the crowd."
+        }
+      ],
+      "phonetic": "/ˈmʌs.əl/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-01 22:36:19",
+      "uses": 1,
+      "tags": []
     },
     "gland": {
       "part_of_speech": "noun",
@@ -61476,16 +61892,37 @@
     },
     "synchronous": {
       "part_of_speech": "adjective",
-      "definition": "",
+      "definition": "At the same time, at the same frequency.",
       "all_pos": [
         "adjective"
       ],
-      "synonyms": [],
+      "synonyms": [
+        "blocking",
+        "modal",
+        "single-threaded",
+        "in phase",
+        "in step",
+        "in synch",
+        "simultaneous"
+      ],
       "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-26 23:02:57",
-      "uses": 1
+      "meanings": [
+        {
+          "part_of_speech": "adjective",
+          "definition": "At the same time, at the same frequency.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "(of communication) Single-threaded; blocking; occurring in the same thread as other computations, thereby preventing those computations from resuming until the communication is complete.",
+          "example": ""
+        }
+      ],
+      "phonetic": "/ˈsɪŋkɹənəs/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-01 22:36:19",
+      "uses": 1,
+      "tags": []
     },
     "chaotic": {
       "part_of_speech": "adjective",
@@ -61501,43 +61938,158 @@
       "uses": 1
     },
     "bring": {
-      "part_of_speech": "noun",
-      "definition": "",
+      "part_of_speech": "verb",
+      "definition": "(ditransitive) To transport toward somebody/somewhere.",
       "all_pos": [
-        "noun"
+        "verb",
+        "interjection"
       ],
       "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-26 23:02:57",
-      "uses": 1
+      "example_sentences": [
+        "Waiter, please bring me a single malt whiskey.",
+        "The new company director brought a fresh perspective on sales and marketing."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "verb",
+          "definition": "(ditransitive) To transport toward somebody/somewhere.",
+          "example": "Waiter, please bring me a single malt whiskey."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To supply or contribute.",
+          "example": "The new company director brought a fresh perspective on sales and marketing."
+        },
+        {
+          "part_of_speech": "interjection",
+          "definition": "The sound of a telephone ringing.",
+          "example": ""
+        }
+      ],
+      "phonetic": "/ˈbɹɪŋ/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-01 22:36:20",
+      "uses": 1,
+      "tags": []
     },
     "hold": {
-      "part_of_speech": "verb",
-      "definition": "",
+      "part_of_speech": "noun",
+      "definition": "A grasp or grip.",
       "all_pos": [
-        "verb"
+        "noun",
+        "verb",
+        "adjective"
       ],
-      "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-26 23:02:57",
-      "uses": 1
+      "synonyms": [
+        "clasp",
+        "grasp",
+        "grip",
+        "own",
+        "happen"
+      ],
+      "example_sentences": [
+        "Keep a firm hold on the handlebars.",
+        "Can I have a hold of the baby?",
+        "Hold the pencil like this.",
+        "This package holds six bottles."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "A grasp or grip.",
+          "example": "Keep a firm hold on the handlebars."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "An act or instance of holding.",
+          "example": "Can I have a hold of the baby?"
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To grasp or grip.",
+          "example": "Hold the pencil like this."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To contain or store.",
+          "example": "This package holds six bottles."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "The cargo area of a ship or aircraft (often holds or cargo hold).",
+          "example": "Put that in the hold."
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Gracious; friendly; faithful; true.",
+          "example": ""
+        }
+      ],
+      "phonetic": "/həʊld/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-01 22:36:20",
+      "uses": 1,
+      "tags": []
     },
     "rest": {
       "part_of_speech": "noun",
-      "definition": "",
+      "definition": "(of a person or animal) Relief from work or activity by sleeping; sleep.",
       "all_pos": [
-        "noun"
+        "noun",
+        "verb"
       ],
-      "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-26 23:02:58",
-      "uses": 1
+      "synonyms": [
+        "break",
+        "repose",
+        "time off",
+        "cradle",
+        "support",
+        "peace",
+        "quiet",
+        "roo"
+      ],
+      "example_sentences": [
+        "I need to get a good rest tonight; I was up late last night.",
+        "We took a rest at the top of the hill to get our breath back.",
+        "She ate some of the food, but was not hungry enough to eat it all, so she put the rest in the refrigerator to finish later."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "(of a person or animal) Relief from work or activity by sleeping; sleep.",
+          "example": "I need to get a good rest tonight; I was up late last night."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "Any relief from exertion; a state of quiet and relaxation.",
+          "example": "We took a rest at the top of the hill to get our breath back."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To cease from action, motion, work, or performance of any kind; stop; desist; be without motion.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To come to a pause or an end; end.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "That which remains.",
+          "example": "She ate some of the food, but was not hungry enough to eat it all, so she put the rest in the refrigerator to finish later."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "Those not included in a proposition or description; the remainder; others.",
+          "example": ""
+        }
+      ],
+      "phonetic": "/ɹɛst/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-01 22:36:20",
+      "uses": 1,
+      "tags": []
     },
     "fiction": {
       "part_of_speech": "noun",
@@ -67197,41 +67749,386 @@
       "source": "corpus",
       "learned": "2026-11-01 22:36:12",
       "uses": 1
+    },
+    "aspirin": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:14",
+      "uses": 1
+    },
+    "inflammation": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:14",
+      "uses": 1
+    },
+    "lowers": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:14",
+      "uses": 1
+    },
+    "illness": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:14",
+      "uses": 1
+    },
+    "relieve": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:14",
+      "uses": 1
+    },
+    "symptom": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:14",
+      "uses": 1
+    },
+    "modify": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:14",
+      "uses": 1
+    },
+    "wound": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:15",
+      "uses": 1
+    },
+    "train": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:16",
+      "uses": 1
+    },
+    "opened": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:16",
+      "uses": 1
+    },
+    "soft": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:17",
+      "uses": 1
+    },
+    "consume": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:17",
+      "uses": 1
+    },
+    "absolutely": {
+      "part_of_speech": "adverb",
+      "definition": "",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:17",
+      "uses": 1
+    },
+    "outlook": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:17",
+      "uses": 1
+    },
+    "dangerous": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:18",
+      "uses": 1
+    },
+    "tonight": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:18",
+      "uses": 1
+    },
+    "reinforced": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:18",
+      "uses": 1
+    },
+    "stand": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:18",
+      "uses": 1
+    },
+    "paid": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:18",
+      "uses": 1
+    },
+    "debt": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:18",
+      "uses": 1
+    },
+    "demand": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:18",
+      "uses": 1
+    },
+    "enforce": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:18",
+      "uses": 1
+    },
+    "crowd": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:19",
+      "uses": 1
+    },
+    "director": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:20",
+      "uses": 1
+    },
+    "sales": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:20",
+      "uses": 1
+    },
+    "baby": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:20",
+      "uses": 1
+    },
+    "hill": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:20",
+      "uses": 1
+    },
+    "breath": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 22:36:20",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 3095,
-      "tokens": 42727,
+      "sentences": 3143,
+      "tokens": 43273,
       "sources": {
         "seed corpus": 64,
         "conversation": 36,
-        "dictionary": 1809,
+        "dictionary": 1857,
         "explore": 497,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "f4107876a754",
-        "6e19a94f8b4e",
-        "9942a362e9f3",
-        "ee54cc6002f9",
-        "f573c6663592",
-        "a2509cdc6b35",
-        "a1de93baaac5",
-        "6903537621ae",
-        "1256108050be",
-        "acddee7c149c",
-        "19b6c635a444",
-        "a9581cce1b70",
-        "b2e74e2cc432",
-        "7f290e22e54a",
-        "36402eb8d2c5",
-        "421a6ae47c24",
-        "5f20dfae269d",
-        "951f6e87f7c4",
-        "d3c98c1eab51",
         "bed3238a7c4c",
         "b3f9aaafdcc8",
         "682258d4f6ad",
@@ -67512,16 +68409,34 @@
         "114355af2ed4",
         "4fabcf6f7916",
         "a04a45e390a1",
-        "a35797312360"
+        "a35797312360",
+        "32d8e215fe5d",
+        "1815ccfd5056",
+        "c2171130b60c",
+        "f9e2c5fd8862",
+        "fe302550ff40",
+        "41916eba6ebe",
+        "abd25fbae4c9",
+        "aa5a366b72da",
+        "9ffb2b42ef0f",
+        "0016f6fbde5f",
+        "7896c82478c3",
+        "fcc13d95db6e",
+        "444a68af02e9",
+        "654f5d999029",
+        "67f7a11849dc",
+        "1eb9a087431b",
+        "b5c6afb8ab0f",
+        "f72d9c24bdae",
+        "a1b424c74d3a"
       ],
       "seeded": true,
-      "rejected": 687,
+      "rejected": 697,
       "vocab_counts": {
         "thank": 1,
         "shades": 1,
         "gift": 1,
         "stayed": 1,
-        "opened": 1,
         "kept": 1,
         "rewarding": 1,
         "dog": 1,
@@ -67869,7 +68784,6 @@
         "freethinker": 1,
         "rushed": 1,
         "wine": 1,
-        "baby": 1,
         "supper": 1,
         "tea": 1,
         "sleep": 1,
@@ -67951,7 +68865,6 @@
         "customary": 1,
         "regarding": 1,
         "placement": 1,
-        "consume": 1,
         "continental": 1,
         "setting": 1,
         "placing": 1,
@@ -68105,7 +69018,6 @@
         "swelling": 1,
         "meeting": 1,
         "distribute": 1,
-        "soft": 1,
         "assigned": 1,
         "encodes": 1,
         "vectors": 1,
@@ -68227,7 +69139,6 @@
         "produces": 1,
         "induces": 1,
         "electromotive": 1,
-        "wound": 1,
         "transferred": 1,
         "conductive": 1,
         "faraday": 1,
@@ -68363,7 +69274,6 @@
         "trace": 1,
         "bagpipes": 1,
         "jones": 1,
-        "sales": 1,
         "pour": 1,
         "pocket": 1,
         "dollars": 1,
@@ -68460,7 +69370,6 @@
         "counterparts": 1,
         "reporting": 1,
         "succeed": 1,
-        "enforce": 1,
         "partner": 1,
         "holds": 1,
         "compromise": 1,
@@ -68494,7 +69403,6 @@
         "singly": 1,
         "pull": 1,
         "inflect": 1,
-        "stand": 1,
         "utilise": 1,
         "shipment": 1,
         "promote": 1,
@@ -68601,7 +69509,6 @@
         "forces": 1,
         "synonym": 1,
         "locomotive": 1,
-        "train": 1,
         "pulling": 1,
         "pushing": 1,
         "modifies": 1,
@@ -68684,7 +69591,6 @@
         "nite": 1,
         "abandon": 1,
         "abroad": 1,
-        "absolutely": 1,
         "accommodation": 1,
         "accompany": 1,
         "accuse": 1,
@@ -68766,7 +69672,6 @@
         "brave": 1,
         "breakfast": 1,
         "breast": 1,
-        "breath": 1,
         "brief": 1,
         "broadcast": 1,
         "brush": 1,
@@ -68870,7 +69775,6 @@
         "territory": 1,
         "compile": 1,
         "distinguishes": 1,
-        "director": 1,
         "yelled": 1,
         "cameras": 1,
         "neighbour": 1,
@@ -68912,7 +69816,6 @@
         "directionality": 1,
         "website": 1,
         "reinforcing": 1,
-        "reinforced": 1,
         "ingredient": 1,
         "villagers": 1,
         "arithmetic": 1,
@@ -69044,7 +69947,6 @@
         "macroscopic": 1,
         "powders": 1,
         "granular": 1,
-        "crowd": 1,
         "orbit": 1,
         "expansion": 1,
         "genes": 1,
@@ -69340,7 +70242,6 @@
         "identification": 1,
         "stimulation": 1,
         "sixty": 1,
-        "hill": 1,
         "humankind": 1,
         "otherwise": 1,
         "stressful": 1,
@@ -69382,7 +70283,6 @@
         "ministry": 1,
         "revealed": 1,
         "swim": 1,
-        "dangerous": 1,
         "self": 1,
         "marriage": 1,
         "snail": 1,
@@ -69462,7 +70362,6 @@
         "rash": 1,
         "funds": 1,
         "repayment": 1,
-        "debt": 1,
         "lowest": 1,
         "sister": 1,
         "regulating": 1,
@@ -69540,13 +70439,6 @@
         "misdemeanor": 1,
         "fault": 1,
         "censure": 1,
-        "aspirin": 1,
-        "inflammation": 1,
-        "lowers": 1,
-        "illness": 1,
-        "relieve": 1,
-        "symptom": 1,
-        "modify": 1,
         "subdisciplines": 1,
         "biolinguistics": 1,
         "psycholinguistics": 1,
@@ -69636,7 +70528,6 @@
         "forearm": 1,
         "wrist": 1,
         "corresponding": 1,
-        "tonight": 1,
         "guy": 1,
         "merging": 1,
         "resembling": 1,
@@ -69855,7 +70746,6 @@
         "witch": 1,
         "curse": 1,
         "convection": 1,
-        "demand": 1,
         "realm": 1,
         "cited": 1,
         "budding": 1,
@@ -69987,7 +70877,6 @@
         "thief": 1,
         "acceptance": 1,
         "vista": 1,
-        "outlook": 1,
         "competing": 1,
         "cryptographers": 1,
         "cryptanalysts": 1,
@@ -70158,7 +71047,6 @@
         "disclose": 1,
         "pulls": 1,
         "arteries": 1,
-        "paid": 1,
         "dear": 1,
         "adopt": 1,
         "graceful": 1,
@@ -70169,70 +71057,116 @@
         "sensitive": 1,
         "irregularities": 1,
         "randomness": 1,
-        "interconnection": 1
+        "interconnection": 1,
+        "goodwill": 1,
+        "trouble": 1,
+        "deed": 1,
+        "fully": 1,
+        "umbrella": 1,
+        "heavens": 1,
+        "drenched": 1,
+        "intoxicating": 1,
+        "recipient": 1,
+        "admit": 1,
+        "youngsters": 1,
+        "handguns": 1,
+        "wire": 1,
+        "mesh": 1,
+        "blobs": 1,
+        "solder": 1,
+        "shining": 1,
+        "cricket": 1,
+        "sofa": 1,
+        "tribute": 1,
+        "fees": 1,
+        "obedience": 1,
+        "forcible": 1,
+        "imperious": 1,
+        "consideration": 1,
+        "crackling": 1,
+        "ear": 1,
+        "hurricane": 1,
+        "largely": 1,
+        "actin": 1,
+        "myosin": 1,
+        "filaments": 1,
+        "contractile": 1,
+        "tissue": 1,
+        "waiter": 1,
+        "malt": 1,
+        "whiskey": 1,
+        "fresh": 1,
+        "marketing": 1,
+        "ditransitive": 1,
+        "transport": 1,
+        "somewhere": 1,
+        "handlebars": 1,
+        "pencil": 1,
+        "grasp": 1,
+        "grip": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 474,
-        "WH": 36,
-        "NOUN": 816,
-        "DET": 901,
-        "VERB": 304,
-        "MODAL": 8,
+        "PRON": 493,
+        "WH": 37,
+        "NOUN": 822,
+        "DET": 912,
+        "VERB": 306,
+        "MODAL": 9,
         "ADJ": 136,
         "INTJ": 16,
         "CONJ": 43,
         "AUX": 20,
-        "ADV": 44,
-        "PREP": 222,
-        "PART": 59,
+        "ADV": 45,
+        "PREP": 226,
+        "PART": 62,
         "NUM": 12,
         "NEG": 4
       },
       "PRON": {
-        "AUX": 388,
-        "PUNCT": 110,
-        "ADV": 31,
-        "VERB": 452,
-        "MODAL": 139,
+        "AUX": 398,
+        "PUNCT": 116,
+        "ADV": 35,
+        "VERB": 465,
+        "MODAL": 144,
         "PREP": 47,
         "WH": 6,
-        "DET": 21,
+        "DET": 23,
         "PART": 25,
         "</S>": 8,
         "NOUN": 27,
         "CONJ": 18,
-        "PRON": 8,
+        "PRON": 9,
         "ADJ": 18,
         "NUM": 3,
         "NEG": 1
       },
       "AUX": {
-        "ADJ": 314,
+        "ADJ": 316,
         "PRON": 29,
         "PUNCT": 20,
-        "DET": 486,
+        "DET": 491,
         "NOUN": 109,
-        "NEG": 84,
-        "VERB": 451,
+        "NEG": 86,
+        "VERB": 461,
         "INTJ": 2,
-        "ADV": 149,
+        "ADV": 152,
         "CONJ": 22,
         "NUM": 28,
-        "PROPN": 7,
+        "PROPN": 8,
         "WH": 4,
-        "AUX": 36,
-        "PREP": 43,
-        "PART": 19
+        "AUX": 38,
+        "PREP": 45,
+        "PART": 20
       },
       "ADJ": {
-        "PART": 53,
-        "NOUN": 2024,
+        "PART": 54,
+        "NOUN": 2044,
         "WH": 9,
-        "PUNCT": 326,
-        "PREP": 211,
-        "CONJ": 123,
+        "PUNCT": 333,
+        "PREP": 213,
+        "CONJ": 125,
         "PROPN": 46,
         "ADJ": 124,
         "DET": 44,
@@ -70241,51 +71175,51 @@
         "MODAL": 11,
         "</S>": 7,
         "NUM": 12,
-        "ADV": 8,
+        "ADV": 10,
         "PRON": 7,
         "NEG": 1
       },
       "PART": {
-        "VERB": 501,
-        "AUX": 81,
+        "VERB": 510,
+        "AUX": 82,
         "ADJ": 38,
         "NOUN": 66,
         "WH": 6,
         "PREP": 3,
         "CONJ": 12,
-        "PUNCT": 16,
+        "PUNCT": 17,
         "PROPN": 2,
         "DET": 1,
         "NEG": 1
       },
       "VERB": {
-        "PREP": 797,
-        "PART": 173,
-        "ADJ": 114,
-        "NOUN": 745,
-        "PUNCT": 362,
-        "PRON": 166,
+        "PREP": 802,
+        "PART": 174,
+        "ADJ": 118,
+        "NOUN": 751,
+        "PUNCT": 373,
+        "PRON": 172,
         "AUX": 43,
-        "DET": 639,
-        "VERB": 67,
-        "CONJ": 250,
+        "DET": 658,
+        "VERB": 68,
+        "CONJ": 254,
         "WH": 38,
         "</S>": 15,
-        "ADV": 83,
+        "ADV": 84,
         "PROPN": 22,
         "NUM": 23,
         "NEG": 4,
         "MODAL": 3
       },
       "PREP": {
-        "PRON": 117,
-        "NOUN": 1470,
-        "DET": 1630,
-        "PUNCT": 79,
+        "PRON": 122,
+        "NOUN": 1486,
+        "DET": 1657,
+        "PUNCT": 80,
         "VERB": 127,
-        "PREP": 41,
-        "ADJ": 385,
-        "PROPN": 142,
+        "PREP": 42,
+        "ADJ": 386,
+        "PROPN": 143,
         "AUX": 29,
         "NUM": 76,
         "WH": 54,
@@ -70296,15 +71230,15 @@
         "</S>": 1
       },
       "PUNCT": {
-        "</S>": 2907,
-        "NOUN": 810,
-        "CONJ": 449,
-        "PRON": 79,
+        "</S>": 2955,
+        "NOUN": 816,
+        "CONJ": 453,
+        "PRON": 80,
         "VERB": 107,
-        "ADV": 115,
-        "PREP": 106,
+        "ADV": 118,
+        "PREP": 107,
         "ADJ": 127,
-        "DET": 240,
+        "DET": 242,
         "WH": 61,
         "AUX": 45,
         "NUM": 8,
@@ -70312,37 +71246,37 @@
         "PROPN": 33,
         "PART": 23,
         "NEG": 8,
-        "INTJ": 3,
+        "INTJ": 4,
         "MODAL": 1
       },
       "WH": {
         "AUX": 54,
         "DET": 68,
-        "PRON": 39,
-        "NOUN": 102,
+        "PRON": 40,
+        "NOUN": 103,
         "VERB": 41,
         "MODAL": 14,
         "PREP": 6,
         "PART": 9,
-        "ADJ": 6,
+        "ADJ": 7,
         "NUM": 2,
         "ADV": 2,
         "CONJ": 1,
         "NEG": 1
       },
       "ADV": {
-        "PUNCT": 101,
-        "ADJ": 73,
+        "PUNCT": 102,
+        "ADJ": 74,
         "NOUN": 116,
         "CONJ": 23,
-        "DET": 37,
-        "VERB": 246,
+        "DET": 38,
+        "VERB": 253,
         "</S>": 3,
-        "PRON": 7,
+        "PRON": 8,
         "MODAL": 2,
         "PART": 5,
-        "ADV": 14,
-        "PREP": 67,
+        "ADV": 15,
+        "PREP": 70,
         "AUX": 25,
         "PROPN": 2,
         "NUM": 6,
@@ -70350,36 +71284,36 @@
         "WH": 5
       },
       "NOUN": {
-        "AUX": 833,
-        "PREP": 2469,
-        "NOUN": 2376,
-        "PUNCT": 3855,
-        "CONJ": 968,
-        "VERB": 685,
+        "AUX": 842,
+        "PREP": 2502,
+        "NOUN": 2390,
+        "PUNCT": 3892,
+        "CONJ": 976,
+        "VERB": 694,
         "ADV": 118,
-        "PART": 315,
-        "ADJ": 305,
-        "MODAL": 111,
+        "PART": 320,
+        "ADJ": 307,
+        "MODAL": 114,
         "</S>": 153,
-        "PRON": 194,
-        "WH": 87,
-        "DET": 472,
+        "PRON": 196,
+        "WH": 89,
+        "DET": 477,
         "PROPN": 121,
         "NUM": 17,
         "NEG": 8,
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 3093,
-        "ADJ": 1282,
+        "NOUN": 3145,
+        "ADJ": 1300,
         "PRON": 33,
         "PREP": 69,
         "NUM": 65,
         "PART": 8,
-        "VERB": 62,
+        "VERB": 64,
         "CONJ": 69,
-        "PROPN": 151,
-        "DET": 106,
+        "PROPN": 153,
+        "DET": 107,
         "ADV": 45,
         "PUNCT": 35,
         "AUX": 5,
@@ -70388,11 +71322,11 @@
         "MODAL": 1
       },
       "CONJ": {
-        "PRON": 130,
-        "DET": 356,
-        "NOUN": 939,
-        "VERB": 159,
-        "ADJ": 184,
+        "PRON": 133,
+        "DET": 358,
+        "NOUN": 945,
+        "VERB": 161,
+        "ADJ": 189,
         "ADV": 65,
         "PUNCT": 20,
         "WH": 22,
@@ -70406,11 +71340,11 @@
         "PART": 8
       },
       "MODAL": {
-        "VERB": 122,
-        "PRON": 11,
+        "VERB": 123,
+        "PRON": 13,
         "DET": 3,
         "CONJ": 3,
-        "AUX": 98,
+        "AUX": 104,
         "NOUN": 23,
         "NEG": 16,
         "ADV": 19,
@@ -70419,8 +71353,8 @@
         "NUM": 1
       },
       "NEG": {
-        "VERB": 68,
-        "NOUN": 11,
+        "VERB": 69,
+        "NOUN": 12,
         "DET": 9,
         "AUX": 12,
         "PREP": 7,
@@ -70433,7 +71367,7 @@
         "PROPN": 1
       },
       "INTJ": {
-        "VERB": 2,
+        "VERB": 3,
         "DET": 2,
         "PUNCT": 6,
         "PREP": 3,
@@ -70443,13 +71377,13 @@
       },
       "PROPN": {
         "DET": 11,
-        "PUNCT": 174,
+        "PUNCT": 176,
         "PART": 16,
-        "NOUN": 218,
+        "NOUN": 219,
         "AUX": 35,
         "PROPN": 126,
         "ADJ": 17,
-        "PREP": 36,
+        "PREP": 37,
         "CONJ": 36,
         "VERB": 26,
         "NUM": 1,
@@ -70476,10 +71410,10 @@
     },
     "pos_trigrams": {
       "<S>|PRON": {
-        "AUX": 189,
-        "VERB": 204,
-        "MODAL": 46,
-        "ADV": 11,
+        "AUX": 194,
+        "VERB": 212,
+        "MODAL": 48,
+        "ADV": 15,
         "DET": 3,
         "NOUN": 11,
         "PRON": 3,
@@ -70490,12 +71424,12 @@
         "WH": 1
       },
       "PRON|AUX": {
-        "ADJ": 69,
-        "DET": 88,
-        "NEG": 43,
-        "VERB": 82,
+        "ADJ": 71,
+        "DET": 89,
+        "NEG": 45,
+        "VERB": 85,
         "INTJ": 2,
-        "ADV": 43,
+        "ADV": 44,
         "PUNCT": 4,
         "NUM": 8,
         "NOUN": 11,
@@ -70503,15 +71437,15 @@
         "PREP": 10,
         "AUX": 9,
         "CONJ": 7,
-        "PART": 7
+        "PART": 8
       },
       "AUX|ADJ": {
         "PART": 33,
         "WH": 4,
-        "PUNCT": 90,
+        "PUNCT": 91,
         "PREP": 55,
         "DET": 17,
-        "NOUN": 56,
+        "NOUN": 57,
         "CONJ": 21,
         "ADJ": 12,
         "VERB": 17,
@@ -70522,22 +71456,22 @@
         "PRON": 1
       },
       "ADJ|PART": {
-        "VERB": 40,
+        "VERB": 41,
         "WH": 1,
         "NOUN": 6,
         "AUX": 5,
         "ADJ": 1
       },
       "PART|VERB": {
-        "PREP": 64,
+        "PREP": 65,
         "ADJ": 25,
         "PUNCT": 69,
-        "NOUN": 105,
+        "NOUN": 108,
         "WH": 6,
-        "DET": 122,
+        "DET": 125,
         "PART": 9,
         "NUM": 6,
-        "CONJ": 50,
+        "CONJ": 52,
         "PRON": 21,
         "VERB": 11,
         "ADV": 9,
@@ -70546,12 +71480,12 @@
         "MODAL": 1
       },
       "VERB|PREP": {
-        "PRON": 24,
+        "PRON": 25,
         "DET": 321,
-        "NOUN": 231,
+        "NOUN": 234,
         "PUNCT": 26,
         "VERB": 23,
-        "ADJ": 70,
+        "ADJ": 71,
         "PREP": 19,
         "NUM": 23,
         "PROPN": 35,
@@ -70562,8 +71496,8 @@
         "PART": 1
       },
       "PREP|PRON": {
-        "PUNCT": 57,
-        "VERB": 21,
+        "PUNCT": 60,
+        "VERB": 22,
         "AUX": 10,
         "ADV": 4,
         "</S>": 4,
@@ -70573,10 +71507,10 @@
         "NOUN": 1,
         "WH": 1,
         "CONJ": 3,
-        "PRON": 1
+        "PRON": 2
       },
       "PRON|PUNCT": {
-        "</S>": 84,
+        "</S>": 90,
         "NOUN": 7,
         "ADV": 4,
         "PUNCT": 1,
@@ -70592,7 +71526,8 @@
         "MODAL": 4,
         "NOUN": 8,
         "PRON": 3,
-        "DET": 6
+        "DET": 6,
+        "ADJ": 1
       },
       "WH|AUX": {
         "PRON": 7,
@@ -70619,7 +71554,7 @@
       },
       "PRON|ADV": {
         "PUNCT": 9,
-        "VERB": 15,
+        "VERB": 19,
         "CONJ": 1,
         "AUX": 3,
         "NOUN": 2,
@@ -70628,7 +71563,7 @@
       "ADV|PUNCT": {
         "</S>": 58,
         "ADV": 7,
-        "DET": 15,
+        "DET": 16,
         "CONJ": 7,
         "NOUN": 8,
         "PREP": 2,
@@ -70638,13 +71573,13 @@
       "PRON|VERB": {
         "PART": 40,
         "PREP": 62,
-        "NOUN": 65,
-        "PRON": 47,
-        "PUNCT": 26,
-        "DET": 127,
+        "NOUN": 67,
+        "PRON": 48,
+        "PUNCT": 28,
+        "DET": 134,
         "VERB": 16,
         "ADJ": 19,
-        "CONJ": 21,
+        "CONJ": 22,
         "</S>": 1,
         "AUX": 2,
         "NEG": 2,
@@ -70656,7 +71591,7 @@
       },
       "VERB|PART": {
         "AUX": 28,
-        "VERB": 120,
+        "VERB": 121,
         "ADJ": 7,
         "WH": 1,
         "CONJ": 9,
@@ -70667,7 +71602,7 @@
       "PART|AUX": {
         "PUNCT": 5,
         "DET": 7,
-        "VERB": 32,
+        "VERB": 33,
         "ADJ": 14,
         "NUM": 1,
         "PREP": 5,
@@ -70686,9 +71621,9 @@
         "PRON": 1
       },
       "<S>|NOUN": {
-        "AUX": 169,
-        "VERB": 87,
-        "PUNCT": 28,
+        "AUX": 172,
+        "VERB": 88,
+        "PUNCT": 29,
         "NOUN": 301,
         "CONJ": 29,
         "PREP": 65,
@@ -70697,20 +71632,20 @@
         "PART": 9,
         "WH": 6,
         "ADV": 8,
-        "DET": 21,
+        "DET": 22,
         "MODAL": 12,
         "INTJ": 2
       },
       "NOUN|AUX": {
-        "DET": 273,
+        "DET": 277,
         "ADJ": 138,
         "NOUN": 58,
-        "ADV": 89,
-        "VERB": 178,
+        "ADV": 91,
+        "VERB": 180,
         "CONJ": 9,
         "NUM": 14,
         "NEG": 18,
-        "PROPN": 3,
+        "PROPN": 4,
         "WH": 3,
         "AUX": 17,
         "PREP": 16,
@@ -70719,7 +71654,7 @@
         "PUNCT": 7
       },
       "AUX|DET": {
-        "NOUN": 251,
+        "NOUN": 256,
         "ADJ": 190,
         "PROPN": 8,
         "VERB": 7,
@@ -70730,64 +71665,64 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 961,
-        "AUX": 264,
-        "CONJ": 237,
-        "PUNCT": 730,
-        "VERB": 215,
+        "PREP": 979,
+        "AUX": 268,
+        "CONJ": 240,
+        "PUNCT": 739,
+        "VERB": 220,
         "ADV": 31,
         "ADJ": 69,
-        "NOUN": 282,
-        "PRON": 46,
-        "PART": 85,
+        "NOUN": 288,
+        "PRON": 48,
+        "PART": 87,
         "</S>": 9,
         "PROPN": 7,
-        "DET": 94,
-        "MODAL": 35,
+        "DET": 95,
+        "MODAL": 37,
         "WH": 25,
         "NUM": 3
       },
       "NOUN|PREP": {
-        "NOUN": 933,
-        "DET": 930,
-        "PREP": 14,
+        "NOUN": 942,
+        "DET": 948,
+        "PREP": 15,
         "ADJ": 239,
         "PROPN": 63,
         "VERB": 77,
-        "PUNCT": 28,
+        "PUNCT": 29,
         "NUM": 34,
         "WH": 37,
         "AUX": 21,
         "ADV": 12,
-        "PRON": 66,
+        "PRON": 70,
         "CONJ": 14,
         "</S>": 1
       },
       "PREP|NOUN": {
-        "NOUN": 224,
-        "PUNCT": 462,
+        "NOUN": 227,
+        "PUNCT": 467,
         "VERB": 60,
-        "CONJ": 186,
+        "CONJ": 190,
         "ADJ": 31,
         "DET": 64,
         "AUX": 39,
-        "PREP": 167,
+        "PREP": 168,
         "PRON": 39,
         "</S>": 122,
-        "WH": 8,
-        "PART": 42,
+        "WH": 9,
+        "PART": 43,
         "PROPN": 4,
         "NUM": 5,
-        "MODAL": 9,
+        "MODAL": 10,
         "ADV": 8
       },
       "NOUN|NOUN": {
-        "PUNCT": 843,
-        "PART": 43,
-        "NOUN": 554,
-        "PREP": 348,
+        "PUNCT": 849,
+        "PART": 44,
+        "NOUN": 556,
+        "PREP": 352,
         "CONJ": 142,
-        "VERB": 93,
+        "VERB": 94,
         "PROPN": 50,
         "AUX": 104,
         "MODAL": 21,
@@ -70801,11 +71736,11 @@
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 2214,
-        "NOUN": 560,
-        "CONJ": 330,
+        "</S>": 2243,
+        "NOUN": 564,
+        "CONJ": 332,
         "ADV": 83,
-        "PREP": 74,
+        "PREP": 75,
         "ADJ": 90,
         "DET": 172,
         "VERB": 78,
@@ -70817,12 +71752,12 @@
         "PART": 18,
         "PUNCT": 88,
         "NEG": 4,
-        "INTJ": 1,
+        "INTJ": 2,
         "MODAL": 1
       },
       "<S>|DET": {
-        "NOUN": 586,
-        "ADJ": 225,
+        "NOUN": 595,
+        "ADJ": 227,
         "PROPN": 34,
         "VERB": 8,
         "PREP": 14,
@@ -70833,13 +71768,13 @@
         "PRON": 4
       },
       "DET|ADJ": {
-        "NOUN": 1019,
-        "CONJ": 39,
+        "NOUN": 1034,
+        "CONJ": 40,
         "ADJ": 47,
         "PUNCT": 55,
         "VERB": 38,
-        "PREP": 31,
-        "PART": 7,
+        "PREP": 32,
+        "PART": 8,
         "PROPN": 16,
         "DET": 2,
         "AUX": 13,
@@ -70850,16 +71785,16 @@
         "WH": 1
       },
       "ADJ|NOUN": {
-        "PUNCT": 668,
-        "NOUN": 283,
+        "PUNCT": 677,
+        "NOUN": 284,
         "MODAL": 17,
         "VERB": 104,
-        "PREP": 432,
-        "CONJ": 166,
+        "PREP": 439,
+        "CONJ": 167,
         "DET": 77,
         "ADJ": 23,
-        "AUX": 110,
-        "PART": 61,
+        "AUX": 111,
+        "PART": 62,
         "WH": 16,
         "PROPN": 6,
         "ADV": 15,
@@ -70869,7 +71804,7 @@
       },
       "VERB|ADJ": {
         "NOUN": 74,
-        "PUNCT": 15,
+        "PUNCT": 19,
         "CONJ": 3,
         "VERB": 3,
         "ADJ": 3,
@@ -70882,11 +71817,11 @@
         "WH": 1
       },
       "PREP|DET": {
-        "NOUN": 1042,
-        "ADJ": 394,
+        "NOUN": 1058,
+        "ADJ": 404,
         "NUM": 27,
         "PREP": 16,
-        "PROPN": 65,
+        "PROPN": 66,
         "DET": 35,
         "VERB": 25,
         "PUNCT": 13,
@@ -70896,11 +71831,11 @@
         "</S>": 1
       },
       "NOUN|CONJ": {
-        "PRON": 30,
-        "DET": 155,
-        "VERB": 53,
-        "NOUN": 526,
-        "ADJ": 73,
+        "PRON": 31,
+        "DET": 156,
+        "VERB": 54,
+        "NOUN": 530,
+        "ADJ": 74,
         "WH": 7,
         "PREP": 30,
         "NUM": 5,
@@ -70915,38 +71850,38 @@
       "CONJ|PRON": {
         "VERB": 47,
         "MODAL": 25,
-        "AUX": 42,
+        "AUX": 44,
         "PUNCT": 6,
         "ADV": 3,
         "PREP": 2,
         "NOUN": 2,
-        "DET": 1,
+        "DET": 2,
         "ADJ": 1,
         "CONJ": 1
       },
       "VERB|NOUN": {
-        "PUNCT": 205,
+        "PUNCT": 208,
         "PREP": 121,
         "PART": 25,
         "VERB": 26,
-        "NOUN": 195,
+        "NOUN": 196,
         "CONJ": 54,
         "MODAL": 5,
         "ADJ": 24,
-        "DET": 31,
+        "DET": 32,
         "AUX": 22,
         "PROPN": 8,
         "NEG": 1,
-        "WH": 3,
+        "WH": 4,
         "PRON": 11,
         "ADV": 12,
         "</S>": 2
       },
       "PRON|MODAL": {
-        "VERB": 66,
+        "VERB": 67,
         "CONJ": 3,
         "NOUN": 13,
-        "AUX": 30,
+        "AUX": 34,
         "DET": 1,
         "ADV": 8,
         "NEG": 7,
@@ -70958,7 +71893,7 @@
         "PREP": 31,
         "PART": 7,
         "PUNCT": 4,
-        "DET": 24,
+        "DET": 25,
         "ADV": 6,
         "CONJ": 7,
         "NOUN": 29,
@@ -70970,11 +71905,11 @@
       "PUNCT|NOUN": {
         "CONJ": 62,
         "NOUN": 134,
-        "ADJ": 8,
-        "PUNCT": 421,
-        "PREP": 81,
-        "AUX": 28,
-        "DET": 22,
+        "ADJ": 9,
+        "PUNCT": 423,
+        "PREP": 82,
+        "AUX": 29,
+        "DET": 23,
         "ADV": 5,
         "PROPN": 4,
         "PART": 9,
@@ -70985,7 +71920,7 @@
         "MODAL": 2
       },
       "CONJ|DET": {
-        "NOUN": 224,
+        "NOUN": 226,
         "ADJ": 87,
         "CONJ": 4,
         "PUNCT": 4,
@@ -71001,11 +71936,11 @@
         "MODAL": 1
       },
       "VERB|PUNCT": {
-        "</S>": 231,
+        "</S>": 239,
         "PRON": 13,
         "CONJ": 21,
-        "NOUN": 44,
-        "DET": 13,
+        "NOUN": 46,
+        "DET": 14,
         "ADJ": 11,
         "NEG": 3,
         "WH": 2,
@@ -71020,7 +71955,7 @@
         "AUX": 7,
         "VERB": 2,
         "NOUN": 159,
-        "DET": 41,
+        "DET": 43,
         "PREP": 44,
         "CONJ": 5,
         "ADJ": 5,
@@ -71035,9 +71970,9 @@
         "PREP": 25,
         "VERB": 33,
         "AUX": 13,
-        "PUNCT": 28,
+        "PUNCT": 31,
         "WH": 3,
-        "DET": 15,
+        "DET": 16,
         "PART": 16,
         "</S>": 3,
         "NOUN": 9,
@@ -71046,7 +71981,7 @@
         "ADJ": 3,
         "ADV": 5,
         "NUM": 1,
-        "MODAL": 5
+        "MODAL": 7
       },
       "PRON|PREP": {
         "DET": 26,
@@ -71057,12 +71992,12 @@
         "PRON": 1
       },
       "<S>|MODAL": {
-        "PRON": 7,
+        "PRON": 8,
         "VERB": 1
       },
       "MODAL|PRON": {
-        "VERB": 6,
-        "AUX": 2,
+        "VERB": 7,
+        "AUX": 3,
         "ADJ": 1,
         "PUNCT": 1,
         "NOUN": 1
@@ -71090,15 +72025,15 @@
         "ADJ": 14
       },
       "ADJ|PUNCT": {
-        "</S>": 166,
-        "CONJ": 36,
+        "</S>": 170,
+        "CONJ": 38,
         "VERB": 7,
         "DET": 8,
         "ADJ": 19,
         "PREP": 14,
         "NOUN": 54,
         "ADV": 9,
-        "PRON": 6,
+        "PRON": 7,
         "NUM": 1,
         "WH": 3,
         "PROPN": 1,
@@ -71106,17 +72041,17 @@
         "NEG": 1
       },
       "NOUN|VERB": {
-        "PART": 28,
-        "DET": 162,
-        "PREP": 157,
+        "PART": 29,
+        "DET": 164,
+        "PREP": 158,
         "WH": 6,
-        "PRON": 47,
+        "PRON": 49,
         "PUNCT": 51,
         "</S>": 3,
-        "ADV": 22,
-        "NOUN": 132,
+        "ADV": 23,
+        "NOUN": 133,
         "NUM": 4,
-        "CONJ": 36,
+        "CONJ": 37,
         "AUX": 7,
         "VERB": 6,
         "PROPN": 9,
@@ -71137,15 +72072,15 @@
         "WH": 1
       },
       "PUNCT|CONJ": {
-        "NOUN": 173,
+        "NOUN": 174,
         "PRON": 35,
         "DET": 68,
         "PUNCT": 6,
-        "ADJ": 34,
+        "ADJ": 36,
         "CONJ": 12,
         "AUX": 17,
         "PROPN": 12,
-        "VERB": 35,
+        "VERB": 36,
         "NEG": 2,
         "ADV": 21,
         "MODAL": 12,
@@ -71155,31 +72090,31 @@
       },
       "CONJ|NOUN": {
         "AUX": 28,
-        "PUNCT": 265,
+        "PUNCT": 266,
         "</S>": 5,
-        "PREP": 187,
-        "VERB": 32,
+        "PREP": 189,
+        "VERB": 33,
         "WH": 10,
-        "NOUN": 249,
+        "NOUN": 250,
         "PRON": 18,
         "PART": 27,
         "CONJ": 37,
         "PROPN": 6,
         "ADJ": 17,
-        "DET": 47,
+        "DET": 48,
         "NEG": 1,
         "NUM": 1,
         "MODAL": 6,
         "ADV": 3
       },
       "VERB|DET": {
-        "NOUN": 400,
-        "ADJ": 190,
+        "NOUN": 412,
+        "ADJ": 195,
         "PREP": 6,
         "CONJ": 8,
-        "DET": 10,
+        "DET": 11,
         "VERB": 6,
-        "PROPN": 8,
+        "PROPN": 9,
         "NUM": 6,
         "PUNCT": 3,
         "ADV": 2
@@ -71200,8 +72135,8 @@
         "DET": 1
       },
       "AUX|NEG": {
-        "VERB": 48,
-        "NOUN": 5,
+        "VERB": 49,
+        "NOUN": 6,
         "AUX": 6,
         "PREP": 3,
         "ADV": 8,
@@ -71213,7 +72148,7 @@
       },
       "NEG|VERB": {
         "DET": 13,
-        "PREP": 14,
+        "PREP": 15,
         "ADV": 3,
         "PUNCT": 9,
         "NOUN": 8,
@@ -71233,15 +72168,16 @@
         "VERB": 3,
         "PREP": 1,
         "PROPN": 1,
-        "PRON": 1
+        "PRON": 1,
+        "ADV": 1
       },
       "AUX|VERB": {
-        "PREP": 196,
-        "PUNCT": 65,
+        "PREP": 198,
+        "PUNCT": 70,
         "PART": 52,
         "PRON": 4,
         "NOUN": 35,
-        "DET": 30,
+        "DET": 33,
         "CONJ": 39,
         "ADJ": 9,
         "ADV": 9,
@@ -71256,11 +72192,11 @@
       "CONJ|VERB": {
         "PART": 8,
         "NOUN": 46,
-        "PUNCT": 36,
+        "PUNCT": 37,
         "ADJ": 7,
         "PREP": 36,
         "CONJ": 3,
-        "DET": 13,
+        "DET": 14,
         "VERB": 5,
         "ADV": 2,
         "WH": 1,
@@ -71283,11 +72219,11 @@
       },
       "NOUN|PART": {
         "ADJ": 25,
-        "AUX": 37,
-        "VERB": 196,
+        "AUX": 38,
+        "VERB": 199,
         "NOUN": 42,
         "CONJ": 3,
-        "PUNCT": 7,
+        "PUNCT": 8,
         "WH": 3,
         "PREP": 1,
         "NEG": 1
@@ -71304,7 +72240,7 @@
         "AUX": 1
       },
       "VERB|VERB": {
-        "PUNCT": 7,
+        "PUNCT": 8,
         "PREP": 17,
         "PRON": 1,
         "ADJ": 4,
@@ -71326,7 +72262,7 @@
         "NUM": 1
       },
       "INTJ|VERB": {
-        "PRON": 1,
+        "PRON": 2,
         "ADJ": 1
       },
       "PRON|WH": {
@@ -71336,7 +72272,7 @@
         "AUX": 1
       },
       "WH|PRON": {
-        "VERB": 22,
+        "VERB": 23,
         "MODAL": 4,
         "AUX": 10,
         "NUM": 1,
@@ -71359,8 +72295,8 @@
         "ADJ": 1
       },
       "NOUN|ADJ": {
-        "PUNCT": 39,
-        "NOUN": 181,
+        "PUNCT": 40,
+        "NOUN": 182,
         "DET": 4,
         "PREP": 38,
         "ADJ": 10,
@@ -71374,8 +72310,8 @@
         "PROPN": 1
       },
       "ADJ|PREP": {
-        "NOUN": 84,
-        "DET": 74,
+        "NOUN": 85,
+        "DET": 75,
         "VERB": 11,
         "ADJ": 20,
         "PROPN": 5,
@@ -71387,15 +72323,15 @@
         "PREP": 1
       },
       "VERB|CONJ": {
-        "PRON": 22,
+        "PRON": 24,
         "VERB": 44,
         "DET": 60,
         "PUNCT": 3,
         "PROPN": 1,
         "MODAL": 3,
-        "NOUN": 84,
+        "NOUN": 85,
         "AUX": 2,
-        "ADJ": 18,
+        "ADJ": 19,
         "NEG": 2,
         "WH": 4,
         "ADV": 3,
@@ -71412,7 +72348,7 @@
         "VERB": 1
       },
       "PUNCT|PRON": {
-        "MODAL": 26,
+        "MODAL": 27,
         "VERB": 12,
         "AUX": 33,
         "ADJ": 1,
@@ -71445,7 +72381,7 @@
         "AUX": 1
       },
       "WH|NOUN": {
-        "VERB": 13,
+        "VERB": 14,
         "NOUN": 23,
         "CONJ": 8,
         "AUX": 24,
@@ -71459,11 +72395,12 @@
       },
       "NOUN|MODAL": {
         "VERB": 42,
-        "AUX": 49,
+        "AUX": 51,
         "NEG": 6,
         "ADV": 4,
         "NOUN": 7,
-        "ADJ": 3
+        "ADJ": 3,
+        "PRON": 1
       },
       "<S>|AUX": {
         "DET": 2,
@@ -71496,12 +72433,12 @@
         "NOUN": 2
       },
       "AUX|ADV": {
-        "ADJ": 31,
+        "ADJ": 32,
         "NOUN": 16,
         "VERB": 78,
-        "ADV": 6,
+        "ADV": 7,
         "PREP": 4,
-        "DET": 11,
+        "DET": 12,
         "NUM": 2,
         "INTJ": 1
       },
@@ -71509,7 +72446,7 @@
         "PUNCT": 19,
         "NOUN": 26,
         "PREP": 13,
-        "CONJ": 7,
+        "CONJ": 8,
         "ADV": 1,
         "DET": 1,
         "ADJ": 1,
@@ -71517,11 +72454,11 @@
         "PART": 2
       },
       "ADJ|CONJ": {
-        "ADJ": 39,
+        "ADJ": 40,
         "NOUN": 38,
         "ADV": 5,
         "AUX": 3,
-        "DET": 20,
+        "DET": 21,
         "PRON": 6,
         "PROPN": 2,
         "VERB": 6,
@@ -71531,8 +72468,8 @@
         "NEG": 1
       },
       "CONJ|ADJ": {
-        "PUNCT": 20,
-        "NOUN": 118,
+        "PUNCT": 21,
+        "NOUN": 120,
         "ADJ": 8,
         "CONJ": 7,
         "VERB": 13,
@@ -71542,7 +72479,7 @@
         "DET": 2,
         "NUM": 1,
         "PROPN": 2,
-        "ADV": 1,
+        "ADV": 3,
         "PRON": 2
       },
       "PREP|VERB": {
@@ -71580,7 +72517,7 @@
         "NOUN": 13,
         "CONJ": 4,
         "VERB": 33,
-        "PREP": 25,
+        "PREP": 27,
         "DET": 8,
         "ADJ": 8,
         "PUNCT": 9,
@@ -71590,10 +72527,10 @@
         "</S>": 1,
         "WH": 2,
         "PART": 1,
-        "PRON": 2
+        "PRON": 3
       },
       "PREP|PREP": {
-        "DET": 17,
+        "DET": 18,
         "NOUN": 11,
         "PROPN": 6,
         "ADJ": 3,
@@ -71603,7 +72540,7 @@
         "NUM": 1
       },
       "PUNCT|PREP": {
-        "DET": 30,
+        "DET": 31,
         "ADJ": 11,
         "NOUN": 42,
         "AUX": 2,
@@ -71642,7 +72579,7 @@
       },
       "VERB|ADV": {
         "DET": 5,
-        "PREP": 14,
+        "PREP": 15,
         "PUNCT": 20,
         "VERB": 14,
         "NOUN": 20,
@@ -71656,17 +72593,18 @@
         "PRON": 4,
         "ADJ": 14,
         "PREP": 1,
-        "NOUN": 15,
+        "NOUN": 16,
         "DET": 1,
         "PROPN": 1,
         "PUNCT": 1
       },
       "PRON|DET": {
-        "NOUN": 13,
+        "NOUN": 14,
         "ADJ": 4,
         "ADV": 1,
         "NUM": 2,
-        "PRON": 1
+        "PRON": 1,
+        "VERB": 1
       },
       "ADV|VERB": {
         "PROPN": 3,
@@ -71676,10 +72614,10 @@
         "CONJ": 33,
         "PREP": 73,
         "WH": 5,
-        "PUNCT": 15,
-        "ADJ": 8,
+        "PUNCT": 16,
+        "ADJ": 12,
         "AUX": 4,
-        "PRON": 9,
+        "PRON": 11,
         "NUM": 2,
         "VERB": 2,
         "ADV": 3
@@ -71714,7 +72652,7 @@
         "CONJ": 11,
         "PROPN": 12,
         "ADJ": 24,
-        "NOUN": 287,
+        "NOUN": 288,
         "PUNCT": 24,
         "AUX": 4,
         "VERB": 11,
@@ -71727,7 +72665,7 @@
         "PRON": 2,
         "MODAL": 1,
         "PART": 1,
-        "PUNCT": 12,
+        "PUNCT": 13,
         "ADJ": 4,
         "DET": 7,
         "VERB": 9,
@@ -71740,7 +72678,8 @@
         "VERB": 4,
         "ADV": 1,
         "PUNCT": 1,
-        "MODAL": 1
+        "MODAL": 1,
+        "AUX": 1
       },
       "PRON|PART": {
         "VERB": 22,
@@ -71763,8 +72702,8 @@
         "NEG": 1
       },
       "NOUN|PRON": {
-        "VERB": 74,
-        "AUX": 60,
+        "VERB": 75,
+        "AUX": 61,
         "PREP": 12,
         "MODAL": 25,
         "PRON": 1,
@@ -71776,7 +72715,7 @@
         "DET": 1
       },
       "PREP|PROPN": {
-        "PUNCT": 47,
+        "PUNCT": 48,
         "AUX": 3,
         "PROPN": 31,
         "NOUN": 28,
@@ -71790,14 +72729,14 @@
         "WH": 1
       },
       "PROPN|PUNCT": {
-        "</S>": 67,
+        "</S>": 68,
         "DET": 13,
         "PROPN": 22,
         "CONJ": 20,
         "NOUN": 23,
         "WH": 6,
         "PUNCT": 4,
-        "ADV": 2,
+        "ADV": 3,
         "AUX": 5,
         "VERB": 8,
         "PREP": 3,
@@ -71813,9 +72752,9 @@
         "VERB": 4
       },
       "PUNCT|DET": {
-        "NOUN": 132,
+        "NOUN": 133,
         "ADJ": 45,
-        "VERB": 5,
+        "VERB": 6,
         "PROPN": 14,
         "PREP": 10,
         "CONJ": 27,
@@ -71866,19 +72805,19 @@
         "NOUN": 3
       },
       "NOUN|WH": {
-        "NOUN": 28,
+        "NOUN": 29,
         "VERB": 13,
         "DET": 19,
         "AUX": 15,
-        "PRON": 7,
+        "PRON": 8,
         "ADJ": 2,
         "MODAL": 1,
         "ADV": 1,
         "PART": 1
       },
       "NOUN|DET": {
-        "NOUN": 275,
-        "ADJ": 85,
+        "NOUN": 279,
+        "ADJ": 86,
         "CONJ": 29,
         "ADV": 10,
         "PRON": 17,
@@ -71958,10 +72897,10 @@
         "PROPN": 1
       },
       "<S>|PREP": {
-        "NOUN": 82,
+        "NOUN": 83,
         "PROPN": 11,
         "ADJ": 18,
-        "DET": 84,
+        "DET": 87,
         "CONJ": 15,
         "PUNCT": 7,
         "NUM": 1,
@@ -71972,7 +72911,7 @@
       "PROPN|NOUN": {
         "CONJ": 10,
         "AUX": 31,
-        "PUNCT": 80,
+        "PUNCT": 81,
         "NOUN": 45,
         "DET": 9,
         "MODAL": 1,
@@ -72008,21 +72947,21 @@
         "DET": 1
       },
       "MODAL|AUX": {
-        "VERB": 52,
+        "VERB": 54,
         "DET": 11,
         "ADJ": 20,
         "ADV": 3,
-        "PREP": 1,
+        "PREP": 3,
         "PRON": 2,
         "PART": 2,
         "PUNCT": 2,
-        "AUX": 1,
+        "AUX": 3,
         "NOUN": 4
       },
       "DET|VERB": {
         "NOUN": 33,
-        "PUNCT": 7,
-        "VERB": 8,
+        "PUNCT": 8,
+        "VERB": 9,
         "PROPN": 1,
         "ADJ": 6,
         "PREP": 3,
@@ -72108,7 +73047,7 @@
         "PROPN": 2
       },
       "ADV|ADV": {
-        "VERB": 5,
+        "VERB": 6,
         "PUNCT": 2,
         "</S>": 1,
         "PREP": 1,
@@ -72153,7 +73092,7 @@
         "DET": 1
       },
       "<S>|PART": {
-        "VERB": 53,
+        "VERB": 56,
         "AUX": 2,
         "NOUN": 3,
         "ADJ": 1
@@ -72189,13 +73128,13 @@
         "NOUN": 72,
         "ADJ": 12,
         "AUX": 13,
-        "PUNCT": 11,
+        "PUNCT": 12,
         "CONJ": 7,
         "DET": 2,
         "ADV": 3,
         "PRON": 1,
         "PART": 1,
-        "PREP": 4,
+        "PREP": 5,
         "VERB": 3
       },
       "PROPN|PROPN": {
@@ -72241,7 +73180,8 @@
         "PUNCT": 2,
         "CONJ": 1,
         "VERB": 1,
-        "NOUN": 1
+        "NOUN": 1,
+        "ADJ": 1
       },
       "PRON|NOUN": {
         "NOUN": 7,
@@ -72267,9 +73207,9 @@
         "PUNCT": 1
       },
       "ADV|PREP": {
-        "NOUN": 20,
+        "NOUN": 21,
         "ADJ": 10,
-        "DET": 25,
+        "DET": 27,
         "NUM": 3,
         "VERB": 4,
         "PRON": 2,
@@ -72311,7 +73251,7 @@
       "PROPN|PREP": {
         "NOUN": 8,
         "PROPN": 7,
-        "DET": 13,
+        "DET": 14,
         "ADJ": 3,
         "MODAL": 1,
         "PUNCT": 1,
@@ -72401,7 +73341,7 @@
         "PART": 1
       },
       "DET|DET": {
-        "NOUN": 65,
+        "NOUN": 66,
         "PROPN": 3,
         "PUNCT": 6,
         "ADJ": 17,
@@ -72466,7 +73406,8 @@
       "AUX|PROPN": {
         "PROPN": 2,
         "PUNCT": 4,
-        "CONJ": 1
+        "CONJ": 1,
+        "NOUN": 1
       },
       "NOUN|NEG": {
         "VERB": 4,
@@ -72501,7 +73442,8 @@
         "DET": 2,
         "ADJ": 3,
         "</S>": 3,
-        "NOUN": 4
+        "NOUN": 4,
+        "ADV": 1
       },
       "AUX|WH": {
         "NOUN": 1,
@@ -72520,7 +73462,7 @@
         "AUX": 1
       },
       "AUX|AUX": {
-        "VERB": 21,
+        "VERB": 23,
         "ADJ": 8,
         "ADV": 2,
         "PART": 1,
@@ -72573,9 +73515,9 @@
       "AUX|PREP": {
         "PART": 5,
         "DET": 18,
-        "NOUN": 13,
+        "NOUN": 14,
         "PUNCT": 1,
-        "PROPN": 1,
+        "PROPN": 2,
         "PRON": 1,
         "NUM": 1,
         "VERB": 3
@@ -72592,7 +73534,7 @@
       "PRON|PRON": {
         "PUNCT": 1,
         "AUX": 5,
-        "VERB": 2
+        "VERB": 3
       },
       "PUNCT|NEG": {
         "NOUN": 4,
@@ -72622,7 +73564,8 @@
         "PART": 1
       },
       "PUNCT|INTJ": {
-        "PUNCT": 3
+        "PUNCT": 3,
+        "VERB": 1
       },
       "DET|AUX": {
         "NOUN": 1,
@@ -72656,7 +73599,7 @@
         "PREP": 1
       },
       "ADJ|ADV": {
-        "VERB": 4,
+        "VERB": 6,
         "PUNCT": 4
       },
       "ADV|NUM": {
@@ -72680,7 +73623,7 @@
         "VERB": 1
       },
       "AUX|PART": {
-        "VERB": 14,
+        "VERB": 15,
         "AUX": 4,
         "NOUN": 1
       },
@@ -72698,7 +73641,7 @@
         "</S>": 2
       },
       "WH|ADJ": {
-        "PREP": 2,
+        "PREP": 3,
         "CONJ": 2,
         "DET": 1,
         "NOUN": 1
@@ -72828,22 +73771,18 @@
     },
     "word_bigrams": {
       "i": {
-        "was": 13,
-        "'m": 14,
+        "'m": 16,
+        "was": 14,
         "do": 10,
+        "'ll": 8,
         "want": 7,
         "am": 7,
-        "'ll": 7,
         "need": 5,
         "told": 5,
-        "gave": 4,
+        "gave": 5,
         "would": 4,
-        "thought": 1,
-        "did": 1,
-        "already": 1,
-        "can": 1,
-        "received": 1,
-        "paid": 1
+        "'ve": 1,
+        "have": 1
       },
       "am": {
         "happy": 1,
@@ -72856,7 +73795,7 @@
       },
       "to": {
         "the": 84,
-        "be": 45,
+        "be": 46,
         "a": 37,
         "do": 18,
         "learn": 8,
@@ -72865,8 +73804,9 @@
         "separate": 4,
         "overlap": 3,
         "read": 3,
-        "initial": 1,
-        "have": 1
+        "effect": 1,
+        "transport": 1,
+        "get": 1
       },
       "talk": {
         "with": 1,
@@ -72884,7 +73824,8 @@
         "examples": 3,
         "antonyms": 3,
         "objects": 3,
-        "nouns": 2
+        "nouns": 2,
+        "little": 1
       },
       "how": {
         "to": 8,
@@ -72921,13 +73862,13 @@
         "to": 7,
         "have": 7,
         "are": 5,
-        "will": 4,
+        "will": 5,
         "'ll": 3,
         "ask": 2,
-        "like": 2,
+        "like": 3,
         "can": 2,
         "should": 2,
-        "do": 3,
+        "do": 4,
         "ever": 1,
         "break": 1,
         "think": 1
@@ -72948,7 +73889,8 @@
         "to": 1,
         "a": 1,
         "will": 1,
-        "signs": 2
+        "signs": 2,
+        "kind": 1
       },
       "do": {
         "you": 7,
@@ -72959,7 +73901,7 @@
         "one": 1,
         "with": 2,
         "thermodynamic": 1,
-        "n't": 22,
+        "n't": 23,
         "whatever": 2,
         "is": 2,
         "that": 1,
@@ -72981,7 +73923,7 @@
         "haskell": 1,
         "bash": 1,
         "game": 1,
-        "this": 1,
+        "this": 2,
         "english": 1,
         "physics": 1,
         "education": 1,
@@ -73000,7 +73942,7 @@
         "are": 2
       },
       "is": {
-        "a": 154,
+        "a": 157,
         "the": 115,
         "an": 35,
         "one": 8,
@@ -73012,7 +73954,8 @@
         "good": 3,
         "printed": 1,
         "not": 1,
-        "no": 1
+        "no": 1,
+        "really": 1
       },
       "a": {
         "noun": 18,
@@ -73025,15 +73968,16 @@
         "neural": 3,
         "thermodynamic": 3,
         "varying": 3,
-        "more": 1,
-        "model": 1,
-        "picture": 1,
-        "branch": 1
+        "fresh": 1,
+        "firm": 1,
+        "hold": 1,
+        "grasp": 1,
+        "rest": 1
       },
       "for": {
         "the": 29,
         "example": 14,
-        "a": 12,
+        "a": 13,
         "auxiliary": 5,
         "unconstrained": 4,
         "each": 4,
@@ -73062,7 +74006,17 @@
         "film": 6,
         "lesson": 4,
         "variable": 3,
-        "listener": 3
+        "listener": 3,
+        "vicinity": 1,
+        "bahamas": 1,
+        "crowd": 1,
+        "same": 2,
+        "new": 1,
+        "handlebars": 1,
+        "baby": 1,
+        "pencil": 1,
+        "top": 1,
+        "hill": 1
       },
       "brain": {
         "is": 1,
@@ -73115,7 +74069,8 @@
         "vehicles": 1,
         "importance": 1,
         "pastures": 1,
-        "paintings": 1
+        "paintings": 1,
+        "company": 1
       },
       "she": {
         "was": 6,
@@ -73123,14 +74078,16 @@
         "had": 4,
         "'s": 2,
         "went": 2,
-        "suddenly": 2,
+        "suddenly": 6,
         "will": 2,
         "needed": 1,
         "kept": 1,
         "sings": 1,
         "packed": 1,
         "regarded": 1,
-        "does": 1
+        "does": 1,
+        "'d": 2,
+        "realized": 2
       },
       "went": {
         "to": 6,
@@ -73148,7 +74105,8 @@
         "electrons": 1,
         "conj": 1,
         "heredity": 1,
-        "the": 3
+        "the": 3,
+        "these": 1
       },
       "needed": {
         "bread": 1,
@@ -73160,7 +74118,7 @@
       },
       "we": {
         "can": 9,
-        "have": 5,
+        "have": 6,
         "must": 3,
         "had": 3,
         "are": 3,
@@ -73171,7 +74129,9 @@
         "stayed": 1,
         "'re": 1,
         "constructed": 1,
-        "prepared": 2
+        "prepared": 2,
+        "all": 1,
+        "took": 1
       },
       "can": {
         "be": 50,
@@ -73191,7 +74151,8 @@
         "visit": 1,
         "charge": 1,
         "occur": 1,
-        "freely": 1
+        "freely": 1,
+        "i": 1
       },
       "about": {
         "the": 12,
@@ -73228,12 +74189,7 @@
         "artificial": 2,
         "professionalism": 2,
         "emotions": 2,
-        "contrasts": 2,
-        "pertinent": 1,
-        "a": 1,
-        "result": 1,
-        "state": 1,
-        "instance": 1
+        "contrasts": 2
       },
       "it": {
         "is": 65,
@@ -73287,26 +74243,16 @@
         "you": 1
       },
       "me": {
+        "to": 4,
+        "the": 3,
+        "about": 2,
+        "deeply": 2,
+        "introduce": 2,
+        "that": 2,
         "more": 1,
         "what": 1,
-        "about": 2,
         "remember": 1,
-        "an": 1,
-        "to": 4,
-        "in": 1,
-        "i": 1,
-        "your": 1,
-        "two": 1,
-        "awake": 1,
-        "the": 3,
-        "deeply": 2,
-        "his": 1,
-        "last": 1,
-        "tell": 1,
-        "introduce": 2,
-        "by": 1,
-        "cough": 1,
-        "that": 2
+        "an": 1
       },
       "more": {
         "than": 8,
@@ -73365,7 +74311,7 @@
         "he": 1,
         "they": 1,
         "writing": 1,
-        "i": 1,
+        "i": 2,
         "holding": 1
       },
       "questions": {
@@ -73384,7 +74330,11 @@
         "records": 1,
         "clothes": 1,
         "time": 1,
-        "personal": 1
+        "personal": 1,
+        "feet": 1,
+        "outlook": 1,
+        "doings": 1,
+        "right": 1
       },
       "friend": {
         "likes": 1,
@@ -73402,7 +74352,7 @@
         "in": 1
       },
       "at": {
-        "the": 36,
+        "the": 40,
         "one": 4,
         "ease": 3,
         "thesaurus": 3,
@@ -73440,8 +74390,8 @@
         "by": 1
       },
       "have": {
-        "a": 12,
-        "been": 9,
+        "a": 13,
+        "been": 11,
         "to": 6,
         "greater": 3,
         "no": 2,
@@ -73451,10 +74401,13 @@
         "shades": 1,
         "several": 1,
         "integer": 1,
-        "completely": 1
+        "completely": 1,
+        "soft": 1,
+        "absolutely": 1,
+        "beretta": 1
       },
       "and": {
-        "the": 47,
+        "the": 48,
         "gerund": 23,
         "past": 22,
         "other": 14,
@@ -73464,16 +74417,12 @@
         "war": 3,
         "against": 3,
         "functions": 2,
-        "limits": 1,
-        "knowledge": 1,
-        "justification": 1,
-        "testimony": 1,
-        "leaf": 1,
-        "pragmatics": 1,
-        "an": 1,
-        "deterministic": 1,
-        "irregularities": 1,
-        "self-organization": 1
+        "only": 2,
+        "we": 1,
+        "hard": 1,
+        "enforce": 1,
+        "myosin": 1,
+        "marketing": 1
       },
       "meanings": {
         "have": 1,
@@ -73493,7 +74442,8 @@
         "to": 4,
         "enough": 3,
         "for": 1,
-        "external": 1
+        "external": 1,
+        "drinks": 1
       },
       "explained": {
         "the": 1,
@@ -73525,16 +74475,8 @@
         "sounds": 3,
         "mimic": 3,
         "quantifies": 2,
-        "examines": 2,
-        "includes": 2,
-        "comprise": 1,
-        "hence": 1,
-        "cannot": 1,
-        "i": 1,
-        "arise": 1,
-        "wrap": 1,
-        "money": 1,
-        "within": 1
+        "he": 1,
+        "this": 1
       },
       "good": {
         "manners": 3,
@@ -73594,7 +74536,8 @@
         "superman": 1,
         "good": 1,
         "limiting": 1,
-        "prepared": 1
+        "prepared": 1,
+        "able": 1
       },
       "know": {
         "the": 1,
@@ -73631,7 +74574,7 @@
         "like": 3,
         "generally": 3,
         "not": 1,
-        "you": 2,
+        "you": 3,
         "n't": 1,
         "class": 1,
         "be": 2,
@@ -73661,7 +74604,9 @@
         "class": 2,
         "beautiful": 1,
         "issue": 1,
-        "discussion": 1
+        "discussion": 1,
+        "book": 1,
+        "town": 1
       },
       "they": {
         "may": 4,
@@ -73686,8 +74631,8 @@
         "investigate": 1
       },
       "in": {
-        "the": 153,
-        "a": 81,
+        "the": 158,
+        "a": 82,
         "english": 18,
         "many": 13,
         "which": 10,
@@ -73696,16 +74641,8 @@
         "c": 6,
         "most": 5,
         "\"": 4,
-        "science": 1,
-        "it": 2,
-        "real": 1,
-        "relief": 1,
-        "my": 1,
-        "black": 1,
-        "extent": 1,
-        "numbers": 1,
-        "going": 1,
-        "oil": 1
+        "yonkers": 1,
+        "my": 1
       },
       "children": {
         "play": 1,
@@ -73724,7 +74661,7 @@
         "or": 1
       },
       "was": {
-        "a": 14,
+        "a": 15,
         "an": 8,
         "the": 4,
         "originally": 3,
@@ -73734,7 +74671,8 @@
         "tired": 2,
         "stationed": 2,
         "so": 2,
-        "not": 1
+        "not": 1,
+        "exact": 1
       },
       "so": {
         "as": 7,
@@ -73758,7 +74696,7 @@
         "was": 15,
         "is": 7,
         "has": 5,
-        "had": 5,
+        "had": 6,
         "left": 4,
         "gave": 2,
         "edged": 2,
@@ -73768,7 +74706,11 @@
         "'ll": 1,
         "'s": 1,
         "does": 1,
-        "will": 1
+        "will": 1,
+        "realized": 1,
+        "drank": 1,
+        "paid": 1,
+        "muscled": 1
       },
       "book": {
         "and": 2,
@@ -73780,7 +74722,8 @@
         "across": 1,
         "which": 1,
         "or": 1,
-        "to": 2
+        "to": 2,
+        "influenced": 1
       },
       "began": {
         "to": 1,
@@ -73855,7 +74798,7 @@
         "at": 1
       },
       "of": {
-        "the": 225,
+        "the": 231,
         "a": 100,
         "an": 26,
         "or": 18,
@@ -73864,7 +74807,16 @@
         "information": 7,
         "other": 7,
         "criteria": 6,
-        "protons": 5
+        "protons": 5,
+        "life": 1,
+        "goodwill": 1,
+        "drink": 1,
+        "solder": 1,
+        "town": 1,
+        "time": 1,
+        "my": 1,
+        "actin": 1,
+        "tissue": 1
       },
       "reading": {
         "is": 1,
@@ -73892,7 +74844,7 @@
         "focused": 1
       },
       "if": {
-        "you": 13,
+        "you": 14,
         "the": 5,
         "we": 3,
         "their": 2,
@@ -73906,7 +74858,7 @@
         "she": 1
       },
       "will": {
-        "be": 9,
+        "be": 10,
         "n't": 3,
         "the": 2,
         "do": 2,
@@ -73944,7 +74896,8 @@
         "spanning": 1,
         "while": 1,
         "into": 1,
-        "across": 1
+        "across": 1,
+        "on": 1
       },
       "knowledge": {
         "grows": 1,
@@ -73958,7 +74911,8 @@
         "concerned": 1,
         "in": 1,
         "by": 1,
-        "arises": 1
+        "arises": 1,
+        "or": 1
       },
       "people": {
         "share": 1,
@@ -74228,20 +75182,10 @@
         "oxford": 2,
         "premises": 2,
         "her": 2,
+        "all": 2,
         "equilibrium": 1,
         "classical": 1,
-        "erving": 1,
-        "high": 1,
-        "some": 1,
-        "west": 1,
-        "spares": 1,
-        "parts": 1,
-        "animals": 1,
-        "reading": 1,
-        "escaping": 1,
-        "all": 2,
-        "biology": 1,
-        "nodes": 1
+        "erving": 1
       },
       "point": {
         "of": 2,
@@ -74357,7 +75301,8 @@
         "totally": 1,
         "bought": 1,
         "never": 1,
-        "got": 1
+        "got": 1,
+        "spent": 1
       },
       "given": {
         "it": 1,
@@ -74389,8 +75334,9 @@
         "deer": 1
       },
       "his": {
-        "speech": 2,
         "mother": 3,
+        "speech": 2,
+        "studio": 2,
         "better": 1,
         "knowledge": 1,
         "italian": 1,
@@ -74398,17 +75344,8 @@
         "painting": 1,
         "natural": 1,
         "institute": 1,
-        "running": 1,
-        "living": 1,
-        "studio": 2,
-        "favorite": 1,
-        "whistle": 1,
-        "soups": 1,
-        "career": 1,
-        "servant": 1,
-        "rage": 1,
-        "medical": 1,
-        "identity": 1
+        "corner": 1,
+        "way": 1
       },
       "comparative": {
         "degree": 2,
@@ -74471,7 +75408,8 @@
         "amount": 1,
         "important": 1,
         "eye-witness": 1,
-        "act": 1
+        "act": 2,
+        "illness": 1
       },
       "update": {
         "to": 1,
@@ -74482,7 +75420,7 @@
         "soon": 1
       },
       "on": {
-        "the": 58,
+        "the": 60,
         "a": 11,
         "their": 7,
         "devices": 2,
@@ -74493,7 +75431,10 @@
         "time": 2,
         "conversational": 1,
         "with": 1,
-        "underlying": 1
+        "underlying": 1,
+        "life": 1,
+        "this": 1,
+        "sales": 1
       },
       "situation": {
         "in": 2,
@@ -74577,7 +75518,7 @@
         "of": 14,
         "information": 2,
         "was": 2,
-        "in": 5,
+        "in": 6,
         "is": 2,
         "to": 1,
         "can": 2,
@@ -74603,7 +75544,7 @@
         "are": 1
       },
       "through": {
-        "the": 7,
+        "the": 9,
         "experience": 3,
         "backpropagation": 1,
         "hierarchical": 1,
@@ -74648,7 +75589,7 @@
         "of": 4
       },
       "form": {
-        "of": 16,
+        "of": 17,
         "questions": 3,
         "the": 2,
         "noun": 1,
@@ -74715,7 +75656,8 @@
         "may": 3,
         "cannot": 2,
         "nerve": 2,
-        "was": 2
+        "was": 2,
+        "animals": 1
       },
       "error": {
         "gradients": 1,
@@ -74898,9 +75840,10 @@
         "be": 5,
         "pay": 1,
         "thoroughly": 1,
-        "have": 2,
+        "have": 4,
         "adhere": 1,
-        "first": 1
+        "first": 1,
+        "admit": 1
       },
       "therefore": {
         "investigate": 3,
@@ -75009,7 +75952,8 @@
         "hull": 1,
         "female": 1,
         "aging": 1,
-        "got": 1
+        "got": 1,
+        "knowledge": 1
       },
       "uncertainty": {
         "is": 1,
@@ -75067,24 +76011,14 @@
       "into": {
         "a": 17,
         "the": 7,
+        "two": 5,
         "stable": 4,
         "adulthood": 2,
         "layers": 2,
-        "dissipative": 1,
-        "other": 1,
-        "two": 5,
         "five": 2,
-        "or": 1,
-        "\"": 1,
-        "practical": 1,
-        "one": 1,
-        "mulch": 1,
         "three": 2,
-        "wood": 1,
-        "nearly": 1,
         "another": 2,
-        "his": 1,
-        "products": 1
+        "dissipative": 1
       },
       "dissipative": {
         "structures": 1,
@@ -75145,7 +76079,7 @@
         "civilians": 2,
         "a": 4,
         "you": 1,
-        "inflammation": 1,
+        "inflammation": 2,
         "whom": 1
       },
       "second": {
@@ -75174,7 +76108,8 @@
         "two": 1,
         "three": 1,
         "paints": 1,
-        "were": 1
+        "were": 1,
+        "youngsters": 1
       },
       "principles": {
         "requires": 1,
@@ -75287,7 +76222,7 @@
       },
       "used": {
         "in": 17,
-        "to": 26,
+        "to": 27,
         "for": 11,
         "syringes": 1,
         "car": 1,
@@ -75415,7 +76350,9 @@
         "such": 2,
         "words": 2,
         "p": 2,
-        "someone": 1
+        "someone": 1,
+        "a": 1,
+        "ditransitive": 1
       },
       ")": {
         "is": 17,
@@ -75424,7 +76361,7 @@
         "or": 4,
         "with": 4,
         "together": 3,
-        "to": 9,
+        "to": 10,
         "n": 3,
         "are": 4,
         "of": 2,
@@ -75435,7 +76372,8 @@
         "chemical": 1,
         "a": 2,
         "the": 2,
-        "precious": 1
+        "precious": 1,
+        "through": 1
       },
       "ann": {
         ")": 2
@@ -75690,7 +76628,9 @@
         "carefully": 2,
         "the": 2,
         "reversed": 1,
-        "taken": 1
+        "taken": 1,
+        "in": 2,
+        "considered": 1
       },
       "defined": {
         "for": 4,
@@ -75799,7 +76739,8 @@
         "early": 1,
         "in": 1,
         "corner": 1,
-        "by": 1
+        "by": 1,
+        "his": 1
       },
       "fight": {
         "\"": 2,
@@ -75843,7 +76784,7 @@
         "between": 2
       },
       "between": {
-        "the": 13,
+        "the": 14,
         "two": 8,
         "orders": 3,
         "conjuncts": 2,
@@ -75977,8 +76918,9 @@
         "be": 1,
         "polish": 1,
         "that": 1,
-        "realized": 1,
-        "another": 1
+        "realized": 3,
+        "another": 1,
+        "i": 1
       },
       "archaic": {
         "term": 2
@@ -76164,7 +77106,8 @@
         "studied": 1,
         "neutrons": 1,
         "display": 1,
-        "divided": 1
+        "divided": 1,
+        "without": 1
       },
       "agreed": {
         "that": 3,
@@ -76188,11 +77131,12 @@
       "toward": {
         "evening": 1,
         "autonomous": 3,
-        "me": 1
+        "me": 1,
+        "somebody": 1
       },
       "there": {
-        "was": 6,
-        "is": 12,
+        "was": 7,
+        "is": 13,
         "are": 14,
         "'s": 7,
         "last": 1,
@@ -76235,7 +77179,7 @@
       "'m": {
         "going": 3,
         "trying": 1,
-        "not": 1,
+        "not": 2,
         "a": 1,
         "showing": 1,
         "already": 1,
@@ -76244,7 +77188,8 @@
         "combining": 1,
         "glad": 1,
         "sorry": 1,
-        "still": 1
+        "still": 1,
+        "driving": 1
       },
       "area": {
         "containing": 1,
@@ -76323,7 +77268,8 @@
         "book": 1,
         "belief": 1,
         "relationship": 1,
-        "committee": 1
+        "committee": 1,
+        "breath": 1
       },
       "school": {
         "a": 1,
@@ -76351,7 +77297,8 @@
       },
       "consists": {
         "of": 10,
-        "mainly": 1
+        "mainly": 1,
+        "largely": 1
       },
       "around": {
         "twenty": 1,
@@ -76406,7 +77353,8 @@
         "as": 1,
         "again": 1,
         "constructed": 1,
-        "unexpected": 1
+        "unexpected": 1,
+        "done": 1
       },
       "provides": {
         "a": 5,
@@ -76515,7 +77463,7 @@
         "than": 1,
         "identifiable": 1,
         "forms": 1,
-        "purpose": 2,
+        "purpose": 3,
         "variation": 1,
         "field": 1,
         "logical": 1,
@@ -76545,7 +77493,7 @@
         "she": 1,
         "say": 1,
         "dug": 1,
-        "been": 1
+        "been": 3
       },
       "way": {
         "in": 2,
@@ -76557,7 +77505,7 @@
         "are": 1,
         "traits": 1,
         "(": 1,
-        "through": 1
+        "through": 2
       },
       "character": {
         "etc": 1,
@@ -76571,7 +77519,8 @@
         ")": 1,
         "and": 1,
         "of": 2,
-        "wave": 1
+        "wave": 1,
+        "in": 1
       },
       "relating": {
         "to": 18
@@ -76735,7 +77684,9 @@
         "common": 1,
         "correct": 1,
         "wrong": 1,
-        "once": 1
+        "once": 1,
+        "never": 1,
+        "reinforced": 1
       },
       "her": {
         "face": 2,
@@ -76752,7 +77703,8 @@
         "last-minute": 1,
         "instrument": 1,
         "case": 1,
-        "home": 1
+        "home": 1,
+        "drink": 2
       },
       "product": {
         "of": 2,
@@ -76887,7 +77839,8 @@
       "liquid": {
         "ai": 2,
         "foundation": 2,
-        "caused": 1
+        "caused": 1,
+        ")": 1
       },
       "ai": {
         "is": 2,
@@ -76937,7 +77890,8 @@
         "directly": 2,
         "of": 1,
         "is": 1,
-        "software": 1
+        "software": 1,
+        "when": 1
       },
       "directly": {
         "on": 2,
@@ -76958,7 +77912,7 @@
         "assistance": 1,
         "exception": 1,
         "external": 1,
-        "the": 1,
+        "the": 2,
         "producing": 1,
         "waste": 1,
         "being": 1
@@ -77336,7 +78290,7 @@
         "of": 16,
         "relatively": 3,
         "a": 3,
-        "to": 3,
+        "to": 4,
         "often": 1,
         "the": 3,
         "in": 2,
@@ -77438,7 +78392,8 @@
         "seven": 1,
         "which": 2,
         "soon": 1,
-        "many": 1
+        "many": 1,
+        "him": 2
       },
       "tokens": {
         "that": 1,
@@ -77550,7 +78505,8 @@
         "on": 1,
         "(": 3,
         "fine": 1,
-        "well": 1
+        "well": 1,
+        "to": 1
       },
       "many": {
         "languages": 10,
@@ -77637,24 +78593,14 @@
       "all": {
         "the": 7,
         "of": 3,
+        "known": 2,
         "possible": 1,
         "these": 1,
         "potential": 1,
         "languages": 1,
         "tenses": 1,
         "their": 1,
-        "motion": 1,
-        "activity": 1,
-        "areas": 1,
-        "metabolic": 1,
-        "known": 2,
-        "life": 1,
-        "will": 1,
-        "particles": 1,
-        "military": 1,
-        "you": 1,
-        "that": 1,
-        "directions": 1
+        "motion": 1
       },
       "possible": {
         "permutations": 1,
@@ -77718,7 +78664,7 @@
         "decisions": 1
       },
       "amount": {
-        "of": 8,
+        "of": 9,
         "you": 1,
         "that": 1,
         "n": 1,
@@ -77851,7 +78797,7 @@
         "doctor": 1,
         "sat": 1,
         "reading": 1,
-        "then": 1,
+        "then": 3,
         "appear": 1,
         "uses": 1,
         "as": 1,
@@ -77894,22 +78840,13 @@
         "a": 8,
         "/": 4,
         "flexible": 3,
+        "to": 3,
         "better": 2,
         "difficulty": 1,
         "built": 1,
         "three": 1,
         "already": 1,
-        "something": 1,
-        "no": 1,
-        "finally": 1,
-        "several": 1,
-        "first": 1,
-        "pages": 1,
-        "many": 1,
-        "to": 2,
-        "red": 1,
-        "shorted": 1,
-        "so": 1
+        "something": 1
       },
       "before": {
         "losing": 3,
@@ -77997,12 +78934,12 @@
         "with": 2
       },
       "able": {
-        "to": 11,
+        "to": 12,
         "adj": 1
       },
       "see": {
         "all": 1,
-        "the": 6,
+        "the": 7,
         "you": 2,
         "who": 1,
         "those": 1,
@@ -78058,7 +78995,9 @@
         "name": 1,
         "manner": 1,
         "number": 1,
-        "element": 1
+        "element": 1,
+        "time": 1,
+        "frequency": 1
       },
       "common": {
         "cross-linguistically": 2,
@@ -78540,7 +79479,8 @@
       },
       "influenced": {
         "modern": 1,
-        "by": 1
+        "by": 1,
+        "my": 1
       },
       "modern": {
         "computer": 1,
@@ -78787,7 +79727,8 @@
         "four-dimensional": 1,
         "place": 1,
         "aspect": 1,
-        "recipe": 1
+        "recipe": 1,
+        "malt": 1
       },
       "code": {
         "to": 1,
@@ -78854,7 +79795,8 @@
         "referred": 1,
         "arm": 1,
         "(": 1,
-        "also": 1
+        "also": 1,
+        "in": 1
       },
       "automatic": {
         "detection": 4,
@@ -79134,7 +80076,8 @@
         "trades": 1,
         "hope": 1,
         "two": 1,
-        "point": 1
+        "point": 1,
+        "influence": 1
       },
       "normal": {
         "senses": 2,
@@ -79154,7 +80097,8 @@
         "adv": 2,
         "pron": 2,
         "ip": 1,
-        "color": 1
+        "color": 1,
+        "somewhere": 1
       },
       "best": {
         "arrive": 2,
@@ -79193,12 +80137,13 @@
         "to": 10
       },
       "act": {
-        "of": 24,
+        "of": 25,
         "or": 8,
         "by": 1,
         "committed": 2,
         "upon": 1,
-        "are": 1
+        "are": 1,
+        "soon": 1
       },
       "random": {
         "variable": 2,
@@ -79466,7 +80411,7 @@
         "wrought": 1,
         "taken": 1,
         "run": 1,
-        "drugged": 1,
+        "drugged": 5,
         "in": 1,
         "proven": 1,
         "made": 1,
@@ -79529,7 +80474,7 @@
         "at": 1
       },
       "performance": {
-        "of": 1,
+        "of": 2,
         "on": 1
       },
       "audience": {
@@ -79883,7 +80828,8 @@
         "bend": 1,
         "win": 1,
         "mix": 1,
-        "care": 3
+        "care": 3,
+        "act": 1
       },
       "should": {
         "ask": 1,
@@ -79915,7 +80861,8 @@
         "at": 1,
         "trades": 1,
         "in": 1,
-        "while": 1
+        "while": 1,
+        "director": 1
       },
       "employs": {
         "extensive": 1,
@@ -80460,7 +81407,8 @@
         "their": 1,
         "me": 1,
         "carded": 1,
-        "up": 1
+        "up": 1,
+        "our": 1
       },
       "ball": {
         "rolling": 1,
@@ -80518,7 +81466,8 @@
         "from": 1,
         "our": 1,
         "average": 1,
-        "as": 1
+        "as": 1,
+        "a": 1
       },
       "personal": {
         "life": 1,
@@ -80910,7 +81859,8 @@
         "really": 1,
         "arrived": 1,
         "met": 1,
-        "lack": 1
+        "lack": 1,
+        "fully": 1
       },
       "candidate": {
         "a": 1,
@@ -81118,7 +82068,7 @@
       "felt": {
         "confused": 1,
         "diminished": 1,
-        "strange": 2
+        "strange": 6
       },
       "confused": {
         "by": 1,
@@ -81136,7 +82086,7 @@
         "stop": 1,
         "detail": 1,
         "gladly": 1,
-        "be": 1,
+        "be": 2,
         "never": 1,
         "do": 1
       },
@@ -81281,7 +82231,8 @@
         "measured": 1,
         "any": 1,
         "meal": 1,
-        "is": 1
+        "is": 1,
+        "in": 1
       },
       "aware": {
         "of": 1,
@@ -81324,7 +82275,7 @@
       "took": {
         "my": 1,
         "the": 2,
-        "a": 3,
+        "a": 5,
         "years": 1,
         "larger": 1,
         "students": 1,
@@ -81405,7 +82356,7 @@
         "i": 1,
         "from": 1,
         "who": 1,
-        "to": 2
+        "to": 3
       },
       "gives": {
         "shape": 1,
@@ -81555,7 +82506,8 @@
         "and": 1,
         "to": 1,
         "the": 1,
-        "tools": 1
+        "tools": 1,
+        "ear": 1
       },
       "holding": {
         "food": 1,
@@ -81605,7 +82557,8 @@
         "form": 2,
         "rule": 1,
         "days": 1,
-        "examination": 1
+        "examination": 1,
+        "analysis": 1
       },
       "capacity": {
         "of": 1,
@@ -81630,8 +82583,8 @@
         "contracted": 1,
         "retains": 1,
         "so": 2,
-        "temperature": 1,
-        "for": 1,
+        "temperature": 2,
+        "for": 2,
         "size": 2
       },
       "decreases": {
@@ -81803,7 +82756,8 @@
         "when": 1,
         "in": 1,
         "that": 1,
-        "tricky": 1
+        "tricky": 1,
+        "movement": 1
       },
       "next": {
         "few": 1,
@@ -81820,7 +82774,8 @@
         "good": 1,
         "affected": 1,
         "easy": 1,
-        "strong": 1
+        "strong": 1,
+        "dangerous": 1
       },
       "characteristics": {
         "of": 2,
@@ -81955,7 +82910,7 @@
       },
       "brought": {
         "about": 2,
-        "a": 2
+        "a": 3
       },
       "cell": {
         "reception": 1,
@@ -81986,7 +82941,8 @@
         "or": 5,
         "above": 1,
         "in": 1,
-        "so": 1
+        "so": 1,
+        "he": 1
       },
       "office": {
         "is": 1,
@@ -82045,7 +83001,8 @@
       "stop": {
         "off": 1,
         "here": 1,
-        "at": 1
+        "at": 1,
+        "running": 1
       },
       "off": {
         "at": 1,
@@ -82069,7 +83026,8 @@
         "falling": 1,
         "down": 1,
         "in": 1,
-        "mixture": 1
+        "mixture": 1,
+        "i": 1
       },
       "borrow": {
         "from": 1,
@@ -82103,7 +83061,8 @@
       },
       "getting": {
         "a": 2,
-        "late": 1
+        "late": 1,
+        "pains": 1
       },
       "lot": {
         "of": 6
@@ -82165,7 +83124,8 @@
         "the": 1,
         "we": 1,
         "church": 1,
-        "baking": 1
+        "baking": 1,
+        "blobs": 1
       },
       "meeting": {
         "operates": 1,
@@ -82356,7 +83316,8 @@
         "back": 1,
         "a": 1,
         "our": 1,
-        "all": 1
+        "all": 1,
+        "drenched": 1
       },
       "showed": {
         "as": 1,
@@ -82383,7 +83344,8 @@
       },
       "cat": {
         "is": 1,
-        "only": 1
+        "only": 1,
+        "had": 1
       },
       "consisting": {
         "of": 5
@@ -82440,7 +83402,8 @@
       "drugs": {
         "can": 1,
         "she": 1,
-        "combined": 1
+        "combined": 1,
+        "to": 1
       },
       "divided": {
         "into": 6,
@@ -82480,7 +83443,8 @@
       },
       "project": {
         "an": 1,
-        "to": 1
+        "to": 1,
+        "were": 1
       },
       "faced": {
         "a": 1,
@@ -82668,7 +83632,7 @@
         "elements": 2,
         "interaction": 1,
         "reactions": 2,
-        "process": 1,
+        "process": 2,
         "reaction": 1,
         "action": 1,
         "processes": 1
@@ -82921,7 +83885,8 @@
       "top": {
         "surface": 1,
         "can": 1,
-        "ranks": 1
+        "ranks": 1,
+        "of": 1
       },
       "surface": {
         "to": 1,
@@ -83057,7 +84022,7 @@
         "others": 1,
         "myself": 1,
         "to": 1,
-        "an": 1
+        "an": 2
       },
       "mostly": {
         "i": 1,
@@ -83734,7 +84699,7 @@
         "a": 1,
         "explicit": 1,
         "you": 2,
-        "him": 1,
+        "him": 2,
         "up": 1,
         "them": 1
       },
@@ -83746,7 +84711,8 @@
         "initial": 1,
         "direct": 1,
         "print": 1,
-        "adopt": 1
+        "adopt": 1,
+        "bring": 1
       },
       "page": {
         "and": 1,
@@ -84316,7 +85282,8 @@
       },
       "drink": {
         ")": 1,
-        "must": 1
+        "must": 3,
+        "would": 1
       },
       "integrated": {
         "circuit": 1,
@@ -84779,7 +85746,8 @@
         "'s": 1
       },
       "dark": {
-        "matter": 5
+        "matter": 5,
+        "corners": 1
       },
       "center": {
         "of": 3
@@ -85047,7 +86015,7 @@
         "by": 1
       },
       "kind": {
-        "of": 1,
+        "of": 2,
         "can": 1
       },
       "stay": {
@@ -85240,7 +86208,8 @@
         "an": 1,
         "all": 1,
         "cartridge": 1,
-        "six": 1
+        "six": 1,
+        "a": 1
       },
       "minutes": {
         ")": 1,
@@ -85371,8 +86340,9 @@
       },
       "realized": {
         "they": 1,
-        "she": 1,
-        "her": 1
+        "she": 3,
+        "her": 3,
+        "that": 1
       },
       "created": {
         "such": 1,
@@ -85518,7 +86488,8 @@
       },
       "rest": {
         "mass": 1,
-        "is": 1
+        "is": 1,
+        "at": 1
       },
       "wave": {
         "traveled": 1,
@@ -85623,14 +86594,14 @@
         "you": 1
       },
       "acts": {
-        "against": 1,
+        "against": 2,
         "as": 1
       },
       "suddenly": {
-        "felt": 2
+        "felt": 6
       },
       "substance": {
-        "used": 1,
+        "used": 2,
         "with": 1,
         "making": 1,
         "such": 1
@@ -85641,7 +86612,9 @@
       },
       "town": {
         "and": 1,
-        "wall": 1
+        "wall": 1,
+        "is": 1,
+        "to": 1
       },
       "lower": {
         "left": 1,
@@ -85649,7 +86622,9 @@
       },
       "exact": {
         "procedure": 1,
-        "copies": 1
+        "copies": 1,
+        "tribute": 1,
+        "debt": 1
       },
       "russia": {
         "is": 2
@@ -85661,12 +86636,14 @@
         "for": 2
       },
       "considerable": {
-        "or": 2
+        "or": 2,
+        "amount": 1
       },
       "influence": {
         "on": 1,
         "and": 1,
-        "or": 1
+        "or": 1,
+        "over": 2
       },
       "junction": {
         "between": 2
@@ -85676,7 +86653,8 @@
         "part": 1
       },
       "muscle": {
-        "or": 2
+        "or": 2,
+        "consists": 1
       },
       "gland": {
         "cell": 2
@@ -85686,7 +86664,8 @@
       },
       "bring": {
         "your": 1,
-        "him": 1
+        "him": 1,
+        "me": 1
       },
       "worked": {
         "alongside": 1,
@@ -86250,7 +87229,8 @@
         "or": 1
       },
       "demand": {
-        "ownership": 1
+        "ownership": 1,
+        "and": 1
       },
       "allen": {
         "'s": 1
@@ -86414,7 +87394,8 @@
         "our": 1
       },
       "payment": {
-        "processing": 1
+        "processing": 1,
+        "or": 1
       },
       "invoices": {
         "as": 1
@@ -87016,7 +87997,8 @@
         "is": 1
       },
       "somebody": {
-        "known": 1
+        "known": 1,
+        "/": 1
       },
       "x": {
         "does": 1
@@ -87029,7 +88011,8 @@
         "on": 1
       },
       "perspective": {
-        "drawing": 1
+        "drawing": 1,
+        "on": 1
       },
       "vista": {
         "or": 1
@@ -87171,7 +88154,8 @@
       },
       "animals": {
         "and": 1,
-        "that": 1
+        "that": 1,
+        "use": 1
       },
       "ecosystem": {
         "on": 1
@@ -87521,7 +88505,8 @@
         "to": 1
       },
       "firm": {
-        "celebrated": 1
+        "celebrated": 1,
+        "hold": 1
       },
       "celebrated": {
         "twenty": 1
@@ -87962,7 +88947,8 @@
         "today": 1
       },
       "paid": {
-        "a": 1
+        "a": 1,
+        "the": 1
       },
       "call": {
         "to": 1
@@ -88019,46 +89005,267 @@
       },
       "fractals": {
         "and": 1
+      },
+      "aspirin": {
+        "is": 1
+      },
+      "drug": {
+        "that": 1
+      },
+      "reduces": {
+        "pain": 1
+      },
+      "inflammation": {
+        "and": 1
+      },
+      "lowers": {
+        "body": 1
+      },
+      "relieve": {
+        "a": 1
+      },
+      "modify": {
+        "a": 1
+      },
+      "started": {
+        "getting": 1
+      },
+      "pains": {
+        "in": 1
+      },
+      "pain": {
+        "is": 1
+      },
+      "fact": {
+        "of": 1
+      },
+      "wound": {
+        "pained": 1
+      },
+      "pained": {
+        "him": 1
+      },
+      "goodwill": {
+        "if": 1
+      },
+      "objectives": {
+        "of": 1
+      },
+      "fully": {
+        "realized": 1
+      },
+      "umbrella": {
+        "on": 1
+      },
+      "heavens": {
+        "opened": 1
+      },
+      "opened": {
+        "and": 1
+      },
+      "drank": {
+        "the": 1
+      },
+      "soft": {
+        "drinks": 1
+      },
+      "drinks": {
+        "and": 1
+      },
+      "consume": {
+        "(": 1
+      },
+      "administer": {
+        "intoxicating": 1
+      },
+      "intoxicating": {
+        "drugs": 1
+      },
+      "recipient": {
+        "'s": 1
+      },
+      "absolutely": {
+        "no": 1
+      },
+      "exercise": {
+        "influence": 1
+      },
+      "admit": {
+        "that": 1
+      },
+      "outlook": {
+        "on": 1
+      },
+      "dangerous": {
+        "because": 1
+      },
+      "youngsters": {
+        "have": 1
+      },
+      "beretta": {
+        "handguns": 1
+      },
+      "driving": {
+        "into": 1
+      },
+      "knicks": {
+        "at": 1
+      },
+      "garden": {
+        "tonight": 1
+      },
+      "corners": {
+        "of": 2
+      },
+      "wire": {
+        "mesh": 1
+      },
+      "mesh": {
+        "were": 1
+      },
+      "reinforced": {
+        "with": 1
+      },
+      "blobs": {
+        "of": 1
+      },
+      "shining": {
+        "a": 1
+      },
+      "trip": {
+        "out": 1
+      },
+      "corner": {
+        "of": 1
+      },
+      "cornered": {
+        "a": 1
+      },
+      "cricket": {
+        "between": 1
+      },
+      "sofa": {
+        "and": 1
+      },
+      "television": {
+        "stand": 1
+      },
+      "obedience": {
+        "from": 1
+      },
+      "doings": {
+        "i": 1
+      },
+      "enforce": {
+        "the": 1
+      },
+      "forcible": {
+        "or": 1
+      },
+      "imperious": {
+        "way": 1
+      },
+      "crackling": {
+        "sound": 1
+      },
+      "vicinity": {
+        "of": 2
+      },
+      "hurricane": {
+        "in": 1
+      },
+      "largely": {
+        "of": 1
+      },
+      "actin": {
+        "and": 1
+      },
+      "myosin": {
+        "filaments": 1
+      },
+      "muscled": {
+        "his": 1
+      },
+      "contractile": {
+        "form": 1
+      },
+      "tissue": {
+        "which": 1
+      },
+      "malt": {
+        "whiskey": 1
+      },
+      "director": {
+        "brought": 1
+      },
+      "fresh": {
+        "perspective": 1
+      },
+      "sales": {
+        "and": 1
+      },
+      "ditransitive": {
+        ")": 1
+      },
+      "transport": {
+        "toward": 1
+      },
+      "hold": {
+        "on": 1,
+        "of": 1,
+        "the": 1
+      },
+      "pencil": {
+        "like": 1
+      },
+      "grasp": {
+        "or": 1
+      },
+      "hill": {
+        "to": 1
+      },
+      "breath": {
+        "back": 1
       }
     },
     "starters": {
-      "i": 125,
+      "i": 132,
       "how": 6,
-      "what": 9,
-      "<NOUN>": 816,
-      "the": 420,
-      "she": 30,
-      "we": 44,
+      "what": 10,
+      "<NOUN>": 822,
+      "the": 425,
+      "she": 36,
+      "we": 46,
       "it": 105,
-      "<VERB>": 304,
-      "can": 5,
+      "<VERB>": 306,
+      "can": 6,
       "my": 18,
       "why": 1,
       "they": 22,
-      "he": 83,
+      "he": 86,
       "where": 1,
       "<ADJ>": 136,
       "please": 5,
       "that": 24,
       "if": 16,
       "although": 4,
-      "a": 227,
+      "a": 231,
       "does": 1,
       "who": 2,
       "when": 15,
       "you": 17,
-      "<ADV>": 44,
-      "an": 54,
+      "<ADV>": 45,
+      "an": 55,
       "however": 2,
-      "in": 134,
+      "in": 136,
       "for": 9,
       "toward": 1,
-      "<PART>": 59,
-      "something": 11,
+      "<PART>": 62,
+      "something": 12,
       "his": 14,
       "of": 24,
       "her": 12,
-      "this": 60,
+      "this": 61,
       "these": 20,
       "as": 4,
       "each": 11,
@@ -88071,8 +89278,8 @@
       "during": 4,
       "within": 2,
       "your": 7,
-      "at": 5,
-      "to": 11,
+      "at": 6,
+      "to": 12,
       "wow": 2,
       "while": 6,
       "such": 3,
@@ -88120,19 +89327,19 @@
       "over": 1
     },
     "connectors": {
-      "because": 16,
-      "or": 604,
-      "and": 863,
+      "because": 17,
+      "or": 610,
+      "and": 872,
       "but": 90,
       "so": 42,
       "while": 9,
       "than": 54,
       "therefore": 7,
-      "if": 15,
+      "if": 16,
       "as": 293,
       "however": 3,
       "whether": 5,
-      "that": 28,
+      "that": 29,
       "yet": 7,
       "though": 3,
       "since": 7,
@@ -88151,7 +89358,7 @@
         "whether": 2,
         "as": 7,
         "and": 6,
-        "if": 2,
+        "if": 3,
         "although": 1,
         "though": 1,
         "while": 2,
@@ -88159,7 +89366,7 @@
       },
       "NOUN>DET": {
         "or": 52,
-        "and": 86,
+        "and": 87,
         "but": 19,
         "if": 3,
         "though": 2,
@@ -88173,8 +89380,8 @@
         "since": 1
       },
       "NOUN>NOUN": {
-        "and": 387,
-        "or": 248,
+        "and": 389,
+        "or": 251,
         "as": 13,
         "yet": 2,
         "so": 2,
@@ -88187,8 +89394,8 @@
         "unless": 1
       },
       "NOUN>VERB": {
-        "and": 44,
-        "or": 22,
+        "and": 45,
+        "or": 23,
         "as": 6,
         "than": 1,
         "nor": 1,
@@ -88207,9 +89414,9 @@
       },
       "VERB>PRON": {
         "because": 3,
-        "and": 1,
+        "and": 2,
         "while": 1,
-        "that": 8,
+        "that": 9,
         "so": 5,
         "as": 4,
         "but": 2,
@@ -88217,8 +89424,8 @@
         "once": 1
       },
       "ADJ>ADJ": {
-        "and": 22,
-        "or": 20,
+        "and": 24,
+        "or": 21,
         "as": 1,
         "nor": 1
       },
@@ -88244,7 +89451,7 @@
         "as": 2
       },
       "NOUN>ADJ": {
-        "and": 57,
+        "and": 58,
         "than": 1,
         "or": 28,
         "whether": 1,
@@ -88341,7 +89548,7 @@
       },
       "VERB>NOUN": {
         "as": 20,
-        "and": 33,
+        "and": 34,
         "or": 24,
         "that": 7,
         "than": 1,
@@ -88409,7 +89616,7 @@
       "VERB>ADJ": {
         "and": 5,
         "as": 8,
-        "or": 6,
+        "or": 7,
         "that": 1
       },
       "PROPN>NOUN": {
@@ -88463,7 +89670,8 @@
         "or": 3,
         "and": 3,
         "but": 1,
-        "since": 1
+        "since": 1,
+        "because": 1
       },
       "DET>ADJ": {
         "as": 6
@@ -90493,7 +91701,7 @@
         "ex": "The child will roll on the floor."
       },
       "she {VERBED} her {NOUN} must have been {VERBED}.": {
-        "n": 1,
+        "n": 3,
         "form": "statement",
         "slots": [
           "VERBED",
@@ -91424,6 +92632,101 @@
           "NOUN"
         ],
         "ex": "To pose a model for a picture."
+      },
+      "the {NOUN} {VERBED} him.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "NOUN",
+          "VERBED"
+        ],
+        "ex": "The wound pained him."
+      },
+      "something {VERBED}, a {VERBED}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "VERBED",
+          "VERBED"
+        ],
+        "ex": "Something done, a deed."
+      },
+      "he {VERBED} the {NOUN} I {VERBED} him.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "VERBED",
+          "NOUN",
+          "VERBED"
+        ],
+        "ex": "He drank the water I gave him."
+      },
+      "what {ADJ} of {NOUN} would you {VERB}?": {
+        "n": 1,
+        "form": "question",
+        "slots": [
+          "ADJ",
+          "NOUN",
+          "VERB"
+        ],
+        "ex": "What kind of drink would you like ?"
+      },
+      "I have {ADV} no {NOUN} over him.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "ADV",
+          "NOUN"
+        ],
+        "ex": "I have absolutely no influence over him."
+      },
+      "I 'm not {VERB} to {NOUN} {NOUN} over him.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "VERB",
+          "NOUN",
+          "NOUN"
+        ],
+        "ex": "I'm not able to exercise influence over him."
+      },
+      "in my {NOUNS} I was {ADJ}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "NOUNS",
+          "ADJ"
+        ],
+        "ex": "In my doings I was exact."
+      },
+      "a {NOUN} to be {VERBED}, {NOUN}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "NOUN",
+          "VERBED",
+          "NOUN"
+        ],
+        "ex": "A thing to be considered, consideration."
+      },
+      "he {VERBED} his {NOUN} through the {NOUN}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "VERBED",
+          "NOUN",
+          "NOUN"
+        ],
+        "ex": "He muscled his way through the crowd."
+      },
+      "can I have a {NOUN} of the {NOUN}?": {
+        "n": 1,
+        "form": "question",
+        "slots": [
+          "NOUN",
+          "NOUN"
+        ],
+        "ex": "Can I have a hold of the baby?"
       }
     },
     "clause_templates": {
@@ -91610,8 +92913,8 @@
       "DET NOUN AUX VERB | since | PREP DET PROPN NOUN PROPN NOUN PROPN NOUN": 1,
       "PART VERB NOUN DET ADJ NOUN PREP NOUN CONJ NOUN ADJ PREP NOUN PREP DET NOUN | and | VERB PREP VERB": 1,
       "DET NOUN WH NOUN DET ADJ NOUN | and | WH VERB ADJ NOUN": 1,
-      "NOUN AUX DET NOUN DET NOUN PREP NOUN | and | NOUN VERB NOUN": 1,
-      "PRON ADV VERB ADJ | and | ADJ ADV VERB PRON MODAL AUX VERB": 1,
+      "NOUN AUX DET NOUN DET NOUN PREP NOUN | and | NOUN VERB NOUN": 2,
+      "PRON ADV VERB ADJ | and | ADJ ADV VERB PRON MODAL AUX VERB": 3,
       "VERB DET CONJ NOUN | and | NOUN VERB DET PREP DET NOUN": 1,
       "DET ADJ VERB PREP DET NOUN | and | VERB DET NOUN": 1,
       "PREP DET NOUN DET PROPN NOUN AUX DET NOUN | but | DET NOUN AUX NOUN": 1,
@@ -91705,202 +93008,17 @@
       "PRON MODAL ADV VERB PREP NOUN | while | PRON AUX VERB DET NOUN": 1,
       "VERB NOUN AUX DET NOUN PREP NOUN | and | DET ADJ NOUN PREP ADJ VERB": 1,
       "PRON VERB PREP NOUN | and | ADJ NOUN PREP ADJ NOUN PRON AUX ADV ADJ PART VERB NOUN": 1,
-      "PRON AUX CONJ VERB PART AUX ADV NOUN PREP NOUN | and | NOUN": 1
+      "PRON AUX CONJ VERB PART AUX ADV NOUN PREP NOUN | and | NOUN": 1,
+      "DET NOUN PREP NOUN | if | PRON AUX NEG NOUN ADJ PRON MODAL AUX PREP NOUN": 1,
+      "ADV DET NOUN VERB | and | PRON DET VERB": 1,
+      "PRON AUX ADJ NOUN | and | ADJ NOUN": 1,
+      "DET NOUN AUX ADV ADJ | because | DET NOUN AUX PROPN NOUN": 1,
+      "DET NOUN AUX VERB DET NOUN PREP DET NOUN | and | DET NOUN": 1,
+      "PART VERB | and | NOUN DET NOUN CONJ NOUN PREP ADV PREP DET ADJ CONJ ADJ NOUN": 1,
+      "NOUN VERB ADV PREP NOUN | and | NOUN": 1,
+      "DET ADJ NOUN VERB DET ADJ NOUN PREP NOUN | and | VERB NOUN ADJ NOUN PART VERB PREP PRON VERB NOUN": 1
     },
     "sentence_bank": {
-      "following": [
-        "A person following the pursuits of civil life, especially one who is not an active member of the armed forces."
-      ],
-      "king": [
-        "The king armed his knights with swords and shields.",
-        "A situation in which the king is directly threatened by an opposing piece."
-      ],
-      "arm": [
-        "The king armed his knights with swords and shields."
-      ],
-      "conflict": [
-        "The conflict between the government and the rebels began three years ago."
-      ],
-      "government": [
-        "The conflict between the government and the rebels began three years ago."
-      ],
-      "attend": [
-        "I wanted to attend the meeting but there's a conflict in my schedule that day.",
-        "Children attend primary school, and teenagers attend secondary school."
-      ],
-      "appears": [
-        "It appears that our schedules conflict."
-      ],
-      "schedules": [
-        "It appears that our schedules conflict."
-      ],
-      "clash": [
-        "A clash or disagreement, often violent, between two or more opposing groups or individuals."
-      ],
-      "disagreement": [
-        "A clash or disagreement, often violent, between two or more opposing groups or individuals."
-      ],
-      "transistor": [
-        "A transistor is a semiconductor device used to amplify or switch electrical signals and power.",
-        "A transistor is composed of semiconductor material, often with at least three terminals for connection to an electronic circuit."
-      ],
-      "semiconductor": [
-        "A transistor is a semiconductor device used to amplify or switch electrical signals and power."
-      ],
-      "fundamental": [
-        "It is one of the fundamental building blocks of modern electronics.",
-        "The fundamental force of attraction that exists between all particles with mass in the universe."
-      ],
-      "voltage": [
-        "A voltage or current applied to one pair of the transistor's terminals controls the current through another pair of terminals."
-      ],
-      "current": [
-        "A voltage or current applied to one pair of the transistor's terminals controls the current through another pair of terminals."
-      ],
-      "transistors": [
-        "Some transistors are packaged individually, but many more in miniature form are found embedded in integrated circuits."
-      ],
-      "packag": [
-        "Some transistors are packaged individually, but many more in miniature form are found embedded in integrated circuits."
-      ],
-      "distinctive": [
-        "A distinctive outfit that serves to identify members of a group."
-      ],
-      "outfit": [
-        "A distinctive outfit that serves to identify members of a group."
-      ],
-      "discipline": [
-        "Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data."
-      ],
-      "deals": [
-        "Statistics deals with every aspect of data, including the planning of data collection in terms of the design of surveys and experiments."
-      ],
-      "related": [
-        "Statistics is deeply related to subjects like physics, chemistry, geography, geopolitics, and especially mathematics.",
-        "Directly related, connected, or pertinent to a topic."
-      ],
-      "phonetics": [
-        "Phonetics is a branch of linguistics that mainly concerns the articulation, sound wave properties, and perception of speech sounds.",
-        "The field of phonetics is traditionally divided into three sub-disciplines: articulatory phonetics, acoustic phonetics, and auditory phonetics."
-      ],
-      "branch": [
-        "Calculus is the branch of mathematics that studies continuous change, and is the principal precursor of modern mathematical analysis.",
-        "Metaphysics is the branch of philosophy that examines the basic nature or most fundamental structure of reality.",
-        "Epistemology is the branch of philosophy that examines the nature, origin, and limits of knowledge."
-      ],
-      "minimal": [
-        "Traditionally, the minimal linguistic unit of phonetics is the phone, an individual speech sound.",
-        "This differs from the minimal linguistic unit of phonology, the phoneme."
-      ],
-      "linguistic": [
-        "Traditionally, the minimal linguistic unit of phonetics is the phone, an individual speech sound."
-      ],
-      "differs": [
-        "This differs from the minimal linguistic unit of phonology, the phoneme."
-      ],
-      "phonemes": [
-        "Phonemes are abstract, language-specific categorizations of phones and are defined as the smallest units that affect meaning."
-      ],
-      "abstract": [
-        "Phonemes are abstract, language-specific categorizations of phones and are defined as the smallest units that affect meaning."
-      ],
-      "unemployment": [
-        "Unemployment is the norm in this part of the country."
-      ],
-      "norm": [
-        "Unemployment is the norm in this part of the country."
-      ],
-      "eat": [
-        "Not eating your children is just one of those societal norms."
-      ],
-      "children": [
-        "Not eating your children is just one of those societal norms.",
-        "Her children doctored her back to health.",
-        "Children attend primary school, and teenagers attend secondary school."
-      ],
-      "normal": [
-        "That which is normal or typical."
-      ],
-      "typical": [
-        "That which is normal or typical."
-      ],
-      "hands": [
-        "Her hands are really strong."
-      ],
-      "strong": [
-        "Her hands are really strong.",
-        "A box, now usually a large strong box with a secure convex lid."
-      ],
-      "happening": [
-        "This is a happening place tonight!",
-        "He is a real happening guy."
-      ],
-      "real": [
-        "He is a real happening guy.",
-        "Real or perceived movement of atmospheric air usually caused by convection or differences in air pressure."
-      ],
-      "take": [
-        "It took him only twenty minutes to perform the task.",
-        "It took a lot of effort to find a decent-sized, fully-furnished apartment within walking distance of the office.",
-        "Care should be taken when holding babies."
-      ],
-      "editor": [
-        "The editor composed a historical journal from many individual letters."
-      ],
-      "church": [
-        "A church is composed of its members."
-      ],
-      "merging": [
-        "To make something by merging parts."
-      ],
-      "upon": [
-        "To act upon each other."
-      ],
-      "resembling": [
-        "Of or resembling a monolith."
-      ],
-      "monolith": [
-        "Of or resembling a monolith."
-      ],
-      "electron": [
-        "The electron is a subatomic particle whose electric charge is negative one elementary charge."
-      ],
-      "subatomic": [
-        "The electron is a subatomic particle whose electric charge is negative one elementary charge."
-      ],
-      "sire": [
-        "Sire, do I have your permission to execute this traitor?"
-      ],
-      "permission": [
-        "Sire, do I have your permission to execute this traitor?"
-      ],
-      "encompasses": [
-        "The DBMS additionally encompasses the core facilities provided to administer the database.",
-        "Cognition encompasses mental processes that deal with knowledge."
-      ],
-      "core": [
-        "The DBMS additionally encompasses the core facilities provided to administer the database.",
-        "Core concepts related to information security are also central to cryptography."
-      ],
-      "calculus": [
-        "Calculus is the branch of mathematics that studies continuous change, and is the principal precursor of modern mathematical analysis."
-      ],
-      "precurses": [
-        "That which precurses: a forerunner, predecessor, or indicator of approaching events."
-      ],
-      "forerunner": [
-        "That which precurses: a forerunner, predecessor, or indicator of approaching events."
-      ],
-      "feeling": [
-        "Do you ever get the feeling that you are but an infinitesimal speck, swallowed by the vastness of the universe and beyond?"
-      ],
-      "call": [
-        "Originally called infinitesimal calculus or the calculus of infinitesimals, it has two major branches, differential calculus and integral calculus.",
-        "I paid a call to a dear friend of mine."
-      ],
-      "infinitesimal": [
-        "Originally called infinitesimal calculus or the calculus of infinitesimals, it has two major branches, differential calculus and integral calculus."
-      ],
       "mood": [
         "I've been in a bad mood since I dumped my boyfriend."
       ],
@@ -92038,7 +93156,8 @@
         "It's a proven fact that morphine is a more effective painkiller than acetaminophen is."
       ],
       "time": [
-        "If you don't get me the report on time, there will be consequences."
+        "If you don't get me the report on time, there will be consequences.",
+        "At the same time, at the same frequency."
       ],
       "mathematical": [
         "Mathematical optimization or mathematical programming is the selection of a best element, with regard to some criteria, from some set of available alternatives.",
@@ -92136,7 +93255,8 @@
       ],
       "keep": [
         "The clothes are kept in a chest.",
-        "They kept looking at me."
+        "They kept looking at me.",
+        "Keep a firm hold on the handlebars."
       ],
       "introduce": [
         "Let me introduce you to my friends."
@@ -92226,7 +93346,8 @@
         "DNA replication ensures that each of the newly divided daughter cells receives its own copy of each DNA molecule."
       ],
       "form": [
-        "A system formed by an ecological community and its environment that functions as a unit."
+        "A system formed by an ecological community and its environment that functions as a unit.",
+        "A contractile form of tissue which animals use to effect movement."
       ],
       "watch": [
         "I'm tired of watching TV."
@@ -92324,7 +93445,8 @@
         "I like to lunch in Italian restaurants."
       ],
       "light": [
-        "A light meal usually eaten around midday, notably when not as main meal of the day."
+        "A light meal usually eaten around midday, notably when not as main meal of the day.",
+        "Shining a light in the dark corners of the mind."
       ],
       "meal": [
         "A light meal usually eaten around midday, notably when not as main meal of the day."
@@ -92370,7 +93492,8 @@
         "A mark left by something that has passed along."
       ],
       "leave": [
-        "A mark left by something that has passed along."
+        "A mark left by something that has passed along.",
+        "He realized that he had left his umbrella on the train."
       ],
       "anymore": [
         "The engine just won't go anymore."
@@ -92518,7 +93641,8 @@
       ],
       "stop": [
         "He stopped at a nearby store for some groceries.",
-        "A check, stop, an act or instance of arresting something."
+        "A check, stop, an act or instance of arresting something.",
+        "I had to stop running when I started getting pains in my feet."
       ],
       "nearby": [
         "He stopped at a nearby store for some groceries."
@@ -92753,7 +93877,8 @@
       ],
       "spend": [
         "He spends far more on gambling than he does on living proper.",
-        "He spent six years in the military."
+        "He spent six years in the military.",
+        "I've spent a considerable amount of time on this."
       ],
       "more": [
         "More generally, cryptography is about constructing and analyzing protocols that prevent third parties or the public from reading private messages.",
@@ -93303,7 +94428,8 @@
         "I have decided that it is healthier to walk to work."
       ],
       "firm": [
-        "The firm celebrated twenty years since their establishment by updating their look."
+        "The firm celebrated twenty years since their establishment by updating their look.",
+        "Keep a firm hold on the handlebars."
       ],
       "celebrat": [
         "The firm celebrated twenty years since their establishment by updating their look."
@@ -93387,7 +94513,8 @@
       ],
       "used": [
         "The set of letters used when writing in a language.",
-        "The architect used geometric techniques to design her home."
+        "The architect used geometric techniques to design her home.",
+        "A substance used to treat an illness, relieve a symptom, or modify a chemical process in the body for a specific purpose."
       ],
       "pack": [
         "She packed her case rapidly and hurried out."
@@ -93658,6 +94785,185 @@
       ],
       "random": [
         "These were once thought to have completely random states of disorder and irregularities."
+      ],
+      "aspirin": [
+        "Aspirin is a drug that reduces pain, acts against inflammation and lowers body temperature."
+      ],
+      "drug": [
+        "Aspirin is a drug that reduces pain, acts against inflammation and lowers body temperature."
+      ],
+      "feel": [
+        "She suddenly felt strange, and only then realized she'd been drugged."
+      ],
+      "strange": [
+        "She suddenly felt strange, and only then realized she'd been drugged."
+      ],
+      "realiz": [
+        "She realized her drink must have been drugged.",
+        "He realized that he had left his umbrella on the train."
+      ],
+      "drink": [
+        "She realized her drink must have been drugged.",
+        "He drank the water I gave him.",
+        "What kind of drink would you like ?"
+      ],
+      "substance": [
+        "A substance used to treat an illness, relieve a symptom, or modify a chemical process in the body for a specific purpose."
+      ],
+      "running": [
+        "I had to stop running when I started getting pains in my feet."
+      ],
+      "final": [
+        "In the final analysis, pain is a fact of life."
+      ],
+      "analysis": [
+        "In the final analysis, pain is a fact of life."
+      ],
+      "objectives": [
+        "The objectives of the project were never fully realized."
+      ],
+      "project": [
+        "The objectives of the project were never fully realized."
+      ],
+      "heavens": [
+        "Suddenly, the heavens opened and we all got drenched."
+      ],
+      "open": [
+        "Suddenly, the heavens opened and we all got drenched."
+      ],
+      "water": [
+        "He drank the water I gave him."
+      ],
+      "kind": [
+        "What kind of drink would you like ?"
+      ],
+      "soft": [
+        "We have soft drinks and hard drinks."
+      ],
+      "drinks": [
+        "We have soft drinks and hard drinks."
+      ],
+      "administer": [
+        "To administer intoxicating drugs to, generally without the recipient's knowledge or consent."
+      ],
+      "intoxicating": [
+        "To administer intoxicating drugs to, generally without the recipient's knowledge or consent."
+      ],
+      "influence": [
+        "I have absolutely no influence over him."
+      ],
+      "able": [
+        "I'm not able to exercise influence over him."
+      ],
+      "exercise": [
+        "I'm not able to exercise influence over him."
+      ],
+      "admit": [
+        "I must admit that this book influenced my outlook on life."
+      ],
+      "book": [
+        "I must admit that this book influenced my outlook on life."
+      ],
+      "town": [
+        "This town is really dangerous because these youngsters have Beretta handguns.",
+        "I'll be in Yonkers, then I'm driving into town to see the Knicks at the Garden tonight."
+      ],
+      "dangerous": [
+        "This town is really dangerous because these youngsters have Beretta handguns."
+      ],
+      "driv": [
+        "I'll be in Yonkers, then I'm driving into town to see the Knicks at the Garden tonight."
+      ],
+      "corners": [
+        "The corners of the wire mesh were reinforced with little blobs of solder."
+      ],
+      "wire": [
+        "The corners of the wire mesh were reinforced with little blobs of solder."
+      ],
+      "shining": [
+        "Shining a light in the dark corners of the mind."
+      ],
+      "trip": [
+        "I took a trip out to his corner of town."
+      ],
+      "corner": [
+        "The cat had cornered a cricket between the sofa and the television stand."
+      ],
+      "cricket": [
+        "The cat had cornered a cricket between the sofa and the television stand."
+      ],
+      "doings": [
+        "In my doings I was exact."
+      ],
+      "exact": [
+        "In my doings I was exact."
+      ],
+      "demand": [
+        "To demand and enforce the payment or performance of, sometimes in a forcible or imperious way."
+      ],
+      "enforce": [
+        "To demand and enforce the payment or performance of, sometimes in a forcible or imperious way."
+      ],
+      "considerable": [
+        "I've spent a considerable amount of time on this."
+      ],
+      "thing": [
+        "A thing to be considered, consideration."
+      ],
+      "consider": [
+        "A thing to be considered, consideration."
+      ],
+      "crackling": [
+        "There was a crackling sound in the vicinity of my right ear."
+      ],
+      "sound": [
+        "There was a crackling sound in the vicinity of my right ear."
+      ],
+      "hurricane": [
+        "There is a hurricane in the vicinity of the Bahamas."
+      ],
+      "vicinity": [
+        "There is a hurricane in the vicinity of the Bahamas."
+      ],
+      "muscle": [
+        "Muscle consists largely of actin and myosin filaments."
+      ],
+      "consist": [
+        "Muscle consists largely of actin and myosin filaments."
+      ],
+      "muscl": [
+        "He muscled his way through the crowd."
+      ],
+      "crowd": [
+        "He muscled his way through the crowd."
+      ],
+      "contractile": [
+        "A contractile form of tissue which animals use to effect movement."
+      ],
+      "same": [
+        "At the same time, at the same frequency."
+      ],
+      "waiter": [
+        "Waiter, please bring me a single malt whiskey."
+      ],
+      "bring": [
+        "Waiter, please bring me a single malt whiskey."
+      ],
+      "hold": [
+        "Can I have a hold of the baby?",
+        "Hold the pencil like this."
+      ],
+      "baby": [
+        "Can I have a hold of the baby?"
+      ],
+      "pencil": [
+        "Hold the pencil like this."
+      ],
+      "take": [
+        "We took a rest at the top of the hill to get our breath back."
+      ],
+      "rest": [
+        "We took a rest at the top of the hill to get our breath back."
       ]
     }
   },
@@ -93681,26 +94987,6 @@
       "vhdl",
       "vocabulum",
       "annuum",
-      "drug",
-      "reduces",
-      "pain",
-      "acts",
-      "realized",
-      "suddenly",
-      "drink",
-      "drugged",
-      "influences",
-      "town",
-      "corner",
-      "exact",
-      "considerable",
-      "influence",
-      "vicinity",
-      "muscle",
-      "synchronous",
-      "bring",
-      "hold",
-      "rest",
       "fiction",
       "opposed",
       "workers",
@@ -93972,13 +95258,34 @@
       "disorder",
       "apparent",
       "underlying",
-      "constant"
+      "constant",
+      "aspirin",
+      "inflammation",
+      "lowers",
+      "illness",
+      "wound",
+      "train",
+      "opened",
+      "soft",
+      "consume",
+      "absolutely",
+      "outlook",
+      "dangerous",
+      "tonight",
+      "reinforced",
+      "paid",
+      "crowd",
+      "director",
+      "sales",
+      "baby",
+      "hill",
+      "breath"
     ],
     "names": [],
-    "lessons": 154,
-    "topic_cursor": 5010,
+    "lessons": 155,
+    "topic_cursor": 5070,
     "taught": 0,
-    "last_lesson": "2026-11-01 18:46:09",
+    "last_lesson": "2026-11-01 22:36:20",
     "pending_concepts": [],
     "recent_concepts": [
       "thermodynamic efficiency constrain",
