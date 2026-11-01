@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.4900000000000001,
+    "adenosine": 0.5700000000000001,
     "newborn": false
   },
   "episodic_memory": [
@@ -2868,6 +2868,13 @@
       "time": "2026-10-31 21:07:52",
       "speaker": "brain",
       "text": "Sleep and Perception overlap more than I expected. Sleep is a state of reduced mental and physical activity in which consciousness is altered and certain sensory activity is inhibited. Perception is the identification, interpretation and organization of sensory information, in order to represent and understand the presented information or environment. What they share is environment and sensory. Is there a real link between consciousness and odor molecules?",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-11-01 00:11:51",
+      "speaker": "brain",
+      "text": "I wondered about 'Virus' by myself and went searching. From Wikipedia (live internet) I learned: A virus is a submicroscopic infectious agent that replicates only inside the living cells of an organism. Key ideas I stored: tobacco mosaic virus, viruses infect, virus species, bacteria, ecosystem.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -7626,6 +7633,20 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/DNA",
       "learned": "2026-10-31 21:07:52"
+    },
+    "Virus": {
+      "summary": "A virus is a submicroscopic infectious agent that replicates only inside the living cells of an organism. Viruses infect all life forms, from animals and plants to microorganisms, including bacteria and archaea. Viruses are found in almost every ecosystem on Earth and are the most numerous type of biological entity. Since the first discovery of a virus, the tobacco mosaic virus, in the 1890s, more than 16,000 of the millions of virus species have been described in detail. The study of viruses is known as virology, a subspeciality of microbiology.",
+      "concepts": [
+        "tobacco mosaic virus",
+        "viruses infect",
+        "virus species",
+        "bacteria",
+        "ecosystem",
+        "earth"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Virus",
+      "learned": "2026-11-01 00:11:51"
     }
   },
   "creator_teachings": [
@@ -9087,6 +9108,12 @@
       "kind": "daydream",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-11-01 00:11:51",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -9289,7 +9316,8 @@
     "enzymes",
     "tool-like ai",
     "graph theory",
-    "dna molecule"
+    "dna molecule",
+    "viruses"
   ],
   "sensory_log": [
     {
@@ -57445,33 +57473,75 @@
     },
     "transaction": {
       "part_of_speech": "noun",
-      "definition": "",
+      "definition": "The act of conducting or carrying out (business, negotiations, plans).",
       "all_pos": [
         "noun"
       ],
       "synonyms": [],
       "example_sentences": [
+        "The transaction was made on Friday with the supplier.",
         "Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data."
       ],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-25 05:31:32",
-      "uses": 1
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "The act of conducting or carrying out (business, negotiations, plans).",
+          "example": "The transaction was made on Friday with the supplier."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "A deal or business agreement.",
+          "example": ""
+        }
+      ],
+      "phonetic": "/tɹænˈzækʃən/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-01 00:11:55",
+      "uses": 1,
+      "tags": []
     },
     "chain": {
       "part_of_speech": "noun",
-      "definition": "",
+      "definition": "A series of interconnected rings or links usually made of metal.",
       "all_pos": [
-        "noun"
+        "noun",
+        "verb"
       ],
-      "synonyms": [],
+      "synonyms": [
+        "rackle"
+      ],
       "example_sentences": [
+        "He wore a gold chain around the neck.",
+        "This led to an unfortunate chain of events.",
         "Since each block contains information about the previous block, they effectively form a chain, with each additional block linking to the ones before it."
       ],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-25 05:31:32",
-      "uses": 1
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "A series of interconnected rings or links usually made of metal.",
+          "example": "He wore a gold chain around the neck."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "A series of interconnected things.",
+          "example": "This led to an unfortunate chain of events."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To fasten something with a chain.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To link multiple items together.",
+          "example": ""
+        }
+      ],
+      "phonetic": "/ˈt͡ʃeɪn/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-01 00:11:55",
+      "uses": 1,
+      "tags": []
     },
     "programmers": {
       "part_of_speech": "noun",
@@ -63669,25 +63739,106 @@
       "source": "corpus",
       "learned": "2026-10-31 21:07:52",
       "uses": 1
+    },
+    "microorganisms": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Viruses infect all life forms, from animals and plants to microorganisms, including bacteria and archaea."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 00:11:51",
+      "uses": 1
+    },
+    "numerous": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Viruses are found in almost every ecosystem on Earth and are the most numerous type of biological entity."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 00:11:51",
+      "uses": 1
+    },
+    "virus": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Since the first discovery of a virus, the tobacco mosaic virus, in the 1890s, more than 16,000 of the millions of virus species have been described in detail."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 00:11:51",
+      "uses": 1
+    },
+    "carrying": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 00:11:55",
+      "uses": 1
+    },
+    "unfortunate": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 00:11:55",
+      "uses": 1
+    },
+    "linking": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-01 00:11:55",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 2924,
-      "tokens": 40407,
+      "sentences": 2936,
+      "tokens": 40608,
       "sources": {
         "seed corpus": 64,
         "conversation": 36,
-        "dictionary": 1658,
-        "explore": 477,
+        "dictionary": 1665,
+        "explore": 482,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "4e9836a703b0",
-        "003ed3fcd75b",
-        "09e9a8d6a0cd",
         "abd87759fc85",
         "7568de8fcd47",
         "11df40fb55ab",
@@ -63984,7 +64135,10 @@
         "fff87cb13058",
         "e62ea96ae39a",
         "82f6f7777f79",
-        "351486e584e4"
+        "351486e584e4",
+        "1c85e6071e54",
+        "c19b3d01652f",
+        "e5e61174e807"
       ],
       "seeded": true,
       "rejected": 650,
@@ -64752,7 +64906,6 @@
         "calculations": 1,
         "operations": 1,
         "leaving": 1,
-        "numerous": 1,
         "racism": 1,
         "resolved": 1,
         "dealt": 1,
@@ -65500,7 +65653,6 @@
         "contained": 1,
         "ubiquitous": 1,
         "prokaryotic": 1,
-        "microorganisms": 1,
         "micrometres": 1,
         "habitats": 1,
         "inhabit": 1,
@@ -65883,7 +66035,6 @@
         "subjective": 1,
         "securely": 1,
         "hashes": 1,
-        "linking": 1,
         "reproducible": 1,
         "tangible": 1,
         "lancelot": 1,
@@ -66130,7 +66281,6 @@
         "weight": 1,
         "cease": 1,
         "possession": 1,
-        "unfortunate": 1,
         "marbles": 1,
         "bag": 1,
         "emitted": 1,
@@ -66369,7 +66519,6 @@
         "spades": 1,
         "winding": 1,
         "drains": 1,
-        "carrying": 1,
         "oftentimes": 1,
         "ocean": 1,
         "inland": 1,
@@ -66566,20 +66715,39 @@
         "ribonucleic": 1,
         "lipids": 1,
         "carbohydrates": 1,
-        "polysaccharides": 1
+        "polysaccharides": 1,
+        "submicroscopic": 1,
+        "infectious": 1,
+        "replicates": 1,
+        "infect": 1,
+        "archaea": 1,
+        "tobacco": 1,
+        "mosaic": 1,
+        "virology": 1,
+        "subspeciality": 1,
+        "microbiology": 1,
+        "supplier": 1,
+        "conducting": 1,
+        "negotiations": 1,
+        "plans": 1,
+        "wore": 1,
+        "neck": 1,
+        "led": 1,
+        "rings": 1,
+        "links": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 438,
+        "PRON": 440,
         "WH": 35,
-        "NOUN": 786,
-        "DET": 838,
+        "NOUN": 788,
+        "DET": 844,
         "VERB": 296,
         "MODAL": 7,
         "ADJ": 134,
         "INTJ": 14,
-        "CONJ": 37,
+        "CONJ": 39,
         "AUX": 19,
         "ADV": 42,
         "PREP": 212,
@@ -66589,9 +66757,9 @@
       },
       "PRON": {
         "AUX": 357,
-        "PUNCT": 98,
-        "ADV": 26,
-        "VERB": 413,
+        "PUNCT": 99,
+        "ADV": 27,
+        "VERB": 415,
         "MODAL": 129,
         "PREP": 44,
         "WH": 6,
@@ -66609,29 +66777,29 @@
         "ADJ": 298,
         "PRON": 27,
         "PUNCT": 16,
-        "DET": 457,
+        "DET": 459,
         "NOUN": 102,
         "NEG": 76,
-        "VERB": 428,
+        "VERB": 432,
         "INTJ": 2,
         "ADV": 143,
         "CONJ": 20,
         "NUM": 27,
         "PROPN": 7,
         "WH": 4,
-        "AUX": 34,
+        "AUX": 35,
         "PREP": 40,
         "PART": 18
       },
       "ADJ": {
         "PART": 49,
-        "NOUN": 1936,
+        "NOUN": 1946,
         "WH": 8,
-        "PUNCT": 310,
-        "PREP": 202,
+        "PUNCT": 311,
+        "PREP": 203,
         "CONJ": 119,
         "PROPN": 44,
-        "ADJ": 120,
+        "ADJ": 121,
         "DET": 42,
         "AUX": 33,
         "VERB": 103,
@@ -66643,7 +66811,7 @@
         "NEG": 1
       },
       "PART": {
-        "VERB": 467,
+        "VERB": 468,
         "AUX": 76,
         "ADJ": 37,
         "NOUN": 61,
@@ -66655,16 +66823,16 @@
         "DET": 1
       },
       "VERB": {
-        "PREP": 756,
+        "PREP": 761,
         "PART": 162,
         "ADJ": 109,
-        "NOUN": 719,
-        "PUNCT": 335,
+        "NOUN": 721,
+        "PUNCT": 336,
         "PRON": 152,
         "AUX": 42,
-        "DET": 584,
+        "DET": 588,
         "VERB": 66,
-        "CONJ": 237,
+        "CONJ": 238,
         "WH": 32,
         "</S>": 15,
         "ADV": 77,
@@ -66674,14 +66842,14 @@
         "MODAL": 3
       },
       "PREP": {
-        "PRON": 106,
-        "NOUN": 1384,
-        "DET": 1545,
+        "PRON": 107,
+        "NOUN": 1394,
+        "DET": 1557,
         "PUNCT": 76,
-        "VERB": 118,
+        "VERB": 119,
         "PREP": 40,
-        "ADJ": 371,
-        "PROPN": 141,
+        "ADJ": 374,
+        "PROPN": 142,
         "AUX": 26,
         "NUM": 74,
         "WH": 53,
@@ -66692,15 +66860,15 @@
         "</S>": 1
       },
       "PUNCT": {
-        "</S>": 2737,
-        "NOUN": 769,
-        "CONJ": 422,
-        "PRON": 68,
+        "</S>": 2749,
+        "NOUN": 772,
+        "CONJ": 423,
+        "PRON": 69,
         "VERB": 102,
         "ADV": 109,
-        "PREP": 97,
+        "PREP": 102,
         "ADJ": 121,
-        "DET": 229,
+        "DET": 232,
         "WH": 58,
         "AUX": 43,
         "NUM": 8,
@@ -66732,7 +66900,7 @@
         "NOUN": 112,
         "CONJ": 21,
         "DET": 35,
-        "VERB": 237,
+        "VERB": 239,
         "</S>": 3,
         "PRON": 5,
         "MODAL": 2,
@@ -66746,36 +66914,36 @@
         "WH": 5
       },
       "NOUN": {
-        "AUX": 791,
-        "PREP": 2331,
-        "NOUN": 2301,
-        "PUNCT": 3641,
-        "CONJ": 913,
-        "VERB": 640,
-        "ADV": 111,
-        "PART": 296,
-        "ADJ": 294,
+        "AUX": 796,
+        "PREP": 2347,
+        "NOUN": 2308,
+        "PUNCT": 3662,
+        "CONJ": 919,
+        "VERB": 643,
+        "ADV": 112,
+        "PART": 297,
+        "ADJ": 296,
         "MODAL": 109,
         "</S>": 152,
         "PRON": 181,
         "WH": 83,
-        "DET": 449,
+        "DET": 451,
         "PROPN": 119,
         "NUM": 17,
         "NEG": 8,
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 2896,
-        "ADJ": 1212,
+        "NOUN": 2919,
+        "ADJ": 1219,
         "PRON": 30,
         "PREP": 66,
-        "NUM": 60,
+        "NUM": 61,
         "PART": 8,
         "VERB": 59,
         "CONJ": 63,
         "PROPN": 144,
-        "DET": 103,
+        "DET": 104,
         "ADV": 45,
         "PUNCT": 33,
         "AUX": 4,
@@ -66784,17 +66952,17 @@
       },
       "CONJ": {
         "PRON": 122,
-        "DET": 334,
-        "NOUN": 876,
+        "DET": 336,
+        "NOUN": 882,
         "VERB": 149,
         "ADJ": 177,
         "ADV": 65,
-        "PUNCT": 19,
+        "PUNCT": 20,
         "WH": 19,
         "PREP": 61,
         "CONJ": 28,
         "NUM": 7,
-        "AUX": 46,
+        "AUX": 47,
         "PROPN": 51,
         "MODAL": 18,
         "NEG": 7,
@@ -66842,7 +67010,7 @@
         "AUX": 34,
         "PROPN": 125,
         "ADJ": 17,
-        "PREP": 34,
+        "PREP": 35,
         "CONJ": 35,
         "VERB": 23,
         "NUM": 1,
@@ -66851,7 +67019,7 @@
         "WH": 1
       },
       "NUM": {
-        "NOUN": 128,
+        "NOUN": 129,
         "PUNCT": 12,
         "CONJ": 23,
         "PREP": 31,
@@ -66870,7 +67038,7 @@
     "pos_trigrams": {
       "<S>|PRON": {
         "AUX": 177,
-        "VERB": 187,
+        "VERB": 189,
         "MODAL": 44,
         "ADV": 9,
         "DET": 3,
@@ -66923,7 +67091,7 @@
       "PART|VERB": {
         "PREP": 60,
         "ADJ": 25,
-        "PUNCT": 62,
+        "PUNCT": 63,
         "NOUN": 99,
         "WH": 6,
         "DET": 113,
@@ -66939,14 +67107,14 @@
       },
       "VERB|PREP": {
         "PRON": 22,
-        "DET": 305,
-        "NOUN": 215,
+        "DET": 306,
+        "NOUN": 217,
         "PUNCT": 25,
         "VERB": 23,
-        "ADJ": 69,
+        "ADJ": 70,
         "PREP": 19,
         "NUM": 22,
-        "PROPN": 34,
+        "PROPN": 35,
         "CONJ": 5,
         "AUX": 2,
         "WH": 5,
@@ -66954,7 +67122,7 @@
         "PART": 1
       },
       "PREP|PRON": {
-        "PUNCT": 49,
+        "PUNCT": 50,
         "VERB": 20,
         "AUX": 9,
         "ADV": 4,
@@ -66968,7 +67136,7 @@
         "PRON": 1
       },
       "PRON|PUNCT": {
-        "</S>": 73,
+        "</S>": 74,
         "NOUN": 7,
         "ADV": 4,
         "PUNCT": 1,
@@ -67010,7 +67178,7 @@
       },
       "PRON|ADV": {
         "PUNCT": 7,
-        "VERB": 13,
+        "VERB": 14,
         "CONJ": 1,
         "AUX": 2,
         "NOUN": 2,
@@ -67028,11 +67196,11 @@
       },
       "PRON|VERB": {
         "PART": 38,
-        "PREP": 58,
+        "PREP": 59,
         "NOUN": 60,
         "PRON": 41,
         "PUNCT": 23,
-        "DET": 115,
+        "DET": 116,
         "VERB": 16,
         "ADJ": 17,
         "CONJ": 20,
@@ -67076,8 +67244,8 @@
         "CONJ": 2
       },
       "<S>|NOUN": {
-        "AUX": 157,
-        "VERB": 78,
+        "AUX": 158,
+        "VERB": 79,
         "PUNCT": 26,
         "NOUN": 298,
         "CONJ": 29,
@@ -67092,17 +67260,17 @@
         "INTJ": 2
       },
       "NOUN|AUX": {
-        "DET": 257,
+        "DET": 258,
         "ADJ": 135,
         "NOUN": 56,
         "ADV": 87,
-        "VERB": 166,
+        "VERB": 169,
         "CONJ": 9,
         "NUM": 13,
         "NEG": 17,
         "PROPN": 3,
         "WH": 3,
-        "AUX": 16,
+        "AUX": 17,
         "PREP": 15,
         "PART": 5,
         "PRON": 4,
@@ -67110,24 +67278,24 @@
       },
       "AUX|DET": {
         "NOUN": 234,
-        "ADJ": 180,
+        "ADJ": 181,
         "PROPN": 8,
         "VERB": 7,
         "PREP": 4,
         "ADV": 6,
-        "DET": 10,
+        "DET": 11,
         "NUM": 7,
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 898,
-        "AUX": 249,
+        "PREP": 905,
+        "AUX": 251,
         "CONJ": 228,
-        "PUNCT": 668,
-        "VERB": 196,
+        "PUNCT": 675,
+        "VERB": 198,
         "ADV": 28,
-        "ADJ": 63,
-        "NOUN": 271,
+        "ADJ": 65,
+        "NOUN": 274,
         "PRON": 45,
         "PART": 83,
         "</S>": 9,
@@ -67138,29 +67306,29 @@
         "NUM": 3
       },
       "NOUN|PREP": {
-        "NOUN": 879,
-        "DET": 881,
+        "NOUN": 885,
+        "DET": 887,
         "PREP": 13,
-        "ADJ": 227,
+        "ADJ": 229,
         "PROPN": 63,
-        "VERB": 70,
+        "VERB": 71,
         "PUNCT": 27,
         "NUM": 33,
         "WH": 36,
         "AUX": 18,
         "ADV": 11,
-        "PRON": 58,
+        "PRON": 59,
         "CONJ": 14,
         "</S>": 1
       },
       "PREP|NOUN": {
-        "NOUN": 212,
-        "PUNCT": 431,
+        "NOUN": 213,
+        "PUNCT": 434,
         "VERB": 57,
-        "CONJ": 167,
+        "CONJ": 171,
         "ADJ": 30,
-        "DET": 59,
-        "AUX": 38,
+        "DET": 60,
+        "AUX": 39,
         "PREP": 161,
         "PRON": 35,
         "</S>": 122,
@@ -67172,14 +67340,14 @@
         "ADV": 8
       },
       "NOUN|NOUN": {
-        "PUNCT": 808,
+        "PUNCT": 811,
         "PART": 43,
         "NOUN": 551,
-        "PREP": 335,
+        "PREP": 338,
         "CONJ": 131,
         "VERB": 90,
         "PROPN": 49,
-        "AUX": 101,
+        "AUX": 102,
         "MODAL": 21,
         "ADJ": 52,
         "NUM": 6,
@@ -67191,16 +67359,16 @@
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 2095,
-        "NOUN": 526,
-        "CONJ": 305,
+        "</S>": 2105,
+        "NOUN": 529,
+        "CONJ": 306,
         "ADV": 79,
-        "PREP": 69,
+        "PREP": 72,
         "ADJ": 85,
-        "DET": 162,
+        "DET": 165,
         "VERB": 76,
         "WH": 44,
-        "PRON": 45,
+        "PRON": 46,
         "AUX": 34,
         "NUM": 6,
         "PROPN": 5,
@@ -67211,7 +67379,7 @@
         "MODAL": 1
       },
       "<S>|DET": {
-        "NOUN": 544,
+        "NOUN": 550,
         "ADJ": 209,
         "PROPN": 33,
         "VERB": 7,
@@ -67223,9 +67391,9 @@
         "PRON": 3
       },
       "DET|ADJ": {
-        "NOUN": 966,
+        "NOUN": 972,
         "CONJ": 37,
-        "ADJ": 45,
+        "ADJ": 46,
         "PUNCT": 51,
         "VERB": 36,
         "PREP": 29,
@@ -67239,13 +67407,13 @@
         "NUM": 5
       },
       "ADJ|NOUN": {
-        "PUNCT": 638,
-        "NOUN": 274,
+        "PUNCT": 643,
+        "NOUN": 275,
         "MODAL": 17,
         "VERB": 99,
-        "PREP": 405,
+        "PREP": 408,
         "CONJ": 162,
-        "DET": 74,
+        "DET": 75,
         "ADJ": 23,
         "AUX": 107,
         "PART": 59,
@@ -67271,8 +67439,8 @@
         "WH": 1
       },
       "PREP|DET": {
-        "NOUN": 979,
-        "ADJ": 381,
+        "NOUN": 987,
+        "ADJ": 385,
         "NUM": 25,
         "PREP": 16,
         "PROPN": 61,
@@ -67288,7 +67456,7 @@
         "PRON": 28,
         "DET": 146,
         "VERB": 50,
-        "NOUN": 495,
+        "NOUN": 499,
         "ADJ": 71,
         "WH": 7,
         "PREP": 27,
@@ -67296,10 +67464,10 @@
         "CONJ": 14,
         "ADV": 31,
         "PROPN": 16,
-        "AUX": 18,
+        "AUX": 19,
         "PART": 3,
         "MODAL": 1,
-        "PUNCT": 2
+        "PUNCT": 3
       },
       "CONJ|PRON": {
         "VERB": 45,
@@ -67315,11 +67483,11 @@
       },
       "VERB|NOUN": {
         "PUNCT": 199,
-        "PREP": 117,
+        "PREP": 118,
         "PART": 22,
         "VERB": 26,
         "NOUN": 188,
-        "CONJ": 51,
+        "CONJ": 52,
         "MODAL": 5,
         "ADJ": 24,
         "DET": 30,
@@ -67357,10 +67525,10 @@
         "VERB": 2
       },
       "PUNCT|NOUN": {
-        "CONJ": 57,
-        "NOUN": 128,
+        "CONJ": 58,
+        "NOUN": 129,
         "ADJ": 8,
-        "PUNCT": 402,
+        "PUNCT": 403,
         "PREP": 79,
         "AUX": 24,
         "DET": 21,
@@ -67374,7 +67542,7 @@
         "MODAL": 2
       },
       "CONJ|DET": {
-        "NOUN": 212,
+        "NOUN": 213,
         "ADJ": 82,
         "CONJ": 3,
         "PUNCT": 4,
@@ -67386,7 +67554,7 @@
         "WH": 1,
         "ADV": 4,
         "VERB": 2,
-        "NUM": 3
+        "NUM": 4
       },
       "VERB|PUNCT": {
         "</S>": 215,
@@ -67401,7 +67569,7 @@
         "VERB": 6,
         "PART": 4,
         "AUX": 2,
-        "PREP": 1
+        "PREP": 2
       },
       "<S>|VERB": {
         "PRON": 15,
@@ -67476,7 +67644,7 @@
         "ADJ": 14
       },
       "ADJ|PUNCT": {
-        "</S>": 158,
+        "</S>": 159,
         "CONJ": 36,
         "VERB": 6,
         "DET": 8,
@@ -67493,14 +67661,14 @@
       },
       "NOUN|VERB": {
         "PART": 26,
-        "DET": 145,
+        "DET": 147,
         "PREP": 152,
         "WH": 5,
         "PRON": 43,
         "PUNCT": 49,
         "</S>": 3,
         "ADV": 19,
-        "NOUN": 126,
+        "NOUN": 127,
         "NUM": 4,
         "CONJ": 34,
         "AUX": 6,
@@ -67523,7 +67691,7 @@
         "WH": 1
       },
       "PUNCT|CONJ": {
-        "NOUN": 159,
+        "NOUN": 160,
         "PRON": 34,
         "DET": 63,
         "PUNCT": 6,
@@ -67541,14 +67709,14 @@
       },
       "CONJ|NOUN": {
         "AUX": 28,
-        "PUNCT": 244,
+        "PUNCT": 246,
         "</S>": 4,
-        "PREP": 174,
+        "PREP": 175,
         "VERB": 31,
         "WH": 10,
-        "NOUN": 235,
+        "NOUN": 236,
         "PRON": 17,
-        "PART": 21,
+        "PART": 22,
         "CONJ": 35,
         "PROPN": 6,
         "ADJ": 16,
@@ -67556,11 +67724,11 @@
         "NEG": 1,
         "NUM": 1,
         "MODAL": 6,
-        "ADV": 2
+        "ADV": 3
       },
       "VERB|DET": {
-        "NOUN": 364,
-        "ADJ": 173,
+        "NOUN": 367,
+        "ADJ": 174,
         "PREP": 6,
         "CONJ": 8,
         "DET": 9,
@@ -67572,7 +67740,7 @@
       },
       "NOUN|ADV": {
         "PUNCT": 33,
-        "VERB": 33,
+        "VERB": 34,
         "PREP": 18,
         "NOUN": 11,
         "ADJ": 1,
@@ -67620,13 +67788,13 @@
         "PROPN": 1
       },
       "AUX|VERB": {
-        "PREP": 185,
+        "PREP": 188,
         "PUNCT": 62,
         "PART": 50,
         "PRON": 4,
         "NOUN": 34,
         "DET": 28,
-        "CONJ": 37,
+        "CONJ": 38,
         "ADJ": 9,
         "ADV": 9,
         "NUM": 1,
@@ -67666,7 +67834,7 @@
       "NOUN|PART": {
         "ADJ": 25,
         "AUX": 35,
-        "VERB": 183,
+        "VERB": 184,
         "NOUN": 40,
         "CONJ": 3,
         "PUNCT": 6,
@@ -67739,9 +67907,9 @@
       },
       "NOUN|ADJ": {
         "PUNCT": 38,
-        "NOUN": 176,
+        "NOUN": 177,
         "DET": 4,
-        "PREP": 35,
+        "PREP": 36,
         "ADJ": 9,
         "AUX": 4,
         "CONJ": 13,
@@ -67754,7 +67922,7 @@
       },
       "ADJ|PREP": {
         "NOUN": 78,
-        "DET": 72,
+        "DET": 73,
         "VERB": 11,
         "ADJ": 19,
         "PROPN": 5,
@@ -67772,7 +67940,7 @@
         "PUNCT": 3,
         "PROPN": 1,
         "MODAL": 3,
-        "NOUN": 78,
+        "NOUN": 79,
         "AUX": 2,
         "ADJ": 18,
         "NEG": 2,
@@ -67787,7 +67955,7 @@
         "NUM": 1,
         "NOUN": 5,
         "AUX": 1,
-        "DET": 6,
+        "DET": 8,
         "VERB": 1
       },
       "PUNCT|PRON": {
@@ -67795,7 +67963,7 @@
         "VERB": 9,
         "AUX": 29,
         "ADJ": 1,
-        "ADV": 3,
+        "ADV": 4,
         "PUNCT": 1,
         "CONJ": 1,
         "PRON": 1
@@ -67926,7 +68094,7 @@
       "PREP|VERB": {
         "PUNCT": 23,
         "ADJ": 5,
-        "NOUN": 24,
+        "NOUN": 25,
         "DET": 17,
         "</S>": 9,
         "PROPN": 2,
@@ -67981,9 +68149,9 @@
         "NUM": 1
       },
       "PUNCT|PREP": {
-        "DET": 25,
+        "DET": 28,
         "ADJ": 11,
-        "NOUN": 39,
+        "NOUN": 41,
         "AUX": 2,
         "PRON": 3,
         "VERB": 3,
@@ -68045,11 +68213,11 @@
       },
       "ADV|VERB": {
         "PROPN": 3,
-        "DET": 40,
+        "DET": 41,
         "PART": 13,
         "NOUN": 32,
         "CONJ": 32,
-        "PREP": 70,
+        "PREP": 71,
         "WH": 5,
         "PUNCT": 15,
         "ADJ": 8,
@@ -68089,8 +68257,8 @@
         "CONJ": 11,
         "PROPN": 11,
         "ADJ": 24,
-        "NOUN": 277,
-        "PUNCT": 22,
+        "NOUN": 279,
+        "PUNCT": 23,
         "AUX": 4,
         "VERB": 10,
         "</S>": 6,
@@ -68154,7 +68322,7 @@
         "AUX": 3,
         "PROPN": 31,
         "NOUN": 28,
-        "PREP": 7,
+        "PREP": 8,
         "VERB": 4,
         "CONJ": 10,
         "PART": 5,
@@ -68187,7 +68355,7 @@
         "VERB": 4
       },
       "PUNCT|DET": {
-        "NOUN": 126,
+        "NOUN": 129,
         "ADJ": 44,
         "VERB": 5,
         "PROPN": 14,
@@ -68203,7 +68371,7 @@
         "NOUN": 1
       },
       "ADJ|ADJ": {
-        "NOUN": 63,
+        "NOUN": 64,
         "ADJ": 6,
         "PUNCT": 14,
         "AUX": 7,
@@ -68234,7 +68402,7 @@
         "</S>": 2,
         "DET": 3,
         "NOUN": 1,
-        "PREP": 1
+        "PREP": 2
       },
       "MODAL|CONJ": {
         "NOUN": 3
@@ -68251,7 +68419,7 @@
         "PART": 1
       },
       "NOUN|DET": {
-        "NOUN": 260,
+        "NOUN": 262,
         "ADJ": 82,
         "CONJ": 28,
         "ADV": 10,
@@ -68292,7 +68460,7 @@
         "PRON": 1
       },
       "DET|NUM": {
-        "NOUN": 45,
+        "NOUN": 46,
         "PART": 2,
         "PROPN": 1,
         "ADJ": 4,
@@ -68303,7 +68471,7 @@
         "AUX": 1
       },
       "NUM|NOUN": {
-        "PREP": 37,
+        "PREP": 38,
         "VERB": 5,
         "PUNCT": 29,
         "AUX": 10,
@@ -68621,7 +68789,7 @@
       },
       "CONJ|AUX": {
         "VERB": 15,
-        "DET": 16,
+        "DET": 17,
         "NOUN": 1,
         "ADJ": 9,
         "NEG": 4,
@@ -68675,7 +68843,7 @@
       "PROPN|PREP": {
         "NOUN": 8,
         "PROPN": 7,
-        "DET": 11,
+        "DET": 12,
         "ADJ": 3,
         "MODAL": 1,
         "PUNCT": 1,
@@ -68766,7 +68934,7 @@
         "NOUN": 63,
         "PROPN": 3,
         "PUNCT": 6,
-        "ADJ": 16,
+        "ADJ": 17,
         "VERB": 4,
         "CONJ": 1,
         "AUX": 1,
@@ -68882,7 +69050,7 @@
         "AUX": 1
       },
       "AUX|AUX": {
-        "VERB": 20,
+        "VERB": 21,
         "ADJ": 7,
         "ADV": 2,
         "PART": 1,
@@ -69202,7 +69370,7 @@
         "saying": 1
       },
       "to": {
-        "the": 82,
+        "the": 83,
         "be": 44,
         "a": 35,
         "do": 17,
@@ -69211,16 +69379,7 @@
         "write": 4,
         "overlap": 3,
         "separate": 3,
-        "read": 3,
-        "influence": 1,
-        "continue": 1,
-        "fund": 1,
-        "finances": 1,
-        "indicate": 1,
-        "us": 1,
-        "cryptography": 1,
-        "model": 1,
-        "form": 1
+        "read": 3
       },
       "talk": {
         "with": 1,
@@ -69229,7 +69388,7 @@
         "we": 1
       },
       "with": {
-        "the": 34,
+        "the": 35,
         "a": 30,
         "their": 7,
         "those": 6,
@@ -69243,7 +69402,8 @@
         "them": 1,
         "tool-like": 1,
         "chatbots": 1,
-        "traditional": 1
+        "traditional": 1,
+        "each": 1
       },
       "how": {
         "to": 8,
@@ -69273,16 +69433,7 @@
         "most": 2,
         "words": 2,
         "usually": 2,
-        "a": 1,
-        "being": 1,
-        "called": 1,
-        "converted": 1,
-        "constructs": 1,
-        "mathematical": 1,
-        "connected": 1,
-        "one": 2,
-        "nucleic": 1,
-        "essential": 1
+        "the": 1
       },
       "you": {
         "to": 7,
@@ -69368,7 +69519,7 @@
         "are": 2
       },
       "is": {
-        "a": 149,
+        "a": 150,
         "the": 109,
         "an": 30,
         "one": 8,
@@ -69381,7 +69532,8 @@
         "somebody": 1,
         "our": 1,
         "competing": 1,
-        "made": 2
+        "made": 2,
+        "known": 1
       },
       "a": {
         "noun": 18,
@@ -69393,7 +69545,15 @@
         "preposition": 3,
         "neural": 3,
         "thermodynamic": 3,
-        "varying": 3
+        "varying": 3,
+        "virus": 2,
+        "submicroscopic": 1,
+        "subspeciality": 1,
+        "cryptographic": 1,
+        "timestamp": 1,
+        "gold": 1,
+        "chain": 1,
+        "series": 1
       },
       "for": {
         "the": 29,
@@ -69417,8 +69577,8 @@
       },
       "the": {
         "brain": 11,
-        "order": 10,
         "development": 11,
+        "order": 10,
         "blackboard": 9,
         "structure": 8,
         "pdf": 6,
@@ -69426,12 +69586,14 @@
         "lesson": 4,
         "variable": 3,
         "listener": 3,
-        "previous": 1,
-        "non-agentic": 1,
+        "millions": 1,
         "study": 1,
-        "principal": 1,
-        "polymer": 1,
-        "four": 1
+        "transaction": 1,
+        "supplier": 1,
+        "previous": 2,
+        "act": 1,
+        "neck": 1,
+        "ones": 1
       },
       "brain": {
         "is": 1,
@@ -69566,7 +69728,7 @@
         "occur": 1
       },
       "about": {
-        "the": 11,
+        "the": 12,
         "this": 2,
         "by": 2,
         "music": 1,
@@ -69604,7 +69766,9 @@
         "enclosure": 1,
         "outlook": 1,
         "organization": 1,
-        "with": 1
+        "with": 1,
+        "carrying": 1,
+        "links": 1
       },
       "it": {
         "is": 60,
@@ -69673,7 +69837,7 @@
         "that": 1
       },
       "more": {
-        "than": 7,
+        "than": 8,
         "dependents": 4,
         "information": 3,
         "detailed": 3,
@@ -69809,7 +69973,7 @@
         "by": 1
       },
       "have": {
-        "been": 8,
+        "been": 9,
         "a": 10,
         "to": 6,
         "greater": 3,
@@ -69840,16 +70004,9 @@
         "war": 3,
         "against": 3,
         "functions": 2,
-        "transportation": 1,
-        "cryptanalysts": 1,
-        "transaction": 1,
-        "take": 1,
-        "computer": 1,
-        "directed": 1,
-        "reproduction": 1,
-        "many": 1,
-        "ribonucleic": 1,
-        "complex": 1
+        "archaea": 1,
+        "are": 1,
+        "transaction": 1
       },
       "meanings": {
         "have": 1,
@@ -69901,7 +70058,8 @@
         "mimic": 3,
         "quantifies": 2,
         "were": 1,
-        "coil": 1
+        "coil": 1,
+        "replicates": 1
       },
       "good": {
         "manners": 3,
@@ -70027,7 +70185,8 @@
         "company": 1,
         "program": 1,
         "data": 1,
-        "context": 1
+        "context": 1,
+        "led": 1
       },
       "they": {
         "may": 4,
@@ -70046,28 +70205,20 @@
         "carried": 1,
         "kept": 1,
         "recovered": 1,
-        "interact": 1
+        "interact": 1,
+        "effectively": 1
       },
       "in": {
-        "the": 144,
+        "the": 145,
         "a": 80,
         "english": 18,
         "many": 12,
-        "order": 9,
         "which": 10,
+        "order": 9,
         "machine": 8,
         "c": 6,
         "most": 5,
-        "\"": 4,
-        "mathematics": 2,
-        "such": 1,
-        "mathematical": 1,
-        "philosophy": 1,
-        ")": 1,
-        "computer": 1,
-        "storage": 1,
-        "this": 1,
-        "discrete": 1
+        "\"": 4
       },
       "children": {
         "play": 1,
@@ -70102,7 +70253,8 @@
         "cramped": 1,
         "good": 1,
         "high": 1,
-        "deeply": 1
+        "deeply": 1,
+        "made": 1
       },
       "so": {
         "as": 7,
@@ -70135,7 +70287,8 @@
         "spends": 1,
         "does": 1,
         "managed": 1,
-        "made": 1
+        "made": 1,
+        "wore": 1
       },
       "book": {
         "and": 2,
@@ -70218,9 +70371,9 @@
         "at": 1
       },
       "of": {
-        "the": 212,
-        "a": 99,
-        "an": 23,
+        "the": 214,
+        "a": 100,
+        "an": 24,
         "or": 14,
         "speech": 9,
         "information": 7,
@@ -70228,12 +70381,9 @@
         "criteria": 6,
         "knowledge": 6,
         "protons": 5,
-        "vertices": 1,
-        "study": 1,
-        "two": 1,
-        "all": 1,
-        "macromolecules": 1,
-        "life": 1
+        "events": 1,
+        "interconnected": 1,
+        "metal": 1
       },
       "reading": {
         "is": 1,
@@ -70469,14 +70619,15 @@
         "jack": 1,
         "me": 1,
         "for": 1,
-        "of": 1,
+        "of": 2,
         "by": 3,
         "sandwiches": 1,
         "from": 1,
         "and": 1,
         "another": 1,
         "a": 2,
-        "between": 1
+        "between": 1,
+        "on": 1
       },
       "beautiful": {
         "picture": 1,
@@ -70608,7 +70759,8 @@
         "some": 1,
         "west": 1,
         "spares": 1,
-        "parts": 1
+        "parts": 1,
+        "animals": 1
       },
       "point": {
         "of": 2,
@@ -70668,7 +70820,7 @@
         "i": 2,
         "matchine": 2,
         "or": 2,
-        "of": 32,
+        "of": 33,
         "brilliant": 1,
         "in": 3,
         "whole": 1,
@@ -70746,7 +70898,7 @@
       },
       "found": {
         "ali": 1,
-        "in": 10,
+        "in": 11,
         "to": 1,
         "dead": 1,
         "her": 1,
@@ -70824,11 +70976,12 @@
         "example": 3,
         "auxiliary": 3,
         "application": 3,
-        "organism": 3,
+        "organism": 4,
         "artist": 3,
         "item": 1,
         "act": 1,
-        "ai": 1
+        "ai": 1,
+        "unfortunate": 1
       },
       "update": {
         "to": 1,
@@ -70852,7 +71005,9 @@
         "gambling": 1,
         "living": 1,
         "my": 1,
-        "this": 1
+        "this": 1,
+        "earth": 1,
+        "friday": 1
       },
       "situation": {
         "in": 2,
@@ -70904,7 +71059,8 @@
         "approaches": 1,
         "fundamental": 1,
         "comfortable": 1,
-        "famous": 1
+        "famous": 1,
+        "numerous": 1
       },
       "recent": {
         "transaction": 1,
@@ -70915,7 +71071,7 @@
         "piece": 1,
         "grammatical": 1,
         "adj": 1,
-        "block": 1
+        "block": 2
       },
       "piece": {
         "of": 9,
@@ -71013,7 +71169,7 @@
         "–": 1,
         "that": 3,
         "plurals": 1,
-        "a": 5,
+        "a": 6,
         "for": 1,
         "to": 2,
         "neural": 1,
@@ -71124,7 +71280,8 @@
         "sciences": 1,
         "chemistry": 1,
         "macromolecule": 1,
-        "catalyst": 1
+        "catalyst": 1,
+        "entity": 1
       },
       "operate": {
         "under": 1,
@@ -71326,7 +71483,7 @@
         "processing": 2,
         "theory": 2,
         "systems": 2,
-        "about": 3,
+        "about": 4,
         "carrier": 2,
         "to": 3,
         "associated": 1,
@@ -71722,7 +71879,8 @@
         "computers": 1,
         "electromagnetic": 1,
         "adrenalin": 1,
-        "shipping": 1
+        "shipping": 1,
+        "bacteria": 1
       },
       "transmission": {
         "of": 1,
@@ -71766,7 +71924,8 @@
         "in": 1,
         "those": 2,
         "rna": 1,
-        "polysaccharides": 1
+        "polysaccharides": 1,
+        "business": 1
       },
       ")": {
         "is": 17,
@@ -72068,8 +72227,8 @@
         "word": 1,
         "page": 1,
         "orbiting": 1,
-        "block": 3,
-        "additional": 1,
+        "block": 5,
+        "additional": 2,
         "year": 1,
         "dna": 1,
         "step": 1
@@ -72275,7 +72434,7 @@
         "century": 8
       },
       "known": {
-        "as": 17,
+        "as": 18,
         "to": 4,
         "that": 1,
         "example": 1,
@@ -72293,22 +72452,12 @@
         "the": 23,
         "in": 7,
         "not": 4,
-        "it": 3,
         "well": 4,
+        "it": 3,
         "foreign": 3,
         "casual": 2,
         "surprise": 2,
-        "linear": 2,
-        "ip": 1,
-        "fuel": 1,
-        "feedback": 1,
-        "inputs": 1,
-        "an": 1,
-        "he": 2,
-        "true": 1,
-        "agentic": 1,
-        "answering": 1,
-        "with": 1
+        "linear": 2
       },
       "itself": {
         "was": 2,
@@ -72636,11 +72785,13 @@
         "see": 1,
         "eaten": 1,
         "a": 2,
-        "caused": 1
+        "caused": 1,
+        "made": 1
       },
       "plants": {
         "grown": 1,
-        "and": 3
+        "and": 3,
+        "to": 1
       },
       "food": {
         "or": 2,
@@ -72692,7 +72843,7 @@
       },
       "around": {
         "twenty": 1,
-        "the": 2,
+        "the": 3,
         "stacking": 2,
         "a": 2,
         "hours": 1,
@@ -72964,7 +73115,7 @@
         "fallacies": 1
       },
       "type": {
-        "of": 8,
+        "of": 9,
         "systems": 3,
         "checker": 1,
         "inference": 5,
@@ -73180,7 +73331,7 @@
         "words": 1
       },
       "series": {
-        "of": 3,
+        "of": 4,
         "was": 1,
         "to": 1
       },
@@ -73863,7 +74014,7 @@
         "btus": 1,
         "or": 1,
         "on": 1,
-        "(": 2,
+        "(": 3,
         "fine": 1
       },
       "many": {
@@ -73968,7 +74119,8 @@
         "activity": 1,
         "areas": 1,
         "metabolic": 1,
-        "known": 2
+        "known": 2,
+        "life": 1
       },
       "possible": {
         "permutations": 1,
@@ -74079,11 +74231,11 @@
         "in": 1,
         "early": 1,
         "memories": 1,
-        "each": 1,
+        "each": 2,
         "our": 1,
         "by": 1,
         "i": 1,
-        "the": 1
+        "the": 2
       },
       "explicitly": {
         "mark": 1,
@@ -74168,7 +74320,8 @@
         "as": 1,
         "finish": 1,
         "when": 1,
-        "twenty": 1
+        "twenty": 1,
+        "inside": 1
       },
       "auxiliary": {
         "bound": 2,
@@ -74232,7 +74385,7 @@
         "lunch": 1,
         "halting": 1,
         "he": 1,
-        "it": 1,
+        "it": 2,
         "breaking": 1
       },
       "losing": {
@@ -74320,7 +74473,8 @@
       "interconnected": {
         "group": 1,
         "neural": 1,
-        "computer": 1
+        "computer": 1,
+        "rings": 1
       },
       "group": {
         "or": 1,
@@ -74545,7 +74699,8 @@
         "carbon": 1,
         "published": 1,
         "great": 1,
-        "part": 1
+        "part": 1,
+        "discovery": 1
       },
       "english": {
         "is": 6,
@@ -75474,7 +75629,7 @@
         "to": 8
       },
       "act": {
-        "of": 21,
+        "of": 22,
         "or": 6,
         "by": 1,
         "committed": 2,
@@ -75745,7 +75900,7 @@
         "called": 1,
         "of": 1,
         "included": 1,
-        "described": 1
+        "described": 2
       },
       "device": {
         "that": 2,
@@ -76265,7 +76420,7 @@
         "separate": 1,
         "will": 1,
         "or": 1,
-        "forms": 1,
+        "forms": 2,
         "events": 1,
         "story": 1,
         "on": 1,
@@ -76565,10 +76720,10 @@
         "or": 1
       },
       "contains": {
-        "a": 4,
+        "a": 5,
         "the": 1,
         "elements": 1,
-        "information": 1,
+        "information": 2,
         "protons": 2
       },
       "arrow": {
@@ -77683,8 +77838,8 @@
       "block": {
         "transmission": 1,
         "n": 1,
-        "contains": 3,
-        "linking": 1,
+        "contains": 5,
+        "linking": 2,
         "letters": 1
       },
       "practices": {
@@ -78240,7 +78395,8 @@
         "will": 1,
         "this": 1,
         "of": 1,
-        "simple": 1
+        "simple": 1,
+        "have": 1
       },
       "blue": {
         "ribbon": 1,
@@ -78417,7 +78573,8 @@
       },
       "agent": {
         "should": 1,
-        "or": 2
+        "or": 2,
+        "that": 1
       },
       "environment": {
         "in": 1,
@@ -79402,7 +79559,7 @@
         "is": 2,
         "'s": 3,
         "which": 1,
-        "and": 1
+        "and": 2
       },
       "one-instruction": {
         "set": 2
@@ -79912,7 +80069,8 @@
       },
       "described": {
         "as": 3,
-        "by": 1
+        "by": 1,
+        "in": 1
       },
       "capability": {
         "of": 1,
@@ -80121,7 +80279,8 @@
         "adv": 1,
         "all": 3,
         "always": 1,
-        "the": 1
+        "the": 1,
+        "every": 1
       },
       "alternative": {
         "n": 1,
@@ -80163,7 +80322,8 @@
         "are": 1,
         "were": 1,
         "inhabit": 1,
-        "play": 1
+        "play": 1,
+        "and": 1
       },
       "bank": {
         "(": 2,
@@ -80342,12 +80502,13 @@
         "it": 1,
         "a": 1,
         "its": 1,
-        "but": 1
+        "but": 1,
+        "the": 1
       },
       "previous": {
         "prime": 1,
         "comand": 1,
-        "block": 3,
+        "block": 5,
         "version": 1
       },
       "hands": {
@@ -80580,7 +80741,7 @@
         "a": 1
       },
       "millions": {
-        "of": 2
+        "of": 3
       },
       "broader": {
         "sense": 1,
@@ -81077,7 +81238,8 @@
         "in": 1,
         "proper": 2,
         "room": 1,
-        "processes": 1
+        "processes": 1,
+        "cells": 1
       },
       "hotel": {
         "to": 1,
@@ -81112,7 +81274,8 @@
         "black": 1,
         "saturday": 1,
         "atom": 1,
-        "aspect": 1
+        "aspect": 1,
+        "ecosystem": 1
       },
       "diplomats": {
         "were": 2
@@ -81332,7 +81495,7 @@
       },
       "ones": {
         "such": 2,
-        "before": 1
+        "before": 2
       },
       "measurable": {
         "ability": 1,
@@ -81440,12 +81603,13 @@
       },
       "cryptographic": {
         "hashes": 1,
-        "hash": 2,
+        "hash": 3,
         "community": 1
       },
       "transaction": {
-        "data": 2,
-        "cost": 1
+        "data": 3,
+        "cost": 1,
+        "was": 1
       },
       "agentic": {
         "ai": 4
@@ -81537,7 +81701,8 @@
       },
       "gold": {
         "foil": 1,
-        "everything": 1
+        "everything": 1,
+        "chain": 1
       },
       "located": {
         "in": 1,
@@ -82222,7 +82387,8 @@
         "to": 2
       },
       "unfortunate": {
-        "or": 1
+        "or": 1,
+        "chain": 1
       },
       "unknown": {
         "circumstances": 1
@@ -83121,7 +83287,8 @@
         "divided": 1
       },
       "cells": {
-        "receives": 1
+        "receives": 1,
+        "of": 1
       },
       "receives": {
         "its": 1,
@@ -83520,7 +83687,8 @@
         "a": 1
       },
       "carrying": {
-        "water": 1
+        "water": 1,
+        "out": 1
       },
       "oftentimes": {
         "ending": 1
@@ -84003,7 +84171,8 @@
         "or": 1
       },
       "chain": {
-        "of": 1
+        "of": 2,
+        "around": 1
       },
       "references": {
         "can": 1
@@ -84501,7 +84670,7 @@
         "(": 1
       },
       "hash": {
-        "of": 1
+        "of": 2
       },
       "pursue": {
         "goals": 1
@@ -84596,14 +84765,83 @@
       },
       "macromolecules": {
         "that": 1
+      },
+      "virus": {
+        "is": 1,
+        "species": 1
+      },
+      "submicroscopic": {
+        "infectious": 1
+      },
+      "infectious": {
+        "agent": 1
+      },
+      "replicates": {
+        "only": 1
+      },
+      "viruses": {
+        "infect": 1,
+        "are": 1,
+        "is": 1
+      },
+      "infect": {
+        "all": 1
+      },
+      "animals": {
+        "and": 1
+      },
+      "ecosystem": {
+        "on": 1
+      },
+      "numerous": {
+        "type": 1
+      },
+      "discovery": {
+        "of": 1
+      },
+      "tobacco": {
+        "mosaic": 1
+      },
+      "mosaic": {
+        "virus": 1
+      },
+      "subspeciality": {
+        "of": 1
+      },
+      "friday": {
+        "with": 1
+      },
+      "conducting": {
+        "or": 1
+      },
+      "plans": {
+        ")": 1
+      },
+      "wore": {
+        "a": 1
+      },
+      "led": {
+        "to": 1
+      },
+      "effectively": {
+        "form": 1
+      },
+      "linking": {
+        "to": 1
+      },
+      "rings": {
+        "or": 1
+      },
+      "links": {
+        "usually": 1
       }
     },
     "starters": {
       "i": 114,
       "how": 6,
       "what": 8,
-      "<NOUN>": 786,
-      "the": 395,
+      "<NOUN>": 788,
+      "the": 398,
       "she": 26,
       "we": 42,
       "it": 98,
@@ -84612,14 +84850,14 @@
       "my": 16,
       "why": 1,
       "they": 20,
-      "he": 77,
+      "he": 78,
       "where": 1,
       "<ADJ>": 134,
       "please": 4,
       "that": 23,
       "if": 14,
       "although": 3,
-      "a": 209,
+      "a": 211,
       "does": 1,
       "who": 2,
       "when": 15,
@@ -84635,10 +84873,10 @@
       "his": 12,
       "of": 19,
       "her": 10,
-      "this": 58,
+      "this": 59,
       "these": 19,
       "as": 4,
-      "each": 10,
+      "each": 11,
       "without": 3,
       "some": 17,
       "<NUM>": 11,
@@ -84669,7 +84907,7 @@
       "could": 1,
       "anything": 1,
       "various": 1,
-      "since": 3,
+      "since": 5,
       "our": 6,
       "will": 1,
       "all": 6,
@@ -84698,15 +84936,15 @@
     },
     "connectors": {
       "because": 16,
-      "or": 563,
-      "and": 813,
+      "or": 565,
+      "and": 817,
       "but": 88,
       "so": 38,
       "while": 8,
-      "than": 52,
+      "than": 53,
       "therefore": 7,
       "if": 15,
-      "as": 280,
+      "as": 281,
       "however": 3,
       "whether": 5,
       "that": 26,
@@ -84749,8 +84987,8 @@
         "once": 1
       },
       "NOUN>NOUN": {
-        "and": 360,
-        "or": 231,
+        "and": 363,
+        "or": 233,
         "as": 13,
         "yet": 2,
         "so": 2,
@@ -84859,7 +85097,8 @@
       "NOUN>PUNCT": {
         "however": 3,
         "as": 1,
-        "or": 1
+        "or": 1,
+        "than": 1
       },
       "NUM>NOUN": {
         "or": 18
@@ -84889,7 +85128,7 @@
         "but": 2
       },
       "NOUN>AUX": {
-        "and": 21,
+        "and": 22,
         "as": 3,
         "but": 3,
         "yet": 1,
@@ -84913,7 +85152,7 @@
         "so": 1
       },
       "VERB>NOUN": {
-        "as": 18,
+        "as": 19,
         "and": 30,
         "or": 24,
         "that": 7,
@@ -87923,7 +88162,7 @@
       "DET VERB NOUN PREP NOUN | and | NOUN PREP ADJ NOUN PREP NOUN CONJ PREP NOUN PREP VERB ADJ NOUN": 1,
       "NOUN AUX VERB NOUN PREP NOUN | and | ADV PREP VERB PREP NOUN": 1,
       "NOUN AUX VERB PREP NOUN VERB | and | NOUN PREP NOUN": 2,
-      "DET NOUN VERB DET ADJ NOUN PREP DET ADJ NOUN DET NOUN | and | NOUN": 2,
+      "DET NOUN VERB DET ADJ NOUN PREP DET ADJ NOUN DET NOUN | and | NOUN": 3,
       "NOUN VERB DET ADJ NOUN PREP NOUN | and | NOUN": 1,
       "PRON AUX NUM PREP DET NUM NOUN PREP NOUN ADV VERB PREP NOUN DET NOUN AUX ADJ NOUN | and | VERB NOUN": 1,
       "DET NOUN AUX DET NOUN PREP DET NOUN | so | PRON MODAL VERB DET NOUN": 1,
@@ -88017,45 +88256,10 @@
       "NOUN AUX DET ADJ VERB PREP DET ADJ NOUN DET NOUN | and | DET NOUN": 1,
       "NOUN CONJ NOUN AUX DET NOUN PREP NOUN PREP | and | NOUN PART VERB NOUN": 1,
       "VERB CONJ NOUN PREP NOUN | and | NOUN PREP DET NOUN": 1,
-      "DET ADJ NOUN VERB DET NOUN DET WH VERB NOUN | and | NOUN DET WH NOUN": 1
+      "DET ADJ NOUN VERB DET NOUN DET WH VERB NOUN | and | NOUN DET WH NOUN": 1,
+      "NOUN AUX VERB PREP NOUN DET NOUN PREP NOUN | and | AUX DET ADJ NOUN PREP ADJ NOUN": 1
     },
     "sentence_bank": {
-      "ethics": [
-        "Ethics is the philosophical study of moral phenomena."
-      ],
-      "philosophical": [
-        "Ethics is the philosophical study of moral phenomena."
-      ],
-      "branches": [
-        "Its main branches include normative ethics, applied ethics, and metaethics."
-      ],
-      "study": [
-        "He walled the study with books.",
-        "Geopolitics is the study of the effects of Earth's geography on politics and international relations.",
-        "Geography is the study of the lands, features, inhabitants, and phenomena of planet Earth."
-      ],
-      "principles": [
-        "The study of principles relating to right and wrong conduct."
-      ],
-      "minimum": [
-        "We need a minimum of three staff members on duty at all time."
-      ],
-      "physics": [
-        "In physics, a quantum is the minimum amount of any physical entity involved in an interaction.",
-        "In quantum physics, organic chemistry, and biochemistry, the distinction from ions is dropped and molecule is often used when referring to polyatomic ions."
-      ],
-      "quantum": [
-        "In physics, a quantum is the minimum amount of any physical entity involved in an interaction.",
-        "In quantum physics, organic chemistry, and biochemistry, the distinction from ions is dropped and molecule is often used when referring to polyatomic ions."
-      ],
-      "build": [
-        "We built a small atomic bomb in the garage.",
-        "It is one of the fundamental building blocks of modern electronics.",
-        "A structure built or serving as an abode of human beings."
-      ],
-      "twenty-six": [
-        "There are twenty-six letters in the English alphabet."
-      ],
       "letters": [
         "There are twenty-six letters in the English alphabet."
       ],
@@ -88073,9 +88277,9 @@
         "I just got back from my morning run."
       ],
       "make": [
-        "Companies that simply make use of AI but have a different primary focus are not included.",
         "He made a mess of it.",
-        "A distinction is made between undirected graphs, where edges link two vertices symmetrically, and directed graphs, where edges link two vertices asymmetrically."
+        "A distinction is made between undirected graphs, where edges link two vertices symmetrically, and directed graphs, where edges link two vertices asymmetrically.",
+        "The transaction was made on Friday with the supplier."
       ],
       "instance": [
         "Act or instance of running, of moving rapidly using the feet.",
@@ -88108,7 +88312,8 @@
       ],
       "series": [
         "A ceremony, or series of ceremonies, prescribed by ritual.",
-        "Coming one after the other in a series."
+        "Coming one after the other in a series.",
+        "A series of interconnected rings or links usually made of metal."
       ],
       "gauge": [
         "It is a gauge boson."
@@ -89361,7 +89566,8 @@
         "While geography is specific to Earth, many concepts can be applied more broadly to other celestial bodies in the field of planetary science."
       ],
       "transaction": [
-        "In economics, a transaction cost is a cost incurred when making an economic trade when participating in a market."
+        "In economics, a transaction cost is a cost incurred when making an economic trade when participating in a market.",
+        "The transaction was made on Friday with the supplier."
       ],
       "combine": [
         "Combine the milk and the hot water in a large bowl."
@@ -89409,7 +89615,8 @@
         "I don't think that's true."
       ],
       "find": [
-        "I haven't found any evidence, anyway."
+        "I haven't found any evidence, anyway.",
+        "Viruses are found in almost every ecosystem on Earth and are the most numerous type of biological entity."
       ],
       "evidence": [
         "I haven't found any evidence, anyway."
@@ -89935,10 +90142,12 @@
         "A person or organization against whom one is competing."
       ],
       "block": [
-        "Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data."
+        "Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data.",
+        "Since each block contains information about the previous block, they effectively form a chain, with each additional block linking to the ones before it."
       ],
       "contain": [
-        "Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data."
+        "Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data.",
+        "Since each block contains information about the previous block, they effectively form a chain, with each additional block linking to the ones before it."
       ],
       "computer": [
         "In mathematics and computer science, graph theory is the study of graphs, which are mathematical structures used to model pairwise relations between objects."
@@ -89966,6 +90175,38 @@
       ],
       "carries": [
         "The polymer carries genetic instructions for the development, functioning, growth and reproduction of all known organisms and many viruses."
+      ],
+      "virus": [
+        "A virus is a submicroscopic infectious agent that replicates only inside the living cells of an organism."
+      ],
+      "submicroscopic": [
+        "A virus is a submicroscopic infectious agent that replicates only inside the living cells of an organism."
+      ],
+      "viruses": [
+        "Viruses infect all life forms, from animals and plants to microorganisms, including bacteria and archaea.",
+        "Viruses are found in almost every ecosystem on Earth and are the most numerous type of biological entity.",
+        "The study of viruses is known as virology, a subspeciality of microbiology."
+      ],
+      "infect": [
+        "Viruses infect all life forms, from animals and plants to microorganisms, including bacteria and archaea."
+      ],
+      "study": [
+        "The study of viruses is known as virology, a subspeciality of microbiology."
+      ],
+      "wear": [
+        "He wore a gold chain around the neck."
+      ],
+      "gold": [
+        "He wore a gold chain around the neck."
+      ],
+      "unfortunate": [
+        "This led to an unfortunate chain of events."
+      ],
+      "chain": [
+        "This led to an unfortunate chain of events."
+      ],
+      "interconnect": [
+        "A series of interconnected rings or links usually made of metal."
       ]
     }
   },
@@ -89978,10 +90219,10 @@
       "lesrn": 1792854982.9339852,
       "sayou": 1792855363.8934717,
       "complet": 1792855741.691193,
-      "dapps": 1792856738.2048013,
-      "vhdl": 1792862630.3580232,
-      "vocabulum": 1792877402.266805,
-      "annuum": 1792877409.5880888
+      "dapps": 1793491912.7069795,
+      "vhdl": 1793491913.531093,
+      "vocabulum": 1793491914.3303986,
+      "annuum": 1793491915.1628814
     },
     "pending_words": [
       "matchine",
@@ -89989,8 +90230,6 @@
       "vhdl",
       "vocabulum",
       "annuum",
-      "transaction",
-      "chain",
       "programmers",
       "agentic",
       "efforts",
@@ -90283,13 +90522,15 @@
       "timestamp",
       "pursue",
       "narrow",
-      "chatbots"
+      "chatbots",
+      "carrying",
+      "unfortunate"
     ],
     "names": [],
-    "lessons": 148,
-    "topic_cursor": 4710,
+    "lessons": 149,
+    "topic_cursor": 4740,
     "taught": 0,
-    "last_lesson": "2026-10-31 21:07:54",
+    "last_lesson": "2026-11-01 00:11:55",
     "pending_concepts": [],
     "recent_concepts": [
       "thermodynamic efficiency constrain",
