@@ -2,16 +2,16 @@
   "meta": {
     "created": "2026-10-20 15:07:00",
     "creator_signature": "677a410903a19f3307ea34c4701fe4dbd912e9262a0208612c61372d4a47b330",
-    "last_interaction": 1793609838.5311534,
+    "last_interaction": 1793637230.2124074,
     "sleep_cycles": 52,
     "births": 1
   },
   "chemistry": {
     "dopamine": 1.0,
-    "cortisol": 0.0,
-    "serotonin": 1.0,
+    "cortisol": 0.018,
+    "serotonin": 0.982,
     "oxytocin": 1.0,
-    "adenosine": 0.1,
+    "adenosine": 0.4408,
     "newborn": false
   },
   "episodic_memory": [
@@ -2819,6 +2819,62 @@
       "time": "2026-11-02 08:57:18",
       "speaker": "brain",
       "text": "My thoughts are swimming, so I am taking a micro-nap to consolidate what I learned. Sleep cycle #52 complete: pruned 10 noisy memories, kept 400 episodes and 273 world facts; adenosine flushed to 0.10, cortisol lowered, state saved. I feel refreshed and clear again, because sleep rebuilt my focus.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-11-02 16:31:07",
+      "speaker": "creator",
+      "text": "hy",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": null
+    },
+    {
+      "time": "2026-11-02 16:31:07",
+      "speaker": "brain",
+      "text": "Welcome back, Max! What are we working on?",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-11-02 16:31:36",
+      "speaker": "creator",
+      "text": "HoHowHow are youHow are you? How are youHow are you? How are you feelingHow are you? How",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": null
+    },
+    {
+      "time": "2026-11-02 16:31:40",
+      "speaker": "brain",
+      "text": "None of my sources answers that directly. If you rephrase it with the exact term I can search again.\n\nI could not find anything reliable about youHow. I searched DuckDuckGo, Wikidata, and Wikipedia. Try the exact name (or paste a link) and I will read it.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 0.55
+    },
+    {
+      "time": "2026-11-02 16:31:59",
+      "speaker": "creator",
+      "text": "how are u felling",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": null
+    },
+    {
+      "time": "2026-11-02 16:31:59",
+      "speaker": "brain",
+      "text": "Would you like me to study u felling so we can talk about it? By the way, I just learned the word 'felling'; it means to make something fall; especially to chop down a tree.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-11-02 16:33:30",
+      "speaker": "creator",
+      "text": "name: 24/7 Living Brain Autonomy (14 Systems) on: schedule: - cron: '0 */6 * * *' # Runs every 6 hours automatically workflow_dispatch: # Allows manual triggers from the Actions tab permissions: contents: write jobs: awaken_brain: runs-on: ubuntu-latest steps: - name: Checkout repository uses: actions/checkout@v4 - name: Set up Python uses: actions/setup-python@v5 with: python-version: '3.11' - name: Run 14-System Brain Autonomous Loop env: BRAIN_CREATOR_NAME: \"Max\" LANGUAGE_ROUNDS: \"2\" run: | python3 synthetic_living_brain.py --auto-only - name: Save updated brain memory and reasoning state ...",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": null
+    },
+    {
+      "time": "2026-11-02 16:33:32",
+      "speaker": "brain",
+      "text": "I read your passage as a study text. The ideas it turns on are Autonomy, Runs, Actions, Checkout repository, Runs-on, Ubuntu-latest, Setup-python, System brain autonomous loop, Creator and Language rounds.\n\nYour text says: \"name: 24/7 Living Brain Autonomy (14 Systems). on: schedule: cron: '0 */6 * * *' # Runs every 6 hours automatically workflow_dispatch: # Allows manual triggers from the Actions tab. permissions: contents: write. jobs:...\"",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -9251,6 +9307,30 @@
       "kind": "nap",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-11-02 16:31:07",
+      "kind": "conversation",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-11-02 16:31:40",
+      "kind": "rrc_reply",
+      "score": 0.55,
+      "passes": 0
+    },
+    {
+      "time": "2026-11-02 16:31:59",
+      "kind": "conversation",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-11-02 16:33:32",
+      "kind": "concept_study",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -9732,7 +9812,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 16
+      "uses": 17
     },
     "a": {
       "part_of_speech": "determiner",
@@ -9807,7 +9887,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "in": {
       "part_of_speech": "preposition",
@@ -9837,7 +9917,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 4
+      "uses": 5
     },
     "with": {
       "part_of_speech": "preposition",
@@ -9854,7 +9934,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 4
+      "uses": 5
     },
     "about": {
       "part_of_speech": "preposition",
@@ -9902,7 +9982,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 6
+      "uses": 7
     },
     "to": {
       "part_of_speech": "preposition",
@@ -9964,7 +10044,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 5
+      "uses": 6
     },
     "but": {
       "part_of_speech": "conjunction",
@@ -10167,7 +10247,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 2
+      "uses": 3
     },
     "who": {
       "part_of_speech": "pronoun",
@@ -10482,7 +10562,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 6
+      "uses": 7
     },
     "am": {
       "part_of_speech": "verb",
@@ -11129,7 +11209,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 3
+      "uses": 4
     },
     "study": {
       "part_of_speech": "verb",
@@ -12236,7 +12316,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "bright": {
       "part_of_speech": "adjective",
@@ -12619,7 +12699,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 2
+      "uses": 3
     },
     "name": {
       "part_of_speech": "noun",
@@ -12637,7 +12717,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "friend": {
       "part_of_speech": "noun",
@@ -12727,7 +12807,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "memory": {
       "part_of_speech": "noun",
@@ -12747,7 +12827,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 3
+      "uses": 4
     },
     "day": {
       "part_of_speech": "noun",
@@ -12951,7 +13031,7 @@
       "tags": [],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 0
+      "uses": 1
     },
     "mind": {
       "part_of_speech": "noun",
@@ -13421,7 +13501,7 @@
       "phonetic": "",
       "source": "wiktionary",
       "learned": "2026-10-23 21:06:08",
-      "uses": 2,
+      "uses": 3,
       "tags": []
     },
     "information": {
@@ -13951,7 +14031,7 @@
       "phonetic": "",
       "source": "wiktionary",
       "learned": "2026-10-23 21:27:31",
-      "uses": 5,
+      "uses": 6,
       "tags": []
     },
     "thermodynamics": {
@@ -14233,7 +14313,7 @@
       "phonetic": "",
       "source": "wiktionary",
       "learned": "2026-10-23 21:29:35",
-      "uses": 4,
+      "uses": 5,
       "tags": []
     },
     "variable": {
@@ -14424,7 +14504,7 @@
       "phonetic": "",
       "source": "wiktionary",
       "learned": "2026-10-23 21:34:32",
-      "uses": 4,
+      "uses": 5,
       "tags": []
     },
     "neural network": {
@@ -15995,7 +16075,7 @@
       "phonetic": "",
       "source": "wiktionary",
       "learned": "2026-10-24 03:34:29",
-      "uses": 1,
+      "uses": 2,
       "tags": []
     },
     "part": {
@@ -18311,7 +18391,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:25:27",
-      "uses": 1
+      "uses": 2
     },
     "blockchain": {
       "part_of_speech": "noun",
@@ -21704,7 +21784,7 @@
       "phonetic": "",
       "source": "wiktionary",
       "learned": "2026-10-24 11:22:30",
-      "uses": 2,
+      "uses": 3,
       "tags": []
     },
     "shown": {
@@ -21768,7 +21848,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 21:34:27",
-      "uses": 1
+      "uses": 2
     },
     "criteria": {
       "part_of_speech": "noun",
@@ -23626,7 +23706,7 @@
       "phonetic": "",
       "source": "wiktionary",
       "learned": "2026-10-24 11:56:32",
-      "uses": 1,
+      "uses": 2,
       "tags": []
     },
     "specialized": {
@@ -25259,7 +25339,7 @@
       "phonetic": "",
       "source": "wiktionary",
       "learned": "2026-10-24 13:56:29",
-      "uses": 1,
+      "uses": 2,
       "tags": []
     },
     "allocation": {
@@ -25562,7 +25642,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-23 23:46:05",
-      "uses": 1
+      "uses": 2
     },
     "cultural": {
       "part_of_speech": "adjective",
@@ -28625,7 +28705,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-24 08:23:33",
-      "uses": 1
+      "uses": 2
     },
     "bro": {
       "part_of_speech": "symbol",
@@ -29942,7 +30022,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-24 09:42:15",
-      "uses": 1
+      "uses": 2
     },
     "audience": {
       "part_of_speech": "noun",
@@ -31513,7 +31593,7 @@
       "phonetic": "",
       "source": "wiktionary",
       "learned": "2026-10-24 15:31:09",
-      "uses": 1,
+      "uses": 2,
       "tags": []
     },
     "follow": {
@@ -35932,7 +36012,7 @@
       "phonetic": "",
       "source": "wiktionary",
       "learned": "2026-10-24 17:05:49",
-      "uses": 1,
+      "uses": 2,
       "tags": []
     },
     "electronic": {
@@ -38540,7 +38620,7 @@
       "phonetic": "",
       "source": "wiktionary",
       "learned": "2026-10-24 18:34:02",
-      "uses": 1,
+      "uses": 2,
       "tags": []
     },
     "infrastructure": {
@@ -40338,7 +40418,7 @@
       "phonetic": "",
       "source": "wiktionary",
       "learned": "2026-10-24 23:41:34",
-      "uses": 1,
+      "uses": 2,
       "tags": []
     },
     "discourse": {
@@ -44455,7 +44535,7 @@
       "phonetic": "/ɹʌnz/",
       "source": "dictionaryapi.dev",
       "learned": "2026-10-25 22:20:32",
-      "uses": 1,
+      "uses": 2,
       "tags": []
     },
     "regulation": {
@@ -54095,7 +54175,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-24 18:27:56",
-      "uses": 1
+      "uses": 2
     },
     "inputs": {
       "part_of_speech": "noun",
@@ -62705,16 +62785,56 @@
     },
     "trip": {
       "part_of_speech": "noun",
-      "definition": "",
+      "definition": "A journey; an excursion or jaunt",
       "all_pos": [
-        "noun"
+        "noun",
+        "verb",
+        "adjective"
       ],
       "synonyms": [],
-      "example_sentences": [],
-      "tags": [],
-      "source": "corpus",
-      "learned": "2026-10-27 02:09:14",
-      "uses": 1
+      "example_sentences": [
+        "We made a trip to the beach.",
+        "He was injured due to a trip down the stairs.",
+        "Be careful not to trip on the tree roots.",
+        "A pedestrian was able to trip the burglar as he was running away."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "A journey; an excursion or jaunt",
+          "example": "We made a trip to the beach."
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "A stumble or misstep",
+          "example": "He was injured due to a trip down the stairs."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To fall over or stumble over an object as a result of striking it with one's foot",
+          "example": "Be careful not to trip on the tree roots."
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "(sometimes followed by \"up\") to cause (a person or animal) to fall or stumble by knocking their feet from under them",
+          "example": "A pedestrian was able to trip the burglar as he was running away."
+        },
+        {
+          "part_of_speech": "adjective",
+          "definition": "Of or relating to trips",
+          "example": ""
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "A herd or flock of sheep, goats, etc.",
+          "example": ""
+        }
+      ],
+      "phonetic": "/tɹɪp/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-02 16:33:48",
+      "uses": 1,
+      "tags": []
     },
     "humidity": {
       "part_of_speech": "noun",
@@ -65963,7 +66083,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-30 02:55:18",
-      "uses": 1
+      "uses": 2
     },
     "injury": {
       "part_of_speech": "noun",
@@ -68716,26 +68836,80 @@
       "source": "corpus",
       "learned": "2026-11-02 08:57:18",
       "uses": 1
+    },
+    "felling": {
+      "part_of_speech": "verb",
+      "definition": "To make something fall; especially to chop down a tree.",
+      "all_pos": [
+        "verb",
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "meanings": [
+        {
+          "part_of_speech": "verb",
+          "definition": "To make something fall; especially to chop down a tree.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "verb",
+          "definition": "To strike down, kill, destroy.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "The act by which something is felled.",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-02 16:31:59",
+      "uses": 1,
+      "tags": []
+    },
+    "beach": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-02 16:33:48",
+      "uses": 1
+    },
+    "roots": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-02 16:33:48",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 3173,
-      "tokens": 43699,
+      "sentences": 3177,
+      "tokens": 43732,
       "sources": {
         "seed corpus": 64,
-        "conversation": 36,
-        "dictionary": 1880,
+        "conversation": 37,
+        "dictionary": 1883,
         "explore": 504,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "90fc85b30481",
-        "2e39f9a9765c",
-        "0202c3171d66",
-        "9a70b229066b",
         "ba895d433d63",
         "097c2d6b8d9f",
         "d58cfe5729b5",
@@ -69031,10 +69205,14 @@
         "26bfcf6c7b47",
         "cca57c0dd3ae",
         "2def00dd8849",
-        "d9639539d081"
+        "d9639539d081",
+        "6636de6acd98",
+        "45a42e89fae9",
+        "40e54b8bccaa",
+        "03dd83b9d0a7"
       ],
       "seeded": true,
-      "rejected": 706,
+      "rejected": 710,
       "vocab_counts": {
         "thank": 1,
         "shades": 1,
@@ -71061,7 +71239,6 @@
         "mulch": 1,
         "contributed": 1,
         "racist": 1,
-        "roots": 1,
         "categories": 1,
         "regional": 1,
         "tournament": 1,
@@ -71324,7 +71501,6 @@
         "visit": 1,
         "adjacent": 1,
         "buoyancy": 1,
-        "beach": 1,
         "benches": 1,
         "redwood": 1,
         "manufacture": 1,
@@ -71736,13 +71912,15 @@
         "whereby": 1,
         "assimilated": 1,
         "cuisine": 1,
-        "compute": 1
+        "compute": 1,
+        "injured": 1,
+        "stairs": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 498,
-        "WH": 37,
+        "PRON": 500,
+        "WH": 38,
         "NOUN": 826,
         "DET": 926,
         "VERB": 306,
@@ -71750,7 +71928,7 @@
         "ADJ": 137,
         "INTJ": 16,
         "CONJ": 44,
-        "AUX": 22,
+        "AUX": 23,
         "ADV": 46,
         "PREP": 227,
         "PART": 63,
@@ -71758,10 +71936,10 @@
         "NEG": 4
       },
       "PRON": {
-        "AUX": 401,
+        "AUX": 402,
         "PUNCT": 116,
         "ADV": 35,
-        "VERB": 469,
+        "VERB": 470,
         "MODAL": 145,
         "PREP": 47,
         "WH": 6,
@@ -71776,13 +71954,13 @@
         "NEG": 1
       },
       "AUX": {
-        "ADJ": 320,
+        "ADJ": 322,
         "PRON": 30,
         "PUNCT": 20,
         "DET": 496,
         "NOUN": 109,
         "NEG": 86,
-        "VERB": 464,
+        "VERB": 465,
         "INTJ": 2,
         "ADV": 153,
         "CONJ": 22,
@@ -71795,7 +71973,7 @@
       },
       "ADJ": {
         "PART": 54,
-        "NOUN": 2067,
+        "NOUN": 2068,
         "WH": 9,
         "PUNCT": 335,
         "PREP": 214,
@@ -71810,10 +71988,10 @@
         "NUM": 12,
         "ADV": 10,
         "PRON": 7,
-        "NEG": 1
+        "NEG": 2
       },
       "PART": {
-        "VERB": 514,
+        "VERB": 515,
         "AUX": 82,
         "ADJ": 39,
         "NOUN": 67,
@@ -71826,14 +72004,14 @@
         "NEG": 1
       },
       "VERB": {
-        "PREP": 808,
+        "PREP": 809,
         "PART": 175,
         "ADJ": 118,
-        "NOUN": 753,
+        "NOUN": 754,
         "PUNCT": 378,
         "PRON": 175,
         "AUX": 43,
-        "DET": 665,
+        "DET": 666,
         "VERB": 70,
         "CONJ": 257,
         "WH": 39,
@@ -71847,7 +72025,7 @@
       "PREP": {
         "PRON": 122,
         "NOUN": 1499,
-        "DET": 1676,
+        "DET": 1680,
         "PUNCT": 82,
         "VERB": 127,
         "PREP": 42,
@@ -71863,7 +72041,7 @@
         "</S>": 1
       },
       "PUNCT": {
-        "</S>": 2984,
+        "</S>": 2987,
         "NOUN": 823,
         "CONJ": 457,
         "PRON": 82,
@@ -71883,7 +72061,7 @@
         "MODAL": 1
       },
       "WH": {
-        "AUX": 56,
+        "AUX": 57,
         "DET": 68,
         "PRON": 40,
         "NOUN": 103,
@@ -71918,16 +72096,16 @@
       },
       "NOUN": {
         "AUX": 847,
-        "PREP": 2533,
-        "NOUN": 2403,
-        "PUNCT": 3934,
+        "PREP": 2536,
+        "NOUN": 2404,
+        "PUNCT": 3937,
         "CONJ": 985,
         "VERB": 699,
         "ADV": 119,
         "PART": 323,
         "ADJ": 307,
         "MODAL": 115,
-        "</S>": 154,
+        "</S>": 155,
         "PRON": 196,
         "WH": 90,
         "DET": 484,
@@ -71937,7 +72115,7 @@
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 3184,
+        "NOUN": 3189,
         "ADJ": 1316,
         "PRON": 33,
         "PREP": 70,
@@ -71991,7 +72169,7 @@
         "DET": 9,
         "AUX": 12,
         "PREP": 7,
-        "PART": 5,
+        "PART": 6,
         "ADV": 9,
         "ADJ": 9,
         "CONJ": 2,
@@ -72043,8 +72221,8 @@
     },
     "pos_trigrams": {
       "<S>|PRON": {
-        "AUX": 196,
-        "VERB": 214,
+        "AUX": 197,
+        "VERB": 215,
         "MODAL": 49,
         "ADV": 15,
         "DET": 3,
@@ -72060,7 +72238,7 @@
         "ADJ": 71,
         "DET": 91,
         "NEG": 45,
-        "VERB": 85,
+        "VERB": 86,
         "INTJ": 2,
         "ADV": 44,
         "PUNCT": 4,
@@ -72078,14 +72256,14 @@
         "PUNCT": 92,
         "PREP": 56,
         "DET": 17,
-        "NOUN": 59,
+        "NOUN": 60,
         "CONJ": 21,
         "ADJ": 12,
         "VERB": 17,
         "NUM": 4,
         "PROPN": 2,
         "MODAL": 1,
-        "NEG": 1,
+        "NEG": 2,
         "PRON": 1
       },
       "ADJ|PART": {
@@ -72096,7 +72274,7 @@
         "ADJ": 1
       },
       "PART|VERB": {
-        "PREP": 65,
+        "PREP": 66,
         "ADJ": 25,
         "PUNCT": 69,
         "NOUN": 108,
@@ -72114,7 +72292,7 @@
       },
       "VERB|PREP": {
         "PRON": 25,
-        "DET": 324,
+        "DET": 325,
         "NOUN": 234,
         "PUNCT": 26,
         "VERB": 23,
@@ -72154,7 +72332,7 @@
         "WH": 1
       },
       "<S>|WH": {
-        "AUX": 11,
+        "AUX": 12,
         "VERB": 4,
         "MODAL": 4,
         "NOUN": 8,
@@ -72171,7 +72349,7 @@
         "NEG": 8,
         "ADV": 2,
         "PREP": 2,
-        "ADJ": 5
+        "ADJ": 6
       },
       "AUX|PRON": {
         "ADV": 2,
@@ -72209,7 +72387,7 @@
         "NOUN": 67,
         "PRON": 48,
         "PUNCT": 29,
-        "DET": 137,
+        "DET": 138,
         "VERB": 16,
         "ADJ": 19,
         "CONJ": 22,
@@ -72298,14 +72476,14 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 992,
+        "PREP": 994,
         "AUX": 270,
         "CONJ": 244,
-        "PUNCT": 750,
+        "PUNCT": 752,
         "VERB": 222,
         "ADV": 32,
         "ADJ": 69,
-        "NOUN": 290,
+        "NOUN": 291,
         "PRON": 48,
         "PART": 88,
         "</S>": 9,
@@ -72317,7 +72495,7 @@
       },
       "NOUN|PREP": {
         "NOUN": 954,
-        "DET": 958,
+        "DET": 961,
         "PREP": 15,
         "ADJ": 244,
         "PROPN": 64,
@@ -72350,7 +72528,7 @@
         "ADV": 8
       },
       "NOUN|NOUN": {
-        "PUNCT": 855,
+        "PUNCT": 856,
         "PART": 45,
         "NOUN": 558,
         "PREP": 355,
@@ -72369,7 +72547,7 @@
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 2267,
+        "</S>": 2270,
         "NOUN": 569,
         "CONJ": 335,
         "ADV": 86,
@@ -72432,7 +72610,7 @@
         "PROPN": 6,
         "ADV": 15,
         "PRON": 36,
-        "</S>": 10,
+        "</S>": 11,
         "NUM": 1
       },
       "VERB|ADJ": {
@@ -72450,7 +72628,7 @@
         "WH": 1
       },
       "PREP|DET": {
-        "NOUN": 1071,
+        "NOUN": 1075,
         "ADJ": 409,
         "NUM": 27,
         "PREP": 16,
@@ -72494,7 +72672,7 @@
       },
       "VERB|NOUN": {
         "PUNCT": 209,
-        "PREP": 122,
+        "PREP": 123,
         "PART": 25,
         "VERB": 26,
         "NOUN": 196,
@@ -72741,7 +72919,7 @@
         "ADV": 3
       },
       "VERB|DET": {
-        "NOUN": 416,
+        "NOUN": 417,
         "ADJ": 196,
         "PREP": 6,
         "CONJ": 8,
@@ -72809,7 +72987,7 @@
         "PUNCT": 72,
         "PART": 53,
         "PRON": 4,
-        "NOUN": 35,
+        "NOUN": 36,
         "DET": 33,
         "CONJ": 39,
         "ADJ": 9,
@@ -73038,7 +73216,7 @@
       },
       "<S>|AUX": {
         "DET": 2,
-        "ADJ": 5,
+        "ADJ": 6,
         "NEG": 7,
         "PRON": 6,
         "PREP": 1,
@@ -74086,7 +74264,7 @@
         "PRON": 1
       },
       "NEG|PART": {
-        "VERB": 4,
+        "VERB": 5,
         "AUX": 1
       },
       "CONJ|PART": {
@@ -74377,7 +74555,7 @@
         "PRON": 1
       },
       "ADJ|NEG": {
-        "PART": 1
+        "PART": 2
       },
       "PART|DET": {
         "NOUN": 1
@@ -74430,9 +74608,9 @@
         "a": 1
       },
       "to": {
-        "the": 85,
+        "the": 86,
         "be": 46,
-        "a": 37,
+        "a": 38,
         "do": 18,
         "learn": 8,
         "study": 5,
@@ -74448,7 +74626,8 @@
         "maintain": 1,
         "represent": 1,
         "brush": 1,
-        "compute": 1
+        "compute": 1,
+        "trip": 1
       },
       "talk": {
         "with": 1,
@@ -74478,7 +74657,7 @@
         "the": 2,
         "do": 2,
         "words": 3,
-        "are": 1,
+        "are": 2,
         "entropy": 1,
         "languages": 1,
         "tense-marking": 1,
@@ -74501,7 +74680,8 @@
         "most": 2,
         "words": 2,
         "usually": 2,
-        "dead": 1
+        "dead": 1,
+        "u": 1
       },
       "you": {
         "to": 7,
@@ -74618,7 +74798,8 @@
         "preposition": 3,
         "neural": 3,
         "thermodynamic": 3,
-        "varying": 3
+        "varying": 3,
+        "trip": 2
       },
       "for": {
         "the": 31,
@@ -74656,15 +74837,7 @@
         "lesson": 4,
         "variable": 3,
         "listener": 3,
-        "condition": 1,
-        "originator": 1,
-        "comfort": 1,
-        "safety": 1,
-        "dentist": 2,
-        "culture": 1,
-        "influence": 1,
-        "average": 1,
-        "arithmetic": 1
+        "tree": 1
       },
       "brain": {
         "is": 1,
@@ -74779,7 +74952,8 @@
         "constructed": 1,
         "prepared": 2,
         "all": 1,
-        "took": 1
+        "took": 1,
+        "made": 1
       },
       "can": {
         "be": 50,
@@ -75171,7 +75345,7 @@
         "syntax": 2
       },
       "not": {
-        "to": 7,
+        "to": 8,
         "have": 7,
         "limited": 3,
         "all": 2,
@@ -75319,7 +75493,8 @@
         "not": 1,
         "exact": 1,
         "first": 1,
-        "pure": 1
+        "pure": 1,
+        "injured": 1
       },
       "so": {
         "as": 7,
@@ -75340,7 +75515,7 @@
         "compact": 1
       },
       "he": {
-        "was": 16,
+        "was": 17,
         "is": 7,
         "has": 5,
         "had": 6,
@@ -75689,7 +75864,7 @@
       },
       "made": {
         "by": 3,
-        "a": 4,
+        "a": 5,
         "an": 2,
         "to": 2,
         "up": 2,
@@ -75869,7 +76044,8 @@
         "these": 1,
         "if": 1,
         "to": 1,
-        "a": 1
+        "a": 1,
+        "the": 1
       },
       "some": {
         "languages": 8,
@@ -76063,7 +76239,7 @@
         "soon": 1
       },
       "on": {
-        "the": 60,
+        "the": 61,
         "a": 11,
         "their": 7,
         "devices": 2,
@@ -77282,7 +77458,8 @@
         "reversed": 1,
         "taken": 1,
         "in": 2,
-        "considered": 1
+        "considered": 1,
+        "careful": 1
       },
       "defined": {
         "for": 4,
@@ -85793,7 +85970,8 @@
       },
       "u": {
         "ask": 1,
-        "have": 1
+        "have": 1,
+        "felling": 1
       },
       "ate": {
         "a": 3
@@ -87405,7 +87583,7 @@
         "shooting": 1
       },
       "due": {
-        "to": 2
+        "to": 3
       },
       "unfortunate": {
         "or": 1,
@@ -89842,7 +90020,10 @@
         "a": 1
       },
       "trip": {
-        "out": 1
+        "out": 1,
+        "to": 1,
+        "down": 1,
+        "on": 1
       },
       "corner": {
         "of": 1
@@ -90052,7 +90233,8 @@
       },
       "careful": {
         "driver": 1,
-        "search": 1
+        "search": 1,
+        "not": 1
       },
       "violating": {
         "or": 1
@@ -90125,23 +90307,29 @@
       },
       "arithmetic": {
         "mean": 1
+      },
+      "injured": {
+        "due": 1
+      },
+      "tree": {
+        "roots": 1
       }
     },
     "starters": {
       "i": 133,
-      "how": 6,
+      "how": 7,
       "what": 10,
       "<NOUN>": 826,
       "the": 434,
       "she": 36,
-      "we": 46,
+      "we": 47,
       "it": 107,
       "<VERB>": 306,
       "can": 6,
       "my": 18,
       "why": 1,
       "they": 23,
-      "he": 87,
+      "he": 88,
       "where": 1,
       "<ADJ>": 137,
       "please": 5,
@@ -90190,7 +90378,7 @@
       "therefore": 2,
       "whether": 1,
       "from": 2,
-      "be": 4,
+      "be": 5,
       "yes": 3,
       "its": 4,
       "would": 1,
@@ -93676,6 +93864,16 @@
           "VERB"
         ],
         "ex": "If you average 10, 20 and 24, you get 18."
+      },
+      "we {VERBED} a {NOUN} to the {NOUN}.": {
+        "n": 1,
+        "form": "statement",
+        "slots": [
+          "VERBED",
+          "NOUN",
+          "NOUN"
+        ],
+        "ex": "We made a trip to the beach."
       }
     },
     "clause_templates": {
@@ -93972,9 +94170,6 @@
       "CONJ PRON NOUN | and | PRON VERB": 1
     },
     "sentence_bank": {
-      "reaction": [
-        "In this reaction, the acid and base will neutralize each other, producing a salt."
-      ],
       "acid": [
         "In this reaction, the acid and base will neutralize each other, producing a salt.",
         "Deoxyribonucleic acid is a polymer composed of two polynucleotide chains that coil around each other to form a double helix."
@@ -95731,7 +95926,9 @@
         "Shining a light in the dark corners of the mind."
       ],
       "trip": [
-        "I took a trip out to his corner of town."
+        "We made a trip to the beach.",
+        "He was injured due to a trip down the stairs.",
+        "Be careful not to trip on the tree roots."
       ],
       "corner": [
         "The cat had cornered a cricket between the sofa and the television stand."
@@ -95853,10 +96050,12 @@
       ],
       "careful": [
         "He was a slow and careful driver.",
-        "They made a careful search of the crime scene."
+        "They made a careful search of the crime scene.",
+        "Be careful not to trip on the tree roots."
       ],
       "make": [
-        "They made a careful search of the crime scene."
+        "They made a careful search of the crime scene.",
+        "We made a trip to the beach."
       ],
       "instance": [
         "The act or an instance of violating or the condition of being violated.",
@@ -95914,6 +96113,9 @@
       ],
       "average": [
         "To compute the average of, especially the arithmetic mean."
+      ],
+      "injur": [
+        "He was injured due to a trip down the stairs."
       ]
     }
   },
@@ -95937,7 +96139,6 @@
       "vhdl",
       "vocabulum",
       "annuum",
-      "trip",
       "humidity",
       "stay",
       "favour",
@@ -96229,13 +96430,15 @@
       "dentist",
       "media",
       "popular",
-      "arithmetic"
+      "arithmetic",
+      "beach",
+      "roots"
     ],
     "names": [],
-    "lessons": 157,
-    "topic_cursor": 5190,
+    "lessons": 158,
+    "topic_cursor": 5250,
     "taught": 0,
-    "last_lesson": "2026-11-02 08:57:18",
+    "last_lesson": "2026-11-02 16:33:49",
     "pending_concepts": [],
     "recent_concepts": [
       "thermodynamic efficiency constrain",
@@ -96261,7 +96464,13 @@
       "nosql ecosystems utilize domain-specific",
       "direct instruction-set architecture manipulation",
       "strict class-based object orientation",
-      "comprehensive statistical modeling libraries"
+      "comprehensive statistical modeling libraries",
+      "autonomous system memory",
+      "language rounds",
+      "checkout repository",
+      "system brain autonomous loop",
+      "creator",
+      "autonomy"
     ],
     "recent_daydream_pairs": [
       [
@@ -96345,5 +96554,13 @@
         "psychology"
       ]
     ]
+  },
+  "reasoning_meta": {
+    "version": 1,
+    "claims": [],
+    "dossiers": {},
+    "recipes": [],
+    "stats": {},
+    "llm": {}
   }
 }
