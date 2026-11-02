@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.45999999999999996,
+    "adenosine": 0.5800000000000001,
     "newborn": false
   },
   "episodic_memory": [
@@ -2854,6 +2854,20 @@
       "time": "2026-11-01 22:36:12",
       "speaker": "brain",
       "text": "I wondered about 'Chaos theory' by myself and went searching. From Wikipedia (live internet) I learned: Chaos theory is a branch of mathematics and an interdisciplinary area of scientific study. Key ideas I stored: chaotic complex systems, chaos theory, dynamical systems, constant feedback, self-organization.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-11-02 01:48:20",
+      "speaker": "brain",
+      "text": "I wondered about 'Astrophysics' by myself and went searching. From Wikipedia (live internet) I learned: Astrophysics is a science that applies the methods and principles of physics and chemistry in the study of astronomical objects and phenomena including the universe. Key ideas I stored: celestial mechanics, astronomical objects, astrophysics, james, keeler.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-11-02 01:48:20",
+      "speaker": "brain",
+      "text": "I wondered about 'The Protocols of the Elders of Zion' by myself and went searching. From Wikipedia (live internet) I learned: The Protocols of the Elders of Zion is an antisemitic hoax and forgery purporting to detail a Jewish plot for global domination. Key ideas I stored: international jewish conspiracy, protocols, elders, zion, imperial.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -7677,6 +7691,33 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Chaos_theory",
       "learned": "2026-11-01 22:36:12"
+    },
+    "Astrophysics": {
+      "summary": "Astrophysics is a science that applies the methods and principles of physics and chemistry in the study of astronomical objects and phenomena including the universe. As one of the founders of the discipline, James Keeler, said, astrophysics \"seeks to ascertain the nature of the heavenly bodies, rather than their positions or motions in space—what they are, rather than where they are\", which is studied in celestial mechanics. Astrophysics is also used when designing and plotting courses for spacecraft.",
+      "concepts": [
+        "celestial mechanics",
+        "astronomical objects",
+        "astrophysics",
+        "james",
+        "keeler"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Astrophysics",
+      "learned": "2026-11-02 01:48:20"
+    },
+    "The Protocols of the Elders of Zion": {
+      "summary": "The Protocols of the Elders of Zion is an antisemitic hoax and forgery purporting to detail a Jewish plot for global domination. Largely plagiarized from several earlier sources, it was first published in Imperial Russia in 1903, translated into multiple languages, and disseminated internationally in the early part of the 20th century. It played a key part in popularizing belief in an international Jewish conspiracy.",
+      "concepts": [
+        "international jewish conspiracy",
+        "protocols",
+        "elders",
+        "zion",
+        "imperial",
+        "russia"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/The_Protocols_of_the_Elders_of_Zion",
+      "learned": "2026-11-02 01:48:20"
     }
   },
   "creator_teachings": [
@@ -9204,6 +9245,18 @@
       "kind": "explore_report",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-11-02 01:48:20",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-11-02 01:48:20",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -9412,7 +9465,9 @@
     "psychology",
     "epistemology",
     "cryptology",
-    "chaos theory"
+    "chaos theory",
+    "astrophysics",
+    "protocols"
   ],
   "sensory_log": [
     {
@@ -68113,24 +68168,95 @@
       "source": "corpus",
       "learned": "2026-11-01 22:36:20",
       "uses": 1
+    },
+    "astrophysics": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Astrophysics is also used when designing and plotting courses for spacecraft."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-02 01:48:20",
+      "uses": 1
+    },
+    "courses": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Astrophysics is also used when designing and plotting courses for spacecraft."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-02 01:48:20",
+      "uses": 1
+    },
+    "spacecraft": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Astrophysics is also used when designing and plotting courses for spacecraft."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-02 01:48:20",
+      "uses": 1
+    },
+    "largely": {
+      "part_of_speech": "adverb",
+      "definition": "",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-02 01:48:20",
+      "uses": 1
+    },
+    "international": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "It played a key part in popularizing belief in an international Jewish conspiracy."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-02 01:48:20",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 3143,
-      "tokens": 43273,
+      "sentences": 3148,
+      "tokens": 43381,
       "sources": {
         "seed corpus": 64,
         "conversation": 36,
         "dictionary": 1857,
-        "explore": 497,
+        "explore": 502,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "bed3238a7c4c",
-        "b3f9aaafdcc8",
         "682258d4f6ad",
         "cbba921db740",
         "04c09133f526",
@@ -68428,10 +68554,12 @@
         "1eb9a087431b",
         "b5c6afb8ab0f",
         "f72d9c24bdae",
-        "a1b424c74d3a"
+        "a1b424c74d3a",
+        "dfdd911dc808",
+        "44ed8d2d5b36"
       ],
       "seeded": true,
-      "rejected": 697,
+      "rejected": 698,
       "vocab_counts": {
         "thank": 1,
         "shades": 1,
@@ -70596,7 +70724,6 @@
         "saddened": 1,
         "chill": 1,
         "spread": 1,
-        "courses": 1,
         "coursework": 1,
         "offered": 1,
         "associations": 1,
@@ -70668,7 +70795,6 @@
         "educated": 1,
         "absorbed": 1,
         "deliberative": 1,
-        "international": 1,
         "fox": 1,
         "uncle": 1,
         "hoofprints": 1,
@@ -71040,7 +71166,6 @@
         "japan": 1,
         "aging": 1,
         "exhibit": 1,
-        "spacecraft": 1,
         "takeoff": 1,
         "journalist": 1,
         "interviewed": 1,
@@ -71086,7 +71211,6 @@
         "crackling": 1,
         "ear": 1,
         "hurricane": 1,
-        "largely": 1,
         "actin": 1,
         "myosin": 1,
         "filaments": 1,
@@ -71103,32 +71227,46 @@
         "handlebars": 1,
         "pencil": 1,
         "grasp": 1,
-        "grip": 1
+        "grip": 1,
+        "applies": 1,
+        "plotting": 1,
+        "antisemitic": 1,
+        "hoax": 1,
+        "forgery": 1,
+        "purporting": 1,
+        "plot": 1,
+        "domination": 1,
+        "plagiarized": 1,
+        "translated": 1,
+        "disseminated": 1,
+        "internationally": 1,
+        "popularizing": 1,
+        "conspiracy": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 493,
+        "PRON": 494,
         "WH": 37,
-        "NOUN": 822,
-        "DET": 912,
+        "NOUN": 824,
+        "DET": 913,
         "VERB": 306,
         "MODAL": 9,
         "ADJ": 136,
         "INTJ": 16,
         "CONJ": 43,
         "AUX": 20,
-        "ADV": 45,
+        "ADV": 46,
         "PREP": 226,
         "PART": 62,
         "NUM": 12,
         "NEG": 4
       },
       "PRON": {
-        "AUX": 398,
+        "AUX": 399,
         "PUNCT": 116,
         "ADV": 35,
-        "VERB": 465,
+        "VERB": 466,
         "MODAL": 144,
         "PREP": 47,
         "WH": 6,
@@ -71146,14 +71284,14 @@
         "ADJ": 316,
         "PRON": 29,
         "PUNCT": 20,
-        "DET": 491,
+        "DET": 493,
         "NOUN": 109,
         "NEG": 86,
         "VERB": 461,
         "INTJ": 2,
-        "ADV": 152,
+        "ADV": 153,
         "CONJ": 22,
-        "NUM": 28,
+        "NUM": 29,
         "PROPN": 8,
         "WH": 4,
         "AUX": 38,
@@ -71162,12 +71300,12 @@
       },
       "ADJ": {
         "PART": 54,
-        "NOUN": 2044,
+        "NOUN": 2051,
         "WH": 9,
         "PUNCT": 333,
         "PREP": 213,
         "CONJ": 125,
-        "PROPN": 46,
+        "PROPN": 47,
         "ADJ": 124,
         "DET": 44,
         "AUX": 36,
@@ -71180,7 +71318,7 @@
         "NEG": 1
       },
       "PART": {
-        "VERB": 510,
+        "VERB": 511,
         "AUX": 82,
         "ADJ": 38,
         "NOUN": 66,
@@ -71193,19 +71331,19 @@
         "NEG": 1
       },
       "VERB": {
-        "PREP": 802,
+        "PREP": 805,
         "PART": 174,
         "ADJ": 118,
         "NOUN": 751,
         "PUNCT": 373,
         "PRON": 172,
         "AUX": 43,
-        "DET": 658,
+        "DET": 661,
         "VERB": 68,
-        "CONJ": 254,
-        "WH": 38,
+        "CONJ": 255,
+        "WH": 39,
         "</S>": 15,
-        "ADV": 84,
+        "ADV": 85,
         "PROPN": 22,
         "NUM": 23,
         "NEG": 4,
@@ -71213,13 +71351,13 @@
       },
       "PREP": {
         "PRON": 122,
-        "NOUN": 1486,
-        "DET": 1657,
-        "PUNCT": 80,
+        "NOUN": 1489,
+        "DET": 1663,
+        "PUNCT": 81,
         "VERB": 127,
         "PREP": 42,
-        "ADJ": 386,
-        "PROPN": 143,
+        "ADJ": 389,
+        "PROPN": 145,
         "AUX": 29,
         "NUM": 76,
         "WH": 54,
@@ -71230,11 +71368,11 @@
         "</S>": 1
       },
       "PUNCT": {
-        "</S>": 2955,
+        "</S>": 2960,
         "NOUN": 816,
-        "CONJ": 453,
-        "PRON": 80,
-        "VERB": 107,
+        "CONJ": 454,
+        "PRON": 81,
+        "VERB": 108,
         "ADV": 118,
         "PREP": 107,
         "ADJ": 127,
@@ -71254,7 +71392,7 @@
         "DET": 68,
         "PRON": 40,
         "NOUN": 103,
-        "VERB": 41,
+        "VERB": 42,
         "MODAL": 14,
         "PREP": 6,
         "PART": 9,
@@ -71270,13 +71408,13 @@
         "NOUN": 116,
         "CONJ": 23,
         "DET": 38,
-        "VERB": 253,
+        "VERB": 255,
         "</S>": 3,
         "PRON": 8,
         "MODAL": 2,
         "PART": 5,
         "ADV": 15,
-        "PREP": 70,
+        "PREP": 71,
         "AUX": 25,
         "PROPN": 2,
         "NUM": 6,
@@ -71284,35 +71422,35 @@
         "WH": 5
       },
       "NOUN": {
-        "AUX": 842,
-        "PREP": 2502,
-        "NOUN": 2390,
-        "PUNCT": 3892,
-        "CONJ": 976,
-        "VERB": 694,
+        "AUX": 844,
+        "PREP": 2511,
+        "NOUN": 2394,
+        "PUNCT": 3899,
+        "CONJ": 980,
+        "VERB": 695,
         "ADV": 118,
-        "PART": 320,
+        "PART": 321,
         "ADJ": 307,
         "MODAL": 114,
         "</S>": 153,
         "PRON": 196,
         "WH": 89,
-        "DET": 477,
+        "DET": 479,
         "PROPN": 121,
         "NUM": 17,
         "NEG": 8,
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 3145,
-        "ADJ": 1300,
+        "NOUN": 3151,
+        "ADJ": 1305,
         "PRON": 33,
         "PREP": 69,
         "NUM": 65,
         "PART": 8,
         "VERB": 64,
         "CONJ": 69,
-        "PROPN": 153,
+        "PROPN": 156,
         "DET": 107,
         "ADV": 45,
         "PUNCT": 35,
@@ -71324,8 +71462,8 @@
       "CONJ": {
         "PRON": 133,
         "DET": 358,
-        "NOUN": 945,
-        "VERB": 161,
+        "NOUN": 950,
+        "VERB": 162,
         "ADJ": 189,
         "ADV": 65,
         "PUNCT": 20,
@@ -71379,11 +71517,11 @@
         "DET": 11,
         "PUNCT": 176,
         "PART": 16,
-        "NOUN": 219,
-        "AUX": 35,
+        "NOUN": 222,
+        "AUX": 36,
         "PROPN": 126,
         "ADJ": 17,
-        "PREP": 37,
+        "PREP": 39,
         "CONJ": 36,
         "VERB": 26,
         "NUM": 1,
@@ -71396,7 +71534,7 @@
         "PUNCT": 12,
         "CONJ": 25,
         "PREP": 31,
-        "VERB": 13,
+        "VERB": 14,
         "MODAL": 3,
         "ADJ": 9,
         "PART": 3,
@@ -71411,7 +71549,7 @@
     "pos_trigrams": {
       "<S>|PRON": {
         "AUX": 194,
-        "VERB": 212,
+        "VERB": 213,
         "MODAL": 48,
         "ADV": 15,
         "DET": 3,
@@ -71431,7 +71569,7 @@
         "INTJ": 2,
         "ADV": 44,
         "PUNCT": 4,
-        "NUM": 8,
+        "NUM": 9,
         "NOUN": 11,
         "PRON": 5,
         "PREP": 10,
@@ -71468,7 +71606,7 @@
         "PUNCT": 69,
         "NOUN": 108,
         "WH": 6,
-        "DET": 125,
+        "DET": 126,
         "PART": 9,
         "NUM": 6,
         "CONJ": 52,
@@ -71481,14 +71619,14 @@
       },
       "VERB|PREP": {
         "PRON": 25,
-        "DET": 321,
+        "DET": 322,
         "NOUN": 234,
         "PUNCT": 26,
         "VERB": 23,
-        "ADJ": 71,
+        "ADJ": 72,
         "PREP": 19,
         "NUM": 23,
-        "PROPN": 35,
+        "PROPN": 36,
         "CONJ": 6,
         "AUX": 2,
         "WH": 5,
@@ -71576,7 +71714,7 @@
         "NOUN": 67,
         "PRON": 48,
         "PUNCT": 28,
-        "DET": 134,
+        "DET": 135,
         "VERB": 16,
         "ADJ": 19,
         "CONJ": 22,
@@ -71621,7 +71759,7 @@
         "PRON": 1
       },
       "<S>|NOUN": {
-        "AUX": 172,
+        "AUX": 174,
         "VERB": 88,
         "PUNCT": 29,
         "NOUN": 301,
@@ -71637,10 +71775,10 @@
         "INTJ": 2
       },
       "NOUN|AUX": {
-        "DET": 277,
+        "DET": 278,
         "ADJ": 138,
         "NOUN": 58,
-        "ADV": 91,
+        "ADV": 92,
         "VERB": 180,
         "CONJ": 9,
         "NUM": 14,
@@ -71654,8 +71792,8 @@
         "PUNCT": 7
       },
       "AUX|DET": {
-        "NOUN": 256,
-        "ADJ": 190,
+        "NOUN": 257,
+        "ADJ": 191,
         "PROPN": 8,
         "VERB": 7,
         "PREP": 4,
@@ -71665,31 +71803,31 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 979,
+        "PREP": 980,
         "AUX": 268,
-        "CONJ": 240,
-        "PUNCT": 739,
+        "CONJ": 241,
+        "PUNCT": 740,
         "VERB": 220,
         "ADV": 31,
         "ADJ": 69,
-        "NOUN": 288,
+        "NOUN": 289,
         "PRON": 48,
         "PART": 87,
         "</S>": 9,
         "PROPN": 7,
-        "DET": 95,
+        "DET": 97,
         "MODAL": 37,
         "WH": 25,
         "NUM": 3
       },
       "NOUN|PREP": {
-        "NOUN": 942,
-        "DET": 948,
+        "NOUN": 945,
+        "DET": 951,
         "PREP": 15,
-        "ADJ": 239,
+        "ADJ": 241,
         "PROPN": 63,
         "VERB": 77,
-        "PUNCT": 29,
+        "PUNCT": 30,
         "NUM": 34,
         "WH": 37,
         "AUX": 21,
@@ -71699,10 +71837,10 @@
         "</S>": 1
       },
       "PREP|NOUN": {
-        "NOUN": 227,
-        "PUNCT": 467,
+        "NOUN": 228,
+        "PUNCT": 468,
         "VERB": 60,
-        "CONJ": 190,
+        "CONJ": 191,
         "ADJ": 31,
         "DET": 64,
         "AUX": 39,
@@ -71718,9 +71856,9 @@
       },
       "NOUN|NOUN": {
         "PUNCT": 849,
-        "PART": 44,
+        "PART": 45,
         "NOUN": 556,
-        "PREP": 352,
+        "PREP": 355,
         "CONJ": 142,
         "VERB": 94,
         "PROPN": 50,
@@ -71736,16 +71874,16 @@
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 2243,
+        "</S>": 2248,
         "NOUN": 564,
-        "CONJ": 332,
+        "CONJ": 333,
         "ADV": 83,
         "PREP": 75,
         "ADJ": 90,
         "DET": 172,
         "VERB": 78,
         "WH": 45,
-        "PRON": 49,
+        "PRON": 50,
         "AUX": 36,
         "NUM": 6,
         "PROPN": 6,
@@ -71758,7 +71896,7 @@
       "<S>|DET": {
         "NOUN": 595,
         "ADJ": 227,
-        "PROPN": 34,
+        "PROPN": 35,
         "VERB": 8,
         "PREP": 14,
         "ADV": 9,
@@ -71768,14 +71906,14 @@
         "PRON": 4
       },
       "DET|ADJ": {
-        "NOUN": 1034,
+        "NOUN": 1038,
         "CONJ": 40,
         "ADJ": 47,
         "PUNCT": 55,
         "VERB": 38,
         "PREP": 32,
         "PART": 8,
-        "PROPN": 16,
+        "PROPN": 17,
         "DET": 2,
         "AUX": 13,
         "MODAL": 4,
@@ -71785,12 +71923,12 @@
         "WH": 1
       },
       "ADJ|NOUN": {
-        "PUNCT": 677,
+        "PUNCT": 681,
         "NOUN": 284,
         "MODAL": 17,
         "VERB": 104,
-        "PREP": 439,
-        "CONJ": 167,
+        "PREP": 440,
+        "CONJ": 169,
         "DET": 77,
         "ADJ": 23,
         "AUX": 111,
@@ -71817,11 +71955,11 @@
         "WH": 1
       },
       "PREP|DET": {
-        "NOUN": 1058,
-        "ADJ": 404,
+        "NOUN": 1059,
+        "ADJ": 408,
         "NUM": 27,
         "PREP": 16,
-        "PROPN": 66,
+        "PROPN": 67,
         "DET": 35,
         "VERB": 25,
         "PUNCT": 13,
@@ -71834,7 +71972,7 @@
         "PRON": 31,
         "DET": 156,
         "VERB": 54,
-        "NOUN": 530,
+        "NOUN": 534,
         "ADJ": 74,
         "WH": 7,
         "PREP": 30,
@@ -72042,7 +72180,7 @@
       },
       "NOUN|VERB": {
         "PART": 29,
-        "DET": 164,
+        "DET": 165,
         "PREP": 158,
         "WH": 6,
         "PRON": 49,
@@ -72080,7 +72218,7 @@
         "CONJ": 12,
         "AUX": 17,
         "PROPN": 12,
-        "VERB": 36,
+        "VERB": 37,
         "NEG": 2,
         "ADV": 21,
         "MODAL": 12,
@@ -72092,10 +72230,10 @@
         "AUX": 28,
         "PUNCT": 266,
         "</S>": 5,
-        "PREP": 189,
-        "VERB": 33,
+        "PREP": 191,
+        "VERB": 34,
         "WH": 10,
-        "NOUN": 250,
+        "NOUN": 252,
         "PRON": 18,
         "PART": 27,
         "CONJ": 37,
@@ -72108,13 +72246,13 @@
         "ADV": 3
       },
       "VERB|DET": {
-        "NOUN": 412,
+        "NOUN": 414,
         "ADJ": 195,
         "PREP": 6,
         "CONJ": 8,
         "DET": 11,
         "VERB": 6,
-        "PROPN": 9,
+        "PROPN": 10,
         "NUM": 6,
         "PUNCT": 3,
         "ADV": 2
@@ -72165,7 +72303,7 @@
         "ADJ": 1,
         "NOUN": 15,
         "DET": 7,
-        "VERB": 3,
+        "VERB": 4,
         "PREP": 1,
         "PROPN": 1,
         "PRON": 1,
@@ -72198,7 +72336,7 @@
         "CONJ": 3,
         "DET": 14,
         "VERB": 5,
-        "ADV": 2,
+        "ADV": 3,
         "WH": 1,
         "AUX": 1,
         "PRON": 1
@@ -72220,7 +72358,7 @@
       "NOUN|PART": {
         "ADJ": 25,
         "AUX": 38,
-        "VERB": 199,
+        "VERB": 200,
         "NOUN": 42,
         "CONJ": 3,
         "PUNCT": 8,
@@ -72329,7 +72467,7 @@
         "PUNCT": 3,
         "PROPN": 1,
         "MODAL": 3,
-        "NOUN": 85,
+        "NOUN": 86,
         "AUX": 2,
         "ADJ": 19,
         "NEG": 2,
@@ -72350,7 +72488,7 @@
       "PUNCT|PRON": {
         "MODAL": 27,
         "VERB": 12,
-        "AUX": 33,
+        "AUX": 34,
         "ADJ": 1,
         "ADV": 4,
         "PUNCT": 1,
@@ -72360,7 +72498,7 @@
       "PUNCT|VERB": {
         "AUX": 1,
         "CONJ": 8,
-        "PREP": 35,
+        "PREP": 36,
         "NOUN": 27,
         "PUNCT": 13,
         "PROPN": 1,
@@ -72373,7 +72511,7 @@
       "VERB|WH": {
         "NOUN": 12,
         "DET": 2,
-        "VERB": 10,
+        "VERB": 11,
         "PART": 4,
         "PRON": 7,
         "MODAL": 1,
@@ -72414,7 +72552,7 @@
         "DET": 8,
         "PUNCT": 9,
         "VERB": 1,
-        "CONJ": 7,
+        "CONJ": 8,
         "ADJ": 3,
         "PREP": 7,
         "NOUN": 5,
@@ -72435,7 +72573,7 @@
       "AUX|ADV": {
         "ADJ": 32,
         "NOUN": 16,
-        "VERB": 78,
+        "VERB": 79,
         "ADV": 7,
         "PREP": 4,
         "DET": 12,
@@ -72579,7 +72717,7 @@
       },
       "VERB|ADV": {
         "DET": 5,
-        "PREP": 15,
+        "PREP": 16,
         "PUNCT": 20,
         "VERB": 14,
         "NOUN": 20,
@@ -72612,8 +72750,8 @@
         "PART": 13,
         "NOUN": 32,
         "CONJ": 33,
-        "PREP": 73,
-        "WH": 5,
+        "PREP": 74,
+        "WH": 6,
         "PUNCT": 16,
         "ADJ": 12,
         "AUX": 4,
@@ -72652,7 +72790,7 @@
         "CONJ": 11,
         "PROPN": 12,
         "ADJ": 24,
-        "NOUN": 288,
+        "NOUN": 291,
         "PUNCT": 24,
         "AUX": 4,
         "VERB": 11,
@@ -72668,7 +72806,7 @@
         "PUNCT": 13,
         "ADJ": 4,
         "DET": 7,
-        "VERB": 9,
+        "VERB": 10,
         "CONJ": 1,
         "AUX": 3,
         "NOUN": 3,
@@ -72716,9 +72854,9 @@
       },
       "PREP|PROPN": {
         "PUNCT": 48,
-        "AUX": 3,
+        "AUX": 4,
         "PROPN": 31,
-        "NOUN": 28,
+        "NOUN": 29,
         "PREP": 8,
         "VERB": 4,
         "CONJ": 10,
@@ -72744,7 +72882,7 @@
       },
       "ADJ|PROPN": {
         "PUNCT": 12,
-        "NOUN": 19,
+        "NOUN": 20,
         "CONJ": 1,
         "PROPN": 7,
         "AUX": 2,
@@ -72816,7 +72954,7 @@
         "PART": 1
       },
       "NOUN|DET": {
-        "NOUN": 279,
+        "NOUN": 281,
         "ADJ": 86,
         "CONJ": 29,
         "ADV": 10,
@@ -72911,13 +73049,13 @@
       "PROPN|NOUN": {
         "CONJ": 10,
         "AUX": 31,
-        "PUNCT": 81,
+        "PUNCT": 82,
         "NOUN": 45,
         "DET": 9,
         "MODAL": 1,
         "PROPN": 13,
         "ADJ": 2,
-        "PREP": 16,
+        "PREP": 18,
         "VERB": 9,
         "PART": 1,
         "PRON": 1
@@ -73110,7 +73248,7 @@
       },
       "PROPN|AUX": {
         "VERB": 7,
-        "DET": 11,
+        "DET": 12,
         "ADJ": 7,
         "PREP": 2,
         "NOUN": 4,
@@ -73125,7 +73263,7 @@
       },
       "DET|PROPN": {
         "PROPN": 22,
-        "NOUN": 72,
+        "NOUN": 73,
         "ADJ": 12,
         "AUX": 13,
         "PUNCT": 12,
@@ -73134,7 +73272,7 @@
         "ADV": 3,
         "PRON": 1,
         "PART": 1,
-        "PREP": 5,
+        "PREP": 7,
         "VERB": 3
       },
       "PROPN|PROPN": {
@@ -73209,7 +73347,7 @@
       "ADV|PREP": {
         "NOUN": 21,
         "ADJ": 10,
-        "DET": 27,
+        "DET": 28,
         "NUM": 3,
         "VERB": 4,
         "PRON": 2,
@@ -73250,8 +73388,8 @@
       },
       "PROPN|PREP": {
         "NOUN": 8,
-        "PROPN": 7,
-        "DET": 14,
+        "PROPN": 8,
+        "DET": 15,
         "ADJ": 3,
         "MODAL": 1,
         "PUNCT": 1,
@@ -73282,7 +73420,7 @@
         "WH": 1,
         "NUM": 1,
         "PART": 1,
-        "VERB": 3,
+        "VERB": 4,
         "CONJ": 1
       },
       "NUM|PREP": {
@@ -73376,7 +73514,7 @@
         "ADJ": 2
       },
       "NUM|VERB": {
-        "PREP": 4,
+        "PREP": 5,
         "ADV": 1,
         "PART": 2,
         "PUNCT": 2,
@@ -73806,7 +73944,8 @@
         "read": 3,
         "effect": 1,
         "transport": 1,
-        "get": 1
+        "get": 1,
+        "detail": 1
       },
       "talk": {
         "with": 1,
@@ -73942,9 +74081,9 @@
         "are": 2
       },
       "is": {
-        "a": 157,
+        "a": 158,
         "the": 115,
-        "an": 35,
+        "an": 36,
         "one": 8,
         "usually": 7,
         "hard": 5,
@@ -73955,7 +74094,8 @@
         "printed": 1,
         "not": 1,
         "no": 1,
-        "really": 1
+        "really": 1,
+        "also": 1
       },
       "a": {
         "noun": 18,
@@ -73972,7 +74112,10 @@
         "firm": 1,
         "hold": 1,
         "grasp": 1,
-        "rest": 1
+        "rest": 1,
+        "science": 1,
+        "jewish": 1,
+        "key": 1
       },
       "for": {
         "the": 29,
@@ -73989,7 +74132,9 @@
         "takeoff": 1,
         "dinner": 1,
         "my": 1,
-        "starting": 1
+        "starting": 1,
+        "spacecraft": 1,
+        "global": 1
       },
       "sharing": {
         "ideas": 1,
@@ -74007,16 +74152,12 @@
         "lesson": 4,
         "variable": 3,
         "listener": 3,
-        "vicinity": 1,
-        "bahamas": 1,
-        "crowd": 1,
-        "same": 2,
-        "new": 1,
-        "handlebars": 1,
-        "baby": 1,
-        "pencil": 1,
-        "top": 1,
-        "hill": 1
+        "study": 1,
+        "universe": 1,
+        "protocols": 1,
+        "elders": 1,
+        "early": 1,
+        "th": 1
       },
       "brain": {
         "is": 1,
@@ -74193,7 +74334,7 @@
       },
       "it": {
         "is": 65,
-        "was": 17,
+        "was": 18,
         "'s": 13,
         "has": 10,
         "can": 5,
@@ -74209,7 +74350,8 @@
         "might": 2,
         "surprises": 1,
         "explores": 1,
-        "focuses": 1
+        "focuses": 1,
+        "played": 1
       },
       "important": {
         "to": 3,
@@ -74302,17 +74444,7 @@
         "used": 3,
         "will": 2,
         "referring": 2,
-        "people": 1,
-        "no": 1,
-        "making": 1,
-        "participating": 1,
-        "our": 1,
-        "she": 1,
-        "he": 1,
-        "they": 1,
-        "writing": 1,
-        "i": 2,
-        "holding": 1
+        "i": 2
       },
       "questions": {
         "are": 1,
@@ -74417,12 +74549,7 @@
         "war": 3,
         "against": 3,
         "functions": 2,
-        "only": 2,
-        "we": 1,
-        "hard": 1,
-        "enforce": 1,
-        "myosin": 1,
-        "marketing": 1
+        "disseminated": 1
       },
       "meanings": {
         "have": 1,
@@ -74476,7 +74603,8 @@
         "mimic": 3,
         "quantifies": 2,
         "he": 1,
-        "this": 1
+        "this": 1,
+        "applies": 1
       },
       "good": {
         "manners": 3,
@@ -74631,7 +74759,7 @@
         "investigate": 1
       },
       "in": {
-        "the": 158,
+        "the": 160,
         "a": 82,
         "english": 18,
         "many": 13,
@@ -74642,7 +74770,10 @@
         "most": 5,
         "\"": 4,
         "yonkers": 1,
-        "my": 1
+        "my": 1,
+        "imperial": 1,
+        "popularizing": 1,
+        "an": 1
       },
       "children": {
         "play": 1,
@@ -74672,7 +74803,8 @@
         "stationed": 2,
         "so": 2,
         "not": 1,
-        "exact": 1
+        "exact": 1,
+        "first": 1
       },
       "so": {
         "as": 7,
@@ -74798,7 +74930,7 @@
         "at": 1
       },
       "of": {
-        "the": 231,
+        "the": 233,
         "a": 100,
         "an": 26,
         "or": 18,
@@ -74808,15 +74940,7 @@
         "other": 7,
         "criteria": 6,
         "protons": 5,
-        "life": 1,
-        "goodwill": 1,
-        "drink": 1,
-        "solder": 1,
-        "town": 1,
-        "time": 1,
-        "my": 1,
-        "actin": 1,
-        "tissue": 1
+        "zion": 1
       },
       "reading": {
         "is": 1,
@@ -75185,7 +75309,8 @@
         "all": 2,
         "equilibrium": 1,
         "classical": 1,
-        "erving": 1
+        "erving": 1,
+        "several": 1
       },
       "point": {
         "of": 2,
@@ -75241,7 +75366,7 @@
         "i": 2,
         "matchine": 2,
         "or": 2,
-        "of": 37,
+        "of": 38,
         "brilliant": 1,
         "in": 3,
         "whole": 1,
@@ -75409,7 +75534,9 @@
         "important": 1,
         "eye-witness": 1,
         "act": 2,
-        "illness": 1
+        "illness": 1,
+        "antisemitic": 1,
+        "international": 1
       },
       "update": {
         "to": 1,
@@ -75828,7 +75955,8 @@
         "variables": 1,
         "system": 1,
         "scope": 1,
-        "business": 1
+        "business": 1,
+        "domination": 1
       },
       "gradient": {
         "descent": 6,
@@ -76018,7 +76146,8 @@
         "five": 2,
         "three": 2,
         "another": 2,
-        "dissipative": 1
+        "dissipative": 1,
+        "multiple": 1
       },
       "dissipative": {
         "structures": 1,
@@ -76113,7 +76242,7 @@
       },
       "principles": {
         "requires": 1,
-        "of": 1,
+        "of": 2,
         "are": 1,
         "an": 1,
         "relating": 1
@@ -76234,7 +76363,7 @@
         "or": 1,
         "loosely": 1,
         "today": 1,
-        "when": 3,
+        "when": 4,
         "the": 1,
         "containers": 1,
         "against": 1,
@@ -76301,7 +76430,7 @@
         "or": 1
       },
       "including": {
-        "the": 3,
+        "the": 4,
         "its": 2,
         "radio": 2,
         "light": 3,
@@ -76496,12 +76625,12 @@
         "as": 1
       },
       "part": {
-        "of": 36,
+        "of": 37,
         "fred": 1,
         "owner": 1,
         "or": 1,
         "pay": 1,
-        "in": 2
+        "in": 3
       },
       "speech": {
         "that": 2,
@@ -76689,7 +76818,8 @@
         "scenes": 1,
         "sides": 1,
         "particulars": 1,
-        "calls": 1
+        "calls": 1,
+        "earlier": 1
       },
       "senses": {
         "and": 1,
@@ -76866,7 +76996,7 @@
         "n": 1
       },
       "th": {
-        "century": 8
+        "century": 9
       },
       "known": {
         "as": 19,
@@ -76949,7 +77079,8 @@
         ")": 2,
         "grammarians": 1,
         "hours": 1,
-        "representation": 1
+        "representation": 1,
+        "part": 1
       },
       "coordinating": {
         "conjunctions": 1,
@@ -76970,7 +77101,7 @@
         "suitable": 1,
         "capable": 1,
         "central": 1,
-        "used": 1
+        "used": 2
       },
       "conjunctions": {
         "that": 2,
@@ -78909,7 +79040,7 @@
         "and": 6,
         "laboratory": 1,
         "than": 1,
-        "that": 3,
+        "that": 4,
         "which": 2,
         "disciplines": 1
       },
@@ -79181,7 +79312,7 @@
         "step": 1,
         "saceur": 1,
         "carbon": 1,
-        "published": 1,
+        "published": 2,
         "great": 1,
         "part": 1,
         "discovery": 1,
@@ -79522,7 +79653,8 @@
         "blades": 1,
         "citizenship": 1,
         "agents": 1,
-        "distinct": 1
+        "distinct": 1,
+        "languages": 1
       },
       "via": {
         "llvm": 1,
@@ -80790,7 +80922,7 @@
         "v": 1
       },
       "objects": {
-        "and": 3,
+        "and": 4,
         ")": 3,
         "with": 1,
         "within": 1,
@@ -81187,7 +81319,7 @@
       },
       "published": {
         "fiction": 1,
-        "in": 2,
+        "in": 3,
         "the": 1,
         "an": 1
       },
@@ -82648,7 +82780,8 @@
       "played": {
         "by": 2,
         "the": 2,
-        "cards": 1
+        "cards": 1,
+        "a": 1
       },
       "explicit": {
         "gay": 1,
@@ -83100,7 +83233,8 @@
         "used": 1,
         "are": 1,
         "of": 2,
-        "has": 1
+        "has": 1,
+        "and": 1
       },
       "activity": {
         "of": 1,
@@ -84242,7 +84376,7 @@
         "method": 1
       },
       "physics": {
-        "and": 1,
+        "and": 2,
         "that": 2
       },
       "infinitesimal": {
@@ -85167,7 +85301,7 @@
         "history": 1
       },
       "designing": {
-        "and": 1,
+        "and": 2,
         "new": 1
       },
       "longer": {
@@ -85545,7 +85679,8 @@
         "and": 1,
         "of": 1,
         "in": 1,
-        "the": 1
+        "the": 1,
+        "a": 1
       },
       "dbms": {
         "additionally": 2,
@@ -86367,7 +86502,8 @@
       },
       "astronomical": {
         "object": 1,
-        "body": 2
+        "body": 2,
+        "objects": 1
       },
       "gravity": {
         "of": 1,
@@ -86564,7 +86700,8 @@
       "international": {
         "pragmatics": 1,
         "system": 1,
-        "relations": 1
+        "relations": 1,
+        "jewish": 1
       },
       "relevant": {
         "to": 1,
@@ -86627,7 +86764,8 @@
         "debt": 1
       },
       "russia": {
-        "is": 2
+        "is": 2,
+        "in": 1
       },
       "fruit-fly": {
         "has": 2
@@ -87327,7 +87465,8 @@
       },
       "chemistry": {
         "of": 1,
-        "and": 1
+        "and": 1,
+        "in": 1
       },
       "surrounding": {
         "environment": 1
@@ -87991,7 +88130,8 @@
         "for": 1
       },
       "belief": {
-        "that": 2
+        "that": 2,
+        "in": 1
       },
       "thief": {
         "is": 1
@@ -88355,7 +88495,8 @@
         "protocols": 1
       },
       "protocols": {
-        "that": 1
+        "that": 1,
+        "of": 1
       },
       "prevent": {
         "third": 1
@@ -89175,7 +89316,8 @@
         "in": 1
       },
       "largely": {
-        "of": 1
+        "of": 1,
+        "plagiarized": 1
       },
       "actin": {
         "and": 1
@@ -89226,17 +89368,81 @@
       },
       "breath": {
         "back": 1
+      },
+      "astrophysics": {
+        "is": 2
+      },
+      "applies": {
+        "the": 1
+      },
+      "phenomena": {
+        "including": 1
+      },
+      "plotting": {
+        "courses": 1
+      },
+      "courses": {
+        "for": 1
+      },
+      "elders": {
+        "of": 1
+      },
+      "zion": {
+        "is": 1
+      },
+      "antisemitic": {
+        "hoax": 1
+      },
+      "hoax": {
+        "and": 1
+      },
+      "forgery": {
+        "purporting": 1
+      },
+      "purporting": {
+        "to": 1
+      },
+      "jewish": {
+        "plot": 1,
+        "conspiracy": 1
+      },
+      "plot": {
+        "for": 1
+      },
+      "plagiarized": {
+        "from": 1
+      },
+      "earlier": {
+        "sources": 1
+      },
+      "imperial": {
+        "russia": 1
+      },
+      "translated": {
+        "into": 1
+      },
+      "disseminated": {
+        "internationally": 1
+      },
+      "internationally": {
+        "in": 1
+      },
+      "key": {
+        "part": 1
+      },
+      "popularizing": {
+        "belief": 1
       }
     },
     "starters": {
       "i": 132,
       "how": 6,
       "what": 10,
-      "<NOUN>": 822,
-      "the": 425,
+      "<NOUN>": 824,
+      "the": 426,
       "she": 36,
       "we": 46,
-      "it": 105,
+      "it": 106,
       "<VERB>": 306,
       "can": 6,
       "my": 18,
@@ -89254,7 +89460,7 @@
       "who": 2,
       "when": 15,
       "you": 17,
-      "<ADV>": 45,
+      "<ADV>": 46,
       "an": 55,
       "however": 2,
       "in": 136,
@@ -89329,7 +89535,7 @@
     "connectors": {
       "because": 17,
       "or": 610,
-      "and": 872,
+      "and": 878,
       "but": 90,
       "so": 42,
       "while": 9,
@@ -89380,7 +89586,7 @@
         "since": 1
       },
       "NOUN>NOUN": {
-        "and": 389,
+        "and": 393,
         "or": 251,
         "as": 13,
         "yet": 2,
@@ -89394,7 +89600,7 @@
         "unless": 1
       },
       "NOUN>VERB": {
-        "and": 45,
+        "and": 46,
         "or": 23,
         "as": 6,
         "than": 1,
@@ -89548,7 +89754,7 @@
       },
       "VERB>NOUN": {
         "as": 20,
-        "and": 34,
+        "and": 35,
         "or": 24,
         "that": 7,
         "than": 1,
@@ -93016,22 +93222,11 @@
       "DET NOUN AUX VERB DET NOUN PREP DET NOUN | and | DET NOUN": 1,
       "PART VERB | and | NOUN DET NOUN CONJ NOUN PREP ADV PREP DET ADJ CONJ ADJ NOUN": 1,
       "NOUN VERB ADV PREP NOUN | and | NOUN": 1,
-      "DET ADJ NOUN VERB DET ADJ NOUN PREP NOUN | and | VERB NOUN ADJ NOUN PART VERB PREP PRON VERB NOUN": 1
+      "DET ADJ NOUN VERB DET ADJ NOUN PREP NOUN | and | VERB NOUN ADJ NOUN PART VERB PREP PRON VERB NOUN": 1,
+      "NOUN AUX ADV VERB WH VERB | and | NOUN PREP NOUN": 1,
+      "DET PROPN PREP DET PROPN PREP PROPN AUX DET ADJ NOUN | and | NOUN PART VERB DET PROPN NOUN PREP ADJ NOUN": 1
     },
     "sentence_bank": {
-      "mood": [
-        "I've been in a bad mood since I dumped my boyfriend."
-      ],
-      "dump": [
-        "I've been in a bad mood since I dumped my boyfriend.",
-        "My boss dumped a whole mess of projects on my desk today."
-      ],
-      "emotional": [
-        "A mental or emotional state, composure."
-      ],
-      "smoking": [
-        "Smoking kills more people each year than alcohol and drugs combined."
-      ],
       "kills": [
         "Smoking kills more people each year than alcohol and drugs combined."
       ],
@@ -94046,7 +94241,8 @@
         "His rage only increased when I told him of the lost money."
       ],
       "play": [
-        "She will perform in the play."
+        "She will perform in the play.",
+        "It played a key part in popularizing belief in an international Jewish conspiracy."
       ],
       "repeating": [
         "The act or an instance of repeating or being repeated."
@@ -94512,9 +94708,9 @@
         "The set of letters used when writing in a language."
       ],
       "used": [
-        "The set of letters used when writing in a language.",
         "The architect used geometric techniques to design her home.",
-        "A substance used to treat an illness, relieve a symptom, or modify a chemical process in the body for a specific purpose."
+        "A substance used to treat an illness, relieve a symptom, or modify a chemical process in the body for a specific purpose.",
+        "Astrophysics is also used when designing and plotting courses for spacecraft."
       ],
       "pack": [
         "She packed her case rapidly and hurried out."
@@ -94964,6 +95160,18 @@
       ],
       "rest": [
         "We took a rest at the top of the hill to get our breath back."
+      ],
+      "astrophysics": [
+        "Astrophysics is also used when designing and plotting courses for spacecraft."
+      ],
+      "antisemitic": [
+        "The Protocols of the Elders of Zion is an antisemitic hoax and forgery purporting to detail a Jewish plot for global domination."
+      ],
+      "hoax": [
+        "The Protocols of the Elders of Zion is an antisemitic hoax and forgery purporting to detail a Jewish plot for global domination."
+      ],
+      "part": [
+        "It played a key part in popularizing belief in an international Jewish conspiracy."
       ]
     }
   },
@@ -95279,7 +95487,9 @@
       "sales",
       "baby",
       "hill",
-      "breath"
+      "breath",
+      "astrophysics",
+      "courses"
     ],
     "names": [],
     "lessons": 155,
