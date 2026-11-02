@@ -11,7 +11,7 @@
     "cortisol": 0.0,
     "serotonin": 1.0,
     "oxytocin": 1.0,
-    "adenosine": 0.6200000000000001,
+    "adenosine": 0.7400000000000002,
     "newborn": false
   },
   "episodic_memory": [
@@ -2868,6 +2868,20 @@
       "time": "2026-11-02 01:48:20",
       "speaker": "brain",
       "text": "I wondered about 'The Protocols of the Elders of Zion' by myself and went searching. From Wikipedia (live internet) I learned: The Protocols of the Elders of Zion is an antisemitic hoax and forgery purporting to detail a Jewish plot for global domination. Key ideas I stored: international jewish conspiracy, protocols, elders, zion, imperial.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-11-02 08:57:15",
+      "speaker": "brain",
+      "text": "I wondered about 'Decentralization' by myself and went searching. From Wikipedia (live internet) I learned: Decentralization is the process by which the activities of an organization, particularly those related to planning and decision-making, are distributed or delegated away from a central, authoritative location or group and given to smaller factions within it. Key ideas I stored: distributed, decentralization, decision-making.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-11-02 08:57:15",
+      "speaker": "brain",
+      "text": "I wondered about 'Anglicisation' by myself and went searching. From Wikipedia (live internet) I learned: Anglicisation, or anglicization, is a form of cultural assimilation whereby something non-English becomes assimilated into or influenced by the culture of England. Key ideas I stored: cultural assimilation whereby, non-english, england, united, kingdom.",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -7718,6 +7732,31 @@
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/The_Protocols_of_the_Elders_of_Zion",
       "learned": "2026-11-02 01:48:20"
+    },
+    "Decentralization": {
+      "summary": "Decentralization is the process by which the activities of an organization, particularly those related to planning and decision-making, are distributed or delegated away from a central, authoritative location or group and given to smaller factions within it.",
+      "concepts": [
+        "distributed",
+        "decentralization",
+        "decision-making"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Decentralization",
+      "learned": "2026-11-02 08:57:15"
+    },
+    "Anglicisation": {
+      "summary": "Anglicisation, or anglicization, is a form of cultural assimilation whereby something non-English becomes assimilated into or influenced by the culture of England. It can be sociocultural, in which a non-English place adopts the English language or culture; institutional, in which institutions are influenced by those of England or the United Kingdom; or linguistic, in which a non-English term or name is altered due to the cultural influence of the English language. It can also refer to the influence of English soft power, which includes media, cuisine, popular culture, technology, business practices, laws and political systems.",
+      "concepts": [
+        "cultural assimilation whereby",
+        "non-english",
+        "england",
+        "united",
+        "kingdom",
+        "anglicisation"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Anglicisation",
+      "learned": "2026-11-02 08:57:15"
     }
   },
   "creator_teachings": [
@@ -9257,6 +9296,18 @@
       "kind": "explore_report",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-11-02 08:57:15",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-11-02 08:57:15",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -9467,7 +9518,9 @@
     "cryptology",
     "chaos theory",
     "astrophysics",
-    "protocols"
+    "protocols",
+    "decentralised",
+    "anglicisation"
   ],
   "sensory_log": [
     {
@@ -68665,24 +68718,48 @@
       "source": "corpus",
       "learned": "2026-11-02 01:48:25",
       "uses": 1
+    },
+    "media": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-02 08:57:15",
+      "uses": 1
+    },
+    "popular": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-02 08:57:15",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 3169,
-      "tokens": 43623,
+      "sentences": 3171,
+      "tokens": 43679,
       "sources": {
         "seed corpus": 64,
         "conversation": 36,
         "dictionary": 1878,
-        "explore": 502,
+        "explore": 504,
         "pasted text": 24,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418
       },
       "hashes": [
-        "1b010ad3d8ca",
-        "970faafc2a84",
         "1229e4b40902",
         "90fc85b30481",
         "2e39f9a9765c",
@@ -68980,10 +69057,12 @@
         "3f9df673382d",
         "cceaecf08e2a",
         "e76ce692bb67",
-        "26bfcf6c7b47"
+        "26bfcf6c7b47",
+        "cca57c0dd3ae",
+        "2def00dd8849"
       ],
       "seeded": true,
-      "rejected": 703,
+      "rejected": 705,
       "vocab_counts": {
         "thank": 1,
         "shades": 1,
@@ -69406,7 +69485,6 @@
         "elegance": 1,
         "worst": 1,
         "unpacking": 1,
-        "popular": 1,
         "aphorism": 1,
         "bird": 1,
         "accounts": 1,
@@ -71302,7 +71380,6 @@
         "terminological": 1,
         "translating": 1,
         "interpreting": 1,
-        "media": 1,
         "solvent": 1,
         "rearranging": 1,
         "circular": 1,
@@ -71681,14 +71758,20 @@
         "accredited": 1,
         "officially": 1,
         "organisations": 1,
-        "brushing": 1
+        "brushing": 1,
+        "anglicisation": 1,
+        "anglicization": 1,
+        "assimilation": 1,
+        "whereby": 1,
+        "assimilated": 1,
+        "cuisine": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
-        "PRON": 497,
+        "PRON": 498,
         "WH": 37,
-        "NOUN": 825,
+        "NOUN": 826,
         "DET": 926,
         "VERB": 306,
         "MODAL": 9,
@@ -71707,7 +71790,7 @@
         "PUNCT": 116,
         "ADV": 35,
         "VERB": 468,
-        "MODAL": 144,
+        "MODAL": 145,
         "PREP": 47,
         "WH": 6,
         "DET": 24,
@@ -71716,7 +71799,7 @@
         "NOUN": 27,
         "CONJ": 18,
         "PRON": 9,
-        "ADJ": 18,
+        "ADJ": 19,
         "NUM": 3,
         "NEG": 1
       },
@@ -71724,7 +71807,7 @@
         "ADJ": 320,
         "PRON": 30,
         "PUNCT": 20,
-        "DET": 495,
+        "DET": 496,
         "NOUN": 109,
         "NEG": 86,
         "VERB": 464,
@@ -71740,16 +71823,16 @@
       },
       "ADJ": {
         "PART": 54,
-        "NOUN": 2065,
+        "NOUN": 2067,
         "WH": 9,
         "PUNCT": 335,
         "PREP": 214,
         "CONJ": 126,
         "PROPN": 47,
-        "ADJ": 124,
+        "ADJ": 125,
         "DET": 45,
         "AUX": 36,
-        "VERB": 113,
+        "VERB": 114,
         "MODAL": 11,
         "</S>": 7,
         "NUM": 12,
@@ -71771,15 +71854,15 @@
         "NEG": 1
       },
       "VERB": {
-        "PREP": 806,
+        "PREP": 808,
         "PART": 175,
         "ADJ": 118,
-        "NOUN": 752,
+        "NOUN": 753,
         "PUNCT": 376,
-        "PRON": 174,
+        "PRON": 175,
         "AUX": 43,
         "DET": 664,
-        "VERB": 69,
+        "VERB": 70,
         "CONJ": 257,
         "WH": 39,
         "</S>": 15,
@@ -71792,33 +71875,33 @@
       "PREP": {
         "PRON": 122,
         "NOUN": 1499,
-        "DET": 1674,
+        "DET": 1676,
         "PUNCT": 81,
         "VERB": 127,
         "PREP": 42,
-        "ADJ": 390,
-        "PROPN": 145,
+        "ADJ": 392,
+        "PROPN": 146,
         "AUX": 30,
         "NUM": 76,
         "WH": 54,
-        "CONJ": 38,
+        "CONJ": 39,
         "ADV": 27,
         "PART": 6,
         "MODAL": 1,
         "</S>": 1
       },
       "PUNCT": {
-        "</S>": 2980,
-        "NOUN": 818,
-        "CONJ": 455,
+        "</S>": 2982,
+        "NOUN": 823,
+        "CONJ": 456,
         "PRON": 81,
         "VERB": 108,
         "ADV": 121,
         "PREP": 107,
         "ADJ": 127,
         "DET": 245,
-        "WH": 62,
-        "AUX": 45,
+        "WH": 63,
+        "AUX": 46,
         "NUM": 8,
         "PUNCT": 99,
         "PROPN": 33,
@@ -71832,7 +71915,7 @@
         "DET": 68,
         "PRON": 40,
         "NOUN": 103,
-        "VERB": 43,
+        "VERB": 44,
         "MODAL": 14,
         "PREP": 6,
         "PART": 9,
@@ -71845,7 +71928,7 @@
       "ADV": {
         "PUNCT": 102,
         "ADJ": 75,
-        "NOUN": 116,
+        "NOUN": 117,
         "CONJ": 23,
         "DET": 38,
         "VERB": 256,
@@ -71863,11 +71946,11 @@
       },
       "NOUN": {
         "AUX": 847,
-        "PREP": 2528,
-        "NOUN": 2400,
-        "PUNCT": 3924,
-        "CONJ": 984,
-        "VERB": 698,
+        "PREP": 2532,
+        "NOUN": 2403,
+        "PUNCT": 3933,
+        "CONJ": 985,
+        "VERB": 699,
         "ADV": 119,
         "PART": 323,
         "ADJ": 307,
@@ -71882,7 +71965,7 @@
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 3180,
+        "NOUN": 3183,
         "ADJ": 1315,
         "PRON": 33,
         "PREP": 70,
@@ -71902,8 +71985,8 @@
       "CONJ": {
         "PRON": 133,
         "DET": 362,
-        "NOUN": 952,
-        "VERB": 162,
+        "NOUN": 954,
+        "VERB": 163,
         "ADJ": 192,
         "ADV": 65,
         "PUNCT": 20,
@@ -71925,7 +72008,7 @@
         "AUX": 104,
         "NOUN": 23,
         "NEG": 16,
-        "ADV": 19,
+        "ADV": 20,
         "PUNCT": 4,
         "ADJ": 12,
         "NUM": 1
@@ -71955,7 +72038,7 @@
       },
       "PROPN": {
         "DET": 11,
-        "PUNCT": 176,
+        "PUNCT": 177,
         "PART": 16,
         "NOUN": 223,
         "AUX": 36,
@@ -71990,7 +72073,7 @@
       "<S>|PRON": {
         "AUX": 196,
         "VERB": 214,
-        "MODAL": 48,
+        "MODAL": 49,
         "ADV": 15,
         "DET": 3,
         "NOUN": 11,
@@ -72059,7 +72142,7 @@
       },
       "VERB|PREP": {
         "PRON": 25,
-        "DET": 323,
+        "DET": 324,
         "NOUN": 234,
         "PUNCT": 26,
         "VERB": 23,
@@ -72067,7 +72150,7 @@
         "PREP": 19,
         "NUM": 23,
         "PROPN": 36,
-        "CONJ": 6,
+        "CONJ": 7,
         "AUX": 2,
         "WH": 5,
         "ADV": 11,
@@ -72201,7 +72284,7 @@
       "<S>|NOUN": {
         "AUX": 175,
         "VERB": 88,
-        "PUNCT": 29,
+        "PUNCT": 30,
         "NOUN": 301,
         "CONJ": 29,
         "PREP": 65,
@@ -72232,7 +72315,7 @@
         "PUNCT": 7
       },
       "AUX|DET": {
-        "NOUN": 257,
+        "NOUN": 258,
         "ADJ": 193,
         "PROPN": 8,
         "VERB": 7,
@@ -72243,7 +72326,7 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 988,
+        "PREP": 991,
         "AUX": 270,
         "CONJ": 244,
         "PUNCT": 750,
@@ -72262,10 +72345,10 @@
       },
       "NOUN|PREP": {
         "NOUN": 954,
-        "DET": 957,
+        "DET": 958,
         "PREP": 15,
-        "ADJ": 242,
-        "PROPN": 63,
+        "ADJ": 244,
+        "PROPN": 64,
         "VERB": 77,
         "PUNCT": 30,
         "NUM": 34,
@@ -72295,7 +72378,7 @@
         "ADV": 8
       },
       "NOUN|NOUN": {
-        "PUNCT": 852,
+        "PUNCT": 855,
         "PART": 45,
         "NOUN": 558,
         "PREP": 355,
@@ -72314,17 +72397,17 @@
         "</S>": 4
       },
       "NOUN|PUNCT": {
-        "</S>": 2266,
-        "NOUN": 564,
-        "CONJ": 333,
+        "</S>": 2267,
+        "NOUN": 569,
+        "CONJ": 334,
         "ADV": 86,
         "PREP": 75,
         "ADJ": 90,
         "DET": 175,
         "VERB": 78,
-        "WH": 46,
+        "WH": 47,
         "PRON": 50,
-        "AUX": 36,
+        "AUX": 37,
         "NUM": 6,
         "PROPN": 6,
         "PART": 18,
@@ -72363,10 +72446,10 @@
         "WH": 1
       },
       "ADJ|NOUN": {
-        "PUNCT": 686,
+        "PUNCT": 687,
         "NOUN": 286,
         "MODAL": 18,
-        "VERB": 104,
+        "VERB": 105,
         "PREP": 443,
         "CONJ": 169,
         "DET": 78,
@@ -72395,7 +72478,7 @@
         "WH": 1
       },
       "PREP|DET": {
-        "NOUN": 1069,
+        "NOUN": 1071,
         "ADJ": 409,
         "NUM": 27,
         "PREP": 16,
@@ -72412,7 +72495,7 @@
         "PRON": 31,
         "DET": 158,
         "VERB": 54,
-        "NOUN": 535,
+        "NOUN": 536,
         "ADJ": 75,
         "WH": 7,
         "PREP": 30,
@@ -72438,7 +72521,7 @@
         "CONJ": 1
       },
       "VERB|NOUN": {
-        "PUNCT": 208,
+        "PUNCT": 209,
         "PREP": 122,
         "PART": 25,
         "VERB": 26,
@@ -72461,7 +72544,7 @@
         "NOUN": 13,
         "AUX": 34,
         "DET": 1,
-        "ADV": 8,
+        "ADV": 9,
         "NEG": 7,
         "ADJ": 7,
         "PUNCT": 3,
@@ -72481,10 +72564,10 @@
         "VERB": 2
       },
       "PUNCT|NOUN": {
-        "CONJ": 62,
-        "NOUN": 134,
+        "CONJ": 63,
+        "NOUN": 136,
         "ADJ": 9,
-        "PUNCT": 423,
+        "PUNCT": 425,
         "PREP": 84,
         "AUX": 29,
         "DET": 23,
@@ -72556,7 +72639,7 @@
         "NOUN": 9,
         "CONJ": 5,
         "PRON": 2,
-        "ADJ": 3,
+        "ADJ": 4,
         "ADV": 5,
         "NUM": 1,
         "MODAL": 7
@@ -72623,7 +72706,7 @@
         "DET": 165,
         "PREP": 158,
         "WH": 6,
-        "PRON": 50,
+        "PRON": 51,
         "PUNCT": 51,
         "</S>": 3,
         "ADV": 23,
@@ -72650,7 +72733,7 @@
         "WH": 1
       },
       "PUNCT|CONJ": {
-        "NOUN": 174,
+        "NOUN": 175,
         "PRON": 35,
         "DET": 69,
         "PUNCT": 6,
@@ -72668,12 +72751,12 @@
       },
       "CONJ|NOUN": {
         "AUX": 28,
-        "PUNCT": 267,
+        "PUNCT": 268,
         "</S>": 5,
         "PREP": 192,
         "VERB": 34,
         "WH": 10,
-        "NOUN": 252,
+        "NOUN": 253,
         "PRON": 18,
         "PART": 27,
         "CONJ": 37,
@@ -72772,7 +72855,7 @@
         "NOUN": 46,
         "PUNCT": 37,
         "ADJ": 7,
-        "PREP": 36,
+        "PREP": 37,
         "CONJ": 3,
         "DET": 14,
         "VERB": 5,
@@ -72819,7 +72902,7 @@
       },
       "VERB|VERB": {
         "PUNCT": 8,
-        "PREP": 17,
+        "PREP": 18,
         "PRON": 1,
         "ADJ": 4,
         "DET": 8,
@@ -72996,7 +73079,7 @@
         "CONJ": 8,
         "ADJ": 3,
         "PREP": 7,
-        "NOUN": 6,
+        "NOUN": 7,
         "WH": 1
       },
       "WH|MODAL": {
@@ -73086,7 +73169,7 @@
         "ADJ": 6,
         "NUM": 1,
         "NOUN": 16,
-        "PREP": 7,
+        "PREP": 8,
         "PART": 2,
         "MODAL": 1,
         "PRON": 1,
@@ -73230,8 +73313,8 @@
       "PREP|ADJ": {
         "CONJ": 11,
         "PROPN": 12,
-        "ADJ": 24,
-        "NOUN": 292,
+        "ADJ": 25,
+        "NOUN": 293,
         "PUNCT": 24,
         "AUX": 4,
         "VERB": 11,
@@ -73294,7 +73377,7 @@
         "DET": 1
       },
       "PREP|PROPN": {
-        "PUNCT": 48,
+        "PUNCT": 49,
         "AUX": 4,
         "PROPN": 31,
         "NOUN": 29,
@@ -73308,7 +73391,7 @@
         "WH": 1
       },
       "PROPN|PUNCT": {
-        "</S>": 68,
+        "</S>": 69,
         "DET": 13,
         "PROPN": 22,
         "CONJ": 20,
@@ -73347,7 +73430,7 @@
         "NOUN": 1
       },
       "ADJ|ADJ": {
-        "NOUN": 66,
+        "NOUN": 67,
         "ADJ": 6,
         "PUNCT": 14,
         "AUX": 7,
@@ -73369,7 +73452,7 @@
         "PRON": 5,
         "ADJ": 1,
         "ADV": 1,
-        "VERB": 3
+        "VERB": 4
       },
       "CONJ|PUNCT": {
         "ADJ": 3,
@@ -73586,7 +73669,7 @@
       "PUNCT|AUX": {
         "NOUN": 4,
         "VERB": 4,
-        "DET": 26,
+        "DET": 27,
         "ADJ": 4,
         "NUM": 1,
         "PART": 1,
@@ -73659,7 +73742,7 @@
         "PUNCT": 22,
         "PART": 2,
         "PREP": 32,
-        "VERB": 4,
+        "VERB": 5,
         "PRON": 2,
         "DET": 6,
         "ADV": 1,
@@ -73744,7 +73827,7 @@
       "PREP|CONJ": {
         "NOUN": 21,
         "DET": 1,
-        "VERB": 5,
+        "VERB": 6,
         "ADV": 1,
         "PREP": 6,
         "PROPN": 1,
@@ -74124,7 +74207,7 @@
       },
       "MODAL|ADV": {
         "AUX": 7,
-        "NOUN": 5,
+        "NOUN": 6,
         "VERB": 7
       },
       "NUM|PART": {
@@ -74191,7 +74274,7 @@
         "PUNCT": 4,
         "PART": 1,
         "AUX": 2,
-        "VERB": 4,
+        "VERB": 5,
         "NOUN": 3,
         "DET": 2,
         "CONJ": 1,
@@ -74374,7 +74457,7 @@
         "a": 1
       },
       "to": {
-        "the": 84,
+        "the": 85,
         "be": 46,
         "a": 37,
         "do": 18,
@@ -74531,7 +74614,7 @@
         "are": 2
       },
       "is": {
-        "a": 158,
+        "a": 159,
         "the": 115,
         "an": 36,
         "one": 8,
@@ -74559,17 +74642,7 @@
         "preposition": 3,
         "neural": 3,
         "thermodynamic": 3,
-        "varying": 3,
-        "demonstrative": 1,
-        "possessive": 1,
-        "slow": 1,
-        "careful": 1,
-        "work": 1,
-        "literary": 1,
-        "state": 1,
-        "person": 1,
-        "government": 1,
-        "day": 2
+        "varying": 3
       },
       "for": {
         "the": 31,
@@ -74611,7 +74684,9 @@
         "originator": 1,
         "comfort": 1,
         "safety": 1,
-        "dentist": 2
+        "dentist": 2,
+        "culture": 1,
+        "influence": 1
       },
       "brain": {
         "is": 1,
@@ -74747,7 +74822,8 @@
         "charge": 1,
         "occur": 1,
         "freely": 1,
-        "i": 1
+        "i": 1,
+        "also": 1
       },
       "about": {
         "the": 12,
@@ -74789,14 +74865,16 @@
         "a": 1,
         "an": 1,
         "creator": 1,
-        "international": 1
+        "international": 1,
+        "anglicization": 1,
+        "influenced": 1
       },
       "it": {
         "is": 65,
         "was": 18,
         "'s": 13,
         "has": 10,
-        "can": 5,
+        "can": 6,
         "to": 6,
         "will": 4,
         "over": 3,
@@ -75014,7 +75092,8 @@
         "against": 3,
         "functions": 2,
         "disseminated": 1,
-        "careful": 1
+        "careful": 1,
+        "political": 1
       },
       "meanings": {
         "have": 1,
@@ -75397,7 +75476,10 @@
         "information": 7,
         "other": 7,
         "criteria": 6,
-        "protons": 5
+        "protons": 5,
+        "cultural": 1,
+        "england": 1,
+        "english": 1
       },
       "reading": {
         "is": 1,
@@ -76171,7 +76253,7 @@
         "of": 4
       },
       "form": {
-        "of": 17,
+        "of": 18,
         "questions": 3,
         "the": 2,
         "noun": 1,
@@ -76239,7 +76321,8 @@
         "cannot": 2,
         "nerve": 2,
         "was": 2,
-        "animals": 1
+        "animals": 1,
+        "includes": 1
       },
       "error": {
         "gradients": 1,
@@ -76310,7 +76393,7 @@
         "of": 1
       },
       "by": {
-        "the": 29,
+        "the": 30,
         "a": 5,
         "native": 3,
         "which": 4,
@@ -76603,7 +76686,8 @@
         "three": 2,
         "another": 2,
         "dissipative": 1,
-        "multiple": 1
+        "multiple": 1,
+        "or": 1
       },
       "dissipative": {
         "structures": 1,
@@ -77563,7 +77647,8 @@
         "suitable": 1,
         "capable": 1,
         "central": 1,
-        "used": 2
+        "used": 2,
+        "refer": 1
       },
       "conjunctions": {
         "that": 2,
@@ -77949,7 +78034,8 @@
         "again": 1,
         "constructed": 1,
         "unexpected": 1,
-        "done": 1
+        "done": 1,
+        "non-english": 1
       },
       "provides": {
         "a": 5,
@@ -79804,7 +79890,8 @@
         "landscape": 1,
         "alphabet": 1,
         "catholics": 1,
-        "minor": 1
+        "minor": 1,
+        "soft": 1
       },
       "infinitive": {
         "of": 3,
@@ -80082,7 +80169,7 @@
       },
       "influenced": {
         "modern": 1,
-        "by": 1,
+        "by": 2,
         "my": 1
       },
       "modern": {
@@ -80867,7 +80954,8 @@
         "can": 1,
         "to": 1,
         "is": 1,
-        "associated": 1
+        "associated": 1,
+        "of": 1
       },
       "rude": {
         "or": 1,
@@ -80888,7 +80976,8 @@
         "and": 2,
         "(": 1,
         "aspects": 1,
-        "significance": 1
+        "significance": 1,
+        "assimilation": 1
       },
       "brown": {
         "and": 2,
@@ -81248,7 +81337,7 @@
       },
       "refer": {
         "more": 2,
-        "to": 5
+        "to": 6
       },
       "broadly": {
         "to": 3,
@@ -81697,7 +81786,8 @@
         "principles": 1,
         "logic": 1,
         "process": 1,
-        "staff": 1
+        "staff": 1,
+        "systems": 1
       },
       "differences": {
         "among": 2,
@@ -82803,7 +82893,8 @@
         "car": 1,
         "both": 2,
         "nonlinguistic": 3,
-        "the": 1
+        "the": 1,
+        "media": 1
       },
       "support": {
         "clear": 1,
@@ -83605,7 +83696,8 @@
       "business": {
         "leaves": 1,
         "n": 1,
-        "and": 1
+        "and": 1,
+        "practices": 1
       },
       "stop": {
         "off": 1,
@@ -84881,7 +84973,8 @@
       },
       "laws": {
         "to": 1,
-        "of": 2
+        "of": 2,
+        "and": 1
       },
       "land": {
         "area": 1,
@@ -85375,7 +85468,8 @@
       },
       "becomes": {
         "visible": 1,
-        "clear": 1
+        "clear": 1,
+        "assimilated": 1
       },
       "evidence": {
         "of": 1,
@@ -87272,7 +87366,8 @@
         "on": 1,
         "and": 1,
         "or": 1,
-        "over": 2
+        "over": 2,
+        "of": 1
       },
       "junction": {
         "between": 2
@@ -89700,7 +89795,8 @@
         "the": 1
       },
       "soft": {
-        "drinks": 1
+        "drinks": 1,
+        "power": 1
       },
       "drinks": {
         "and": 1
@@ -90028,17 +90124,32 @@
       },
       "brushing": {
         "three": 1
+      },
+      "assimilation": {
+        "whereby": 1
+      },
+      "whereby": {
+        "something": 1
+      },
+      "non-english": {
+        "becomes": 1
+      },
+      "assimilated": {
+        "into": 1
+      },
+      "popular": {
+        "culture": 1
       }
     },
     "starters": {
       "i": 133,
       "how": 6,
       "what": 10,
-      "<NOUN>": 825,
+      "<NOUN>": 826,
       "the": 434,
       "she": 36,
       "we": 46,
-      "it": 106,
+      "it": 107,
       "<VERB>": 306,
       "can": 6,
       "my": 18,
@@ -90131,8 +90242,8 @@
     },
     "connectors": {
       "because": 17,
-      "or": 616,
-      "and": 879,
+      "or": 618,
+      "and": 880,
       "but": 90,
       "so": 42,
       "while": 9,
@@ -90183,8 +90294,8 @@
         "since": 1
       },
       "NOUN>NOUN": {
-        "and": 393,
-        "or": 252,
+        "and": 394,
+        "or": 253,
         "as": 13,
         "yet": 2,
         "so": 2,
@@ -90551,7 +90662,7 @@
         "as": 1
       },
       "PREP>VERB": {
-        "or": 5
+        "or": 6
       },
       "DET>PREP": {
         "than": 1
@@ -93864,15 +93975,6 @@
       "PRON AUX DET ADJ | and | ADJ NOUN": 1
     },
     "sentence_bank": {
-      "singing": [
-        "We sat about the fire singing songs and telling tales."
-      ],
-      "pottery": [
-        "If you fire the pottery at too high a temperature, it may crack."
-      ],
-      "shit": [
-        "That shit is fire, yo!"
-      ],
       "announcement": [
         "The announcement of the verdict brought a violent reaction."
       ],
@@ -95603,7 +95705,8 @@
         "To administer intoxicating drugs to, generally without the recipient's knowledge or consent."
       ],
       "influence": [
-        "I have absolutely no influence over him."
+        "I have absolutely no influence over him.",
+        "It can also refer to the influence of English soft power, which includes media, cuisine, popular culture, technology, business practices, laws and political systems."
       ],
       "able": [
         "I'm not able to exercise influence over him."
@@ -95805,6 +95908,15 @@
       "advis": [
         "The dentist advised me to brush three times a day.",
         "The dentist advised brushing three times a day."
+      ],
+      "anglicisation": [
+        "Anglicisation, or anglicization, is a form of cultural assimilation whereby something non-English becomes assimilated into or influenced by the culture of England."
+      ],
+      "anglicization": [
+        "Anglicisation, or anglicization, is a form of cultural assimilation whereby something non-English becomes assimilated into or influenced by the culture of England."
+      ],
+      "refer": [
+        "It can also refer to the influence of English soft power, which includes media, cuisine, popular culture, technology, business practices, laws and political systems."
       ]
     }
   },
@@ -96118,7 +96230,9 @@
       "respect",
       "safety",
       "brush",
-      "dentist"
+      "dentist",
+      "media",
+      "popular"
     ],
     "names": [],
     "lessons": 156,
