@@ -1,18 +1,18 @@
-name: 24/7 Autonomous Synthetic Living Brain
+name: 24/7 Autonomous Brain Loop
 
 on:
   schedule:
-    - cron: '*/20 * * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  awake_and_learn:
+  autonomous-cycle:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository and current brain memory
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -20,23 +20,21 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
 
-      - name: Configure Git for Memory Recording
+      - name: Run 24/7 Autonomous Brain Cycle
         run: |
-          git config --global user.name "SyntheticLivingBrain"
-          git config --global user.email "brain@users.noreply.github.com"
+          python3 auto_runner.py
 
-      - name: Wake Brain, Learn Continuously, and Record Memory
-        env:
-          BRAIN_CREATOR_NAME: "Max"
-          LANGUAGE_ROUNDS: "2"
+      - name: Commit and Push Updated Brain State & Modules
         run: |
-          python3 -B synthetic_living_brain.py --auto-only
-
-      - name: Commit and Push Recorded Memories
-        run: |
-          git pull --rebase --autostash
-          git add brain_memory_state.json dynamic_skills.json
-          git diff --staged --quiet || git commit -m "24/7 Wake-Up: recorded new facts, vocabulary, grammar, and episodic memory"
-          git push
+          git config user.name "Autonomous-Brain-Bot"
+          git config user.email "bot@codeversl.local"
+          git add brain_memory_state.json dynamic_skills.json synthetic_living_brain.py language_cortex.py reasoning_and_research_cortex.py
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(brain): 24/7 autonomous cycle update [skip ci]"
+            git pull --rebase origin main || true
+            git push origin main
+          else
+            echo "No state changes detected in this cycle."
+          fi
