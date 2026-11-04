@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: autonomous-brain-main
+  cancel-in-progress: true
+
 jobs:
   autonomous-cycle:
     runs-on: ubuntu-latest
@@ -26,15 +30,12 @@ jobs:
         run: |
           python3 auto_runner.py
 
-      - name: Commit and Push Updated Brain State & Modules
+      - name: Commit and Overwrite Updated Brain State & Modules
         run: |
           git config user.name "Autonomous-Brain-Bot"
           git config user.email "bot@codeversl.local"
-          git add brain_memory_state.json dynamic_skills.json synthetic_living_brain.py language_cortex.py reasoning_and_research_cortex.py
+          git add -A
           if ! git diff --staged --quiet; then
-            git commit -m "chore(brain): 24/7 autonomous cycle update [skip ci]"
-            git pull --rebase origin main || true
-            git push origin main
-          else
-            echo "No state changes detected in this cycle."
+            git commit -m "chore(brain): 24/7 autonomous cycle update"
+            git push --force origin main
           fi

@@ -2,16 +2,16 @@
   "meta": {
     "created": "2026-10-20 15:07:00",
     "creator_signature": "677a410903a19f3307ea34c4701fe4dbd912e9262a0208612c61372d4a47b330",
-    "last_interaction": 1793787684.0782762,
+    "last_interaction": 1793787832.185676,
     "sleep_cycles": 56,
     "births": 1
   },
   "chemistry": {
-    "dopamine": 0.95926,
+    "dopamine": 0.979,
     "cortisol": 0.018,
     "serotonin": 0.982,
     "oxytocin": 1.0,
-    "adenosine": 0.1574,
+    "adenosine": 0.33480000000000004,
     "newborn": false
   },
   "episodic_memory": [
@@ -2833,6 +2833,27 @@
       "time": "2026-11-04 10:21:23",
       "speaker": "brain",
       "text": "Would you like me to study expand reasoning heuristics so we can talk about it? By the way, I just learned the word 'expand'; it means to change (something) from a smaller form and/or size to a larger one; to spread out or lay open.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-11-04 10:23:49",
+      "speaker": "brain",
+      "text": "I wondered about 'Systems architecture' by myself and went searching. From Wikipedia (live internet) I learned: A system architecture is the conceptual model that defines the structure, behavior, and views of a system. Key ideas I stored: system architecture, architecture description language, systems architecture, conceptual model.",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": 1.0
+    },
+    {
+      "time": "2026-11-04 10:23:49",
+      "speaker": "creator",
+      "text": "practice language patterns and expand reasoning heuristics",
+      "state": "Hyper-Creative & Inspired",
+      "self_grade": null
+    },
+    {
+      "time": "2026-11-04 10:23:52",
+      "speaker": "brain",
+      "text": "Heuristic: A heuristic or heuristic technique is any approach to problem solving that employs a pragmatic method that is not necessarily optimized, perfected, or rationalized.\n\nDo you see it as a cause or as a side effect?",
       "state": "Hyper-Creative & Inspired",
       "self_grade": 1.0
     }
@@ -7808,7 +7829,16 @@
       ],
       "source": "Wikipedia (live internet)",
       "url": "https://en.wikipedia.org/wiki/Systems_architecture",
-      "learned": "2026-11-04 10:21:21"
+      "learned": "2026-11-04 10:23:49"
+    },
+    "Heuristic": {
+      "summary": "A heuristic or heuristic technique is any approach to problem solving that employs a pragmatic method that is not necessarily optimized, perfected, or rationalized, but is nevertheless \"good enough\" as an approximation or attribute substitution. Where finding an optimal solution is impossible or impractical, heuristic methods can be used to speed up the process of finding a satisfactory solution. Heuristics can be mental shortcuts that ease the cognitive load of making a decision.Heuristic reasoning is often based on induction, or on analogy ... Heuristic discusses human behavior in the face of problems preserved in the wisdom of proverbs.",
+      "concepts": [
+        "pragmatic method"
+      ],
+      "source": "Wikipedia (live internet)",
+      "url": "https://en.wikipedia.org/wiki/Heuristic",
+      "learned": "2026-11-04 10:23:52"
     }
   },
   "creator_teachings": [
@@ -9564,6 +9594,18 @@
       "kind": "conversation",
       "score": 1.0,
       "passes": 0
+    },
+    {
+      "time": "2026-11-04 10:23:49",
+      "kind": "explore_report",
+      "score": 1.0,
+      "passes": 0
+    },
+    {
+      "time": "2026-11-04 10:23:52",
+      "kind": "concept_study",
+      "score": 1.0,
+      "passes": 0
     }
   ],
   "tried_topics": [
@@ -9787,7 +9829,8 @@
     "memory-mapped data files",
     "balanced in-memory b-tree",
     "thread-safe synchronization",
-    "autonomous systems architecture and self-optimizing code"
+    "autonomous systems architecture and self-optimizing code",
+    "reasoning heuristics"
   ],
   "sensory_log": [
     {
@@ -10288,7 +10331,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 16
+      "uses": 17
     },
     "but": {
       "part_of_speech": "conjunction",
@@ -12943,7 +12986,7 @@
       ],
       "source": "seed",
       "learned": "2026-10-23 20:57:02",
-      "uses": 4
+      "uses": 5
     },
     "name": {
       "part_of_speech": "noun",
@@ -26412,7 +26455,7 @@
       "phonetic": "",
       "source": "wiktionary",
       "learned": "2026-10-25 05:03:54",
-      "uses": 3,
+      "uses": 4,
       "tags": []
     },
     "exercises": {
@@ -27883,7 +27926,7 @@
       "tags": [],
       "source": "corpus",
       "learned": "2026-10-24 03:34:29",
-      "uses": 2
+      "uses": 3
     },
     "tenses": {
       "part_of_speech": "noun",
@@ -38864,7 +38907,7 @@
       "phonetic": "",
       "source": "wiktionary",
       "learned": "2026-10-24 18:34:02",
-      "uses": 3,
+      "uses": 4,
       "tags": []
     },
     "infrastructure": {
@@ -70194,7 +70237,7 @@
       "phonetic": "/ɛkˈspænd/",
       "source": "dictionaryapi.dev",
       "learned": "2026-11-04 10:21:23",
-      "uses": 1,
+      "uses": 2,
       "tags": []
     },
     "umbrella": {
@@ -70209,27 +70252,260 @@
       "source": "corpus",
       "learned": "2026-11-04 10:21:23",
       "uses": 1
+    },
+    "heuristics": {
+      "part_of_speech": "noun",
+      "definition": "A heuristic method.",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "A heuristic method.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "The art of applying heuristic methods.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "The study of heuristic methods and principles.",
+          "example": ""
+        },
+        {
+          "part_of_speech": "noun",
+          "definition": "Heuristic methods and approaches considered collectively.",
+          "example": ""
+        }
+      ],
+      "phonetic": "/hjuˈɹɪstɪks/",
+      "source": "dictionaryapi.dev",
+      "learned": "2026-11-04 10:23:49",
+      "uses": 1,
+      "tags": []
+    },
+    "optimal": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Where finding an optimal solution is impossible or impractical, heuristic methods can be used to speed up the process of finding a satisfactory solution."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-04 10:23:52",
+      "uses": 1
+    },
+    "heuristic": {
+      "part_of_speech": "noun",
+      "definition": "A heuristic or heuristic technique is any approach to problem solving that employs a pragmatic method that is not necessarily optimized, perfected, or rationalized.",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Where finding an optimal solution is impossible or impractical, heuristic methods can be used to speed up the process of finding a satisfactory solution."
+      ],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "A heuristic or heuristic technique is any approach to problem solving that employs a pragmatic method that is not necessarily optimized, perfected, or rationalized.",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "Wikipedia",
+      "learned": "2026-11-04 10:23:52",
+      "uses": 1,
+      "tags": [
+        "technical"
+      ]
+    },
+    "satisfactory": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Where finding an optimal solution is impossible or impractical, heuristic methods can be used to speed up the process of finding a satisfactory solution."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-04 10:23:52",
+      "uses": 1
+    },
+    "load": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Heuristics can be mental shortcuts that ease the cognitive load of making a decision.Heuristic reasoning is often based on induction, or on analogy ..."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-04 10:23:52",
+      "uses": 1
+    },
+    "decision": {
+      "part_of_speech": "noun",
+      "definition": "",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Heuristics can be mental shortcuts that ease the cognitive load of making a decision.Heuristic reasoning is often based on induction, or on analogy ..."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-04 10:23:52",
+      "uses": 1
+    },
+    "preserved": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [
+        "Heuristic discusses human behavior in the face of problems preserved in the wisdom of proverbs."
+      ],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-04 10:23:52",
+      "uses": 1
+    },
+    "impractical": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-04 10:23:52",
+      "uses": 1
+    },
+    "necessarily": {
+      "part_of_speech": "adverb",
+      "definition": "",
+      "all_pos": [
+        "adverb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-04 10:23:52",
+      "uses": 1
+    },
+    "perfected": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-04 10:23:52",
+      "uses": 1
+    },
+    "reasoning heuristics": {
+      "part_of_speech": "noun",
+      "definition": "A heuristic or heuristic technique is any approach to problem solving that employs a pragmatic method that is not necessarily optimized, perfected, or rationalized.",
+      "all_pos": [
+        "noun"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "meanings": [
+        {
+          "part_of_speech": "noun",
+          "definition": "A heuristic or heuristic technique is any approach to problem solving that employs a pragmatic method that is not necessarily optimized, perfected, or rationalized.",
+          "example": ""
+        }
+      ],
+      "phonetic": "",
+      "source": "Wikipedia",
+      "learned": "2026-11-04 10:23:52",
+      "uses": 0,
+      "tags": [
+        "technical"
+      ]
+    },
+    "pragmatic": {
+      "part_of_speech": "adjective",
+      "definition": "",
+      "all_pos": [
+        "adjective"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-04 10:23:52",
+      "uses": 1
+    },
+    "optimized": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-04 10:23:52",
+      "uses": 1
+    },
+    "rationalized": {
+      "part_of_speech": "verb",
+      "definition": "",
+      "all_pos": [
+        "verb"
+      ],
+      "synonyms": [],
+      "example_sentences": [],
+      "tags": [],
+      "source": "corpus",
+      "learned": "2026-11-04 10:23:52",
+      "uses": 1
     }
   },
   "grammar_graph": {
     "meta": {
-      "sentences": 3228,
-      "tokens": 44861,
+      "sentences": 3235,
+      "tokens": 45016,
       "sources": {
         "seed corpus": 64,
         "conversation": 41,
-        "dictionary": 1889,
-        "explore": 534,
+        "dictionary": 1893,
+        "explore": 537,
         "pasted text": 31,
         "deep study": 247,
         "file: The_Oxford_3000.pdf": 418,
         "research": 4
       },
       "hashes": [
-        "249b36c89843",
-        "c31745cf885c",
-        "c384edbb9321",
-        "8645649ec141",
         "f6c528b2c58d",
         "efe35e90226b",
         "094875221209",
@@ -70525,10 +70801,14 @@
         "efe6883b997b",
         "66f8a34c619c",
         "7cd3fd97cbe3",
-        "4d420063de4a"
+        "4d420063de4a",
+        "c4774fb58d15",
+        "eb19f4ad6dbd",
+        "cdef0cb3531a",
+        "65b9b840bcbc"
       ],
       "seeded": true,
-      "rejected": 726,
+      "rejected": 727,
       "vocab_counts": {
         "thank": 1,
         "shades": 1,
@@ -70797,7 +71077,6 @@
         "depth": 1,
         "facets": 1,
         "acquisition": 1,
-        "necessarily": 1,
         "progression": 1,
         "recognized": 1,
         "infancy": 1,
@@ -70948,7 +71227,6 @@
         "aphorism": 1,
         "bird": 1,
         "accounts": 1,
-        "load": 1,
         "customary": 1,
         "regarding": 1,
         "placement": 1,
@@ -71109,7 +71387,6 @@
         "existence": 1,
         "organizations": 1,
         "decentralise": 1,
-        "optimal": 1,
         "maximize": 1,
         "reward": 1,
         "alphabetically": 1,
@@ -71132,7 +71409,6 @@
         "samples": 1,
         "serves": 1,
         "formulate": 1,
-        "satisfactory": 1,
         "metaheuristics": 1,
         "mechanisms": 1,
         "imitates": 1,
@@ -71369,7 +71645,6 @@
         "value": 1,
         "pedestrian": 1,
         "fill": 1,
-        "decision": 1,
         "settled": 1,
         "featuring": 1,
         "nose": 1,
@@ -71977,7 +72252,6 @@
         "uninspired": 1,
         "cabinet": 1,
         "polyurethane": 1,
-        "perfected": 1,
         "loosely": 1,
         "infinitesimals": 1,
         "convergence": 1,
@@ -73222,7 +73496,6 @@
         "exhaustion": 1,
         "domains": 1,
         "asymmetric": 1,
-        "preserved": 1,
         "liveness": 1,
         "minority": 1,
         "log": 1,
@@ -73270,18 +73543,22 @@
         "views": 1,
         "formalize": 1,
         "flower": 1,
-        "heuristics": 1
+        "heuristics": 1,
+        "shortcuts": 1,
+        "analogy": 1,
+        "discusses": 1,
+        "proverbs": 1
       }
     },
     "pos_bigrams": {
       "<S>": {
         "PRON": 504,
-        "WH": 39,
-        "NOUN": 836,
-        "DET": 945,
+        "WH": 41,
+        "NOUN": 837,
+        "DET": 948,
         "VERB": 317,
         "MODAL": 9,
-        "ADJ": 137,
+        "ADJ": 138,
         "INTJ": 16,
         "CONJ": 45,
         "AUX": 23,
@@ -73292,7 +73569,7 @@
         "NEG": 4
       },
       "PRON": {
-        "AUX": 411,
+        "AUX": 413,
         "PUNCT": 116,
         "ADV": 35,
         "VERB": 475,
@@ -73310,15 +73587,15 @@
         "NEG": 1
       },
       "AUX": {
-        "ADJ": 325,
+        "ADJ": 328,
         "PRON": 30,
         "PUNCT": 20,
-        "DET": 511,
+        "DET": 513,
         "NOUN": 112,
-        "NEG": 87,
-        "VERB": 475,
+        "NEG": 89,
+        "VERB": 477,
         "INTJ": 2,
-        "ADV": 162,
+        "ADV": 163,
         "CONJ": 23,
         "NUM": 30,
         "PROPN": 8,
@@ -73329,11 +73606,11 @@
       },
       "ADJ": {
         "PART": 54,
-        "NOUN": 2123,
+        "NOUN": 2135,
         "WH": 9,
-        "PUNCT": 339,
+        "PUNCT": 341,
         "PREP": 217,
-        "CONJ": 131,
+        "CONJ": 133,
         "PROPN": 47,
         "ADJ": 127,
         "DET": 45,
@@ -73347,7 +73624,7 @@
         "NEG": 2
       },
       "PART": {
-        "VERB": 526,
+        "VERB": 530,
         "AUX": 84,
         "ADJ": 40,
         "NOUN": 68,
@@ -73361,16 +73638,16 @@
         "ADV": 1
       },
       "VERB": {
-        "PREP": 826,
-        "PART": 179,
+        "PREP": 830,
+        "PART": 181,
         "ADJ": 121,
         "NOUN": 787,
-        "PUNCT": 381,
+        "PUNCT": 387,
         "PRON": 175,
         "AUX": 43,
-        "DET": 686,
-        "VERB": 75,
-        "CONJ": 260,
+        "DET": 691,
+        "VERB": 77,
+        "CONJ": 262,
         "WH": 41,
         "</S>": 15,
         "ADV": 88,
@@ -73381,10 +73658,10 @@
       },
       "PREP": {
         "PRON": 122,
-        "NOUN": 1534,
-        "DET": 1706,
+        "NOUN": 1538,
+        "DET": 1710,
         "PUNCT": 83,
-        "VERB": 130,
+        "VERB": 133,
         "PREP": 42,
         "ADJ": 403,
         "PROPN": 153,
@@ -73398,19 +73675,19 @@
         "</S>": 1
       },
       "PUNCT": {
-        "</S>": 3037,
-        "NOUN": 840,
-        "CONJ": 475,
+        "</S>": 3044,
+        "NOUN": 841,
+        "CONJ": 478,
         "PRON": 84,
-        "VERB": 120,
+        "VERB": 122,
         "ADV": 126,
         "PREP": 108,
-        "ADJ": 132,
+        "ADJ": 134,
         "DET": 251,
         "WH": 64,
         "AUX": 46,
         "NUM": 8,
-        "PUNCT": 99,
+        "PUNCT": 101,
         "PROPN": 33,
         "PART": 23,
         "NEG": 8,
@@ -73422,7 +73699,7 @@
         "DET": 70,
         "PRON": 40,
         "NOUN": 106,
-        "VERB": 45,
+        "VERB": 47,
         "MODAL": 14,
         "PREP": 6,
         "PART": 9,
@@ -73438,7 +73715,7 @@
         "NOUN": 121,
         "CONJ": 23,
         "DET": 40,
-        "VERB": 263,
+        "VERB": 266,
         "</S>": 3,
         "PRON": 9,
         "MODAL": 2,
@@ -73453,28 +73730,28 @@
         "NEG": 1
       },
       "NOUN": {
-        "AUX": 874,
-        "PREP": 2589,
-        "NOUN": 2520,
-        "PUNCT": 4031,
-        "CONJ": 1008,
-        "VERB": 713,
+        "AUX": 879,
+        "PREP": 2595,
+        "NOUN": 2525,
+        "PUNCT": 4038,
+        "CONJ": 1010,
+        "VERB": 714,
         "ADV": 122,
-        "PART": 335,
+        "PART": 337,
         "ADJ": 314,
-        "MODAL": 120,
+        "MODAL": 123,
         "</S>": 156,
-        "PRON": 203,
+        "PRON": 205,
         "WH": 95,
-        "DET": 511,
+        "DET": 515,
         "PROPN": 132,
         "NUM": 17,
         "NEG": 8,
         "INTJ": 2
       },
       "DET": {
-        "NOUN": 3263,
-        "ADJ": 1347,
+        "NOUN": 3273,
+        "ADJ": 1355,
         "PRON": 33,
         "PREP": 73,
         "NUM": 65,
@@ -73493,13 +73770,13 @@
       "CONJ": {
         "PRON": 136,
         "DET": 370,
-        "NOUN": 980,
-        "VERB": 169,
-        "ADJ": 194,
+        "NOUN": 984,
+        "VERB": 171,
+        "ADJ": 196,
         "ADV": 66,
         "PUNCT": 22,
         "WH": 22,
-        "PREP": 66,
+        "PREP": 67,
         "CONJ": 30,
         "NUM": 9,
         "AUX": 51,
@@ -73513,7 +73790,7 @@
         "PRON": 13,
         "DET": 3,
         "CONJ": 3,
-        "AUX": 105,
+        "AUX": 108,
         "NOUN": 25,
         "NEG": 16,
         "ADV": 21,
@@ -73528,7 +73805,7 @@
         "AUX": 12,
         "PREP": 7,
         "PART": 6,
-        "ADV": 9,
+        "ADV": 11,
         "ADJ": 9,
         "CONJ": 2,
         "PUNCT": 2,
@@ -73595,7 +73872,7 @@
       "PRON|AUX": {
         "ADJ": 72,
         "DET": 91,
-        "NEG": 45,
+        "NEG": 47,
         "VERB": 88,
         "INTJ": 2,
         "ADV": 48,
@@ -73614,8 +73891,8 @@
         "PUNCT": 92,
         "PREP": 57,
         "DET": 17,
-        "NOUN": 61,
-        "CONJ": 21,
+        "NOUN": 62,
+        "CONJ": 23,
         "ADJ": 12,
         "VERB": 18,
         "NUM": 4,
@@ -73632,7 +73909,7 @@
         "ADJ": 1
       },
       "PART|VERB": {
-        "PREP": 66,
+        "PREP": 68,
         "ADJ": 25,
         "PUNCT": 69,
         "NOUN": 111,
@@ -73642,7 +73919,7 @@
         "NUM": 7,
         "CONJ": 52,
         "PRON": 21,
-        "VERB": 12,
+        "VERB": 14,
         "ADV": 9,
         "PROPN": 2,
         "AUX": 1,
@@ -73650,8 +73927,8 @@
       },
       "VERB|PREP": {
         "PRON": 25,
-        "DET": 328,
-        "NOUN": 244,
+        "DET": 331,
+        "NOUN": 245,
         "PUNCT": 26,
         "VERB": 23,
         "ADJ": 75,
@@ -73691,7 +73968,7 @@
       },
       "<S>|WH": {
         "AUX": 12,
-        "VERB": 4,
+        "VERB": 6,
         "MODAL": 4,
         "NOUN": 8,
         "PRON": 3,
@@ -73762,7 +74039,7 @@
       },
       "VERB|PART": {
         "AUX": 29,
-        "VERB": 122,
+        "VERB": 124,
         "ADJ": 8,
         "WH": 1,
         "CONJ": 10,
@@ -73805,14 +74082,14 @@
         "WH": 6,
         "ADV": 8,
         "DET": 23,
-        "MODAL": 12,
+        "MODAL": 13,
         "INTJ": 2
       },
       "NOUN|AUX": {
-        "DET": 291,
-        "ADJ": 143,
+        "DET": 293,
+        "ADJ": 145,
         "NOUN": 58,
-        "ADV": 95,
+        "ADV": 96,
         "VERB": 185,
         "CONJ": 10,
         "NUM": 15,
@@ -73826,7 +74103,7 @@
         "PUNCT": 7
       },
       "AUX|DET": {
-        "NOUN": 271,
+        "NOUN": 273,
         "ADJ": 195,
         "PROPN": 8,
         "VERB": 7,
@@ -73837,30 +74114,30 @@
         "PRON": 1
       },
       "DET|NOUN": {
-        "PREP": 1012,
+        "PREP": 1016,
         "AUX": 277,
-        "CONJ": 249,
-        "PUNCT": 760,
+        "CONJ": 251,
+        "PUNCT": 761,
         "VERB": 225,
         "ADV": 33,
         "ADJ": 71,
         "NOUN": 312,
         "PRON": 49,
-        "PART": 89,
+        "PART": 91,
         "</S>": 9,
         "PROPN": 7,
-        "DET": 102,
+        "DET": 103,
         "MODAL": 39,
         "WH": 26,
         "NUM": 3
       },
       "NOUN|PREP": {
-        "NOUN": 973,
-        "DET": 981,
+        "NOUN": 975,
+        "DET": 982,
         "PREP": 15,
         "ADJ": 251,
         "PROPN": 67,
-        "VERB": 79,
+        "VERB": 82,
         "PUNCT": 31,
         "NUM": 36,
         "WH": 37,
@@ -73872,8 +74149,8 @@
       },
       "PREP|NOUN": {
         "NOUN": 242,
-        "PUNCT": 483,
-        "VERB": 63,
+        "PUNCT": 486,
+        "VERB": 64,
         "CONJ": 194,
         "ADJ": 32,
         "DET": 69,
@@ -73891,13 +74168,13 @@
       "NOUN|NOUN": {
         "PUNCT": 884,
         "PART": 47,
-        "NOUN": 588,
-        "PREP": 366,
+        "NOUN": 589,
+        "PREP": 367,
         "CONJ": 152,
         "VERB": 100,
         "PROPN": 52,
-        "AUX": 112,
-        "MODAL": 24,
+        "AUX": 114,
+        "MODAL": 25,
         "ADJ": 55,
         "NUM": 6,
         "ADV": 24,
@@ -73908,12 +74185,12 @@
         "</S>": 5
       },
       "NOUN|PUNCT": {
-        "</S>": 2312,
+        "</S>": 2316,
         "NOUN": 584,
-        "CONJ": 351,
+        "CONJ": 352,
         "ADV": 89,
         "PREP": 76,
-        "ADJ": 93,
+        "ADJ": 94,
         "DET": 180,
         "VERB": 86,
         "WH": 48,
@@ -73922,14 +74199,14 @@
         "NUM": 6,
         "PROPN": 6,
         "PART": 18,
-        "PUNCT": 88,
+        "PUNCT": 89,
         "NEG": 4,
         "INTJ": 2,
         "MODAL": 1
       },
       "<S>|DET": {
-        "NOUN": 616,
-        "ADJ": 236,
+        "NOUN": 618,
+        "ADJ": 237,
         "PROPN": 36,
         "VERB": 8,
         "PREP": 15,
@@ -73940,7 +74217,7 @@
         "PRON": 4
       },
       "DET|ADJ": {
-        "NOUN": 1071,
+        "NOUN": 1079,
         "CONJ": 41,
         "ADJ": 49,
         "PUNCT": 57,
@@ -73957,20 +74234,20 @@
         "WH": 1
       },
       "ADJ|NOUN": {
-        "PUNCT": 707,
-        "NOUN": 298,
-        "MODAL": 18,
+        "PUNCT": 710,
+        "NOUN": 299,
+        "MODAL": 19,
         "VERB": 106,
-        "PREP": 451,
+        "PREP": 452,
         "CONJ": 170,
-        "DET": 81,
+        "DET": 82,
         "ADJ": 23,
-        "AUX": 116,
+        "AUX": 119,
         "PART": 66,
         "WH": 16,
         "PROPN": 6,
         "ADV": 15,
-        "PRON": 38,
+        "PRON": 40,
         "</S>": 11,
         "NUM": 1
       },
@@ -73989,7 +74266,7 @@
         "WH": 1
       },
       "PREP|DET": {
-        "NOUN": 1088,
+        "NOUN": 1092,
         "ADJ": 414,
         "NUM": 27,
         "PREP": 17,
@@ -74006,7 +74283,7 @@
         "PRON": 31,
         "DET": 161,
         "VERB": 58,
-        "NOUN": 547,
+        "NOUN": 549,
         "ADJ": 76,
         "WH": 7,
         "PREP": 30,
@@ -74076,7 +74353,7 @@
       },
       "PUNCT|NOUN": {
         "CONJ": 63,
-        "NOUN": 140,
+        "NOUN": 141,
         "ADJ": 10,
         "PUNCT": 433,
         "PREP": 84,
@@ -74108,16 +74385,16 @@
         "MODAL": 1
       },
       "VERB|PUNCT": {
-        "</S>": 244,
+        "</S>": 246,
         "PRON": 13,
-        "CONJ": 21,
+        "CONJ": 23,
         "NOUN": 47,
         "DET": 14,
         "ADJ": 13,
         "NEG": 3,
         "WH": 2,
         "ADV": 8,
-        "VERB": 7,
+        "VERB": 9,
         "PART": 4,
         "AUX": 2,
         "PREP": 3
@@ -74201,9 +74478,9 @@
         "CONJ": 39,
         "VERB": 8,
         "DET": 8,
-        "ADJ": 19,
+        "ADJ": 20,
         "PREP": 14,
-        "NOUN": 56,
+        "NOUN": 57,
         "ADV": 9,
         "PRON": 9,
         "NUM": 1,
@@ -74215,7 +74492,7 @@
       "NOUN|VERB": {
         "PART": 29,
         "DET": 169,
-        "PREP": 159,
+        "PREP": 160,
         "WH": 6,
         "PRON": 51,
         "PUNCT": 51,
@@ -74252,11 +74529,11 @@
         "CONJ": 13,
         "AUX": 18,
         "PROPN": 14,
-        "VERB": 39,
+        "VERB": 41,
         "NEG": 2,
         "ADV": 21,
         "MODAL": 13,
-        "PREP": 14,
+        "PREP": 15,
         "PART": 1,
         "WH": 7
       },
@@ -74267,21 +74544,21 @@
         "PREP": 195,
         "VERB": 34,
         "WH": 10,
-        "NOUN": 265,
+        "NOUN": 267,
         "PRON": 18,
         "PART": 27,
         "CONJ": 38,
         "PROPN": 6,
         "ADJ": 18,
-        "DET": 51,
+        "DET": 53,
         "NEG": 1,
         "NUM": 1,
         "MODAL": 6,
         "ADV": 3
       },
       "VERB|DET": {
-        "NOUN": 425,
-        "ADJ": 205,
+        "NOUN": 426,
+        "ADJ": 209,
         "PREP": 6,
         "CONJ": 9,
         "DET": 11,
@@ -74311,7 +74588,7 @@
         "NOUN": 7,
         "AUX": 6,
         "PREP": 3,
-        "ADV": 8,
+        "ADV": 10,
         "ADJ": 6,
         "DET": 5,
         "CONJ": 1,
@@ -74346,7 +74623,7 @@
       "AUX|VERB": {
         "PREP": 203,
         "PUNCT": 72,
-        "PART": 54,
+        "PART": 56,
         "PRON": 4,
         "NOUN": 38,
         "DET": 35,
@@ -74364,7 +74641,7 @@
       "CONJ|VERB": {
         "PART": 8,
         "NOUN": 48,
-        "PUNCT": 37,
+        "PUNCT": 39,
         "ADJ": 7,
         "PREP": 38,
         "CONJ": 3,
@@ -74376,7 +74653,7 @@
         "PRON": 1
       },
       "<S>|ADJ": {
-        "NOUN": 81,
+        "NOUN": 82,
         "ADJ": 8,
         "VERB": 4,
         "PREP": 21,
@@ -74392,7 +74669,7 @@
       "NOUN|PART": {
         "ADJ": 26,
         "AUX": 39,
-        "VERB": 210,
+        "VERB": 212,
         "NOUN": 44,
         "CONJ": 3,
         "PUNCT": 8,
@@ -74418,7 +74695,7 @@
         "ADJ": 4,
         "DET": 8,
         "NOUN": 23,
-        "CONJ": 4,
+        "CONJ": 6,
         "PART": 2,
         "</S>": 1,
         "AUX": 1,
@@ -74502,7 +74779,7 @@
         "PUNCT": 3,
         "PROPN": 1,
         "MODAL": 3,
-        "NOUN": 87,
+        "NOUN": 89,
         "AUX": 2,
         "ADJ": 20,
         "NEG": 2,
@@ -74535,7 +74812,7 @@
         "CONJ": 9,
         "PREP": 36,
         "NOUN": 35,
-        "PUNCT": 13,
+        "PUNCT": 15,
         "PROPN": 3,
         "ADJ": 4,
         "DET": 11,
@@ -74569,7 +74846,7 @@
       },
       "NOUN|MODAL": {
         "VERB": 45,
-        "AUX": 52,
+        "AUX": 55,
         "NEG": 6,
         "ADV": 4,
         "NOUN": 9,
@@ -74585,7 +74862,7 @@
         "VERB": 1
       },
       "WH|VERB": {
-        "DET": 8,
+        "DET": 10,
         "PUNCT": 9,
         "VERB": 1,
         "CONJ": 8,
@@ -74609,7 +74886,7 @@
       "AUX|ADV": {
         "ADJ": 33,
         "NOUN": 17,
-        "VERB": 83,
+        "VERB": 84,
         "ADV": 8,
         "PREP": 4,
         "DET": 13,
@@ -74629,7 +74906,7 @@
         "PART": 2
       },
       "ADJ|CONJ": {
-        "ADJ": 42,
+        "ADJ": 44,
         "NOUN": 41,
         "ADV": 5,
         "AUX": 3,
@@ -74643,7 +74920,7 @@
         "NEG": 1
       },
       "CONJ|ADJ": {
-        "PUNCT": 21,
+        "PUNCT": 23,
         "NOUN": 124,
         "ADJ": 8,
         "CONJ": 7,
@@ -74661,7 +74938,7 @@
         "PUNCT": 26,
         "ADJ": 6,
         "NOUN": 26,
-        "DET": 19,
+        "DET": 22,
         "</S>": 9,
         "PROPN": 2,
         "VERB": 3,
@@ -74788,9 +75065,9 @@
         "PART": 14,
         "NOUN": 34,
         "CONJ": 34,
-        "PREP": 76,
+        "PREP": 77,
         "WH": 6,
-        "PUNCT": 17,
+        "PUNCT": 19,
         "ADJ": 13,
         "AUX": 4,
         "PRON": 11,
@@ -74815,7 +75092,7 @@
         "PRON": 1
       },
       "PUNCT|ADJ": {
-        "NOUN": 62,
+        "NOUN": 64,
         "PUNCT": 34,
         "PROPN": 6,
         "PREP": 16,
@@ -74879,7 +75156,7 @@
       },
       "NOUN|PRON": {
         "VERB": 78,
-        "AUX": 65,
+        "AUX": 67,
         "PREP": 12,
         "MODAL": 25,
         "PRON": 1,
@@ -74994,8 +75271,8 @@
         "PART": 1
       },
       "NOUN|DET": {
-        "NOUN": 297,
-        "ADJ": 94,
+        "NOUN": 298,
+        "ADJ": 97,
         "CONJ": 32,
         "ADV": 10,
         "PRON": 17,
@@ -75125,9 +75402,9 @@
         "DET": 1
       },
       "MODAL|AUX": {
-        "VERB": 55,
+        "VERB": 57,
         "DET": 11,
-        "ADJ": 20,
+        "ADJ": 21,
         "ADV": 3,
         "PREP": 3,
         "PRON": 2,
@@ -75150,7 +75427,7 @@
       "CONJ|PREP": {
         "DET": 22,
         "PUNCT": 8,
-        "NOUN": 19,
+        "NOUN": 20,
         "PRON": 5,
         "ADJ": 7,
         "PROPN": 3,
@@ -75218,11 +75495,12 @@
         "PRON": 1
       },
       "PUNCT|PUNCT": {
-        "</S>": 8,
+        "</S>": 9,
         "NOUN": 86,
         "CONJ": 1,
         "PREP": 2,
-        "PROPN": 2
+        "PROPN": 2,
+        "PUNCT": 1
       },
       "ADV|ADV": {
         "VERB": 7,
@@ -75663,7 +75941,7 @@
       },
       "NEG|ADV": {
         "NOUN": 2,
-        "VERB": 4,
+        "VERB": 6,
         "ADJ": 2,
         "WH": 1
       },
@@ -75995,7 +76273,9 @@
         "write": 4,
         "separate": 4,
         "overlap": 3,
-        "read": 3
+        "read": 3,
+        "speed": 2,
+        "problem": 2
       },
       "talk": {
         "with": 1,
@@ -76165,7 +76445,11 @@
         "typically": 1,
         "physically": 1,
         "especially": 1,
-        "stored": 1
+        "stored": 1,
+        "impossible": 2,
+        "often": 1,
+        "any": 2,
+        "not": 2
       },
       "a": {
         "noun": 18,
@@ -76178,7 +76462,11 @@
         "neural": 3,
         "thermodynamic": 3,
         "varying": 3,
-        "flower": 1
+        "flower": 1,
+        "heuristic": 3,
+        "satisfactory": 2,
+        "decision": 1,
+        "pragmatic": 2
       },
       "for": {
         "the": 31,
@@ -76209,15 +76497,9 @@
         "lesson": 4,
         "variable": 3,
         "listener": 3,
-        "memory": 1,
-        "mapped": 1,
-        "b-tree": 1,
-        "binary": 1,
-        "b-tree's": 1,
-        "tree": 1,
-        "conceptual": 1,
-        "sub-systems": 1,
-        "overall": 1
+        "face": 1,
+        "wisdom": 1,
+        "process": 1
       },
       "brain": {
         "is": 1,
@@ -76338,7 +76620,7 @@
         "made": 1
       },
       "can": {
-        "be": 51,
+        "be": 54,
         "you": 5,
         "n't": 4,
         "use": 3,
@@ -76387,7 +76669,11 @@
         "professionalism": 2,
         "emotions": 2,
         "contrasts": 2,
-        "file-like": 1
+        "file-like": 1,
+        "impractical": 2,
+        "on": 1,
+        "heuristic": 2,
+        "rationalized": 2
       },
       "it": {
         "is": 66,
@@ -76645,7 +76931,7 @@
         "you": 1
       },
       "that": {
-        "is": 21,
+        "is": 23,
         "can": 18,
         "the": 8,
         "a": 6,
@@ -76658,7 +76944,9 @@
         "has": 1,
         "maintains": 1,
         "defines": 1,
-        "will": 1
+        "will": 1,
+        "ease": 1,
+        "employs": 2
       },
       "good": {
         "manners": 3,
@@ -76724,7 +77012,8 @@
         "prepared": 1,
         "able": 1,
         "propelled": 1,
-        "block": 1
+        "block": 1,
+        "necessarily": 2
       },
       "know": {
         "the": 1,
@@ -76814,7 +77103,7 @@
         "help": 1
       },
       "in": {
-        "the": 162,
+        "the": 164,
         "a": 83,
         "english": 18,
         "many": 13,
@@ -76940,7 +77229,8 @@
         "objects": 1,
         "i": 1,
         "edges": 2,
-        "applicable": 1
+        "applicable": 1,
+        "finding": 2
       },
       "did": {
         "you": 5,
@@ -77001,14 +77291,8 @@
         "other": 7,
         "criteria": 6,
         "protons": 5,
-        "buoyant": 1,
-        "separation": 1,
-        "logic": 1,
-        "computer": 1,
-        "algorithms": 1,
-        "virtual": 2,
-        "data": 1,
-        "system": 1
+        "proverbs": 1,
+        "finding": 1
       },
       "reading": {
         "is": 1,
@@ -77619,7 +77903,8 @@
         "alternative": 2,
         "engine": 1,
         "operating": 1,
-        "in-memory": 1
+        "in-memory": 1,
+        "optimal": 2
       },
       "update": {
         "to": 1,
@@ -77639,16 +77924,7 @@
         "vacation": 2,
         "it": 2,
         "time": 2,
-        "conversational": 1,
-        "with": 1,
-        "underlying": 1,
-        "life": 1,
-        "this": 1,
-        "sales": 1,
-        "different": 2,
-        "startup": 1,
-        "disk": 1,
-        "cpu": 1
+        "different": 2
       },
       "situation": {
         "in": 2,
@@ -77731,7 +78007,7 @@
         "limits": 1
       },
       "process": {
-        "of": 14,
+        "of": 16,
         "information": 2,
         "was": 2,
         "in": 6,
@@ -78465,7 +78741,7 @@
         "or": 3
       },
       "used": {
-        "to": 28,
+        "to": 30,
         "in": 17,
         "for": 11,
         "as": 9,
@@ -78679,7 +78955,7 @@
         "does": 1,
         "commonly": 1,
         "or": 1,
-        "that": 2,
+        "that": 4,
         "by": 1,
         "is": 1
       },
@@ -78853,7 +79129,7 @@
       },
       "be": {
         "a": 12,
-        "used": 7,
+        "used": 9,
         "defined": 5,
         "subverted": 3,
         "identified": 3,
@@ -78868,7 +79144,8 @@
         "considered": 1,
         "careful": 1,
         "modified": 1,
-        "more": 1
+        "more": 1,
+        "mental": 1
       },
       "defined": {
         "for": 4,
@@ -79058,7 +79335,8 @@
         "in": 1,
         "done": 1,
         "a": 1,
-        "approximately": 1
+        "approximately": 1,
+        "based": 1
       },
       "separate": {
         "clauses": 2,
@@ -79713,7 +79991,8 @@
         "understanding": 1,
         "and": 1,
         "or": 1,
-        "programmers": 1
+        "programmers": 1,
+        "behavior": 1
       },
       "specific": {
         "focus": 1,
@@ -79876,7 +80155,8 @@
         "plant": 1,
         "specific": 1,
         "corinthian": 1,
-        "combination": 1
+        "combination": 1,
+        "approach": 2
       },
       "functional": {
         "topics": 1,
@@ -80434,7 +80714,8 @@
         "processes": 3,
         "models": 1,
         "modeling": 1,
-        "capacity": 1
+        "capacity": 1,
+        "load": 1
       },
       "architectures": {
         "utilize": 1,
@@ -80471,7 +80752,7 @@
       },
       "solution": {
         "when": 3,
-        "is": 3,
+        "is": 5,
         "concept": 1,
         "methods": 2,
         "to": 2
@@ -80782,7 +81063,7 @@
         "species": 1
       },
       "ease": {
-        "the": 3,
+        "the": 4,
         "of": 2
       },
       "semantics": {
@@ -80800,7 +81081,8 @@
         "an": 2,
         "mistakes": 1,
         "this": 1,
-        "up": 1
+        "up": 1,
+        "a": 1
       },
       "ambiguity": {
         "(": 1,
@@ -80824,7 +81106,8 @@
       },
       "impossible": {
         ")": 1,
-        "for": 3
+        "for": 3,
+        "or": 2
       },
       "arguments": {
         "and": 1,
@@ -81398,7 +81681,7 @@
         "nature": 1
       },
       "approach": {
-        "to": 2,
+        "to": 4,
         "inspired": 2,
         "n": 1
       },
@@ -81492,7 +81775,9 @@
       "finding": {
         "the": 1,
         "out": 1,
-        "whether": 1
+        "whether": 1,
+        "an": 2,
+        "a": 2
       },
       "correct": {
         "descent": 1,
@@ -81565,7 +81850,8 @@
         "more": 4,
         "than": 1,
         "in": 1,
-        "arise": 1
+        "arise": 1,
+        "preserved": 1
       },
       "hardware": {
         "and": 1,
@@ -81763,7 +82049,8 @@
         "of": 1,
         "play": 1,
         "has": 1,
-        "in": 1
+        "in": 1,
+        "solving": 2
       },
       "scripting": {
         "languages": 1,
@@ -82804,7 +83091,7 @@
         "of": 3,
         "to": 3,
         "ahead": 1,
-        "the": 5,
+        "the": 7,
         "with": 1,
         "or": 2,
         "for": 1,
@@ -83147,7 +83434,8 @@
       },
       "employs": {
         "extensive": 1,
-        "hundreds": 1
+        "hundreds": 1,
+        "a": 2
       },
       "combined": {
         "with": 4,
@@ -84475,7 +84763,7 @@
         "a": 1
       },
       "based": {
-        "on": 10,
+        "on": 11,
         "adj": 1,
         "upon": 1
       },
@@ -85233,7 +85521,8 @@
         "state": 1,
         "health": 1,
         "or": 1,
-        "acceptance": 1
+        "acceptance": 1,
+        "shortcuts": 1
       },
       "someone": {
         "else": 2,
@@ -85403,7 +85692,8 @@
         "are": 1,
         "of": 2,
         "has": 1,
-        "and": 1
+        "and": 1,
+        "can": 2
       },
       "activity": {
         "of": 1,
@@ -85525,7 +85815,8 @@
       },
       "solving": {
         "them": 1,
-        "a": 4
+        "a": 4,
+        "that": 2
       },
       "capturing": {
         "essential": 1,
@@ -86367,7 +86658,8 @@
         "over": 1,
         "based": 1,
         "was": 1,
-        "heuristics": 1
+        "heuristics": 1,
+        "is": 1
       },
       "wish": {
         "to": 1,
@@ -86389,7 +86681,8 @@
       },
       "face": {
         "the": 1,
-        "as": 1
+        "as": 1,
+        "of": 1
       },
       "collection": {
         "of": 5,
@@ -88862,7 +89155,8 @@
       },
       "speed": {
         "limits": 1,
-        "to": 1
+        "to": 1,
+        "up": 2
       },
       "heard": {
         "a": 1,
@@ -90953,7 +91247,8 @@
         "is": 2
       },
       "behavior": {
-        "of": 1
+        "of": 1,
+        "in": 1
       },
       "unconscious": {
         "phenomena": 1
@@ -91981,7 +92276,8 @@
         "are": 1
       },
       "preserved": {
-        "over": 1
+        "over": 1,
+        "in": 1
       },
       "minority": {
         "partition": 1
@@ -92331,13 +92627,51 @@
       },
       "expands": {
         "its": 1
+      },
+      "heuristic": {
+        "method": 1,
+        "methods": 2,
+        "reasoning": 1,
+        "discusses": 1,
+        "or": 2,
+        "technique": 2
+      },
+      "optimal": {
+        "solution": 2
+      },
+      "satisfactory": {
+        "solution": 2
+      },
+      "heuristics": {
+        "can": 1
+      },
+      "shortcuts": {
+        "that": 1
+      },
+      "load": {
+        "of": 1
+      },
+      "discusses": {
+        "human": 1
+      },
+      "wisdom": {
+        "of": 1
+      },
+      "technique": {
+        "is": 2
+      },
+      "pragmatic": {
+        "method": 2
+      },
+      "necessarily": {
+        "optimized": 2
       }
     },
     "starters": {
       "i": 133,
       "how": 7,
       "what": 10,
-      "<NOUN>": 836,
+      "<NOUN>": 837,
       "the": 441,
       "she": 36,
       "we": 47,
@@ -92348,13 +92682,13 @@
       "why": 1,
       "they": 23,
       "he": 88,
-      "where": 1,
-      "<ADJ>": 137,
+      "where": 3,
+      "<ADJ>": 138,
       "please": 5,
       "that": 24,
       "if": 17,
       "although": 4,
-      "a": 241,
+      "a": 244,
       "does": 1,
       "who": 2,
       "when": 16,
@@ -92435,7 +92769,7 @@
     },
     "connectors": {
       "because": 17,
-      "or": 625,
+      "or": 632,
       "and": 908,
       "but": 92,
       "so": 44,
@@ -92446,7 +92780,7 @@
       "as": 307,
       "however": 3,
       "whether": 5,
-      "that": 30,
+      "that": 32,
       "yet": 7,
       "though": 3,
       "since": 7,
@@ -92488,7 +92822,7 @@
       },
       "NOUN>NOUN": {
         "and": 408,
-        "or": 256,
+        "or": 258,
         "as": 14,
         "yet": 2,
         "so": 3,
@@ -92532,7 +92866,7 @@
       },
       "ADJ>ADJ": {
         "and": 25,
-        "or": 21,
+        "or": 23,
         "as": 1,
         "nor": 1,
         "than": 1
@@ -92554,7 +92888,7 @@
         "or": 2
       },
       "VERB>VERB": {
-        "or": 29,
+        "or": 31,
         "and": 17,
         "as": 2
       },
@@ -92583,7 +92917,7 @@
         "and": 13,
         "since": 1,
         "as": 9,
-        "or": 11,
+        "or": 12,
         "whereas": 1,
         "than": 3
       },
@@ -92659,7 +92993,7 @@
         "as": 21,
         "and": 35,
         "or": 24,
-        "that": 7,
+        "that": 9,
         "than": 1,
         "so": 2,
         "but": 1
@@ -96205,21 +96539,6 @@
       "VERB NOUN | and | VERB NOUN": 1
     },
     "sentence_bank": {
-      "cards": [
-        "He played cards with his friends."
-      ],
-      "card": [
-        "I heard you don't get carded at the other liquor store."
-      ],
-      "com": [
-        "Coming one after the other in a series."
-      ],
-      "femur": [
-        "The femur has a clean break and so should heal easily."
-      ],
-      "clean": [
-        "The femur has a clean break and so should heal easily."
-      ],
       "wait": [
         "He waited minutes for a break in the traffic to cross the highway."
       ],
@@ -96546,9 +96865,9 @@
         "I don't think that's true."
       ],
       "find": [
-        "I haven't found any evidence, anyway.",
         "Viruses are found in almost every ecosystem on Earth and are the most numerous type of biological entity.",
-        "The hunters found deer sign at the end of the trail."
+        "The hunters found deer sign at the end of the trail.",
+        "Where finding an optimal solution is impossible or impractical, heuristic methods can be used to speed up the process of finding a satisfactory solution."
       ],
       "evidence": [
         "I haven't found any evidence, anyway."
@@ -97073,7 +97392,8 @@
         "Memory-Mapped Data Files: Use mmap for zero-copy data segment access where applicable, handling file descriptor bounds safely."
       ],
       "mental": [
-        "Mental acceptance of a claim as true."
+        "Mental acceptance of a claim as true.",
+        "Heuristics can be mental shortcuts that ease the cognitive load of making a decision.Heuristic reasoning is often based on induction, or on analogy ..."
       ],
       "acceptance": [
         "Mental acceptance of a claim as true."
@@ -98146,6 +98466,22 @@
       ],
       "flower": [
         "A flower expands its leaves."
+      ],
+      "optimal": [
+        "Where finding an optimal solution is impossible or impractical, heuristic methods can be used to speed up the process of finding a satisfactory solution."
+      ],
+      "heuristics": [
+        "Heuristics can be mental shortcuts that ease the cognitive load of making a decision.Heuristic reasoning is often based on induction, or on analogy ..."
+      ],
+      "heuristic": [
+        "Heuristic discusses human behavior in the face of problems preserved in the wisdom of proverbs.",
+        "A heuristic or heuristic technique is any approach to problem solving that employs a pragmatic method that is not necessarily optimized, perfected, or rationalized."
+      ],
+      "discusses": [
+        "Heuristic discusses human behavior in the face of problems preserved in the wisdom of proverbs."
+      ],
+      "technique": [
+        "A heuristic or heuristic technique is any approach to problem solving that employs a pragmatic method that is not necessarily optimized, perfected, or rationalized."
       ]
     }
   },
@@ -98488,7 +98824,6 @@
       "thread-safe synchronization"
     ],
     "recent_concepts": [
-      "global gradient descent optimization",
       "cognitive architectures utilize decentralized",
       "autonomous recursive self-improvement",
       "localized synaptic plasticity",
@@ -98517,7 +98852,8 @@
       "crash recovery engine",
       "thread-safe synchronization",
       "in-memory index state",
-      "zero-copy data segment access"
+      "zero-copy data segment access",
+      "reasoning heuristics"
     ],
     "recent_daydream_pairs": [
       [
@@ -99813,6 +100149,97 @@
         "conf": 0.637,
         "section": "Overview",
         "learned": 1793787681
+      },
+      {
+        "id": "27af313940bc",
+        "subject": "Heuristic",
+        "text": "A heuristic or heuristic technique is any approach to problem solving that employs a pragmatic method that is not necessarily optimized, perfected, or rationalized, but is nevertheless \"good enough\" as an approximation or attribute substitution.",
+        "source": "wikipedia",
+        "family": "wikimedia",
+        "url": "https://en.wikipedia.org/wiki/Heuristic",
+        "title": "Heuristic",
+        "kind": "def",
+        "conf": 0.952,
+        "section": "",
+        "learned": 1793787832
+      },
+      {
+        "id": "69ed6cb4958f",
+        "subject": "Heuristic",
+        "text": "Where finding an optimal solution is impossible or impractical, heuristic methods can be used to speed up the process of finding a satisfactory solution.",
+        "source": "wikipedia",
+        "family": "wikimedia",
+        "url": "https://en.wikipedia.org/wiki/Heuristic",
+        "title": "Heuristic",
+        "kind": "use",
+        "conf": 0.85,
+        "section": "",
+        "learned": 1793787832
+      },
+      {
+        "id": "f6757a19c144",
+        "subject": "Heuristic",
+        "text": "Heuristics can be mental shortcuts that ease the cognitive load of making a decision.Heuristic reasoning is often based on induction, or on analogy ...",
+        "source": "wikipedia",
+        "family": "wikimedia",
+        "url": "https://en.wikipedia.org/wiki/Heuristic",
+        "title": "Heuristic",
+        "kind": "prop",
+        "conf": 0.85,
+        "section": "",
+        "learned": 1793787832
+      },
+      {
+        "id": "5529857f8e72",
+        "subject": "Heuristic",
+        "text": "Induction is the process of discovering general laws ...",
+        "source": "wikipedia",
+        "family": "wikimedia",
+        "url": "https://en.wikipedia.org/wiki/Heuristic",
+        "title": "Heuristic",
+        "kind": "def",
+        "conf": 0.637,
+        "section": "",
+        "learned": 1793787832
+      },
+      {
+        "id": "88926ae23dc0",
+        "subject": "Heuristic",
+        "text": "Induction tries to find regularity and coherence ...",
+        "source": "wikipedia",
+        "family": "wikimedia",
+        "url": "https://en.wikipedia.org/wiki/Heuristic",
+        "title": "Heuristic",
+        "kind": "fact",
+        "conf": 0.637,
+        "section": "",
+        "learned": 1793787832
+      },
+      {
+        "id": "95686557f061",
+        "subject": "Heuristic",
+        "text": "Its most conspicuous instruments are generalization, specialization, analogy.",
+        "source": "wikipedia",
+        "family": "wikimedia",
+        "url": "https://en.wikipedia.org/wiki/Heuristic",
+        "title": "Heuristic",
+        "kind": "fact",
+        "conf": 0.637,
+        "section": "",
+        "learned": 1793787832
+      },
+      {
+        "id": "8aff8488c0dd",
+        "subject": "Heuristic",
+        "text": "Heuristic discusses human behavior in the face of problems preserved in the wisdom of proverbs.",
+        "source": "wikipedia",
+        "family": "wikimedia",
+        "url": "https://en.wikipedia.org/wiki/Heuristic",
+        "title": "Heuristic",
+        "kind": "fact",
+        "conf": 0.85,
+        "section": "",
+        "learned": 1793787832
       }
     ],
     "dossiers": {
@@ -99934,12 +100361,22 @@
           "Wikipedia"
         ],
         "brief": "A system architecture is the conceptual model that defines the structure, behavior, and views of a system. A system architecture can consist of system components and the sub-systems developed, that will work together to implement the overall system. There have been efforts to formalize languages to describe system architecture, collectively these are called architecture description languages.",
-        "t": 1793787681
+        "t": 1793787829
+      },
+      "reasoning heuristics": {
+        "title": "Heuristic",
+        "qid": "Q201413",
+        "kind": "",
+        "sources": [
+          "Wikipedia"
+        ],
+        "brief": "A heuristic or heuristic technique is any approach to problem solving that employs a pragmatic method that is not necessarily optimized, perfected, or rationalized, but is nevertheless \"good enough\" as an approximation or attribute substitution. Where finding an optimal solution is impossible or impractical, heuristic methods can be used to speed up the process of finding a satisfactory solution.",
+        "t": 1793787832
       }
     },
     "recipes": [],
     "stats": {
-      "researched": 13
+      "researched": 15
     },
     "llm": {}
   }
