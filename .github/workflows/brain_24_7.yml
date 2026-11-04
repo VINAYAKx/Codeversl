@@ -2,7 +2,7 @@ name: 24/7 Autonomous Brain Loop
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -24,11 +24,12 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12"
 
-      - name: Run 24/7 Autonomous Brain Cycle
+      - name: Run 24/7 Autonomous Brain Cycle Inline
         run: |
-          python3 auto_runner.py
+          python3 -c "import subprocess, sys, time; p = subprocess.Popen([sys.executable, "synthetic_living_brain.py"], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True); out, _ = p.communicate(input="/explore autonomous systems architecture\npractice language patterns\n/quit\n", timeout=240); print(out)" || true
+          python3 -c "import time; stamp = f"# [24/7-AUTONOMOUS-HEARTBEAT] Last active cycle: {int(time.time())}\n"; [open(m, "w").writelines((lines[:-1] if lines and lines[-1].startswith("# [24/7-AUTONOMOUS-HEARTBEAT]") else lines) + [stamp]) for m in ("synthetic_living_brain.py", "language_cortex.py", "reasoning_and_research_cortex.py") for lines in [open(m).readlines()]]"
 
       - name: Commit and Overwrite Updated Brain State & Modules
         run: |
